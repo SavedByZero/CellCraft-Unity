@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="icon.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="mc_symbolSwitcher0000" x="20" y="20" width="59" height="51" pivotX="25.25" pivotY="25.25"/>
+	<SubTexture name="mc_symbolSwitcher0001" x="79" y="20" width="59" height="51"/>
+	<SubTexture name="mc_symbolSwitcher0002" x="138" y="20" width="59" height="51"/>
+	<SubTexture name="mc_symbolSwitcher0003" x="197" y="20" width="59" height="51"/>
+	<SubTexture name="mc_symbolSwitcher0004" x="256" y="20" width="59" height="51"/>
+	<SubTexture name="mc_symbolSwitcher0005" x="315" y="20" width="59" height="51"/>
+	<SubTexture name="mc_symbolSwitcher0006" x="374" y="20" width="59" height="51"/>
+	<SubTexture name="mc_symbolSwitcher0007" x="433" y="20" width="59" height="51"/>
+	<SubTexture name="mc_symbolSwitcher0008" x="20" y="71" width="59" height="51"/>
+	<SubTexture name="mc_symbolSwitcher0009" x="79" y="71" width="59" height="51"/>
+	<SubTexture name="mc_symbolSwitcher0010" x="138" y="71" width="59" height="51"/>
+	<SubTexture name="mc_symbolSwitcher0011" x="197" y="71" width="59" height="51"/>
+	<SubTexture name="mc_symbolSwitcher0012" x="256" y="71" width="59" height="51"/>
+	<SubTexture name="mc_symbolSwitcher0013" x="315" y="71" width="59" height="51"/>
+	<SubTexture name="mc_symbolSwitcher0014" x="374" y="71" width="59" height="51"/>
+	<SubTexture name="mc_symbolSwitcher0015" x="433" y="71" width="59" height="51"/>
+	<SubTexture name="mc_symbolSwitcher0016" x="20" y="122" width="59" height="51"/>
+	<SubTexture name="mc_symbolSwitcher0017" x="79" y="122" width="59" height="51"/>
+	<SubTexture name="mc_symbolSwitcher0018" x="138" y="122" width="59" height="51"/>
+	<SubTexture name="mc_symbolSwitcher0019" x="197" y="122" width="59" height="51"/>
+	<SubTexture name="mc_symbolSwitcher0020" x="256" y="122" width="59" height="51"/>
+	<SubTexture name="mc_symbolSwitcher0021" x="315" y="122" width="59" height="51"/>
+	<SubTexture name="mc_symbolSwitcher0022" x="374" y="122" width="59" height="51"/>
+	<SubTexture name="mc_symbolSwitcher0023" x="433" y="122" width="59" height="51"/>
+	<SubTexture name="mc_symbolSwitcher0024" x="20" y="173" width="59" height="51"/>
+	<SubTexture name="mc_symbolSwitcher0025" x="79" y="173" width="59" height="51"/>
+	<SubTexture name="mc_symbolSwitcher0026" x="138" y="173" width="59" height="51"/>
+	<SubTexture name="mc_symbolSwitcher0027" x="197" y="173" width="59" height="51"/>
+	<SubTexture name="mc_symbolSwitcher0028" x="256" y="173" width="59" height="51"/>
+	<SubTexture name="mc_symbolSwitcher0029" x="315" y="173" width="59" height="51"/>
+	<SubTexture name="mc_symbolSwitcher0030" x="374" y="173" width="59" height="51"/>
+	<SubTexture name="mc_symbolSwitcher0031" x="433" y="173" width="59" height="51"/>
+	<SubTexture name="mc_symbolSwitcher0032" x="20" y="224" width="59" height="51"/>
+	<SubTexture name="mc_symbolSwitcher0033" x="79" y="224" width="59" height="51"/>
+	<SubTexture name="mc_symbolSwitcher0034" x="138" y="224" width="59" height="51"/>
+	<SubTexture name="mc_symbolSwitcher0035" x="197" y="224" width="59" height="51"/>
+	<SubTexture name="mc_symbolSwitcher0036" x="256" y="224" width="59" height="51"/>
+	<SubTexture name="mc_symbolSwitcher0037" x="315" y="224" width="59" height="51"/>
+	<SubTexture name="mc_symbolSwitcher0038" x="374" y="224" width="59" height="51"/>
+	<SubTexture name="mc_symbolSwitcher0039" x="433" y="224" width="59" height="51"/>
+	<SubTexture name="mc_symbolSwitcher0040" x="20" y="275" width="59" height="51"/>
+	<SubTexture name="mc_symbolSwitcher0041" x="79" y="275" width="59" height="51"/>
+	<SubTexture name="mc_symbolSwitcher0042" x="138" y="275" width="59" height="51"/>
+	<SubTexture name="mc_symbolSwitcher0043" x="197" y="275" width="59" height="51"/>
+	<SubTexture name="mc_symbolSwitcher0044" x="256" y="275" width="59" height="51"/>
+	<SubTexture name="mc_symbolSwitcher0045" x="315" y="275" width="59" height="51"/>
+	<SubTexture name="mc_symbolSwitcher0046" x="374" y="275" width="59" height="51"/>
+	<SubTexture name="mc_symbolSwitcher0047" x="433" y="275" width="59" height="51"/>
+	<SubTexture name="mc_symbolSwitcher0048" x="20" y="326" width="59" height="51"/>
+	<SubTexture name="mc_symbolSwitcher0049" x="79" y="326" width="59" height="51"/>
+	<SubTexture name="mc_symbolSwitcher0050" x="138" y="326" width="59" height="51"/>
+	<SubTexture name="mc_symbolSwitcher0051" x="197" y="326" width="59" height="51"/>
+	<SubTexture name="mc_symbolSwitcher0052" x="256" y="326" width="59" height="51"/>
+</TextureAtlas>

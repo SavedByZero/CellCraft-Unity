@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="reticle.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="mc_reticle0000" x="3" y="3" width="38" height="38" pivotX="19" pivotY="19"/>
+	<SubTexture name="mc_reticle0001" x="51" y="3" width="25" height="25" frameX="-7" frameY="-7" frameWidth="38" frameHeight="38"/>
+	<SubTexture name="mc_reticle0002" x="86" y="3" width="32" height="17" frameX="-3" frameY="-3" frameWidth="38" frameHeight="38"/>
+	<SubTexture name="mc_reticle0003" x="3" y="51" width="32" height="17" frameX="-3" frameY="-3" frameWidth="38" frameHeight="38"/>
+</TextureAtlas>

@@ -1,0 +1,19 @@
+﻿{"frames": {
+
+"Bitmap 2":
+{
+	"frame": {"x":20,"y":20,"w":23,"h":25},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":23,"h":25},
+	"sourceSize": {"w":23,"h":25}
+}},
+"meta": {
+	"app": "Adobe Animate",
+	"version": "19.2.1.408",
+	"image": "folder.png",
+	"format": "RGBA8888",
+	"size": {"w":65,"h":65},
+	"scale": "1"
+}
+}
