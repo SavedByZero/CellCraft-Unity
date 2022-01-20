@@ -59,6 +59,7 @@ public class Title : MonoBehaviour
         buttPlayGame.transform.DOMoveX(0, time/2).SetDelay(0.5f).SetEase(Ease.InOutElastic);
         buttEncyclopedia.transform.DOMoveX(0, time/2).SetDelay(0.5f).SetEase(Ease.OutBounce);
         buttCredits.transform.DOMoveX(0, time/2).SetDelay(0.5f).SetEase(Ease.OutBounce);
+        MusicManager.Play(Music.MusicTitleLoop);
     }
 
     private void submitStats()
