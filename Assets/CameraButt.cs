@@ -16,9 +16,10 @@ public class CameraButt : Button
 		//addEventListener(MouseEvent.CLICK, onClick, false, 0, true);
 	}
 
-	void OnMouseClick()
+	public void OnClick()
 	{
-		MenuSystem_LevelPicker(parent).onClickCinema(id);
+		MenuSystem_LevelPicker mlp = this.GetComponentInParent<MenuSystem_LevelPicker>();
+		mlp.onClickCinema(id);
 	}
 
 }

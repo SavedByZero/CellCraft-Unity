@@ -5,8 +5,17 @@ public class DState
 {
     Stack<GameState> _stateStack;
 	//private var stack:Vector.<int>;
+	//private List<GameState> stack;
 		
-	
+	/*public const int NOSTATE = -1; //error or null state
+	public const int PRELOAD = 0;
+	public const int TITLE =  1; //the title screen
+	public const int INGAME = 2; //gameplay
+	public const int PAUSED = 3; //the game is paused
+	public const int FAUXPAUSED = 4; //the game is paused, but we still let certain things run. Used for in-engine cinematics, etc
+	public const int INMENU = 5; //in-game menu
+	public const int CINEMA = 6; //we're in a cutscene	
+	*/
 		
 	public DState()
 	{
@@ -44,9 +53,29 @@ public class DState
 		Debug.Log("stack = " + _stateStack);
 	}
 
-	//Note: I'm not clear what the purpose of this is -- it seems to be replacing a stack of 1 with a new value? 
-	//Will translate literally for now.  
-	public void setState(GameState i) 
+	public void push(GameState i)
+	{
+		if (i >= GameState.PRELOAD && i <= GameState.CINEMA)
+		{
+			_stateStack.Push(i);
+		}
+		else
+		{
+			Debug.LogError("DState.push() : statecode " + i + " not recognized!");
+		}
+	}
+
+	public GameState pop() 
+	{
+			if(_stateStack.Count > 0)
+				return _stateStack.Pop();
+			else
+				return GameState.NOSTATE;
+		}
+
+//Note: I'm not clear what the purpose of this is -- it seems to be replacing a stack of 1 with a new value? 
+//Will translate literally for now.  
+public void setState(GameState i) 
 	{
 		if (_stateStack.Count == 1)
 		{

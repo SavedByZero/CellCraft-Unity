@@ -6,18 +6,21 @@ using UnityEngine.UI;
 public class LevelDot : MonoBehaviour
 {
     public Text c_text;
-	public Image c_check;
-	public Image c_select;
+	public GameObject c_check;
+	public GameObject c_select;
 		//public var c_butt:SimpleButton;
 	public MenuSystem_LevelPicker p_master;
 	public int id = 0;
 	public int designation = GameLevelInfo.LVL_INTRO;
 	public string title = "";
+	private Image _image;
     // Start is called before the first frame update
     void Start()
     {
 		selectMe(false);
 		checkMe(false);
+		_image = GetComponent<Image>();
+		p_master = GetComponentInParent<MenuSystem_LevelPicker>();
 		//buttonMode = true;     //TODO: figure out unity substitutes for this whole area 
 		//useHandCursor = true;
 		//mouseChildren = false;
@@ -42,12 +45,12 @@ public class LevelDot : MonoBehaviour
 		c_text.text = st;
 	}
 
-	private void onDoubleClick()
+	public void onDoubleClick()
 	{
 		p_master.onDoubleClickLevel(this);
 	}
 
-	private void onClick()
+	public void onClick()
 	{
 		//selectMe();
 		p_master.onSelectLevel(this);
@@ -55,12 +58,14 @@ public class LevelDot : MonoBehaviour
 
 	public void selectMe(bool b = true)
 	{
-		c_select.gameObject.SetActive(b);
+		//_image.sprite = c_select;
+		c_select.SetActive(b);  
 	}
 
 	public void checkMe(bool b = true)
 	{
-		c_check.gameObject.SetActive(b);
+		//_image.sprite = c_check;
+		c_check.SetActive(b);   
 	}
 
 	public void setMaster(MenuSystem_LevelPicker m)

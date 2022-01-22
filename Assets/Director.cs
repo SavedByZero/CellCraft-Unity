@@ -63,21 +63,7 @@ using UnityEngine;
 public class Director : MonoBehaviour
 {
     // Start is called before the first frame update
-    void Start()
-    {
-		c_fps = new FPSCounter();
-		//siteLock();//TBD
-		_started = true;
-	}
-
-    // Update is called once per frame
-    void Update()
-    {
-		//if (_started)    //TBD
-			//run();       //TBD
-		if (c_fps != null)
-			c_fps.ExternalUpdate();
-    }
+   
 
 
 
@@ -154,8 +140,166 @@ public class Director : MonoBehaviour
 		
 		//public var c_preload:Preloader;
 		public bool loaderStarted = false;
+		public PauseSprite c_pauseSprite;
 	private bool _started;
-	public FPSCounter c_fps; //BOOKMARK: you were here 
+	public FPSCounter c_fps;
+	
+	void Start()
+	{
+		c_fps = new FPSCounter();
+		//siteLock();//TBD
+		init();
+	}
+
+	private void init()
+	{
+		state = new DState();
+
+
+		startItUp();
+		//addEventListener(Event.ENTER_FRAME, run);
+		_started = true;
+	}
+
+	private void startItUp()
+	{
+		Debug.Log("Director.startItUp()");
+		LevelProgress.initProgress();
+		//makeSoundMgr();  //TODO: probably obsolete
+
+		//makePauseSprite();  //TODO
+		//initListeners();  //TODO
+		//loadGameLevelInfo();  //TODO
+		//showCinema(Cinema.SPLASH);  //TODO
+
+	}
+
+	private void run()
+	{
+		bool halt = true;
+		switch (state.getTop())
+		{
+
+			case GameState.TITLE:
+
+				break;
+			case GameState.CINEMA:
+
+				break;
+			case GameState.INGAME:
+				halt = false;
+
+				//c_engine.dispatchEvent(new RunFrameEvent(RunFrameEvent.RUNFRAME, null));  //TODO
+
+				break;
+			case GameState.FAUXPAUSED:
+				//c_engine.dispatchEvent(new RunFrameEvent(RunFrameEvent.FAUXFRAME, null));  //TODO
+				break;
+			case GameState.INMENU:
+				break;
+
+			case GameState.PAUSED:
+				break;
+			//do nothing
+			case GameState.NOSTATE:
+				break;
+		}
+	}
+
+
+	// Update is called once per frame
+	void Update()
+	{
+		if (_started)
+			run();
+		if (c_fps != null)
+			c_fps.ExternalUpdate();
+	}
+
+	private void makePauseSprite()
+	{
+		//c_pauseSprite = new PauseSprite();
+		//addChild(c_pauseSprite);
+		c_pauseSprite.setDirector(this);
+		//fpsOnTop();  //TODO?
+	}
+
+
+	private void showPauseSprite(string whichFrame = "normal")
+	{
+		c_pauseSprite.gameObject.transform.SetSiblingIndex(this.transform.childCount - 1);
+		//setChildIndex(c_pauseSprite, numChildren - 1);
+		c_pauseSprite.show(whichFrame);
+	}
+
+	private void hidePauseSprite()
+	{
+		c_pauseSprite.hide();
+	}
+
+	public void pauseSpriteUnPause()
+	{
+		if (state.getTop() == GameState.PAUSED)
+		{
+			//if (Director.STATS_ON) { Log.CustomMetric("unpause_game", "interface"); }  //TODO?
+
+
+			oldState();       //ALWAYS return to the correct state first!
+			contextUnPause(); //then, do the correct context action depending on which state we were in
+			hidePauseSprite();
+		}
+	}
+
+
+	public void keyPause()
+	{
+		if (state.getTop() != GameState.PAUSED)
+		{
+			//if (Director.STATS_ON) { Log.CustomMetric("pause_game", "interface"); }
+			//if (Director.STATS_ON) { Log.LevelAverageMetric("pause_game", curr_level, 1); }
+			contextPause(); //ALWAYS do the correct context action depending on which state we were in first!
+			newState(DState.PAUSED); //then, we pause
+			showPauseSprite();
+			releaseInput();
+		}
+	}
+
+	private void oldState()
+	{
+		GameState prev = state.pop();
+		switch (state.getTop())
+		{
+			case GameState.CINEMA: break;
+			case GameState.INGAME: break;
+			case GameState.INMENU: break;
+			case GameState.PAUSED: break;
+			case GameState.FAUXPAUSED: break;
+			case GameState.TITLE:
+				if (prev != GameState.PAUSED)
+				{ //if we were paused, we haven't hidden the title
+					//if (c_title) //TODO
+					//{ //don't do this if the title already exists
+						//makeTitle(); //TODO //be sure to show the title again, BUT DONT push the state, we're already there!
+					//}
+				}
+				break;
+
+		}
+		//state.traceStack();
+	}
+
+	public void contextUnPause()
+	{
+		/*  //TODO
+		switch (state.getTop())
+		{
+			case DState.CINEMA: unPauseCinema(); break;
+			case DState.INGAME: unPauseGame(); fancyCursor(); break; //donothing
+		}*/
+	}
+
+
+	//BOOKMARK: you were here 
 	/*
 		public var c_cursor:Cursor;
 		
@@ -163,7 +307,7 @@ public class Director : MonoBehaviour
 		public var c_engine:Engine;
 		private var c_title:Title;
 		private var c_cinema:Cinema;
-		private var c_pauseSprite:PauseSprite;
+	
 		private var c_menu:MenuSystem;
 		
 		private int exit_menu_code;
@@ -205,14 +349,6 @@ void siteLock()
 		init();
 }
 
-
-
-private static function makeSoundMgr()
-{
-	c_soundMgr = new SoundManager();
-	setMusicVolume(vol_music);
-	setSFXVolume(vol_sound);
-}
 
 public static function getMusicVolume():Number
 {
@@ -344,25 +480,7 @@ public static function startMusic(soundID:int,loop: Boolean):int
   //Creates the state stack, creates the pause sprite, and other basic bootstrap functions
 
 
-private void init()
-{
-	state = new DState();
-	//stage.quality = MenuSystem_InGame._quality;
 
-	startItUp();
-	//addEventListener(Event.ENTER_FRAME, run);
-}
-
-private void startItUp()
-{
-	trace("Director.startItUp()");
-	LevelProgress.initProgress();
-	makeSoundMgr();
-	makePauseSprite();
-	initListeners();
-	loadGameLevelInfo();
-	showCinema(Cinema.SPLASH);
-}
 
 private void loadGameLevelInfo()
 {
@@ -950,29 +1068,8 @@ public function toggleFauxPause()
 	}
 }
 
-public function pauseSpriteUnPause()
-{
-	if (state.getTop() == DState.PAUSED)
-	{
-		if (Director.STATS_ON) { Log.CustomMetric("unpause_game", "interface"); }
-		oldState();       //ALWAYS return to the correct state first!
-		contextUnPause(); //then, do the correct context action depending on which state we were in
-		hidePauseSprite();
-	}
-}
 
-public function keyPause()
-{
-	if (state.getTop() != DState.PAUSED)
-	{
-		if (Director.STATS_ON) { Log.CustomMetric("pause_game", "interface"); }
-		if (Director.STATS_ON) { Log.LevelAverageMetric("pause_game", curr_level, 1); }
-		contextPause(); //ALWAYS do the correct context action depending on which state we were in first!
-		newState(DState.PAUSED); //then, we pause
-		showPauseSprite();
-		releaseInput();
-	}
-}
+
 
 
  // Pauses the game if not in paused state, otherwise unpauses
@@ -1036,24 +1133,7 @@ public function showCursor(i:int) {
 // Makes the pause sprite and attaches it to the stage (it hides automatically until shown)
 
 
-private void makePauseSprite()
-{
-	c_pauseSprite = new PauseSprite();
-	addChild(c_pauseSprite);
-	c_pauseSprite.setDirector(this);
-	fpsOnTop();
-}
 
-
-private void showPauseSprite(whichFrame:String = "normal") {
-	setChildIndex(c_pauseSprite, numChildren - 1);
-	c_pauseSprite.show(whichFrame);
-}
-
-private void hidePauseSprite()
-{
-	c_pauseSprite.hide();
-}
 
 public function contextFauxPause()
 { //will ALWAYS be for ingame state
@@ -1074,15 +1154,6 @@ public function contextPause()
 	}
 }
 
-public function contextUnPause()
-{
-	//trace("state = " + state.getTop());
-	switch (state.getTop())
-	{
-		case DState.CINEMA: unPauseCinema(); break;
-		case DState.INGAME: unPauseGame(); fancyCursor(); break; //donothing
-	}
-}
 
 
 // Runs every frame, and gives functionality to the underlying classes

@@ -37,7 +37,7 @@ public class MenuSystem : MovieClip
 
 	}
 
-	public void init()
+	public virtual void init()
 	{
 		//p_director.tempHighQuality();  //TODO
 	}

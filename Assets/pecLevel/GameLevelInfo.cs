@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GameLevelInfo : MonoBehaviour
+public class GameLevelInfo
 {
 	private int max_level; 					//maximum level index. Minimum is 0
 	private List<int> list_lvl_cinemas; 	//index of whether there's a cinema after a level, and what it is
