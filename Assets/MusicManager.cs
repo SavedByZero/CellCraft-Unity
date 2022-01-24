@@ -89,6 +89,18 @@ public class MusicManager
         m.channel.mute = m.isMuted;
     }
 
+    public static void Pause()
+    {
+        var m = MusicManager.Instance;
+        m.channel.Pause();
+    }
+
+    public static void Resume()
+    {
+        var m = MusicManager.Instance;
+        m.channel.UnPause();
+    }
+
     public static void Stop()
     {
         var m = MusicManager.Instance;

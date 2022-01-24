@@ -77,6 +77,9 @@ public class Director : MonoBehaviour
 		public static bool KONG_ON = false;
 		
 		public static string VERSION_STRING = "1.0.4";
+		private Title c_title;
+		private Cinema c_cinema;
+	
 		/*
 		[Embed(source = "../level_00.xml", mimeType = "application/octet-stream")]
 	public static const Level_00_XML:Class;
@@ -106,27 +109,27 @@ public class Director : MonoBehaviour
 		public static int STAGEWIDTH = 640; //use these constants ANYWHERE IN GAME instead of stage.width,etc
 		public static int STAGEHEIGHT = 480;
 	
-		private int KEY_PAUSE = (int)KeyCode.Escape;
+		private const KeyCode KEY_PAUSE = KeyCode.Escape;
 		
-		private int KEY_UP = (int)KeyCode.UpArrow;
-		private int KEY_UP2 = (int)KeyCode.PageUp;
-		private int KEY_DOWN = (int)KeyCode.DownArrow;
-		private int KEY_DOWN2 = (int)KeyCode.PageDown;
-		private int KEY_LEFT = (int)KeyCode.LeftArrow;
-		private int KEY_LEFT2 = 65;
-		private int KEY_RIGHT = (int)KeyCode.RightArrow;
-		private int KEY_RIGHT2  = 68;
+		private const KeyCode KEY_UP = KeyCode.UpArrow;
+		private const KeyCode KEY_UP2 = KeyCode.PageUp;
+		private const KeyCode KEY_DOWN = KeyCode.DownArrow;
+		private const KeyCode KEY_DOWN2 = KeyCode.PageDown;
+		private const KeyCode KEY_LEFT = KeyCode.LeftArrow;
+		private const KeyCode KEY_LEFT2 = KeyCode.Alpha4;
+		private const KeyCode KEY_RIGHT = KeyCode.RightArrow;
+	private const KeyCode KEY_RIGHT2 = KeyCode.Alpha6;
 		
-		public static int CHEAT_0 = 48;
-		public static int CHEAT_1 = 49;
-		public static int CHEAT_2 = 50;
-		public static int CHEAT_3 = 51;
-		public static int CHEAT_4 = 52;
-		public static int CHEAT_5 = 53;
-		public static int CHEAT_6 = 54;
-		public static int CHEAT_7 = 55;
-		public static int CHEAT_8 = 56;
-		public static int CHEAT_9 = 57;
+		public const int CHEAT_0 = 48;
+		public const int CHEAT_1 = 49;
+		public const int CHEAT_2 = 50;
+		public const int CHEAT_3 = 51;
+		public const int CHEAT_4 = 52;
+		public const int CHEAT_5 = 53;
+		public const int CHEAT_6 = 54;
+		public const int CHEAT_7 = 55;
+		public const int CHEAT_8 = 56;
+		public const int CHEAT_9 = 57;
 		
 		private List<bool> list_moveKeys = new List<bool> { false, false, false, false }; //UP,DOWN,LEFT,RIGHT
 		
@@ -134,8 +137,13 @@ public class Director : MonoBehaviour
 		
 		private float timestep = 1; //how much time per second is simulated
 										 //default value is 1 second per second
-		private DState state;		//The current state of the game. INGAME, INMENU, PAUSED, CINEMA, etc
-		
+		private DState state;       //The current state of the game. INGAME, INMENU, PAUSED, CINEMA, etc
+
+		private static int curr_level = 0;
+
+
+		private GameLevelInfo d_lvlInfo;
+		private LevelProgress d_lvlProgress;
 		//children:
 		
 		//public var c_preload:Preloader;
@@ -167,9 +175,9 @@ public class Director : MonoBehaviour
 		LevelProgress.initProgress();
 		//makeSoundMgr();  //TODO: probably obsolete
 
-		//makePauseSprite();  //TODO
-		//initListeners();  //TODO
-		//loadGameLevelInfo();  //TODO
+		makePauseSprite();  
+		initListeners();
+		loadGameLevelInfo();
 		//showCinema(Cinema.SPLASH);  //TODO
 
 	}
@@ -177,6 +185,14 @@ public class Director : MonoBehaviour
 	private void run()
 	{
 		bool halt = true;
+		listenKeyDown();
+		listenKeyUp();
+		//stage.addEventListener(Event.DEACTIVATE, listenDeactivate); //TODO: what is this?
+		listenMouseUp();
+		listenMouseDown();
+		listenMouseLeave();
+		listenMouseWheel();
+		
 		switch (state.getTop())
 		{
 
@@ -204,6 +220,141 @@ public class Director : MonoBehaviour
 			case GameState.NOSTATE:
 				break;
 		}
+	}
+	//INPUT STUFF
+	private void listenKeyUp()
+	{
+		if (checkKeyUp())
+		{
+			switch (state.getTop())
+			{
+				case GameState.TITLE:
+
+					break;
+				case GameState.CINEMA:
+
+					break;
+				case GameState.INGAME:
+					//c_engine.checkKeys();  //TODO
+					break;
+				case GameState.INMENU:
+
+					break;
+				case GameState.PAUSED:
+					break;
+			}
+		}
+	}
+
+
+
+	private void listenKeyDown()
+	{
+		if (checkKeyDown())
+		{           //if there was a key that got through our filter
+			switch (state.getTop())
+			{
+				case GameState.TITLE:
+
+					break;
+				case GameState.CINEMA:
+
+					break;
+				case GameState.INGAME:
+					break;
+				case GameState.INMENU:
+
+					break;
+				case GameState.PAUSED:
+					break;
+			}
+		}
+	}
+	private bool checkKeyUp()
+	{
+		if (Input.GetKeyUp(KEY_PAUSE))
+        {
+			
+        }
+		if (Input.GetKeyUp(KEY_DOWN))
+        {
+			release_arrow(1);
+		}
+		if (Input.GetKeyUp(KEY_LEFT))
+        {
+			release_arrow(2);
+		}
+		if (Input.GetKeyUp(KEY_UP))
+        {
+			release_arrow(0);
+		}
+		if (Input.GetKeyUp(KEY_RIGHT))
+        {
+			release_arrow(3);
+		}
+		return false;
+		
+
+			/*case CHEAT_0:  //TODO
+			case CHEAT_1:
+			case CHEAT_2:
+			case CHEAT_3:
+			case CHEAT_4:
+			case CHEAT_5:
+			case CHEAT_6:
+			case CHEAT_7:
+			case CHEAT_8: cheat(e.keyCode); break;
+			case CHEAT_9: LevelProgress.clearProgress(); break;*/
+
+	}
+
+	private bool checkKeyDown()
+	{
+		if (Input.GetKeyDown(KEY_PAUSE))
+		{
+
+		}
+		if (Input.GetKeyDown(KEY_DOWN))
+		{
+			press_arrow(1);
+		}
+		if (Input.GetKeyDown(KEY_LEFT))
+		{
+			press_arrow(2);
+		}
+		if (Input.GetKeyDown(KEY_UP))
+		{
+			press_arrow(0);
+		}
+		if (Input.GetKeyDown(KEY_RIGHT))
+		{
+			press_arrow(3);
+		}
+		return false;
+		
+	}
+
+	private void press_arrow(int i)
+	{
+		list_moveKeys[i] = true;
+	}
+	private void release_arrow(int i)
+	{
+		list_moveKeys[i] = false;
+	}
+
+
+	private void clearKeys()
+	{
+		for (int i = 0; i < list_moveKeys.Count; i++)
+		{
+			list_moveKeys[i] = false;
+		}
+	}
+
+	public bool getArrow(int i)
+	{
+		return list_moveKeys[i];
 	}
 
 
@@ -258,11 +409,49 @@ public class Director : MonoBehaviour
 			//if (Director.STATS_ON) { Log.CustomMetric("pause_game", "interface"); }
 			//if (Director.STATS_ON) { Log.LevelAverageMetric("pause_game", curr_level, 1); }
 			contextPause(); //ALWAYS do the correct context action depending on which state we were in first!
-			newState(DState.PAUSED); //then, we pause
+			newState(GameState.PAUSED); //then, we pause
 			showPauseSprite();
 			releaseInput();
 		}
 	}
+
+	public void contextPause()
+	{
+		switch (state.getTop())
+		{
+			case GameState.CINEMA: pauseCinema(); break;
+			case GameState.INGAME: pauseGame(); break; //donothing
+		}
+	}
+
+	private void pauseGame()
+	{
+
+		/*if (c_engine)  //TODO
+		{
+			c_engine.pauseAnimate(true);
+
+		}*/
+	}
+
+	private void unPauseGame()
+	{
+
+		/*if (c_engine)  //TODO
+		{
+			c_engine.pauseAnimate(false);
+		}*/ 
+	}
+
+	//Cinema ceases play
+
+
+	private void pauseCinema()
+	{
+		/*if (c_cinema)               //TODO
+			c_cinema.pause();*/
+	}
+
 
 	private void oldState()
 	{
@@ -298,6 +487,185 @@ public class Director : MonoBehaviour
 		}*/
 	}
 
+	//*********STATE STACK STUFF***************
+
+
+	//Sets the new state, initializing the stack
+	// @param	s
+
+
+	private void setState(GameState s)
+	{
+		state.setState(s);
+	}
+
+
+	// Goes to a new state, shoves the old ones back in the stack
+	// @param	s the new state code to go to
+
+
+	private void newState(GameState s)
+	{
+		//trace("newState=" + s);
+		state.push(s);  //push the state on
+						//state.traceStack();
+	}
+
+	private void releaseInput()
+	{
+		//c_engine.dispatchEvent(new MouseEvent(MouseEvent.MOUSE_UP));  //TODO
+	}
+
+
+	private void initListeners()
+	{
+
+		
+	}
+
+	private void listenMouseWheel()
+	{
+		/*if (m.delta > 0)  //TODO
+		{
+			c_engine.mouseWheel(1);
+		}
+		else
+		{
+			c_engine.mouseWheel(-1);
+		}*/
+	}
+
+	private void listenMouseUp()
+	{
+		//trace("Director.listenMouseUp()");
+		IS_MOUSE_DOWN = false;
+
+		//filthy hack:
+		/*if (c_engine)
+		{
+			c_engine.mouseUp(m);   //TODO
+		}*/
+	}
+
+
+	private void listenMouseDown()
+	{
+		//trace("Director.listenMouseDown()");
+		IS_MOUSE_DOWN = true;
+	}
+
+	private void listenMouseLeave()
+	{
+		//trace("Director.listenMouseLeave()");
+		IS_MOUSE_DOWN = false;
+	}
+
+
+
+
+	private void listenMouseClick()
+	{
+		switch (state.getTop())
+		{
+			case GameState.TITLE:
+				//c_title.dispatchEvent(e);  //TODO
+				break;
+			case GameState.CINEMA:
+				//c_cinema.dispatchEvent(e); //TODO
+				break;
+			case GameState.INGAME:
+				//c_engine.dispatchEvent(e);  //TODO
+				break;
+			case GameState.INMENU:
+				//c_menu.dispatchEvent(e);  //TODO
+				break;
+			case GameState.PAUSED:
+				break;
+		}
+	}
+
+	private void listenMouseMove()
+	{
+		switch (state.getTop())
+		{
+			case GameState.TITLE:
+
+				break;
+			case GameState.CINEMA:
+
+				break;
+			case GameState.INGAME:
+
+				//c_engine.mouseMove(e);  //TODO
+			
+				break;
+			case GameState.INMENU:
+
+				break;
+			case GameState.PAUSED:
+				break;
+		}
+	}
+
+	private void loadGameLevelInfo()
+	{
+		d_lvlInfo = new GameLevelInfo(7);
+		d_lvlProgress = new LevelProgress(7);
+		LevelProgress.getProgress();
+	}
+
+
+	//
+	// Runs a cinema "hassle-free." All you have to do is pass it one variable - the index
+	// value associated with the movie you want, which are all public static consts in class Cinema. So, pass
+	// Cinema.SPLASH to show the splash screen. 
+	// 
+	// This will play that movie, and when it is finished, finishCinema() will sort out what to do with it.
+	//
+	// ASSUMPTIONS: This framework ONLY allows you to play one cinema at a time.
+	// @param	i
+	//
+
+	public void showCinema(int i)
+	{
+		
+
+		//stage.quality = StageQuality.HIGH;
+		//trace("Director.showCinema(" + i + ")");
+		switch (state.getTop())
+		{
+			case GameState.INGAME : pauseGame(); break;
+		}
+
+		newState(GameState.CINEMA);
+		c_cinema = null;
+		string s;
+
+		/*switch (i)
+		{
+			case Cinema.NOTHING: c_cinema = Cinema(new Cinema_Blank()); s = "nothing"; break;
+			case Cinema.SPLASH: c_cinema = Cinema(new Cinema_Splash()); s = "splash"; break;
+			case Cinema.SCENE_LAB_INTRO: c_cinema = Cinema(new Cinema_Scene1()); s = "lab intro"; break;
+			case Cinema.SCENE_LAB_BOARD: c_cinema = Cinema(new Cinema_Scene2()); s = "lab board"; break;
+			case Cinema.SCENE_LAUNCH: c_cinema = Cinema(new Cinema_Scene3()); s = "launch"; break;
+			case Cinema.SCENE_CRASH: c_cinema = Cinema(new Cinema_Scene4()); s = "crash"; break;
+			case Cinema.SCENE_LAND_CROC: c_cinema = Cinema(new Cinema_Scene5()); s = "land croc"; break;
+			case Cinema.SCENE_FINALE: c_cinema = Cinema(new Cinema_Finale()); s = "finale"; break;
+			default: //throw new Error("Cinemas 2-5 don't exist yet, dummy!"); 
+				c_cinema = Cinema(new Cinema_Blank()); break;
+				break;
+			case Cinema.MITOSIS: c_cinema = Cinema(new Cinema_Mitosis()); s = "mitosis"; break;
+			case Cinema.SCENE_CREDITS: c_cinema = Cinema(new Cinema_Credits()); s = "credits"; break;
+		}
+		c_cinema.setIndex(i);
+		c_cinema.setDirector(this);
+		addChild(c_cinema);
+		c_cinema.startCinema();
+		fpsOnTop();*/
+
+	}
+
+
 
 	//BOOKMARK: you were here 
 	/*
@@ -305,9 +673,8 @@ public class Director : MonoBehaviour
 		
 		
 		public var c_engine:Engine;
-		private var c_title:Title;
-		private var c_cinema:Cinema;
-	
+
+
 		private var c_menu:MenuSystem;
 		
 		private int exit_menu_code;
@@ -323,12 +690,7 @@ public class Director : MonoBehaviour
 		private static bool old_mute_music = false;
 		private static bool mute_sound = false;
 		private static bool old_mute_sound = false;
-		
-		private static int curr_level = 0;
-		
-		
-		private var d_lvlInfo:GameLevelInfo;
-		private var d_lvlProgress:LevelProgress;
+
 		
 		// Kongregate API reference
 		public static var kongregate:*;
@@ -480,15 +842,6 @@ public static function startMusic(soundID:int,loop: Boolean):int
   //Creates the state stack, creates the pause sprite, and other basic bootstrap functions
 
 
-
-
-private void loadGameLevelInfo()
-{
-	d_lvlInfo = new GameLevelInfo(7);
-	d_lvlProgress = new LevelProgress(7);
-	LevelProgress.getProgress();
-}
-
 private void makeFPSCounter()
 {
 	c_fps = new FPSCounter(610, 0, 0xFFFFFF, true);
@@ -503,22 +856,7 @@ private void fpsOnTop()
 	}
 }
 
-private void initListeners()
-{
 
-	stage.addEventListener(KeyboardEvent.KEY_UP, listenKeyUp);
-	stage.addEventListener(KeyboardEvent.KEY_DOWN, listenKeyDown);
-	stage.addEventListener(Event.DEACTIVATE, listenDeactivate);
-
-	//stage.addEventListener(MouseEvent.CLICK, listenClick);
-	//stage.addEventListener(MouseEvent.MOUSE_MOVE, listenMouseMove);
-	stage.addEventListener(MouseEvent.MOUSE_UP, listenMouseUp);
-	stage.addEventListener(MouseEvent.MOUSE_DOWN, listenMouseDown);
-	stage.addEventListener(Event.MOUSE_LEAVE, listenMouseLeave);
-	//stage.addEventListener(MouseEvent.MOUSE_OUT, listenMouseOut);
-
-	stage.addEventListener(MouseEvent.MOUSE_WHEEL, listenMouseWheel);
-}
 
 public function tempHighQuality()
 {
@@ -720,82 +1058,8 @@ public function quitGame()
 	//showMenu(MenuSystem.LEVELPICKER);
 }
 
-//
-// Runs a cinema "hassle-free." All you have to do is pass it one variable - the index
-// value associated with the movie you want, which are all public static consts in class Cinema. So, pass
-// Cinema.SPLASH to show the splash screen. 
-// 
-// This will play that movie, and when it is finished, finishCinema() will sort out what to do with it.
-//
-// ASSUMPTIONS: This framework ONLY allows you to play one cinema at a time.
-// @param	i
-//
-
-public function showCinema(i:int) {
-	//normalCursor();
-
-	stage.quality = StageQuality.HIGH;
-	trace("Director.showCinema(" + i + ")");
-	switch (state)
-	{
-		case DState.INGAME: pauseGame(); break;
-	}
-
-	newState(DState.CINEMA);
-	c_cinema = null;
-	var s:String;
-
-	switch (i)
-	{
-		case Cinema.NOTHING: c_cinema = Cinema(new Cinema_Blank()); s = "nothing"; break;
-		case Cinema.SPLASH: c_cinema = Cinema(new Cinema_Splash()); s = "splash"; break;
-		case Cinema.SCENE_LAB_INTRO: c_cinema = Cinema(new Cinema_Scene1()); s = "lab intro"; break;
-		case Cinema.SCENE_LAB_BOARD: c_cinema = Cinema(new Cinema_Scene2()); s = "lab board"; break;
-		case Cinema.SCENE_LAUNCH: c_cinema = Cinema(new Cinema_Scene3()); s = "launch"; break;
-		case Cinema.SCENE_CRASH: c_cinema = Cinema(new Cinema_Scene4()); s = "crash"; break;
-		case Cinema.SCENE_LAND_CROC: c_cinema = Cinema(new Cinema_Scene5()); s = "land croc"; break;
-		case Cinema.SCENE_FINALE: c_cinema = Cinema(new Cinema_Finale()); s = "finale"; break;
-		default: //throw new Error("Cinemas 2-5 don't exist yet, dummy!"); 
-			c_cinema = Cinema(new Cinema_Blank()); break;
-			break;
-		case Cinema.MITOSIS: c_cinema = Cinema(new Cinema_Mitosis()); s = "mitosis"; break;
-		case Cinema.SCENE_CREDITS: c_cinema = Cinema(new Cinema_Credits()); s = "credits"; break;
-	}
-	c_cinema.setIndex(i);
-	c_cinema.setDirector(this);
-	addChild(c_cinema);
-	c_cinema.startCinema();
-	fpsOnTop();
-
-}
-
-private void pauseGame()
-{
-
-	if (c_engine)
-	{
-		c_engine.pauseAnimate(true);
-
-	}
-}
-
-private void unPauseGame()
-{
-
-	if (c_engine)
-	{
-		c_engine.pauseAnimate(false);
-	}
-}
-
-//Cinema ceases play
 
 
-private void pauseCinema()
-{
-	if (c_cinema)
-		c_cinema.pause();
-}
 
 
 // Cinema resumes play
@@ -946,7 +1210,7 @@ public function exitMenu()
 	removeChild(c_menu);
 	oldState();           //exit the menu state
 	contextUnPauseMenu(); //You MUST unpause before telling the engine to respond! Bugzors otherwise!
-	var i:int = c_menu.getIndex();
+	var i:int = c_menu.getIndex();function newState
 
 var reward_array:Array;
 if (i == MenuSystem.REWARD)
@@ -1145,47 +1409,13 @@ public function contextUnFauxPause()
 	//unPauseGame();
 }
 
-public function contextPause()
-{
-	switch (state.getTop())
-	{
-		case DState.CINEMA: pauseCinema(); break;
-		case DState.INGAME: pauseGame(); break; //donothing
-	}
-}
 
 
 
 // Runs every frame, and gives functionality to the underlying classes
 
 
-private void run() {
-	bool halt = true;
-	switch (state.getTop())
-	{
-		
-		case DState.TITLE:
-			//title.run();
-			break;
-		case DState.CINEMA:
-			//cinema.run();
-			break;
-		case DState.INGAME:
-			halt = false;
-			//c_engine.run();
-			c_engine.dispatchEvent(new RunFrameEvent(RunFrameEvent.RUNFRAME, null));
 
-			break;
-		case DState.FAUXPAUSED:
-			c_engine.dispatchEvent(new RunFrameEvent(RunFrameEvent.FAUXFRAME, null));
-			break;
-		case DState.INMENU: break;
-		//menuSystem.run();
-		case DState.PAUSED: break;
-		//do nothing
-		case DState.NOSTATE: break;
-	}
-}
 
 private void cheat(int i) {
 	switch (state.getTop())
@@ -1199,104 +1429,10 @@ private void cheat(int i) {
 	}
 }
 
-//INPUT STUFF
-
-private void checkKeyUp(e:KeyboardEvent):Boolean
-{
-	switch (e.keyCode)
-	{
-
-		case CHEAT_0:
-		case CHEAT_1:
-		case CHEAT_2:
-		case CHEAT_3:
-		case CHEAT_4:
-		case CHEAT_5:
-		case CHEAT_6:
-		case CHEAT_7:
-		case CHEAT_8: cheat(e.keyCode); break;
-		case CHEAT_9: LevelProgress.clearProgress(); break;
 
 
-		case KEY_PAUSE: //donothing
-			break;
-		case KEY_DOWN:
-		case KEY_DOWN2:
-			release_arrow(1);
-			break;
-		case KEY_UP:
-		case KEY_UP2:
-			release_arrow(0);
-			break;
-		case KEY_LEFT:
-		case KEY_LEFT2:
-			release_arrow(2);
-			break;
-		case KEY_RIGHT:
-		case KEY_RIGHT2:
-			release_arrow(3);
-			break;
-		default:
-			return true;            //I don't know what to do with this, pass it on
-			break;
 
-	}
-	return false;
-}
 
-private void checkKeyDown(e:KeyboardEvent):Boolean
-{
-	switch (e.keyCode)
-	{
-		case KEY_PAUSE:
-			keyPause();
-			return false;
-			break;
-		case KEY_DOWN:
-		case KEY_DOWN2:
-			press_arrow(1);
-			break;
-		case KEY_UP:
-		case KEY_UP2:
-			press_arrow(0);
-			break;
-		case KEY_LEFT:
-		case KEY_LEFT2:
-			press_arrow(2);
-			break;
-		case KEY_RIGHT:
-		case KEY_RIGHT2:
-			press_arrow(3);
-			break;
-		default:
-			return true;            //I don't know what to do with this, pass it on
-			break;
-	}
-	return false;
-}
-
-private void press_arrow(i:int) {
-	list_moveKeys[i] = true;
-}
-private void release_arrow(i:int) {
-	list_moveKeys[i] = false;
-}
-private void clearKeys()
-{
-	for (var i:int = 0; i < list_moveKeys.length; i++) {
-	list_moveKeys[i] = false;
-}
-		}
-		
-		public function getArrow(i:int):Boolean
-{
-	return list_moveKeys[i];
-}
-
-private void releaseInput()
-{
-	c_engine.dispatchEvent(new MouseEvent(MouseEvent.MOUSE_UP));
-}
 
 private void listenDeactivate(e:Event) {
 
@@ -1305,178 +1441,9 @@ private void listenDeactivate(e:Event) {
 
 
 
-private void listenMouseWheel(m:MouseEvent) {
-	if (m.delta > 0)
-	{
-		c_engine.mouseWheel(1);
-	}
-	else
-	{
-		c_engine.mouseWheel(-1);
-	}
-}
-
-private void listenMouseUp(m:MouseEvent) {
-	//trace("Director.listenMouseUp()");
-	IS_MOUSE_DOWN = false;
-
-	//filthy hack:
-	if (c_engine)
-	{
-		c_engine.mouseUp(m);
-	}
-}
-
-
-private void listenMouseDown(m:MouseEvent) {
-	//trace("Director.listenMouseDown()");
-	IS_MOUSE_DOWN = true;
-}
-
-private void listenMouseLeave(e:Event) {
-	//trace("Director.listenMouseLeave()");
-	IS_MOUSE_DOWN = false;
-}
-
-private void listenKeyUp(e:KeyboardEvent) {
-	if (checkKeyUp(e))
-	{
-		switch (state.getTop())
-		{
-			case DState.TITLE:
-
-				break;
-			case DState.CINEMA:
-
-				break;
-			case DState.INGAME:
-				c_engine.checkKeys();
-				break;
-			case DState.INMENU:
-
-				break;
-			case DState.PAUSED:
-				break;
-		}
-	}
-}
 
 
 
-private void listenKeyDown(e:KeyboardEvent) {
-	if (checkKeyDown(e))
-	{           //if there was a key that got through our filter
-		switch (state.getTop())
-		{
-			case DState.TITLE:
 
-				break;
-			case DState.CINEMA:
-
-				break;
-			case DState.INGAME:
-				break;
-			case DState.INMENU:
-
-				break;
-			case DState.PAUSED:
-				break;
-		}
-	}
-}
-
-
-private void listenMouseClick(e:MouseEvent) {
-	switch (state.getTop())
-	{
-		case DState.TITLE:
-			c_title.dispatchEvent(e);
-			break;
-		case DState.CINEMA:
-			c_cinema.dispatchEvent(e);
-			break;
-		case DState.INGAME:
-			c_engine.dispatchEvent(e);
-			break;
-		case DState.INMENU:
-			c_menu.dispatchEvent(e);
-			break;
-		case DState.PAUSED:
-			break;
-	}
-}
-
-private void listenMouseMove(e:MouseEvent) {
-	switch (state.getTop())
-	{
-		case DState.TITLE:
-
-			break;
-		case DState.CINEMA:
-
-			break;
-		case DState.INGAME:
-
-			c_engine.mouseMove(e);
-			//c_engine.dispatchEvent(e);
-			break;
-		case DState.INMENU:
-
-			break;
-		case DState.PAUSED:
-			break;
-	}
-}
-
-
-//*********STATE STACK STUFF***************
-
-
-//Sets the new state, initializing the stack
-// @param	s
-
-
-private void setState(s:int) {
-	state.setState(s);
-}
-
-
-// Goes to a new state, shoves the old ones back in the stack
- // @param	s the new state code to go to
- 
-
-private void newState(s:int) {
-	//trace("newState=" + s);
-	state.push(s);  //push the state on
-					//state.traceStack();
-}
-
-
-// Returns to the last state, throws away the current one
-
-
-private void oldState()
-{
-	var prev:int = state.pop();
-switch (state.getTop())
-{
-	case DState.CINEMA: break;
-	case DState.INGAME: break;
-	case DState.INMENU: break;
-	case DState.PAUSED: break;
-	case DState.FAUXPAUSED: break;
-	case DState.TITLE:
-		if (prev != DState.PAUSED)
-		{ //if we were paused, we haven't hidden the title
-			if (!c_title)
-			{ //don't do this if the title already exists
-				makeTitle(); //be sure to show the title again, BUT DONT push the state, we're already there!
-			}
-		}
-		break;
-
-}
-			//state.traceStack();
-		}
 	*/
 }

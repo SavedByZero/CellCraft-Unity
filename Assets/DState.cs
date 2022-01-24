@@ -89,6 +89,7 @@ public void setState(GameState i)
 
 	public GameState getTop()
 	{
+		
 		if (_stateStack.Count >= 1)
 			return _stateStack.Peek();
 		

@@ -1,0 +1,3007 @@
+fileFormatVersion: 2
+guid: 63dcc67259fef664b85e376e9fcfb7c5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8481651548321094074
+    second: CCintrocell_sheet_0
+  - first:
+      213: 5818690452309713892
+    second: CCintrocell_sheet_1
+  - first:
+      213: 1726232072722753092
+    second: CCintrocell_sheet_2
+  - first:
+      213: -390707770818586310
+    second: CCintrocell_sheet_3
+  - first:
+      213: 1739311339199212986
+    second: CCintrocell_sheet_4
+  - first:
+      213: -8901144374472510617
+    second: CCintrocell_sheet_5
+  - first:
+      213: -6874047279493170230
+    second: CCintrocell_sheet_6
+  - first:
+      213: -4316158061583943381
+    second: CCintrocell_sheet_7
+  - first:
+      213: -1007104537903424786
+    second: CCintrocell_sheet_8
+  - first:
+      213: -4400833493437224422
+    second: CCintrocell_sheet_9
+  - first:
+      213: -1077713636698325383
+    second: CCintrocell_sheet_10
+  - first:
+      213: -1927254718381093504
+    second: CCintrocell_sheet_11
+  - first:
+      213: -1293837277836292096
+    second: CCintrocell_sheet_12
+  - first:
+      213: 3273879478873675324
+    second: CCintrocell_sheet_13
+  - first:
+      213: 1716640962808791956
+    second: CCintrocell_sheet_14
+  - first:
+      213: 7609041787952802932
+    second: CCintrocell_sheet_15
+  - first:
+      213: -1663802984013749324
+    second: CCintrocell_sheet_16
+  - first:
+      213: 6754368763332578598
+    second: CCintrocell_sheet_17
+  - first:
+      213: -5091710225078543801
+    second: CCintrocell_sheet_18
+  - first:
+      213: -1386334918943951591
+    second: CCintrocell_sheet_19
+  - first:
+      213: -7538802224033696177
+    second: CCintrocell_sheet_20
+  - first:
+      213: -1294540670095271969
+    second: CCintrocell_sheet_21
+  - first:
+      213: -8032435798256140517
+    second: CCintrocell_sheet_22
+  - first:
+      213: 3924772059171674446
+    second: CCintrocell_sheet_23
+  - first:
+      213: -6214768307542879601
+    second: CCintrocell_sheet_24
+  - first:
+      213: 3315362479256316108
+    second: CCintrocell_sheet_25
+  - first:
+      213: -8366371674211792072
+    second: CCintrocell_sheet_26
+  - first:
+      213: -2757632593383787515
+    second: CCintrocell_sheet_27
+  - first:
+      213: 2247970711120935487
+    second: CCintrocell_sheet_28
+  - first:
+      213: -4724060953307321795
+    second: CCintrocell_sheet_29
+  - first:
+      213: -171963738072217851
+    second: CCintrocell_sheet_30
+  - first:
+      213: -4831605441721010208
+    second: CCintrocell_sheet_31
+  - first:
+      213: -3572603137087005785
+    second: CCintrocell_sheet_32
+  - first:
+      213: -2086056105690626195
+    second: CCintrocell_sheet_33
+  - first:
+      213: -900065944095335483
+    second: CCintrocell_sheet_34
+  - first:
+      213: 776153199493708957
+    second: CCintrocell_sheet_35
+  - first:
+      213: -600642585560469033
+    second: CCintrocell_sheet_36
+  - first:
+      213: -1509085353518326405
+    second: CCintrocell_sheet_37
+  - first:
+      213: 6761024636485105378
+    second: CCintrocell_sheet_38
+  - first:
+      213: -8640891920070014589
+    second: CCintrocell_sheet_39
+  - first:
+      213: 4399566933079293456
+    second: CCintrocell_sheet_40
+  - first:
+      213: -7953176595640899219
+    second: CCintrocell_sheet_41
+  - first:
+      213: 5611969279861995486
+    second: CCintrocell_sheet_42
+  - first:
+      213: 6642342382961680491
+    second: CCintrocell_sheet_43
+  - first:
+      213: -8624990897911757109
+    second: CCintrocell_sheet_44
+  - first:
+      213: -2610045932768792629
+    second: CCintrocell_sheet_45
+  - first:
+      213: 1378309602907131803
+    second: CCintrocell_sheet_46
+  - first:
+      213: 3168340438458311478
+    second: CCintrocell_sheet_47
+  - first:
+      213: -1447952417324572024
+    second: CCintrocell_sheet_48
+  - first:
+      213: -2267658432820891823
+    second: CCintrocell_sheet_49
+  - first:
+      213: -7011710607549441700
+    second: CCintrocell_sheet_50
+  - first:
+      213: -1286372923996673991
+    second: CCintrocell_sheet_51
+  - first:
+      213: -4530223563831519214
+    second: CCintrocell_sheet_52
+  - first:
+      213: 2613654971743923446
+    second: CCintrocell_sheet_53
+  - first:
+      213: 756562824529910948
+    second: CCintrocell_sheet_54
+  - first:
+      213: -563564154419885969
+    second: CCintrocell_sheet_55
+  - first:
+      213: -7761136574175870009
+    second: CCintrocell_sheet_56
+  - first:
+      213: 4664008248754347432
+    second: CCintrocell_sheet_57
+  - first:
+      213: 8148006441972866220
+    second: CCintrocell_sheet_58
+  - first:
+      213: 761541848340999029
+    second: CCintrocell_sheet_59
+  - first:
+      213: 2285722692436807509
+    second: CCintrocell_sheet_60
+  - first:
+      213: 8487964300385067848
+    second: CCintrocell_sheet_61
+  - first:
+      213: 2656293552435307438
+    second: CCintrocell_sheet_62
+  - first:
+      213: 1309657238741474985
+    second: CCintrocell_sheet_63
+  - first:
+      213: -7069125453692631326
+    second: CCintrocell_sheet_64
+  - first:
+      213: -2232447971507500564
+    second: CCintrocell_sheet_65
+  - first:
+      213: -1622077219048647362
+    second: CCintrocell_sheet_66
+  - first:
+      213: -9036381727759129959
+    second: CCintrocell_sheet_67
+  - first:
+      213: -7875655349224758341
+    second: CCintrocell_sheet_68
+  - first:
+      213: -3405830354460241033
+    second: CCintrocell_sheet_69
+  - first:
+      213: -8227156300591211589
+    second: CCintrocell_sheet_70
+  - first:
+      213: 2801539151288511029
+    second: CCintrocell_sheet_71
+  - first:
+      213: 7806081725676544112
+    second: CCintrocell_sheet_72
+  - first:
+      213: -4510572826393272852
+    second: CCintrocell_sheet_73
+  - first:
+      213: -4217294307836080996
+    second: CCintrocell_sheet_74
+  - first:
+      213: -5571815175815395075
+    second: CCintrocell_sheet_75
+  - first:
+      213: 2465464299589727307
+    second: CCintrocell_sheet_76
+  - first:
+      213: 944618004719544275
+    second: CCintrocell_sheet_77
+  - first:
+      213: 4724272174744959240
+    second: CCintrocell_sheet_78
+  - first:
+      213: -2017899035602252573
+    second: CCintrocell_sheet_79
+  - first:
+      213: -7905004137754068297
+    second: CCintrocell_sheet_80
+  - first:
+      213: -6585062027783639033
+    second: CCintrocell_sheet_81
+  - first:
+      213: 1574958892965767822
+    second: CCintrocell_sheet_82
+  - first:
+      213: -1322436751962406816
+    second: CCintrocell_sheet_83
+  - first:
+      213: 3308133565829442791
+    second: CCintrocell_sheet_84
+  - first:
+      213: 4773884509135543372
+    second: CCintrocell_sheet_85
+  - first:
+      213: -445293626105202747
+    second: CCintrocell_sheet_86
+  - first:
+      213: -2319643502507406055
+    second: CCintrocell_sheet_87
+  - first:
+      213: 5587408393531186693
+    second: CCintrocell_sheet_88
+  - first:
+      213: -5419448974735282462
+    second: CCintrocell_sheet_89
+  - first:
+      213: -4419971653780735701
+    second: CCintrocell_sheet_90
+  - first:
+      213: 8137925823894196682
+    second: CCintrocell_sheet_91
+  - first:
+      213: -8765100982493141120
+    second: CCintrocell_sheet_92
+  - first:
+      213: -963829877795099585
+    second: CCintrocell_sheet_93
+  - first:
+      213: -6786109698006603768
+    second: CCintrocell_sheet_94
+  - first:
+      213: -166761496172764686
+    second: CCintrocell_sheet_95
+  - first:
+      213: -3964430107000274492
+    second: CCintrocell_sheet_96
+  - first:
+      213: -965826407572621112
+    second: CCintrocell_sheet_97
+  - first:
+      213: 7291343369585841017
+    second: CCintrocell_sheet_98
+  - first:
+      213: 6227785629969724507
+    second: CCintrocell_sheet_99
+  - first:
+      213: -521873815781427548
+    second: CCintrocell_sheet_100
+  - first:
+      213: 2340860467787933771
+    second: CCintrocell_sheet_101
+  - first:
+      213: 4351208280949701409
+    second: CCintrocell_sheet_102
+  - first:
+      213: 9130118443284991037
+    second: CCintrocell_sheet_103
+  - first:
+      213: 1581710819930392321
+    second: CCintrocell_sheet_104
+  - first:
+      213: 8269121450996193679
+    second: CCintrocell_sheet_105
+  - first:
+      213: -481981008090733723
+    second: CCintrocell_sheet_106
+  - first:
+      213: 8415860888038268314
+    second: CCintrocell_sheet_107
+  - first:
+      213: 487529694811858595
+    second: CCintrocell_sheet_108
+  - first:
+      213: -3506225686922526062
+    second: CCintrocell_sheet_109
+  - first:
+      213: 7025183859655777939
+    second: CCintrocell_sheet_110
+  - first:
+      213: 1783382602335917673
+    second: CCintrocell_sheet_111
+  - first:
+      213: -2422529043469284546
+    second: CCintrocell_sheet_112
+  - first:
+      213: 7775390917972184829
+    second: CCintrocell_sheet_113
+  - first:
+      213: 2865043641824179672
+    second: CCintrocell_sheet_114
+  - first:
+      213: 4159575883880901667
+    second: CCintrocell_sheet_115
+  - first:
+      213: -8435151264882762967
+    second: CCintrocell_sheet_116
+  - first:
+      213: 6448131822386854535
+    second: CCintrocell_sheet_117
+  - first:
+      213: 3297719233488029879
+    second: CCintrocell_sheet_118
+  - first:
+      213: 3358699609002456508
+    second: CCintrocell_sheet_119
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CCintrocell_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 1917
+        width: 169
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 646eda1cade1b4a80800000000000000
+      internalID: -8481651548321094074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 1917
+        width: 168
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e3a0eb332420c050800000000000000
+      internalID: 5818690452309713892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 1917
+        width: 169
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 446a6869ceec4f710800000000000000
+      internalID: 1726232072722753092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 1917
+        width: 169
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a399f5d3a5de39af0800000000000000
+      internalID: -390707770818586310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 1917
+        width: 170
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abd27ce9276432810800000000000000
+      internalID: 1739311339199212986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 1917
+        width: 171
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76379190a58c87480800000000000000
+      internalID: -8901144374472510617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 1917
+        width: 171
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acbb1986b6a7a90a0800000000000000
+      internalID: -6874047279493170230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 1348
+        y: 1917
+        width: 172
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b29b9d86c1de914c0800000000000000
+      internalID: -4316158061583943381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1537
+        y: 1917
+        width: 172
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eea159632cb0602f0800000000000000
+      internalID: -1007104537903424786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1726
+        y: 1917
+        width: 172
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1a680c11491de2c0800000000000000
+      internalID: -4400833493437224422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 1802
+        width: 172
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97e700b48213b01f0800000000000000
+      internalID: -1077713636698325383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 1802
+        width: 173
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08d033f6b040145e0800000000000000
+      internalID: -1927254718381093504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 1801
+        width: 173
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 000d861d9dd5b0ee0800000000000000
+      internalID: -1293837277836292096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 1801
+        width: 174
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c36d4bf4a082f6d20800000000000000
+      internalID: 3273879478873675324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 1801
+        width: 174
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4934a1b4cdbb2d710800000000000000
+      internalID: 1716640962808791956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 1801
+        width: 174
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47ca704113fb89960800000000000000
+      internalID: 7609041787952802932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 1801
+        width: 175
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b320a1500cf8e8e0800000000000000
+      internalID: -1663802984013749324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 1348
+        y: 1801
+        width: 175
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62dce64aa965cbd50800000000000000
+      internalID: 6754368763332578598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 1537
+        y: 1801
+        width: 175
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74a18fef68c9659b0800000000000000
+      internalID: -5091710225078543801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 1726
+        y: 1801
+        width: 176
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91530a08cbfb2cce0800000000000000
+      internalID: -1386334918943951591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 1686
+        width: 176
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f46fb8cc15bc06790800000000000000
+      internalID: -7538802224033696177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 1686
+        width: 176
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd7dcab8e1ed80ee0800000000000000
+      internalID: -1294540670095271969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 1686
+        width: 177
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1fbfcbf23e078090800000000000000
+      internalID: -8032435798256140517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 1686
+        width: 177
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e495e4bb467977630800000000000000
+      internalID: 3924772059171674446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 1686
+        width: 177
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f821d8bc625b0c9a0800000000000000
+      internalID: -6214768307542879601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 1685
+        width: 178
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc82bbdfb98820e20800000000000000
+      internalID: 3315362479256316108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 1685
+        width: 178
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83b47bb0a4da4eb80800000000000000
+      internalID: -8366371674211792072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 1348
+        y: 1685
+        width: 178
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 504f15254cbeab9d0800000000000000
+      internalID: -2757632593383787515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 1537
+        y: 1685
+        width: 179
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3a78d59375623f10800000000000000
+      internalID: 2247970711120935487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_29
+      rect:
+        serializedVersion: 2
+        x: 1726
+        y: 1685
+        width: 179
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3ae2d49793c07eb0800000000000000
+      internalID: -4724060953307321795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_30
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 1570
+        width: 179
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50705fd24ef0d9df0800000000000000
+      internalID: -171963738072217851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_31
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 1571
+        width: 179
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e7ff5f1370b2fcb0800000000000000
+      internalID: -4831605441721010208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_32
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 1571
+        width: 180
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ab9b7210609b6ec0800000000000000
+      internalID: -3572603137087005785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_33
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 1571
+        width: 180
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6786c63607dc03e0800000000000000
+      internalID: -2086056105690626195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_34
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 1571
+        width: 180
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cb55c7eac25283f0800000000000000
+      internalID: -900065944095335483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_35
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 1571
+        width: 180
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9cfa13093375ca00800000000000000
+      internalID: 776153199493708957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_36
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 1572
+        width: 180
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d132b230c61aa7f0800000000000000
+      internalID: -600642585560469033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_37
+      rect:
+        serializedVersion: 2
+        x: 1348
+        y: 1572
+        width: 180
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7d9bcfcdd6ae0be0800000000000000
+      internalID: -1509085353518326405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_38
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1572
+        width: 181
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e6fb5fd51cf3dd50800000000000000
+      internalID: 6761024636485105378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_39
+      rect:
+        serializedVersion: 2
+        x: 1725
+        y: 1572
+        width: 181
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3890fa18492651880800000000000000
+      internalID: -8640891920070014589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_40
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1457
+        width: 181
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01efeb3d0d66e0d30800000000000000
+      internalID: 4399566933079293456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_41
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 1458
+        width: 182
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d69afd42604a0a190800000000000000
+      internalID: -7953176595640899219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_42
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1458
+        width: 181
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed734989358b1ed40800000000000000
+      internalID: 5611969279861995486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_43
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 1458
+        width: 182
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b60e3f464375e2c50800000000000000
+      internalID: 6642342382961680491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_44
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 1458
+        width: 182
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc60efab970ed4880800000000000000
+      internalID: -8624990897911757109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_45
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 1459
+        width: 182
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcfecd18d0147cbd0800000000000000
+      internalID: -2610045932768792629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_46
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 1459
+        width: 182
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9f0acff74db02310800000000000000
+      internalID: 1378309602907131803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_47
+      rect:
+        serializedVersion: 2
+        x: 1347
+        y: 1459
+        width: 182
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63320d997d438fb20800000000000000
+      internalID: 3168340438458311478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_48
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1459
+        width: 182
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88263b1b2f6d7ebe0800000000000000
+      internalID: -1447952417324572024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_49
+      rect:
+        serializedVersion: 2
+        x: 1725
+        y: 1459
+        width: 182
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15faacf7ba8a780e0800000000000000
+      internalID: -2267658432820891823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_50
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1345
+        width: 182
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c595d212a5661be90800000000000000
+      internalID: -7011710607549441700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_51
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 1345
+        width: 182
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9386f7024a2e52ee0800000000000000
+      internalID: -1286372923996673991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_52
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1345
+        width: 182
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 218d7bcbba96121c0800000000000000
+      internalID: -4530223563831519214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_53
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 1345
+        width: 182
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fcea3c5951954420800000000000000
+      internalID: 2613654971743923446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_54
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 1346
+        width: 182
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ac1f5661e9df7a00800000000000000
+      internalID: 756562824529910948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_55
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 1346
+        width: 182
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f68c8af2361dd28f0800000000000000
+      internalID: -563564154419885969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_56
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 1346
+        width: 182
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c384f2f767ea4490800000000000000
+      internalID: -7761136574175870009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_57
+      rect:
+        serializedVersion: 2
+        x: 1348
+        y: 1346
+        width: 182
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ad9e709ac2e9b040800000000000000
+      internalID: 4664008248754347432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_58
+      rect:
+        serializedVersion: 2
+        x: 1537
+        y: 1346
+        width: 182
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cac136160b8831170800000000000000
+      internalID: 8148006441972866220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_59
+      rect:
+        serializedVersion: 2
+        x: 1726
+        y: 1347
+        width: 182
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57ba5f7b64a819a00800000000000000
+      internalID: 761541848340999029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_60
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1231
+        width: 183
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55fceb1bda488bf10800000000000000
+      internalID: 2285722692436807509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_61
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 1231
+        width: 183
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84326ae5f8e4bc570800000000000000
+      internalID: 8487964300385067848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_62
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1231
+        width: 183
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea3211c89ec0dd420800000000000000
+      internalID: 2656293552435307438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_63
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 1231
+        width: 183
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ae54bcd156dc2210800000000000000
+      internalID: 1309657238741474985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_64
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 1231
+        width: 183
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e68afb8adb65ed90800000000000000
+      internalID: -7069125453692631326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_65
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 1230
+        width: 184
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce901ced560c401e0800000000000000
+      internalID: -2232447971507500564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_66
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 1230
+        width: 185
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e351a580d593d79e0800000000000000
+      internalID: -1622077219048647362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_67
+      rect:
+        serializedVersion: 2
+        x: 1346
+        y: 1230
+        width: 185
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 992261602b2589280800000000000000
+      internalID: -9036381727759129959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_68
+      rect:
+        serializedVersion: 2
+        x: 1535
+        y: 1230
+        width: 185
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb3ad08df2d04b290800000000000000
+      internalID: -7875655349224758341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_69
+      rect:
+        serializedVersion: 2
+        x: 1724
+        y: 1229
+        width: 185
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7739725665f0cb0d0800000000000000
+      internalID: -3405830354460241033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_70
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 1114
+        width: 185
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbbd4a71fe443dd80800000000000000
+      internalID: -8227156300591211589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_71
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 1114
+        width: 185
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53aa6e0d30111e620800000000000000
+      internalID: 2801539151288511029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_72
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 1114
+        width: 185
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0706e9a98f5c45c60800000000000000
+      internalID: 7806081725676544112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_73
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 1113
+        width: 185
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ced9c4599e93761c0800000000000000
+      internalID: -4510572826393272852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_74
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 1113
+        width: 186
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9c4724db292975c0800000000000000
+      internalID: -4217294307836080996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_75
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 1113
+        width: 186
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df8846b4e9feca2b0800000000000000
+      internalID: -5571815175815395075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_76
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 1112
+        width: 186
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b44f377c7b6173220800000000000000
+      internalID: 2465464299589727307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_77
+      rect:
+        serializedVersion: 2
+        x: 1345
+        y: 1112
+        width: 186
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d72fbb0215fb1d00800000000000000
+      internalID: 944618004719544275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_78
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 1112
+        width: 186
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8097fed338cff8140800000000000000
+      internalID: 4724272174744959240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_79
+      rect:
+        serializedVersion: 2
+        x: 1723
+        y: 1112
+        width: 186
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ec0356b48bfef3e0800000000000000
+      internalID: -2017899035602252573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_80
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 996
+        width: 188
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bafc258e98cb4290800000000000000
+      internalID: -7905004137754068297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_81
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 996
+        width: 187
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 700fa0299f82d94a0800000000000000
+      internalID: -6585062027783639033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_82
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 996
+        width: 187
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8a2117c4c06bd510800000000000000
+      internalID: 1574958892965767822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_83
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 996
+        width: 187
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0600c59d7c2c5ade0800000000000000
+      internalID: -1322436751962406816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_84
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 995
+        width: 188
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ec6fcc63f9d8ed20800000000000000
+      internalID: 3308133565829442791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_85
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 995
+        width: 187
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4c93cdfaae304240800000000000000
+      internalID: 4773884509135543372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_86
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 995
+        width: 187
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c7f04b6ecff1d9f0800000000000000
+      internalID: -445293626105202747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_87
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 995
+        width: 188
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91dc0834688fecfd0800000000000000
+      internalID: -2319643502507406055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_88
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 994
+        width: 188
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50e567f94567a8d40800000000000000
+      internalID: 5587408393531186693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_89
+      rect:
+        serializedVersion: 2
+        x: 1721
+        y: 994
+        width: 188
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ee6c86fedf3ac4b0800000000000000
+      internalID: -5419448974735282462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_90
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 879
+        width: 188
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b297a1be23b19a2c0800000000000000
+      internalID: -4419971653780735701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_91
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 879
+        width: 186
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac111b59b68bfe070800000000000000
+      internalID: 8137925823894196682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_92
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 879
+        width: 186
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 087a11e881b1c5680800000000000000
+      internalID: -8765100982493141120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_93
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 879
+        width: 186
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3c6d1e25d9cf92f0800000000000000
+      internalID: -963829877795099585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_94
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 880
+        width: 185
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 808ab7b1f25e2d1a0800000000000000
+      internalID: -6786109698006603768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_95
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 880
+        width: 185
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f1e8628d4b8fadf0800000000000000
+      internalID: -166761496172764686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_96
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 880
+        width: 184
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c1826772d38bf8c0800000000000000
+      internalID: -3964430107000274492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_97
+      rect:
+        serializedVersion: 2
+        x: 1345
+        y: 880
+        width: 183
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c831fddff1b892f0800000000000000
+      internalID: -965826407572621112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_98
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 880
+        width: 183
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9735097d92e003560800000000000000
+      internalID: 7291343369585841017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_99
+      rect:
+        serializedVersion: 2
+        x: 1723
+        y: 880
+        width: 182
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b54b0a3c80a8d6650800000000000000
+      internalID: 6227785629969724507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_100
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 765
+        width: 182
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a635c0978ee1c8f0800000000000000
+      internalID: -521873815781427548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_101
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 765
+        width: 181
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b48214b61386c7020800000000000000
+      internalID: 2340860467787933771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_102
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 766
+        width: 180
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12bbeb9b0e8926c30800000000000000
+      internalID: 4351208280949701409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_103
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 766
+        width: 179
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3c8e39c952b4be70800000000000000
+      internalID: 9130118443284991037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_104
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 766
+        width: 179
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 107c7574c9d53f510800000000000000
+      internalID: 1581710819930392321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_105
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 766
+        width: 178
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f89d033e522d1c270800000000000000
+      internalID: 8269121450996193679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_106
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 766
+        width: 178
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5636448a3d8af49f0800000000000000
+      internalID: -481981008090733723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_107
+      rect:
+        serializedVersion: 2
+        x: 1346
+        y: 766
+        width: 177
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9ddf9673e42bc470800000000000000
+      internalID: 8415860888038268314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_108
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 766
+        width: 176
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a627b4acad04c600800000000000000
+      internalID: 487529694811858595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_109
+      rect:
+        serializedVersion: 2
+        x: 1725
+        y: 767
+        width: 175
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29202a48052675fc0800000000000000
+      internalID: -3506225686922526062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_110
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 652
+        width: 175
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39e1794df777e7160800000000000000
+      internalID: 7025183859655777939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_111
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 652
+        width: 175
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96618de2709dfb810800000000000000
+      internalID: 1783382602335917673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_112
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 652
+        width: 174
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3b42f98ba2716ed0800000000000000
+      internalID: -2422529043469284546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_113
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 652
+        width: 174
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfec78718dcb7eb60800000000000000
+      internalID: 7775390917972184829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_114
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 652
+        width: 172
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d5fbe8330ea2c720800000000000000
+      internalID: 2865043641824179672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_115
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 652
+        width: 172
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32ca00f5a38c9b930800000000000000
+      internalID: 4159575883880901667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_116
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 652
+        width: 171
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92bd9fdad9250fa80800000000000000
+      internalID: -8435151264882762967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_117
+      rect:
+        serializedVersion: 2
+        x: 1348
+        y: 652
+        width: 170
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78ab2429abd5c7950800000000000000
+      internalID: 6448131822386854535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_118
+      rect:
+        serializedVersion: 2
+        x: 1537
+        y: 653
+        width: 170
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b80709bb2ad3cd20800000000000000
+      internalID: 3297719233488029879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCintrocell_sheet_119
+      rect:
+        serializedVersion: 2
+        x: 1726
+        y: 652
+        width: 170
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb5b5ddcf7f7c9e20800000000000000
+      internalID: 3358699609002456508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -58,7 +58,7 @@ public class Cinema : MovieClip
 
 	public void startCinema()
 	{
-		//Mouse.show();
+		
 		
 		this.transform.position = Vector3.zero;
 
@@ -87,11 +87,13 @@ public class Cinema : MovieClip
 		{
 			if (myIndex != SCENE_FINALE)
 			{
-				//Director.startMusic(myMusic, true);  //TODO
+				
+				MusicManager.Play(myMusic);
 			}
 			else
 			{
-				//Director.startMusic(myMusic, false);  //TODO
+				
+				MusicManager.Stop();
 			}
 		}
 	}
@@ -100,14 +102,15 @@ public class Cinema : MovieClip
 	{
 		if (myMusic != Music.None)
 		{
-			//Director.stopMusic(); //TODO
+			MusicManager.Stop();
+			
 		}
 	}
 
 	public void pause()
 	{
-		//Director.pauseMusic(true);  //TODO
-		Stop();
+		_playing = false;
+		MusicManager.Pause();
 	}
 
 	public void forFinalCinema()

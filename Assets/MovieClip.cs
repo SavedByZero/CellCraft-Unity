@@ -18,7 +18,9 @@ public class MovieClip : MonoBehaviour
     private float _counter = 0;
     private float _frameInterval = 0.0166f;
     private int _spriteIndex = 0;
-    private bool _playing;
+    protected bool _playing;
+    public delegate void Finished(MovieClip mc);
+    public Finished onFinished;
 
     public Sprite sprite
     {
@@ -110,6 +112,7 @@ public class MovieClip : MonoBehaviour
                     else
                     {
                         _playing = false;
+                        onFinished?.Invoke(this);
                         return;
                     }
                 }

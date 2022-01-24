@@ -1,0 +1,2047 @@
+fileFormatVersion: 2
+guid: f74b808fb5d30fc47a74da16de6eaa70
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1137816758953711444
+    second: cellsplat_wiggle_0
+  - first:
+      213: 9017166037578895892
+    second: cellsplat_wiggle_1
+  - first:
+      213: -3796701355626585047
+    second: cellsplat_wiggle_2
+  - first:
+      213: 8985967213107509540
+    second: cellsplat_wiggle_3
+  - first:
+      213: -6586419247745811471
+    second: cellsplat_wiggle_4
+  - first:
+      213: 8868722163744973861
+    second: cellsplat_wiggle_5
+  - first:
+      213: -8628848766008546201
+    second: cellsplat_wiggle_6
+  - first:
+      213: -8695710210626141991
+    second: cellsplat_wiggle_7
+  - first:
+      213: 1345544874765060011
+    second: cellsplat_wiggle_8
+  - first:
+      213: 1971412708196636614
+    second: cellsplat_wiggle_9
+  - first:
+      213: 1859287061643438897
+    second: cellsplat_wiggle_10
+  - first:
+      213: -6292953814884880112
+    second: cellsplat_wiggle_11
+  - first:
+      213: 145116272485002375
+    second: cellsplat_wiggle_12
+  - first:
+      213: 772826370758602464
+    second: cellsplat_wiggle_13
+  - first:
+      213: 6718903892812189542
+    second: cellsplat_wiggle_14
+  - first:
+      213: 1794657938175169818
+    second: cellsplat_wiggle_15
+  - first:
+      213: 2883191873641880146
+    second: cellsplat_wiggle_16
+  - first:
+      213: 6501371959065052099
+    second: cellsplat_wiggle_17
+  - first:
+      213: 4459949242144084401
+    second: cellsplat_wiggle_18
+  - first:
+      213: -3327891891311122811
+    second: cellsplat_wiggle_19
+  - first:
+      213: 8418636273570362194
+    second: cellsplat_wiggle_20
+  - first:
+      213: -317954048582969778
+    second: cellsplat_wiggle_21
+  - first:
+      213: 7279730117030101557
+    second: cellsplat_wiggle_22
+  - first:
+      213: 1194603837820571788
+    second: cellsplat_wiggle_23
+  - first:
+      213: 5996616471752035379
+    second: cellsplat_wiggle_24
+  - first:
+      213: 1473901366058657299
+    second: cellsplat_wiggle_25
+  - first:
+      213: -6826216457587719842
+    second: cellsplat_wiggle_26
+  - first:
+      213: 6982999305772785390
+    second: cellsplat_wiggle_27
+  - first:
+      213: -1297444370933388543
+    second: cellsplat_wiggle_28
+  - first:
+      213: -7300251332419565872
+    second: cellsplat_wiggle_29
+  - first:
+      213: 7312876504389067629
+    second: cellsplat_wiggle_30
+  - first:
+      213: -4738168574765476243
+    second: cellsplat_wiggle_31
+  - first:
+      213: -713034285064158759
+    second: cellsplat_wiggle_32
+  - first:
+      213: -4819385808946922366
+    second: cellsplat_wiggle_33
+  - first:
+      213: -2474046800361045488
+    second: cellsplat_wiggle_34
+  - first:
+      213: 6716312275719179926
+    second: cellsplat_wiggle_35
+  - first:
+      213: -8491274911332751975
+    second: cellsplat_wiggle_36
+  - first:
+      213: -3446435823521587481
+    second: cellsplat_wiggle_37
+  - first:
+      213: -1449570483907510470
+    second: cellsplat_wiggle_38
+  - first:
+      213: 3793248578673117301
+    second: cellsplat_wiggle_39
+  - first:
+      213: 8364473876966500229
+    second: cellsplat_wiggle_40
+  - first:
+      213: -2377876201915889800
+    second: cellsplat_wiggle_41
+  - first:
+      213: -1690391081032374294
+    second: cellsplat_wiggle_42
+  - first:
+      213: 3108784706171070900
+    second: cellsplat_wiggle_43
+  - first:
+      213: 6898020331736226624
+    second: cellsplat_wiggle_44
+  - first:
+      213: 2130939823590320024
+    second: cellsplat_wiggle_45
+  - first:
+      213: -6615265410671563478
+    second: cellsplat_wiggle_46
+  - first:
+      213: 5099310868245742973
+    second: cellsplat_wiggle_47
+  - first:
+      213: -3120815376970762429
+    second: cellsplat_wiggle_48
+  - first:
+      213: 2043590572952003192
+    second: cellsplat_wiggle_49
+  - first:
+      213: 6758445675194749845
+    second: cellsplat_wiggle_50
+  - first:
+      213: 3942509360922599898
+    second: cellsplat_wiggle_51
+  - first:
+      213: 3289455710660267322
+    second: cellsplat_wiggle_52
+  - first:
+      213: 7237230145115308592
+    second: cellsplat_wiggle_53
+  - first:
+      213: -6357889507342456937
+    second: cellsplat_wiggle_54
+  - first:
+      213: -1570420951834730456
+    second: cellsplat_wiggle_55
+  - first:
+      213: -6619325850607071026
+    second: cellsplat_wiggle_56
+  - first:
+      213: 2820920253821090304
+    second: cellsplat_wiggle_57
+  - first:
+      213: 1810895918091706784
+    second: cellsplat_wiggle_58
+  - first:
+      213: 3588599130387393099
+    second: cellsplat_wiggle_59
+  - first:
+      213: -3022976938913742626
+    second: cellsplat_wiggle_60
+  - first:
+      213: 3995843446518393922
+    second: cellsplat_wiggle_61
+  - first:
+      213: 1472321021759958788
+    second: cellsplat_wiggle_62
+  - first:
+      213: -2919339464419347361
+    second: cellsplat_wiggle_63
+  - first:
+      213: -5429837398497151769
+    second: cellsplat_wiggle_64
+  - first:
+      213: -6290238386738182110
+    second: cellsplat_wiggle_65
+  - first:
+      213: -2391425970085241232
+    second: cellsplat_wiggle_66
+  - first:
+      213: -113937091325756848
+    second: cellsplat_wiggle_67
+  - first:
+      213: -7571897586069161157
+    second: cellsplat_wiggle_68
+  - first:
+      213: 2543546705123715168
+    second: cellsplat_wiggle_69
+  - first:
+      213: 8896845500915268746
+    second: cellsplat_wiggle_70
+  - first:
+      213: 4466324998787768748
+    second: cellsplat_wiggle_71
+  - first:
+      213: 4879874547021414867
+    second: cellsplat_wiggle_72
+  - first:
+      213: 4321338656305421819
+    second: cellsplat_wiggle_73
+  - first:
+      213: 3617446752041480375
+    second: cellsplat_wiggle_74
+  - first:
+      213: -6916779237013743952
+    second: cellsplat_wiggle_75
+  - first:
+      213: 4937284528300211258
+    second: cellsplat_wiggle_76
+  - first:
+      213: -2594393899933541159
+    second: cellsplat_wiggle_77
+  - first:
+      213: -1236344599552531177
+    second: cellsplat_wiggle_78
+  - first:
+      213: 8035067597643796717
+    second: cellsplat_wiggle_79
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: cellsplat_wiggle_0
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 7822
+        width: 612
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4571ce850565acf00800000000000000
+      internalID: 1137816758953711444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellsplat_wiggle_1
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 7822
+        width: 612
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4125b967cb8632d70800000000000000
+      internalID: 9017166037578895892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellsplat_wiggle_2
+      rect:
+        serializedVersion: 2
+        x: 1294
+        y: 7822
+        width: 612
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92422ab9b386f4bc0800000000000000
+      internalID: -3796701355626585047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellsplat_wiggle_3
+      rect:
+        serializedVersion: 2
+        x: 1926
+        y: 7818
+        width: 612
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4297494129194bc70800000000000000
+      internalID: 8985967213107509540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellsplat_wiggle_4
+      rect:
+        serializedVersion: 2
+        x: 2555
+        y: 7818
+        width: 615
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fbb05c27965894a0800000000000000
+      internalID: -6586419247745811471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellsplat_wiggle_5
+      rect:
+        serializedVersion: 2
+        x: 3186
+        y: 7818
+        width: 616
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52427a5c1d7041b70800000000000000
+      internalID: 8868722163744973861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellsplat_wiggle_6
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 7449
+        width: 616
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76c2e71d3cb204880800000000000000
+      internalID: -8628848766008546201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellsplat_wiggle_7
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 7446
+        width: 616
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d044e1a2a1a25780800000000000000
+      internalID: -8695710210626141991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellsplat_wiggle_8
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 7446
+        width: 616
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba708b14fe55ca210800000000000000
+      internalID: 1345544874765060011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellsplat_wiggle_9
+      rect:
+        serializedVersion: 2
+        x: 1922
+        y: 7446
+        width: 616
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c750c1c96ddb5b10800000000000000
+      internalID: 1971412708196636614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellsplat_wiggle_10
+      rect:
+        serializedVersion: 2
+        x: 2554
+        y: 7446
+        width: 616
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13bacbc4bb38dc910800000000000000
+      internalID: 1859287061643438897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellsplat_wiggle_11
+      rect:
+        serializedVersion: 2
+        x: 3186
+        y: 7443
+        width: 616
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 011f8dbc8dfeaa8a0800000000000000
+      internalID: -6292953814884880112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellsplat_wiggle_12
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 7074
+        width: 616
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78ce8902b7e830200800000000000000
+      internalID: 145116272485002375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellsplat_wiggle_13
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 7074
+        width: 621
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eeee165d71a9ba00800000000000000
+      internalID: 772826370758602464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellsplat_wiggle_14
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 7074
+        width: 623
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66f4f030e775e3d50800000000000000
+      internalID: 6718903892812189542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellsplat_wiggle_15
+      rect:
+        serializedVersion: 2
+        x: 1918
+        y: 7070
+        width: 624
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a151442e2e7e7e810800000000000000
+      internalID: 1794657938175169818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellsplat_wiggle_16
+      rect:
+        serializedVersion: 2
+        x: 2550
+        y: 7070
+        width: 624
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25a97b7bbb7230820800000000000000
+      internalID: 2883191873641880146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellsplat_wiggle_17
+      rect:
+        serializedVersion: 2
+        x: 3182
+        y: 7070
+        width: 624
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c302ccd953893a50800000000000000
+      internalID: 6501371959065052099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellsplat_wiggle_18
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 6701
+        width: 624
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b15546b43ce4ed30800000000000000
+      internalID: 4459949242144084401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellsplat_wiggle_19
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 6698
+        width: 627
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5866f7fe4f3f0d1d0800000000000000
+      internalID: -3327891891311122811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellsplat_wiggle_20
+      rect:
+        serializedVersion: 2
+        x: 1286
+        y: 6698
+        width: 628
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2533163461105d470800000000000000
+      internalID: 8418636273570362194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellsplat_wiggle_21
+      rect:
+        serializedVersion: 2
+        x: 1918
+        y: 6699
+        width: 628
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4690573a76669bf0800000000000000
+      internalID: -317954048582969778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellsplat_wiggle_22
+      rect:
+        serializedVersion: 2
+        x: 2550
+        y: 6702
+        width: 628
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 532ca46c8fbc60560800000000000000
+      internalID: 7279730117030101557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellsplat_wiggle_23
+      rect:
+        serializedVersion: 2
+        x: 3182
+        y: 6702
+        width: 628
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c801d987cd5149010800000000000000
+      internalID: 1194603837820571788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellsplat_wiggle_24
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 6334
+        width: 628
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33c490dd8e2483350800000000000000
+      internalID: 5996616471752035379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellsplat_wiggle_25
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 6334
+        width: 628
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 316a3edbb79547410800000000000000
+      internalID: 1473901366058657299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellsplat_wiggle_26
+      rect:
+        serializedVersion: 2
+        x: 1286
+        y: 6334
+        width: 628
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e510f857c486441a0800000000000000
+      internalID: -6826216457587719842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellsplat_wiggle_27
+      rect:
+        serializedVersion: 2
+        x: 1918
+        y: 6334
+        width: 628
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeed26ffed898e060800000000000000
+      internalID: 6982999305772785390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellsplat_wiggle_28
+      rect:
+        serializedVersion: 2
+        x: 2550
+        y: 6334
+        width: 628
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10b6fa2083d8efde0800000000000000
+      internalID: -1297444370933388543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellsplat_wiggle_29
+      rect:
+        serializedVersion: 2
+        x: 3182
+        y: 6334
+        width: 628
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d64f00771c40ba90800000000000000
+      internalID: -7300251332419565872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellsplat_wiggle_30
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 5963
+        width: 628
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d63296a7f6e8c7560800000000000000
+      internalID: 7312876504389067629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellsplat_wiggle_31
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 5963
+        width: 628
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d665f2ff8c4ae3eb0800000000000000
+      internalID: -4738168574765476243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellsplat_wiggle_32
+      rect:
+        serializedVersion: 2
+        x: 1286
+        y: 5963
+        width: 628
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d18316781bca16f0800000000000000
+      internalID: -713034285064158759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellsplat_wiggle_33
+      rect:
+        serializedVersion: 2
+        x: 1918
+        y: 5963
+        width: 628
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28cf826142a1e1db0800000000000000
+      internalID: -4819385808946922366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellsplat_wiggle_34
+      rect:
+        serializedVersion: 2
+        x: 2550
+        y: 5963
+        width: 628
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 012c9ca0b8b6aadd0800000000000000
+      internalID: -2474046800361045488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellsplat_wiggle_35
+      rect:
+        serializedVersion: 2
+        x: 3182
+        y: 5963
+        width: 628
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69e46d22e62253d50800000000000000
+      internalID: 6716312275719179926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellsplat_wiggle_36
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 5594
+        width: 628
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99523d3f47ee82a80800000000000000
+      internalID: -8491274911332751975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellsplat_wiggle_37
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 5594
+        width: 628
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ee90d5e0eccb20d0800000000000000
+      internalID: -3446435823521587481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellsplat_wiggle_38
+      rect:
+        serializedVersion: 2
+        x: 1286
+        y: 5594
+        width: 628
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3f3dc5335712ebe0800000000000000
+      internalID: -1449570483907510470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellsplat_wiggle_39
+      rect:
+        serializedVersion: 2
+        x: 1918
+        y: 5594
+        width: 628
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 578019c1c7354a430800000000000000
+      internalID: 3793248578673117301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellsplat_wiggle_40
+      rect:
+        serializedVersion: 2
+        x: 2550
+        y: 5595
+        width: 628
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5876f999ca4941470800000000000000
+      internalID: 8364473876966500229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellsplat_wiggle_41
+      rect:
+        serializedVersion: 2
+        x: 3186
+        y: 5598
+        width: 624
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 877c2f06136100fd0800000000000000
+      internalID: -2377876201915889800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellsplat_wiggle_42
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 5230
+        width: 624
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae7a39394468a88e0800000000000000
+      internalID: -1690391081032374294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellsplat_wiggle_43
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 5230
+        width: 624
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b96e7e183f942b20800000000000000
+      internalID: 3108784706171070900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellsplat_wiggle_44
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 5230
+        width: 623
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04b5f86c1f0babf50800000000000000
+      internalID: 6898020331736226624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellsplat_wiggle_45
+      rect:
+        serializedVersion: 2
+        x: 1922
+        y: 5233
+        width: 620
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 897a5d6ba7e929d10800000000000000
+      internalID: 2130939823590320024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellsplat_wiggle_46
+      rect:
+        serializedVersion: 2
+        x: 2558
+        y: 5234
+        width: 616
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2d2efd782bd134a0800000000000000
+      internalID: -6615265410671563478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellsplat_wiggle_47
+      rect:
+        serializedVersion: 2
+        x: 3190
+        y: 5234
+        width: 616
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d758315a73464c640800000000000000
+      internalID: 5099310868245742973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellsplat_wiggle_48
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 4866
+        width: 616
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 347b41e03f2a0b4d0800000000000000
+      internalID: -3120815376970762429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellsplat_wiggle_49
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 4866
+        width: 616
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87224277cca4c5c10800000000000000
+      internalID: 2043590572952003192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellsplat_wiggle_50
+      rect:
+        serializedVersion: 2
+        x: 1298
+        y: 4867
+        width: 612
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59312c7a882dacd50800000000000000
+      internalID: 6758445675194749845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellsplat_wiggle_51
+      rect:
+        serializedVersion: 2
+        x: 1930
+        y: 4870
+        width: 612
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad1a17d106b96b630800000000000000
+      internalID: 3942509360922599898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellsplat_wiggle_52
+      rect:
+        serializedVersion: 2
+        x: 2562
+        y: 4870
+        width: 612
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3d09426a8e76ad20800000000000000
+      internalID: 3289455710660267322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellsplat_wiggle_53
+      rect:
+        serializedVersion: 2
+        x: 3194
+        y: 4870
+        width: 612
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 032c855f87ecf6460800000000000000
+      internalID: 7237230145115308592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellsplat_wiggle_54
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 4502
+        width: 609
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7976ba9bd2d34c7a0800000000000000
+      internalID: -6357889507342456937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellsplat_wiggle_55
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 4502
+        width: 608
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8206f0af67eb43ae0800000000000000
+      internalID: -1570420951834730456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellsplat_wiggle_56
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 4502
+        width: 608
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec05106a53e6324a0800000000000000
+      internalID: -6619325850607071026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellsplat_wiggle_57
+      rect:
+        serializedVersion: 2
+        x: 1934
+        y: 4502
+        width: 608
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00af5b4660ce52720800000000000000
+      internalID: 2820920253821090304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellsplat_wiggle_58
+      rect:
+        serializedVersion: 2
+        x: 2566
+        y: 4502
+        width: 608
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a1af033e38912910800000000000000
+      internalID: 1810895918091706784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellsplat_wiggle_59
+      rect:
+        serializedVersion: 2
+        x: 3202
+        y: 4502
+        width: 604
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4a240855e34dc130800000000000000
+      internalID: 3588599130387393099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellsplat_wiggle_60
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 4134
+        width: 607
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed049df8d7a3c06d0800000000000000
+      internalID: -3022976938913742626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellsplat_wiggle_61
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 4134
+        width: 608
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24c2dc79176147730800000000000000
+      internalID: 3995843446518393922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellsplat_wiggle_62
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 4134
+        width: 608
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40fa7592b2cbe6410800000000000000
+      internalID: 1472321021759958788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellsplat_wiggle_63
+      rect:
+        serializedVersion: 2
+        x: 1934
+        y: 4134
+        width: 608
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f547184793c6c77d0800000000000000
+      internalID: -2919339464419347361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellsplat_wiggle_64
+      rect:
+        serializedVersion: 2
+        x: 2566
+        y: 4134
+        width: 608
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e4327297a755a4b0800000000000000
+      internalID: -5429837398497151769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellsplat_wiggle_65
+      rect:
+        serializedVersion: 2
+        x: 3198
+        y: 4134
+        width: 607
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 228c1fda38594b8a0800000000000000
+      internalID: -6290238386738182110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellsplat_wiggle_66
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 3766
+        width: 605
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07edc6220c2ffced0800000000000000
+      internalID: -2391425970085241232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellsplat_wiggle_67
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 3766
+        width: 604
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05a79c0b1d63b6ef0800000000000000
+      internalID: -113937091325756848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellsplat_wiggle_68
+      rect:
+        serializedVersion: 2
+        x: 1298
+        y: 3766
+        width: 608
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3bb5ba53473be690800000000000000
+      internalID: -7571897586069161157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellsplat_wiggle_69
+      rect:
+        serializedVersion: 2
+        x: 1930
+        y: 3766
+        width: 608
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 068a384804e7c4320800000000000000
+      internalID: 2543546705123715168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellsplat_wiggle_70
+      rect:
+        serializedVersion: 2
+        x: 2562
+        y: 3766
+        width: 608
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8c369778d1f77b70800000000000000
+      internalID: 8896845500915268746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellsplat_wiggle_71
+      rect:
+        serializedVersion: 2
+        x: 3194
+        y: 3766
+        width: 608
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca1213c3ce29bfd30800000000000000
+      internalID: 4466324998787768748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellsplat_wiggle_72
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 3394
+        width: 608
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d18eabbb0cc8b340800000000000000
+      internalID: 4879874547021414867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellsplat_wiggle_73
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 3394
+        width: 608
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfd9f3bcc9a78fb30800000000000000
+      internalID: 4321338656305421819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellsplat_wiggle_74
+      rect:
+        serializedVersion: 2
+        x: 1298
+        y: 3394
+        width: 608
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b0b259a7a0c33230800000000000000
+      internalID: 3617446752041480375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellsplat_wiggle_75
+      rect:
+        serializedVersion: 2
+        x: 1927
+        y: 3394
+        width: 611
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b69ffb3ee9a200a0800000000000000
+      internalID: -6916779237013743952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellsplat_wiggle_76
+      rect:
+        serializedVersion: 2
+        x: 2558
+        y: 3394
+        width: 612
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3cbd50ae12c48440800000000000000
+      internalID: 4937284528300211258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellsplat_wiggle_77
+      rect:
+        serializedVersion: 2
+        x: 3190
+        y: 3394
+        width: 612
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dc55036e7cdefbd0800000000000000
+      internalID: -2594393899933541159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellsplat_wiggle_78
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 3026
+        width: 612
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 715e2bb132f97dee0800000000000000
+      internalID: -1236344599552531177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellsplat_wiggle_79
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 3025
+        width: 612
+        height: 333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de05fcf886b428f60800000000000000
+      internalID: 8035067597643796717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
