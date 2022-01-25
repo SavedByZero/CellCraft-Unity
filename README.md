@@ -6,3 +6,5 @@
  
 
 
+
+Note: Some of the cinematic scenes seem to be missing from the open source repo; namely, everything from the first couple of "scene" classes.
