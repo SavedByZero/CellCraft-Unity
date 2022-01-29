@@ -718,7 +718,7 @@ public class CellGameObject : MovieClip, ICellGameObject
 		updateLoc();
 	}
 
-	protected void doMoveToGobj()
+	protected virtual void doMoveToGobj()
 	{
 		if (go_dest == null || go_dest.dying)
 		{
@@ -845,18 +845,20 @@ public class CellGameObject : MovieClip, ICellGameObject
 		p_grid = g;
 	}*/
 
-	public void putInGrid()
+	public virtual void putInGrid()
 	{
-		float xx = x - cent_x + span_w / 2;
+		float xx = x - cent_x + span_w / 2;  //place in the grid at half the grid width from the center, half the grid height from the center??
 		float yy = y - cent_y + span_h / 2;
-		gdata.x = xx;
+		gdata.x = xx;                         //record the position of this object here. 
 		gdata.y = yy;
-		grid_x = (int)(xx / grid_w);
-		grid_y = (int)(yy / grid_h);
+		grid_x = (int)(xx / grid_w);          //  I don't entirely understand this formula or how it's trying to position the thing (yet)
+		grid_y = (int)(yy / grid_h);          //
 		if (grid_x < 0) grid_x = 0;
 		if (grid_y < 0) grid_y = 0;
 		if (grid_x >= grid_w) grid_x = (int)grid_w - 1;
 		if (grid_y >= grid_h) grid_y = (int)grid_h - 1;
+
+
 		//p_grid.putIn(grid_x, grid_y, gdata);  //TODO
 	}
 
@@ -879,7 +881,7 @@ public class CellGameObject : MovieClip, ICellGameObject
 		return gdata;
 	}
 
-	public void updateLoc()
+	public virtual void updateLoc()
 	{
 		/*var xx:Number = x + span_w / 2;
 		var yy:Number = y + span_h / 2;
@@ -897,7 +899,7 @@ public class CellGameObject : MovieClip, ICellGameObject
 		}*/
 	}
 
-	public void matchZoom(float n) 
+	public virtual void matchZoom(float n) 
 	{
 	
 	this.transform.localScale = new Vector3(1 / n, 1 / n, 1 / n);

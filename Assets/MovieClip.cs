@@ -16,11 +16,18 @@ public class MovieClip : MonoBehaviour
     private float _maxWidth;
     private float _maxHeight;
     private float _counter = 0;
-    private float _frameInterval = 0.0166f;
+    public float _frameInterval = 0.0166f;
     private int _spriteIndex = 0;
     protected bool _playing;
     public delegate void Finished(MovieClip mc);
     public Finished onFinished;
+    public float FrameInterval
+    {
+        get
+        {
+            return _frameInterval;
+        }
+    }
 
     public Sprite sprite
     {
@@ -102,9 +109,9 @@ public class MovieClip : MonoBehaviour
             if (_counter > _frameInterval)
             {
                 _counter = 0;
-                Debug.Log("old ndex " + _spriteIndex);
+               // Debug.Log("old ndex " + _spriteIndex);
                 _spriteIndex++;
-                Debug.Log("new index " + _spriteIndex);
+              //  Debug.Log("new index " + _spriteIndex);
                 if (_spriteIndex == Sprites.Length)
                 {
                     if (Loop)

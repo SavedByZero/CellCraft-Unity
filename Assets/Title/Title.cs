@@ -6,6 +6,7 @@ using DG.Tweening;
 
 public class Title : MonoBehaviour
 {
+    
     //Notes: The logging and stat recording system is obviously deprecated, but I marked down todo?s to remind myself to consider 
     //a replacement of some kind when everything else is done. 
 
@@ -33,7 +34,7 @@ public class Title : MonoBehaviour
 	public Button buttCredits;
 	public Button buttEncyclopedia;
 	public Button buttCellcraft;
-    public MovieClip CellSplat;
+    public MovieClipSwitcher CellThing;
 		
 	//public var sponsor:SponsorLogoLive;  //TODO
 	public Button c_butt_mute; //TODO
@@ -47,8 +48,9 @@ public class Title : MonoBehaviour
     void Start()
     {
         submitStats();
-        CellSplat.SetFrameInterval((float)1/24);
-        CellSplat.Play();
+        //CellThing.SetFrameInterval((float)1/24);
+        //CellSplat.Play();
+        CellThing.PlaySequence(new int[]{0,1,2},new float[]{1,0,-1});
         float time = (float)12 / 24;
         BGWater.transform.DOScale(2.5f, time);
         MenuBar.transform.DOScaleX(.3f, time);
@@ -131,7 +133,7 @@ public class Title : MonoBehaviour
             //Log.CustomMetric("title_play_game", "title");  //TODO?
           }
         Debug.Log("Title: goPlayGame");
-        //director.goPlayGame();  //TODO!
+        director.goPlayGame();  //TODO!
     }
 
     public void goCredits()

@@ -158,7 +158,7 @@ public class Cinema : MovieClip
 		Stop();
 		atHalt = true;
 		stopMusic();
-		//p_director.onFinishCinema();   //TODO
+		p_director.onFinishCinema();
 		//if (Director.STATS_ON) { Log.CustomMetric("cinema_finish_" + getName(myIndex), "cinema"); }
 	}
 

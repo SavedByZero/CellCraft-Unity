@@ -77,6 +77,7 @@ public class MenuSystem_LevelPicker : MenuSystem, IConfirmCaller
     {
 		
 		init();
+		
     }
 
 	public override void init()

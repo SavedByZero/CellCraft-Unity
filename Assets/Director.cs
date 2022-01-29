@@ -77,8 +77,14 @@ public class Director : MonoBehaviour
 		public static bool KONG_ON = false;
 		
 		public static string VERSION_STRING = "1.0.4";
-		private Title c_title;
+		public Title c_title;
 		private Cinema c_cinema;
+
+
+		private MenuSystem c_menu;
+	public MenuSystem_LevelPicker LevelPicker;
+		
+		public Cinema_Blank CinemaBlank;
 	
 		/*
 		[Embed(source = "../level_00.xml", mimeType = "application/octet-stream")]
@@ -641,10 +647,10 @@ public class Director : MonoBehaviour
 		c_cinema = null;
 		string s;
 
-		/*switch (i)
+		/*switch (i)  //TODO: implement this when and if the cinemas come in
 		{
-			case Cinema.NOTHING: c_cinema = Cinema(new Cinema_Blank()); s = "nothing"; break;
-			case Cinema.SPLASH: c_cinema = Cinema(new Cinema_Splash()); s = "splash"; break;
+			case Cinema.NOTHING: c_cinema = CinemaBlank; s = "nothing"; break;
+			case Cinema.SPLASH: c_cinema = CinemaBlank; s = "splash"; break;
 			case Cinema.SCENE_LAB_INTRO: c_cinema = Cinema(new Cinema_Scene1()); s = "lab intro"; break;
 			case Cinema.SCENE_LAB_BOARD: c_cinema = Cinema(new Cinema_Scene2()); s = "lab board"; break;
 			case Cinema.SCENE_LAUNCH: c_cinema = Cinema(new Cinema_Scene3()); s = "launch"; break;
@@ -656,14 +662,231 @@ public class Director : MonoBehaviour
 				break;
 			case Cinema.MITOSIS: c_cinema = Cinema(new Cinema_Mitosis()); s = "mitosis"; break;
 			case Cinema.SCENE_CREDITS: c_cinema = Cinema(new Cinema_Credits()); s = "credits"; break;
-		}
+		}*/
+
+		c_cinema = CinemaBlank; //Temporary
 		c_cinema.setIndex(i);
 		c_cinema.setDirector(this);
-		addChild(c_cinema);
+		c_cinema.transform.SetParent(this.transform, false);
 		c_cinema.startCinema();
-		fpsOnTop();*/
+		//fpsOnTop();
 
 	}
+
+	public void onFinishCinema()
+	{
+		int i = c_cinema.getIndex();
+		oldState(); //remove the cinema state
+		Debug.Log("Director.onFinishCinema() i=" + i + " state=" + state.getTop());
+		switch (state.getTop())
+		{
+
+			case GameState.INGAME:
+				switch (i)
+				{
+					case Cinema.MITOSIS:
+						unPauseGame();
+						//c_engine.finishMitosis();  //TODO
+						break; //after mitosis, return to the game
+					case Cinema.SCENE_LAB_INTRO:
+					case Cinema.SCENE_LAB_BOARD:
+					case Cinema.SCENE_LAUNCH:
+					case Cinema.SCENE_CRASH:
+					case Cinema.SCENE_LAND_CROC:
+						onFinishLevelCinema();
+						break;
+
+					default:
+						break;
+				}
+				break;
+
+			case GameState.NOSTATE:
+				switch (i)
+				{
+					case Cinema.SPLASH:
+						showTitle(); break; //after the splash screen, show the title screen
+				}
+				break;
+
+		}
+		//c_cinema.destruct();  //TODO
+		c_cinema.gameObject.transform.SetParent(null);
+		c_cinema = null;
+		onCinemaFinished(i);
+	}
+
+	public void onCinemaFinished(int i)
+	{
+		switch (i)
+		{
+			case Cinema.SCENE_FINALE:
+				//onFinishFinale();  //TODO
+				break;
+			case Cinema.SCENE_CREDITS:
+				//onFinishCredits();  //TODO
+				break;
+		}
+	}
+
+
+	// Goes to the title screen. It pushes the TITLE state onto the stateStack and then draws it.
+	public void showTitle()
+	{
+		//stage.quality = StageQuality.HIGH;
+		newState(GameState.TITLE);
+		makeTitle();
+	}
+
+
+
+
+
+
+	// Actually draws the title, attaches it and sets it up and everything
+
+	private void makeTitle()
+	{
+		//c_title = new Title();
+		c_title.setDirector(this);
+		c_title.transform.SetParent(this.transform, false);
+		//fpsOnTop();
+	}
+
+
+	public void onFinishLevelCinema()
+	{ //when an in-between level cinema finishes, go to the next level
+	  
+		//showMenu(MenuSystem.LEVELPICKER); //TODO
+	}
+
+	//Title functions
+
+	public void goPlayGame()
+	{
+		//if (Director.STATS_ON) { Log.Play(); }
+		
+		//remove the title screen
+		hideTitle();
+
+		newState(GameState.INGAME); //we are now in the game state
+								 //makeEngine();			 //create the engine and show it
+		showMenu(MenuSystem.LEVELPICKER);
+		//fpsOnTop();
+	}
+
+
+	// Used just to hide the title. If you want to oldState() back to the title, you'd best show it again!
+	private void hideTitle()
+	{
+		c_title.transform.gameObject.SetActive(false);
+	
+	}
+
+	//Show a specific menu
+	// @param	i The index of the menu, found in MenuSystem's constants
+	//
+
+	public void showMenu(int i, object parms = null)
+	{
+		//normalCursor();
+
+		contextPauseMenu();         //do something to respond to going into a menu
+		newState(GameState.INMENU);    //push INMENU onto the statestack
+
+		switch (i)
+		{                   //show the right menu
+			
+			/*case MenuSystem.INGAME:
+				c_menu = MenuSystem(new MenuSystem_InGame());
+				break;
+			case MenuSystem.OPTIONS:
+				//show the options menu	
+				break;
+			case MenuSystem.TUTORIAL:
+				c_menu = MenuSystem(new MenuSystem_Tutorial(TutorialEntry(parms)));
+				break;
+			case MenuSystem.HISTORY:
+				c_menu = MenuSystem(new MenuSystem_History(TutorialArchive(parms)));
+				break;
+			case MenuSystem.ENCYCLOPEDIA:
+				stage.quality = StageQuality.HIGH;
+				if (Director.STATS_ON) { Log.LevelCounterMetric("used_encyclopedia", curr_level); }
+				if (Director.STATS_ON) { Log.LevelAverageMetric("used_encyclopedia", curr_level, 1); }
+				if (Director.STATS_ON) { Log.CustomMetric("menu_open_encyclopedia", "menu"); }
+				if (parms)
+						c_menu = MenuSystem(new MenuSystem_Encyclopedia(String(parms)));
+					else
+					c_menu = MenuSystem(new MenuSystem_Encyclopedia());
+				break;*/
+			case MenuSystem.LEVELPICKER:
+				c_menu = LevelPicker;
+				LevelPicker.setData(d_lvlProgress, d_lvlInfo);
+				break;
+			/*case MenuSystem.ENDLEVEL:
+				c_menu = MenuSystem(new MenuSystem_EndLevel());
+				MenuSystem_EndLevel(c_menu).setData(Number(parms));
+				break;
+			case MenuSystem.REWARD:
+				c_menu = MenuSystem(new MenuSystem_Reward());
+				MenuSystem_Reward(c_menu).setData(WaveEntry(parms));
+				break;
+			case MenuSystem.SCREWED:
+				if (Director.STATS_ON) { Log.LevelCounterMetric("screwed", curr_level); }
+				if (Director.STATS_ON) { Log.LevelAverageMetric("screwed", curr_level, 1); }
+				if (Director.STATS_ON) { Log.CustomMetric("menu_open_screwed", "menu"); }
+				c_menu = MenuSystem(new MenuSystem_Screwed());
+				MenuSystem_Screwed(c_menu).setData((parms as Array));
+				break;*/
+		}
+		c_menu.setDirector(this);
+		//c_menu.setEngine(c_engine); //TODO
+		c_menu.transform.SetParent(this.transform, false);
+		c_menu.setIndex(i);
+		c_menu.init();
+		//fpsOnTop();
+	}
+
+	public void contextPauseMenu()
+	{
+		//trace("Director.contextPauseMenu()");
+		switch (state.getTop())
+		{
+			case GameState.CINEMA: pauseCinema(); break;
+			case GameState.INGAME: pauseGame(); break; //donothing
+
+		}
+	}
+
+
+
+	public void returnToGame()
+	{
+
+		makeEngine();            //create the engine and show it
+		//fpsOnTop();
+	}
+
+	public void makeEngine()
+	{
+
+		/*if (!c_engine)    //TODO
+		{
+			c_engine = new Engine();
+			addChild(c_engine);
+			c_engine.setDirector(this);
+			c_engine.init(curr_level);
+		}
+		else
+		{
+			throw new Error("Director.makeEngine() : c_engine = " + c_engine + "!");
+		}
+		makeCursor();*/
+	}
+
+
+
+
 
 
 
@@ -674,9 +897,6 @@ public class Director : MonoBehaviour
 		
 		public var c_engine:Engine;
 
-
-		private var c_menu:MenuSystem;
-		
 		private int exit_menu_code;
 		private int picked_level;
 		
@@ -868,79 +1088,6 @@ public function normalQuality()
 	stage.quality = MenuSystem_InGame._quality;
 }
 
-
- // Goes to the title screen. It pushes the TITLE state onto the stateStack and then draws it.
-
-
-public function showTitle()
-{
-	stage.quality = StageQuality.HIGH;
-	newState(DState.TITLE);
-	makeTitle();
-}
-
-
-// Actually draws the title, attaches it and sets it up and everything
-
-
-private void makeTitle()
-{
-	c_title = new Title();
-	c_title.setDirector(this);
-	addChild(c_title);
-	fpsOnTop();
-}
-
-
-// Used just to hide the title. If you want to oldState() back to the title, you'd best show it again!
-
-
-private void hideTitle()
-{
-	c_title.destruct();
-	removeChild(c_title);
-	c_title = null;
-}
-
-//Title functions
-
-public function goPlayGame()
-{
-	if (Director.STATS_ON) { Log.Play(); }
-	//fancyCursor();
-	//remove the title screen
-	hideTitle();
-
-	newState(DState.INGAME); //we are now in the game state
-							 //makeEngine();			 //create the engine and show it
-	showMenu(MenuSystem.LEVELPICKER);
-	fpsOnTop();
-}
-
-public function returnToGame()
-{
-	
-	makeEngine();            //create the engine and show it
-	fpsOnTop();
-}
-
-public function makeEngine()
-{
-
-	if (!c_engine)
-	{
-		c_engine = new Engine();
-		addChild(c_engine);
-		c_engine.setDirector(this);
-		c_engine.init(curr_level);
-	}
-	else
-	{
-		throw new Error("Director.makeEngine() : c_engine = " + c_engine + "!");
-	}
-	makeCursor();
-}
-
 public function nextLevel()
 {//cinema:String) {
 	endLevel(); //ends the engine but keeps us in the engine state
@@ -1020,14 +1167,6 @@ public function onFinishCredits()
 	}
 }
 
-public function onFinishLevelCinema()
-{ //when an in-between level cinema finishes, go to the next level
-  //curr_level++;
-  //returnToGame();
-  //switch(
-	showMenu(MenuSystem.LEVELPICKER);
-}
-
 public function resetGame()
 {
 	if (Director.STATS_ON) { Log.LevelAverageMetric("reset_level", curr_level, 1); }
@@ -1075,124 +1214,7 @@ private void unPauseCinema()
 // Called from WITHIN the Cinema movieclip. Terminates play and yields control to the director
 
 
-public function onFinishCinema()
-{
-	var i:int = c_cinema.getIndex();
-oldState(); //remove the cinema state
-trace("Director.onFinishCinema() i=" + i + " state=" + state.getTop());
-switch (state.getTop())
-{
 
-	case DState.INGAME:
-		switch (i)
-		{
-			case Cinema.MITOSIS:
-				unPauseGame();
-				c_engine.finishMitosis();
-				break; //after mitosis, return to the game
-			case Cinema.SCENE_LAB_INTRO:
-			case Cinema.SCENE_LAB_BOARD:
-			case Cinema.SCENE_LAUNCH:
-			case Cinema.SCENE_CRASH:
-			case Cinema.SCENE_LAND_CROC:
-				onFinishLevelCinema();
-				break;
-
-			default:
-				break;
-		}
-		break;
-
-	case DState.NOSTATE:
-		switch (i)
-		{
-			case Cinema.SPLASH:
-				showTitle(); break; //after the splash screen, show the title screen
-		}
-		break;
-
-}
-c_cinema.destruct();
-removeChild(c_cinema);
-c_cinema = null;
-onCinemaFinished(i);
-		}
-		
-		public function onCinemaFinished(i:int) {
-	switch (i)
-	{
-		case Cinema.SCENE_FINALE:
-			onFinishFinale();
-			break;
-		case Cinema.SCENE_CREDITS:
-			onFinishCredits();
-			break;
-	}
-}
-
-
-//Show a specific menu
- // @param	i The index of the menu, found in MenuSystem's constants
- //
-
-public function showMenu(i:int,params:*= null) {
-	//normalCursor();
-
-
-	contextPauseMenu();         //do something to respond to going into a menu
-	newState(DState.INMENU);    //push INMENU onto the statestack
-
-	switch (i)
-	{                   //show the right menu
-		case MenuSystem.INGAME:
-			c_menu = MenuSystem(new MenuSystem_InGame());
-			break;
-		case MenuSystem.OPTIONS:
-			//show the options menu	
-			break;
-		case MenuSystem.TUTORIAL:
-			c_menu = MenuSystem(new MenuSystem_Tutorial(TutorialEntry(params)));
-			break;
-		case MenuSystem.HISTORY:
-			c_menu = MenuSystem(new MenuSystem_History(TutorialArchive(params)));
-			break;
-		case MenuSystem.ENCYCLOPEDIA:
-			stage.quality = StageQuality.HIGH;
-			if (Director.STATS_ON) { Log.LevelCounterMetric("used_encyclopedia", curr_level); }
-			if (Director.STATS_ON) { Log.LevelAverageMetric("used_encyclopedia", curr_level, 1); }
-			if (Director.STATS_ON) { Log.CustomMetric("menu_open_encyclopedia", "menu"); }
-			if (params)
-						c_menu = MenuSystem(new MenuSystem_Encyclopedia(String(params)));
-					else
-				c_menu = MenuSystem(new MenuSystem_Encyclopedia());
-			break;
-		case MenuSystem.LEVELPICKER:
-			c_menu = MenuSystem(new MenuSystem_LevelPicker());
-			MenuSystem_LevelPicker(c_menu).setData(d_lvlProgress, d_lvlInfo);
-			break;
-		case MenuSystem.ENDLEVEL:
-			c_menu = MenuSystem(new MenuSystem_EndLevel());
-			MenuSystem_EndLevel(c_menu).setData(Number(params));
-			break;
-		case MenuSystem.REWARD:
-			c_menu = MenuSystem(new MenuSystem_Reward());
-			MenuSystem_Reward(c_menu).setData(WaveEntry(params));
-			break;
-		case MenuSystem.SCREWED:
-			if (Director.STATS_ON) { Log.LevelCounterMetric("screwed", curr_level); }
-			if (Director.STATS_ON) { Log.LevelAverageMetric("screwed", curr_level, 1); }
-			if (Director.STATS_ON) { Log.CustomMetric("menu_open_screwed", "menu"); }
-			c_menu = MenuSystem(new MenuSystem_Screwed());
-			MenuSystem_Screwed(c_menu).setData((params as Array));
-			break;
-	}
-	c_menu.setDirector(this);
-	c_menu.setEngine(c_engine);
-	addChild(c_menu);
-	c_menu.setIndex(i);
-	c_menu.init();
-	fpsOnTop();
-}
 
 public function setExitMenuCode(i:int,param: int) {
 	exit_menu_code = i;
@@ -1268,17 +1290,7 @@ switch (i)
 			
 		}
 		
-		public function contextPauseMenu()
-{
-	//trace("Director.contextPauseMenu()");
-	switch (state.getTop())
-	{
-		case DState.CINEMA: pauseCinema(); break;
-		case DState.INGAME: pauseGame(); break; //donothing
-
-	}
-}
-
+		
 public function contextUnPauseMenu()
 {
 	//trace("Director.contextUnPauseMenu()");

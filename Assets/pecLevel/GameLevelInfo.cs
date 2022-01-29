@@ -62,7 +62,7 @@ public class GameLevelInfo
 		list_lvl_names = new List<string>(max_level + 1);
 
 		for (int j = 0; j <= max_level; j++) { //default is no cinemas
-				list_lvl_cinemas[j] = -1;//Cinema.NOTHING; //TODO
+				list_lvl_cinemas.Add(Cinema.NOTHING);
 		}
 	}
 
@@ -70,33 +70,14 @@ public class GameLevelInfo
 	{
 
 		//Baked Mode:
-
-		list_lvl_designation[0] = LVL_REAL;
-		list_lvl_designation[1] = LVL_REAL;
-		list_lvl_designation[2] = LVL_REAL;
-		list_lvl_designation[3] = LVL_REAL;
-		list_lvl_designation[4] = LVL_REAL;
-		list_lvl_designation[5] = LVL_REAL;
-		list_lvl_designation[6] = LVL_REAL;
-		list_lvl_designation[7] = LVL_REAL;
-
-		list_lvl_label[0] = 1;
-		list_lvl_label[1] = 2;
-		list_lvl_label[2] = 3;
-		list_lvl_label[3] = 4;
-		list_lvl_label[4] = 5;
-		list_lvl_label[5] = 6;
-		list_lvl_label[6] = 7;
-		list_lvl_label[7] = 8;
-
-		list_lvl_names[0] = "Pseudopod for the Win";
-		list_lvl_names[1] = "Let's get Nuclear";
-		list_lvl_names[2] = "Insane in the Membrane";
-		list_lvl_names[3] = "Invasive Infection";
-		list_lvl_names[4] = "Green Thumb";
-		list_lvl_names[5] = "The Longest Journey";
-		list_lvl_names[6] = "Heat Shock Crisis";
-		list_lvl_names[7] = "Indigestion";
+		for(int i=0; i <= max_level; i++ )
+        {
+			list_lvl_designation.Add(LVL_REAL);
+			list_lvl_label.Add(i + 1);
+        }
+		
+		list_lvl_names = new List<string>{ "Pseudopod for the Win", "Let's get Nuclear","Insane in the Membrane","Invasive Infection","Green Thumb","The Longest Journey","Heat Shock Crisis","Indigestion"};
+	
 
 		/*
 		list_lvl_cinemas[0] = Cinema.SCENE_LAB_INTRO;

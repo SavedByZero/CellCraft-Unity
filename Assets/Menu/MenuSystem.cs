@@ -4,23 +4,23 @@ using UnityEngine;
 
 public class MenuSystem : MovieClip
 {
-	public static int INGAME = 0;
-	public static int OPTIONS = 1;
-	public static int TUTORIAL = 2;
-	public static int HISTORY = 3;
-	public static int ENCYCLOPEDIA = 4;
-	public static int LEVELPICKER = 5;
-	public static int REWARD = 6;
-	public static int SCREWED = 7;
-	public static int ENDLEVEL = 8;
+	public const int INGAME = 0;
+	public const int OPTIONS = 1;
+	public const int TUTORIAL = 2;
+	public const int HISTORY = 3;
+	public const int ENCYCLOPEDIA = 4;
+	public const int LEVELPICKER = 5;
+	public const int REWARD = 6;
+	public const int SCREWED = 7;
+	public const int ENDLEVEL = 8;
 		
 	protected int myIndex = -1;
 	protected Director p_director;
 	//protected var p_engine:Engine;  //TODO
 		
-	public static int EXIT_PICK = 1;
-	public static int EXIT_TITLE = 0;
-	public static int EXIT_RESET = 2;
+	public const int EXIT_PICK = 1;
+	public const int EXIT_TITLE = 0;
+	public const int EXIT_RESET = 2;
 
 	public void fancyCursor()
 	{
