@@ -1,0 +1,847 @@
+fileFormatVersion: 2
+guid: cf431463def970a4ebdcb66f9acca70d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -830705699453089630
+    second: mc_resourceSwitcher_sheet_0
+  - first:
+      213: 3574666530167395935
+    second: mc_resourceSwitcher_sheet_1
+  - first:
+      213: -228189172449826209
+    second: mc_resourceSwitcher_sheet_2
+  - first:
+      213: 4926123760938251991
+    second: mc_resourceSwitcher_sheet_3
+  - first:
+      213: 6168637615093980687
+    second: mc_resourceSwitcher_sheet_4
+  - first:
+      213: -8645788521080083750
+    second: mc_resourceSwitcher_sheet_5
+  - first:
+      213: -3874328795631216832
+    second: mc_resourceSwitcher_sheet_6
+  - first:
+      213: -717206870241678337
+    second: mc_resourceSwitcher_sheet_7
+  - first:
+      213: 2866376565478521553
+    second: mc_resourceSwitcher_sheet_8
+  - first:
+      213: -8760088559929870656
+    second: mc_resourceSwitcher_sheet_9
+  - first:
+      213: 5560814626123842396
+    second: mc_resourceSwitcher_sheet_10
+  - first:
+      213: 3305904662679895117
+    second: mc_resourceSwitcher_sheet_11
+  - first:
+      213: -8638582205115262157
+    second: mc_resourceSwitcher_sheet_12
+  - first:
+      213: 6818264774070324082
+    second: mc_resourceSwitcher_sheet_13
+  - first:
+      213: 7537728818118508310
+    second: mc_resourceSwitcher_sheet_14
+  - first:
+      213: 2144481428883897880
+    second: mc_resourceSwitcher_sheet_15
+  - first:
+      213: -2636742847122432442
+    second: mc_resourceSwitcher_sheet_16
+  - first:
+      213: 2216631787869525434
+    second: mc_resourceSwitcher_sheet_17
+  - first:
+      213: -8105550584143703929
+    second: mc_resourceSwitcher_sheet_18
+  - first:
+      213: -3074561877212432460
+    second: mc_resourceSwitcher_sheet_19
+  - first:
+      213: -1699636159725531891
+    second: mc_resourceSwitcher_sheet_20
+  - first:
+      213: -5765050051874650855
+    second: mc_resourceSwitcher_sheet_21
+  - first:
+      213: 6491638967412683985
+    second: mc_resourceSwitcher_sheet_22
+  - first:
+      213: 6854279569575345324
+    second: mc_resourceSwitcher_sheet_23
+  - first:
+      213: 5855489012376611397
+    second: mc_resourceSwitcher_sheet_24
+  - first:
+      213: -7297431834116059909
+    second: mc_resourceSwitcher_sheet_25
+  - first:
+      213: 7477499774124852598
+    second: mc_resourceSwitcher_sheet_26
+  - first:
+      213: 7728159336667989784
+    second: mc_resourceSwitcher_sheet_27
+  - first:
+      213: -4925068599506851502
+    second: mc_resourceSwitcher_sheet_28
+  - first:
+      213: -2575396020885929151
+    second: mc_resourceSwitcher_sheet_29
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mc_resourceSwitcher_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 450
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a8c43f419db874f0800000000000000
+      internalID: -830705699453089630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc_resourceSwitcher_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 450
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f561b111544cb9130800000000000000
+      internalID: 3574666530167395935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc_resourceSwitcher_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 450
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5aa98a182f45dcf0800000000000000
+      internalID: -228189172449826209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc_resourceSwitcher_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 407
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d6f55af57b1d5440800000000000000
+      internalID: 4926123760938251991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc_resourceSwitcher_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 408
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0e1ac36a376b9550800000000000000
+      internalID: 6168637615093980687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc_resourceSwitcher_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 407
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ada2fddb52df30880800000000000000
+      internalID: -8645788521080083750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc_resourceSwitcher_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 364
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0479559cc7e9b3ac0800000000000000
+      internalID: -3874328795631216832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc_resourceSwitcher_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 364
+        width: 62
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffb66c4c628fb06f0800000000000000
+      internalID: -717206870241678337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc_resourceSwitcher_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 364
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1daf9d1bc4a67c720800000000000000
+      internalID: 2866376565478521553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc_resourceSwitcher_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 321
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c6ba602ed9ed6680800000000000000
+      internalID: -8760088559929870656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc_resourceSwitcher_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 325
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5388e3a07bfb2d40800000000000000
+      internalID: 5560814626123842396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc_resourceSwitcher_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 325
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4cb75876cee0ed20800000000000000
+      internalID: 3305904662679895117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc_resourceSwitcher_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 282
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33b181de0479d1880800000000000000
+      internalID: -8638582205115262157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc_resourceSwitcher_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 282
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27b4503ffa75f9e50800000000000000
+      internalID: 6818264774070324082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc_resourceSwitcher_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 280
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61fbd296c646b9860800000000000000
+      internalID: 7537728818118508310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc_resourceSwitcher_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 239
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81efb046f7ab2cd10800000000000000
+      internalID: 2144481428883897880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc_resourceSwitcher_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 238
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64e1731c958686bd0800000000000000
+      internalID: -2636742847122432442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc_resourceSwitcher_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 238
+        width: 52
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab55dc9edde03ce10800000000000000
+      internalID: 2216631787869525434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc_resourceSwitcher_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 195
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 780972350bc438f80800000000000000
+      internalID: -8105550584143703929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc_resourceSwitcher_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 195
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b77bcc2346f455d0800000000000000
+      internalID: -3074561877212432460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc_resourceSwitcher_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 200
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0d8624faeda968e0800000000000000
+      internalID: -1699636159725531891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc_resourceSwitcher_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 157
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9150aa9b58d6effa0800000000000000
+      internalID: -5765050051874650855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc_resourceSwitcher_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 157
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d477b62f3fe61a50800000000000000
+      internalID: 6491638967412683985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc_resourceSwitcher_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 157
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cac71c7f3fa4f1f50800000000000000
+      internalID: 6854279569575345324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc_resourceSwitcher_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 110
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54a29e8ab30e24150800000000000000
+      internalID: 5855489012376611397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc_resourceSwitcher_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 114
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfc82ea09605aba90800000000000000
+      internalID: -7297431834116059909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc_resourceSwitcher_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 113
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67586c45d6a65c760800000000000000
+      internalID: 7477499774124852598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc_resourceSwitcher_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 70
+        width: 33
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 817c6bd98ffef3b60800000000000000
+      internalID: 7728159336667989784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc_resourceSwitcher_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 71
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 259a6ffe334a6abb0800000000000000
+      internalID: -4925068599506851502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc_resourceSwitcher_sheet_29
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 71
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 143c32bc6fa524cd0800000000000000
+      internalID: -2575396020885929151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

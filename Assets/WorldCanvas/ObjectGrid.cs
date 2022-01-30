@@ -11,6 +11,7 @@ public class ObjectGrid : MonoBehaviour
 	private float half_w;
 	private float half_h;
 	private List<List<List<GameDataObject>>> grid;
+	
 
 	private List<GameDataObject> v;
 	public GameObject grid_shape;
