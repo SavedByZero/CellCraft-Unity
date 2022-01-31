@@ -47,10 +47,15 @@ public class Title : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+       
+    }
+
+    public void onTitleStart()
+    {
         submitStats();
         //CellThing.SetFrameInterval((float)1/24);
         //CellSplat.Play();
-        CellThing.PlaySequence(new int[]{0,1,2},new float[]{1,0,-1});
+        CellThing.PlaySequence(new int[] { 0, 1, 2 }, new float[] { 1, 0, -1 });
         float time = (float)12 / 24;
         BGWater.transform.DOScale(2.5f, time);
         MenuBar.transform.DOScaleX(.3f, time);
@@ -58,9 +63,9 @@ public class Title : MonoBehaviour
         MenuBar.transform.DOMoveY(-1.7f, time);
         Microscope.transform.DOMoveX(-1.76f, time);
         Microscope.transform.DOScale(0.76f, time);
-        buttPlayGame.transform.DOMoveX(0, time/2).SetDelay(0.5f).SetEase(Ease.InOutElastic);
-        buttEncyclopedia.transform.DOMoveX(0, time/2).SetDelay(0.5f).SetEase(Ease.OutBounce);
-        buttCredits.transform.DOMoveX(0, time/2).SetDelay(0.5f).SetEase(Ease.OutBounce);
+        buttPlayGame.transform.DOMoveX(0, time / 2).SetDelay(0.5f).SetEase(Ease.InOutElastic);
+        buttEncyclopedia.transform.DOMoveX(0, time / 2).SetDelay(0.5f).SetEase(Ease.OutBounce);
+        buttCredits.transform.DOMoveX(0, time / 2).SetDelay(0.5f).SetEase(Ease.OutBounce);
         MusicManager.Play(Music.MusicTitleLoop);
     }
 

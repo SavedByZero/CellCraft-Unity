@@ -160,8 +160,7 @@ public class MusicManager
         {
             case Music.MusicBattle:
                 return Resources.Load<AudioClip>(loc + "MusicBattle");
-             case Music.MusicBattleIntro:
-                return Resources.Load<AudioClip>(loc + "MusicBattleIntro");
+
              case Music.MusicCalm:
                 return Resources.Load<AudioClip>(loc + "MusicCalm");
              case Music.MusicCredits:
@@ -185,7 +184,6 @@ public enum Music
 {
     None,
     MusicBattle,
-    MusicBattleIntro,
     MusicCalm,
     MusicCredits,
     MusicFinale,

@@ -155,9 +155,20 @@ public class Director : MonoBehaviour
 		//public var c_preload:Preloader;
 		public bool loaderStarted = false;
 		public PauseSprite c_pauseSprite;
-	private bool _started;
-	public FPSCounter c_fps;
-	
+		private bool _started;
+		public FPSCounter c_fps;
+		private int exit_menu_code;
+		private int picked_level;
+		public Cursor c_cursor;
+		private static float vol_music = 0.25f;
+		private static float vol_sound = 0.40f;
+		private static bool mute_music = false;
+		private static bool old_mute_music = false;
+		private static bool mute_sound = false;
+		private static bool old_mute_sound = false;
+
+
+
 	void Start()
 	{
 		c_fps = new FPSCounter();
@@ -311,6 +322,10 @@ public class Director : MonoBehaviour
 			case CHEAT_7:
 			case CHEAT_8: cheat(e.keyCode); break;
 			case CHEAT_9: LevelProgress.clearProgress(); break;*/
+		if (c_cursor != null && c_cursor.gameObject.activeSelf)
+        {
+			c_cursor.transform.position = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        }
 
 	}
 
@@ -885,573 +900,570 @@ public class Director : MonoBehaviour
 	}
 
 
+	public static int level()
+	{
+		return curr_level;
+	}
 
 
+	void siteLock()
+	{
+
+
+		init();
+	}
+
+
+	public static float getMusicVolume()
+	{
+		return vol_music;
+	}
+
+	public static float getSFXVolume()
+	{
+		return vol_sound;
+	}
+
+	public static bool getMusicMute()
+	{
+		return mute_music;
+	}
+
+	public static bool getSoundMute()
+	{
+		return mute_sound;
+	}
+
+	public static void rememberSFXMute()
+	{
+		mute_sound = old_mute_sound;
+		SfxManager.SetMute(mute_sound);
+	}
+
+
+	public static void rememberMusicMute()
+	{
+		mute_music = old_mute_music;
+		MusicManager.SetMute(mute_music);
+	}
+
+	public static void setSFXMute(bool doMute, bool remember = false)
+	{
+		if (remember)
+		{
+			old_mute_sound = mute_sound;
+		}
+		mute_sound = doMute;
+		SfxManager.SetMute(doMute);
+	}
+
+	public static void setMusicMute(bool doMute, bool remember = false)
+	{
+		if (remember)
+		{
+			old_mute_music = mute_music;
+		}
+		mute_music = doMute;
+		MusicManager.SetMute(doMute);
+	}
+
+	public static void setSFXVolume(float vol)
+	{
+		vol_sound = vol;
+		SfxManager.SetVolume(vol);
+	}
+
+	public static void setMusicVolume(float vol)
+	{
+		vol_music = vol;
+		SfxManager.SetVolume(vol);
+	}
+
+	public static void pauseAllSFX(bool b)
+	{
+		if (b)
+			SfxManager.StopAll(); //.pauseAllSFX(b);
+	}
+
+	public static void pauseMusic(bool b)
+	{
+		if (b)
+			MusicManager.Pause();
+		else
+			MusicManager.Resume();
+	}
+
+	public static void setHalfVolume(bool b)
+	{
+		if (b)
+		{
+			SfxManager.SetVolume(0.5f);
+			MusicManager.SetVolume(0.5f);
+		}
+		else
+		{
+			SfxManager.SetVolume(1f);
+			MusicManager.SetVolume(1f);
+		}
+	}
+
+
+	public static void pauseAudio(bool b)
+	{
+		if (b)
+        {
+			SfxManager.StopAll();
+			MusicManager.Stop();
+        }
+	}
+
+	public static void stopAllSFX()
+	{
+		SfxManager.StopAll();
+	}
+
+	public static bool stopSFX(int extId)
+	{
+		return false;  //deprecating this
+		//return c_soundMgr.stopSFX(extID);
+	}
+
+	public static void startSFX(int soundID, bool loop = false) 
+	{
+		//deprecating this too
+	}
+
+
+	public static void onSoundFinish(SFX id)
+	{
+		switch (id)
+		{
+			case SFX.MusicBattleIntro:
+				MusicManager.Play(Music.MusicBattle);
+				break;
+		}
+	}
+
+	public static void stopMusic()
+	{
+		MusicManager.Stop();
+	}
+
+	public static int startMusic(Music soundID, bool loop = true)
+	{
+		MusicManager.Play(soundID);//.startMusic(soundID, loop);
+		return 1;
+	}
+
+
+	private void makeFPSCounter()
+	{
+		//c_fps = new FPSCounter(610, 0, 0xFFFFFF, true);
+		//addChild(c_fps);
+	}
+
+	private void fpsOnTop()
+	{
+		/*if (c_fps)
+		{
+			setChildIndex(c_fps, numChildren - 1);
+		}*/
+	}
+
+
+
+	public void tempHighQuality()
+	{
+		//stage.quality = StageQuality.HIGH;
+	}
+
+	public void normalQuality()
+	{
+		//stage.quality = MenuSystem_InGame._quality;
+	}
+
+	public void nextLevel()
+	{
+		endLevel(); //ends the engine but keeps us in the engine state
+
+		//if (Director.KONG_ON) { Director.kongregate.stats.submit("level_beaten_" + curr_level, 1); }
+		//if (Director.STATS_ON) { Log.LevelCounterMetric("beat_level", curr_level); }
+		LevelProgress.setLevelBeaten(curr_level, true); //player gets credit for beating the level
+
+		if (d_lvlInfo.maxLevel == curr_level)
+		{
+		//	if (Director.KONG_ON) { Director.kongregate.stats.submit("game_beaten", 1); }
+			LevelProgress.setGameBeaten(true);
+		}
+
+
+		bool success = false;
+
+		//var cinema:int 
+
+
+
+
+		int cinema = d_lvlInfo.getLvlCinema(curr_level);
+
+		if (cinema != Cinema.NOTHING)
+		{ //if there is a cinema, figure out what it is, and then show it
+		  //var i:int = Cinema.getByName(cinema);
+			showCinema(cinema);
+			success = true;
+		}
+
+		if (!success)
+		{ //if there was no cinema, just go to the next level
+			onFinishLevelCinema();
+		}
+	}
+
+	public void pickLevel(int i)
+	{
+		curr_level = i;
+		returnToGame();
+	}
+
+
+
+	public void onFinishFinale()
+	{
+
+		Debug.Log("Director.onFinishFinale()");
+		showCinema(Cinema.SCENE_CREDITS);
+	}
+
+	public void onFinishCredits()
+	{
+		//showTitle();
+		//oldState();
+		switch (state.getTop())
+		{
+			case GameState.INGAME:
+				oldState(); //get out of the game, hopefully to the title
+				onFinishCredits(); //do this again, hopefully should get us to the title
+				break;
+			case GameState.INMENU:
+				if (c_menu is MenuSystem_LevelPicker)
+				{
+					MenuSystem_LevelPicker lp = c_menu as MenuSystem_LevelPicker;
+					if (c_title)
+					{
+						c_title.onTitleStart();
+					}
+					lp.onTitle(); 
+					
+				}
+				break;
+			case GameState.TITLE:
+				if (c_title)
+				{
+					c_title.onTitleStart();
+				}
+				
+				break;
+		}
+	}
+
+	public void resetGame()
+	{
+		//if (Director.STATS_ON) { Log.LevelAverageMetric("reset_level", curr_level, 1); }
+		//if (Director.STATS_ON) { Log.LevelCounterMetric("reset_level", curr_level); }
+
+		endLevel();
+		
+		makeEngine();
+		fpsOnTop();
+	}
+
+	public void endLevel()
+	{
+		/*
+		removeChild(c_engine);
+		c_engine.destruct();    //TODO
+		c_engine = null;*/
+	}
+
+
+	public void quitGame()
+	{
+		//if (Director.STATS_ON) { Log.LevelAverageMetric("quit_level", curr_level, 1); }
+		//if (Director.STATS_ON) { Log.LevelCounterMetric("quit_level", curr_level); }
+		Debug.Log("Director.quitGame()!");
+		endLevel();
+		oldState();
+		//showMenu(MenuSystem.LEVELPICKER);
+	}
+
+	// Cinema resumes play
+
+	private void unPauseCinema()
+	{
+		if (c_cinema)
+			c_cinema.unPause();
+	}
+
+
+	// Called from WITHIN the Cinema movieclip. Terminates play and yields control to the director
+
+	public void setExitMenuCode(int i, int param)
+	{
+		exit_menu_code = i;
+		switch (i)
+		{
+			case MenuSystem.EXIT_PICK:
+				picked_level = param; break;
+			case MenuSystem.EXIT_TITLE:
+				break;
+		}
+	}
+
+
+	public void exitMenu()
+	{
+		c_menu.transform.SetParent(null);
+		oldState();           //exit the menu state
+		contextUnPauseMenu(); //You MUST unpause before telling the engine to respond! Bugzors otherwise!
+		int i = c_menu.getIndex(); 
+	
+		/*                                    //TODO
+		var reward_array:Array;
+		if (i == MenuSystem.REWARD)
+		{ //HACK
+			reward_array = MenuSystem_Reward(c_menu).getRewards();
+		}*/
+
+		c_menu.destruct();
+		c_menu = null;
+
+		switch (i)
+		{
+			case MenuSystem.TUTORIAL: 
+				//c_engine.onExitTutorial();  //TODO 
+				break;
+			case MenuSystem.HISTORY: 
+				//c_engine.onExitHistory(); //TODO
+				break;
+			case MenuSystem.LEVELPICKER:
+				//var code:int = MenuSystem_LevelPicker(c_menu).exitCode;
+				switch (exit_menu_code)
+				{
+					case MenuSystem.EXIT_PICK:  //go to the picked level
+						pickLevel(picked_level); break;
+					case MenuSystem.EXIT_TITLE: //go back to the title screen
+												//showTitle
+						oldState(); //exit whatever state we were in before, almost certainly ENGINE_STATE
+									//if the title was beneath this, it should re-show the title!
+						if (c_title)
+						{
+							c_title.onTitleStart();
+						}
+						break;
+					case MenuSystem.EXIT_RESET:
+						showMenu(MenuSystem.LEVELPICKER); //show the menu again!
+						break;
+				}
+				break;
+			case MenuSystem.INGAME:
+				if (state.getTop() == GameState.INGAME)
+				{
+					//c_engine.updateMuteButton();  //TODO
+				}
+				break;
+			case MenuSystem.REWARD:
+				if (state.getTop() == GameState.INGAME)
+				{
+					//c_engine.getRewards(reward_array);   //TODO
+				}
+				break;
+			case MenuSystem.ENDLEVEL:
+				if (state.getTop() == GameState.INGAME)
+				{
+					//c_engine.onEndLevelMenuClose();  //TODO
+				}
+				break;
+		}
+
+
+
+	}
+
+
+	public void contextUnPauseMenu()
+	{
+		//trace("Director.contextUnPauseMenu()");
+		switch (state.getTop())
+		{
+			case GameState.CINEMA: unPauseCinema(); break;
+			case GameState.INGAME: unPauseGame(); 
+				fancyCursor(); 
+				break; //donothing
+
+		}
+	}
+
+	public void startFauxPause()
+	{
+		if (state.getTop() != GameState.FAUXPAUSED)
+		{
+			if (state.getTop() == GameState.INGAME)
+			{
+				newState(GameState.FAUXPAUSED);
+				showPauseSprite("faux");
+				releaseInput();
+			}
+		}
+	}
+
+	public void endFauxPause()
+	{
+		if (state.getTop() == GameState.FAUXPAUSED)
+		{
+			oldState();
+			hidePauseSprite();
+		}
+	}
+
+	public void toggleFauxPause()
+	{
+		if (state.getTop() != GameState.FAUXPAUSED)
+		{
+			if (state.getTop() == GameState.INGAME)
+			{ //can ONLY fauxpause from ingame!
+			  //contextFauxPause();
+				newState(GameState.FAUXPAUSED);
+				showPauseSprite("faux");
+				releaseInput();
+			}
+			else
+			{
+				oldState();
+				//contextUnFauxPause();
+				hidePauseSprite();
+			}
+		}
+	}
+
+	// Pauses the game if not in paused state, otherwise unpauses
+	//
+
+	public void togglePause()
+	{
+		if (state.getTop() != GameState.PAUSED)
+		{
+		//	if (Director.STATS_ON) { Log.CustomMetric("pause_game", "interface"); }
+			//if (Director.STATS_ON) { Log.LevelAverageMetric("pause_game", curr_level, 1); }
+			contextPause(); //ALWAYS do the correct context action depending on which state we were in first!
+			newState(GameState.PAUSED); //then, we pause
+			showPauseSprite();
+			releaseInput();
+		}
+		else
+		{
+			//if (Director.STATS_ON) { Log.CustomMetric("unpause_game", "interface"); }
+			oldState();       //ALWAYS return to the correct state first!
+			contextUnPause(); //then, do the correct context action depending on which state we were in
+			hidePauseSprite();
+		}
+	}
+
+	private void makeCursor()
+	{
+		c_cursor.show();
+		c_cursor.setEngine(c_engine);
+		//c_engine.receiveCursor(c_cursor);  //TODO
+	}
+
+	public void moveCursor()
+	{
+		//c_cursor.followMouse(m);
+		c_cursor.updateMoveCost();
+	}
+
+	public void normalCursor()
+	{
+		if (c_cursor)
+			c_cursor.normal(true);
+	}
+
+	public void fancyCursor()
+	{
+		if (c_cursor)
+			c_cursor.normal(false);
+	}
+
+	public void showCursor(int i)
+	{
+		//setChildIndex(c_cursor, numChildren - 1);
+		c_cursor.transform.SetSiblingIndex(c_cursor.transform.childCount - 1);
+		bool cursorShown = c_cursor.show(i);
+
+		//c_engine.setSelectMode(!cursorShown); //if the cursor is shown, selectMode is false  //TODO
+	}
+
+
+	// Makes the pause sprite and attaches it to the stage (it hides automatically until shown)
+
+	public void contextFauxPause()
+	{ //will ALWAYS be for ingame state
+	  //pauseGame();
+	}
+
+	public void contextUnFauxPause()
+	{
+		//unPauseGame();
+	}
+
+	// Runs every frame, and gives functionality to the underlying classes
+	private void cheat(int i)
+	{
+		switch (state.getTop())
+		{
+			case GameState.INGAME:
+				//c_engine.cheat(i);
+				break;
+			case GameState.TITLE:
+				d_lvlProgress.maxLevelBeaten(i);
+				break;
+		}
+	}
+
+	private void listenDeactivate()
+	{
+
+		clearKeys(); //when the player deactivates, we have no idea what's down, so we assume they were all lifted
+	}
+
+
+	/*                                             //deprecating this also 
+	public static function startMusicAt(position:int, soundID: int= -1, loop:Boolean = false) {
+		return c_soundMgr.startMusicAt(position, soundID, loop);
+	
+
+	}*/
 
 
 
 	//BOOKMARK: you were here 
 	/*
-		public var c_cursor:Cursor;
 		
 		
 		public var c_engine:Engine;
 
-		private int exit_menu_code;
-		private int picked_level;
 		
 		private var c_cross:Cross;
 		
 		private static var c_soundMgr:SoundManager;
 		
-		private static float vol_music = 0.25f;
-		private static float vol_sound = 0.40f;
-		private static bool mute_music = false;
-		private static bool old_mute_music = false;
-		private static bool mute_sound = false;
-		private static bool old_mute_sound = false;
-
+		
 		
 		// Kongregate API reference
 		public static var kongregate:*;
 
 
 
-
-
-	public static int level()  {
-			return curr_level;	
-		}
-
-
-void siteLock()
-{
-
-	
-		init();
-}
-
-
-public static function getMusicVolume():Number
-{
-	return vol_music;
-}
-
-public static function getSFXVolume():Number
-{
-	return vol_sound;
-}
-
-public static function getMusicMute():Boolean
-{
-	return mute_music;
-}
-
-public static function getSoundMute():Boolean
-{
-	return mute_sound;
-}
-
-public static function rememberSFXMute()
-{
-	mute_sound = old_mute_sound;
-	c_soundMgr.setSFXMute(mute_sound);
-}
-
-public static function rememberMusicMute()
-{
-	mute_music = old_mute_music;
-	c_soundMgr.setMusicMute(mute_music);
-}
-
-public static function setSFXMute(doMute:Boolean,remember: Boolean = false) {
-	if (remember)
-	{
-		old_mute_sound = mute_sound;
-	}
-	mute_sound = doMute;
-	c_soundMgr.setSFXMute(doMute);
-}
-
-public static function setMusicMute(doMute:Boolean,remember: Boolean = false) {
-	if (remember)
-	{
-		old_mute_music = mute_music;
-	}
-	mute_music = doMute;
-	c_soundMgr.setMusicMute(doMute);
-}
-
-public static function setSFXVolume(vol:Number) {
-	vol_sound = vol;
-	c_soundMgr.setSFXVolume(vol);
-}
-
-public static function setMusicVolume(vol:Number) {
-	vol_music = vol;
-	c_soundMgr.setMusicVolume(vol);
-}
-
-public static function pauseAllSFX(b:Boolean) {
-	c_soundMgr.pauseAllSFX(b);
-}
-
-public static function pauseMusic(b:Boolean) {
-	c_soundMgr.pauseMusic(b);
-}
-
-public static function setHalfVolume(b:Boolean) {
-	if (b)
-	{
-		setSFXVolume(MenuSystem_InGame._volSound / 200);     //MenuSystem volume are on 0-100 scale, soundMgr is on 0-1
-		setMusicVolume(MenuSystem_InGame._volMusic / 200); // x/200 means - convert to 0-1, then take half
-	}
-	else
-	{
-		setSFXVolume(MenuSystem_InGame._volSound / 100);  //normal volume, just convert the scale
-		setMusicVolume(MenuSystem_InGame._volMusic / 100);
-	}
-}
-
-
-public static function pauseAudio(b:Boolean) {
-	c_soundMgr.pauseAllSFX(b);
-	c_soundMgr.pauseMusic(b);
-}
-
-public static function stopAllSFX()
-{
-	c_soundMgr.stopAllSFX();
-}
-
-public static function stopSFX(extID:int):Boolean
-{
-	return c_soundMgr.stopSFX(extID);
-}
-
-public static function startSFX(soundID:int, loop: Boolean = false) {
-	return c_soundMgr.startSFX(soundID, loop);
-}
-
-public static function startMusicAt(position:int, soundID: int= -1, loop:Boolean = false) {
-	return c_soundMgr.startMusicAt(position, soundID, loop);
-
-}
-
-public static function onSoundFinish(id:int) {
-	switch (id)
-	{
-		case SoundLibrary.MUS_BATTLE_INTRO:
-			startMusic(SoundLibrary.MUS_BATTLE, true);
-			break;
-	}
-}
-
-public static function stopMusic()
-{
-	c_soundMgr.stopMusic();
-}
-
-public static function startMusic(soundID:int,loop: Boolean):int
-{
-	return c_soundMgr.startMusic(soundID, loop);
-	return 0;
-}
-
-
   //Creates the state stack, creates the pause sprite, and other basic bootstrap functions
-
-
-private void makeFPSCounter()
-{
-	c_fps = new FPSCounter(610, 0, 0xFFFFFF, true);
-	addChild(c_fps);
-}
-
-private void fpsOnTop()
-{
-	if (c_fps)
-	{
-		setChildIndex(c_fps, numChildren - 1);
-	}
-}
-
-
-
-public function tempHighQuality()
-{
-	stage.quality = StageQuality.HIGH;
-}
-
-public function normalQuality()
-{
-	stage.quality = MenuSystem_InGame._quality;
-}
-
-public function nextLevel()
-{//cinema:String) {
-	endLevel(); //ends the engine but keeps us in the engine state
-
-	if (Director.KONG_ON) { Director.kongregate.stats.submit("level_beaten_" + curr_level, 1); }
-	if (Director.STATS_ON) { Log.LevelCounterMetric("beat_level", curr_level); }
-	LevelProgress.setLevelBeaten(curr_level, true); //player gets credit for beating the level
-
-	if (d_lvlInfo.maxLevel == curr_level)
-	{
-		if (Director.KONG_ON) { Director.kongregate.stats.submit("game_beaten", 1); }
-		LevelProgress.setGameBeaten(true);
-	}
-
-
-	var success:Boolean = false;
-
-//var cinema:int 
-
-
-
-
-var cinema:int;
-cinema = d_lvlInfo.getLvlCinema(curr_level);
-
-if (cinema != Cinema.NOTHING)
-{ //if there is a cinema, figure out what it is, and then show it
-  //var i:int = Cinema.getByName(cinema);
-	showCinema(cinema);
-	success = true;
-}
-
-if (!success)
-{ //if there was no cinema, just go to the next level
-	onFinishLevelCinema();
-}
-		}
-		
-		public function pickLevel(i:int) {
-	curr_level = i;
-	returnToGame();
-}
-
-public function onFinishFinale()
-{
-
-	trace("Director.onFinishFinale()");
-	showCinema(Cinema.SCENE_CREDITS);
-}
-
-public function onFinishCredits()
-{
-	//showTitle();
-	//oldState();
-	switch (state.getTop())
-	{
-		case DState.INGAME:
-			oldState(); //get out of the game, hopefully to the title
-			onFinishCredits(); //do this again, hopefully should get us to the title
-			break;
-		case DState.INMENU:
-			if (c_menu is MenuSystem_LevelPicker)
-			{
-				if (c_title)
-				{
-					c_title.onTitleStart();
-				}
-				MenuSystem_LevelPicker(c_menu).onTitle(null); break;
-			}
-		case DState.TITLE:
-			if (c_title)
-			{
-				c_title.onTitleStart();
-			}
-			break;
-			break;
-	}
-}
-
-public function resetGame()
-{
-	if (Director.STATS_ON) { Log.LevelAverageMetric("reset_level", curr_level, 1); }
-	if (Director.STATS_ON) { Log.LevelCounterMetric("reset_level", curr_level); }
-	removeChild(c_engine);
-	c_engine.destruct();
-	c_engine = null;
-	makeEngine();
-	fpsOnTop();
-}
-
-public function endLevel()
-{
-	removeChild(c_engine);
-	c_engine.destruct();
-	c_engine = null;
-}
-
-public function quitGame()
-{
-	if (Director.STATS_ON) { Log.LevelAverageMetric("quit_level", curr_level, 1); }
-	if (Director.STATS_ON) { Log.LevelCounterMetric("quit_level", curr_level); }
-	trace("Director.quitGame()!");
-	removeChild(c_engine);
-	c_engine.destruct();
-	c_engine = null;
-	oldState();
-	//showMenu(MenuSystem.LEVELPICKER);
-}
-
-
-
-
-
-// Cinema resumes play
-
-
-private void unPauseCinema()
-{
-	if (c_cinema)
-		c_cinema.unPause();
-}
-
-
-// Called from WITHIN the Cinema movieclip. Terminates play and yields control to the director
-
-
-
-
-public function setExitMenuCode(i:int,param: int) {
-	exit_menu_code = i;
-	switch (i)
-	{
-		case MenuSystem.EXIT_PICK:
-			picked_level = param; break;
-		case MenuSystem.EXIT_TITLE:
-			break;
-	}
-}
-
-public function exitMenu()
-{
-	removeChild(c_menu);
-	oldState();           //exit the menu state
-	contextUnPauseMenu(); //You MUST unpause before telling the engine to respond! Bugzors otherwise!
-	var i:int = c_menu.getIndex();function newState
-
-var reward_array:Array;
-if (i == MenuSystem.REWARD)
-{ //HACK
-	reward_array = MenuSystem_Reward(c_menu).getRewards();
-}
-
-c_menu.destruct();
-c_menu = null;
-
-switch (i)
-{
-	case MenuSystem.TUTORIAL: c_engine.onExitTutorial(); break;
-	case MenuSystem.HISTORY: c_engine.onExitHistory(); break;
-	case MenuSystem.LEVELPICKER:
-		//var code:int = MenuSystem_LevelPicker(c_menu).exitCode;
-		switch (exit_menu_code)
-		{
-			case MenuSystem.EXIT_PICK:  //go to the picked level
-				pickLevel(picked_level); break;
-			case MenuSystem.EXIT_TITLE: //go back to the title screen
-										//showTitle
-				oldState(); //exit whatever state we were in before, almost certainly ENGINE_STATE
-							//if the title was beneath this, it should re-show the title!
-				if (c_title)
-				{
-					c_title.onTitleStart();
-				}
-				break;
-			case MenuSystem.EXIT_RESET:
-				showMenu(MenuSystem.LEVELPICKER); //show the menu again!
-				break;
-		}
-	case MenuSystem.INGAME:
-		if (state.getTop() == DState.INGAME)
-		{
-			c_engine.updateMuteButton();
-		}
-		break;
-	case MenuSystem.REWARD:
-		if (state.getTop() == DState.INGAME)
-		{
-			c_engine.getRewards(reward_array);
-		}
-		break;
-	case MenuSystem.ENDLEVEL:
-		if (state.getTop() == DState.INGAME)
-		{
-			c_engine.onEndLevelMenuClose();
-		}
-		break;
-}
-			
-			
-			
-		}
-		
-		
-public function contextUnPauseMenu()
-{
-	//trace("Director.contextUnPauseMenu()");
-	switch (state.getTop())
-	{
-		case DState.CINEMA: unPauseCinema(); break;
-		case DState.INGAME: unPauseGame(); fancyCursor(); break; //donothing
-
-	}
-}
-
-public function startFauxPause()
-{
-	if (state.getTop() != DState.FAUXPAUSED)
-	{
-		if (state.getTop() == DState.INGAME)
-		{
-			newState(DState.FAUXPAUSED);
-			showPauseSprite("faux");
-			releaseInput();
-		}
-	}
-}
-
-public function endFauxPause()
-{
-	if (state.getTop() == DState.FAUXPAUSED)
-	{
-		oldState();
-		hidePauseSprite();
-	}
-}
-
-public function toggleFauxPause()
-{
-	if (state.getTop() != DState.FAUXPAUSED)
-	{
-		if (state.getTop() == DState.INGAME)
-		{ //can ONLY fauxpause from ingame!
-		  //contextFauxPause();
-			newState(DState.FAUXPAUSED);
-			showPauseSprite("faux");
-			releaseInput();
-		}
-		else
-		{
-			oldState();
-			//contextUnFauxPause();
-			hidePauseSprite();
-		}
-	}
-}
-
-
-
-
-
- // Pauses the game if not in paused state, otherwise unpauses
- //
-
-public function togglePause()
-{
-	if (state.getTop() != DState.PAUSED)
-	{
-		if (Director.STATS_ON) { Log.CustomMetric("pause_game", "interface"); }
-		if (Director.STATS_ON) { Log.LevelAverageMetric("pause_game", curr_level, 1); }
-		contextPause(); //ALWAYS do the correct context action depending on which state we were in first!
-		newState(DState.PAUSED); //then, we pause
-		showPauseSprite();
-		releaseInput();
-	}
-	else
-	{
-		if (Director.STATS_ON) { Log.CustomMetric("unpause_game", "interface"); }
-		oldState();       //ALWAYS return to the correct state first!
-		contextUnPause(); //then, do the correct context action depending on which state we were in
-		hidePauseSprite();
-	}
-}
-
-private void makeCursor()
-{
-	c_cursor = new Cursor();
-	addChild(c_cursor);
-	c_cursor.show();
-	c_cursor.setEngine(c_engine);
-	c_engine.receiveCursor(c_cursor);
-	addEventListener(MouseEvent.MOUSE_MOVE, moveCursor);
-}
-
-public function moveCursor(m:MouseEvent) {
-	c_cursor.followMouse(m);
-	c_cursor.updateMoveCost();
-}
-
-public function normalCursor()
-{
-	if (c_cursor)
-		c_cursor.normal(true);
-}
-
-public function fancyCursor()
-{
-	if (c_cursor)
-		c_cursor.normal(false);
-}
-
-public function showCursor(i:int) {
-	setChildIndex(c_cursor, numChildren - 1);
-	var cursorShown:Boolean = c_cursor.show(i);
-	
-	c_engine.setSelectMode(!cursorShown); //if the cursor is shown, selectMode is false
-}
-
-
-// Makes the pause sprite and attaches it to the stage (it hides automatically until shown)
-
-
-
-
-public function contextFauxPause()
-{ //will ALWAYS be for ingame state
-  //pauseGame();
-}
-
-public function contextUnFauxPause()
-{
-	//unPauseGame();
-}
-
-
-
-
-// Runs every frame, and gives functionality to the underlying classes
-
-
-
-
-private void cheat(int i) {
-	switch (state.getTop())
-	{
-		case DState.INGAME:
-			c_engine.cheat(i);
-			break;
-		case DState.TITLE:
-			d_lvlProgress.maxLevelBeaten(i);
-			break;
-	}
-}
-
-
-
-
-
-
-private void listenDeactivate(e:Event) {
-
-	clearKeys(); //when the player deactivates, we have no idea what's down, so we assume they were all lifted
-}
-
-
 
 
 

@@ -1,0 +1,43 @@
+﻿{"frames": {
+
+"mc_resourceSwitcher_tiny0000":
+{
+	"frame": {"x":20,"y":20,"w":11,"h":10},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":11,"h":10},
+	"sourceSize": {"w":11,"h":10}
+},
+"mc_resourceSwitcher_tiny0001":
+{
+	"frame": {"x":31,"y":20,"w":11,"h":10},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":11,"h":10},
+	"sourceSize": {"w":11,"h":10}
+},
+"mc_resourceSwitcher_tiny0002":
+{
+	"frame": {"x":20,"y":30,"w":11,"h":10},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":11,"h":10},
+	"sourceSize": {"w":11,"h":10}
+},
+"mc_resourceSwitcher_tiny0003":
+{
+	"frame": {"x":31,"y":30,"w":11,"h":10},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":11,"h":10},
+	"sourceSize": {"w":11,"h":10}
+}},
+"meta": {
+	"app": "Adobe Animate",
+	"version": "19.2.1.408",
+	"image": "mc_resourceSwitcher_tiny_sheet.png",
+	"format": "RGBA8888",
+	"size": {"w":64,"h":64},
+	"scale": "1"
+}
+}

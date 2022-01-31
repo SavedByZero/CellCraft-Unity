@@ -1,0 +1,251 @@
+﻿{"frames": {
+
+"mc_resourceSwitcher0000":
+{
+	"frame": {"x":20,"y":20,"w":67,"h":43},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":43},
+	"sourceSize": {"w":67,"h":43}
+},
+"mc_resourceSwitcher0001":
+{
+	"frame": {"x":87,"y":20,"w":67,"h":43},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":43},
+	"sourceSize": {"w":67,"h":43}
+},
+"mc_resourceSwitcher0002":
+{
+	"frame": {"x":154,"y":20,"w":67,"h":43},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":43},
+	"sourceSize": {"w":67,"h":43}
+},
+"mc_resourceSwitcher0003":
+{
+	"frame": {"x":20,"y":63,"w":67,"h":43},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":43},
+	"sourceSize": {"w":67,"h":43}
+},
+"mc_resourceSwitcher0004":
+{
+	"frame": {"x":87,"y":63,"w":67,"h":43},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":43},
+	"sourceSize": {"w":67,"h":43}
+},
+"mc_resourceSwitcher0005":
+{
+	"frame": {"x":154,"y":63,"w":67,"h":43},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":43},
+	"sourceSize": {"w":67,"h":43}
+},
+"mc_resourceSwitcher0006":
+{
+	"frame": {"x":20,"y":106,"w":67,"h":43},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":43},
+	"sourceSize": {"w":67,"h":43}
+},
+"mc_resourceSwitcher0007":
+{
+	"frame": {"x":87,"y":106,"w":67,"h":43},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":43},
+	"sourceSize": {"w":67,"h":43}
+},
+"mc_resourceSwitcher0008":
+{
+	"frame": {"x":154,"y":106,"w":67,"h":43},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":43},
+	"sourceSize": {"w":67,"h":43}
+},
+"mc_resourceSwitcher0009":
+{
+	"frame": {"x":20,"y":149,"w":67,"h":43},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":43},
+	"sourceSize": {"w":67,"h":43}
+},
+"mc_resourceSwitcher0010":
+{
+	"frame": {"x":87,"y":149,"w":67,"h":43},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":43},
+	"sourceSize": {"w":67,"h":43}
+},
+"mc_resourceSwitcher0011":
+{
+	"frame": {"x":154,"y":149,"w":67,"h":43},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":43},
+	"sourceSize": {"w":67,"h":43}
+},
+"mc_resourceSwitcher0012":
+{
+	"frame": {"x":20,"y":192,"w":67,"h":43},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":43},
+	"sourceSize": {"w":67,"h":43}
+},
+"mc_resourceSwitcher0013":
+{
+	"frame": {"x":87,"y":192,"w":67,"h":43},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":43},
+	"sourceSize": {"w":67,"h":43}
+},
+"mc_resourceSwitcher0014":
+{
+	"frame": {"x":154,"y":192,"w":67,"h":43},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":43},
+	"sourceSize": {"w":67,"h":43}
+},
+"mc_resourceSwitcher0015":
+{
+	"frame": {"x":20,"y":235,"w":67,"h":43},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":43},
+	"sourceSize": {"w":67,"h":43}
+},
+"mc_resourceSwitcher0016":
+{
+	"frame": {"x":87,"y":235,"w":67,"h":43},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":43},
+	"sourceSize": {"w":67,"h":43}
+},
+"mc_resourceSwitcher0017":
+{
+	"frame": {"x":154,"y":235,"w":67,"h":43},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":43},
+	"sourceSize": {"w":67,"h":43}
+},
+"mc_resourceSwitcher0018":
+{
+	"frame": {"x":20,"y":278,"w":67,"h":43},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":43},
+	"sourceSize": {"w":67,"h":43}
+},
+"mc_resourceSwitcher0019":
+{
+	"frame": {"x":87,"y":278,"w":67,"h":43},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":43},
+	"sourceSize": {"w":67,"h":43}
+},
+"mc_resourceSwitcher0020":
+{
+	"frame": {"x":154,"y":278,"w":67,"h":43},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":43},
+	"sourceSize": {"w":67,"h":43}
+},
+"mc_resourceSwitcher0021":
+{
+	"frame": {"x":20,"y":321,"w":67,"h":43},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":43},
+	"sourceSize": {"w":67,"h":43}
+},
+"mc_resourceSwitcher0022":
+{
+	"frame": {"x":87,"y":321,"w":67,"h":43},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":43},
+	"sourceSize": {"w":67,"h":43}
+},
+"mc_resourceSwitcher0023":
+{
+	"frame": {"x":154,"y":321,"w":67,"h":43},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":43},
+	"sourceSize": {"w":67,"h":43}
+},
+"mc_resourceSwitcher0024":
+{
+	"frame": {"x":20,"y":364,"w":67,"h":43},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":43},
+	"sourceSize": {"w":67,"h":43}
+},
+"mc_resourceSwitcher0025":
+{
+	"frame": {"x":87,"y":364,"w":67,"h":43},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":43},
+	"sourceSize": {"w":67,"h":43}
+},
+"mc_resourceSwitcher0026":
+{
+	"frame": {"x":154,"y":364,"w":67,"h":43},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":43},
+	"sourceSize": {"w":67,"h":43}
+},
+"mc_resourceSwitcher0027":
+{
+	"frame": {"x":20,"y":407,"w":67,"h":43},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":43},
+	"sourceSize": {"w":67,"h":43}
+},
+"mc_resourceSwitcher0028":
+{
+	"frame": {"x":87,"y":407,"w":67,"h":43},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":43},
+	"sourceSize": {"w":67,"h":43}
+},
+"mc_resourceSwitcher0029":
+{
+	"frame": {"x":154,"y":407,"w":67,"h":43},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":43},
+	"sourceSize": {"w":67,"h":43}
+}},
+"meta": {
+	"app": "Adobe Animate",
+	"version": "19.2.1.408",
+	"image": "mc_resourceSwitcher_sheet.png",
+	"format": "RGBA8888",
+	"size": {"w":256,"h":512},
+	"scale": "1"
+}
+}
