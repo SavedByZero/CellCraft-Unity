@@ -260,7 +260,7 @@ public class CellGameObject : MovieClip, ICellGameObject
 		bumpBubble();
 	}
 
-	protected void heavyDamageClip()
+	protected virtual void heavyDamageClip()
 	{
 		isDamaged = true;
 		damageLevel = 2;
@@ -502,7 +502,7 @@ public class CellGameObject : MovieClip, ICellGameObject
 		}
 	}
 
-	public void startGetEaten()
+	public virtual void startGetEaten()
 	{
 		hideBubble();
 
@@ -578,7 +578,7 @@ public class CellGameObject : MovieClip, ICellGameObject
 			return isMoving;
 	}
 
-	public void moveToObject(CellGameObject o, int i, bool free = false) 
+	public virtual void moveToObject(CellGameObject o, int i, bool free = false) 
 	{
 		if (!dying)
 		{
@@ -616,7 +616,7 @@ public class CellGameObject : MovieClip, ICellGameObject
         }
     }
 
-	public void moveToPoint(Point p, int i, bool free = false)
+	public virtual void moveToPoint(Point p, int i, bool free = false)
 	{
 		pt_dest = p;
 		go_dest = null;
@@ -631,17 +631,17 @@ public class CellGameObject : MovieClip, ICellGameObject
 
 	}
 
-	protected void onArrivePoint()
+	protected virtual void onArrivePoint()
 	{
 		isMoving = false;
 	}
 
-	protected void onArriveObj()
+	protected virtual void onArriveObj()
 	{
 		isMoving = false;
 	}
 
-	protected void doMoveToPoint()
+	protected virtual void doMoveToPoint()
 	{
 		x += v_move.x;
 		y += v_move.y;
@@ -711,7 +711,7 @@ public class CellGameObject : MovieClip, ICellGameObject
 		updateLoc();
 	}
 
-	public void push(float xx, float yy)
+	public virtual void push(float xx, float yy)
 	{
 		x += xx;
 		y += yy;
