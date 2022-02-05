@@ -186,7 +186,7 @@ public class CellObject : Selectable
 		}
 	}
 
-	public void getPpodContract(float xx, float yy)
+	public virtual void getPpodContract(float xx, float yy)
 	{
 		x -= xx;
 		y -= yy;
@@ -330,4 +330,280 @@ public class CellObject : Selectable
 		}
 		//}
 	}
+
+	protected override void doMoveToGobj()
+	{
+		//if(checkMembrane()){
+		if (checkSpend())
+		{
+			super.doMoveToGobj(e);
+			distTravelled += speed;
+			if (p_tube)
+			{
+				p_tube.followObj();
+			}
+		}
+		else
+		{ //Don't cancel the move if the player can't afford it, just wait
+		  //cancelMoveObject();
+		}
+		//}
+	}
+
+	public override bool doAction(int i, object parms = null)
+	{
+			//trace("CellObject.doAction() " + i);
+			switch(i){
+				case Act.DIVIDE:
+					if (canDivide()) 
+						return doDivide();
+					else
+						return false;
+					break;
+				case Act.RECYCLE:
+					return tryRecycle();
+					break;
+				
+			}
+return false;
+	}
+		
+	public void activate()
+	{
+		is_active = true;
+	}
+
+	public override void onAnimFinish(int i, bool stop = true)
+	{
+		//trace("CellObject.onAnimFinish() " + i + "me = " + name);
+		switch (i)
+		{
+			case ANIM_BUD:
+			case ANIM_GROW: activate(); break;
+
+			case ANIM_RECYCLE: onRecycle(); break;
+			case ANIM_DIVIDE: finishDivide(); break;
+			case ANIM_DAMAGE1: hardRevertAnim(); break;
+			case ANIM_DAMAGE2: hardRevertAnim(); break;
+			case ANIM_PLOP: onPlop(); break;
+		}
+		base.onAnimFinish(i, stop);
+	}
+
+	public void onHalfPlop()
+	{
+		p_cell.onHalfPlop(this);
+	}
+
+	protected void onPlop()
+	{
+		p_cell.onPlop(this);
+	}
+
+	protected void onRecycle()
+	{
+		p_cell.onRecycle(this, true, true);
+	}
+
+	public bool canDivide() 
+	{ //override this to check if prerequisites have been met as well for divisible things
+			return does_divide && !is_dividing;
+	}
+
+	public bool doDivide() 
+	{
+			is_dividing = true;
+			playAnim("divide");
+
+		bumpBubble();
+			return true;
+			//gotoAndStop("divide");
+	}
+
+	protected void finishDivide()
+	{
+
+		is_dividing = false;
+		//playAnim("normal");
+		GotoAndStop("normal");
+		//define per subclass
+	}
+
+	public void inVesicle(BigVesicle v) 
+	{
+		isInVesicle = true;
+		myVesicle = v;
+	}
+
+	public void outVesicle(bool unRecycle = false) 
+	{
+		isInVesicle = false;
+		if (unRecycle && isDoomed)
+		{
+			unDoom();
+		}
+	}
+
+	public virtual void onCanvasWrapperUpdate()
+	{
+
+	}
+
+	public void unDoom()
+	{
+		isDoomed = false;
+
+		hideBubble();
+		p_cell.unDoomCheck(this);
+	}
+
+	protected override void killMe()
+	{
+		base.killMe();
+		if (selected)
+		{
+			p_cell.engineUpdateSelected();
+		}
+
+	}
+
+	public void setPHDamage(float n, float mult = 1)
+	{
+		float damage = 0;
+		if (n <= 7.5)
+		{
+			float diff = 7.5f - n;
+
+			if (diff <= .25)
+			{ //7.5-7.25
+			  //no problem
+			}
+			else if (diff <= 1.0)
+			{ //7.25-6.25
+			  //lowered efficiency
+			}
+			else if (diff > 1.0)
+			{
+				diff -= 1.0f; //diff is now between 0 and 6.5, with 4.5 being super deadly
+				diff /= 6.5f; //diff is now between 0 and 1
+				damage = diff * Cell.MAX_ACID_DAMAGE;
+			}
+		}
+		n = damage * mult;
+
+		if (n < 0.001f)
+		{
+			StopAllCoroutines();
+		}
+		else
+		{
+			phDamage = n;
+			if (phDamage < 1)
+			{
+				phDamage_time = (int)(1 / phDamage);
+				phDamage_time *= 30;
+				phDamage = 1;
+			}
+			else
+			{
+				phDamage_time = 30;
+			}
+			phDamage_counter = 0;
+			//if(this is Nucleus)
+			//	trace("CellObject.setPHDamage(" + n + ") phDamage_time = " + phDamage_time + " phDamage = " + phDamage);
+			StartCoroutine(takePHDamage());
+		}
+	}
+
+	protected IEnumerator takePHDamage()
+	{
+
+		while (true)
+        {
+			yield return new WaitForSeconds(phDamage_time);
+			phDamage_counter++;
+        }
+		
+	}
+
+	public override void takeDamage(float n)
+	{
+		base.takeDamage(n);
+		if (selected)
+		{
+			p_cell.updateSelected();
+		}
+	}
+
+	public void updateGridLoc(float xx, float yy)
+	{
+		gdata.x = xx;
+		gdata.y = yy;
+
+		int old_x = grid_x;
+		int old_y = grid_y;
+		grid_x = (int)(xx / grid_w);
+		grid_y = (int)(yy / grid_h);
+		if (grid_x < 0) grid_x = 0;
+		if (grid_y < 0) grid_y = 0;
+		if (grid_x >= grid_w) grid_x = (int)grid_w - 1;
+		if (grid_y >= grid_h) grid_y = (int)grid_h - 1;
+		if ((old_x != grid_x) || (old_y != grid_y))
+		{
+			p_grid.takeOut(old_x, old_y, gdata);
+			p_grid.putIn(grid_x, grid_y, gdata);
+		}
+	}
+
+	public void clearGrid()
+	{
+		float xx = x - cent_x + span_w / 2;
+		float yy = y - cent_y + span_h / 2;
+
+		gdata.x = xx;
+		gdata.y = yy;
+
+		grid_x = (int)(xx / grid_w);
+		grid_y = (int)(yy / grid_h);
+		if (grid_x < 0) grid_x = 0;
+		if (grid_y < 0) grid_y = 0;
+		if (grid_x >= grid_w) grid_x = (int)grid_w - 1;
+		if (grid_y >= grid_h) grid_y = (int)grid_h - 1;
+
+		int loc_x;
+		int loc_y;
+		for (int w = -1; w <= 1; w++) {
+			for (int h = -1; h <= 1; h++) {
+				loc_x = grid_x + w;
+				loc_y = grid_y + h;
+				if (loc_x < 0) loc_x = 0;
+				if (loc_y < 0) loc_y = 0;
+				if (loc_x >= grid_w) loc_x = (int)grid_w - 1;
+				if (loc_y >= grid_h) loc_y = (int)grid_h - 1;
+				p_grid.takeOut(loc_x, loc_y, gdata);
+			}
+		}
+
+	}
+
+	public void placeInGrid()
+	{
+		float xx = x - cent_x + span_w / 2;
+		float yy = y - cent_y + span_h / 2;
+
+		gdata.x = xx;
+		gdata.y = yy;
+
+		grid_x = (int)(xx / grid_w);
+		grid_y = (int)(yy / grid_h);
+		if (grid_x < 0) grid_x = 0;
+		if (grid_y < 0) grid_y = 0;
+		if (grid_x >= grid_w) grid_x = (int)grid_w - 1;
+		if (grid_y >= grid_h) grid_y = (int)grid_h - 1;
+
+		p_grid.putIn(grid_x, grid_y, gdata);
+	}
+
+
+
 }

@@ -106,5 +106,37 @@ public class FastMath
 		}
 		return circ;
 	}
+
+	public static Vector2 rotateVector(float radians, Vector2 v) 
+	{
+		float ca = Mathf.Cos(radians);
+		float sa = Mathf.Sin(radians);
+		float rx = v.x* ca-v.y* sa;
+		float ry = v.x* sa+v.y* ca;
+		v.x = rx;
+		v.y = ry;
+
+	return v;
+	}
+
+	public static float toRotation(Vector2 v)
+ 		{
+ 			//calc the angle
+ 			float ang = Mathf.Atan(v.y / v.x);
+ 			
+ 			//if it is in the first quadrant
+ 			if(v.y< 0 && v.x > 0)
+ 			{
+ 				return ang;
+ 			}
+			//if its in the 2nd or 3rd quadrant
+			if ((v.y < 0 && v.x < 0) ||
+				(v.y > 0 && v.x < 0))
+			{
+				return ang + 3.141592653589793f;
+			}
+			//it must be in the 4th quadrant so:
+			return ang + 6.283185307179586f;
+ 		}
    
 }

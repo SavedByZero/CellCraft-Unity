@@ -42,35 +42,35 @@ public class CellGameObject : MovieClip, ICellGameObject
 	public bool anim_wiggle = true; //trivial animation, stuff we can turn off
 	public bool anim_vital = false; //are we doing a vital animation? (ie, something whose timing matters?)
 
-	public static int ANIM_GROW = 0;
-	public static int ANIM_GROW_2 = 1;
+	public const int ANIM_GROW = 0;
+	public const int ANIM_GROW_2 = 1;
 
 
-	public static int ANIM_THREAD = 10;
-	public static int ANIM_DIE = 12;
-	public static int ANIM_DOCK = 13;
-	public static int ANIM_PROCESS = 14;
-	public static int ANIM_PROCESS_INPLACE = 15;
-	public static int ANIM_HARDKILL = 20;
-	public static int ANIM_ADHERE = 26;
-	public static int ANIM_DIGEST = 27;
-	public static int ANIM_DIGEST_START = 28;
-	public static int ANIM_RECYCLE = 29;
-	public static int ANIM_DIVIDE = 30;
-	public static int ANIM_POP = 31;
-	public static int ANIM_MERGE = 32;
-	public static int ANIM_FUSE = 33;
-	public static int ANIM_DAMAGE1 = 34;
-	public static int ANIM_DAMAGE2 = 35;
-	public static int ANIM_BUD = 36;
-	public static int ANIM_LAND = 37;
-	public static int ANIM_FADE = 38;
-	public static int ANIM_EXIT = 39;
-	public static int ANIM_VIRUS_GROW = 40;
-	public static int ANIM_VIRUS_INFEST = 41;
-	public static int ANIM_INVADE = 42;
+	public const int ANIM_THREAD = 10;
+	public const int ANIM_DIE = 12;
+	public const int ANIM_DOCK = 13;
+	public const int ANIM_PROCESS = 14;
+	public const int ANIM_PROCESS_INPLACE = 15;
+	public const int ANIM_HARDKILL = 20;
+	public const int ANIM_ADHERE = 26;
+	public const int ANIM_DIGEST = 27;
+	public const int ANIM_DIGEST_START = 28;
+	public const int ANIM_RECYCLE = 29;
+	public const int ANIM_DIVIDE = 30;
+	public const int ANIM_POP = 31;
+	public const int ANIM_MERGE = 32;
+	public const int ANIM_FUSE = 33;
+	public const int ANIM_DAMAGE1 = 34;
+	public const int ANIM_DAMAGE2 = 35;
+	public const int ANIM_BUD = 36;
+	public const int ANIM_LAND = 37;
+	public const int ANIM_FADE = 38;
+	public const int ANIM_EXIT = 39;
+	public const int ANIM_VIRUS_GROW = 40;
+	public const int ANIM_VIRUS_INFEST = 41;
+	public const int ANIM_INVADE = 42;
 
-	public static int ANIM_PLOP = 50;
+	public const int ANIM_PLOP = 50;
 
 	private bool has_io = false;
 
@@ -105,7 +105,7 @@ public class CellGameObject : MovieClip, ICellGameObject
 	protected static float grid_h = 0;
 	protected static float span_w = 0;
 	protected static float span_h = 0;
-	//protected static var p_grid:ObjectGrid;  //TODO
+	protected static ObjectGrid p_grid;  
 
 	public static float cent_x = 0;
 	public static float cent_y = 0;
@@ -178,7 +178,7 @@ public class CellGameObject : MovieClip, ICellGameObject
 		}
 	}
 
-	public void takeDamage(float n)
+	public virtual void takeDamage(float n)
 	{
 		health -= n;
 		if (health <= 0)
@@ -371,7 +371,7 @@ public class CellGameObject : MovieClip, ICellGameObject
 
 	}
 
-	protected void autoRadius()
+	protected virtual void autoRadius()
 	{
 		float r = MaxWidth;
 		if (MaxHeight > r) r = MaxHeight;
@@ -389,7 +389,7 @@ public class CellGameObject : MovieClip, ICellGameObject
 		return radius;
 	}
 
-	public float getCircleVolume()
+	public virtual float getCircleVolume()
 	{
 		return Mathf.PI * (radius * radius);
 	}
@@ -522,7 +522,7 @@ public class CellGameObject : MovieClip, ICellGameObject
 		playAnim("die");
 	}
 
-	public void onAnimFinish(int i, bool stop = true)
+	public virtual void onAnimFinish(int i, bool stop = true)
 	{
 		if (!dying)
 		{
@@ -548,7 +548,7 @@ public class CellGameObject : MovieClip, ICellGameObject
 		StopCoroutine(_doAnimRoutine);
 	}
 
-	public bool doAction(int i, object parms = null) 
+	public virtual bool doAction(int i, object parms = null) 
 	{
 			//trace("Performing action (" + i +")!");
 			return true;
@@ -799,7 +799,7 @@ public class CellGameObject : MovieClip, ICellGameObject
 		//removeEventListener(RunFrameEvent.RUNFRAME, doMoveToGobj);
 	}
 
-	protected void killMe()
+	protected virtual void killMe()
 	{
 		dying = true;
 		StartCoroutine(onDeadTimer(1.5f));
@@ -905,7 +905,7 @@ public class CellGameObject : MovieClip, ICellGameObject
 	this.transform.localScale = new Vector3(1 / n, 1 / n, 1 / n);
 	}
 
-	public void updateBubbleZoom(float n)
+	public virtual void updateBubbleZoom(float n)
 	{
 		if (c_bubble)
 		{
