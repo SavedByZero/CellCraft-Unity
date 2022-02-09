@@ -57,7 +57,7 @@ public class CellObject : Selectable
 
 	}
 
-	public void init()
+	public virtual void init()
 	{
 
 		getMyMoveCost();
@@ -172,7 +172,7 @@ public class CellObject : Selectable
 		}
 	}
 
-	public void doCellMove(float xx, float yy)
+	public virtual void doCellMove(float xx, float yy)
 	{
 		x += xx;
 		y += yy;

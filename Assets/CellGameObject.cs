@@ -16,9 +16,9 @@ public class CellGameObject : MovieClip, ICellGameObject
 	public Locator loc_bubble;  
 
 	private Point pt_bubble;
-	private Coroutine _doAnimRoutine;
-	private Coroutine _doMovePointRoutine;
-	private Coroutine _doMoveGobjRoutine;
+	protected Coroutine _doAnimRoutine;
+	protected Coroutine _doMovePointRoutine;
+	protected Coroutine _doMoveGobjRoutine;
 
 	public MovieClip clip;
 	public MovieClip anim;
@@ -359,7 +359,7 @@ public class CellGameObject : MovieClip, ICellGameObject
 		p_engine = e;
 	}*/
 
-	public void destruct()
+	public virtual void destruct()
 	{
 		//p_world = null;  //TODO
 		//p_engine = null;  //TODO
@@ -378,7 +378,7 @@ public class CellGameObject : MovieClip, ICellGameObject
 		setRadius(r / 2);
 	}
 
-	public void setRadius(float r)
+	public virtual void setRadius(float r)
 	{
 		radius = r;
 		radius2 = radius * radius;
@@ -461,7 +461,7 @@ public class CellGameObject : MovieClip, ICellGameObject
 		wiggle(false);
 	}
 
-	public void playAnim(string label)
+	public virtual void playAnim(string label)
 	{
 		//trace("GameObject.playAnim() label = " + label + "me=" + name);
 		if (!dying)
@@ -554,7 +554,7 @@ public class CellGameObject : MovieClip, ICellGameObject
 			return true;
 	}
 
-	public void calcMovement()
+	public virtual void calcMovement()
 	{
 		Vector2 v = new Vector2();
 		if (pt_dest != null)
@@ -665,7 +665,7 @@ public class CellGameObject : MovieClip, ICellGameObject
 
 	}
 
-	public void cancelMove()
+	public virtual void cancelMove()
 	{
 		cancelMoveObject();
 		cancelMovePoint();
@@ -758,7 +758,7 @@ public class CellGameObject : MovieClip, ICellGameObject
 		}
 	}
 
-	protected void stopWhatYouWereDoing(bool isObj)
+	protected virtual void stopWhatYouWereDoing(bool isObj)
 	{
 		if (isObj)
 		{
@@ -771,12 +771,12 @@ public class CellGameObject : MovieClip, ICellGameObject
 		//define rest per subclass
 	}
 
-	protected void cancelMoveObject()
+	protected virtual void cancelMoveObject()
 	{
 		arriveObject(true);
 	}
 
-	protected void arriveObject(bool wasCancel = false)
+	protected virtual void arriveObject(bool wasCancel = false)
 	{
 		if (!wasCancel)
 		{

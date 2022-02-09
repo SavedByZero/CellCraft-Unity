@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using UnityEngine;
 
 
-class BlankVesicle : CellObject
+class BlankVessicle : CellObject
 {
 	protected int product = Selectable.NOTHING;
 	protected float product_amount = 0;
@@ -22,16 +22,16 @@ class BlankVesicle : CellObject
 	Coroutine _waitDockRoutine;
 	Coroutine _waitExitRoutine;
 		
-	public BlankVesicle()
+	public BlankVessicle()
 	{
 		canSelect = false;
 		singleSelect = true;
 		text_title = "Vesicle";
 		text_description = "A small vesicle on its way to becoming something else";
 		text_id = "vesicle";
-		bestColors = new bool[] { true, true, false };
+		bestColors = [1, 1, 0];
 		num_id = Selectable.VESICLE;
-		list_actions = new List<CellAction> ();
+		list_actions = new Vector.< int > ();
 		setMaxHealth(25, true);
 		speed = 4;
 		init();

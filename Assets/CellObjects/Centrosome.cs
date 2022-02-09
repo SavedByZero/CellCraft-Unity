@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-class Centrosome : CellObject
+public class Centrosome : CellObject
 {
 
 		public Centrosome()

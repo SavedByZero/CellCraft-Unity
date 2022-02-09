@@ -51,7 +51,7 @@ public class FastMath
 	* @return the Distance^2
 	*/
 
-	private float getDist2(float x1, float y1, float x2, float y2)
+	public static float getDist2(float x1, float y1, float x2, float y2)
 	{
 		return (((x1 - x2) * (x1 - x2)) + ((y1 - y2) * (y1 - y2)));
 	}
@@ -107,7 +107,12 @@ public class FastMath
 		return circ;
 	}
 
-	public static Vector2 rotateVector(float radians, Vector2 v) 
+	public static float angleTo(Vector2 sourceVector,  Vector2 destVector )
+ 	{
+ 		return Mathf.Acos(Vector2.Dot(sourceVector, destVector) / (sourceVector.magnitude * destVector.magnitude ) );
+ 	}
+
+public static Vector2 rotateVector(float radians, Vector2 v) 
 	{
 		float ca = Mathf.Cos(radians);
 		float sa = Mathf.Sin(radians);

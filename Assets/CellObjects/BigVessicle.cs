@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class BigVesicle : CellObject
+public class BigVessicle : CellObject
 {
 		private float size=0;
 		private float maxSize=0;
@@ -47,7 +47,7 @@ public class BigVesicle : CellObject
 		
 		private bool unRecycle = false;
 
-	public BigVesicle(float startSize = 0)
+	public BigVessicle(float startSize = 0)
 	{
 		size = startSize;
 		canSelect = false;
@@ -58,7 +58,7 @@ public class BigVesicle : CellObject
 		num_id = Selectable.BIGVESICLE;
 
 		list_actions = new List<CellAction>();
-		list_contents = new List<CellObject>();
+		list_contents = new List<CellObject>;
 		
 		//shape = new Shape();   //TODO: this will need to be added manually
 		//addChild(shape);
@@ -178,7 +178,7 @@ public class BigVesicle : CellObject
 		
 		while (true)
 		{
-			yield return new WaitForSeconds(MEM_WAIT_TIME/60);
+			yield return new WaitForSeconds(MEM_WAIT_TIME);
 			//removeEventListener(RunFrameEvent.RUNFRAME, waitForMembrane);
 			StopCoroutine(_waitForMembraneRoutine);
 			goToMembrane();
@@ -221,7 +221,7 @@ public class BigVesicle : CellObject
 	private void startShrink()
 	{
 		unDigestContents();
-		_shrink = StartCoroutine(shrink());
+		StartCoroutine(shrink());
 		//addEventListener(RunFrameEvent.RUNFRAME, shrink, false, 0, true);
 	}
 
@@ -376,7 +376,7 @@ public class BigVesicle : CellObject
 		_animateDigestRoutine = StartCoroutine(animateDigest());
 	}
 
-	IEnumerator animateDigest()
+	private void animateDigest()
 	{
 		while (true)
 		{
