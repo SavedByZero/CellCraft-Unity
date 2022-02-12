@@ -39,7 +39,7 @@ public class MembraneNode : ICellGameObject
 		
 	public MembraneNode p_prev;
 	public MembraneNode p_next;
-	public MembraneNode p_cent;
+	public Centrosome p_cent;
 		
 	public Point pt_control_next;
 	public Point pt_control_prev;

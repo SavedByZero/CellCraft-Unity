@@ -112,6 +112,15 @@ public class FastMath
  		return Mathf.Acos(Vector2.Dot(sourceVector, destVector) / (sourceVector.magnitude * destVector.magnitude ) );
  	}
 
+	public static Color ConvertFromUint(uint uCol)
+    {
+		Color c = new Color();
+		c.b = (byte)(uCol & 0xff);
+		c.g = (byte)( (uCol >> 8) & 0xff);
+		c.r = (byte)((uCol >> 16) & 0xff);
+		return c;
+    }
+
 public static Vector2 rotateVector(float radians, Vector2 v) 
 	{
 		float ca = Mathf.Cos(radians);

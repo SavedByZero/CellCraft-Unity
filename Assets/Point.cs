@@ -12,4 +12,9 @@ public class Point
         x = xPos;
         y = yPos;
     }
+
+    public static Point Interpolate(Point p1, Point p2, float f)
+    {
+        return new Point(Mathf.Lerp(p1.x,p2.x,f), Mathf.Lerp(p1.y,p2.y,f));
+    }
 }

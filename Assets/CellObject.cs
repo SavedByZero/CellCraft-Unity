@@ -5,7 +5,7 @@ using UnityEngine;
 public class CellObject : Selectable
 {
 	//protected var p_cell:Cell;  //TODO
-	//protected var p_tube:Microtubule;  //TODO
+	protected Microtubule p_tube;  
 		
 	public int plopDepth = 0;
 		
@@ -41,7 +41,7 @@ public class CellObject : Selectable
 		
 		
 	public  bool isInVesicle = false;
-	//public  BigVesicle myVesicle; //the vesicle I'm in   //TODO
+	public  BigVesicle myVesicle; //the vesicle I'm in   
 		
 	private bool oldSelect = false;
 		
@@ -61,7 +61,7 @@ public class CellObject : Selectable
 	{
 
 		getMyMoveCost();
-		if (isNaN(myMoveCost))
+		if (float.IsNaN(myMoveCost))
 		{
 			myMoveCost = 0;
 		}
@@ -192,7 +192,7 @@ public class CellObject : Selectable
 		y -= yy;
 		if (isMoving)
 		{
-			if (pt_dest)
+			if (pt_dest != null)
 			{
 				pt_dest.x -= xx;
 				pt_dest.y -= yy;
@@ -336,7 +336,7 @@ public class CellObject : Selectable
 		//if(checkMembrane()){
 		if (checkSpend())
 		{
-			super.doMoveToGobj(e);
+			base.doMoveToGobj(e);
 			distTravelled += speed;
 			if (p_tube)
 			{
@@ -350,17 +350,17 @@ public class CellObject : Selectable
 		//}
 	}
 
-	public override bool doAction(int i, object parms = null)
+	public override bool doAction(CellAction i, object parms = null)
 	{
 			//trace("CellObject.doAction() " + i);
 			switch(i){
-				case Act.DIVIDE:
+				case CellAction.DIVIDE:
 					if (canDivide()) 
 						return doDivide();
 					else
 						return false;
 					break;
-				case Act.RECYCLE:
+				case CellAction.RECYCLE:
 					return tryRecycle();
 					break;
 				
@@ -390,17 +390,17 @@ return false;
 		base.onAnimFinish(i, stop);
 	}
 
-	public void onHalfPlop()
+	public virtual void onHalfPlop()
 	{
 		p_cell.onHalfPlop(this);
 	}
 
-	protected void onPlop()
+	protected virtual void onPlop()
 	{
 		p_cell.onPlop(this);
 	}
 
-	protected void onRecycle()
+	protected virtual void onRecycle()
 	{
 		p_cell.onRecycle(this, true, true);
 	}

@@ -272,7 +272,7 @@ public class CellGameObject : MovieClip, ICellGameObject
 		bumpBubble();
 	}
 
-	protected void onDamageKill()
+	protected virtual void onDamageKill()
 	{
 		if (!dying)
 		{
@@ -317,7 +317,7 @@ public class CellGameObject : MovieClip, ICellGameObject
 		return maxLevel;
 	}
 
-	public void giveHealth(uint amt)
+	public virtual void giveHealth(uint amt)
 	{
 		health += amt;
 		if (health > maxHealth)
@@ -326,7 +326,7 @@ public class CellGameObject : MovieClip, ICellGameObject
 		}
 	}
 
-	public void giveMaxHealth()
+	public virtual void giveMaxHealth()
 	{
 		health = maxHealth;
 	}
@@ -384,7 +384,7 @@ public class CellGameObject : MovieClip, ICellGameObject
 		radius2 = radius * radius;
 	}
 
-	public float getRadius()
+	public virtual float getRadius()
 	{
 		return radius;
 	}
@@ -548,7 +548,7 @@ public class CellGameObject : MovieClip, ICellGameObject
 		StopCoroutine(_doAnimRoutine);
 	}
 
-	public virtual bool doAction(int i, object parms = null) 
+	public virtual bool doAction(CellAction i, object parms = null) 
 	{
 			//trace("Performing action (" + i +")!");
 			return true;
@@ -834,8 +834,8 @@ public class CellGameObject : MovieClip, ICellGameObject
 		cent_y = y;
 	}
 
-	/*                                          //TODO
-	public static void setGrid(g:ObjectGrid)
+	                                     
+	public static void setGrid(ObjectGrid g)
 	{
 		grid_w = g.getCellW();
 		grid_h = g.getCellH();
@@ -843,7 +843,7 @@ public class CellGameObject : MovieClip, ICellGameObject
 		span_h = g.getSpanH();
 		//trace("gridsize = ("+grid_w+","+grid_h+")");
 		p_grid = g;
-	}*/
+	}
 
 	public virtual void putInGrid()
 	{
@@ -859,7 +859,7 @@ public class CellGameObject : MovieClip, ICellGameObject
 		if (grid_y >= grid_h) grid_y = (int)grid_h - 1;
 
 
-		//p_grid.putIn(grid_x, grid_y, gdata);  //TODO
+		p_grid.putIn(grid_x, grid_y, gdata);  
 	}
 
 	public void place(float xx, float yy)
