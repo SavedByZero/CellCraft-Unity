@@ -218,7 +218,7 @@ public class CellGameObject : MovieClip, ICellGameObject
 		}
 	}
 
-	protected void showNoDamage()
+	protected virtual void showNoDamage()
 	{
 		isDamaged = false;
 		damageLevel = 0;
@@ -229,7 +229,7 @@ public class CellGameObject : MovieClip, ICellGameObject
 		bumpBubble();
 	}
 
-	protected void showLightDamage()
+	protected virtual void showLightDamage()
 	{
 		if (showSubtleDamage)
 		{
@@ -239,7 +239,7 @@ public class CellGameObject : MovieClip, ICellGameObject
 		lightDamageClip();
 	}
 
-	protected void showHeavyDamage()
+	protected virtual void showHeavyDamage()
 	{
 		if (showSubtleDamage)
 		{
@@ -431,7 +431,7 @@ public class CellGameObject : MovieClip, ICellGameObject
 		}
 	}
 
-	protected void wiggle(bool yes)
+	protected virtual void wiggle(bool yes)
 	{
 		//cacheAsBitmap = !yes;  //TODO - what would even be a Unity equivalent for this?
 		if (clip)

@@ -1268,7 +1268,8 @@ public class Membrane : CellObject
 		//Next, test the cell neighbors
 
 		List<GameDataObject> vNeighbors = p_grid.getNeighbors((int)m1.grid_x, (int)m1.grid_y);
-		foreach(GameDataObject gdo in vNeighbors){
+		foreach(GameDataObject gdo in vNeighbors)
+		{
 			ICellGameObject go = (ICellGameObject)(gdo.ptr);
 			CellObject c;
 			if (go != null)
@@ -1332,11 +1333,11 @@ public class Membrane : CellObject
 				}
 				else if (go is CellObject)
 				{
-					c = CellObject(go);
+					c = (CellObject)(go);
 					bool doTest = false;
 					if (c is BasicUnit)
 					{
-						if (BasicUnit(c).doesCollide && BasicUnit(c).might_collide)
+						if (c.doesCollide && c.might_collide)
 						{
 							doTest = true;
 						}
@@ -1348,12 +1349,12 @@ public class Membrane : CellObject
 
 					if (doTest)
 					{
-						var showLyso:Boolean = false;
+						bool showLyso = false;
 						if (c is Lysosome)
 						{
 							showLyso = true;
 						}
-						dist2 = quickCircSeg2(new Vector2D(c.x, c.y), c.getRadius(), p1, p2, m1);
+						dist2 = quickCircSeg2(new Vector2(c.x, c.y), c.getRadius(), p1, p2, m1);
 						if (dist2 < 0)
 						{
 							if (c.isMoving)
@@ -1375,11 +1376,13 @@ public class Membrane : CellObject
 			}
 		}
 
-		for each(var gg: GravPoint in list_grav_blank) {
-			if (gg)
+		foreach(GravPoint gg in list_grav_blank) 
+		{
+			CellObject c;
+			if (gg != null)
 			{
 				c = gg.p_obj;
-				if (intersectCircleSegment(c, new Vector2D(gg.x, gg.y), gg.radius, p1, p2, m1))
+				if (intersectCircleSegment(c, new Vector2(gg.x, gg.y), gg.radius, p1, p2, m1))
 				{
 					m1.state_ppod = true; //if I'm touching a ppod ball, I'm ppoding!
 					m1.p_prev.state_ppod = true;
@@ -1403,15 +1406,15 @@ public class Membrane : CellObject
 		}
 	}
 
-	public function mergeVesicle(cw:CanvasWrapperObject, m1:MembraneNode, m2:MembraneNode)
+	public void mergeVesicle(CanvasWrapperObject cw, MembraneNode m1, MembraneNode m2)
 	{
-		var content:String = cw.content;
-		var xx:Number = cw.x;
-		var yy:Number = cw.y;
-		var rad:Number = cw.getRadius();
-		var m:MembraneNode = findClosestMembraneHalf(xx, yy);
-		var p:Point = new Point((m.x + m.p_next.x) / 2, (m.y + m.p_next.y) / 2);
-		var v:Vector2D = new Vector2D(xx - p.x, yy - p.y); //vector from vesicle center to node
+		string content = cw.content;
+		float xx = cw.x;
+		float yy = cw.y;
+		float rad = cw.getRadius();
+		MembraneNode m = findClosestMembraneHalf(xx, yy);
+		Point p = new Point((m.x + m.p_next.x) / 2, (m.y + m.p_next.y) / 2);
+		Vector2 v = new Vector2(xx - p.x, yy - p.y); //vector from vesicle center to node
 
 		//since the vesicle is TOUCHING the cell, then the magnitude of v is ALWAYS very close to the radius of the vesicle
 
@@ -1419,13 +1422,13 @@ public class Membrane : CellObject
 
 		//multiplying the vector by 2 will get the diameter
 		
-		var vCent:Vector2D = new Vector2D(cw.x - cent_x, cw.y - cent_y); //vector from vesicle center to the centrosome
-		vCent.normalize();              //unit vector in the direction of the centrosome
+		Vector2 vCent = new Vector2(cw.x - cent_x, cw.y - cent_y); //vector from vesicle center to the centrosome
+		vCent.Normalize();              //unit vector in the direction of the centrosome
 		cancelPseudopod();
 		/*if (m1.state_ppod || m2.state_ppod) {
 			vCent.multiply(-rad*5)
 		}else{*/
-		vCent.multiply(-rad * 3);           //shove it towards the centrosome
+		vCent *= (-rad * 3);           //shove it towards the centrosome
 											//}
 											//throw new Error("Let's see!");
 		p_cell.makeVesicleContent(content, cw.x + vCent.x, cw.y + vCent.y); //make the thing, shoved slightly towards the centrosome
@@ -1433,6 +1436,88 @@ public class Membrane : CellObject
 		//p_cell.killCanvasObject(cw);
 		//removeMembraneNodes(2);
 	}
+
+	public void updatePH(float ph)
+	{
+		//ph_balance = ph;
+		//updateColors();
+	}
+
+	private void updateColors()
+	{
+		//cyto_col = 0x8833CC;// PH.getCytoColor(ph_balance_show);
+		//spring_col = 0x663399;// PH.getLineColor(ph_balance_show);
+		//gap_col = 0xBB99FF;// PH.getGapColor(ph_balance_show);
+	}
+
+	private void animatePH()
+	{
+		/*if (ph_balance_show < ph_balance - 0.1) {
+			ph_balance_show += 0.1;
+		}else if (ph_balance_show > ph_balance + .1) {
+			ph_balance_show -= 0.1;
+		}else {
+			ph_balance_show = ph_balance;
+		}
+		updateColors();*/
+	}
+
+	private void updateNodes()
+	{
+		int i = 0;
+
+		MembraneNode.tug_x = 0;
+		MembraneNode.tug_y = 0;
+
+		int length = list_nodes.Count;
+		float avg_stretch = 0;
+		for (i = 0; i < length; i++)
+		{
+			if (skeletonReady)
+			{
+				list_nodes[i].updateDist();
+				list_nodes[i].doMove();
+				collisionTest(i);
+				avg_stretch += list_nodes[i].stretch;
+			}
+		}
+		AVG_STRETCH = avg_stretch / length;
+
+		drawAllNodes(true);
+
+		p_skeleton.x += MembraneNode.tug_x;
+		p_skeleton.y += MembraneNode.tug_y;
+	}
+
+	public void drawAllNodes(bool doTug = false)
+	{
+
+		shape_spring.//  .graphics.clear();
+		shape_cyto.graphics.clear();
+		shape_gap.graphics.clear();
+		shape_outline.graphics.clear();
+		shape_debug.graphics.clear();
+
+		startCyto();
+
+		shape_spring.graphics.lineStyle(SPRING_THICK, health_col);// , false, "normal", CapsStyle.ROUND);
+		shape_gap.graphics.lineStyle(GAP_THICK, health_col2);
+		shape_outline.graphics.lineStyle(OUTLINE_THICK, 0x000000);
+
+		var length:int = list_nodes.length;
+		for (var i:int = 0; i < length; i++) {
+			if (skeletonReady)
+			{
+				if (doTug)
+				{
+					list_nodes[i].tugNodes();
+				}
+				drawMembrane(list_nodes[i]);// , c, c2);
+			}
+		}
+		endCyto();
+	}
+
 
 
 
