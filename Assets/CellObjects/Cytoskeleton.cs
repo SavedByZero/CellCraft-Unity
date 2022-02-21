@@ -498,7 +498,7 @@ public class Cytoskeleton : CellObject
 		if (list_grav_warble != null)
 		{
 			foreach(GravPoint g in list_grav_warble) {
-				if (g)
+				if (g != null)
 				{
 					GravPoint gg = g.copy();
 					gg.x += p_centrosome.x;
@@ -553,7 +553,7 @@ public class Cytoskeleton : CellObject
 	{
 		while (true)
 		{
-			yield return new WaitForEndOfFrame()
+			yield return new WaitForEndOfFrame();
 	foreach(Microtubule m in list_tubes) {
 				m.growBitHelper();
 			}

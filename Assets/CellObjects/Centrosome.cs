@@ -16,7 +16,7 @@ public class Centrosome : CellObject
 			text_description = "Organizes the cell's cytoskeleton";
 			text_id = "centrosome";
 			num_id = Selectable.CENTROSOME;
-			bestColors = [0, 0, 1];
+			bestColors = new bool[] { false, false, true };
 			//list_actions = Vector.<int>([]);// Act.MAKE_BASALBODY]);
 			setMaxHealth(250, true);
 			init();

@@ -336,7 +336,7 @@ public class CellObject : Selectable
 		//if(checkMembrane()){
 		if (checkSpend())
 		{
-			base.doMoveToGobj(e);
+			base.doMoveToGobj();
 			distTravelled += speed;
 			if (p_tube)
 			{
@@ -449,7 +449,7 @@ return false;
 
 	}
 
-	public void unDoom()
+	public virtual void unDoom()
 	{
 		isDoomed = false;
 
@@ -515,7 +515,7 @@ return false;
 		}
 	}
 
-	protected IEnumerator takePHDamage()
+	protected virtual IEnumerator takePHDamage()
 	{
 
 		while (true)
@@ -526,7 +526,7 @@ return false;
 		
 	}
 
-	public override void takeDamage(float n)
+	public override void takeDamage(float n, bool hardKill = false)
 	{
 		base.takeDamage(n);
 		if (selected)

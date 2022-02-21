@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class FastMath 
 {
-	public float TWOPI = Mathf.PI* 2;
+	public const float TWOPI = Mathf.PI* 2;
 	public float _180divPI = 180 / Mathf.PI;
 	public float PIdiv180 = Mathf.PI / 180;
+	
 		
 	private float fastABS(float n) 
 	{
@@ -65,7 +66,7 @@ public class FastMath
 	* @return the Distance^2
 	*/
 
-	private int getDist2i(int x1, int y1, int x2, int y2)
+	private static int getDist2i(int x1, int y1, int x2, int y2)
 	{
 		return (((x1 - x2) * (x1 - x2)) + ((y1 - y2) * (y1 - y2)));
 	}
@@ -77,7 +78,7 @@ public class FastMath
 	 * @return a list of circle coordinates in a Vector.<Number>
 	 */
 
-	private List<float> circlePoints(float radius, float MAX) 
+	public static List<float> circlePoints(float radius, float MAX) 
 	{
 		
 		List<float> circ = new List<float> ();

@@ -15,27 +15,29 @@ public class Membrane : CellObject
 		private List<Virus> list_viruses;
 		private List<GravPoint> list_grav_blank;
 		
+		
 
 		
 		private Centrosome p_cent;
 		private Cytoskeleton p_skeleton;
 
     public Coroutine _waitForReadyRoutine { get; private set; }
+	private Coroutine _doMouseMoveRoutine;
 
     public bool skeletonReady = false;
 		
 		public GameObject membraneSprite;
 		public GameObject iconSprite;
 		
-		public Shape shape_spring;  //was: shape
+		public Graphics shape_spring;  //was: shape
 	//Scene gg = new Scene();
-		public Shape shape_gap;
-		public Shape shape_cyto;
-		public Shape shape_outline;
+		public Graphics shape_gap;
+		public Graphics shape_cyto;
+		public Graphics shape_outline;
 		
 		public Targetter targetter;
 		
-		public Shape shape_debug;
+		public Graphics shape_debug;
 		
 		public static float cyto_volume = 0;
 		
@@ -106,7 +108,7 @@ public class Membrane : CellObject
 		
 		private float worldScale = 1;
 		
-		//private var p_engine:Engine;
+		private Engine p_engine;
 		private ObjectGrid p_objectGrid;
 		
 		private bool dummy_flag = false;
@@ -223,13 +225,13 @@ public class Membrane : CellObject
 		//membraneSprite.buttonMode = true;
 		//membraneSprite.useHandCursor = true;
 
-		shape_cyto = new Shape();
-		shape_spring = new Shape();
+		shape_cyto = new Graphics();
+		shape_spring = new Graphics();
 		//shape_node = new Shape();
 
-		shape_gap = new Shape();
-		shape_outline = new Shape();
-		shape_debug = new Shape();
+		shape_gap = new Graphics();
+		shape_outline = new Graphics();
+		shape_debug = new Graphics();
 
 
 		targetter = new Targetter();
@@ -322,8 +324,8 @@ public class Membrane : CellObject
 		defensins += n;
 		calcDefensinStrength();
 		p_engine.finishDefensin();
-		p_cell.onFinishDefensin();
-		//showShields();
+		//p_cell.onFinishDefensin();  //TODO
+
 	}
 
 	private void destructNodes()
@@ -863,9 +865,9 @@ public class Membrane : CellObject
 
 	private void makeNodes(float radius, int max)
 	{
+		
 
-
-		List<float> v = circlePoints(radius, max);
+		List<float> v = FastMath.circlePoints(radius, max);
 		int length = v.Count;
 		float rot = 0;
 		for (int i = 0; i < length; i += 2) 
@@ -1042,7 +1044,7 @@ public class Membrane : CellObject
 	public void onFinishPPod()
 	{
 		isPPoding = false;
-		p_engine.notifyOHandler(EngineEvent.EXECUTE_ACTION, null, "pseudopod_finish", 1);
+		//p_engine.notifyOHandler(EngineEvent.EXECUTE_ACTION, null, "pseudopod_finish", 1);  //TODO
 	}
 
 	private void cancelPseudopod()
@@ -1066,7 +1068,7 @@ public class Membrane : CellObject
 		d2 /= Costs.MOVE_DISTANCE2;
 
 		float cost = Costs.PSEUDOPOD[0] * d2;
-		if (p_engine.canAfford(cost, 0, 0, 0, 0))
+		if (p_engine.canAfford((int)cost, 0, 0, 0, 0))
 		{
 			p_skeleton.cancelPseudopod(); //only 1 ppod at once!
 			p_skeleton.tryPseudopod(xx, yy, cost);
@@ -1492,20 +1494,20 @@ public class Membrane : CellObject
 	public void drawAllNodes(bool doTug = false)
 	{
 
-		shape_spring.//  .graphics.clear();
-		shape_cyto.graphics.clear();
-		shape_gap.graphics.clear();
-		shape_outline.graphics.clear();
-		shape_debug.graphics.clear();
+		shape_spring.Begin();//  .graphics.clear();
+		shape_cyto.Begin();
+		shape_gap.Begin();
+		shape_outline.Begin();
+		shape_debug.Begin();
 
 		startCyto();
 
-		shape_spring.graphics.lineStyle(SPRING_THICK, health_col);// , false, "normal", CapsStyle.ROUND);
-		shape_gap.graphics.lineStyle(GAP_THICK, health_col2);
-		shape_outline.graphics.lineStyle(OUTLINE_THICK, 0x000000);
+		shape_spring.lineStyle(SPRING_THICK, health_col);// , false, "normal", CapsStyle.ROUND);
+		shape_gap.lineStyle(GAP_THICK, health_col2);
+		shape_outline.lineStyle(OUTLINE_THICK, Color.black);
 
-		var length:int = list_nodes.length;
-		for (var i:int = 0; i < length; i++) {
+		int length = list_nodes.Count;
+		for (int i = 0; i < length; i++) {
 			if (skeletonReady)
 			{
 				if (doTug)
@@ -1517,6 +1519,399 @@ public class Membrane : CellObject
 		}
 		endCyto();
 	}
+
+	public void startCyto()
+	{
+		shape_cyto.SetFillColor(cyto_col.r,cyto_col.g,cyto_col.b,cyto_col.a);
+		MembraneNode m = list_nodes[0];
+		if (list_nodes.Count >= 1)
+		{
+			Point mid = new Point(
+					(m.pt_control_next.x + m.p_next.pt_control_prev.x) / 2,
+					(m.pt_control_next.y + m.p_next.pt_control_prev.y) / 2);
+			shape_cyto.MoveTo(mid.x, mid.y);
+		}
+	}
+
+	public void endCyto()
+	{
+		
+		MembraneNode m = list_nodes[0];
+		if (list_nodes.Count >= 1)
+		{
+			Point mid = new Point(
+					(m.pt_control_next.x + m.p_next.pt_control_prev.x) / 2,
+					(m.pt_control_next.y + m.p_next.pt_control_prev.y) / 2);
+			if (DRAW_QUALITY == DRAW_CURVES)
+			{
+				shape_cyto.LineTo((mid.x + m.x) / 2, (mid.y + m.y) / 2);
+			}
+			shape_cyto.LineTo(mid.x, mid.y);
+		}
+
+		shape_cyto.End();
+
+	}
+
+	public override void updateBubbleZoom(float n)
+	{
+		base.updateBubbleZoom(n);
+
+		if (SPRING_THICK_ * n < SPRING_MIN)
+			SPRING_THICK = SPRING_MIN / n;
+		else
+			SPRING_THICK = SPRING_THICK_;
+
+
+		if (GAP_THICK_ * n < GAP_MIN)
+			GAP_THICK = GAP_MIN / n;
+		else
+			GAP_THICK = GAP_THICK_;
+
+		if (OUTLINE_THICK_ * n < OUTLINE_MIN)
+			OUTLINE_THICK = OUTLINE_MIN / n;
+		else
+			OUTLINE_THICK = OUTLINE_THICK_;
+
+	}
+
+	public void drawMembrane(MembraneNode m)
+	{//, c:uint, c2:uint) {
+
+		Point mid_prev = new Point(
+					(m.pt_control_prev.x + m.p_prev.pt_control_next.x) / 2,
+					(m.pt_control_prev.y + m.p_prev.pt_control_next.y) / 2);
+
+		Point mid = new Point(
+					(m.pt_control_next.x + m.p_next.pt_control_prev.x) / 2,
+					(m.pt_control_next.y + m.p_next.pt_control_prev.y) / 2);
+
+
+		float dx = mid_prev.x - mid.x;
+		float dy = mid_prev.y - mid.y;
+		float d2 = (dx * dx) + (dy * dy);
+
+		if (d2 < MembraneNode.D2_NODEREST / 10)
+		{
+			//super hacky hack!
+			m.isFolded = true;
+			//this is not elegant code!
+			dummy_flag = true;
+		}
+		else
+		{
+			m.isFolded = false;
+			endDummy = true;
+		}
+
+		if (DRAW_QUALITY == DRAW_CURVES)
+		{ //curves
+		  //THE NORMAL WAY OF DOING THINGS:
+			if (!dummy_flag)
+			{
+				shape_spring.MoveTo(mid_prev.x, mid_prev.y);
+				shape_gap.MoveTo(mid_prev.x, mid_prev.y);
+				shape_outline.MoveTo(mid_prev.x, mid_prev.y);
+				
+				shape_spring.BezierCurveTo(mid_prev.x, mid_prev.y,m.x, m.y, mid.x, mid.y);
+				shape_gap.BezierCurveTo(mid_prev.x, mid_prev.y,m.x, m.y, mid.x, mid.y);
+				shape_outline.BezierCurveTo(mid_prev.x, mid_prev.y, m.x, m.y, mid.x, mid.y);
+
+				shape_cyto.LineTo((mid.x + m.x) / 2, (mid.y + m.y) / 2);
+				shape_cyto.LineTo(mid.x, mid.y);
+			}
+			else
+			{
+
+				shape_spring.MoveTo(mid_prev.x, mid_prev.y);
+				shape_gap.MoveTo(mid_prev.x, mid_prev.y);
+				shape_outline.MoveTo(mid_prev.x, mid_prev.y);
+
+				shape_spring.LineTo(mid.x, mid.y);
+				shape_gap.LineTo(mid.x, mid.y);
+				shape_outline.LineTo(mid.x, mid.y);
+
+				shape_cyto.LineTo(mid.x, mid.y);
+			}
+		}
+		else if (DRAW_QUALITY == DRAW_LINES)
+		{ //lines
+			shape_spring.MoveTo(mid_prev.x, mid_prev.y);
+			shape_gap.MoveTo(mid_prev.x, mid_prev.y);
+			shape_outline.MoveTo(mid_prev.x, mid_prev.y);
+
+			shape_spring.LineTo(mid.x, mid.y);
+			shape_gap.LineTo(mid.x, mid.y);
+			shape_outline.LineTo(mid.x, mid.y);
+
+			shape_cyto.LineTo(mid.x, mid.y);
+		}
+
+
+
+
+
+		if (SHOW_NODES)
+		{
+			
+			if (m.state_ppod)
+			{
+				shape_debug.SetFillColor(1,0,0,1);
+			}
+			else if (dummy_flag)
+			{
+				shape_debug.SetFillColor(1,0,1,1);
+			}
+			else
+			{
+				shape_debug.SetFillColor(Color.white);
+			}
+
+			shape_debug.Circle(m.x, m.y, 10);
+
+			shape_debug.Circle(mid.x, mid.y, 5);
+
+			shape_debug.Circle(mid_prev.x, mid_prev.y, 5);
+			shape_debug.End();
+		}
+
+		if (endDummy)
+		{
+			dummy_flag = false;
+		}
+
+		if (SHOW_GRAVPOINTS)
+		{
+			uint colorz = 0xFF0000;
+			shape_debug.lineStyle(3, Color.blue);
+			for (int i = 0; i < list_grav.Count; i++) 
+			{
+				shape_debug.Circle(list_grav[i].x, list_grav[i].y, list_grav[i].radius);
+			}
+
+			shape_debug.lineStyle(3, Color.white);
+			for (int j = 0; j < list_grav_blank.Count; j++) {
+				shape_debug.Circle(list_grav_blank[j].x, list_grav_blank[j].y, list_grav_blank[j].radius);
+			}
+
+
+		}
+	}
+
+	public void drawCentralSprings(MembraneNode m)
+	{
+		if (SHOWLINES)
+		{
+			if (DEBUG)
+			{
+				if (!m.rest_cent)
+				{
+					if (m.dpull_cent > 0)
+						shape_spring.lineStyle(1, new Color(0,1,0,0.5f));
+					else
+						shape_spring.lineStyle(1, Color.red);
+
+				}
+			}
+			else
+			{
+				shape_spring.lineStyle(1, (FastMath.ConvertFromUint(0x55CCFF)));//, 1);
+			}
+			shape_spring.MoveTo(m.x, m.y);
+			shape_spring.LineTo(m.p_cent.x, m.p_cent.y);
+		}
+		else
+		{
+			//don't show any lines
+		}
+	}
+
+	public override void setEngine(Engine e)
+	{
+		p_engine = e;
+	}
+
+	public void clearMouse()
+	{
+		if (isMouseDown)
+		{
+			isMouseDown = false;
+			hideCursor();
+			hidePPodCursor();
+			StopCoroutine(_doMouseMoveRoutine);
+			//removeEventListener(RunFrameEvent.RUNFRAME, doMouseMove);
+		}
+	}
+
+	private void doMouseUp()
+	{
+		Vector3 mouse = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+		if (isMouseDown)
+		{
+			float xd = mouse.x - mouseDown_x;
+			float yd = mouse.y - mouseDown_y;
+			d2_mouse = (xd * xd) + (yd * yd);
+			if (d2_mouse > D2_PPOD)
+			{
+				tryPseudopod(mouse.x, mouse.y);
+				hidePPodCursor();
+			}
+		}
+		isMouseDown = false;
+		hideCursor(); //go back from the bleb cursor to nothing
+		StopCoroutine(_doMouseMoveRoutine);
+	}
+
+	private void hideTargetter()
+	{
+		targetter.gameObject.SetActive(false);
+	}
+
+	public void onCellMove(float xx, float yy)
+	{
+		targetter.transform.localPosition = new Vector3(targetter.transform.localPosition.x - xx,targetter.transform.localPosition.y - yy, targetter.transform.position.z);
+		mouseDown_x -= xx;
+		mouseDown_y -= yy;
+	}
+
+	private void showTargetter()
+	{
+
+
+		List <MembraneNode> m = getClosestNodes(mouseDown_x, mouseDown_y, D2_PPOD);
+		if (m != null)
+		{
+			//BUG ALERT
+			//BUG ALERT: This assumes that the membrane is at 0,0 without scale!
+			worldScale = p_engine.getWorldScale();
+			targetter.transform.localScale = new Vector3(1 / worldScale, 1 / worldScale, 1); //There's going to be bugs unless you update this whenever you change scale!
+
+			targetter.gameObject.SetActive(true);
+			targetter.transform.position = new Vector3(mouseDown_x, mouseDown_y, targetter.transform.position.z);
+		
+			p_engine.setCursorArrowPoint(mouseDown_x, mouseDown_y);
+			if (m.Count > 1)
+			{
+				MembraneNode mm = m[m.Count-1];
+				m.RemoveAt(m.Count - 1);
+				p_engine.setCursorArrowRotation(mm.rotation);
+			}
+		}
+	}
+
+
+	private void doMouseDown()
+	{
+
+		isMouseDown = true;
+		mouseDown_x = m.localX;
+		mouseDown_y = m.localY;
+		//p_cell.dispatchEvent(m);
+		_doMouseMoveRoutine = StartCoroutine(doMouseMove());
+		
+		//m.stopPropagation(); //keep it from going to the cell
+
+		//p_engine.dispatchEvent(m); //TODO  //send it directly to the engine
+								   //m.stopImmediatePropagation();
+								   //trace("Membrane.doMouseDown()! isMouseDown = " + isMouseDown);
+	}
+
+	private IEnumerator doMouseMove()
+	{
+		while (true)
+		{
+			yield return new WaitForEndOfFrame();
+			if (isMouseDown)
+			{
+				if (Director.IS_MOUSE_DOWN == false)
+				{ //CHEAP HACK : "Release Outside" event - just check every frame against global
+					doMouseUp();
+				}
+				else
+				{
+					Vector3 mouse = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+					float xd  = mouse.x - mouseDown_x;
+					float yd = mouse.y - mouseDown_y;
+					d2_mouse = (xd * xd) + (yd * yd);
+					
+					if (d2_mouse >= D2_PPOD)
+					{
+						showPPodCursor();
+						
+					}
+					else
+					{
+						hidePPodCursor();
+						
+					}
+				}
+			}
+		}
+	}
+
+	private void showPPodCursor()
+	{
+		if (!isPPodCursor)
+		{
+			p_engine.showCursor((int)CellAction.PSEUDOPOD);
+			isPPodCursor = true;
+			showTargetter();
+		}
+	}
+
+	private void hidePPodCursor()
+	{
+		if (isPPodCursor)
+		{
+			p_engine.endCursorArrow();
+			p_engine.lastCursor();
+			isPPodCursor = false;
+			hideTargetter();
+		}
+	}
+
+	private void doOver()
+	{
+		if (!isMouseDown)
+		{
+			showCursor();
+		}
+	}
+
+	private void doOut()
+	{
+		if (!isMouseDown)
+		{
+			hideCursor();
+		}
+	}
+
+	private void showCursor()
+	{
+		if (!isMouseOver)
+		{
+			p_engine.showCursor((int)CellAction.PSEUDOPOD_PREPARE);
+			isMouseOver = true;
+		}
+	}
+
+	private void hideCursor()
+	{
+		if (isMouseOver)
+		{
+			p_engine.lastCursor();
+			isMouseOver = false;
+		}
+	}
+
+
+
+
+
+
+
+
+
 
 
 

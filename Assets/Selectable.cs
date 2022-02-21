@@ -131,12 +131,12 @@ public class Selectable : CellGameObject
 		doomline();
 	}
 
-	public void releaseFromLysosome(Lysosome l)
+	public virtual void releaseFromLysosome(Lysosome l)
 	{
 
 	}
 
-	public void targetForEating(Lysosome l = null)
+	public virtual void targetForEating(Lysosome l = null)
 	{
 		makeDoomed();
 	}
@@ -343,7 +343,7 @@ public class Selectable : CellGameObject
 
 
 
-		public bool tryRecycle(bool oneOfMany = false)
+		public virtual bool tryRecycle(bool oneOfMany = false)
 		{
 			if (oneOfMany)
 			{
@@ -357,7 +357,7 @@ public class Selectable : CellGameObject
 			return false;
 		}
 
-		public void doRecycle()
+		public virtual void doRecycle()
 		{
 			cancelMove();
 			isRecycling = true;

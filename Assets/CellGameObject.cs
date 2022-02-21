@@ -26,7 +26,7 @@ public class CellGameObject : MovieClip, ICellGameObject
 	protected float lastDist2; //the distance to the obj last frame
 
 	//protected var p_world:World;   //TODO
-	//protected var p_engine:Engine;  //TODO
+	protected Engine p_engine;
 
 	protected bool isDamaged = false;
 	protected int damageLevel = 0;
@@ -178,7 +178,7 @@ public class CellGameObject : MovieClip, ICellGameObject
 		}
 	}
 
-	public virtual void takeDamage(float n)
+	public virtual void takeDamage(float n, bool hardKill = false)
 	{
 		health -= n;
 		if (health <= 0)
@@ -352,12 +352,12 @@ public class CellGameObject : MovieClip, ICellGameObject
 	public void setWorld(w:World)
 	{
 		p_world = w;
-	}
-	//TODO
-	public void setEngine(e:Engine)
+	}*/
+	
+	public virtual void setEngine(Engine e)
 	{
 		p_engine = e;
-	}*/
+	}
 
 	public virtual void destruct()
 	{
@@ -671,7 +671,7 @@ public class CellGameObject : MovieClip, ICellGameObject
 		cancelMovePoint();
 	}
 
-	protected void cancelMovePoint()
+	protected virtual void cancelMovePoint()
 	{
 		if (pt_dest != null)
 		{
@@ -681,7 +681,7 @@ public class CellGameObject : MovieClip, ICellGameObject
 		}
 	}
 
-	protected void arrivePoint(bool wasCancel = false)
+	protected virtual void arrivePoint(bool wasCancel = false)
 	{
 		if (!wasCancel)
 		{
@@ -808,7 +808,7 @@ public class CellGameObject : MovieClip, ICellGameObject
 		//defined per subclass
 	}
 
-	protected IEnumerator onDeadTimer(float delay)
+	protected virtual IEnumerator onDeadTimer(float delay)
 	{
 		yield return new WaitForSeconds(delay);
 
