@@ -33,7 +33,7 @@ public class Virus : CellObject
 		
 	public int position_state = POS_OUTSIDE_CELL;
 	public int motivation_state = -1;
-    private Coroutine _tryEnter;
+    protected Coroutine _tryEnter;
     public int condition_state = -1;
 		
 	public MembraneNode mnode;
@@ -61,7 +61,7 @@ public class Virus : CellObject
 	public bool isNeutralized = false;
 		
 	protected int DMG_PIERCE_MEMBRANE = 1;
-	const float INJECT_DISTANCE = 30;
+	public const float INJECT_DISTANCE = 30;
 		
 	public int newnode_count = 0;
 	public int NEWNODE_TIME = 5;
@@ -87,9 +87,9 @@ public class Virus : CellObject
 	private uint gap_col = 0x99CCFF;
 
 	private Coroutine _updateVesicleRoutine;
-	private Coroutine _clingCellRoutine;
+	protected Coroutine _clingCellRoutine;
     private Coroutine _checkAbsorbRoutine;
-    private Coroutine _tauntCellRoutine;
+    protected Coroutine _tauntCellRoutine;
     private Coroutine _waitForEatRoutine;
 
     public Virus()
@@ -300,21 +300,21 @@ public class Virus : CellObject
 		p_canvas = c;
 	}
 
-	protected void touchingCell()
+	protected virtual void touchingCell()
 	{
 		releaseLyso();
 		position_state = POS_TOUCHING_CELL;
 		//this.transform.colorTransform = new ColorTransform(0.75,0.75,0.75,1, 0,0,0,0);
 	}
 
-	protected void insideCell()
+	protected virtual void insideCell()
 	{
 		speed = inside_speed;
 		position_state = POS_INSIDE_CELL;
 		//this.transform.colorTransform = new ColorTransform(1,1,1,1, 0,0,0,0);
 	}
 
-	protected void outsideCell()
+	protected virtual void outsideCell()
 	{
 		position_state = POS_OUTSIDE_CELL;
 
@@ -385,7 +385,7 @@ public class Virus : CellObject
 		//don't make it doomed just yet!
 	}
 
-	protected void onInvade(bool doDamage = true)
+	protected virtual void onInvade(bool doDamage = true)
 	{
 		//trace("Virus.onInvade()");
 		mnode = null;
@@ -586,7 +586,7 @@ public class Virus : CellObject
 		}
 	}
 
-	public void onTouchCell()
+	public virtual void onTouchCell()
 	{
 
 		if (condition_state == CON_MOVE_TO_MEMBRANE && position_state == POS_INSIDE_CELL)
@@ -621,7 +621,7 @@ public class Virus : CellObject
 		}
 	}
 
-	protected void onTouchCellAnim()
+	protected virtual void onTouchCellAnim()
 	{
 		playAnim("land");
 	}

@@ -106,7 +106,7 @@ public class ProducerObject : CellObject
 		}
 	}
 
-	protected void doAlternateBurn()
+	protected virtual void doAlternateBurn()
 	{
 		if (p_cell.spend(_inputs2, new Point(x, y + (MaxHeight / 2)), 0.5))
 		{

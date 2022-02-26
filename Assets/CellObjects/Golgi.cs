@@ -7,7 +7,7 @@ using UnityEngine;
 using System.Collections;
 
 
-class Golgi : CellObject
+public class Golgi : CellObject
 {
 	public Locator dock0;
 	public Locator dock1;

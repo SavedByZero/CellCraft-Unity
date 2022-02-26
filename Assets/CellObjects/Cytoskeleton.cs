@@ -158,7 +158,7 @@ public class Cytoskeleton : CellObject
 		}
 	}
 
-	void makeNewTube(CellObject c)
+	public void makeNewTube(CellObject c)
 	{
 		Point p = new Point(c.x - x, c.y - y);
 		Microtubule mt = makeMicrotubule(p);
@@ -166,7 +166,7 @@ public class Cytoskeleton : CellObject
 		updateAll();
 	}
 
-	void makeTubes(List<CellObject> list)
+	public void makeTubes(List<CellObject> list)
 	{
 		//trace("LIST = " + list);
 		int length = list.Count;

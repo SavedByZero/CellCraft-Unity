@@ -410,7 +410,7 @@ public class CellGameObject : MovieClip, ICellGameObject
 		 * @param	yes
 		 */
 
-	public void pauseAnimate(bool yes)
+	public virtual void pauseAnimate(bool yes)
 	{
 		if (!yes)
 		{
@@ -449,13 +449,13 @@ public class CellGameObject : MovieClip, ICellGameObject
 		}
 	}
 
-	public void animateOn()
+	public virtual void animateOn()
 	{ //just turn on wiggling
 		anim_wiggle = true;
 		wiggle(true);
 	}
 
-	public void animateOff()
+	public virtual void animateOff()
 	{ //just turn off wiggling
 		anim_wiggle = false;
 		wiggle(false);
@@ -494,7 +494,8 @@ public class CellGameObject : MovieClip, ICellGameObject
         }
     }
 
-	protected void doAnim()//(e:RunFrameEvent)
+	//I don't want to make this public, but considering the nature of the original runframe event code from outside, I have little choice
+	public void doAnim()//(e:RunFrameEvent)
 	{
 		if (anim != null)
 		{
@@ -717,6 +718,13 @@ public class CellGameObject : MovieClip, ICellGameObject
 		y += yy;
 		updateLoc();
 	}
+
+	public void RemoteRun()
+    {
+		doMoveToGobj();
+		doMoveToPoint();
+		doAnim();
+    }
 
 	protected virtual void doMoveToGobj()
 	{

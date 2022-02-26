@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CellObject : Selectable
 {
-	//protected var p_cell:Cell;  //TODO
+	protected Cell p_cell;
 	protected Microtubule p_tube;  
 		
 	public int plopDepth = 0;
@@ -420,7 +420,7 @@ return false;
 			//gotoAndStop("divide");
 	}
 
-	protected void finishDivide()
+	protected virtual void finishDivide()
 	{
 
 		is_dividing = false;
@@ -429,7 +429,7 @@ return false;
 		//define per subclass
 	}
 
-	public void inVesicle(BigVesicle v) 
+	public virtual void inVesicle(BigVesicle v) 
 	{
 		isInVesicle = true;
 		myVesicle = v;
