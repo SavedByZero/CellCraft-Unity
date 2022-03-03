@@ -6,7 +6,7 @@ using UnityEngine;
 using System.Threading.Tasks;
 
 
-class FreeRadical : CellObject
+public class FreeRadical : CellObject
 {
 	private string targetStr = "";
 	private CellObject targetObj;

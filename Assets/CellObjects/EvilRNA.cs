@@ -183,7 +183,7 @@ public class EvilRNA : RNA
 	}
 
 
-	protected IEnumerator tauntCell()
+	protected virtual IEnumerator tauntCell()
 	{
 		while (true)
 		{

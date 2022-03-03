@@ -1964,6 +1964,667 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 		}
 		return v;
 	}
+
+	public void fireToxinParticle(float xx, float yy)
+	{
+		ToxinParticle t = makeToxinParticle();
+		//makeToxin(xx, yy);
+		t.x = xx;
+		t.y = yy;
+		t.getOuttaHere();
+	}
+
+	public ToxinParticle makeToxinParticle() 
+	{
+		ToxinParticle t = new ToxinParticle();
+		t.transform.SetParent(this.transform);
+		t.setCell(this);
+		t.setCanvas(p_canvas);
+			list_junk.Add(t);
+			addRunning(t);
+		int count = 0;
+		foreach(CellObject c in list_junk)
+		{
+			if (c is ToxinParticle)
+			{
+				count++;
+			}
+		}
+	onMake("toxin_particle", count);
+			return t;
+	}
+
+	private ProteinGlob makeProteinGlob()
+	{
+		ProteinGlob p = new ProteinGlob();
+		p.transform.SetParent(this.transform);
+		p.setCell(this);
+		list_junk.Add(p);
+		addRunning(p);
+		int count = 0;
+		foreach(CellObject c in list_junk) 
+		{
+			if (c is ProteinGlob)
+			{
+				count++;
+			}
+		}
+		onMake("protein_glob", count);
+		return p;
+	}
+
+	private Mitochondrion makeMitochondrion() 
+	{
+		Mitochondrion m = new Mitochondrion();
+		m.transform.SetParent(this.transform);
+		m.setCell(this);
+		list_mito.Add(m);
+		addSelectable(m);
+		addRunning(m);
+		onMake("mitochondrion", list_mito.Count);
+		mitoCount = list_mito.Count;
+		p_engine.setMitoCount(mitoCount);
+		return m;
+	}
+
+	private TransportVesicle makeTransportVesicle(int product, float amount = 1)
+	{
+		TransportVesicle t = new TransportVesicle();
+		t.setProduct(product, amount);
+		t.transform.SetParent(this.transform);
+		t.setCell(this);
+		list_ves.push(t);
+		//addSelectable(t);
+		addRunning(t);
+		onMake("transport_vesicle", list_ves.Count); //need to count actual transport vesicles
+		return t;
+	}
+
+	private Peroxisome makePeroxisome()
+	{
+		Peroxisome p = new Peroxisome();
+		p.transform.SetParent(this.transform);
+		p.setCell(this);
+		list_perox.Add(p);
+		addSelectable(p);
+		addRunning(p);
+		updateBasicUnits();
+		onMake("peroxisome", list_perox.Count);
+		return p;
+	}
+
+	private Lysosome makeLysosome() 
+	{
+		Lysosome l = new Lysosome();
+		l.transform.SetParent(this.transform);
+		l.setCell(this);
+		list_lyso.Add(l);
+		addSelectable(l);
+		addRunning(l);
+		updateBasicUnits();
+		onMake("lysosome", list_lyso.Count);
+			return l;
+	}
+
+	/******/
+
+	private void updateViruses()
+	{
+		c_membrane.updateViruses(list_virus);
+	}
+
+	private void updateBasicUnits()
+	{
+		List<BasicUnit> list = new List<BasicUnit>();
+		foreach(SlicerEnzyme s in list_slicer) 
+		{
+			list.Add(s);
+		}
+		foreach(Peroxisome p in list_perox) {
+			list.Add(p);
+		}
+		foreach(Lysosome l in list_lyso) {
+			list.Add(l);
+		}
+		foreach(Ribosome r in list_ribo) {
+			list.Add(r);
+		}
+		foreach(DNARepairEnzyme d in list_dnarepair) 
+		{
+			list.Add(d);
+		}
+
+		c_membrane.updateBasicUnits(list);
+	}
+		
+		/******/
+		
+	public Point getGolgiLoc()
+	{
+		Point p = new Point(c_golgi.x, c_golgi.y);
+		return p;
+	}
+
+	public EvilRNA generateEvilRNA(int i, int count, string wave_id= "", bool startImmediately = false, bool evilDNA = false, bool doesVesicle = false) 
+	{
+			
+		EvilRNA r;
+		if(evilDNA == false)
+		{
+			r = new RedRNA(i, count, wave_id);
+		}else
+		{
+			r = new EvilDNA(i, count, wave_id);
+		}
+
+		r.product_virus_vesicle = doesVesicle;
+
+		r.transform.SetParent(this.transform, false);
+		list_rna.Add(r);
+		r.setCell(this);
+		addRunning(r);
+		if (startImmediately)
+		{
+			r.doesRotateUp = true;
+			r.playAnim("fast_grow");
+		}
+		else
+		{
+			r.doesRotateUp = false;
+			r.playAnim("grow");
+		}
+		bool wait;
+		if (i != Selectable.VIRUS_INFESTER)
+		{
+			wait = !askForRibosome(r);
+			if (wait)
+			{
+				r.waitForRibosome();
+			}
+		}
+		else
+		{
+			//trace("Cell.generateEvilRNA is INFESTER");
+			askForNucleusPore(r);
+			//wait = !askForNucleusPore(r);
+			//if (wait) {
+			//	r.waitForNucleusPore();
+			//}
+		}
+		return r;
+	}
+
+	public void onHealSomething(CellObject c, float n)
+	{
+		//p_engine.notifyOHandler(EngineEvent.ENGINE_TRIGGER, "heal_thing", c.text_id, n);  //TODO
+	}
+
+	public int getNucleusInfestation() 
+	{
+		int max = (int)c_nucleus.getMaxInfest();
+		int h = (int)c_nucleus.getInfest();
+		int d = max - h;
+		return d;
+	}
+
+	public int getNucleusDamage()
+	{
+		int max = c_nucleus.getMaxHealth();
+		int h = c_nucleus.getHealth();
+		int d = max - h;
+		return d;
+	}
+
+	public RNA generateInfestRNA(int i, string creator)
+	{
+		EvilRNA r = null;
+		string virus_type = "";
+		switch (i)
+		{
+			case Selectable.VIRUS_INFESTER:
+				r = new RedRNA(Selectable.VIRUS_INFESTER, VirusInfester.SPAWN_COUNT, creator);
+				virus_type = "virus_infester";
+				break;
+		}
+		r.setNAValue(0);
+		r.transform.SetParent(this.transform);
+		list_rna.Add(r);
+		r.setCell(this);
+		addRunning(r);
+		//c_nucleus.getPore
+		var pt = c_nucleus.getPoreLoc(0, true);
+		r.x = pt.x;
+		r.y = pt.y;
+		r.playAnim("grow");
+		bool wait = !askForRibosome(r);
+		if (wait)
+		{
+			r.waitForRibosome();
+		}
+		//p_engine.onMakeEvilRNA(virus_type, creator, 1);  //TODO
+		return r;
+		
+	}
+
+	public RNA generateMRNA(int i, int na)
+	{
+
+		RNA r;
+		if (i == Selectable.SLICER_ENZYME || i == Selectable.DNAREPAIR)
+		{
+			r = new EnzymeRNA(i); //hack to get the animations right. We use an alternate RNA mc that has offset thread anims
+								  //you can use this for anything that generates proteins in place
+		}
+		else
+		{
+			r = new MRNA(i);    //the normal MRNA. use this for something that docks with a ribosome and uses the ER
+		}
+
+		r.setNAValue(na);
+
+
+		r.transform.SetParent(this.transform, false);
+		list_rna.Add(r);
+		r.setCell(this);
+		addRunning(r);
+		Point pt = c_nucleus.getPoreLoc(0, true);
+		r.x = pt.x;
+		r.y = pt.y;
+		r.playAnim("grow");
+		bool wait = !askForRibosome(r); //check for ribosomes
+		if (wait)
+		{
+			r.waitForRibosome();
+		}
+		return r;
+	}
+
+	public bool tauntByRadical(FreeRadical r) 
+	{
+			//return peroxisomeEatSomething(r);
+			Peroxisome p = findClosestPeroxisome(r.x, r.y);
+			if (p) {
+				p.setTargetRadical(r);
+				return true;
+			}
+		return false;
+	}
+		
+	public bool tauntByVirus(Virus v)
+	{
+		/*var l:Lysosome = findClosestLysosome(v.x, v.y);
+		if (l) {
+			l.
+		}*/
+
+		return lysosomeEatSomething(v);
+	}
+
+	public bool tauntByEvilRNA(EvilRNA e)
+	{
+		SlicerEnzyme s = findClosestSlicer(e.x, e.y);
+		if (s)
+		{
+			s.targetEvilRNA(e);
+			return true;
+		}
+		return false;
+	}
+
+
+	public Chloroplast getRandomChloro()
+	{
+		int length = list_chlor.Count;
+		if (length > 0)
+		{
+			int m = (UnityEngine.Random.Range(0,2)) * length;
+			return list_chlor[m];
+		}
+		return null;
+	}
+
+	public Mitochondrion getRandomMito() 
+	{
+		int length = list_mito.Count;
+		if(length > 0)
+		{
+			int m = UnityEngine.Random.Range(0,2) * length;
+				return list_mito[m];
+		}
+		return null;
+	}
+		
+	public Lysosome getRandomLyso()
+	{
+		int length = list_lyso.Count;
+		if (length > 0)
+		{
+			int m = UnityEngine.Random.Range(0,2) * length;
+			return list_lyso[m];
+		}
+		return null;
+	}
+
+	public SlicerEnzyme getRandomSlicer()
+	{
+		int length = list_slicer.Count;
+		if (length > 0)
+		{
+			int m = UnityEngine.Random.Range(0,2) * length;
+			return list_slicer[m];
+		}
+		return null;
+	}
+
+	public Peroxisome getRandomPerox()
+	{
+		int length = list_perox.Count;
+		if (length > 0)
+		{
+			int m = UnityEngine.Random.Range(0,2) * length;
+			return list_perox[m];
+		}
+		return null;
+	}
+
+	private SlicerEnzyme findClosestSlicer(float xx, float yy) 
+	{
+			float bestD2 = 10000000000000000;
+			int length = list_slicer.Count;
+			SlicerEnzyme bestS = null;
+			for (int i = 0; i<length; i++) 
+			{
+				SlicerEnzyme s = list_slicer[i];
+				if(!s.hasRNA)
+				{ //if it doesn't already have a target
+					float dx = xx - s.x;
+					float dy = yy - s.y;
+					float d2 = (dx* dx) + (dy* dy);
+					if (d2<bestD2) {
+						bestD2 = d2;
+						bestS = s;
+					}
+				}
+
+			}
+			//trace("Cell.findClosestSlicer(" + xx + "," + yy + ") = (" + bestS.x + "," + bestS.y + ")");
+			return bestS;
+	}
+
+	public bool dockGolgiVesicle(BlankVesicle v) 
+	{//attempt to dock the vesicle to the Golgi
+			
+		DockPoint pt = c_golgi.findDockingPoint();
+		if (pt != null) 
+		{
+			v.setDockPoint(pt, (int)c_golgi.transform.position.x, (int)c_golgi.transform.position.y);
+				
+			return true;
+		}
+		return false;
+	}
+		
+		public bool dockRibosomeER(Ribosome r)
+		{ //attempt to dock the ribosome to the Rough ER
+		  //LYSO_RIB_FINISHED++;
+		  //trace("Cell.dockRibosomeER() : LYSO_RIB_FINISHED= " + LYSO_RIB_FINISHED);	
+			DockPoint pt = c_er.findDockingPoint();
+			if (pt != null)
+			{
+				r.setDockPoint(pt, (int)c_er.transform.position.x, (int)c_er.transform.position.y);
+				//c_er.busyDockingPoint(pt.index);
+				return true;
+			}
+
+			return false;
+		}
+
+	public bool askForGolgiExit(BlankVesicle v)
+	{
+
+		DockPoint exit = c_golgi.findExitPoint();
+		if (exit != null)
+		{
+			//trace("found exit " + exit.index);
+			//c_golgi.busyExitPoint(exit.index);
+			v.setExit(exit, (int)c_golgi.transform.position.x, (int)c_golgi.transform.position.y);
+			v.swimThroughGolgi();
+			return true;
+		}
+		else
+		{
+			v.waitForExit();
+		}
+		return false;
+	}
+
+	public bool askForERExit(ProteinCloud p)
+	{
+		DockPoint exit = c_er.findExitPoint();
+		if (exit != null)
+		{
+			//c_er.busyExitPoint(exit.index);
+			p.setExit(exit, (int)c_er.transform.position.x, (int)c_er.transform.position.y);
+			p.swimER();
+		}
+		else
+		{
+			p.waitForExit();
+		}
+		return false;
+	}
+
+	public List<object> getNucleusPore() 
+	{
+		return c_nucleus.getPorePoint();
+	}
+
+	public bool askForNucleusPore(RNA r)
+	{
+		List<object> a = c_nucleus.getPorePoint();
+		if (a != null)
+		{
+			r.setNPore((a[0] as Point), c_nucleus, (int)(a[1]));
+			return true;
+		}
+		return false;
+	}
+
+/**
+ * Given an MRNA, tries to assign it to the closest ribosome
+ * @param	r the MRNA
+ * @return boolean : whether the function succeeded
+ */
+
+	public bool askForRibosome(RNA r)
+	{
+		Ribosome ri = findClosestRibosome(r.x, r.y);
+		if (ri != null)
+		{
+			r.setRibosome(ri);
+			return true;
+		}
+		else if (list_ribo.Count < 1)
+		{
+			//p_engine.showAlert(Messages.A_NO_RIBO_RNA);  //TODO
+		}
+		return false;
+	}
+
+	public void dismissLysosomes(BigVesicle b) 
+	{
+		int length = list_lyso.Count;
+		for (int i = 0; i < length; i++) 
+		{
+			if (list_lyso[i].fuse_target == b)
+			{
+				list_lyso[i].dontFuseWithBigVesicle();
+			}
+		}
+	}
+
+	public int askForLysosomes(BigVesicle b, int howMany) 
+	{
+		//trace("Cell.askForLysosomes(): " + howMany);
+		int gotMany = 0;
+		for (int i = 0; i<howMany; i++) 
+		{
+			Lysosome ly = findClosestLysosome(b.x, b.y);
+			if (ly != null) {			
+				ly.fuseWithBigVesicle(b);
+				gotMany++;
+			}
+		}
+		if (gotMany < howMany)
+		{
+			//p_engine.showAlert(Messages.A_NO_LYSO_R);  //TODO
+		}
+
+		return howMany - gotMany;
+			//return false;
+	}
+		
+	public Peroxisome findClosestPeroxisome(float xx, float yy)
+	{
+		float dist2 = 1000000000;
+		float bestDist = dist2;
+		Peroxisome bestP = null;
+
+		if (list_perox.Count > 0)
+		{
+			foreach(Peroxisome p in list_perox) 
+			{
+				if (p.is_active && !p.isBusy)
+				{
+					dist2 = getDist2(xx, yy, p.x, p.y);
+					if (dist2 < bestDist)
+					{
+						bestP = p;
+						bestDist = dist2;
+					}
+				}
+			}
+		}
+		return bestP;
+	}
+
+	public Lysosome findClosestLysosome(float xx, float yy)
+	{
+		float dist2 = 1000000000;
+		float bestDist = dist2;
+		Lysosome bestL = null;
+
+		int length = list_lyso.Count;
+		if (length > 0)
+		{ //if there is at least one lysosome
+			foreach(Lysosome ly in list_lyso) 
+			{ //find the closest
+				if (!ly.amEating)
+				{
+					if (!ly.isRecycling && !ly.isBusy)
+					{
+						dist2 = getDist2(xx, yy, ly.x, ly.y);
+						if (dist2 < bestDist)
+						{
+							bestL = ly;
+							bestDist = dist2;
+						}
+					}
+				}
+			}
+		}
+		return bestL; //return the closest
+	}
+
+	public Ribosome findClosestRibosome(float xx, float yy, bool anyWillDo = false)
+	{
+		float dist2 = 1000000000;
+		float bestDist = dist2;
+		Ribosome bestR = null;
+
+		//OPTIMIZE SHLEMIEL
+		int length = list_ribo.Count;
+		if (length > 0)
+		{ //if there is at least one ribosome
+			foreach(Ribosome ri in list_ribo) 
+			{ //find the closest
+				if (!ri.isBusy && ri.isReady() && !ri.isDoomed)
+				{
+					dist2 = getDist2(xx, yy, ri.x, ri.y);
+					if (dist2 < bestDist)
+					{
+						bestR = ri;
+						bestDist = dist2;
+					}
+				}
+			}
+		}
+
+		//if we couldn't find a free one, how bout we just give you anything, IF "anyWillDo" is true
+		if (bestR == null && anyWillDo)
+		{
+			int i = (int)Mathf.Floor(UnityEngine.Random.Range(0f,1f) * (length - 1) );
+			bestR = list_ribo[i];
+		}
+
+		return bestR; //return the closest
+	}
+
+	public bool freePore(int i = 0) 
+	{
+		return c_nucleus.freePore(i);
+	}
+
+	public void sendERProtein(Ribosome r, int i) 
+	{
+		ProteinCloud p = new ProteinCloud();
+		p.x = r.x;
+		p.y = r.y;
+		p.setCell(this);
+		p.setProduct(i);
+		p.transform.SetParent(this.transform, false);
+		addRunning(p);
+		p.transform.SetSiblingIndex(c_er.transform.GetSiblingIndex() + 1);  //put the protein cloud just "above" the ER;
+
+		askForERExit(p);
+	}
+
+	public TransportVesicle instantTransportVesicle(float xx, float yy, int product, float amount = 1, bool notifyEngine = true)
+	{
+		TransportVesicle t = makeTransportVesicle(product, amount);
+		t.x = xx;
+		t.y = yy;
+		if (notifyEngine)
+		{
+			//p_engine.finishTransportVesicle();
+		}
+		return t;
+	}
+
+	public Peroxisome instantPeroxisome(float xx, float yy, bool notifyEngine = true)
+	{
+		Peroxisome p = makePeroxisome();
+		p.x = xx;
+		p.y = yy;
+
+		//if (notifyEngine)
+			//p_engine.finishPeroxisome();    //TODO
+		return p;
+	}
+		
+		
+
+
+
+		
+		
+
+		
+		
+		
+		
+		
+		
 		
 
 

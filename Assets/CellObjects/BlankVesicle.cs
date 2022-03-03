@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using UnityEngine;
 
 
-class BlankVesicle : CellObject
+public class BlankVesicle : CellObject
 {
 	protected int product = Selectable.NOTHING;
 	protected float product_amount = 0;
@@ -54,7 +54,7 @@ class BlankVesicle : CellObject
 		}
 	}
 
-	protected void metamorphose()
+	protected virtual void metamorphose()
 	{
 		
 		dock = null;
