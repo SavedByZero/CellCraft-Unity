@@ -185,9 +185,10 @@ public class Costs
 	{
 		return recycleCostResolve(s);
 	}
-   /*   //TODO
-	public static function getRecycleCostByName(s:Selectable):Array
+      //TODO
+	/*public static float[] getRecycleCostByName(Selectable s)
 	{
+		
 		return Costs["SELL_" + s.getTextID().toUpperCase()];
 	}*/
 

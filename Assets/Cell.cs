@@ -10,7 +10,7 @@ public class Cell : CellGameObject
 {
 	//values:
 
-	private var volume:Number;
+	private float volume;
 		
 	private float gravRadius = 150;
 	private float gravRadius2 = 150 * 150;
@@ -160,6 +160,7 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 	private Coroutine _runRoutine;
 	private Coroutine _produceTickRoutine;
     private Coroutine _engineSpawnRadicalRoutine;
+    private Coroutine _doNecrosisRoutine;
 
     public Cell()
 	{
@@ -2611,21 +2612,1363 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 			//p_engine.finishPeroxisome();    //TODO
 		return p;
 	}
+
+	public Lysosome instantLysosome(float xx, float yy, bool notifyEngine = true) 
+	{
+		Lysosome l = makeLysosome();
+		l.x = xx;
+		l.y = yy;
+		onFinishLysosome(l);
+		//if(notifyEngine)   //TODO
+			//	p_engine.finishLysosome();
+			return l;
+	}
+
+	public Lysosome budLysosome(float xx, float yy, float r)
+	{
+		Lysosome l = instantLysosome(xx, yy, false);
 		
+		l.rotation = r;
+		l.bud();
+
+		return l;
+	}
+
+	public void growLysosome(float xx, float yy) 
+	{
+		Lysosome l = instantLysosome(xx, yy);
+		l.grow();
+	}
+
+	public void growPeroxisome(float xx, float yy) 
+	{
+		Peroxisome p = instantPeroxisome(xx, yy);
+		p.grow();
+	}
+
+	public void growToxinVesicle(float xx, float yy, float amount = 1)
+	{
+		TransportVesicle t = instantTransportVesicle(xx, yy, Selectable.TOXIN, amount);
+		t.grow();
+	}
+
+	public void growDefensinVesicle(float xx, float yy, float amount = 1)
+	{
+		
+		TransportVesicle t = instantTransportVesicle(xx, yy, Selectable.DEFENSIN, amount);
+		t.grow();
+	}
+
+	public void growFinalVesicle(Point p, int i)
+	{
+		//trace("GROW FINAL VESICLE! " + i);
+		//LYSO_VES_FINISHED++;
+		//trace("Cell.growFinalVesicle() : LYSO_VES_FINISHED= " + LYSO_VES_FINISHED);
+		switch (i)
+		{
+			case Selectable.LYSOSOME: growLysosome(p.x, p.y); break;
+			case Selectable.PEROXISOME: growPeroxisome(p.x, p.y); break;
+			case Selectable.DEFENSIN: growDefensinVesicle(p.x, p.y, DEFENSIN_AMOUNT); break;
+			case Selectable.TOXIN: growToxinVesicle(p.x, p.y, TOXIN_AMOUNT); break;
+		}
+	}
+
+	public void growVesicle(ProteinCloud p, int i)
+	{
+		//LYSO_VES_STARTED++;
+		//trace("Cell.growVesicle() : LYSO_VES_STARTED= " + LYSO_VES_STARTED);
+		BlankVesicle v;
+		switch (i)
+		{
+
+			case Selectable.PEROXISOME:
+				//growFinalVesicle(
+				growFinalVesicle(new Point(p.x, p.y), i);
+				break;
+			case Selectable.LYSOSOME:
+			case Selectable.TOXIN:
+			case Selectable.DEFENSIN:
+				v = new PinkVesicle();
+				v.x = p.x;
+				v.y = p.y;
+				v.setCell(this);
+				v.setProduct(i);
+				v.transform.SetParent(this.transform);
+				list_ves.Add(v);
+				addRunning(v);
+				addSelectable(v);
+				//swapChildren(v, r); //put it behind the Ribosome
+				v.grow();
+				break;
+			case Selectable.MEMBRANE:
+				growMembraneVesicle(p.x, p.y, 1);
+				break;
+		}
+	}
+
+	public void growMembraneVesicle(float xx, float yy, float amount = 1)
+	{
+		TransportVesicle t = instantTransportVesicle(xx, yy, Selectable.MEMBRANE, 1);
+		t.growER();
+	}
+
+	public void generateVirusRNA(Virus v, int i, int rnaCount, int spawnCount, float xx, float yy, float r, bool startImmediately = false, bool evilDNA = false)
+	{
+		for (int j = 0; j < rnaCount; j++)
+		{
+			EvilRNA e = generateEvilRNA(i, spawnCount, v.wave_id, startImmediately, evilDNA, v.doesVesicle);
+			e.x = xx;
+			e.y = yy;
+			if (v.mnode)
+			{
+				e.setMnode(c_membrane.findClosestMembraneHalf(e.x, e.y)); //to be SURE
+																		  //e.setMnode(v.mnode);
+			}
+			else
+			{
+				//trace("Cell.generateVirusRNA() : no mnode!");
+			}
+			e.transform.eulerAngles = new Vector3(0,0,r);
+		}
+		if (!evilDNA)
+		{
+			//p_engine.onMakeEvilRNA(v.text_id, v.wave_id, rnaCount);  //TODO
+		}
+	}
+
+	public void onVirusInfest(string s, int i)
+	{
+		//p_engine.onVirusInfest(s, i);  //TODO
+	}
+
+	public void onVirusEscape(string s, int i)
+	{
+		///p_engine.onVirusEscape(s, i);  //TODO
+	}
+
+	public void onVirusSpawn(string s, int i)
+	{
+		//p_engine.onVirusSpawn(s, i);  //TODO
+	}
+
+	public int getInfestWaveCount(string s) 
+	{
+		//return p_engine.getInfestWaveCount(s);  //TODO
+	}
+
+	public WaveEntry getWave(string s)
+	{
+		//return p_engine.getWave(s);  //TODO
+	}
+
+	public void generateMembrane(int na) 
+	{
+		generateMRNA(Selectable.MEMBRANE, na);
+	}
+
+	public void generateToxin(int na) 
+	{
+		generateMRNA(Selectable.TOXIN, na);
+	}
+
+	public void generateDefensin(int na) 
+	{
+		generateMRNA(Selectable.DEFENSIN, na);
+	}
+
+	public bool generateLysosome(int na)
+	{
+		return generateMRNA(Selectable.LYSOSOME, na) != null;
+	}
+
+	public bool generatePeroxisome(int na)
+	{
+		return generateMRNA(Selectable.PEROXISOME, na) != null;
+	}
+
+	public bool generateDNARepair(int na)
+	{
+		return generateMRNA(Selectable.DNAREPAIR, na) != null;
+	}
+
+	public bool generateSlicer(int na) 
+	{
+		return generateMRNA(Selectable.SLICER_ENZYME, na) != null;
+	}
+	/**
+	 * Starts the process of producing a ribosome
+	 */
+
+	public bool generateRibosome()
+	{
+		Ribosome r = makeRibosome(); //make the ribosome;
+		Point p = c_nucleus.getPoreLoc(1); //get a nucleolus pore
+		/*r.x = p.x + (Math.random()*30 - 15);
+		r.y = p.y + (Math.random()*40 - 20);*/
+		r.x = p.x;
+		r.y = p.y - 10;
+		r.playAnim("grow");
+		//p_engine.plusRibosome()
+		p_engine.finishRibosome();
+		if (r) { return true };
+		return false;
+	}
+
+	/**
+	 * Creates a Ribosome object
+	 * @return a Ribosome object
+	 */
+	private Ribosome makeRibosome(bool instant_deploy = false)
+	{
+		Ribosome r = new Ribosome();
+		r.instant_deploy = instant_deploy;
+		r.transform.SetParent(this.transform, false);
+		r.setCell(this);
+		list_ribo.Add(r);
+		addSelectable(r);
+		addRunning(r);
+		updateBasicUnits();
+		onMake("ribosome", list_ribo.Count);
+		return r;
+	}
+
+
+
+	public void getPpodContract(float xx, float yy) 
+	{
+		int centnum = Selectable.CENTROSOME;
+		foreach(CellObject c in list_running) 
+		{
+			if (c.num_id != centnum)
+			{
+				if (c != c_membrane && c != c_skeleton)
+				{
+					c.getPpodContract(xx, yy);
+				}
+			}
+		}
+		onCellMove(xx, yy);
+	}
+
+	public void moveCellTo(float xx, float yy)
+	{
+		float dx = xx - c_centrosome.x;
+		float dy = yy - c_centrosome.y;
+		moveCell(dx, dy);
+	}
+
+	public void moveCell(float xx, float yy)
+	{
+		//trace("Cell.moveCell(" + xx + "," + yy + ")");
+		foreach(CellObject c in list_running) 
+		{
+			c.doCellMove(xx, yy);
+		}
+		onCellMove(xx, yy);
+	}
+
+	public void clearMouse()
+	{
+		if (c_membrane)
+		{
+			c_membrane.clearMouse();
+		}
+	}
+
+	private void onCellMove(float xx, float yy)
+	{
+		c_membrane.onCellMove(xx, yy);
+
+		//p_world.onCellMove(c_centrosome.x, c_centrosome.y);  //TODO
+		//p_canvas.onCellMove(xx, yy);  //TODO
+		
+		updateObjectGridLoc();
+		CellGameObject.setCentLoc(c_centrosome.x, c_centrosome.y);
+		if (p_woz)
+		{
+			//p_woz.tickSpace();  //TODO
+		}
+		
+	}
+
+	/*****Organelle killing functions*****/
+
+	public void killProteinCloud(ProteinCloud p)
+	{
+		int i = 0;
+		foreach(CellGameObject g in list_running) {
+			if (p == g)
+			{
+				list_running.RemoveAt(i);
+			}
+			i++;
+		}
+		p.transform.SetParent(null);
+		p.destruct();
+		p = null;
+	}
+
+	public void killBlankVesicle(BlankVesicle b)
+	{
+		int i = 0;
+		foreach(BlankVesicle ves in list_ves) {
+			if (ves == b)
+			{
+				list_ves.RemoveAt(i);
+			}
+			i++;
+		}
+		killRunning(b as CellGameObject);
+		killSelectable(b as Selectable);
+	}
+
+	public bool sellSomething(int i) 
+	{
+			switch(i) {
+				case Selectable.LYSOSOME: 
+					return startRecycleLysosome();
+					break;
+				case Selectable.RIBOSOME: 
+					return startRecycleRibosome();
+					break;
+				case Selectable.SLICER_ENZYME: 
+					break;
+				case Selectable.PEROXISOME: 
+					break;
+			}
+		return false;
+	}
+		
+	public bool startRecycleRibosome()
+	{
+		int length = list_ribo.Count;
+		if (length > 0)
+		{
+			int j = length - 1;
+			while (j >= 0)
+			{
+				if (!list_ribo[j].isBusy && !list_ribo[j].isRecycling)
+				{
+					return startRecycle(list_ribo[j]);
+				}
+				j--;
+			}
+		}
+		return false;
+	}
+
+	public bool startRecycleLysosome() 
+	{
+		int length = list_lyso.Count;
+			if (length > 0) 
+			{
+				int j = length-1;
+				while (j >= 0) 
+				{
+					if(!list_lyso[j].isRecycling && list_lyso[j].is_active && !list_lyso[j].isBusy){
+						return startRecycle(list_lyso[j]);
+					}
+					j--;
+				}
+			}
+			
+
+			return false;
+	}
+		
+	public void neutralizeViruses()
+	{
+		foreach(Virus v in list_virus) 
+		{
+			v.neutralize();
+		}
+		//p_woz.neutralizeViruses();  //TODO
+	}
+
+	public void onMembraneHealthChange(int i) 
+	{
+		p_interface.setMembraneHealth(i);
+	}
+
+	public Boolean startNecrosis() 
+	{
+		neutralizeViruses();
+		//var list_tubes:Vector.<Microtubule> = c_skeleton.getTubes();
+		isCellDying = true;
+		List<object> popArray = c_membrane.getPopPoints();
+		int i = 0;
+		List<Point> pp = popArray[0] as List<Point>;
+		if (popArray[0] != null)
+		{
+			foreach(Point p in pp) 
+			{
+				if (popArray[1] != null)
+				{
+					List<float> pl = popArray[1] as List<float>;
+					makeSplashBurst(pl[i], p.x, p.y, 1);
+					//makePopVesicle(popArray[1][i], popArray[0].x, popArray[0].y, 1);
+					i++;
+				}
+			}
+		}
+
+		c_membrane.gameObject.SetActive(false); //hide the membrane;
+		_doNecrosisRoutine = StartCoroutine(doNecrosis());
+		//loseResources([r_atp, r_na, r_aa, r_fa, r_g]);
+		zeroResources();
+		return true;
+	}
+		
+	public void nucleusCallForHelp()
+	{
+		foreach(DNARepairEnzyme d in list_dnarepair) 
+		{
+			if (d.goingNucleus == false)
+			{
+				d.tryGoNucleus();
+			}
+		}
+	}
+
+	private IEnumerator doNecrosis() 
+	{
+		while (true)
+		{
+			yield return new WaitForEndOfFrame();
+			if (necrosisCount < NECROSIS_TIME + 1)
+			{               //guaranteed to kill everything!
+				float t = NECROSIS_TIME / 4;
+				//loseResources([r_max_atp / t, r_max_na / t, r_max_aa / t, r_max_fa / t, r_max_g / t]);
+				foreach(CellObject s in list_running) 
+				{   //kill all my stuff
+					if (s.dying == false && !(s is Virus))
+					{ //don't kill anything that'd already dead, or a virus
+						float health = s.getMaxHealth();
+						if (health <= 100)
+						{
+							s.takeDamage(health / (NECROSIS_TIME / 4)); //wipe out low health fast
+						}
+						if (health <= 300)
+						{
+							s.takeDamage(health / (NECROSIS_TIME / 2)); //medium health semi fast
+						}
+						else
+						{
+							s.takeDamage(health / NECROSIS_TIME); //everything else slower
+						}
+					}
+				}
+			}
+
+			necrosisCount++;
+			if (necrosisCount >= NECROSIS_TIME * 0.75)
+			{
+				necrosisCount = 0;
+				StopCoroutine(_doNecrosisRoutine);
+				endNecrosis();
+			}
+		}
+	}
+
+	private void endNecrosis()
+	{
+		
+		zeroResources();
+		
+		//p_engine.onNecrosis("lysis");   //TODO
+	}
+
+	public int getEngineSelectCode() 
+	{
+		return 0;//return p_engine.getSelectCode(); //TODO
+	}
+
+	public void engineUpdateSelected()
+	{
+		//p_engine.updateSelected();   //TODO
+	}
+
+	public void showToxinSpot(float amt, float x, float y) 
+	{
+		//p_engine.showToxinSpot(amt, x, y);   //TODO
+	}
+
+	public void showShieldBlock(float x, float y)
+	{
+		SfxManager.Play(SFX.SFXBlock);
+		//p_engine.showShieldBlock(x, y);  //TODO
+	}
+
+	public void showShieldSpot(float amt, float x, float y)
+	{
+		//p_engine.showShieldSpot(amt, x, y);   //TODO
+	}
+
+	public void showHealSpot(float amt, float x, float y)
+	{
+		//p_engine.showHealSpot(amt, x, y);  //TODO
+	}
+
+	public bool canAfford(float atp, float na, float aa, float fa, float g) 
+	{
+		return p_engine.canAfford((int)atp, (int)na, (int)aa, (int)fa, (int)g);
+	}
+
+	public void cancelRecycle(CellObject c) 
+	{
+		if (c.isInVesicle == true)
+		{
+			c.myVesicle.cancelRecycle();
+		}
+	}
+
+	public bool startRecycle(Selectable s, bool many = false) 
+	{
+		//trace("Cell.startRecycle( " + s + "="+s.text_id +")");
+		switch(s.num_id) {
+			case Selectable.RIBOSOME:
+			case Selectable.LYSOSOME:
+			case Selectable.MITOCHONDRION:
+			case Selectable.PROTEIN_GLOB:
+			case Selectable.SLICER_ENZYME:
+			case Selectable.CHLOROPLAST:
+			case Selectable.PEROXISOME:
+			case Selectable.DNAREPAIR:
+			float[] a = Costs.getRecycleCostByString(s.getTextID().ToUpper());//getRecycleCostByName(s);
+			if(spendATP(a[0]) != 0)
+			{
+				return s.tryRecycle(many);
+		}else
+		{
+			p_engine.showImmediateAlert(Messages.A_NO_AFFORD_RECYCLE);
+			return false;
+		}
+		break;
+
+		default:
+			return lysosomeEatSomething(s);
+		break;
+		}
+			//return success;
+	}
+		
+	public void abortProduct(int i) 
+	{
+		//p_engine.abortProduct(i);  //TODO
+	}
+
+	public void makeStarburst(float xx, float yy) 
+	{
+		StarBurst s = new StarBurst();
+		s.transform.position = new Vector3(xx, yy, 0);
+		s.p_cell = this;
+		s.transform.SetParent(this.transform, false);
+		s.GotoAndPlay("burst");
+		//trace("Cell.makeStarburst(" + xx + "," + yy + ")");
+		SfxManager.Play(SFX.SFXHurt);
+	}
+
+	public void removeStarburst(StarBurst s)
+	{
+		s.transform.SetParent(null);
+	}
+
+	/**
+	 * When you finish a lysosome, it looks to see if there is acid in the cytosol. If so, it sucks it out
+	 * @param	l
+	 */
+
+	public void onFinishLysosome(Lysosome l)
+	{
+		if (ph_balance < 7.5f)
+		{
+
+			float new_ph = PH.removeFromPH(Lysosome.PH_BALANCE, l.getCircleVolumeX(),
+											ph_balance, c_membrane.getCircleVolume());
+			if (new_ph > 7.5f)
+			{
+				new_ph = 7.5f;
+			}
+			setPH(new_ph);
+		}
+	}
+
+	public void onPopLysosome(Lysosome l)
+	{
+		onRecycle(l, true, true);
+		onRecycle(l, true, true);
+		float new_ph = PH.mergePH(Lysosome.PH_BALANCE, l.getCircleVolumeX(),
+									   ph_balance, c_membrane.getCircleVolume());
+		setPH(new_ph);
+		//mergePH(Lysosome.ph_balance,l.getCircleVolume());
+		//addAcid(l.acid_amount,l.getCircleVolume());
+	}
+
+	private void setPH(float ph)
+	{
+		ph_balance = ph;
+		p_interface.setPH(ph);
+		c_membrane.updatePH(ph_balance);
+		onPHChange();
+	}
+
+	private void onUnitChange()
+	{
+		float lm = list_mito.Count;
+		float lc = list_chlor.Count;
+		float ls = list_slicer.Count;
+		float lp = list_perox.Count;
+		float ll = list_lyso.Count;
+
+		FreeRadical.updateChances(lm, lc, ls, lp, ll);
+	}
+
+	private void onPHChange()
+	{
+		foreach(CellObject c in list_running) 
+		{
+			if (!c.isInVesicle)
+			{
+				c.setPHDamage(ph_balance);
+			}
+		}
+	}
+
+	public void onMembraneUpdate(bool hardUpdate = false)
+	{
+		float size = c_membrane.getRadius() * 3;
+		float gridSize = size * 2; //twice as big as the radius = box
+		//p_world.updateMaskSize(size);  //TODO
+		updateObjectGrid(gridSize, gridSize, hardUpdate);
+		updateObjectGridLoc();
+	}
+
+	public void updateObjectGridLoc()
+	{
+		c_objectGrid.transform.localPosition = new Vector3(cent_x - c_objectGrid.getSpanW() / 2, cent_y - c_objectGrid.getSpanH() / 2);
+		//c_objectGrid.x = cent_x - c_objectGrid.getSpanW() / 2;
+		//c_objectGrid.y = cent_y - c_objectGrid.getSpanH() / 2;
+
+		//p_canvas.updateCanvasGridLoc(c_objectGrid.x, c_objectGrid.y);  //TODO
+	}
+
+	private void updateObjectGrid(float w, float h, bool hardUpdate = false)
+	{
+		c_objectGrid.wipeGrid();
+		c_objectGrid.makeGrid(GRID_W, GRID_H, w, h);
+		c_objectGrid.displayGrid();
+
+		//update everything that needs to know the differences
+		CellGameObject.setGrid(c_objectGrid);
+		c_membrane.setObjectGrid(c_objectGrid);
+		//p_canvas.updateCanvasGrid(GRID_W, GRID_H, w, h, hardUpdate);  //TODO
+	}
+
+	public void showGrid()
+	{
+		c_objectGrid.displayGrid();
+		c_objectGrid.transform.SetParent(this.transform, false);
+		//p_canvas.showGrid(); //TODO
+	}
+
+	public void hideGrid()
+	{
+		if (c_objectGrid.transform.parent == this.transform)//(getChildByName(c_objectGrid.name))
+			c_objectGrid.transform.SetParent(null);
+		//p_canvas.hideGrid();  //TODO
+	}
+
+
+	public void onRecycle(Selectable s, bool reimburse = true, bool announce = false)
+	{
+		//trace("Cell.onRecycle() " + s.text_id + " reimburse="+reimburse);
+		if (reimburse && !isCellDying)
+		{
+			if (announce)
+			{
+				if (s.recycleOfMany)
+				{
+					//p_engine.recycleSomethingOfMany(s.num_id, new Point(s.x, s.y));  //TODO
+				}
+				else
+				{
+					//p_engine.recycleSomething(s.num_id, new Point(s.x, s.y));  //TODO
+				}
+			}
+			else
+			{
+				//p_engine.recycleSomething(s.num_id);  //TODO
+			}
+		}
+		killSomething(s);
+	}
+
+	public bool bigVesicleRecycleSomething(CellObject c) 
+	{
+		BigVesicle v = growBigVesicleFor(c);
+		if (v) {
+			c.makeDoomed();
+			return true;
+		}
+		return false;
+	}
+
+	public bool lysosomeEatSomething(Selectable s) 
+	{
+			
+		Lysosome l = findClosestLysosome(s.x, s.y);
+		if (l) {
+				return l.eatSomething(s);
+			}
+
+		//if we got here, we failed
+
+		if (list_lyso.Count < 1)
+		{ //if we have no lysosomes
+			if (!(s is Virus))
+			{           //don't show this alert if it's a virus we're eating
+				//p_engine.showAlert(Messages.A_NO_LYSO_R); //Alert that we need lysosomes for recyclnig  //TODO
+			}
+		}
+
+			return false;
+	}
+		
+	public void killSomething(Selectable s) 
+	{
+		switch (s.num_id)
+		{
+			case Selectable.NUCLEUS:
+				killNucleus(Nucleus(s));
+				break;
+			case Selectable._ER:
+				killER(ER(s));
+				break;
+			case Selectable.CENTROSOME:
+				killCentrosome(Centrosome(s));
+				break;
+			case Selectable.GOLGI:
+				killGolgi(Golgi(s));
+				break;
+			case Selectable.LYSOSOME:
+				killLysosome(Lysosome(s));
+				break;
+			case Selectable.PEROXISOME:
+				killPeroxisome(Peroxisome(s));
+				break;
+			case Selectable.RIBOSOME:
+				killRibosome(Ribosome(s));
+				break;
+			case Selectable.VESICLE:
+				killBlankVesicle(BlankVesicle(s));
+				break;
+			case Selectable.CHLOROPLAST:
+				killChloroplast(Chloroplast(s));
+				break;
+			case Selectable.MITOCHONDRION:
+				killMitochondrion(Mitochondrion(s));
+				break;
+			case Selectable.BIGVESICLE:
+				killBigVesicle(BigVesicle(s));
+				break;
+			case Selectable.PROTEIN_GLOB:
+				killProteinGlob(ProteinGlob(s));
+				break;
+			case Selectable.SLICER_ENZYME:
+				//trace("Cell.killSomething() slicerEnzyme(" + s + ")");
+				killSlicerEnzyme(SlicerEnzyme(s));
+				break;
+			case Selectable.DNAREPAIR:
+				killDNARepair(DNARepairEnzyme(s));
+				break;
+			case Selectable.FREE_RADICAL:
+				killFreeRadical(FreeRadical(s));
+				break;
+			case Selectable.VIRUS:
+			case Selectable.VIRUS_INFESTER:
+			case Selectable.VIRUS_INJECTOR:
+			case Selectable.VIRUS_INVADER:
+				killVirus(Virus(s));
+				break;
+			default:
+				Debug.LogError("Cell.killSomething() : I don't recognize code # " + s.num_id);
+				break;
+		}
+	}
+
+	public void killRunning(CellGameObject g)
+	{
+		int i = 0;
+		foreach(CellGameObject gg in list_running) {
+			if (g == gg)
+			{
+				list_running.RemoveAt(i);
+			}
+			i++;
+		}
+		if (g is HardPoint)
+		{
+
+		}
+		else
+		{
+			g.transform.SetParent(null);
+		}
+		g.destruct();
+		g = null;
+	}
+
+	public void killSelectable(Selectable s)
+	{
+		int i = 0;
+		foreach(Selectable ss in list_selectable) 
+		{
+			if (s == ss)
+			{
+				list_selectable.RemoveAt(i);
+			}
+			i++;
+		}
+		dirty_selectList = true;
+	}
+
+	public void killPeroxisome(Peroxisome p)
+	{
+		int i = 0;
+		foreach(Peroxisome pp in list_perox) 
+		{
+			if (pp == p)
+			{
+				list_perox.RemoveAt(i);
+			}
+			i++;
+		}
+		if (p.orderOnDeath)
+		{
+
+			//p_engine.replacePerox();//TODO  // (BasicUnit.PEROXISOME, 1);
+		}
+		//p_engine.oneLessPeroxisome();  //TODO
+		onKill(p.text_id, list_perox.Count);
+		killSelectable(p as Selectable);
+		killRunning(p as CellGameObject);
+	}
+
+	public void killVirus(Virus v)
+	{
+		int i = 0;
+		foreach(Virus vv in list_virus) {
+			if (vv == v)
+			{
+				list_virus.RemoveAt(i);
+			}
+			i++;
+		}
+
+		killRunning(v as CellGameObject);
+
+		
+		//p_engine.onKillVirus(v.wave_id);  //TODO
+	}
+
+	public void onAbsorbRadical(Peroxisome p)
+	{
+		p.transform.SetSiblingIndex(this.transform.childCount - 1);  //so it doesn't get buried under organelles
+		//p_engine.notifyOHandler(EngineEvent.ENGINE_TRIGGER, "absorb_radical", "null", 1);  //TODO
+	}
+
+	public void killFreeRadical(FreeRadical f)
+	{
+		int i = 0;
+		foreach(FreeRadical ff in list_radical) 
+		{
+			if (ff == f)
+			{
+				list_radical.RemoveAt(i);
+			}
+			i++;
+		}
+		onKill(f.text_id, list_radical.Count);
+		killSelectable(f as Selectable);
+		killRunning(f as CellGameObject);
+	}
+
+	public void killDNARepair(DNARepairEnzyme d)
+	{
+		int i = 0;
+		foreach(DNARepairEnzyme dd in list_dnarepair) {
+			if (dd == d)
+			{
+				list_dnarepair.RemoveAt(i);
+			}
+			i++;
+		}
+		onKill(d.text_id, list_dnarepair.Count);
+		//p_engine.oneLessDNARepair();  //TODO
+		killSelectable(d as Selectable);
+		killRunning(d as CellGameObject);
+	}
+
+	public void killHardPoint(HardPoint h)
+	{
+		int i = 0;
+		//removeChild(h);
+		foreach(HardPoint hh in list_hardpoint) {
+			if (hh == h)
+			{
+				list_hardpoint.RemoveAt(i);
+			}
+			i++;
+		}
+		killSelectable(h as Selectable);
+		killRunning(h as CellGameObject);
+	}
+
+	public void killSlicerEnzyme(SlicerEnzyme s)
+	{
+		//trace("Cell.killSlicerEnzyme() " + s );
+		int i = 0;
+		foreach(SlicerEnzyme ss in list_slicer) 
+		{
+			if (ss == s)
+			{
+				list_slicer.RemoveAt(i);
+			}
+			i++;
+		}
+		onKill(s.text_id, list_slicer.Count);
+		//p_engine.oneLessSlicer();  //TODO
+		killSelectable(s as Selectable);
+		killRunning(s as CellGameObject);
+
+	}
+
+	public void killProteinGlob(ProteinGlob g)
+	{
+		int i = 0;
+		foreach(ProteinGlob pg in list_junk) 
+		{
+			if (pg == g)
+			{
+				list_junk.RemoveAt(i);
+			}
+			i++;
+		}
+
+		killRunning(g as CellGameObject);
+		killSelectable(g as Selectable);
+	}
+
+	public void unDoomCheck(CellObject c)
+	{
+		//p_engine.unDoomCheck(c);  //TODO
+	}
+
+	public void killBigVesicle(BigVesicle b)
+	{
+
+		int i = 0;
+		foreach(BigVesicle bi in list_bigves) 
+		{
+			if (b == bi)
+			{
+				list_bigves.RemoveAt(i);
+			}
+			i++;
+		}
+		onKill(b.text_id, list_bigves.Count);
+		killRunning(b as CellGameObject);
+		killSelectable(b as Selectable);
+	}
+
+
+
+	public void killNucleus(Nucleus n)
+	{
+		killRunning(n as CellGameObject);
+		killSelectable(n as Selectable);
+		onKill(n.text_id, 0);
+		c_nucleus = null;
+		checkNucleusScrewed();
+		
+	}
+
+	public void killER(ER er)
+	{
+		killRunning(er as CellGameObject);
+		killSelectable(er as Selectable);
+		onKill(er.text_id, 0);
+		c_er = null;
+		//trace("Cell.killER() GAME OVER!");
+	}
+
+	public void killGolgi(Golgi g)
+	{
+		killRunning(g as CellGameObject);
+		killSelectable(g as Selectable);
+		onKill(g.text_id, 0);
+		c_golgi = null;
+		//trace("Cell.killGolgi()!");
+	}
+
+	public void killCentrosome(Centrosome cent)
+	{
+		
+	}
+
+	public void checkScrewed(CellObject c)
+	{
+		switch (c.num_id)
+		{
+			case Selectable.MITOCHONDRION: checkMitoScrewed(); break;
+			case Selectable.CHLOROPLAST: checkChloroScrewed(); break;
+			case Selectable.NUCLEUS: checkNucleusScrewed(); break;
+		}
+	}
+
+	public void checkNucleusScrewed()
+	{ //ONLY called by the nucleus when health is <= 0!
+		if (!isCellDying)
+		{ //so it doesn't double fire on lysis
+			//p_engine.showScrewedMenu("gameover", "no_nucleus");  //TODO
+		}
+	}
+
+	private void checkMitoScrewed()
+	{
+		if (!isCellDying)
+		{
+			int count = 0;
+			foreach(Mitochondrion mi in list_mito) 
+			{
+				if (mi.getDamageLevel() < 2)
+				{
+					count++;
+				}
+			}
+			if (count <= 0)
+			{
+				//p_engine.showScrewedMenu("screwed", MenuSystem_Screwed.NO_MITO);  //TODO
+			}
+		}
+	}
+
+	private void checkChloroScrewed()
+	{
+		if (!isCellDying)
+		{
+			int count = 0;
+			if (lvl_sunlight > 0)
+			{ //if there's no sunlight, who cares?
+				foreach(Chloroplast ch in list_chlor) 
+				{
+					if (ch.getDamageLevel() < 2)
+					{
+						count++;
+					}
+				}
+				if (count <= 0)
+				{
+					//p_engine.showScrewedMenu("screwed", MenuSystem_Screwed.NO_CHLORO);  //TODO
+				}
+			}
+		}
+	}
+
+	public void killMitochondrion(Mitochondrion m)
+	{
+		int i = 0;
+		foreach(Mitochondrion mi in list_mito) {
+			if (m == mi)
+			{
+				list_mito.RemoveAt(i);
+			}
+			i++;
+		}
+
+		onKill(m.text_id, list_mito.Count);
+		killRunning(m as CellGameObject);
+		killSelectable(m as Selectable);
+		mitoCount = list_mito.Count;
+		//p_engine.setMitoCount(mitoCount);  //TODO
+		checkMitoScrewed();
+	}
+
+	public void killToxinParticle(ToxinParticle t)
+	{
+		int i = 0;
+		int t_count = 0;
+		foreach(CellObject c in list_junk) 
+		{
+			if (c is ToxinParticle)
+			{
+				t_count++;
+			}
+			if (t == c)
+			{
+				list_junk.RemoveAt(i);
+			}
+			i++;
+		}
+		onKill(t.text_id, t_count);
+		killRunning(t as CellGameObject);
+		killSelectable(t as Selectable);
+	}
+
+	public void killChloroplast(Chloroplast c)
+	{
+		int i = 0;
+		foreach(Chloroplast ch in list_chlor) 
+		{
+			if (c == ch)
+			{
+				list_chlor.RemoveAt(i);
+			}
+			i++;
+		}
+		onKill(c.text_id, list_chlor.Count);
+		killRunning(c as CellGameObject);
+		killSelectable(c as Selectable);
+		chloroCount = list_chlor.Count;
+		//p_engine.setChloroCount(chloroCount);  //TODO
+		checkChloroScrewed();
+	}
+
+	public void killRibosome(Ribosome r)
+	{
+		int i = 0;
+		foreach(Ribosome ri in list_ribo) 
+		{
+			if (r == ri)
+			{
+				list_ribo.RemoveAt(i);
+			}
+			i++;
+		}
+		onKill(r.text_id, list_ribo.Count);
+		//p_engine.oneLessRibosome();  //TODO
+		killRunning(r as CellGameObject);
+		killSelectable(r as Selectable);
+	}
+
+	public void killSplashBurst(SplashBurst s)
+	{
+		killRunning(s as CellGameObject);
+	}
+
+	public void killLysosome(Lysosome l)
+	{
+		int i = 0;
+		foreach(Lysosome ly in list_lyso) 
+		{
+			if (l == ly)
+			{
+				list_lyso.RemoveAt(i);
+			}
+			i++;
+		}
+		onKill(l.text_id, list_lyso.Count);
+
+		if (!l.fusing)
+		{ //if the Lysosome is just going to merge with a vesicle, don't tell the engine
+			//p_engine.oneLessLysosome();  //TODO
+		}
+
+		killRunning(l as CellGameObject);
+		killSelectable(l as Selectable);
+	}
+
+	public void killRNA(RNA r)
+	{ //This function could use some optimization
+		int i = 0;
+		if (r is EvilRNA)
+		{
+			//p_engine.recycleRNA(0);  //TODO
+		}
+		else
+		{
+			//p_engine.recycleRNA(r.getNAValue());  //TODO
+		}
+		foreach(RNA rna in list_rna) 
+		{
+			if (rna == r)
+			{
+				list_rna.RemoveAt(i);
+			}
+			i++;
+		}
+		i = 0;
+		foreach(CellGameObject g in list_running) 
+		{
+			if (r == g)
+			{
+				list_running.RemoveAt(i);
+			}
+			i++;
+		}
+		
+
+		if (r is EvilRNA && !(r is EvilDNA))
+		{
+			//p_engine.onKillEvilRNA(r.getProductCreator());  //TODO
+		}
+		onKill(r.text_id, list_rna.Count);
+
+		r.transform.SetParent(null);
+		r.destruct();
+		r = null;
+	}
+
+	public void onNucleusInfest(Boolean b)
+	{
+		//p_engine.onNucleusInfest(b);  //TODO
+	}
+
+	public float checkMembraneStrength(CellObject c)
+	{
+		List<MembraneNode> list = c_membrane.getClosestNodes(c.x, c.y, gravRadius2);
+			//trace("CHeck membrane strength");
+			float worstStretch = 10;
+		foreach(MembraneNode m in list)
+		{
+			//trace("Stretch = " + m.stretch);
+			if (m.stretch < worstStretch)
+			{
+				worstStretch = m.stretch;
+			}
+		}
+			//trace("worstStretch = " + worstStretch);
+			return worstStretch;
+	}
+
+	public void updateOrganelleAct(String s, List< CellAction > v) 
+	{
+		//var l:Vector.<CellObject>;
+		if (s == "nucleus") c_nucleus.setActions(v);
+		else if (s == "centrosome") c_centrosome.setActions(v);
+		else if (s == "er") c_er.setActions(v);
+		else if (s == "golgi") c_golgi.setActions(v);
+		else if (s == "mitochondrion")
+		{
+			foreach(Mitochondrion m in list_mito) 
+			{
+				m.setActions(v);
+			}
+		}
+		else if (s == "chloroplast")
+		{
+			foreach(Chloroplast c in list_chlor) 
+			{
+				c.setActions(v);
+			}
+		}
+		else if (s == "slicer")
+		{
+			foreach(SlicerEnzyme se in list_slicer) 
+			{
+				se.setActions(v);
+			}
+		}
+		else if (s == "ribosome")
+		{
+			foreach(Ribosome r in list_ribo) 
+			{
+				r.setActions(v);
+			}
+		}
+		else if (s == "peroxisome")
+		{
+			foreach(Peroxisome p in list_perox) 
+			{
+				p.setActions(v);
+			}
+		}
+		else if (s == "lysosome")
+		{
+			foreach(Lysosome l in list_lyso) 
+			{
+				l.setActions(v);
+			}
+		}
+	}
+
+	public List<int> getActionListFromEngine(int i)
+	{
+		List<int> v = null;//p_engine.lookupActionList(i);  //TODO
+		return v;
+	}
+		
+		/**
+		 * Gets the cost to ppod to that location
+		 * @param	xx yy
+		 * @return cost of movement
+		 */
+		
+	public float getPPodCost(float xx, float yy)
+	{
+		Point p = new Point(xx, yy);
+		//p = p_world.transformPoint(p);  //TODO
+		float dx = p.x - cent_x;
+		float dy = p.y - cent_y;
+		float d2 = (dx * dx) + (dy * dy);
+		d2 /= Costs.MOVE_DISTANCE2;
+		float cost = (Costs.PSEUDOPOD[0] * d2);
+		return cost;
+	}
 		
 
 
 
-		
-		
 
-		
-		
-		
-		
-		
-		
-		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

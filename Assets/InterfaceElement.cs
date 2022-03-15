@@ -38,7 +38,7 @@ public class InterfaceElement : MovieClip
 
 	}
 
-	public void blackOut()
+	public virtual void blackOut()
 	{
 		if (!isBlackedOut)
 		{
@@ -53,7 +53,7 @@ public class InterfaceElement : MovieClip
 		//visible = false;
 	}
 
-	public void unBlackOut()
+	public virtual void unBlackOut()
 	{
 		if (isBlackedOut)
 		{
