@@ -256,7 +256,7 @@ public class CellObject : Selectable
 		{
 			if (p_cell)
 			{
-				return p_cell.spendATP(myMoveCostBySpeed);
+				return p_cell.spendATP(myMoveCostBySpeed) > 0;
 			}
 			else
 			{

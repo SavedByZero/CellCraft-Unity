@@ -39,7 +39,7 @@ public class Cell : CellGameObject
 
 	private WorldCanvas p_canvas;
 
-	private Interface p_interface;
+	//private Interface p_interface;  //TODO
 	private WizardOfOz p_woz;
 		
 	//children:
@@ -184,7 +184,7 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 		p_engine = null;
 		//p_world = null;  //TODO
 		p_canvas = null;
-		p_interface = null;
+		//p_interface = null;  //TODO
 		
 		clearVector(list_ribo.Cast<MonoBehaviour>().ToList());
 		clearVector(list_lyso.Cast<MonoBehaviour>().ToList());
@@ -224,7 +224,7 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 
 				GameObject.Destroy(g.gameObject);  //TODO: pool this eventually.  
 			}
-			g = null;
+			//g = null; //TODO?
 		}
 	}
 
@@ -313,7 +313,7 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 		}
 	}
 
-	public function setResources(atp:int, na:int, aa:int, fa:int, g:int, max_atp:int, max_na:int, max_aa:int, max_fa:int, max_g:int)
+	public void setResources(int atp, int na, int aa, int fa, int g, int max_atp, int max_na, int max_aa, int max_fa, int max_g)
 	{
 		r_max_atp = max_atp;
 		r_max_na = max_na;
@@ -474,7 +474,10 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 		c_membrane.setSkeleton(c_skeleton);
 		c_membrane.setObjectGrid(c_objectGrid);
 		c_membrane.init();
-		c_membrane.setCanvasGrid(p_canvas.c_cgrid);
+		//c_membrane.setCanvasGrid(p_canvas.c_cgrid);  //TODO
+		
+		
+		
 		//p_engine.updateMaxResources();  //TODO
 	}
 
@@ -484,7 +487,7 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 		spend(cost);
 	//	p_engine.notifyOHandler(EngineEvent.EXECUTE_ACTION, "null", "make_toxin", 1);   //TODO
 
-		generateToxin(cost[1]);
+		generateToxin((int)cost[1]);
 	}
 
 	public void buyDefensin()
@@ -493,7 +496,7 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 		float[] cost = Costs.getMAKE_DEFENSIN(1);
 		spend(cost);
 		//p_engine.notifyOHandler(EngineEvent.EXECUTE_ACTION, "null", "make_defensin", 1);  //TODO
-		generateDefensin(cost[1]);
+		generateDefensin((int)cost[1]);
 	}
 
 	public int sellDefensin() 
@@ -505,7 +508,7 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 			Point p = new Point(mnode.x, mnode.y);
 //end cheap hack
 		int atpCost = (int)Costs.SELL_DEFENSIN[0];
-			if (spendATP(atpCost, p)) {
+			if (spendATP(atpCost, p) > 0) {
 				c_membrane.removeDefensin(1);
 				SfxManager.Play(SFX.SFXPop2);
 				refundDefensin(p);
@@ -537,7 +540,7 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 					Point p = new Point(mnode.x, mnode.y);
 	//end cheap hack
 				int atpCost = (int)Costs.SELL_MEMBRANE[0];
-					if(spendATP(atpCost, p))
+					if(spendATP(atpCost, p) > 0)
 					{
 						refundMembrane(p);
 						//if(Director.STATS_ON){Log.LevelAverageMetric("cell_sell_membrane", Director.level, 1);}
@@ -560,13 +563,13 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 	{
 		if (Membrane.CURR_NODES < Membrane.MAX_NODES)
 		{
-			float ex = c_er.x + c_er.exit23.x;
-			float ey = c_er.y + c_er.exit23.y;
+			float ex = c_er.x + c_er.exit23.transform.position.x;
+			float ey = c_er.y + c_er.exit23.transform.position.y;
 			float[] cost = Costs.getMAKE_MEMBRANE(1);
 			spend(cost);// , new Point(ex, ey), 1, 0, false, true);
 		//if (Director.STATS_ON) { Log.LevelAverageMetric("cell_buy_membrane", Director.level, 1); }
 		//p_engine.notifyOHandler(EngineEvent.EXECUTE_ACTION, "null", "make_membrane", 1);  //TODO
-			generateMembrane(cost[1]);
+			generateMembrane((int)cost[1]);
 		}
 		else
 		{
@@ -585,7 +588,8 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 
 	public void refundMembrane(Point p)
 	{
-		float[] cost = Costs.SELL_MEMBRANE.concat();
+		float[] cost = new float[Costs.SELL_MEMBRANE.Length];
+		Array.Copy(Costs.SELL_MEMBRANE, cost, Costs.SELL_MEMBRANE.Length);// .Concat();
 		//spendATP(cost[0]);
 		cost[0] = 0;
 		produce(cost, 1, p);
@@ -605,7 +609,7 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 					
 					updateStartHardPoints();
 	
-				p_engine.updateMaxResources();
+				//p_engine.updateMaxResources(); //TODO
 					return true;
 				}else
 				{
@@ -673,7 +677,11 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 		v.setProduct(t.getProduct());
 		v.instantGrow(r);
 		t.setBigVesicle(v);
-		swapChildren(v, t); //make v under t
+		int ti = t.transform.GetSiblingIndex();
+		int vi = v.transform.GetSiblingIndex();
+		v.transform.SetSiblingIndex(ti);
+		t.transform.SetSiblingIndex(vi);
+		 //make v under t
 	}
 
 	private BigVesicle growBigVesicleFor(CellObject c)
@@ -683,7 +691,11 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 			v.y = c.y;
 			v.setPH(ph_balance);
 			v.startDigestGrow(c);
-			swapChildren(v, c); //make v under s
+		int ci = c.transform.GetSiblingIndex();
+		int vi = v.transform.GetSiblingIndex();
+		v.transform.SetSiblingIndex(ci);
+		c.transform.SetSiblingIndex(vi);
+		//make v under s
 			return v;
 		}
 
@@ -776,7 +788,7 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 
 	private void makeStartSlicers(int n)
 	{
-		//var c:Vector.<Number> = circlePointsOffset(230,n,0,0);
+		
 		int i = 0;
 		for (i = 0; i < n; i++)
 		{
@@ -787,7 +799,7 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 
 	private void makeStartLysosomes(int n)
 	{
-		List<float> c = circlePointsOffset(230, n, 0, 0);
+		List<float> c = FastMath.circlePointsOffset(230, n, 0, 0);
 		int i = 0;
 		for (i = 0; i < n; i++)
 		{
@@ -800,7 +812,7 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 
 	private void makeStartPeroxisomes(int n)
 	{
-		List<float> c = circlePointsOffset(230, n, 0, 0);
+		List<float> c = FastMath.circlePointsOffset(230, n, 0, 0);
 		int i = 0;
 		for (i = 0; i < n; i++)
 		{
@@ -809,13 +821,13 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 			p.deployGolgi(true);
 			p.isBusy = false; //HACK HACK HACK
 			p.is_active = true;
-			p.clip.clip.gotoAndPlay(i); //offset their animations so it looks nice; HACK
+			p.clip.SubClip.GotoAndPlay(i); //offset their animations so it looks nice; HACK
 		}
 	}
 
 	private void makeStartRibosomes(int n)
 	{
-		List<float> c = circlePointsOffset(230, n, 0, 0);
+		List<float> c = FastMath.circlePointsOffset(230, n, 0, 0);
 		int i = 0;
 		for (i = 0; i < n; i++)
 		{
@@ -860,7 +872,7 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 
 	private void makeTestMitochondria(int n)
 	{
-		List<float> c = circlePointsOffset(300, n, 0, 0);
+		List<float> c = FastMath.circlePointsOffset(300, n, 0, 0);
 		for (int i = 0; i < n; i++) 
 		{
 			Mitochondrion m = makeMitochondrion();
@@ -871,7 +883,7 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 
 	private void makeTestLysosomes(int n)
 	{
-		List<float> c = circlePointsOffset(250, n, 0, 0);
+		List<float> c = FastMath.circlePointsOffset(250, n, 0, 0);
 		for (int i = 0; i < n; i++) 
 		{
 			instantLysosome(c[i * 2], c[i * 2 + 1]);
@@ -882,7 +894,7 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 
 	private void makeTestChloroplasts(int n)
 	{
-		List<float> c = circlePointsOffset(280, n, 0, 0);
+		List<float> c = FastMath.circlePointsOffset(280, n, 0, 0);
 		for (int i = 0; i < n; i++) 
 		{
 			Chloroplast l =  makeChloroplast();
@@ -893,7 +905,7 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 
 	private void makeTestRibosomes(int n)
 	{
-		List<float> c = circlePointsOffset(230, n, 0, 0);
+		List<float> c = FastMath.circlePointsOffset(230, n, 0, 0);
 		for (int i = 0; i < n; i++) 
 		{
 			Ribosome r = makeRibosome();
@@ -929,10 +941,11 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 		p_world = w;
 	}*/
 
+	/*  //TODO
 	public void setInterface(Interface i)
 	{
 		p_interface = i;
-	}
+	}*/
 
 	public override float getCircleVolume()
 	{
@@ -1175,13 +1188,21 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 		{ //make them at the top of EVERYTHING
 			thing2.transform.SetSiblingIndex(this.transform.childCount - 1);
 			//setChildIndex(thing2, numChildren - 1);
-			swapChildren(thing1, thing2);
+			int thi = thing1.transform.GetSiblingIndex();
+			int th2i = thing2.transform.GetSiblingIndex();
+			thing2.transform.SetSiblingIndex(thi);
+			thing1.transform.SetSiblingIndex(th2i);
+			
 		}
 		else
 		{
 			if (t1 < t2)
 			{
-				swapChildren(thing1, thing2);
+				int th1i = thing1.transform.GetSiblingIndex();
+				int th2i = thing2.transform.GetSiblingIndex();
+				thing1.transform.SetSiblingIndex(th2i);
+				thing2.transform.SetSiblingIndex(th1i);
+			
 			}
 		}
 		//setChildIndex(thing1, getChildIndex(thing2)+1);
@@ -1252,7 +1273,7 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 					 //if we spent several, multiple drain sound
 				}
 			}
-			if (p)
+			if (p != null)
 			{
 				//p_canvas.justShowMeTheMoneyArray(b, p.x, p.y, speed, offset, scaleMode);  //TODO
 			}
@@ -1268,7 +1289,7 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 			{
 				a[i] *= mult;
 			}
-		if (p)
+		if (p!= null)
 		{
 			//p_canvas.justShowMeTheMoneyArray(a, p.x, p.y, speed, offset, false); //TODO
 		}
@@ -1291,7 +1312,7 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 		for (int i = 0; i < length; i++) {
 			a[i] *= mult;
 		}
-		if (p)
+		if (p != null)
 		{
 			//p_canvas.justShowMeTheMoneyArray(a, p.x, p.y, speed, offset);  //TODO
 		}
@@ -1526,7 +1547,7 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 
 	public Virus export_makeVirus(string type) 
 	{
-			Virus v;
+			Virus v = null;
 			if (type == "virus_injector") v = new VirusInjector();
 			else if (type == "virus_invader") v = new VirusInvader();
 			else if (type == "virus_infester") v = new VirusInfester();
@@ -1879,7 +1900,7 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 
 		for (i = 0; i < ring_list.Count; i++)
 		{
-			listPoints.Add(circlePointsOffset(CanvasObject.LENS_RADIUS * (1.1 + mult), ring_list[count], cent_x, cent_y));
+			listPoints.Add(FastMath.circlePointsOffset(CanvasObject.LENS_RADIUS * (1.1f + mult), ring_list[count], cent_x, cent_y));
 			count++;
 			mult += 0.2f;
 			//v = circlePointsOffset(radius:Number, MAX:Number, xo:Number, yo:Number
@@ -1897,13 +1918,13 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 		int vesicle_count = (int) (w.count * w.vesicle);
 
 		int success_count = 0;
-		for (int i = 0; i < w.count; i++) 
+		for (int ii = 0; ii < w.count; ii++) 
 		{
 
 			float jiggX = (UnityEngine.Random.Range(0f,1f) - 0.5f) * 150;
 			float jiggY = (UnityEngine.Random.Range(0f, 1f) - 0.5f) * 150;
-			float theX = listCirclePoints[i * 2] + jiggX;
-			float theY = listCirclePoints[(i * 2) + 1] + jiggY;
+			float theX = listCirclePoints[ii * 2] + jiggX;
+			float theY = listCirclePoints[(ii * 2) + 1] + jiggY;
 
 			Virus v = makeVirus(w.type, theX, theY);
 			if (v)
@@ -1924,7 +1945,7 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 
 	public Virus makeVirus(string type, float xx, float yy, bool doEscape = false, bool spendCost = false) 
 	{
-		Virus v;
+		Virus v = null;
 		float[] cost;
 		if (type == "virus_injector") 
 		{
@@ -2024,7 +2045,7 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 		addRunning(m);
 		onMake("mitochondrion", list_mito.Count);
 		mitoCount = list_mito.Count;
-		p_engine.setMitoCount(mitoCount);
+		//p_engine.setMitoCount(mitoCount);  //TODO
 		return m;
 	}
 
@@ -2034,7 +2055,7 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 		t.setProduct(product, amount);
 		t.transform.SetParent(this.transform);
 		t.setCell(this);
-		list_ves.push(t);
+		list_ves.Add(t);
 		//addSelectable(t);
 		addRunning(t);
 		onMake("transport_vesicle", list_ves.Count); //need to count actual transport vesicles
@@ -2497,7 +2518,7 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 			{
 				if (p.is_active && !p.isBusy)
 				{
-					dist2 = getDist2(xx, yy, p.x, p.y);
+					dist2 = FastMath.getDist2(xx, yy, p.x, p.y);
 					if (dist2 < bestDist)
 					{
 						bestP = p;
@@ -2524,7 +2545,7 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 				{
 					if (!ly.isRecycling && !ly.isBusy)
 					{
-						dist2 = getDist2(xx, yy, ly.x, ly.y);
+						dist2 = FastMath.getDist2(xx, yy, ly.x, ly.y);
 						if (dist2 < bestDist)
 						{
 							bestL = ly;
@@ -2551,7 +2572,7 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 			{ //find the closest
 				if (!ri.isBusy && ri.isReady() && !ri.isDoomed)
 				{
-					dist2 = getDist2(xx, yy, ri.x, ri.y);
+					dist2 = FastMath.getDist2(xx, yy, ri.x, ri.y);
 					if (dist2 < bestDist)
 					{
 						bestR = ri;
@@ -2628,7 +2649,7 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 	{
 		Lysosome l = instantLysosome(xx, yy, false);
 		
-		l.rotation = r;
+		l.transform.eulerAngles = new Vector3(0,0,r);
 		l.bud();
 
 		return l;
@@ -2719,7 +2740,7 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 			EvilRNA e = generateEvilRNA(i, spawnCount, v.wave_id, startImmediately, evilDNA, v.doesVesicle);
 			e.x = xx;
 			e.y = yy;
-			if (v.mnode)
+			if (v.mnode != null)
 			{
 				e.setMnode(c_membrane.findClosestMembraneHalf(e.x, e.y)); //to be SURE
 																		  //e.setMnode(v.mnode);
@@ -2753,11 +2774,13 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 
 	public int getInfestWaveCount(string s) 
 	{
+		return 0;
 		//return p_engine.getInfestWaveCount(s);  //TODO
 	}
 
 	public WaveEntry getWave(string s)
 	{
+		return null;
 		//return p_engine.getWave(s);  //TODO
 	}
 
@@ -2809,8 +2832,8 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 		r.y = p.y - 10;
 		r.playAnim("grow");
 		//p_engine.plusRibosome()
-		p_engine.finishRibosome();
-		if (r) { return true };
+		//p_engine.finishRibosome();  //TODO
+		if (r) { return true; };
 		return false;
 	}
 
@@ -2987,7 +3010,7 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 
 	public void onMembraneHealthChange(int i) 
 	{
-		p_interface.setMembraneHealth(i);
+		//p_interface.setMembraneHealth(i);  //TODO
 	}
 
 	public Boolean startNecrosis() 
@@ -3207,7 +3230,7 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 	private void setPH(float ph)
 	{
 		ph_balance = ph;
-		p_interface.setPH(ph);
+		//p_interface.setPH(ph);  //TODO
 		c_membrane.updatePH(ph_balance);
 		onPHChange();
 	}
@@ -3339,56 +3362,56 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 		switch (s.num_id)
 		{
 			case Selectable.NUCLEUS:
-				killNucleus(Nucleus(s));
+				killNucleus(s as Nucleus);
 				break;
 			case Selectable._ER:
-				killER(ER(s));
+				killER(s as ER);
 				break;
 			case Selectable.CENTROSOME:
-				killCentrosome(Centrosome(s));
+				killCentrosome(s as Centrosome);
 				break;
 			case Selectable.GOLGI:
-				killGolgi(Golgi(s));
+				killGolgi(s as Golgi);
 				break;
 			case Selectable.LYSOSOME:
-				killLysosome(Lysosome(s));
+				killLysosome(s as Lysosome);
 				break;
 			case Selectable.PEROXISOME:
-				killPeroxisome(Peroxisome(s));
+				killPeroxisome(s as Peroxisome);
 				break;
 			case Selectable.RIBOSOME:
-				killRibosome(Ribosome(s));
+				killRibosome(s as Ribosome);
 				break;
 			case Selectable.VESICLE:
-				killBlankVesicle(BlankVesicle(s));
+				killBlankVesicle(s as BlankVesicle);
 				break;
 			case Selectable.CHLOROPLAST:
-				killChloroplast(Chloroplast(s));
+				killChloroplast(s as Chloroplast);
 				break;
 			case Selectable.MITOCHONDRION:
-				killMitochondrion(Mitochondrion(s));
+				killMitochondrion(s as Mitochondrion);
 				break;
 			case Selectable.BIGVESICLE:
-				killBigVesicle(BigVesicle(s));
+				killBigVesicle(s as BigVesicle);
 				break;
 			case Selectable.PROTEIN_GLOB:
-				killProteinGlob(ProteinGlob(s));
+				killProteinGlob(s as ProteinGlob);
 				break;
 			case Selectable.SLICER_ENZYME:
 				//trace("Cell.killSomething() slicerEnzyme(" + s + ")");
-				killSlicerEnzyme(SlicerEnzyme(s));
+				killSlicerEnzyme(s as SlicerEnzyme);
 				break;
 			case Selectable.DNAREPAIR:
-				killDNARepair(DNARepairEnzyme(s));
+				killDNARepair(s as DNARepairEnzyme);
 				break;
 			case Selectable.FREE_RADICAL:
-				killFreeRadical(FreeRadical(s));
+				killFreeRadical(s as FreeRadical);
 				break;
 			case Selectable.VIRUS:
 			case Selectable.VIRUS_INFESTER:
 			case Selectable.VIRUS_INJECTOR:
 			case Selectable.VIRUS_INVADER:
-				killVirus(Virus(s));
+				killVirus(s as Virus);
 				break;
 			default:
 				Debug.LogError("Cell.killSomething() : I don't recognize code # " + s.num_id);

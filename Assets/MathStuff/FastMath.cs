@@ -98,7 +98,7 @@ public class FastMath
 	 * @return a list of circle coordinates in a Vector.<Number>
 	 */
 
-	private List<float> circlePointsOffset(float radius, float MAX, float xo, float yo)
+	public static List<float> circlePointsOffset(float radius, float MAX, float xo, float yo)
 	{
 		List<float> circ = new List<float>();
 		for (float i = 0; i < MAX; i++){

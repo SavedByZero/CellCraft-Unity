@@ -16,7 +16,7 @@ public class Mitochondrion : ProducerObject
 		text_id = "mitochondrion";
 		num_id = Selectable.MITOCHONDRION;
 		setMaxHealth(100, true);
-		bestColors = [1, 0, 0];
+		bestColors = new bool[] { true, false, false };
 		list_actions = new List<CellAction> { CellAction.MOVE, CellAction.DIVIDE, CellAction.RECYCLE, CellAction.TOGGLE } ; //add recycle later
 		does_divide = true;
 
