@@ -128,7 +128,7 @@ public class VirusInfester : Virus
 
 		condition_state = CON_MOVE_TO_RIBOSOME;
 		nuc = p_cell.c_nucleus;
-		Point[] a = (p_cell.getNucleusPore());
+		List<object> a = (p_cell.getNucleusPore());
 		nuc_node = (a[0] as Point);
 		if (nuc)
 		{

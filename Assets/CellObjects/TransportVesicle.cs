@@ -72,7 +72,7 @@ public class TransportVesicle : BlankVesicle
 	private void moveToMembrane()
 	{
 		mnode = p_cell.c_membrane.findClosestMembraneNode(x, y);
-		moveToPoint(new Point(mnode.x, mnode.y), GameObject.FLOAT, true);
+		moveToPoint(new Point(mnode.x, mnode.y), CellGameObject.FLOAT, true);
 	}
 
 	protected override void metamorphose()

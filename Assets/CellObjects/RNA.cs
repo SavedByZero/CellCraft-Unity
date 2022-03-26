@@ -402,7 +402,7 @@ public class RNA : CellObject
 					}
 					else
 					{
-						if (p_rib.getRNA == null)
+						if (p_rib.getRNA() == null)
 						{
 							p_rib.cancelRNA();
 						}

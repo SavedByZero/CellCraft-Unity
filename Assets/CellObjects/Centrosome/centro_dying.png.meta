@@ -1,0 +1,943 @@
+fileFormatVersion: 2
+guid: 1cffed7c036beca44bf6addb89512c57
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6135224807348230083
+    second: centro_dying_0
+  - first:
+      213: -4842002190202396290
+    second: centro_dying_1
+  - first:
+      213: -8257997065317556819
+    second: centro_dying_2
+  - first:
+      213: 1954576084322277902
+    second: centro_dying_3
+  - first:
+      213: -3597470054181844025
+    second: centro_dying_4
+  - first:
+      213: 6801167910360572043
+    second: centro_dying_5
+  - first:
+      213: 370491647277551940
+    second: centro_dying_6
+  - first:
+      213: 4375298841825615295
+    second: centro_dying_7
+  - first:
+      213: 3110024758515953216
+    second: centro_dying_8
+  - first:
+      213: 5633787653910557310
+    second: centro_dying_9
+  - first:
+      213: 8441748304306624356
+    second: centro_dying_10
+  - first:
+      213: -353604898097399576
+    second: centro_dying_11
+  - first:
+      213: 4518172295775110576
+    second: centro_dying_12
+  - first:
+      213: -9159627453650351587
+    second: centro_dying_13
+  - first:
+      213: -1097884550232849944
+    second: centro_dying_14
+  - first:
+      213: 5845371212444943290
+    second: centro_dying_15
+  - first:
+      213: 2452918158916226004
+    second: centro_dying_16
+  - first:
+      213: 6265615578113168372
+    second: centro_dying_17
+  - first:
+      213: 6989592726239182611
+    second: centro_dying_18
+  - first:
+      213: -1728138147855637395
+    second: centro_dying_19
+  - first:
+      213: -6130502595212633499
+    second: centro_dying_20
+  - first:
+      213: 912098411423731687
+    second: centro_dying_21
+  - first:
+      213: -8539181979734423127
+    second: centro_dying_22
+  - first:
+      213: 5131979540177947832
+    second: centro_dying_23
+  - first:
+      213: 430511387855220046
+    second: centro_dying_24
+  - first:
+      213: 5946125655340762897
+    second: centro_dying_25
+  - first:
+      213: 6783076857907334537
+    second: centro_dying_26
+  - first:
+      213: 3411917811617820190
+    second: centro_dying_27
+  - first:
+      213: -4647981883153291426
+    second: centro_dying_28
+  - first:
+      213: 7529831745704384818
+    second: centro_dying_29
+  - first:
+      213: 3543619580866076473
+    second: centro_dying_30
+  - first:
+      213: 9159809792170368518
+    second: centro_dying_31
+  - first:
+      213: 3126611397216066604
+    second: centro_dying_32
+  - first:
+      213: 2981216829619374969
+    second: centro_dying_33
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: centro_dying_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7447.2725
+        width: 682.6667
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c7d72bd472b42550800000000000000
+      internalID: 6135224807348230083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_dying_1
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 7447.2725
+        width: 682.6667
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e71a25b79a0cdccb0800000000000000
+      internalID: -4842002190202396290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_dying_2
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 7447.2725
+        width: 682.6667
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dad578dfb63b56d80800000000000000
+      internalID: -8257997065317556819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_dying_3
+      rect:
+        serializedVersion: 2
+        x: 2046
+        y: 7447.2725
+        width: 682.6667
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0ad088c79c002b10800000000000000
+      internalID: 1954576084322277902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_dying_4
+      rect:
+        serializedVersion: 2
+        x: 2728
+        y: 7447.2725
+        width: 682.6667
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cbc262cb08331ec0800000000000000
+      internalID: -3597470054181844025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_dying_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6703.2725
+        width: 682.6667
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b80e3da2e2a926e50800000000000000
+      internalID: 6801167910360572043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_dying_6
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 6703.2725
+        width: 682.6667
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4415a34b030442500800000000000000
+      internalID: 370491647277551940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_dying_7
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 6703.2725
+        width: 682.6667
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbd91358d1f28bc30800000000000000
+      internalID: 4375298841825615295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_dying_8
+      rect:
+        serializedVersion: 2
+        x: 2046
+        y: 6703.2725
+        width: 682.6667
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04e630e4a07092b20800000000000000
+      internalID: 3110024758515953216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_dying_9
+      rect:
+        serializedVersion: 2
+        x: 2728
+        y: 6703.2725
+        width: 682.6667
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e72f15ba50c3f2e40800000000000000
+      internalID: 5633787653910557310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_dying_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5959.2725
+        width: 682.6667
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 467d3714b5d172570800000000000000
+      internalID: 8441748304306624356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_dying_11
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 5959.2725
+        width: 682.6667
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e8f01af73eb71bf0800000000000000
+      internalID: -353604898097399576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_dying_12
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 5959.2725
+        width: 682.6667
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b5cfa3c3c5c3be30800000000000000
+      internalID: 4518172295775110576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_dying_13
+      rect:
+        serializedVersion: 2
+        x: 2046
+        y: 5959.2725
+        width: 682.6667
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1a41465c5772e080800000000000000
+      internalID: -9159627453650351587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_dying_14
+      rect:
+        serializedVersion: 2
+        x: 2728
+        y: 5959.2725
+        width: 682.6667
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e14bf281d783c0f0800000000000000
+      internalID: -1097884550232849944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_dying_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5215.2725
+        width: 682.6667
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab3431ac52eee1150800000000000000
+      internalID: 5845371212444943290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_dying_16
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 5215.2725
+        width: 682.6667
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4db8e45c1148a0220800000000000000
+      internalID: 2452918158916226004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_dying_17
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 5215.2725
+        width: 682.6667
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f3d690fb20f3f650800000000000000
+      internalID: 6265615578113168372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_dying_18
+      rect:
+        serializedVersion: 2
+        x: 2046
+        y: 5215.2725
+        width: 682.6667
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31ff3245d85000160800000000000000
+      internalID: 6989592726239182611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_dying_19
+      rect:
+        serializedVersion: 2
+        x: 2728
+        y: 5215.2725
+        width: 682.6667
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d646346b28b6408e0800000000000000
+      internalID: -1728138147855637395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_dying_20
+      rect:
+        serializedVersion: 2
+        x: 3410
+        y: 5215.2725
+        width: 682.6667
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56a9db5de541ceaa0800000000000000
+      internalID: -6130502595212633499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_dying_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4471.2725
+        width: 682.6667
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ef0c153cac68ac00800000000000000
+      internalID: 912098411423731687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_dying_22
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 4471.2725
+        width: 682.6667
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a943816b3bbe7980800000000000000
+      internalID: -8539181979734423127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_dying_23
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 4471.2725
+        width: 682.6667
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bc01ee8334783740800000000000000
+      internalID: 5131979540177947832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_dying_24
+      rect:
+        serializedVersion: 2
+        x: 2046
+        y: 4471.2725
+        width: 682.6667
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4deed883db79f500800000000000000
+      internalID: 430511387855220046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_dying_25
+      rect:
+        serializedVersion: 2
+        x: 2728
+        y: 4471.2725
+        width: 682.6667
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1174c6497c1e48250800000000000000
+      internalID: 5946125655340762897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_dying_26
+      rect:
+        serializedVersion: 2
+        x: 3410
+        y: 4471.2725
+        width: 682.6667
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98d4db7c674522e50800000000000000
+      internalID: 6783076857907334537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_dying_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3727.2727
+        width: 682.6667
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1eee4c2c21995f20800000000000000
+      internalID: 3411917811617820190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_dying_28
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 3727.2727
+        width: 682.6667
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5762347a1d0f7fb0800000000000000
+      internalID: -4647981883153291426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_dying_29
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 3727.2727
+        width: 682.6667
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2395b25f3165f7860800000000000000
+      internalID: 7529831745704384818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_dying_30
+      rect:
+        serializedVersion: 2
+        x: 2046
+        y: 3727.2727
+        width: 682.6667
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93f14a0eb377d2130800000000000000
+      internalID: 3543619580866076473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_dying_31
+      rect:
+        serializedVersion: 2
+        x: 2728
+        y: 3727.2727
+        width: 682.6667
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60e9578a97e2e1f70800000000000000
+      internalID: 9159809792170368518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_dying_32
+      rect:
+        serializedVersion: 2
+        x: 3410
+        y: 3727.2727
+        width: 682.6667
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2c50c11084f36b20800000000000000
+      internalID: 3126611397216066604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_dying_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2983.2727
+        width: 682.6667
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97b01ef49e86f5920800000000000000
+      internalID: 2981216829619374969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

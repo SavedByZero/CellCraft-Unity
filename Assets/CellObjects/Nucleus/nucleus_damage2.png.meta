@@ -1,0 +1,4927 @@
+fileFormatVersion: 2
+guid: e2fa20d697bd7224fbf6372c95cfec8e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6646192642201971481
+    second: nucleus_damage2_0
+  - first:
+      213: 716918632237544804
+    second: nucleus_damage2_1
+  - first:
+      213: 1284203193916305865
+    second: nucleus_damage2_2
+  - first:
+      213: 7121582475608446612
+    second: nucleus_damage2_3
+  - first:
+      213: 5356623684319757510
+    second: nucleus_damage2_4
+  - first:
+      213: 761490490360634603
+    second: nucleus_damage2_5
+  - first:
+      213: -8706419921946503720
+    second: nucleus_damage2_6
+  - first:
+      213: 226909880104079164
+    second: nucleus_damage2_7
+  - first:
+      213: -1559852546781554942
+    second: nucleus_damage2_8
+  - first:
+      213: -4455765509952139797
+    second: nucleus_damage2_9
+  - first:
+      213: 1612901244321047205
+    second: nucleus_damage2_10
+  - first:
+      213: -7383234669801782894
+    second: nucleus_damage2_11
+  - first:
+      213: -6207536385762511507
+    second: nucleus_damage2_12
+  - first:
+      213: -4453575330306442146
+    second: nucleus_damage2_13
+  - first:
+      213: -3395776408324731614
+    second: nucleus_damage2_14
+  - first:
+      213: -3361244415046271525
+    second: nucleus_damage2_15
+  - first:
+      213: -5496189278030007370
+    second: nucleus_damage2_16
+  - first:
+      213: -484440046044106690
+    second: nucleus_damage2_17
+  - first:
+      213: -8765588916413704113
+    second: nucleus_damage2_18
+  - first:
+      213: 4400098473598783412
+    second: nucleus_damage2_19
+  - first:
+      213: -4141514162716038382
+    second: nucleus_damage2_20
+  - first:
+      213: 3973923708572223210
+    second: nucleus_damage2_21
+  - first:
+      213: -2319039988615704130
+    second: nucleus_damage2_22
+  - first:
+      213: 8393194630762698873
+    second: nucleus_damage2_23
+  - first:
+      213: -7351733735332401157
+    second: nucleus_damage2_24
+  - first:
+      213: 7893512201216136868
+    second: nucleus_damage2_25
+  - first:
+      213: 6180943813531162159
+    second: nucleus_damage2_26
+  - first:
+      213: -1599922186653031351
+    second: nucleus_damage2_27
+  - first:
+      213: 2680781809879281279
+    second: nucleus_damage2_28
+  - first:
+      213: 6421260658484615013
+    second: nucleus_damage2_29
+  - first:
+      213: -7967827847980228167
+    second: nucleus_damage2_30
+  - first:
+      213: 6923898197905177216
+    second: nucleus_damage2_31
+  - first:
+      213: -7435538641812800081
+    second: nucleus_damage2_32
+  - first:
+      213: 8986159941028744856
+    second: nucleus_damage2_33
+  - first:
+      213: -5406038088807173969
+    second: nucleus_damage2_34
+  - first:
+      213: 5744474663569402274
+    second: nucleus_damage2_35
+  - first:
+      213: -1260246861107288552
+    second: nucleus_damage2_36
+  - first:
+      213: -2822664815189984386
+    second: nucleus_damage2_37
+  - first:
+      213: 1323266580347891153
+    second: nucleus_damage2_38
+  - first:
+      213: -4692803770564611334
+    second: nucleus_damage2_39
+  - first:
+      213: 8745736334313829848
+    second: nucleus_damage2_40
+  - first:
+      213: -1954221224289558575
+    second: nucleus_damage2_41
+  - first:
+      213: -5525057791347987367
+    second: nucleus_damage2_42
+  - first:
+      213: -1163466008521913001
+    second: nucleus_damage2_43
+  - first:
+      213: 376149805203616637
+    second: nucleus_damage2_44
+  - first:
+      213: 3816690803385710484
+    second: nucleus_damage2_45
+  - first:
+      213: 7235937141089142390
+    second: nucleus_damage2_46
+  - first:
+      213: -1161276540059089272
+    second: nucleus_damage2_47
+  - first:
+      213: -1978011213719221877
+    second: nucleus_damage2_48
+  - first:
+      213: -2708354073768142138
+    second: nucleus_damage2_49
+  - first:
+      213: 3672605372804584801
+    second: nucleus_damage2_50
+  - first:
+      213: 5703774639392123666
+    second: nucleus_damage2_51
+  - first:
+      213: -1085816621849560438
+    second: nucleus_damage2_52
+  - first:
+      213: 7622335207813673666
+    second: nucleus_damage2_53
+  - first:
+      213: -7534128375579054321
+    second: nucleus_damage2_54
+  - first:
+      213: 7001296477470073218
+    second: nucleus_damage2_55
+  - first:
+      213: -1001151942448985375
+    second: nucleus_damage2_56
+  - first:
+      213: -5077014813058636735
+    second: nucleus_damage2_57
+  - first:
+      213: 1579546992461848271
+    second: nucleus_damage2_58
+  - first:
+      213: 2920722377835760367
+    second: nucleus_damage2_59
+  - first:
+      213: -3455947569068220141
+    second: nucleus_damage2_60
+  - first:
+      213: 6878032048715801674
+    second: nucleus_damage2_61
+  - first:
+      213: 1404587592114555825
+    second: nucleus_damage2_62
+  - first:
+      213: -1135164012010702957
+    second: nucleus_damage2_63
+  - first:
+      213: 4525399270323410146
+    second: nucleus_damage2_64
+  - first:
+      213: -2539324130830251464
+    second: nucleus_damage2_65
+  - first:
+      213: -7123845212786589977
+    second: nucleus_damage2_66
+  - first:
+      213: 9156986127224872128
+    second: nucleus_damage2_67
+  - first:
+      213: -4850133717447328671
+    second: nucleus_damage2_68
+  - first:
+      213: 88162113418791106
+    second: nucleus_damage2_69
+  - first:
+      213: -5372019108902718835
+    second: nucleus_damage2_70
+  - first:
+      213: 5027050373622839433
+    second: nucleus_damage2_71
+  - first:
+      213: -2474311526134213071
+    second: nucleus_damage2_72
+  - first:
+      213: 8266204674534558827
+    second: nucleus_damage2_73
+  - first:
+      213: -5780397508124001338
+    second: nucleus_damage2_74
+  - first:
+      213: 6768006305568473352
+    second: nucleus_damage2_75
+  - first:
+      213: 2761232367560248663
+    second: nucleus_damage2_76
+  - first:
+      213: 5330322312897787032
+    second: nucleus_damage2_77
+  - first:
+      213: 2605249328192300565
+    second: nucleus_damage2_78
+  - first:
+      213: -5925772651111745928
+    second: nucleus_damage2_79
+  - first:
+      213: 5487984486796672222
+    second: nucleus_damage2_80
+  - first:
+      213: 8949715122991486903
+    second: nucleus_damage2_81
+  - first:
+      213: 2581967368869506274
+    second: nucleus_damage2_82
+  - first:
+      213: 6430052657735862753
+    second: nucleus_damage2_83
+  - first:
+      213: -2028729720122747524
+    second: nucleus_damage2_84
+  - first:
+      213: -9014075722931518232
+    second: nucleus_damage2_85
+  - first:
+      213: -3625190153362872904
+    second: nucleus_damage2_86
+  - first:
+      213: 2829335089882853128
+    second: nucleus_damage2_87
+  - first:
+      213: -570880373712997155
+    second: nucleus_damage2_88
+  - first:
+      213: 6546302969573681858
+    second: nucleus_damage2_89
+  - first:
+      213: 7640079754572437227
+    second: nucleus_damage2_90
+  - first:
+      213: -8952501517105937902
+    second: nucleus_damage2_91
+  - first:
+      213: 6014733362404256032
+    second: nucleus_damage2_92
+  - first:
+      213: -7789857241855146131
+    second: nucleus_damage2_93
+  - first:
+      213: -6677637224081220923
+    second: nucleus_damage2_94
+  - first:
+      213: 8199553965090629526
+    second: nucleus_damage2_95
+  - first:
+      213: -8695007924439653219
+    second: nucleus_damage2_96
+  - first:
+      213: -2187133269520229917
+    second: nucleus_damage2_97
+  - first:
+      213: -5352341117030310070
+    second: nucleus_damage2_98
+  - first:
+      213: 1515230312907747511
+    second: nucleus_damage2_99
+  - first:
+      213: 2362237312932119907
+    second: nucleus_damage2_100
+  - first:
+      213: 7753892095930038025
+    second: nucleus_damage2_101
+  - first:
+      213: 7771157853411288175
+    second: nucleus_damage2_102
+  - first:
+      213: -881606575616106603
+    second: nucleus_damage2_103
+  - first:
+      213: -3891906647422071892
+    second: nucleus_damage2_104
+  - first:
+      213: -1289432703400220448
+    second: nucleus_damage2_105
+  - first:
+      213: 6958870475847052900
+    second: nucleus_damage2_106
+  - first:
+      213: -6599033149836969318
+    second: nucleus_damage2_107
+  - first:
+      213: -7589598968829380133
+    second: nucleus_damage2_108
+  - first:
+      213: 895052008570913373
+    second: nucleus_damage2_109
+  - first:
+      213: 1642691156117953458
+    second: nucleus_damage2_110
+  - first:
+      213: 8838848191717805577
+    second: nucleus_damage2_111
+  - first:
+      213: 5350926009234091634
+    second: nucleus_damage2_112
+  - first:
+      213: 4340633987790569562
+    second: nucleus_damage2_113
+  - first:
+      213: -3727772280739771742
+    second: nucleus_damage2_114
+  - first:
+      213: 6348046685905692269
+    second: nucleus_damage2_115
+  - first:
+      213: 9046751035873057491
+    second: nucleus_damage2_116
+  - first:
+      213: -1012435702416642072
+    second: nucleus_damage2_117
+  - first:
+      213: 1872624707899062539
+    second: nucleus_damage2_118
+  - first:
+      213: 4499878984852330620
+    second: nucleus_damage2_119
+  - first:
+      213: 4785253833517036214
+    second: nucleus_damage2_120
+  - first:
+      213: 546880686330493653
+    second: nucleus_damage2_121
+  - first:
+      213: 4605170826021332421
+    second: nucleus_damage2_122
+  - first:
+      213: -514185394711350941
+    second: nucleus_damage2_123
+  - first:
+      213: -1449041163317295415
+    second: nucleus_damage2_124
+  - first:
+      213: 537596076622107321
+    second: nucleus_damage2_125
+  - first:
+      213: -6553263219007101252
+    second: nucleus_damage2_126
+  - first:
+      213: -2218579832260533130
+    second: nucleus_damage2_127
+  - first:
+      213: 6067004342202599856
+    second: nucleus_damage2_128
+  - first:
+      213: 3278483190185650435
+    second: nucleus_damage2_129
+  - first:
+      213: -6972295108948270721
+    second: nucleus_damage2_130
+  - first:
+      213: 3398214616822575010
+    second: nucleus_damage2_131
+  - first:
+      213: -8369691945115714739
+    second: nucleus_damage2_132
+  - first:
+      213: -5646940819854963377
+    second: nucleus_damage2_133
+  - first:
+      213: -8681616396810056961
+    second: nucleus_damage2_134
+  - first:
+      213: 357056060012066346
+    second: nucleus_damage2_135
+  - first:
+      213: 3016603071626079786
+    second: nucleus_damage2_136
+  - first:
+      213: 5158984663443387826
+    second: nucleus_damage2_137
+  - first:
+      213: -949393574781616028
+    second: nucleus_damage2_138
+  - first:
+      213: -3985607071366778147
+    second: nucleus_damage2_139
+  - first:
+      213: 5779065388980180001
+    second: nucleus_damage2_140
+  - first:
+      213: -7679519076642141110
+    second: nucleus_damage2_141
+  - first:
+      213: -2620496521258613082
+    second: nucleus_damage2_142
+  - first:
+      213: 3396935864205648129
+    second: nucleus_damage2_143
+  - first:
+      213: -767300679105180198
+    second: nucleus_damage2_144
+  - first:
+      213: 7016653967324735435
+    second: nucleus_damage2_145
+  - first:
+      213: -7761125515401203613
+    second: nucleus_damage2_146
+  - first:
+      213: 5223796580831521744
+    second: nucleus_damage2_147
+  - first:
+      213: 3338278817635359318
+    second: nucleus_damage2_148
+  - first:
+      213: 2582649574820247043
+    second: nucleus_damage2_149
+  - first:
+      213: 4631346384524986643
+    second: nucleus_damage2_150
+  - first:
+      213: -1116568442438705972
+    second: nucleus_damage2_151
+  - first:
+      213: -5298719032298069051
+    second: nucleus_damage2_152
+  - first:
+      213: -7456764959559211251
+    second: nucleus_damage2_153
+  - first:
+      213: 2293811335747070634
+    second: nucleus_damage2_154
+  - first:
+      213: 7567967068141259426
+    second: nucleus_damage2_155
+  - first:
+      213: 1032705953165351428
+    second: nucleus_damage2_156
+  - first:
+      213: -6040200060737673077
+    second: nucleus_damage2_157
+  - first:
+      213: 2039612820367429251
+    second: nucleus_damage2_158
+  - first:
+      213: 2327260528208861388
+    second: nucleus_damage2_159
+  - first:
+      213: -2381627774215034339
+    second: nucleus_damage2_160
+  - first:
+      213: -1369958888319137997
+    second: nucleus_damage2_161
+  - first:
+      213: 5966334095630813483
+    second: nucleus_damage2_162
+  - first:
+      213: 6688870902872011096
+    second: nucleus_damage2_163
+  - first:
+      213: -6379995470263577159
+    second: nucleus_damage2_164
+  - first:
+      213: -83769032193898332
+    second: nucleus_damage2_165
+  - first:
+      213: 7759876005965207834
+    second: nucleus_damage2_166
+  - first:
+      213: -8420346946712112096
+    second: nucleus_damage2_167
+  - first:
+      213: -789386781192694613
+    second: nucleus_damage2_168
+  - first:
+      213: -7291813501379641098
+    second: nucleus_damage2_169
+  - first:
+      213: 3951157676343391099
+    second: nucleus_damage2_170
+  - first:
+      213: 845694356244631205
+    second: nucleus_damage2_171
+  - first:
+      213: -4983801001786211726
+    second: nucleus_damage2_172
+  - first:
+      213: 7540274912903685973
+    second: nucleus_damage2_173
+  - first:
+      213: -2046042291111141806
+    second: nucleus_damage2_174
+  - first:
+      213: 8133745975752608411
+    second: nucleus_damage2_175
+  - first:
+      213: -1909712936181071835
+    second: nucleus_damage2_176
+  - first:
+      213: 1044421546596236103
+    second: nucleus_damage2_177
+  - first:
+      213: 2078060992811257586
+    second: nucleus_damage2_178
+  - first:
+      213: 4611507602401222323
+    second: nucleus_damage2_179
+  - first:
+      213: -6963587363386195983
+    second: nucleus_damage2_180
+  - first:
+      213: 4648796869102092933
+    second: nucleus_damage2_181
+  - first:
+      213: -955809425569722640
+    second: nucleus_damage2_182
+  - first:
+      213: 2256885990608843385
+    second: nucleus_damage2_183
+  - first:
+      213: -1568743553206897255
+    second: nucleus_damage2_184
+  - first:
+      213: -2660155332751281838
+    second: nucleus_damage2_185
+  - first:
+      213: 3074378351114223636
+    second: nucleus_damage2_186
+  - first:
+      213: -6741744957556777628
+    second: nucleus_damage2_187
+  - first:
+      213: -5873785516441131134
+    second: nucleus_damage2_188
+  - first:
+      213: -5455915799630586063
+    second: nucleus_damage2_189
+  - first:
+      213: 2425095340491753391
+    second: nucleus_damage2_190
+  - first:
+      213: 8405415098411559249
+    second: nucleus_damage2_191
+  - first:
+      213: 2506658680477236084
+    second: nucleus_damage2_192
+  - first:
+      213: 2711989967979328517
+    second: nucleus_damage2_193
+  - first:
+      213: 3807229525926321552
+    second: nucleus_damage2_194
+  - first:
+      213: 3073255963183897009
+    second: nucleus_damage2_195
+  - first:
+      213: 5444345462125670689
+    second: nucleus_damage2_196
+  - first:
+      213: 5039835131277209609
+    second: nucleus_damage2_197
+  - first:
+      213: 8746231997309249599
+    second: nucleus_damage2_198
+  - first:
+      213: 8157109815970756521
+    second: nucleus_damage2_199
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: nucleus_damage2_0
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 3881
+        width: 156
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91b634bbef40c3c50800000000000000
+      internalID: 6646192642201971481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_1
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 3881
+        width: 154
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 465b06792b103f900800000000000000
+      internalID: 716918632237544804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_2
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 3881
+        width: 154
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c1bdc8300862d110800000000000000
+      internalID: 1284203193916305865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_3
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 3881
+        width: 154
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 496d941a781f4d260800000000000000
+      internalID: 7121582475608446612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_4
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 3881
+        width: 154
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c4c25b3cdc865a40800000000000000
+      internalID: 5356623684319757510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_5
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 3881
+        width: 154
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bec98c1019b519a00800000000000000
+      internalID: 761490490360634603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_6
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 3881
+        width: 152
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d59ef6a5359c2780800000000000000
+      internalID: -8706419921946503720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_7
+      rect:
+        serializedVersion: 2
+        x: 1313
+        y: 3881
+        width: 154
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3f41af6555262300800000000000000
+      internalID: 226909880104079164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_8
+      rect:
+        serializedVersion: 2
+        x: 1497
+        y: 3881
+        width: 152
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 207d8178f5a4a5ae0800000000000000
+      internalID: -1559852546781554942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_9
+      rect:
+        serializedVersion: 2
+        x: 1679
+        y: 3881
+        width: 154
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bed8dd850e0f922c0800000000000000
+      internalID: -4455765509952139797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_10
+      rect:
+        serializedVersion: 2
+        x: 1861
+        y: 3881
+        width: 154
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a2aa8dd22d226610800000000000000
+      internalID: 1612901244321047205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_11
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 3667
+        width: 152
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 291cd159f2b798990800000000000000
+      internalID: -7383234669801782894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_12
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 3667
+        width: 152
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d65305ccb866ad9a0800000000000000
+      internalID: -6207536385762511507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_13
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 3667
+        width: 153
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5c34a845d8b132c0800000000000000
+      internalID: -4453575330306442146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_14
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 3667
+        width: 152
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22d07252957cfd0d0800000000000000
+      internalID: -3395776408324731614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_15
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 3667
+        width: 152
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bddb6ed53067a51d0800000000000000
+      internalID: -3361244415046271525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_16
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 3667
+        width: 152
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b3f5b0c8fc99b3b0800000000000000
+      internalID: -5496189278030007370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_17
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 3667
+        width: 152
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e303194485ce649f0800000000000000
+      internalID: -484440046044106690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_18
+      rect:
+        serializedVersion: 2
+        x: 1313
+        y: 3667
+        width: 152
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f485f06925f5a5680800000000000000
+      internalID: -8765588916413704113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_19
+      rect:
+        serializedVersion: 2
+        x: 1497
+        y: 3667
+        width: 152
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bf089fbf3a401d30800000000000000
+      internalID: 4400098473598783412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_20
+      rect:
+        serializedVersion: 2
+        x: 1679
+        y: 3667
+        width: 152
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21baf0bcfc26686c0800000000000000
+      internalID: -4141514162716038382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_21
+      rect:
+        serializedVersion: 2
+        x: 1863
+        y: 3667
+        width: 152
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae643f5ee86362730800000000000000
+      internalID: 3973923708572223210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_22
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 3453
+        width: 152
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb192aaca6d11dfd0800000000000000
+      internalID: -2319039988615704130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_23
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 3453
+        width: 152
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97893513c0e9a7470800000000000000
+      internalID: 8393194630762698873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_24
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 3453
+        width: 152
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bffa14e6e1569f990800000000000000
+      internalID: -7351733735332401157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_25
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 3453
+        width: 152
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a613bf76836b8d60800000000000000
+      internalID: 7893512201216136868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_26
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 3453
+        width: 152
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f265c2e76af17c550800000000000000
+      internalID: 6180943813531162159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_27
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 3453
+        width: 150
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 944a74c7f3febc9e0800000000000000
+      internalID: -1599922186653031351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_28
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 3453
+        width: 152
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7eee2a4adc043520800000000000000
+      internalID: 2680781809879281279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_29
+      rect:
+        serializedVersion: 2
+        x: 1315
+        y: 3453
+        width: 150
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5679a2f2c86ec1950800000000000000
+      internalID: 6421260658484615013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_30
+      rect:
+        serializedVersion: 2
+        x: 1497
+        y: 3453
+        width: 150
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b16ca1a9c69c6190800000000000000
+      internalID: -7967827847980228167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_31
+      rect:
+        serializedVersion: 2
+        x: 1681
+        y: 3451
+        width: 150
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08afa130ab0a61060800000000000000
+      internalID: 6923898197905177216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_32
+      rect:
+        serializedVersion: 2
+        x: 1863
+        y: 3451
+        width: 150
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fadbe0d1009afc890800000000000000
+      internalID: -7435538641812800081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_33
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 3239
+        width: 150
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89e0ddb0bd045bc70800000000000000
+      internalID: 8986159941028744856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_34
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 3237
+        width: 150
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa0ba6a2005e9f4b0800000000000000
+      internalID: -5406038088807173969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_35
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 3237
+        width: 150
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a9294f554978bf40800000000000000
+      internalID: 5744474663569402274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_36
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 3237
+        width: 151
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 816266a2824b28ee0800000000000000
+      internalID: -1260246861107288552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_37
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 3237
+        width: 150
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7b7b924e41e3d8d0800000000000000
+      internalID: -2822664815189984386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_38
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 3237
+        width: 150
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dd28c0a1ff2d5210800000000000000
+      internalID: 1323266580347891153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_39
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 3237
+        width: 150
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af2f1ee85dfcfdeb0800000000000000
+      internalID: -4692803770564611334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_40
+      rect:
+        serializedVersion: 2
+        x: 1315
+        y: 3237
+        width: 150
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d5b002fbd81f5970800000000000000
+      internalID: 8745736334313829848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_41
+      rect:
+        serializedVersion: 2
+        x: 1497
+        y: 3237
+        width: 150
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1df11b1862631e4e0800000000000000
+      internalID: -1954221224289558575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_42
+      rect:
+        serializedVersion: 2
+        x: 1681
+        y: 3237
+        width: 150
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95ce237363d0353b0800000000000000
+      internalID: -5525057791347987367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_43
+      rect:
+        serializedVersion: 2
+        x: 1863
+        y: 3237
+        width: 150
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75d4fcd54d98adfe0800000000000000
+      internalID: -1163466008521913001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_44
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 3025
+        width: 150
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d737e71414a583500800000000000000
+      internalID: 376149805203616637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_45
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 3025
+        width: 150
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4973e41601c97f430800000000000000
+      internalID: 3816690803385710484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_46
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 3025
+        width: 150
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6768caffd763b6460800000000000000
+      internalID: 7235937141089142390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_47
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 3024
+        width: 150
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88688c7b32152efe0800000000000000
+      internalID: -1161276540059089272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_48
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 3023
+        width: 150
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b89c684f741bc84e0800000000000000
+      internalID: -1978011213719221877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_49
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 3023
+        width: 150
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ca5113c15ef96ad0800000000000000
+      internalID: -2708354073768142138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_50
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 3023
+        width: 148
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1655536d027b7f230800000000000000
+      internalID: 3672605372804584801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_51
+      rect:
+        serializedVersion: 2
+        x: 1315
+        y: 3023
+        width: 148
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21b69db80d0e72f40800000000000000
+      internalID: 5703774639392123666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_52
+      rect:
+        serializedVersion: 2
+        x: 1499
+        y: 3023
+        width: 148
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8a317b09876ee0f0800000000000000
+      internalID: -1085816621849560438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_53
+      rect:
+        serializedVersion: 2
+        x: 1681
+        y: 3023
+        width: 148
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c2ffa49c79f7c960800000000000000
+      internalID: 7622335207813673666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_54
+      rect:
+        serializedVersion: 2
+        x: 1865
+        y: 3023
+        width: 148
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0f6b61f826617790800000000000000
+      internalID: -7534128375579054321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_55
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 2809
+        width: 148
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2812cc24d0a992160800000000000000
+      internalID: 7001296477470073218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_56
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 2809
+        width: 148
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eac228dc913b12f0800000000000000
+      internalID: -1001151942448985375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_57
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 2809
+        width: 148
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1446e3c3de1da89b0800000000000000
+      internalID: -5077014813058636735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_58
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 2809
+        width: 148
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fce99bfee9dabe510800000000000000
+      internalID: 1579546992461848271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_59
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 2809
+        width: 149
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fea4f6a278d788820800000000000000
+      internalID: 2920722377835760367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_60
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 2809
+        width: 148
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 311605f0ff10a00d0800000000000000
+      internalID: -3455947569068220141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_61
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 2809
+        width: 148
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a442579f4bda37f50800000000000000
+      internalID: 6878032048715801674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_62
+      rect:
+        serializedVersion: 2
+        x: 1315
+        y: 2809
+        width: 148
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bbc8e329f81e7310800000000000000
+      internalID: 1404587592114555825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_63
+      rect:
+        serializedVersion: 2
+        x: 1499
+        y: 2809
+        width: 148
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3977b4e68561f30f0800000000000000
+      internalID: -1135164012010702957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_64
+      rect:
+        serializedVersion: 2
+        x: 1681
+        y: 2809
+        width: 148
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e45076e8a27dce30800000000000000
+      internalID: 4525399270323410146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_65
+      rect:
+        serializedVersion: 2
+        x: 1865
+        y: 2809
+        width: 148
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83a094c282282ccd0800000000000000
+      internalID: -2539324130830251464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_66
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 2595
+        width: 148
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eefcf0d584032d90800000000000000
+      internalID: -7123845212786589977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_67
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 2595
+        width: 146
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cc1b6eed56241f70800000000000000
+      internalID: 9156986127224872128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_68
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 2595
+        width: 148
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16c3862c41dd0bcb0800000000000000
+      internalID: -4850133717447328671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_69
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 2595
+        width: 148
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c889fc99f6393100800000000000000
+      internalID: 88162113418791106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_70
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 2595
+        width: 148
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d823e372511c275b0800000000000000
+      internalID: -5372019108902718835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_71
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 2595
+        width: 148
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 988b8cb2eaba3c540800000000000000
+      internalID: 5027050373622839433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_72
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 2595
+        width: 146
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1369d15c6ca79add0800000000000000
+      internalID: -2474311526134213071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_73
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 2593
+        width: 146
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6c4e42fa5577b270800000000000000
+      internalID: 8266204674534558827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_74
+      rect:
+        serializedVersion: 2
+        x: 1499
+        y: 2593
+        width: 146
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cb37bb9717e7cfa0800000000000000
+      internalID: -5780397508124001338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_75
+      rect:
+        serializedVersion: 2
+        x: 1683
+        y: 2595
+        width: 146
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 801430160e9cced50800000000000000
+      internalID: 6768006305568473352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_76
+      rect:
+        serializedVersion: 2
+        x: 1865
+        y: 2595
+        width: 148
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75d4dba653ed15620800000000000000
+      internalID: 2761232367560248663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_77
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 2381
+        width: 148
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8947c9ef6eb19f940800000000000000
+      internalID: 5330322312897787032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_78
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 2381
+        width: 148
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5162a36f574b72420800000000000000
+      internalID: 2605249328192300565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_79
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 2381
+        width: 148
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87672ce7b2d63cda0800000000000000
+      internalID: -5925772651111745928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_80
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 2383
+        width: 148
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edcbe5c60dc392c40800000000000000
+      internalID: 5487984486796672222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_81
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 2383
+        width: 150
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b759da9c76c33c70800000000000000
+      internalID: 8949715122991486903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_82
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 2383
+        width: 150
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eced1364adf4d320800000000000000
+      internalID: 2581967368869506274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_83
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 2383
+        width: 150
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e9076703d22c3950800000000000000
+      internalID: 6430052657735862753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_84
+      rect:
+        serializedVersion: 2
+        x: 1313
+        y: 2383
+        width: 152
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c755ec6711188d3e0800000000000000
+      internalID: -2028729720122747524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_85
+      rect:
+        serializedVersion: 2
+        x: 1497
+        y: 2385
+        width: 150
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e4c13c73e197e280800000000000000
+      internalID: -9014075722931518232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_86
+      rect:
+        serializedVersion: 2
+        x: 1679
+        y: 2385
+        width: 152
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b5ef8933ccb0bdc0800000000000000
+      internalID: -3625190153362872904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_87
+      rect:
+        serializedVersion: 2
+        x: 1861
+        y: 2385
+        width: 152
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80fe3071641d34720800000000000000
+      internalID: 2829335089882853128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_88
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 2173
+        width: 154
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd438932353d318f0800000000000000
+      internalID: -570880373712997155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_89
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 2173
+        width: 153
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ca2685fdd329da50800000000000000
+      internalID: 6546302969573681858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_90
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 2173
+        width: 154
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be691f2de04070a60800000000000000
+      internalID: 7640079754572437227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_91
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 2173
+        width: 154
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21241c57d4352c380800000000000000
+      internalID: -8952501517105937902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_92
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 2173
+        width: 154
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 029ebcc2020a87350800000000000000
+      internalID: 6014733362404256032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_93
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 2173
+        width: 154
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6748386c1ed4e390800000000000000
+      internalID: -7789857241855146131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_94
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 2173
+        width: 154
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ca96b703544453a0800000000000000
+      internalID: -6677637224081220923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_95
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 2175
+        width: 156
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6976fdd53eaaac170800000000000000
+      internalID: 8199553965090629526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_96
+      rect:
+        serializedVersion: 2
+        x: 1493
+        y: 2175
+        width: 156
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9461906c50255780800000000000000
+      internalID: -8695007924439653219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_97
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 2175
+        width: 156
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e9dec911edb5a1e0800000000000000
+      internalID: -2187133269520229917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_98
+      rect:
+        serializedVersion: 2
+        x: 1859
+        y: 2175
+        width: 158
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4fd0baac1aa8b5b0800000000000000
+      internalID: -5352341117030310070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_99
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 1963
+        width: 158
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b035c901fd270510800000000000000
+      internalID: 1515230312907747511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_100
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1963
+        width: 158
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3650e78025a58c020800000000000000
+      internalID: 2362237312932119907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_101
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 1963
+        width: 158
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9077e9487cb5b9b60800000000000000
+      internalID: 7753892095930038025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_102
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 1963
+        width: 158
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f642112f4e2b8db60800000000000000
+      internalID: 7771157853411288175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_103
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 1963
+        width: 160
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59fd0cc8d77e3c3f0800000000000000
+      internalID: -881606575616106603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_104
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 1965
+        width: 158
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cab0d6d368b2df9c0800000000000000
+      internalID: -3891906647422071892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_105
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 1965
+        width: 160
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e8ee08b9c30b1ee0800000000000000
+      internalID: -1289432703400220448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_106
+      rect:
+        serializedVersion: 2
+        x: 1307
+        y: 1965
+        width: 162
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46e21def3dfd29060800000000000000
+      internalID: 6958870475847052900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_107
+      rect:
+        serializedVersion: 2
+        x: 1491
+        y: 1965
+        width: 160
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9ab0fa30568b64a0800000000000000
+      internalID: -6599033149836969318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_108
+      rect:
+        serializedVersion: 2
+        x: 1673
+        y: 1965
+        width: 162
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd9f04303f35ca690800000000000000
+      internalID: -7589598968829380133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_109
+      rect:
+        serializedVersion: 2
+        x: 1857
+        y: 1965
+        width: 162
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d528e524f0ddb6c00800000000000000
+      internalID: 895052008570913373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_110
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 1753
+        width: 164
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bb161437e20cc610800000000000000
+      internalID: 1642691156117953458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_111
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1753
+        width: 162
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90e81f2a995e9aa70800000000000000
+      internalID: 8838848191717805577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_112
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 1753
+        width: 164
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27eebcfdade424a40800000000000000
+      internalID: 5350926009234091634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_113
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 1753
+        width: 166
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a508e3e3d970d3c30800000000000000
+      internalID: 4340633987790569562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_114
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 1753
+        width: 164
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aa45fa7cda444cc0800000000000000
+      internalID: -3727772280739771742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_115
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 1753
+        width: 166
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d662103d3dac81850800000000000000
+      internalID: 6348046685905692269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_116
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 1753
+        width: 164
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3da5c98a2248c8d70800000000000000
+      internalID: 9046751035873057491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_117
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 1753
+        width: 166
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ef688fb71b13f1f0800000000000000
+      internalID: -1012435702416642072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_118
+      rect:
+        serializedVersion: 2
+        x: 1487
+        y: 1753
+        width: 166
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0971ff0046ecf910800000000000000
+      internalID: 1872624707899062539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_119
+      rect:
+        serializedVersion: 2
+        x: 1671
+        y: 1753
+        width: 166
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c785e586818c27e30800000000000000
+      internalID: 4499878984852330620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_120
+      rect:
+        serializedVersion: 2
+        x: 1853
+        y: 1755
+        width: 168
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b2fbda1203a86240800000000000000
+      internalID: 4785253833517036214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_121
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 1541
+        width: 168
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5da30433619e69700800000000000000
+      internalID: 546880686330493653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_122
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1541
+        width: 168
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c56efe877ad8ef30800000000000000
+      internalID: 4605170826021332421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_123
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 1541
+        width: 168
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36139879b1f3dd8f0800000000000000
+      internalID: -514185394711350941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_124
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 1541
+        width: 170
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c6cd834db8f3ebe0800000000000000
+      internalID: -1449041163317295415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_125
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 1541
+        width: 168
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b254bb88cce57700800000000000000
+      internalID: 537596076622107321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_126
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 1541
+        width: 170
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb6e27fa2d12e05a0800000000000000
+      internalID: -6553263219007101252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_127
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 1541
+        width: 171
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 674e348a5650631e0800000000000000
+      internalID: -2218579832260533130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_128
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 1541
+        width: 172
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b90dbb0e44523450800000000000000
+      internalID: 6067004342202599856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_129
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 1541
+        width: 172
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 309ea1167138f7d20800000000000000
+      internalID: 3278483190185650435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_130
+      rect:
+        serializedVersion: 2
+        x: 1667
+        y: 1541
+        width: 172
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f71e1f90a8e6d3f90800000000000000
+      internalID: -6972295108948270721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_131
+      rect:
+        serializedVersion: 2
+        x: 1851
+        y: 1541
+        width: 172
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2afef328032e82f20800000000000000
+      internalID: 3398214616822575010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_132
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1329
+        width: 172
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4bfdeb3581e8db80800000000000000
+      internalID: -8369691945115714739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_133
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 1329
+        width: 172
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4d44ec3e3902a1b0800000000000000
+      internalID: -5646940819854963377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_134
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 1329
+        width: 174
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffa0eef52e3b48780800000000000000
+      internalID: -8681616396810056961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_135
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 1329
+        width: 174
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a267be5489484f400800000000000000
+      internalID: 357056060012066346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_136
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 1329
+        width: 174
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2eef90d2802dd920800000000000000
+      internalID: 3016603071626079786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_137
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 1329
+        width: 176
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b53b3ac735689740800000000000000
+      internalID: 5158984663443387826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_138
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 1329
+        width: 174
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4608a17e29313d2f0800000000000000
+      internalID: -949393574781616028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_139
+      rect:
+        serializedVersion: 2
+        x: 1299
+        y: 1329
+        width: 176
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd2f5e83c7740b8c0800000000000000
+      internalID: -3985607071366778147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_140
+      rect:
+        serializedVersion: 2
+        x: 1483
+        y: 1329
+        width: 176
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1241beb3a5d533050800000000000000
+      internalID: 5779065388980180001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_141
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 1329
+        width: 176
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4cc8ee661edc6590800000000000000
+      internalID: -7679519076642141110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_142
+      rect:
+        serializedVersion: 2
+        x: 1847
+        y: 1329
+        width: 178
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a6cb334c4022abd0800000000000000
+      internalID: -2620496521258613082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_143
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1117
+        width: 178
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10123c6bb27542f20800000000000000
+      internalID: 3396935864205648129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_144
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 1117
+        width: 180
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: add050209100a55f0800000000000000
+      internalID: -767300679105180198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_145
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 1117
+        width: 178
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc7e9328b99206160800000000000000
+      internalID: 7016653967324735435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_146
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 1117
+        width: 176
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3607a45c671fa4490800000000000000
+      internalID: -7761125515401203613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_147
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 1117
+        width: 178
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dbec5b3057ae7840800000000000000
+      internalID: 5223796580831521744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_148
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 1117
+        width: 176
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65add5ec5e2f35e20800000000000000
+      internalID: 3338278817635359318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_149
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 1117
+        width: 176
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3067976da1a67d320800000000000000
+      internalID: 2582649574820247043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_150
+      rect:
+        serializedVersion: 2
+        x: 1299
+        y: 1117
+        width: 176
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 319c661bff8d54040800000000000000
+      internalID: 4631346384524986643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_151
+      rect:
+        serializedVersion: 2
+        x: 1483
+        y: 1117
+        width: 176
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccc970ddae62180f0800000000000000
+      internalID: -1116568442438705972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_152
+      rect:
+        serializedVersion: 2
+        x: 1667
+        y: 1117
+        width: 174
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c3a54b2d1b2776b0800000000000000
+      internalID: -5298719032298069051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_153
+      rect:
+        serializedVersion: 2
+        x: 1849
+        y: 1117
+        width: 174
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d07a4e3e6cf348890800000000000000
+      internalID: -7456764959559211251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_154
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 903
+        width: 174
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaae7f8b14145df10800000000000000
+      internalID: 2293811335747070634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_155
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 903
+        width: 173
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aa0a60a3f1d60960800000000000000
+      internalID: 7567967068141259426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_156
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 903
+        width: 172
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40a1ad7c798e45e00800000000000000
+      internalID: 1032705953165351428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_157
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 903
+        width: 172
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b88207f0c06ec2ca0800000000000000
+      internalID: -6040200060737673077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_158
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 903
+        width: 172
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38e4555cd092e4c10800000000000000
+      internalID: 2039612820367429251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_159
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 903
+        width: 170
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc85dabbe171c4020800000000000000
+      internalID: 2327260528208861388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_160
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 903
+        width: 172
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1a65b26822c2fed0800000000000000
+      internalID: -2381627774215034339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_161
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 903
+        width: 170
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33749d046adecfce0800000000000000
+      internalID: -1369958888319137997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_162
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 903
+        width: 170
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b29406dbf3dacc250800000000000000
+      internalID: 5966334095630813483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_163
+      rect:
+        serializedVersion: 2
+        x: 1669
+        y: 903
+        width: 170
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 851f122a5a4a3dc50800000000000000
+      internalID: 6688870902872011096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_164
+      rect:
+        serializedVersion: 2
+        x: 1853
+        y: 903
+        width: 168
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b596562ce3b577a0800000000000000
+      internalID: -6379995470263577159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_165
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 691
+        width: 168
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a887e0528466def0800000000000000
+      internalID: -83769032193898332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_166
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 691
+        width: 168
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1912a42d1e90bb60800000000000000
+      internalID: 7759876005965207834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_167
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 691
+        width: 168
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 024fdab901be42b80800000000000000
+      internalID: -8420346946712112096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_168
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 691
+        width: 166
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba4de94a7e88b05f0800000000000000
+      internalID: -789386781192694613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_169
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 691
+        width: 168
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f08ed111464eca90800000000000000
+      internalID: -7291813501379641098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_170
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 691
+        width: 166
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b737106f8f455d630800000000000000
+      internalID: 3951157676343391099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_171
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 691
+        width: 166
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ae838c49828cbb00800000000000000
+      internalID: 845694356244631205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_172
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 691
+        width: 166
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2720c49e46bf5dab0800000000000000
+      internalID: -4983801001786211726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_173
+      rect:
+        serializedVersion: 2
+        x: 1489
+        y: 691
+        width: 164
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 557e96c451074a860800000000000000
+      internalID: 7540274912903685973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_174
+      rect:
+        serializedVersion: 2
+        x: 1671
+        y: 691
+        width: 166
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25ed4ea606ffa93e0800000000000000
+      internalID: -2046042291111141806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_175
+      rect:
+        serializedVersion: 2
+        x: 1855
+        y: 689
+        width: 164
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9a4ff9deded0e070800000000000000
+      internalID: 8133745975752608411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_176
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 477
+        width: 164
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52085ffd3365f75e0800000000000000
+      internalID: -1909712936181071835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_177
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 477
+        width: 162
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74bf1a0fcd78e7e00800000000000000
+      internalID: 1044421546596236103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_178
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 477
+        width: 162
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fe4c128671c6dc10800000000000000
+      internalID: 2078060992811257586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_179
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 477
+        width: 164
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3be53284bbd5fff30800000000000000
+      internalID: 4611507602401222323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_180
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 477
+        width: 162
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ff77fa003e5c5f90800000000000000
+      internalID: -6963587363386195983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_181
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 477
+        width: 162
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58247cf3f18d38040800000000000000
+      internalID: 4648796869102092933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_182
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 477
+        width: 162
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fe42fb34684cb2f0800000000000000
+      internalID: -955809425569722640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_183
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 475
+        width: 160
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 972bbc8d9d1125f10800000000000000
+      internalID: 2256885990608843385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_184
+      rect:
+        serializedVersion: 2
+        x: 1491
+        y: 475
+        width: 160
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9953b67cc04ba3ae0800000000000000
+      internalID: -1568743553206897255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_185
+      rect:
+        serializedVersion: 2
+        x: 1675
+        y: 475
+        width: 160
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 251bff7a1da351bd0800000000000000
+      internalID: -2660155332751281838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_186
+      rect:
+        serializedVersion: 2
+        x: 1859
+        y: 475
+        width: 158
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 410805352d26aaa20800000000000000
+      internalID: 3074378351114223636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_187
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 261
+        width: 158
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46d1c8e2ea28072a0800000000000000
+      internalID: -6741744957556777628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_188
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 261
+        width: 160
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28721b5813f1c7ea0800000000000000
+      internalID: -5873785516441131134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_189
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 261
+        width: 158
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13fd396ac71b844b0800000000000000
+      internalID: -5455915799630586063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_190
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 261
+        width: 156
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa7477c0d5ba7a120800000000000000
+      internalID: 2425095340491753391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_191
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 261
+        width: 158
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 159a68a8f7806a470800000000000000
+      internalID: 8405415098411559249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_192
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 261
+        width: 156
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47bbefef9c079c220800000000000000
+      internalID: 2506658680477236084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_193
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 261
+        width: 156
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 504b4d3d18ce2a520800000000000000
+      internalID: 2711989967979328517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_194
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 261
+        width: 156
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09d973f051ff5d430800000000000000
+      internalID: 3807229525926321552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_195
+      rect:
+        serializedVersion: 2
+        x: 1495
+        y: 261
+        width: 156
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b95d65040666aa20800000000000000
+      internalID: 3073255963183897009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_196
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 261
+        width: 156
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 121b2883a533e8b40800000000000000
+      internalID: 5444345462125670689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_197
+      rect:
+        serializedVersion: 2
+        x: 1861
+        y: 261
+        width: 154
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 900ff46895711f540800000000000000
+      internalID: 5039835131277209609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_198
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 47
+        width: 156
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f38e5ca79abd06970800000000000000
+      internalID: 8746231997309249599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_damage2_199
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 47
+        width: 154
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a7f9cec820e33170800000000000000
+      internalID: 8157109815970756521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

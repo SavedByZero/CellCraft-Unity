@@ -50,16 +50,22 @@ public class CellObject : Selectable
 	public bool doesCollide = false; //does this collide with the membrane?
 	public bool hardCollide = false; //does this stand rigidly against the membrane?
 
-	public CellObject()
+    private void Awake()
+    {
+		p_cell = GetComponentInParent<Cell>();
+	}
+    public CellObject()
 	{
 		setLevel(1);
 		speed = 6;
 
 	}
 
-	public virtual void init()
-	{
+   
 
+    public virtual void init()
+	{
+		
 		getMyMoveCost();
 		if (float.IsNaN(myMoveCost))
 		{

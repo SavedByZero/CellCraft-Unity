@@ -40,7 +40,7 @@ public class Golgi : CellObject
 	private const int busyTime = 30 * 2; //2 seconds
 	private Coroutine _checkBudyRoutine;
 
-	public Golgi()
+	void Start()
 	{
 		showSubtleDamage = true;
 		singleSelect = true;
@@ -89,6 +89,7 @@ public class Golgi : CellObject
 		list_exit.Reverse();
 		_checkBudyRoutine = StartCoroutine(checkBusy());
 		init();
+		instantSetHealth(10);
 	}
 
 	public IEnumerator checkBusy()

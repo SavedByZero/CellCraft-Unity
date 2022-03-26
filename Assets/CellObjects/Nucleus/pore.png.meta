@@ -1,0 +1,1279 @@
+fileFormatVersion: 2
+guid: ef78467004997e747ae4f5fe6f021f94
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8166612927544322665
+    second: pore_0
+  - first:
+      213: 792993015640470498
+    second: pore_1
+  - first:
+      213: -8195047568422865052
+    second: pore_2
+  - first:
+      213: -6855692478956998882
+    second: pore_3
+  - first:
+      213: -7665672470804505311
+    second: pore_4
+  - first:
+      213: 4800146940139303416
+    second: pore_5
+  - first:
+      213: 7056477979555095752
+    second: pore_6
+  - first:
+      213: 6781501832517200643
+    second: pore_7
+  - first:
+      213: -411452503348274862
+    second: pore_8
+  - first:
+      213: -1879445932943178853
+    second: pore_9
+  - first:
+      213: 5482677457872607231
+    second: pore_10
+  - first:
+      213: -4193510724979709671
+    second: pore_11
+  - first:
+      213: -7711949007393876077
+    second: pore_12
+  - first:
+      213: -2255162876666328526
+    second: pore_13
+  - first:
+      213: 6006309204446812053
+    second: pore_14
+  - first:
+      213: 4253579431273133539
+    second: pore_15
+  - first:
+      213: -8521286871665879317
+    second: pore_16
+  - first:
+      213: -7018334919383909468
+    second: pore_17
+  - first:
+      213: 6164148033029322063
+    second: pore_18
+  - first:
+      213: -5672540787832610129
+    second: pore_19
+  - first:
+      213: -1213691843676303482
+    second: pore_20
+  - first:
+      213: -3506638850602673282
+    second: pore_21
+  - first:
+      213: 829758773065078308
+    second: pore_22
+  - first:
+      213: 285324820229086219
+    second: pore_23
+  - first:
+      213: -8739248864543140039
+    second: pore_24
+  - first:
+      213: 1002121798341305442
+    second: pore_25
+  - first:
+      213: -5999331547394605947
+    second: pore_26
+  - first:
+      213: -8671625332327105
+    second: pore_27
+  - first:
+      213: 4960994701720792271
+    second: pore_28
+  - first:
+      213: -6798815498373264800
+    second: pore_29
+  - first:
+      213: -1319669441485204034
+    second: pore_30
+  - first:
+      213: -4034716637700693422
+    second: pore_31
+  - first:
+      213: -5240671589398489276
+    second: pore_32
+  - first:
+      213: -2264191848171580840
+    second: pore_33
+  - first:
+      213: 1097224536030411431
+    second: pore_34
+  - first:
+      213: 1315230092715136655
+    second: pore_35
+  - first:
+      213: -7814386499685918139
+    second: pore_36
+  - first:
+      213: 1831320868669040691
+    second: pore_37
+  - first:
+      213: 660674566668597755
+    second: pore_38
+  - first:
+      213: 8575084439604229798
+    second: pore_39
+  - first:
+      213: -4729367412063437763
+    second: pore_40
+  - first:
+      213: -8129335885997901373
+    second: pore_41
+  - first:
+      213: -866703331738023476
+    second: pore_42
+  - first:
+      213: 2774984164153239289
+    second: pore_43
+  - first:
+      213: 5885643647652193977
+    second: pore_44
+  - first:
+      213: -2557726740685408315
+    second: pore_45
+  - first:
+      213: -229928263118842685
+    second: pore_46
+  - first:
+      213: -6587116233047253799
+    second: pore_47
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pore_0
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 476
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96a64646033a55170800000000000000
+      internalID: 8166612927544322665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pore_1
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 476
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e3bd9e32f6410b00800000000000000
+      internalID: 792993015640470498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pore_2
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 476
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 467f9bed7a7554e80800000000000000
+      internalID: -8195047568422865052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pore_3
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 474
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1f637e6300bbd0a0800000000000000
+      internalID: -6855692478956998882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pore_4
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 474
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12dd435908f0e9590800000000000000
+      internalID: -7665672470804505311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pore_5
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 434
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f17ea4b53c8d9240800000000000000
+      internalID: 4800146940139303416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pore_6
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 433
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c46fb8e555ade160800000000000000
+      internalID: 7056477979555095752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pore_7
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 432
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30b29da9cfbbc1e50800000000000000
+      internalID: 6781501832517200643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pore_8
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 431
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2591bffc02a3a4af0800000000000000
+      internalID: -411452503348274862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pore_9
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 429
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b938e58b1eddae5e0800000000000000
+      internalID: -1879445932943178853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pore_10
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 390
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff7d9867912661c40800000000000000
+      internalID: 5482677457872607231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pore_11
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 389
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9192bcbb638adc5c0800000000000000
+      internalID: -4193510724979709671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pore_12
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 388
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3979c58cc37a9f490800000000000000
+      internalID: -7711949007393876077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pore_13
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 387
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23ac7a1ef4d04b0e0800000000000000
+      internalID: -2255162876666328526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pore_14
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 387
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 597163e0662ba5350800000000000000
+      internalID: 6006309204446812053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pore_15
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 347
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e571f0d4ffb70b30800000000000000
+      internalID: 4253579431273133539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pore_16
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 347
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be6d729ecbe4eb980800000000000000
+      internalID: -8521286871665879317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pore_17
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 347
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4abf667539dd99e90800000000000000
+      internalID: -7018334919383909468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pore_18
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 347
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f45b2ab1af37b8550800000000000000
+      internalID: 6164148033029322063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pore_19
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 347
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa2a25735361741b0800000000000000
+      internalID: -5672540787832610129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pore_20
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 308
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68f82e6d2b9182fe0800000000000000
+      internalID: -1213691843676303482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pore_21
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 308
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7b5e3a5b8ae55fc0800000000000000
+      internalID: -3506638850602673282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pore_22
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 308
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 426dec53535e38b00800000000000000
+      internalID: 829758773065078308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pore_23
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 309
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0c5b5b896da5f300800000000000000
+      internalID: 285324820229086219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pore_24
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 309
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9379b21d573f7b680800000000000000
+      internalID: -8739248864543140039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pore_25
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 271
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2642fc3577048ed00800000000000000
+      internalID: 1002121798341305442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pore_26
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 271
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58cffb35eb71ebca0800000000000000
+      internalID: -5999331547394605947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pore_27
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 272
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3df074e33131eff0800000000000000
+      internalID: -8671625332327105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pore_28
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 273
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcca9a0956ef8d440800000000000000
+      internalID: 4960994701720792271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pore_29
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 274
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06a8a0e6351c5a1a0800000000000000
+      internalID: -6798815498373264800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pore_30
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 236
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb5165782a79fade0800000000000000
+      internalID: -1319669441485204034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pore_31
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 237
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 252ed78489ec108c0800000000000000
+      internalID: -4034716637700693422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pore_32
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 238
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 447db69a4f46547b0800000000000000
+      internalID: -5240671589398489276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pore_33
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 239
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 852d562a289f390e0800000000000000
+      internalID: -2264191848171580840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pore_34
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 240
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aa7fe4f6ef1a3f00800000000000000
+      internalID: 1097224536030411431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pore_35
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 201
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f86903a0dc2a04210800000000000000
+      internalID: 1315230092715136655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pore_36
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 201
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54adc9481e8bd8390800000000000000
+      internalID: -7814386499685918139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pore_37
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 201
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33827c690a82a6910800000000000000
+      internalID: 1831320868669040691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pore_38
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 202
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf9ba6a94003b2900800000000000000
+      internalID: 660674566668597755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pore_39
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 202
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a6f6957dd1d00770800000000000000
+      internalID: 8575084439604229798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pore_40
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 163
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3c76af5569ed5eb0800000000000000
+      internalID: -4729367412063437763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pore_41
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 164
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c9724f251cce2f80800000000000000
+      internalID: -8129335885997901373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pore_42
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 164
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc98b1a69e9d8f3f0800000000000000
+      internalID: -866703331738023476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pore_43
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 164
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f620b11569b28620800000000000000
+      internalID: 2774984164153239289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pore_44
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 164
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b6e7dcc6b10ea150800000000000000
+      internalID: 5885643647652193977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pore_45
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 125
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c7bdeca411218cd0800000000000000
+      internalID: -2557726740685408315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pore_46
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 125
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c49af086712fccf0800000000000000
+      internalID: -229928263118842685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pore_47
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 125
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dc5203afacd594a0800000000000000
+      internalID: -6587116233047253799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

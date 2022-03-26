@@ -46,9 +46,11 @@ public class BigVesicle : CellObject
 		
 		
 		private bool unRecycle = false;
+	public Graphics graphics;
 
 	public BigVesicle(float startSize = 0)
 	{
+		graphics = new Graphics();
 		size = startSize;
 		canSelect = false;
 		singleSelect = true;
@@ -121,26 +123,37 @@ public class BigVesicle : CellObject
 		if (size > 0)
 		{
 
-			uint col;
-			uint col2;
-			uint col3;
+			Color col;
+			Color col2;
+			Color col3;
 
 			col = PH.getCytoColor(ph_show);
 			col2 = PH.getLineColor(ph_show);
 			col3 = PH.getGapColor(ph_show);
 
+			graphics.Begin();
+			graphics.SetFillColor(col);
+			graphics.lineStyle(1.5f, Color.black);// (Membrane.OUTLINE_THICK / 1.5, 0x000000);
+			graphics.Circle(0, 0, size);
+			graphics.Fill();
+			graphics.Stroke();
+
+			graphics.lineStyle(2, col2);
+			//shape.graphics.lineStyle(Membrane.SPRING_THICK / 2, col2);
+			graphics.Circle(0, 0, size);
+			graphics.Stroke();
+			graphics.lineStyle(3, col3);
+			//shape.graphics.drawCircle(0, 0, size);
+
+			graphics.Circle(0, 0, size);
+			graphics.Stroke();
+			graphics.End();
+
 			/*   //TODO: we need to figure out a substitute for this 
 			shape.graphics.clear();
-			shape.graphics.beginFill(col, 1);
-			shape.graphics.lineStyle(Membrane.OUTLINE_THICK / 1.5, 0x000000);
-			shape.graphics.drawCircle(0, 0, size);
-			shape.graphics.endFill();
-			shape.graphics.lineStyle(Membrane.SPRING_THICK / 2, col2);
-			shape.graphics.drawCircle(0, 0, size);
-		
-			shape.graphics.lineStyle(Membrane.GAP_THICK / 3, col3);
-			shape.graphics.drawCircle(0, 0, size);
+			
 			*/
+
 
 		}
 	}
@@ -187,7 +200,7 @@ public class BigVesicle : CellObject
 	public void goToMembrane()
 	{
 		mnode = tryGetNode();
-		if (mnode)
+		if (mnode != null)
 		{
 			moveToPoint(new Point(mnode.x, mnode.y), CellGameObject.FLOAT, true);
 			p_cell.c_membrane.acceptVesicle();
@@ -266,7 +279,7 @@ public class BigVesicle : CellObject
 		StopCoroutine(_grow);
 		if (isDigestGrow)
 		{
-			lysoNeeded = getLysosNeeded();
+			lysoNeeded = (int)getLysosNeeded();
 			lysoOrdered = lysoNeeded;
 			callForLysosomes();
 		}
@@ -305,8 +318,8 @@ public class BigVesicle : CellObject
 			StopCoroutine(_grow);
 		}
 		anim_phase = 0;
-
-		removeEventListener(RunFrameEvent.RUNFRAME, animateDigest);
+		StopCoroutine(_animateDigestRoutine);
+		
 		unPackLysos();
 
 		if (lysoFused == 0)
@@ -320,7 +333,8 @@ public class BigVesicle : CellObject
 		lysoNeeded = p_cell.askForLysosomes(this, lysoNeeded);
 		if (lysoNeeded > 0)
 		{
-			addEventListener(RunFrameEvent.RUNFRAME, waitForLysosomes, false, 0, true);
+			_waitForLysosomesRoutine = StartCoroutine(waitForLysosomes());
+			
 		}
 		else
 		{

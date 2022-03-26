@@ -1,0 +1,3724 @@
+fileFormatVersion: 2
+guid: 14835d0f726bbc548b4ed39c10c203bd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7740509326766605443
+    second: centrosome_circle_0
+  - first:
+      213: -14130006569242067
+    second: centrosome_circle_1
+  - first:
+      213: -8651454922600430527
+    second: centrosome_circle_2
+  - first:
+      213: 6226428077271336051
+    second: centrosome_circle_3
+  - first:
+      213: -6648047821661810844
+    second: centrosome_circle_4
+  - first:
+      213: -8869905808495775360
+    second: centrosome_circle_5
+  - first:
+      213: 3837341187370346052
+    second: centrosome_circle_6
+  - first:
+      213: 2039088976479518630
+    second: centrosome_circle_7
+  - first:
+      213: -7281378977603731939
+    second: centrosome_circle_8
+  - first:
+      213: 7631976510675329508
+    second: centrosome_circle_9
+  - first:
+      213: 2600247365678535832
+    second: centrosome_circle_10
+  - first:
+      213: -6837939444756288954
+    second: centrosome_circle_11
+  - first:
+      213: 5826303790323345595
+    second: centrosome_circle_12
+  - first:
+      213: 5547688033472598352
+    second: centrosome_circle_13
+  - first:
+      213: 1694550623865352949
+    second: centrosome_circle_14
+  - first:
+      213: 3002739824937564503
+    second: centrosome_circle_15
+  - first:
+      213: 8966623137813597841
+    second: centrosome_circle_16
+  - first:
+      213: -8798908478530738616
+    second: centrosome_circle_17
+  - first:
+      213: 506906005508327148
+    second: centrosome_circle_18
+  - first:
+      213: 7151895510314676524
+    second: centrosome_circle_19
+  - first:
+      213: -3468732578468716436
+    second: centrosome_circle_20
+  - first:
+      213: -4655093001630039211
+    second: centrosome_circle_21
+  - first:
+      213: 1815273268344578708
+    second: centrosome_circle_22
+  - first:
+      213: 1354675035858723915
+    second: centrosome_circle_23
+  - first:
+      213: 172786279956477735
+    second: centrosome_circle_24
+  - first:
+      213: -8403872916740756578
+    second: centrosome_circle_25
+  - first:
+      213: -3347881436600323157
+    second: centrosome_circle_26
+  - first:
+      213: -7373565756609930346
+    second: centrosome_circle_27
+  - first:
+      213: 2761809109018518639
+    second: centrosome_circle_28
+  - first:
+      213: -3676429784977441816
+    second: centrosome_circle_29
+  - first:
+      213: -6107132999850748788
+    second: centrosome_circle_30
+  - first:
+      213: -2487167979433188473
+    second: centrosome_circle_31
+  - first:
+      213: -1721668383866904680
+    second: centrosome_circle_32
+  - first:
+      213: 3085271841496028133
+    second: centrosome_circle_33
+  - first:
+      213: -8006277995842126309
+    second: centrosome_circle_34
+  - first:
+      213: 6618144051325396935
+    second: centrosome_circle_35
+  - first:
+      213: -800578885368074661
+    second: centrosome_circle_36
+  - first:
+      213: -6095834826359314055
+    second: centrosome_circle_37
+  - first:
+      213: 4268226685145913913
+    second: centrosome_circle_38
+  - first:
+      213: -3992225227799493217
+    second: centrosome_circle_39
+  - first:
+      213: 3958395272734244449
+    second: centrosome_circle_40
+  - first:
+      213: -7210569127759510416
+    second: centrosome_circle_41
+  - first:
+      213: -6224184236637249104
+    second: centrosome_circle_42
+  - first:
+      213: -2963618700648752246
+    second: centrosome_circle_43
+  - first:
+      213: -5840753127299732457
+    second: centrosome_circle_44
+  - first:
+      213: -367911784138910677
+    second: centrosome_circle_45
+  - first:
+      213: 1842453557905875727
+    second: centrosome_circle_46
+  - first:
+      213: 23172982412666794
+    second: centrosome_circle_47
+  - first:
+      213: 1990320527940327010
+    second: centrosome_circle_48
+  - first:
+      213: 294328051508883683
+    second: centrosome_circle_49
+  - first:
+      213: 8347218474715381680
+    second: centrosome_circle_50
+  - first:
+      213: 5455596088026259322
+    second: centrosome_circle_51
+  - first:
+      213: -8586996362810701167
+    second: centrosome_circle_52
+  - first:
+      213: 4982306113866252755
+    second: centrosome_circle_53
+  - first:
+      213: 8967478501445558605
+    second: centrosome_circle_54
+  - first:
+      213: 203332317628687505
+    second: centrosome_circle_55
+  - first:
+      213: 9024894721163609021
+    second: centrosome_circle_56
+  - first:
+      213: -1744920010192227484
+    second: centrosome_circle_57
+  - first:
+      213: 5796863580120676108
+    second: centrosome_circle_58
+  - first:
+      213: -1455633155781808485
+    second: centrosome_circle_59
+  - first:
+      213: -36810953680345851
+    second: centrosome_circle_60
+  - first:
+      213: -1282235655248412947
+    second: centrosome_circle_61
+  - first:
+      213: 8407462370941072683
+    second: centrosome_circle_62
+  - first:
+      213: -7586427849110769242
+    second: centrosome_circle_63
+  - first:
+      213: -485119525264497964
+    second: centrosome_circle_64
+  - first:
+      213: -935725934645814787
+    second: centrosome_circle_65
+  - first:
+      213: -5383180463572591273
+    second: centrosome_circle_66
+  - first:
+      213: 501236066241596473
+    second: centrosome_circle_67
+  - first:
+      213: 8457549172510881708
+    second: centrosome_circle_68
+  - first:
+      213: 1885019157346401980
+    second: centrosome_circle_69
+  - first:
+      213: -4628967835671466016
+    second: centrosome_circle_70
+  - first:
+      213: -961737710386147469
+    second: centrosome_circle_71
+  - first:
+      213: -8322342427326868326
+    second: centrosome_circle_72
+  - first:
+      213: -900380099284142216
+    second: centrosome_circle_73
+  - first:
+      213: -4906341671049616102
+    second: centrosome_circle_74
+  - first:
+      213: 5406312673241116384
+    second: centrosome_circle_75
+  - first:
+      213: -5438484430776387776
+    second: centrosome_circle_76
+  - first:
+      213: 5841973168826586635
+    second: centrosome_circle_77
+  - first:
+      213: 3019166862367399283
+    second: centrosome_circle_78
+  - first:
+      213: 3003438938434421902
+    second: centrosome_circle_79
+  - first:
+      213: -378904625697209455
+    second: centrosome_circle_80
+  - first:
+      213: 830547710848271835
+    second: centrosome_circle_81
+  - first:
+      213: -1804410198162824314
+    second: centrosome_circle_82
+  - first:
+      213: 5850307622369070917
+    second: centrosome_circle_83
+  - first:
+      213: -4028302381020171590
+    second: centrosome_circle_84
+  - first:
+      213: -5009675092526968434
+    second: centrosome_circle_85
+  - first:
+      213: 8032558653885151923
+    second: centrosome_circle_86
+  - first:
+      213: 9119390897634016592
+    second: centrosome_circle_87
+  - first:
+      213: 9139809772988989775
+    second: centrosome_circle_88
+  - first:
+      213: -4336088839728770730
+    second: centrosome_circle_89
+  - first:
+      213: 2636955820505118617
+    second: centrosome_circle_90
+  - first:
+      213: -4706089910823606528
+    second: centrosome_circle_91
+  - first:
+      213: -2790288097635646363
+    second: centrosome_circle_92
+  - first:
+      213: 3547506072593065710
+    second: centrosome_circle_93
+  - first:
+      213: 1081157891536091706
+    second: centrosome_circle_94
+  - first:
+      213: -8909310384285647942
+    second: centrosome_circle_95
+  - first:
+      213: -6628263591100714260
+    second: centrosome_circle_96
+  - first:
+      213: -7276578774571425716
+    second: centrosome_circle_97
+  - first:
+      213: -869523421042088346
+    second: centrosome_circle_98
+  - first:
+      213: -5565219781002847853
+    second: centrosome_circle_99
+  - first:
+      213: 61431118542779229
+    second: centrosome_circle_100
+  - first:
+      213: -3363052452934825876
+    second: centrosome_circle_101
+  - first:
+      213: -4178290321163658615
+    second: centrosome_circle_102
+  - first:
+      213: 232008609743215345
+    second: centrosome_circle_103
+  - first:
+      213: 6603038298786764720
+    second: centrosome_circle_104
+  - first:
+      213: 5846922310464712139
+    second: centrosome_circle_105
+  - first:
+      213: -6206884762481231658
+    second: centrosome_circle_106
+  - first:
+      213: -8304531424304915386
+    second: centrosome_circle_107
+  - first:
+      213: -8325911385395274169
+    second: centrosome_circle_108
+  - first:
+      213: -8230710344629104597
+    second: centrosome_circle_109
+  - first:
+      213: 4815479562518839743
+    second: centrosome_circle_110
+  - first:
+      213: -259535000070176249
+    second: centrosome_circle_111
+  - first:
+      213: -1595662918597810690
+    second: centrosome_circle_112
+  - first:
+      213: 8146607641702018074
+    second: centrosome_circle_113
+  - first:
+      213: 2854125879967264034
+    second: centrosome_circle_114
+  - first:
+      213: 5982735401738649305
+    second: centrosome_circle_115
+  - first:
+      213: 1563062104453640429
+    second: centrosome_circle_116
+  - first:
+      213: 2007855667918044742
+    second: centrosome_circle_117
+  - first:
+      213: 5390891389469422260
+    second: centrosome_circle_118
+  - first:
+      213: 6957313411093680669
+    second: centrosome_circle_0
+  - first:
+      213: -2865634491406194966
+    second: centrosome_circle_1
+  - first:
+      213: 6804785259969183975
+    second: centrosome_circle_2
+  - first:
+      213: 3114934445788427539
+    second: centrosome_circle_3
+  - first:
+      213: -5599522722684749402
+    second: centrosome_circle_4
+  - first:
+      213: 8646202186590244903
+    second: centrosome_circle_5
+  - first:
+      213: -1616886561386426404
+    second: centrosome_circle_6
+  - first:
+      213: -6266150392283071409
+    second: centrosome_circle_7
+  - first:
+      213: -7797688047291966488
+    second: centrosome_circle_8
+  - first:
+      213: -6647822855288890833
+    second: centrosome_circle_9
+  - first:
+      213: 9148965660027698110
+    second: centrosome_circle_10
+  - first:
+      213: -7641869956019299122
+    second: centrosome_circle_11
+  - first:
+      213: 6939307781617463204
+    second: centrosome_circle_12
+  - first:
+      213: -6345082573198963094
+    second: centrosome_circle_13
+  - first:
+      213: -4327722422442624166
+    second: centrosome_circle_14
+  - first:
+      213: 2350716926481799664
+    second: centrosome_circle_15
+  - first:
+      213: 8703910607414316869
+    second: centrosome_circle_16
+  - first:
+      213: 7213091040793086277
+    second: centrosome_circle_17
+  - first:
+      213: -4231231564760684639
+    second: centrosome_circle_18
+  - first:
+      213: -7037122975610513721
+    second: centrosome_circle_19
+  - first:
+      213: 4598068543325276010
+    second: centrosome_circle_20
+  - first:
+      213: -7777000184041899964
+    second: centrosome_circle_21
+  - first:
+      213: 8475304962921342424
+    second: centrosome_circle_22
+  - first:
+      213: -3815239784905069932
+    second: centrosome_circle_23
+  - first:
+      213: 3262719236784045759
+    second: centrosome_circle_24
+  - first:
+      213: -3366517835247392353
+    second: centrosome_circle_25
+  - first:
+      213: 2729769556648906664
+    second: centrosome_circle_26
+  - first:
+      213: 7549789991656834790
+    second: centrosome_circle_27
+  - first:
+      213: -4440985187757982767
+    second: centrosome_circle_28
+  - first:
+      213: 3100756249468932978
+    second: centrosome_circle_29
+  - first:
+      213: 1283124923381145046
+    second: centrosome_circle_30
+  - first:
+      213: -73157702399781988
+    second: centrosome_circle_31
+  - first:
+      213: 6311120766476843308
+    second: centrosome_circle_32
+  - first:
+      213: -7296389735849004203
+    second: centrosome_circle_33
+  - first:
+      213: 220524160744851540
+    second: centrosome_circle_34
+  - first:
+      213: -1764472406882425204
+    second: centrosome_circle_35
+  - first:
+      213: -5132657779270563289
+    second: centrosome_circle_36
+  - first:
+      213: 6959691990808156054
+    second: centrosome_circle_37
+  - first:
+      213: 8090496527402389077
+    second: centrosome_circle_38
+  - first:
+      213: -7984238974638536697
+    second: centrosome_circle_39
+  - first:
+      213: -4861784703275046849
+    second: centrosome_circle_40
+  - first:
+      213: -8541187257917917312
+    second: centrosome_circle_41
+  - first:
+      213: -2910199686733472432
+    second: centrosome_circle_42
+  - first:
+      213: 8298702948613475192
+    second: centrosome_circle_43
+  - first:
+      213: 1257848413670262081
+    second: centrosome_circle_44
+  - first:
+      213: -3713712095267109829
+    second: centrosome_circle_45
+  - first:
+      213: -9018569100503022008
+    second: centrosome_circle_46
+  - first:
+      213: 6737757286186581522
+    second: centrosome_circle_47
+  - first:
+      213: -8656287239565264385
+    second: centrosome_circle_48
+  - first:
+      213: -7975773330186209517
+    second: centrosome_circle_49
+  - first:
+      213: 3303233291225009023
+    second: centrosome_circle_50
+  - first:
+      213: 5476723411348305189
+    second: centrosome_circle_51
+  - first:
+      213: -823415474406146320
+    second: centrosome_circle_52
+  - first:
+      213: 55665300463757742
+    second: centrosome_circle_53
+  - first:
+      213: 7379098277628837881
+    second: centrosome_circle_54
+  - first:
+      213: 8336810940787424877
+    second: centrosome_circle_55
+  - first:
+      213: 5249883309372285627
+    second: centrosome_circle_56
+  - first:
+      213: -4309574119776440201
+    second: centrosome_circle_57
+  - first:
+      213: -8616007178919688981
+    second: centrosome_circle_58
+  - first:
+      213: 3707416869221282880
+    second: centrosome_circle_59
+  - first:
+      213: 4777099716710373567
+    second: centrosome_circle_60
+  - first:
+      213: -4004679718583639863
+    second: centrosome_circle_61
+  - first:
+      213: 2170201476401606116
+    second: centrosome_circle_62
+  - first:
+      213: 7268922109177965665
+    second: centrosome_circle_63
+  - first:
+      213: -7159285176232851325
+    second: centrosome_circle_64
+  - first:
+      213: 4545128605559516145
+    second: centrosome_circle_65
+  - first:
+      213: -1139897675080285516
+    second: centrosome_circle_66
+  - first:
+      213: -986964855724602819
+    second: centrosome_circle_67
+  - first:
+      213: -5230892223077625587
+    second: centrosome_circle_68
+  - first:
+      213: -1548049093732639807
+    second: centrosome_circle_69
+  - first:
+      213: -7475895654912690388
+    second: centrosome_circle_70
+  - first:
+      213: 5021689297235473714
+    second: centrosome_circle_71
+  - first:
+      213: -2407242203209058711
+    second: centrosome_circle_72
+  - first:
+      213: 4097427267934009590
+    second: centrosome_circle_73
+  - first:
+      213: -6641777672914578421
+    second: centrosome_circle_74
+  - first:
+      213: -7048767168146029588
+    second: centrosome_circle_75
+  - first:
+      213: 8212101563351694739
+    second: centrosome_circle_76
+  - first:
+      213: -697722484815828839
+    second: centrosome_circle_77
+  - first:
+      213: 7757113000482768215
+    second: centrosome_circle_78
+  - first:
+      213: -1003954087408203757
+    second: centrosome_circle_79
+  - first:
+      213: 8446766129604571914
+    second: centrosome_circle_80
+  - first:
+      213: -4159414641361903575
+    second: centrosome_circle_81
+  - first:
+      213: -6343771491768841596
+    second: centrosome_circle_82
+  - first:
+      213: -6354100464797746383
+    second: centrosome_circle_83
+  - first:
+      213: 3552008538035758103
+    second: centrosome_circle_84
+  - first:
+      213: 2081783922216069767
+    second: centrosome_circle_85
+  - first:
+      213: -4669649186564610295
+    second: centrosome_circle_86
+  - first:
+      213: -366540410616222207
+    second: centrosome_circle_87
+  - first:
+      213: -9094327406008784229
+    second: centrosome_circle_88
+  - first:
+      213: 1114331940311006232
+    second: centrosome_circle_89
+  - first:
+      213: 6098047856662594364
+    second: centrosome_circle_90
+  - first:
+      213: -6107920838678537832
+    second: centrosome_circle_91
+  - first:
+      213: -4016196204847023609
+    second: centrosome_circle_92
+  - first:
+      213: 2023240989135161802
+    second: centrosome_circle_93
+  - first:
+      213: -8171900619504868478
+    second: centrosome_circle_94
+  - first:
+      213: -1540542587210146952
+    second: centrosome_circle_95
+  - first:
+      213: -511976147020161318
+    second: centrosome_circle_96
+  - first:
+      213: -7885776312797648191
+    second: centrosome_circle_97
+  - first:
+      213: -1059730808316796917
+    second: centrosome_circle_98
+  - first:
+      213: -1949318249502222484
+    second: centrosome_circle_99
+  - first:
+      213: -7789591546983790387
+    second: centrosome_circle_100
+  - first:
+      213: -7543872907255428567
+    second: centrosome_circle_101
+  - first:
+      213: 4128538319368975819
+    second: centrosome_circle_102
+  - first:
+      213: 630127118702838927
+    second: centrosome_circle_103
+  - first:
+      213: -8560649438807400226
+    second: centrosome_circle_104
+  - first:
+      213: 3845829317416366551
+    second: centrosome_circle_105
+  - first:
+      213: -4658720966829040302
+    second: centrosome_circle_106
+  - first:
+      213: -6174546025826366040
+    second: centrosome_circle_107
+  - first:
+      213: 3530735520708202094
+    second: centrosome_circle_108
+  - first:
+      213: -3619456102375739598
+    second: centrosome_circle_109
+  - first:
+      213: 9188520174811996463
+    second: centrosome_circle_110
+  - first:
+      213: -3151235601849266291
+    second: centrosome_circle_111
+  - first:
+      213: -8621420656703881846
+    second: centrosome_circle_112
+  - first:
+      213: -5087187145702868485
+    second: centrosome_circle_113
+  - first:
+      213: 2043891935613743911
+    second: centrosome_circle_114
+  - first:
+      213: 6468620238078988104
+    second: centrosome_circle_115
+  - first:
+      213: 8529801836417606285
+    second: centrosome_circle_116
+  - first:
+      213: -4999895499087290833
+    second: centrosome_circle_117
+  - first:
+      213: -1971374321789273755
+    second: centrosome_circle_118
+  - first:
+      213: 8693597766729516310
+    second: centrosome_circle_119
+  - first:
+      213: 3151290413584720374
+    second: centrosome_circle_120
+  - first:
+      213: -1114544778134469167
+    second: centrosome_circle_121
+  - first:
+      213: -7753578506007561889
+    second: centrosome_circle_122
+  - first:
+      213: -6299986810324078937
+    second: centrosome_circle_123
+  - first:
+      213: -1593719906456465345
+    second: centrosome_circle_124
+  - first:
+      213: -3720840204147895282
+    second: centrosome_circle_125
+  - first:
+      213: 6178368758358166483
+    second: centrosome_circle_126
+  - first:
+      213: -6602909302391500741
+    second: centrosome_circle_127
+  - first:
+      213: 3610959895736703656
+    second: centrosome_circle_128
+  - first:
+      213: 7989459404665104612
+    second: centrosome_circle_129
+  - first:
+      213: 6153936120926407929
+    second: centrosome_circle_130
+  - first:
+      213: -7186980418635677485
+    second: centrosome_circle_131
+  - first:
+      213: -3218796237704992663
+    second: centrosome_circle_132
+  - first:
+      213: -4743876717447099923
+    second: centrosome_circle_133
+  - first:
+      213: 5596376831071755381
+    second: centrosome_circle_134
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: centrosome_circle_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 7786
+        width: 392
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d12dc4b9fa75d8060800000000000000
+      internalID: 6957313411093680669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_1
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 7787
+        width: 388
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae660a3ec983b38d0800000000000000
+      internalID: -2865634491406194966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_2
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 7790
+        width: 384
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e0074104247f6e50800000000000000
+      internalID: 6804785259969183975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_3
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 7790
+        width: 384
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 315f8d3ff587a3b20800000000000000
+      internalID: 3114934445788427539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_4
+      rect:
+        serializedVersion: 2
+        x: 1594
+        y: 7794
+        width: 380
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a9b5a250cf7a42b0800000000000000
+      internalID: -5599522722684749402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_5
+      rect:
+        serializedVersion: 2
+        x: 1986
+        y: 7794
+        width: 376
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 720dae3441b7df770800000000000000
+      internalID: 8646202186590244903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_6
+      rect:
+        serializedVersion: 2
+        x: 2382
+        y: 7798
+        width: 372
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdf85723d3aaf89e0800000000000000
+      internalID: -1616886561386426404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_7
+      rect:
+        serializedVersion: 2
+        x: 2774
+        y: 7798
+        width: 372
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4cfaceea692a09a0800000000000000
+      internalID: -6266150392283071409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_8
+      rect:
+        serializedVersion: 2
+        x: 3170
+        y: 7798
+        width: 368
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eb5adfe80c09c390800000000000000
+      internalID: -7797688047291966488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_9
+      rect:
+        serializedVersion: 2
+        x: 3562
+        y: 7802
+        width: 368
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2a58c4b5503eb3a0800000000000000
+      internalID: -6647822855288890833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_10
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 7402
+        width: 364
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebbb2346bc7a7fe70800000000000000
+      internalID: 9148965660027698110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_11
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 7402
+        width: 360
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecc5dbb63cf92f590800000000000000
+      internalID: -7641869956019299122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_12
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 7403
+        width: 356
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4afa96e49af5d4060800000000000000
+      internalID: 6939307781617463204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_13
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 7406
+        width: 356
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6e44f1740db1f7a0800000000000000
+      internalID: -6345082573198963094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_14
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 7406
+        width: 352
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5b70d3d267d0f3c0800000000000000
+      internalID: -4327722422442624166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_15
+      rect:
+        serializedVersion: 2
+        x: 1998
+        y: 7406
+        width: 352
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f9127a079c6f9020800000000000000
+      internalID: 2350716926481799664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_16
+      rect:
+        serializedVersion: 2
+        x: 2394
+        y: 7406
+        width: 348
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54f4fa705908ac870800000000000000
+      internalID: 8703910607414316869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_17
+      rect:
+        serializedVersion: 2
+        x: 2786
+        y: 7410
+        width: 348
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5494603c51c0a1460800000000000000
+      internalID: 7213091040793086277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_18
+      rect:
+        serializedVersion: 2
+        x: 3182
+        y: 7410
+        width: 344
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a7e4045f45a745c0800000000000000
+      internalID: -4231231564760684639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_19
+      rect:
+        serializedVersion: 2
+        x: 3574
+        y: 7410
+        width: 344
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c6defd10fd175e90800000000000000
+      internalID: -7037122975610513721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_20
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 7010
+        width: 344
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a670dc18afe9fcf30800000000000000
+      internalID: 4598068543325276010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_21
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 7006
+        width: 352
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 448f804798b821490800000000000000
+      internalID: -7777000184041899964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_22
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 7002
+        width: 356
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d5280ea5f45e9570800000000000000
+      internalID: 8475304962921342424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_23
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 7002
+        width: 356
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49aabcf21ab8d0bc0800000000000000
+      internalID: -3815239784905069932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_24
+      rect:
+        serializedVersion: 2
+        x: 1598
+        y: 6998
+        width: 364
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbeb856fbd1874d20800000000000000
+      internalID: 3262719236784045759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_25
+      rect:
+        serializedVersion: 2
+        x: 1990
+        y: 6998
+        width: 368
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f99ef0c8dd9b741d0800000000000000
+      internalID: -3366517835247392353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_26
+      rect:
+        serializedVersion: 2
+        x: 2382
+        y: 6994
+        width: 372
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8afcbb6e2f612e520800000000000000
+      internalID: 2729769556648906664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_27
+      rect:
+        serializedVersion: 2
+        x: 2774
+        y: 6990
+        width: 372
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e641853ffd36c860800000000000000
+      internalID: 7549789991656834790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_28
+      rect:
+        serializedVersion: 2
+        x: 3166
+        y: 6990
+        width: 376
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dbf9e640837e52c0800000000000000
+      internalID: -4440985187757982767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_29
+      rect:
+        serializedVersion: 2
+        x: 3558
+        y: 6990
+        width: 376
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2731ba06169180b20800000000000000
+      internalID: 3100756249468932978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_30
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 6590
+        width: 376
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dd559cc1539ec110800000000000000
+      internalID: 1283124923381145046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_31
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 6590
+        width: 376
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9390ef05771cfef0800000000000000
+      internalID: -73157702399781988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_32
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 6590
+        width: 380
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c29717c36ea959750800000000000000
+      internalID: 6311120766476843308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_33
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 6588
+        width: 379
+        height: 386
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 553f9e371340eba90800000000000000
+      internalID: -7296389735849004203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_34
+      rect:
+        serializedVersion: 2
+        x: 1594
+        y: 6586
+        width: 380
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45886994e857f0300800000000000000
+      internalID: 220524160744851540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_35
+      rect:
+        serializedVersion: 2
+        x: 1986
+        y: 6586
+        width: 380
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c866bcbc1b55387e0800000000000000
+      internalID: -1764472406882425204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_36
+      rect:
+        serializedVersion: 2
+        x: 2378
+        y: 6586
+        width: 380
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72acee891f225c8b0800000000000000
+      internalID: -5132657779270563289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_37
+      rect:
+        serializedVersion: 2
+        x: 2770
+        y: 6586
+        width: 384
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 697504addfac59060800000000000000
+      internalID: 6959691990808156054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_38
+      rect:
+        serializedVersion: 2
+        x: 3162
+        y: 6586
+        width: 384
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55ec954f9b7374070800000000000000
+      internalID: 8090496527402389077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_39
+      rect:
+        serializedVersion: 2
+        x: 3558
+        y: 6586
+        width: 380
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70847d274f8423190800000000000000
+      internalID: -7984238974638536697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_40
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 6190
+        width: 384
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f38ecda3298778cb0800000000000000
+      internalID: -4861784703275046849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_41
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 6190
+        width: 384
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 087b5bb217b977980800000000000000
+      internalID: -8541187257917917312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_42
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 6190
+        width: 380
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05d5cc6cdc4ec97d0800000000000000
+      internalID: -2910199686733472432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_43
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 6190
+        width: 384
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87bc7940d5aea2370800000000000000
+      internalID: 8298702948613475192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_44
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 6194
+        width: 384
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 145ca16c776c47110800000000000000
+      internalID: 1257848413670262081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_45
+      rect:
+        serializedVersion: 2
+        x: 1982
+        y: 6194
+        width: 384
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b344883868e367cc0800000000000000
+      internalID: -3713712095267109829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_46
+      rect:
+        serializedVersion: 2
+        x: 2374
+        y: 6194
+        width: 384
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 846043e7f2b97d280800000000000000
+      internalID: -9018569100503022008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_47
+      rect:
+        serializedVersion: 2
+        x: 2766
+        y: 6198
+        width: 384
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21e73f9bd82518d50800000000000000
+      internalID: 6737757286186581522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_48
+      rect:
+        serializedVersion: 2
+        x: 3162
+        y: 6198
+        width: 380
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff937fb5e90bed780800000000000000
+      internalID: -8656287239565264385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_49
+      rect:
+        serializedVersion: 2
+        x: 3558
+        y: 6198
+        width: 376
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3177735e96c505190800000000000000
+      internalID: -7975773330186209517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_50
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 5802
+        width: 372
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7b06b55d2177dd20800000000000000
+      internalID: 3303233291225009023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_51
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 5802
+        width: 371
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5253b7afcea310c40800000000000000
+      internalID: 5476723411348305189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_52
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 5802
+        width: 368
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fe36791df3a294f0800000000000000
+      internalID: -823415474406146320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_53
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 5803
+        width: 364
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea9257cbb43c5c000800000000000000
+      internalID: 55665300463757742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_54
+      rect:
+        serializedVersion: 2
+        x: 1598
+        y: 5806
+        width: 364
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ff73c099c2d76660800000000000000
+      internalID: 7379098277628837881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_55
+      rect:
+        serializedVersion: 2
+        x: 1994
+        y: 5806
+        width: 360
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6e793d516d42b370800000000000000
+      internalID: 8336810940787424877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_56
+      rect:
+        serializedVersion: 2
+        x: 2390
+        y: 5807
+        width: 356
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb223670e055bd840800000000000000
+      internalID: 5249883309372285627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_57
+      rect:
+        serializedVersion: 2
+        x: 2782
+        y: 5810
+        width: 356
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7703281db215134c0800000000000000
+      internalID: -4309574119776440201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_58
+      rect:
+        serializedVersion: 2
+        x: 3178
+        y: 5810
+        width: 348
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be4c64ece1bcd6880800000000000000
+      internalID: -8616007178919688981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_59
+      rect:
+        serializedVersion: 2
+        x: 3574
+        y: 5814
+        width: 347
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 044b934fff3637330800000000000000
+      internalID: 3707416869221282880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_60
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 5414
+        width: 344
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb81427d1eaab4240800000000000000
+      internalID: 4777099716710373567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_61
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 5414
+        width: 344
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c06c9e73058c68c0800000000000000
+      internalID: -4004679718583639863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_62
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 5414
+        width: 347
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ed22fb9eba1e1e10800000000000000
+      internalID: 2170201476401606116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_63
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 5414
+        width: 348
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16c2989552660e460800000000000000
+      internalID: 7268922109177965665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_64
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 5410
+        width: 352
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 388cbe0501c15ac90800000000000000
+      internalID: -7159285176232851325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_65
+      rect:
+        serializedVersion: 2
+        x: 1995
+        y: 5410
+        width: 355
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fb67d8b26a831f30800000000000000
+      internalID: 4545128605559516145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_66
+      rect:
+        serializedVersion: 2
+        x: 2386
+        y: 5406
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b2cb8c9a154e20f0800000000000000
+      internalID: -1139897675080285516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_67
+      rect:
+        serializedVersion: 2
+        x: 2778
+        y: 5406
+        width: 364
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3a8db061b89d42f0800000000000000
+      internalID: -986964855724602819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_68
+      rect:
+        serializedVersion: 2
+        x: 3170
+        y: 5402
+        width: 364
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d01da11dc332867b0800000000000000
+      internalID: -5230892223077625587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_69
+      rect:
+        serializedVersion: 2
+        x: 3562
+        y: 5402
+        width: 368
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cb53391d89348ae0800000000000000
+      internalID: -1548049093732639807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_70
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 5002
+        width: 372
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c27fa07c288404890800000000000000
+      internalID: -7475895654912690388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_71
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 5002
+        width: 375
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 235f91e4fcf90b540800000000000000
+      internalID: 5021689297235473714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_72
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 4998
+        width: 376
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 966356568f1c79ed0800000000000000
+      internalID: -2407242203209058711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_73
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 4998
+        width: 376
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f8b43e146cfcd830800000000000000
+      internalID: 4097427267934009590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_74
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 4998
+        width: 380
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b045ec8656aa3d3a0800000000000000
+      internalID: -6641777672914578421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_75
+      rect:
+        serializedVersion: 2
+        x: 1982
+        y: 4998
+        width: 380
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce348364b9fbd2e90800000000000000
+      internalID: -7048767168146029588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_76
+      rect:
+        serializedVersion: 2
+        x: 2378
+        y: 4994
+        width: 380
+        height: 387
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39df10fbcde37f170800000000000000
+      internalID: 8212101563351694739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_77
+      rect:
+        serializedVersion: 2
+        x: 2770
+        y: 4994
+        width: 380
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 998efb4c8113156f0800000000000000
+      internalID: -697722484815828839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_78
+      rect:
+        serializedVersion: 2
+        x: 3162
+        y: 4994
+        width: 380
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 755075ccc2dc6ab60800000000000000
+      internalID: 7757113000482768215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_79
+      rect:
+        serializedVersion: 2
+        x: 3558
+        y: 4990
+        width: 380
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3188b31a31d3112f0800000000000000
+      internalID: -1003954087408203757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_80
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 4591
+        width: 384
+        height: 391
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a03b1efba01f83570800000000000000
+      internalID: 8446766129604571914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_81
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 4590
+        width: 384
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 920a014db6ac646c0800000000000000
+      internalID: -4159414641361903575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_82
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 4590
+        width: 384
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48a4ed0607566f7a0800000000000000
+      internalID: -6343771491768841596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_83
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 4590
+        width: 384
+        height: 396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13bf590fa43b1d7a0800000000000000
+      internalID: -6354100464797746383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_84
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 4586
+        width: 388
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 714a6cc22f44b4130800000000000000
+      internalID: 3552008538035758103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_85
+      rect:
+        serializedVersion: 2
+        x: 1982
+        y: 4586
+        width: 388
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78aeece827bf3ec10800000000000000
+      internalID: 2081783922216069767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_86
+      rect:
+        serializedVersion: 2
+        x: 2374
+        y: 4590
+        width: 388
+        height: 396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 907ef114ec2123fb0800000000000000
+      internalID: -4669649186564610295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_87
+      rect:
+        serializedVersion: 2
+        x: 2770
+        y: 4590
+        width: 384
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10ee4654079c9eaf0800000000000000
+      internalID: -366540410616222207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_88
+      rect:
+        serializedVersion: 2
+        x: 3162
+        y: 4590
+        width: 384
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9a2fb578657ac180800000000000000
+      internalID: -9094327406008784229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_89
+      rect:
+        serializedVersion: 2
+        x: 3558
+        y: 4590
+        width: 384
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81cfb18eef6e67f00800000000000000
+      internalID: 1114331940311006232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_90
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 4191
+        width: 388
+        height: 391
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c33c4bf773e90a450800000000000000
+      internalID: 6098047856662594364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_91
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 4194
+        width: 388
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8991c5ebb5e4c3ba0800000000000000
+      internalID: -6107920838678537832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_92
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 4194
+        width: 384
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70a32d594da9348c0800000000000000
+      internalID: -4016196204847023609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_93
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 4194
+        width: 384
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac94964c5fef31c10800000000000000
+      internalID: 2023240989135161802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_94
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 4194
+        width: 384
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2832e92eea3979e80800000000000000
+      internalID: -8171900619504868478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_95
+      rect:
+        serializedVersion: 2
+        x: 1986
+        y: 4194
+        width: 384
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87b5af7dda4ee9ae0800000000000000
+      internalID: -1540542587210146952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_96
+      rect:
+        serializedVersion: 2
+        x: 2378
+        y: 4198
+        width: 384
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aded367286815e8f0800000000000000
+      internalID: -511976147020161318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_97
+      rect:
+        serializedVersion: 2
+        x: 2770
+        y: 4198
+        width: 384
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1caa1816938109290800000000000000
+      internalID: -7885776312797648191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_98
+      rect:
+        serializedVersion: 2
+        x: 3163
+        y: 4198
+        width: 383
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b006dbcc1741b41f0800000000000000
+      internalID: -1059730808316796917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_99
+      rect:
+        serializedVersion: 2
+        x: 3558
+        y: 4198
+        width: 384
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c67db384161a2f4e0800000000000000
+      internalID: -1949318249502222484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_100
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 3798
+        width: 380
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc845a052cfc5e390800000000000000
+      internalID: -7789591546983790387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_101
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 3802
+        width: 380
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92ac85c5f87ce4790800000000000000
+      internalID: -7543872907255428567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_102
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 3802
+        width: 376
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc5739f3ab38b4930800000000000000
+      internalID: 4128538319368975819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_103
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 3802
+        width: 376
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f848f91a649aeb800800000000000000
+      internalID: 630127118702838927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_104
+      rect:
+        serializedVersion: 2
+        x: 1598
+        y: 3806
+        width: 372
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed0ec3111b6723980800000000000000
+      internalID: -8560649438807400226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_105
+      rect:
+        serializedVersion: 2
+        x: 1990
+        y: 3806
+        width: 372
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d1b26b53612f5530800000000000000
+      internalID: 3845829317416366551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_106
+      rect:
+        serializedVersion: 2
+        x: 2386
+        y: 3806
+        width: 368
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25d9d70b6f5e85fb0800000000000000
+      internalID: -4658720966829040302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_107
+      rect:
+        serializedVersion: 2
+        x: 2778
+        y: 3806
+        width: 368
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8adc1598a1b9f4aa0800000000000000
+      internalID: -6174546025826366040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_108
+      rect:
+        serializedVersion: 2
+        x: 3174
+        y: 3807
+        width: 364
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6e8aabdf31bff030800000000000000
+      internalID: 3530735520708202094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_109
+      rect:
+        serializedVersion: 2
+        x: 3566
+        y: 3810
+        width: 364
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23f26c10adb15cdc0800000000000000
+      internalID: -3619456102375739598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_110
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 3410
+        width: 364
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f21ed278a6e248f70800000000000000
+      internalID: 9188520174811996463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_111
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 3410
+        width: 364
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8fc5348aef8444d0800000000000000
+      internalID: -3151235601849266291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_112
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 3410
+        width: 364
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8d33f9479f8a5880800000000000000
+      internalID: -8621420656703881846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_113
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 3414
+        width: 360
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf9727a7e3ea669b0800000000000000
+      internalID: -5087187145702868485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_114
+      rect:
+        serializedVersion: 2
+        x: 1602
+        y: 3414
+        width: 360
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 723fa8de2ec5d5c10800000000000000
+      internalID: 2043891935613743911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_115
+      rect:
+        serializedVersion: 2
+        x: 1994
+        y: 3414
+        width: 364
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84fc99595d725c950800000000000000
+      internalID: 6468620238078988104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_116
+      rect:
+        serializedVersion: 2
+        x: 2390
+        y: 3414
+        width: 360
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d826520d391ff5670800000000000000
+      internalID: 8529801836417606285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_117
+      rect:
+        serializedVersion: 2
+        x: 2779
+        y: 3410
+        width: 363
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2ed3deb88dcc9ab0800000000000000
+      internalID: -4999895499087290833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_118
+      rect:
+        serializedVersion: 2
+        x: 3174
+        y: 3410
+        width: 362
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5697c66cf7544a4e0800000000000000
+      internalID: -1971374321789273755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_119
+      rect:
+        serializedVersion: 2
+        x: 3566
+        y: 3410
+        width: 364
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 615ca02bb1dd5a870800000000000000
+      internalID: 8693597766729516310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_120
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 3014
+        width: 360
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f1afc55fe1abbb20800000000000000
+      internalID: 3151290413584720374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_121
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 3014
+        width: 364
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d5470ded675880f0800000000000000
+      internalID: -1114544778134469167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_122
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 3010
+        width: 364
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f59b053dd61c56490800000000000000
+      internalID: -7753578506007561889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_123
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 3010
+        width: 368
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aeacf0ff53f198a0800000000000000
+      internalID: -6299986810324078937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_124
+      rect:
+        serializedVersion: 2
+        x: 1598
+        y: 3010
+        width: 368
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3091306038f1e9e0800000000000000
+      internalID: -1593719906456465345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_125
+      rect:
+        serializedVersion: 2
+        x: 1990
+        y: 3010
+        width: 368
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e04d5c55c8bec5cc0800000000000000
+      internalID: -3720840204147895282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_126
+      rect:
+        serializedVersion: 2
+        x: 2384
+        y: 3010
+        width: 370
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3db4f4db6a9fdb550800000000000000
+      internalID: 6178368758358166483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_127
+      rect:
+        serializedVersion: 2
+        x: 2778
+        y: 3010
+        width: 368
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3015d229f0cd54a0800000000000000
+      internalID: -6602909302391500741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_128
+      rect:
+        serializedVersion: 2
+        x: 3170
+        y: 3007
+        width: 372
+        height: 367
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aa519bb4e4bc1230800000000000000
+      internalID: 3610959895736703656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_129
+      rect:
+        serializedVersion: 2
+        x: 3562
+        y: 3006
+        width: 372
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e8a772aff240ee60800000000000000
+      internalID: 7989459404665104612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_130
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 2606
+        width: 376
+        height: 371
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fc834a0c4c276550800000000000000
+      internalID: 6153936120926407929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_131
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 2606
+        width: 380
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d048833367b24c90800000000000000
+      internalID: -7186980418635677485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_132
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 2606
+        width: 384
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 968ea3f20e98453d0800000000000000
+      internalID: -3218796237704992663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_133
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 2602
+        width: 384
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de9c156724d5a2eb0800000000000000
+      internalID: -4743876717447099923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centrosome_circle_134
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 2602
+        width: 388
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57c1245b3135aad40800000000000000
+      internalID: 5596376831071755381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

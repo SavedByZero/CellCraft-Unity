@@ -78,7 +78,7 @@ public class ToxinParticle : CellObject
 			if (theScale >= MAX_SCALE)
 			{
 				p_cell.makeToxin(x, y);
-				p_cell.notifyOHandler(EngineEvent.ENGINE_TRIGGER, "toxin_escape", "null", 1);
+				//p_cell.notifyOHandler(EngineEvent.ENGINE_TRIGGER, "toxin_escape", "null", 1);  //TODO
 				cancelMove();
 				StopCoroutine(_checkAbsorbRoutine);
 				p_cell.killToxinParticle(this);

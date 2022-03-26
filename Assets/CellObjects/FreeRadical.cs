@@ -36,7 +36,7 @@ public class FreeRadical : CellObject
 	public FreeRadical()
 	{
 		does_recycle = true;
-		speed = 2.5;
+		speed = 2.5f;
 		num_id = Selectable.FREE_RADICAL;
 		text_id = "freeradical";
 		text_title = "Free Radical";
@@ -166,6 +166,7 @@ public class FreeRadical : CellObject
 
 	private CellObject findRadicalTarget() 
 	{
+		CellObject c;
 		if (targetStr != "") 
 		{
 			if (targetStr == "nucleus") 
@@ -200,7 +201,7 @@ public class FreeRadical : CellObject
 		else
 		{
 			float m = UnityEngine.Random.Range(0f,1f);
-			CellObject c;
+			
 			if (m < chance_nuc)
 			{
 				c = p_cell.c_nucleus;

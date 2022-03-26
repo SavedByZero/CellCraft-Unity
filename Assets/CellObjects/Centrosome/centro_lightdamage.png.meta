@@ -1,0 +1,3367 @@
+fileFormatVersion: 2
+guid: ae9b9764affa7b54a9fb58ea5b5935fa
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4782768606400918414
+    second: centro_lightdamage_0
+  - first:
+      213: 3221045857283937562
+    second: centro_lightdamage_1
+  - first:
+      213: -3680015723122248856
+    second: centro_lightdamage_2
+  - first:
+      213: -1680190556175859933
+    second: centro_lightdamage_3
+  - first:
+      213: -8755417234877143388
+    second: centro_lightdamage_4
+  - first:
+      213: -8304142709133375651
+    second: centro_lightdamage_5
+  - first:
+      213: 502154057059116462
+    second: centro_lightdamage_6
+  - first:
+      213: -3205018757578476154
+    second: centro_lightdamage_7
+  - first:
+      213: -6572201178368899118
+    second: centro_lightdamage_8
+  - first:
+      213: -4110622746396563497
+    second: centro_lightdamage_9
+  - first:
+      213: -2367560550361618744
+    second: centro_lightdamage_10
+  - first:
+      213: -1133566786714500888
+    second: centro_lightdamage_11
+  - first:
+      213: 5238255500430605499
+    second: centro_lightdamage_12
+  - first:
+      213: 3229493512576272953
+    second: centro_lightdamage_13
+  - first:
+      213: 8701325483997105894
+    second: centro_lightdamage_14
+  - first:
+      213: 635883771157202042
+    second: centro_lightdamage_15
+  - first:
+      213: -4241840776742984580
+    second: centro_lightdamage_16
+  - first:
+      213: 2009192427024443783
+    second: centro_lightdamage_17
+  - first:
+      213: -7573215646470950074
+    second: centro_lightdamage_18
+  - first:
+      213: 1205993014298823627
+    second: centro_lightdamage_19
+  - first:
+      213: 6247923525061018700
+    second: centro_lightdamage_20
+  - first:
+      213: 9181878877969055529
+    second: centro_lightdamage_21
+  - first:
+      213: -4932562998564593379
+    second: centro_lightdamage_22
+  - first:
+      213: -2792164424958283007
+    second: centro_lightdamage_23
+  - first:
+      213: 6977571239136701406
+    second: centro_lightdamage_24
+  - first:
+      213: 8006192928421701038
+    second: centro_lightdamage_25
+  - first:
+      213: -7701516536055456637
+    second: centro_lightdamage_26
+  - first:
+      213: -667057795611681337
+    second: centro_lightdamage_27
+  - first:
+      213: -1317710310022606589
+    second: centro_lightdamage_28
+  - first:
+      213: -57564305404337831
+    second: centro_lightdamage_29
+  - first:
+      213: -7498473351914851419
+    second: centro_lightdamage_30
+  - first:
+      213: 8682959829992791010
+    second: centro_lightdamage_31
+  - first:
+      213: 4690842356502412974
+    second: centro_lightdamage_32
+  - first:
+      213: 8243180243961401901
+    second: centro_lightdamage_33
+  - first:
+      213: -723580725781811960
+    second: centro_lightdamage_34
+  - first:
+      213: 1040449633605756173
+    second: centro_lightdamage_35
+  - first:
+      213: -2533348576194588543
+    second: centro_lightdamage_36
+  - first:
+      213: 2571100745760201278
+    second: centro_lightdamage_37
+  - first:
+      213: 2639945833890094987
+    second: centro_lightdamage_38
+  - first:
+      213: 5765093103003151954
+    second: centro_lightdamage_39
+  - first:
+      213: 8963024078657301749
+    second: centro_lightdamage_40
+  - first:
+      213: -5770444030367898193
+    second: centro_lightdamage_41
+  - first:
+      213: -270358893866403054
+    second: centro_lightdamage_42
+  - first:
+      213: -6929361311979004460
+    second: centro_lightdamage_43
+  - first:
+      213: 6773649431289668422
+    second: centro_lightdamage_44
+  - first:
+      213: -8204598236989514021
+    second: centro_lightdamage_45
+  - first:
+      213: 5923290617597680576
+    second: centro_lightdamage_46
+  - first:
+      213: -4359002556754132794
+    second: centro_lightdamage_47
+  - first:
+      213: 5710124599643516312
+    second: centro_lightdamage_48
+  - first:
+      213: 2768425229832575437
+    second: centro_lightdamage_49
+  - first:
+      213: 8429923577036888529
+    second: centro_lightdamage_50
+  - first:
+      213: -3886049808151698821
+    second: centro_lightdamage_51
+  - first:
+      213: 240371594128938542
+    second: centro_lightdamage_52
+  - first:
+      213: 68663065743168586
+    second: centro_lightdamage_53
+  - first:
+      213: -4314676981483209245
+    second: centro_lightdamage_54
+  - first:
+      213: -5171544839890446716
+    second: centro_lightdamage_55
+  - first:
+      213: -2497927509634266854
+    second: centro_lightdamage_56
+  - first:
+      213: 7581710256959661582
+    second: centro_lightdamage_57
+  - first:
+      213: -3392309813273936604
+    second: centro_lightdamage_58
+  - first:
+      213: -7887237205845164491
+    second: centro_lightdamage_59
+  - first:
+      213: -2813957685473151384
+    second: centro_lightdamage_60
+  - first:
+      213: -5711963111654277343
+    second: centro_lightdamage_61
+  - first:
+      213: -3254169879128410109
+    second: centro_lightdamage_62
+  - first:
+      213: 961837317413026784
+    second: centro_lightdamage_63
+  - first:
+      213: -5211997392438227113
+    second: centro_lightdamage_64
+  - first:
+      213: -6732932230503369288
+    second: centro_lightdamage_65
+  - first:
+      213: -5686884706862295132
+    second: centro_lightdamage_66
+  - first:
+      213: -7304686764736896970
+    second: centro_lightdamage_67
+  - first:
+      213: 4792442412652124469
+    second: centro_lightdamage_68
+  - first:
+      213: -4811955089693818287
+    second: centro_lightdamage_69
+  - first:
+      213: -1486510298128311871
+    second: centro_lightdamage_70
+  - first:
+      213: -3411429092322463406
+    second: centro_lightdamage_71
+  - first:
+      213: 6402142177419946474
+    second: centro_lightdamage_72
+  - first:
+      213: 5425693401828327824
+    second: centro_lightdamage_73
+  - first:
+      213: 4928195686567956918
+    second: centro_lightdamage_74
+  - first:
+      213: 5792893641729510764
+    second: centro_lightdamage_75
+  - first:
+      213: -8400063478143732176
+    second: centro_lightdamage_76
+  - first:
+      213: -8831705454206215768
+    second: centro_lightdamage_77
+  - first:
+      213: -4935722974903053280
+    second: centro_lightdamage_78
+  - first:
+      213: -1070201078944836912
+    second: centro_lightdamage_79
+  - first:
+      213: 7400600969068582142
+    second: centro_lightdamage_80
+  - first:
+      213: 2765158436205416299
+    second: centro_lightdamage_81
+  - first:
+      213: -5982434678220089986
+    second: centro_lightdamage_82
+  - first:
+      213: -4041137270107310413
+    second: centro_lightdamage_83
+  - first:
+      213: -5107761258445568073
+    second: centro_lightdamage_84
+  - first:
+      213: 8403546043596743435
+    second: centro_lightdamage_85
+  - first:
+      213: -2250320931571282212
+    second: centro_lightdamage_86
+  - first:
+      213: 3227828647462798394
+    second: centro_lightdamage_87
+  - first:
+      213: -4048128768840016048
+    second: centro_lightdamage_88
+  - first:
+      213: -1868782943841398565
+    second: centro_lightdamage_89
+  - first:
+      213: 7206067203273039390
+    second: centro_lightdamage_90
+  - first:
+      213: -2674263783699821740
+    second: centro_lightdamage_91
+  - first:
+      213: 3902018522959760765
+    second: centro_lightdamage_92
+  - first:
+      213: 4203229694708613558
+    second: centro_lightdamage_93
+  - first:
+      213: -3040056399187715908
+    second: centro_lightdamage_94
+  - first:
+      213: 2250775597714809877
+    second: centro_lightdamage_95
+  - first:
+      213: -5486137783338024535
+    second: centro_lightdamage_96
+  - first:
+      213: -515200614361593494
+    second: centro_lightdamage_97
+  - first:
+      213: -5316015638552322161
+    second: centro_lightdamage_98
+  - first:
+      213: 4791763300153990462
+    second: centro_lightdamage_99
+  - first:
+      213: 184592003636399644
+    second: centro_lightdamage_100
+  - first:
+      213: -4063762716041924313
+    second: centro_lightdamage_101
+  - first:
+      213: -6764433633729463251
+    second: centro_lightdamage_102
+  - first:
+      213: 8799879756939236523
+    second: centro_lightdamage_103
+  - first:
+      213: -5312172560501894331
+    second: centro_lightdamage_104
+  - first:
+      213: -2171052764278805195
+    second: centro_lightdamage_105
+  - first:
+      213: 4413674270769141170
+    second: centro_lightdamage_106
+  - first:
+      213: 6887253817908428931
+    second: centro_lightdamage_107
+  - first:
+      213: 7107313465866496271
+    second: centro_lightdamage_108
+  - first:
+      213: -1852359384112661386
+    second: centro_lightdamage_109
+  - first:
+      213: -8877290790848353072
+    second: centro_lightdamage_110
+  - first:
+      213: -7041459668928310577
+    second: centro_lightdamage_111
+  - first:
+      213: 4042487580796854669
+    second: centro_lightdamage_112
+  - first:
+      213: -6863596980752094040
+    second: centro_lightdamage_113
+  - first:
+      213: 6032479836500703915
+    second: centro_lightdamage_114
+  - first:
+      213: -6852559037652104417
+    second: centro_lightdamage_115
+  - first:
+      213: 743179815927303834
+    second: centro_lightdamage_116
+  - first:
+      213: -4818114400081818863
+    second: centro_lightdamage_117
+  - first:
+      213: 205963883223293323
+    second: centro_lightdamage_118
+  - first:
+      213: -7021130841184683521
+    second: centro_lightdamage_119
+  - first:
+      213: -3193601730096761883
+    second: centro_lightdamage_120
+  - first:
+      213: -6226093045711232596
+    second: centro_lightdamage_121
+  - first:
+      213: -6366062574420266044
+    second: centro_lightdamage_122
+  - first:
+      213: 2198667062669002805
+    second: centro_lightdamage_123
+  - first:
+      213: 5839229859345392242
+    second: centro_lightdamage_124
+  - first:
+      213: -2656092196562513677
+    second: centro_lightdamage_125
+  - first:
+      213: -7404023849045188163
+    second: centro_lightdamage_126
+  - first:
+      213: 6546192579774207292
+    second: centro_lightdamage_127
+  - first:
+      213: -681426314668530289
+    second: centro_lightdamage_128
+  - first:
+      213: -6266017868514286845
+    second: centro_lightdamage_129
+  - first:
+      213: -2294789275371372756
+    second: centro_lightdamage_130
+  - first:
+      213: -8578094551716757629
+    second: centro_lightdamage_131
+  - first:
+      213: -3617812414751807114
+    second: centro_lightdamage_132
+  - first:
+      213: -1522362814643113346
+    second: centro_lightdamage_133
+  - first:
+      213: 8221772395714975798
+    second: centro_lightdamage_134
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: centro_lightdamage_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 7786
+        width: 392
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e83ba6315becf5240800000000000000
+      internalID: 4782768606400918414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_1
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 7787
+        width: 388
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1517a0342473bc20800000000000000
+      internalID: 3221045857283937562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_2
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 7790
+        width: 384
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86332778235fdecc0800000000000000
+      internalID: -3680015723122248856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_3
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 7790
+        width: 384
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32ffb285793cea8e0800000000000000
+      internalID: -1680190556175859933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_4
+      rect:
+        serializedVersion: 2
+        x: 1594
+        y: 7794
+        width: 380
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a6a0deb9628e7680800000000000000
+      internalID: -8755417234877143388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_5
+      rect:
+        serializedVersion: 2
+        x: 1986
+        y: 7794
+        width: 376
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5784f90432c1cc80800000000000000
+      internalID: -8304142709133375651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_6
+      rect:
+        serializedVersion: 2
+        x: 2382
+        y: 7798
+        width: 372
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea5a781547208f600800000000000000
+      internalID: 502154057059116462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_7
+      rect:
+        serializedVersion: 2
+        x: 2774
+        y: 7798
+        width: 372
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6853210cb6c7583d0800000000000000
+      internalID: -3205018757578476154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_8
+      rect:
+        serializedVersion: 2
+        x: 3170
+        y: 7798
+        width: 368
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d70bea69d9dac4a0800000000000000
+      internalID: -6572201178368899118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_9
+      rect:
+        serializedVersion: 2
+        x: 3562
+        y: 7802
+        width: 368
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d76463246224f6c0800000000000000
+      internalID: -4110622746396563497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_10
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 7402
+        width: 364
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c6a77b293cb42fd0800000000000000
+      internalID: -2367560550361618744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_11
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 7402
+        width: 360
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e083bc6303c440f0800000000000000
+      internalID: -1133566786714500888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_12
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 7403
+        width: 356
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbcf6e9cf9502b840800000000000000
+      internalID: 5238255500430605499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_13
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 7406
+        width: 356
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93a89853d3771dc20800000000000000
+      internalID: 3229493512576272953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_14
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 7406
+        width: 352
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ee83b41d6151c870800000000000000
+      internalID: 8701325483997105894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_15
+      rect:
+        serializedVersion: 2
+        x: 1998
+        y: 7406
+        width: 352
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a74c24abbec13d800800000000000000
+      internalID: 635883771157202042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_16
+      rect:
+        serializedVersion: 2
+        x: 2394
+        y: 7406
+        width: 348
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c74a77ca944f125c0800000000000000
+      internalID: -4241840776742984580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_17
+      rect:
+        serializedVersion: 2
+        x: 2786
+        y: 7410
+        width: 348
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78962320ed512eb10800000000000000
+      internalID: 2009192427024443783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_18
+      rect:
+        serializedVersion: 2
+        x: 3182
+        y: 7410
+        width: 344
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6433ba08e7886e690800000000000000
+      internalID: -7573215646470950074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_19
+      rect:
+        serializedVersion: 2
+        x: 3574
+        y: 7410
+        width: 344
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcb42e2c14c8cb010800000000000000
+      internalID: 1205993014298823627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_20
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 7010
+        width: 344
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c448117d75515b650800000000000000
+      internalID: 6247923525061018700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_21
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 7006
+        width: 352
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92ff10c11369c6f70800000000000000
+      internalID: 9181878877969055529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_22
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 7002
+        width: 356
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d11625e26140c8bb0800000000000000
+      internalID: -4932562998564593379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_23
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 7002
+        width: 356
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 103f0efbf3d3049d0800000000000000
+      internalID: -2792164424958283007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_24
+      rect:
+        serializedVersion: 2
+        x: 1598
+        y: 6998
+        width: 364
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edba9bfb21055d060800000000000000
+      internalID: 6977571239136701406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_25
+      rect:
+        serializedVersion: 2
+        x: 1990
+        y: 6998
+        width: 368
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea5e1ddbc06bb1f60800000000000000
+      internalID: 8006192928421701038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_26
+      rect:
+        serializedVersion: 2
+        x: 2382
+        y: 6994
+        width: 372
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38c1e9cc387be1590800000000000000
+      internalID: -7701516536055456637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_27
+      rect:
+        serializedVersion: 2
+        x: 2774
+        y: 6990
+        width: 372
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cd19e718722eb6f0800000000000000
+      internalID: -667057795611681337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_28
+      rect:
+        serializedVersion: 2
+        x: 3166
+        y: 6990
+        width: 376
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3019b3e547d86bde0800000000000000
+      internalID: -1317710310022606589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_29
+      rect:
+        serializedVersion: 2
+        x: 3558
+        y: 6990
+        width: 376
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 951e1a8b19d733ff0800000000000000
+      internalID: -57564305404337831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_30
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 6590
+        width: 376
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a3f16d073210f790800000000000000
+      internalID: -7498473351914851419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_31
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 6590
+        width: 376
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ebd4b906f1108870800000000000000
+      internalID: 8682959829992791010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_32
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 6590
+        width: 380
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaebea42548391140800000000000000
+      internalID: 4690842356502412974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_33
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 6588
+        width: 379
+        height: 386
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2256d4f1c8a56270800000000000000
+      internalID: 8243180243961401901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_34
+      rect:
+        serializedVersion: 2
+        x: 1594
+        y: 6586
+        width: 380
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80da471e92355f5f0800000000000000
+      internalID: -723580725781811960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_35
+      rect:
+        serializedVersion: 2
+        x: 1986
+        y: 6586
+        width: 380
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d05a1c1ed6b607e00800000000000000
+      internalID: 1040449633605756173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_36
+      rect:
+        serializedVersion: 2
+        x: 2378
+        y: 6586
+        width: 380
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1801ea764ecb7dcd0800000000000000
+      internalID: -2533348576194588543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_37
+      rect:
+        serializedVersion: 2
+        x: 2770
+        y: 6586
+        width: 384
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3a57c881826ea320800000000000000
+      internalID: 2571100745760201278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_38
+      rect:
+        serializedVersion: 2
+        x: 3162
+        y: 6586
+        width: 384
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8f9a47bfb8f2a420800000000000000
+      internalID: 2639945833890094987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_39
+      rect:
+        serializedVersion: 2
+        x: 3558
+        y: 6586
+        width: 380
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25eae85e1a9b10050800000000000000
+      internalID: 5765093103003151954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_40
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 6190
+        width: 384
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fc24a159ee036c70800000000000000
+      internalID: 8963024078657301749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_41
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 6190
+        width: 384
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa5e5ad3ab34befa0800000000000000
+      internalID: -5770444030367898193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_42
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 6190
+        width: 380
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21bb939b40e7f3cf0800000000000000
+      internalID: -270358893866403054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_43
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 6190
+        width: 384
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dd182f9996f5df90800000000000000
+      internalID: -6929361311979004460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_44
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 6194
+        width: 384
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6432c09f446d00e50800000000000000
+      internalID: 6773649431289668422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_45
+      rect:
+        serializedVersion: 2
+        x: 1982
+        y: 6194
+        width: 384
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bde917f8f59632e80800000000000000
+      internalID: -8204598236989514021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_46
+      rect:
+        serializedVersion: 2
+        x: 2374
+        y: 6194
+        width: 384
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cb505b0f61c33250800000000000000
+      internalID: 5923290617597680576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_47
+      rect:
+        serializedVersion: 2
+        x: 2766
+        y: 6198
+        width: 384
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c086a50546b183c0800000000000000
+      internalID: -4359002556754132794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_48
+      rect:
+        serializedVersion: 2
+        x: 3162
+        y: 6198
+        width: 380
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89da8f0e1107e3f40800000000000000
+      internalID: 5710124599643516312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_49
+      rect:
+        serializedVersion: 2
+        x: 3558
+        y: 6198
+        width: 376
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc9566b241c6b6620800000000000000
+      internalID: 2768425229832575437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_50
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 5802
+        width: 372
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d959f464da1df470800000000000000
+      internalID: 8429923577036888529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_51
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 5802
+        width: 371
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b72a4a5e94af11ac0800000000000000
+      internalID: -3886049808151698821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_52
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 5802
+        width: 368
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e26562af0b8f55300800000000000000
+      internalID: 240371594128938542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_53
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 5803
+        width: 364
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a449fcac1b0f3f000800000000000000
+      internalID: 68663065743168586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_54
+      rect:
+        serializedVersion: 2
+        x: 1598
+        y: 5806
+        width: 364
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ed732e35203f14c0800000000000000
+      internalID: -4314676981483209245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_55
+      rect:
+        serializedVersion: 2
+        x: 1994
+        y: 5806
+        width: 360
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 486535e3e5bfa38b0800000000000000
+      internalID: -5171544839890446716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_56
+      rect:
+        serializedVersion: 2
+        x: 2390
+        y: 5807
+        width: 356
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a19c2912a24955dd0800000000000000
+      internalID: -2497927509634266854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_57
+      rect:
+        serializedVersion: 2
+        x: 2782
+        y: 5810
+        width: 356
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0624002f45a73960800000000000000
+      internalID: 7581710256959661582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_58
+      rect:
+        serializedVersion: 2
+        x: 3178
+        y: 5810
+        width: 348
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42d3cb3b2381ce0d0800000000000000
+      internalID: -3392309813273936604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_59
+      rect:
+        serializedVersion: 2
+        x: 3574
+        y: 5814
+        width: 347
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53eba56bc87ea8290800000000000000
+      internalID: -7887237205845164491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_60
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 5414
+        width: 344
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8667460e460d2f8d0800000000000000
+      internalID: -2813957685473151384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_61
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 5414
+        width: 344
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12f36bf20d70bb0b0800000000000000
+      internalID: -5711963111654277343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_62
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 5414
+        width: 347
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30876cb7cbdd6d2d0800000000000000
+      internalID: -3254169879128410109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_63
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 5414
+        width: 348
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eb3e14b1f1295d00800000000000000
+      internalID: 961837317413026784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_64
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 5410
+        width: 352
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75f05756cf34ba7b0800000000000000
+      internalID: -5211997392438227113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_65
+      rect:
+        serializedVersion: 2
+        x: 1995
+        y: 5410
+        width: 355
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b571181fc1df82a0800000000000000
+      internalID: -6732932230503369288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_66
+      rect:
+        serializedVersion: 2
+        x: 2386
+        y: 5406
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a71fd05d702411b0800000000000000
+      internalID: -5686884706862295132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_67
+      rect:
+        serializedVersion: 2
+        x: 2778
+        y: 5406
+        width: 364
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6302c50e61a80aa90800000000000000
+      internalID: -7304686764736896970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_68
+      rect:
+        serializedVersion: 2
+        x: 3170
+        y: 5402
+        width: 364
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53955ac9bfc228240800000000000000
+      internalID: 4792442412652124469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_69
+      rect:
+        serializedVersion: 2
+        x: 3562
+        y: 5402
+        width: 368
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 152caab3750883db0800000000000000
+      internalID: -4811955089693818287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_70
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 5002
+        width: 372
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c91a1d72cade5be0800000000000000
+      internalID: -1486510298128311871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_71
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 5002
+        width: 375
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 251bfa7a05b28a0d0800000000000000
+      internalID: -3411429092322463406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_72
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 4998
+        width: 376
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae969aee36af8d850800000000000000
+      internalID: 6402142177419946474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_73
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 4998
+        width: 376
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0918824076feb4b40800000000000000
+      internalID: 5425693401828327824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_74
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 4998
+        width: 380
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b1de71cdd7746440800000000000000
+      internalID: 4928195686567956918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_75
+      rect:
+        serializedVersion: 2
+        x: 1982
+        y: 4998
+        width: 380
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6d08e8331e746050800000000000000
+      internalID: 5792893641729510764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_76
+      rect:
+        serializedVersion: 2
+        x: 2378
+        y: 4994
+        width: 380
+        height: 387
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 036b286a5cafc6b80800000000000000
+      internalID: -8400063478143732176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_77
+      rect:
+        serializedVersion: 2
+        x: 2770
+        y: 4994
+        width: 380
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a998298eaa7f6580800000000000000
+      internalID: -8831705454206215768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_78
+      rect:
+        serializedVersion: 2
+        x: 3162
+        y: 4994
+        width: 380
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0245b2bda1ac08bb0800000000000000
+      internalID: -4935722974903053280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_79
+      rect:
+        serializedVersion: 2
+        x: 3558
+        y: 4990
+        width: 380
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d2d043f9c1e521f0800000000000000
+      internalID: -1070201078944836912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_80
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 4591
+        width: 384
+        height: 391
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef49ebd0f5734b660800000000000000
+      internalID: 7400600969068582142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_81
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 4590
+        width: 384
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6fc2b182f0df5620800000000000000
+      internalID: 2765158436205416299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_82
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 4590
+        width: 384
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7596b04b5f1afca0800000000000000
+      internalID: -5982434678220089986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_83
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 4590
+        width: 384
+        height: 396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b679ae401ffae7c0800000000000000
+      internalID: -4041137270107310413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_84
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 4586
+        width: 388
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b789d092369d19b0800000000000000
+      internalID: -5107761258445568073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_85
+      rect:
+        serializedVersion: 2
+        x: 1982
+        y: 4586
+        width: 388
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b03293e4a946f9470800000000000000
+      internalID: 8403546043596743435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_86
+      rect:
+        serializedVersion: 2
+        x: 2374
+        y: 4590
+        width: 388
+        height: 396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cde4113190145c0e0800000000000000
+      internalID: -2250320931571282212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_87
+      rect:
+        serializedVersion: 2
+        x: 2770
+        y: 4590
+        width: 384
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3489d79d0d8bcc20800000000000000
+      internalID: 3227828647462798394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_88
+      rect:
+        serializedVersion: 2
+        x: 3162
+        y: 4590
+        width: 384
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05f5048255822d7c0800000000000000
+      internalID: -4048128768840016048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_89
+      rect:
+        serializedVersion: 2
+        x: 3558
+        y: 4590
+        width: 384
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd0560650dfb016e0800000000000000
+      internalID: -1868782943841398565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_90
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 4191
+        width: 388
+        height: 391
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1e9ea621f7110460800000000000000
+      internalID: 7206067203273039390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_91
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 4194
+        width: 388
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45b41e0f14b13ead0800000000000000
+      internalID: -2674263783699821740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_92
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 4194
+        width: 384
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7dc2004c21c62630800000000000000
+      internalID: 3902018522959760765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_93
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 4194
+        width: 384
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b10b7e332fd45a30800000000000000
+      internalID: 4203229694708613558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_94
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 4194
+        width: 384
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb85345dfcc8fc5d0800000000000000
+      internalID: -3040056399187715908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_95
+      rect:
+        serializedVersion: 2
+        x: 1986
+        y: 4194
+        width: 384
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 514a8e22b7c5c3f10800000000000000
+      internalID: 2250775597714809877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_96
+      rect:
+        serializedVersion: 2
+        x: 2378
+        y: 4198
+        width: 384
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a1c94bb0c25dd3b0800000000000000
+      internalID: -5486137783338024535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_97
+      rect:
+        serializedVersion: 2
+        x: 2770
+        y: 4198
+        width: 384
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a690ae855c3a9d8f0800000000000000
+      internalID: -515200614361593494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_98
+      rect:
+        serializedVersion: 2
+        x: 3163
+        y: 4198
+        width: 383
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8fdaa331f7b936b0800000000000000
+      internalID: -5316015638552322161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_99
+      rect:
+        serializedVersion: 2
+        x: 3558
+        y: 4198
+        width: 384
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3d9e696553cf7240800000000000000
+      internalID: 4791763300153990462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_100
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 3798
+        width: 380
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1e0025037dcf8200800000000000000
+      internalID: 184592003636399644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_101
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 3802
+        width: 380
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72138da275d9a97c0800000000000000
+      internalID: -4063762716041924313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_102
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 3802
+        width: 376
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2cb9da1377ef12a0800000000000000
+      internalID: -6764433633729463251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_103
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 3802
+        width: 376
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba49382e3047f1a70800000000000000
+      internalID: 8799879756939236523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_104
+      rect:
+        serializedVersion: 2
+        x: 1598
+        y: 3806
+        width: 372
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54315b9833f5746b0800000000000000
+      internalID: -5312172560501894331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_105
+      rect:
+        serializedVersion: 2
+        x: 1990
+        y: 3806
+        width: 372
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53d288c730fded1e0800000000000000
+      internalID: -2171052764278805195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_106
+      rect:
+        serializedVersion: 2
+        x: 2386
+        y: 3806
+        width: 368
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b5d9775d55804d30800000000000000
+      internalID: 4413674270769141170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_107
+      rect:
+        serializedVersion: 2
+        x: 2778
+        y: 3806
+        width: 368
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 380826e6bd0749f50800000000000000
+      internalID: 6887253817908428931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_108
+      rect:
+        serializedVersion: 2
+        x: 3174
+        y: 3807
+        width: 364
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f09a258e0ff32a260800000000000000
+      internalID: 7107313465866496271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_109
+      rect:
+        serializedVersion: 2
+        x: 3566
+        y: 3810
+        width: 364
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67c7a9154f81b46e0800000000000000
+      internalID: -1852359384112661386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_110
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 3410
+        width: 364
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dc23a34f078dc480800000000000000
+      internalID: -8877290790848353072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_111
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 3410
+        width: 364
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc2d9450db5b74e90800000000000000
+      internalID: -7041459668928310577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_112
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 3410
+        width: 364
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d812356690dc91830800000000000000
+      internalID: 4042487580796854669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_113
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 3414
+        width: 360
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ace3d039ea9fb0a0800000000000000
+      internalID: -6863596980752094040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_114
+      rect:
+        serializedVersion: 2
+        x: 1602
+        y: 3414
+        width: 360
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baab459237ca7b350800000000000000
+      internalID: 6032479836500703915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_115
+      rect:
+        serializedVersion: 2
+        x: 1994
+        y: 3414
+        width: 364
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1b8a569cd1d6e0a0800000000000000
+      internalID: -6852559037652104417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_116
+      rect:
+        serializedVersion: 2
+        x: 2390
+        y: 3414
+        width: 360
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9e4694ea1e405a00800000000000000
+      internalID: 743179815927303834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_117
+      rect:
+        serializedVersion: 2
+        x: 2779
+        y: 3410
+        width: 363
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11bcde70b7e922db0800000000000000
+      internalID: -4818114400081818863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_118
+      rect:
+        serializedVersion: 2
+        x: 3174
+        y: 3410
+        width: 362
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8d95108f0bbbd200800000000000000
+      internalID: 205963883223293323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_119
+      rect:
+        serializedVersion: 2
+        x: 3566
+        y: 3410
+        width: 364
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff9b5a113beef8e90800000000000000
+      internalID: -7021130841184683521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_120
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 3014
+        width: 360
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e3728b952c0ea3d0800000000000000
+      internalID: -3193601730096761883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_121
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 3014
+        width: 364
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca12ad7bc597899a0800000000000000
+      internalID: -6226093045711232596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_122
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 3010
+        width: 364
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c375c141d337a7a0800000000000000
+      internalID: -6366062574420266044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_123
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 3010
+        width: 368
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 538ccb16b0c338e10800000000000000
+      internalID: 2198667062669002805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_124
+      rect:
+        serializedVersion: 2
+        x: 1598
+        y: 3010
+        width: 368
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 272e2289e9c190150800000000000000
+      internalID: 5839229859345392242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_125
+      rect:
+        serializedVersion: 2
+        x: 1990
+        y: 3010
+        width: 368
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f05435483aa32bd0800000000000000
+      internalID: -2656092196562513677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_126
+      rect:
+        serializedVersion: 2
+        x: 2384
+        y: 3010
+        width: 370
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db12429998f9f3990800000000000000
+      internalID: -7404023849045188163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_127
+      rect:
+        serializedVersion: 2
+        x: 2778
+        y: 3010
+        width: 368
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c355db4d77fb8da50800000000000000
+      internalID: 6546192579774207292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_128
+      rect:
+        serializedVersion: 2
+        x: 3170
+        y: 3007
+        width: 372
+        height: 367
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f85249d80661b86f0800000000000000
+      internalID: -681426314668530289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_129
+      rect:
+        serializedVersion: 2
+        x: 3562
+        y: 3006
+        width: 372
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 303a4f682f1aa09a0800000000000000
+      internalID: -6266017868514286845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_130
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 2606
+        width: 376
+        height: 371
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2ffc17ff454720e0800000000000000
+      internalID: -2294789275371372756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_131
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 2606
+        width: 380
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38f7533347c74f880800000000000000
+      internalID: -8578094551716757629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_132
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 2606
+        width: 384
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67968bad6c2facdc0800000000000000
+      internalID: -3617812414751807114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_133
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 2602
+        width: 384
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e72feedf51b7fdae0800000000000000
+      internalID: -1522362814643113346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_lightdamage_134
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 2602
+        width: 388
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63814bede6a991270800000000000000
+      internalID: 8221772395714975798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

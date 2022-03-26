@@ -1,0 +1,2047 @@
+fileFormatVersion: 2
+guid: 5f54ea8bf35d4894688d7bcc4d1dba0d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 150016243834984156
+    second: nucleus_normal_0
+  - first:
+      213: 4675802757617956933
+    second: nucleus_normal_1
+  - first:
+      213: -73587840909307405
+    second: nucleus_normal_2
+  - first:
+      213: -4104426542414662361
+    second: nucleus_normal_3
+  - first:
+      213: -2844231994644971008
+    second: nucleus_normal_4
+  - first:
+      213: -6335677288307819031
+    second: nucleus_normal_5
+  - first:
+      213: -5027301656886775100
+    second: nucleus_normal_6
+  - first:
+      213: -2245459991793508692
+    second: nucleus_normal_7
+  - first:
+      213: -319738169927807849
+    second: nucleus_normal_8
+  - first:
+      213: 7110280716294490540
+    second: nucleus_normal_9
+  - first:
+      213: 6830899957530394098
+    second: nucleus_normal_10
+  - first:
+      213: 5939525494017137184
+    second: nucleus_normal_11
+  - first:
+      213: 1925566435818570531
+    second: nucleus_normal_12
+  - first:
+      213: -282275770485950536
+    second: nucleus_normal_13
+  - first:
+      213: 83018565252838446
+    second: nucleus_normal_14
+  - first:
+      213: 1291032948114841630
+    second: nucleus_normal_15
+  - first:
+      213: 7939361259418262519
+    second: nucleus_normal_16
+  - first:
+      213: -6605893096642094094
+    second: nucleus_normal_17
+  - first:
+      213: 5275781080103991654
+    second: nucleus_normal_18
+  - first:
+      213: 2557448465559072915
+    second: nucleus_normal_19
+  - first:
+      213: 3771190120472890583
+    second: nucleus_normal_20
+  - first:
+      213: 8286404943162464928
+    second: nucleus_normal_21
+  - first:
+      213: -1391402922120136356
+    second: nucleus_normal_22
+  - first:
+      213: 8319856320864607879
+    second: nucleus_normal_23
+  - first:
+      213: -893569035288028125
+    second: nucleus_normal_24
+  - first:
+      213: 7939542296357702354
+    second: nucleus_normal_25
+  - first:
+      213: -5056249730004606872
+    second: nucleus_normal_26
+  - first:
+      213: 7369012377131561936
+    second: nucleus_normal_27
+  - first:
+      213: -4927938225244982190
+    second: nucleus_normal_28
+  - first:
+      213: -7547892852506570808
+    second: nucleus_normal_29
+  - first:
+      213: 6218706004090123292
+    second: nucleus_normal_30
+  - first:
+      213: -7028245626923401775
+    second: nucleus_normal_31
+  - first:
+      213: 8439563224564311293
+    second: nucleus_normal_32
+  - first:
+      213: -8972773357964320637
+    second: nucleus_normal_33
+  - first:
+      213: -3577087684786707809
+    second: nucleus_normal_34
+  - first:
+      213: -4347373311741648785
+    second: nucleus_normal_35
+  - first:
+      213: 6850632659244792286
+    second: nucleus_normal_36
+  - first:
+      213: -9218707230450412785
+    second: nucleus_normal_37
+  - first:
+      213: 2886558578010363144
+    second: nucleus_normal_38
+  - first:
+      213: 8472228599870818134
+    second: nucleus_normal_39
+  - first:
+      213: -8580127464668590990
+    second: nucleus_normal_40
+  - first:
+      213: 3334645240785882151
+    second: nucleus_normal_41
+  - first:
+      213: 2033973930213470256
+    second: nucleus_normal_42
+  - first:
+      213: 4783839239538584427
+    second: nucleus_normal_43
+  - first:
+      213: -972967347022079830
+    second: nucleus_normal_44
+  - first:
+      213: 3340126837141232443
+    second: nucleus_normal_45
+  - first:
+      213: 5641737966153907058
+    second: nucleus_normal_46
+  - first:
+      213: -7285932395851625890
+    second: nucleus_normal_47
+  - first:
+      213: -9197322830114583357
+    second: nucleus_normal_48
+  - first:
+      213: 5502769591591773726
+    second: nucleus_normal_49
+  - first:
+      213: -6192645445971724412
+    second: nucleus_normal_50
+  - first:
+      213: -2082889442654552393
+    second: nucleus_normal_51
+  - first:
+      213: -1933326434607128361
+    second: nucleus_normal_52
+  - first:
+      213: 3386170680437192707
+    second: nucleus_normal_53
+  - first:
+      213: -1992727857159001504
+    second: nucleus_normal_54
+  - first:
+      213: -5928028484562257455
+    second: nucleus_normal_55
+  - first:
+      213: 2529755246198470159
+    second: nucleus_normal_56
+  - first:
+      213: 2924681457027130150
+    second: nucleus_normal_57
+  - first:
+      213: 4530543290590453424
+    second: nucleus_normal_58
+  - first:
+      213: 1936159027314880337
+    second: nucleus_normal_59
+  - first:
+      213: -8932059212842284716
+    second: nucleus_normal_60
+  - first:
+      213: -7391104205904478934
+    second: nucleus_normal_61
+  - first:
+      213: -3606876784469493044
+    second: nucleus_normal_62
+  - first:
+      213: 4180987053515245042
+    second: nucleus_normal_63
+  - first:
+      213: -6179606257706838395
+    second: nucleus_normal_64
+  - first:
+      213: 2122027777500729745
+    second: nucleus_normal_65
+  - first:
+      213: -8507981575717414640
+    second: nucleus_normal_66
+  - first:
+      213: 4324581727713955463
+    second: nucleus_normal_67
+  - first:
+      213: 7061695491967393858
+    second: nucleus_normal_68
+  - first:
+      213: -7039721174745740173
+    second: nucleus_normal_69
+  - first:
+      213: -3820351816859034152
+    second: nucleus_normal_70
+  - first:
+      213: -5686049911411892445
+    second: nucleus_normal_71
+  - first:
+      213: -838100936179866105
+    second: nucleus_normal_72
+  - first:
+      213: -7443049609636346916
+    second: nucleus_normal_73
+  - first:
+      213: -8800536601600939820
+    second: nucleus_normal_74
+  - first:
+      213: 8782489246322588750
+    second: nucleus_normal_75
+  - first:
+      213: -7216526763661982939
+    second: nucleus_normal_76
+  - first:
+      213: -7575527179413395737
+    second: nucleus_normal_77
+  - first:
+      213: 2959864548695553179
+    second: nucleus_normal_78
+  - first:
+      213: -2282896955637219051
+    second: nucleus_normal_79
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: nucleus_normal_0
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 1841
+        width: 158
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd6925c9af6f41200800000000000000
+      internalID: 150016243834984156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_normal_1
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 1841
+        width: 158
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5483c97a5d9c3e040800000000000000
+      internalID: 4675802757617956933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_normal_2
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 1841
+        width: 158
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f110d2af309afef0800000000000000
+      internalID: -73587840909307405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_normal_3
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 1842
+        width: 160
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72570bc4ec52a07c0800000000000000
+      internalID: -4104426542414662361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_normal_4
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 1842
+        width: 160
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 002c26cf1124788d0800000000000000
+      internalID: -2844231994644971008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_normal_5
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 1842
+        width: 161
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9edf6eaf2172318a0800000000000000
+      internalID: -6335677288307819031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_normal_6
+      rect:
+        serializedVersion: 2
+        x: 1175
+        y: 1842
+        width: 162
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c2f78267cf6b3ab0800000000000000
+      internalID: -5027301656886775100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_normal_7
+      rect:
+        serializedVersion: 2
+        x: 1366
+        y: 1843
+        width: 162
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caedbcfc80686d0e0800000000000000
+      internalID: -2245459991793508692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_normal_8
+      rect:
+        serializedVersion: 2
+        x: 1556
+        y: 1843
+        width: 164
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79cc15814df009bf0800000000000000
+      internalID: -319738169927807849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_normal_9
+      rect:
+        serializedVersion: 2
+        x: 1747
+        y: 1843
+        width: 164
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca90b0cb3aacca260800000000000000
+      internalID: 7110280716294490540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_normal_10
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 1644
+        width: 165
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fd74d8d15b3cce50800000000000000
+      internalID: 6830899957530394098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_normal_11
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 1644
+        width: 166
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02a9445c7fe6d6250800000000000000
+      internalID: 5939525494017137184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_normal_12
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 1645
+        width: 167
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3238166a87cf8ba10800000000000000
+      internalID: 1925566435818570531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_normal_13
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 1645
+        width: 168
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b73c7baea7251cf0800000000000000
+      internalID: -282275770485950536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_normal_14
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 1645
+        width: 169
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2478abf1f0f62100800000000000000
+      internalID: 83018565252838446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_normal_15
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 1645
+        width: 170
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e10e5b940abaae110800000000000000
+      internalID: 1291032948114841630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_normal_16
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 1645
+        width: 170
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fb9f1b30074e2e60800000000000000
+      internalID: 7939361259418262519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_normal_17
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 1645
+        width: 172
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fb51766a372354a0800000000000000
+      internalID: -6605893096642094094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_normal_18
+      rect:
+        serializedVersion: 2
+        x: 1552
+        y: 1645
+        width: 172
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6693358a0f6573940800000000000000
+      internalID: 5275781080103991654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_normal_19
+      rect:
+        serializedVersion: 2
+        x: 1742
+        y: 1645
+        width: 174
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 390340954d1ed7320800000000000000
+      internalID: 2557448465559072915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_normal_20
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 1446
+        width: 174
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dccf371f65f55430800000000000000
+      internalID: 3771190120472890583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_normal_21
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 1446
+        width: 174
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aa5d3e74693ff270800000000000000
+      internalID: 8286404943162464928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_normal_22
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 1446
+        width: 174
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c59b69f0a6eb0bce0800000000000000
+      internalID: -1391402922120136356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_normal_23
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 1445
+        width: 174
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78e5c6b4e31167370800000000000000
+      internalID: 8319856320864607879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_normal_24
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 1445
+        width: 176
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32c5e5d52b76993f0800000000000000
+      internalID: -893569035288028125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_normal_25
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 1445
+        width: 176
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2da079d27abee2e60800000000000000
+      internalID: 7939542296357702354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_normal_26
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 1445
+        width: 176
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8602963e8a794d9b0800000000000000
+      internalID: -5056249730004606872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_normal_27
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 1445
+        width: 176
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d3326cd6bdf34660800000000000000
+      internalID: 7369012377131561936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_normal_28
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 1444
+        width: 176
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25434312b427c9bb0800000000000000
+      internalID: -4927938225244982190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_normal_29
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 1444
+        width: 177
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cfc2abe07f704790800000000000000
+      internalID: -7547892852506570808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_normal_30
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1245
+        width: 178
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c147160a9284d4650800000000000000
+      internalID: 6218706004090123292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_normal_31
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 1245
+        width: 178
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ddb90de6d7a67e90800000000000000
+      internalID: -7028245626923401775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_normal_32
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 1244
+        width: 178
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df42b9bb90a5f1570800000000000000
+      internalID: 8439563224564311293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_normal_33
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 1244
+        width: 178
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 380a274bb2e4a7380800000000000000
+      internalID: -8972773357964320637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_normal_34
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 1244
+        width: 179
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f922dd1f3b1ab5ec0800000000000000
+      internalID: -3577087684786707809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_normal_35
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 1244
+        width: 180
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6020af91070ba3c0800000000000000
+      internalID: -4347373311741648785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_normal_36
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 1243
+        width: 180
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed9b9fc7b16521f50800000000000000
+      internalID: 6850632659244792286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_normal_37
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 1243
+        width: 180
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f039da0ed92901080800000000000000
+      internalID: -9218707230450412785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_normal_38
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 1243
+        width: 180
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8051aa9abbd1f0820800000000000000
+      internalID: 2886558578010363144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_normal_39
+      rect:
+        serializedVersion: 2
+        x: 1739
+        y: 1243
+        width: 180
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65784371607639570800000000000000
+      internalID: 8472228599870818134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_normal_40
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1044
+        width: 180
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27c0bd4c7834de880800000000000000
+      internalID: -8580127464668590990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_normal_41
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1044
+        width: 180
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72c4df4cd2a074e20800000000000000
+      internalID: 3334645240785882151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_normal_42
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 1044
+        width: 178
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03077c853802a3c10800000000000000
+      internalID: 2033973930213470256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_normal_43
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 1044
+        width: 178
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6ba547417c936240800000000000000
+      internalID: 4783839239538584427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_normal_44
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 1044
+        width: 178
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa8d1b65a535f72f0800000000000000
+      internalID: -972967347022079830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_normal_45
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 1044
+        width: 176
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3b5d8069a38a5e20800000000000000
+      internalID: 3340126837141232443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_normal_46
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 1044
+        width: 176
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27b307cf9ca7b4e40800000000000000
+      internalID: 5641737966153907058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_normal_47
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 1044
+        width: 176
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5ac0c7a61b23ea90800000000000000
+      internalID: -7285932395851625890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_normal_48
+      rect:
+        serializedVersion: 2
+        x: 1551
+        y: 1044
+        width: 174
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cc0e629d9b8c5080800000000000000
+      internalID: -9197322830114583357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_normal_49
+      rect:
+        serializedVersion: 2
+        x: 1742
+        y: 1044
+        width: 174
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1626a3e9c3cd5c40800000000000000
+      internalID: 5502769591591773726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_normal_50
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 845
+        width: 172
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4873ae4e6cd4f0aa0800000000000000
+      internalID: -6192645445971724412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_normal_51
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 845
+        width: 172
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bef92866171813e0800000000000000
+      internalID: -2082889442654552393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_normal_52
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 845
+        width: 172
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d0ae56d9d17b25e0800000000000000
+      internalID: -1933326434607128361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_normal_53
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 845
+        width: 170
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3083d4c0b481efe20800000000000000
+      internalID: 3386170680437192707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_normal_54
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 845
+        width: 170
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06a230462986854e0800000000000000
+      internalID: -1992727857159001504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_normal_55
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 845
+        width: 170
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d9f44750896bbda0800000000000000
+      internalID: -5928028484562257455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_normal_56
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 845
+        width: 168
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0637524efe7b1320800000000000000
+      internalID: 2529755246198470159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_normal_57
+      rect:
+        serializedVersion: 2
+        x: 1363
+        y: 845
+        width: 168
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 623264f1a4e869820800000000000000
+      internalID: 2924681457027130150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_normal_58
+      rect:
+        serializedVersion: 2
+        x: 1554
+        y: 845
+        width: 168
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0be5c237e19bfde30800000000000000
+      internalID: 4530543290590453424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_normal_59
+      rect:
+        serializedVersion: 2
+        x: 1746
+        y: 845
+        width: 166
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15fe4cb806e9eda10800000000000000
+      internalID: 1936159027314880337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_normal_60
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 646
+        width: 166
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 459c7c15873fa0480800000000000000
+      internalID: -8932059212842284716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_normal_61
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 646
+        width: 166
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2dfa2d62e58d6990800000000000000
+      internalID: -7391104205904478934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_normal_62
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 646
+        width: 165
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccab711bcacc1fdc0800000000000000
+      internalID: -3606876784469493044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_normal_63
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 646
+        width: 164
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f58847c299d50a30800000000000000
+      internalID: 4180987053515245042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_normal_64
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 647
+        width: 164
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5865a9d79d0ad3aa0800000000000000
+      internalID: -6179606257706838395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_normal_65
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 647
+        width: 163
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19151794505f27d10800000000000000
+      internalID: 2122027777500729745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_normal_66
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 647
+        width: 163
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0199bc785d39de980800000000000000
+      internalID: -8507981575717414640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_normal_67
+      rect:
+        serializedVersion: 2
+        x: 1366
+        y: 647
+        width: 162
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78e09823b20040c30800000000000000
+      internalID: 4324581727713955463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_normal_68
+      rect:
+        serializedVersion: 2
+        x: 1557
+        y: 647
+        width: 162
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 240a1bea2ae200260800000000000000
+      internalID: 7061695491967393858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_normal_69
+      rect:
+        serializedVersion: 2
+        x: 1748
+        y: 647
+        width: 161
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37c0c7db3e2ed4e90800000000000000
+      internalID: -7039721174745740173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_normal_70
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 448
+        width: 161
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dd591f73426bfac0800000000000000
+      internalID: -3820351816859034152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_normal_71
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 448
+        width: 160
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32f17274bb71711b0800000000000000
+      internalID: -5686049911411892445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_normal_72
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 448
+        width: 160
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 706a31593a77e54f0800000000000000
+      internalID: -838100936179866105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_normal_73
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 448
+        width: 160
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd30404a0d9f4b890800000000000000
+      internalID: -7443049609636346916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_normal_74
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 448
+        width: 159
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d8a0cc86963ed580800000000000000
+      internalID: -8800536601600939820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_normal_75
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 448
+        width: 159
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4cfeba107ba1e970800000000000000
+      internalID: 8782489246322588750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_normal_76
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 448
+        width: 158
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52304dba42fb9db90800000000000000
+      internalID: -7216526763661982939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_normal_77
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 448
+        width: 158
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e66fbcca225ed690800000000000000
+      internalID: -7575527179413395737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_normal_78
+      rect:
+        serializedVersion: 2
+        x: 1559
+        y: 448
+        width: 158
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b943540002d831920800000000000000
+      internalID: 2959864548695553179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nucleus_normal_79
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 448
+        width: 158
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5114c6c60558150e0800000000000000
+      internalID: -2282896955637219051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

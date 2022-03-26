@@ -1371,7 +1371,7 @@ public class Director : MonoBehaviour
 	private void makeCursor()
 	{
 		c_cursor.show();
-		c_cursor.setEngine(c_engine);
+		//c_cursor.setEngine(c_engine);  //TODO
 		//c_engine.receiveCursor(c_cursor);  //TODO
 	}
 
@@ -1393,7 +1393,7 @@ public class Director : MonoBehaviour
 			c_cursor.normal(false);
 	}
 
-	public void showCursor(int i)
+	public void showCursor(CellAction i)
 	{
 		//setChildIndex(c_cursor, numChildren - 1);
 		c_cursor.transform.SetSiblingIndex(c_cursor.transform.childCount - 1);

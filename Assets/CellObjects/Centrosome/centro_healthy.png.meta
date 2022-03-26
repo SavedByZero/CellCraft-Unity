@@ -1,0 +1,2671 @@
+fileFormatVersion: 2
+guid: 7917f0adc5e3d5e46a1ea5ebbfe99b44
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8082262331157923992
+    second: centro_healthy_0
+  - first:
+      213: -400797536699002918
+    second: centro_healthy_1
+  - first:
+      213: -7866593299037796469
+    second: centro_healthy_2
+  - first:
+      213: 1373308281592614559
+    second: centro_healthy_3
+  - first:
+      213: 3200715565930939537
+    second: centro_healthy_4
+  - first:
+      213: -5559637994776011556
+    second: centro_healthy_5
+  - first:
+      213: 1757881337234847138
+    second: centro_healthy_6
+  - first:
+      213: -3974664272212522055
+    second: centro_healthy_7
+  - first:
+      213: 8033555784174939319
+    second: centro_healthy_8
+  - first:
+      213: -3269769323154810427
+    second: centro_healthy_9
+  - first:
+      213: -7331434642807204426
+    second: centro_healthy_10
+  - first:
+      213: 6704344055999479004
+    second: centro_healthy_11
+  - first:
+      213: 6112042117215413354
+    second: centro_healthy_12
+  - first:
+      213: -3601777976397319889
+    second: centro_healthy_13
+  - first:
+      213: -8212917020032744561
+    second: centro_healthy_14
+  - first:
+      213: 4478532625649389365
+    second: centro_healthy_15
+  - first:
+      213: 3326298378341732487
+    second: centro_healthy_16
+  - first:
+      213: -7389106437840778679
+    second: centro_healthy_17
+  - first:
+      213: 2048201899654138967
+    second: centro_healthy_18
+  - first:
+      213: -491480289527517428
+    second: centro_healthy_19
+  - first:
+      213: 8767398276293505007
+    second: centro_healthy_20
+  - first:
+      213: -9098718719336905360
+    second: centro_healthy_21
+  - first:
+      213: 2705109024569236237
+    second: centro_healthy_22
+  - first:
+      213: 7340456794084128563
+    second: centro_healthy_23
+  - first:
+      213: 7107115021214756672
+    second: centro_healthy_24
+  - first:
+      213: 2925863291138644906
+    second: centro_healthy_25
+  - first:
+      213: 1183245759585829103
+    second: centro_healthy_26
+  - first:
+      213: -1795796354415414851
+    second: centro_healthy_27
+  - first:
+      213: -7164407097398793202
+    second: centro_healthy_28
+  - first:
+      213: 3707137032624565688
+    second: centro_healthy_29
+  - first:
+      213: 7880153026740609098
+    second: centro_healthy_30
+  - first:
+      213: -7234080264152686847
+    second: centro_healthy_31
+  - first:
+      213: 904844345506055164
+    second: centro_healthy_32
+  - first:
+      213: -3166139753012448142
+    second: centro_healthy_33
+  - first:
+      213: 1113710045071955320
+    second: centro_healthy_34
+  - first:
+      213: -4574692644368251477
+    second: centro_healthy_35
+  - first:
+      213: 223801198482392716
+    second: centro_healthy_36
+  - first:
+      213: -9080282206899507054
+    second: centro_healthy_37
+  - first:
+      213: -5315832691681795570
+    second: centro_healthy_38
+  - first:
+      213: 7853032843217825949
+    second: centro_healthy_39
+  - first:
+      213: -2311053955213972898
+    second: centro_healthy_40
+  - first:
+      213: -2281062038405409153
+    second: centro_healthy_41
+  - first:
+      213: 295876467584167149
+    second: centro_healthy_42
+  - first:
+      213: 7474701600439627899
+    second: centro_healthy_43
+  - first:
+      213: 9204315588394173917
+    second: centro_healthy_44
+  - first:
+      213: -5748154417576320086
+    second: centro_healthy_45
+  - first:
+      213: -6378479848788908132
+    second: centro_healthy_46
+  - first:
+      213: 267347787637680384
+    second: centro_healthy_47
+  - first:
+      213: -5864669756183194819
+    second: centro_healthy_48
+  - first:
+      213: -4027936262116124597
+    second: centro_healthy_49
+  - first:
+      213: -588281840480946750
+    second: centro_healthy_50
+  - first:
+      213: 7609780680318374077
+    second: centro_healthy_51
+  - first:
+      213: 717044718001166532
+    second: centro_healthy_52
+  - first:
+      213: 4178854748837885549
+    second: centro_healthy_53
+  - first:
+      213: 4657643106523117828
+    second: centro_healthy_54
+  - first:
+      213: 5889275008961566752
+    second: centro_healthy_55
+  - first:
+      213: -6097186236552305649
+    second: centro_healthy_56
+  - first:
+      213: 8866832242763693482
+    second: centro_healthy_57
+  - first:
+      213: 306639308042579778
+    second: centro_healthy_58
+  - first:
+      213: 5822921157912050308
+    second: centro_healthy_59
+  - first:
+      213: -7266591302679266025
+    second: centro_healthy_60
+  - first:
+      213: -7351304751989598740
+    second: centro_healthy_61
+  - first:
+      213: -4553162064443126966
+    second: centro_healthy_62
+  - first:
+      213: 3883555447913272611
+    second: centro_healthy_63
+  - first:
+      213: -8493322515689945542
+    second: centro_healthy_64
+  - first:
+      213: -2743237099392133346
+    second: centro_healthy_65
+  - first:
+      213: 977869153772731268
+    second: centro_healthy_66
+  - first:
+      213: -2029502355259773834
+    second: centro_healthy_67
+  - first:
+      213: 2073036849368024391
+    second: centro_healthy_68
+  - first:
+      213: 2691001480586973882
+    second: centro_healthy_69
+  - first:
+      213: 5537580829403440781
+    second: centro_healthy_70
+  - first:
+      213: -7761350133651668127
+    second: centro_healthy_71
+  - first:
+      213: -6544808765128206102
+    second: centro_healthy_72
+  - first:
+      213: -6012085933451965061
+    second: centro_healthy_73
+  - first:
+      213: 8915378057937478233
+    second: centro_healthy_74
+  - first:
+      213: 5391897497497601665
+    second: centro_healthy_75
+  - first:
+      213: 3541433286414654511
+    second: centro_healthy_76
+  - first:
+      213: -2724164522323868252
+    second: centro_healthy_77
+  - first:
+      213: 5553346474159071426
+    second: centro_healthy_78
+  - first:
+      213: -3337448918206294944
+    second: centro_healthy_79
+  - first:
+      213: 110498972374284691
+    second: centro_healthy_80
+  - first:
+      213: 7147162957871984364
+    second: centro_healthy_81
+  - first:
+      213: -6952081864892125192
+    second: centro_healthy_82
+  - first:
+      213: 1264375036218583593
+    second: centro_healthy_83
+  - first:
+      213: 1641696336287150182
+    second: centro_healthy_84
+  - first:
+      213: -3689268747950558744
+    second: centro_healthy_85
+  - first:
+      213: 8123464294635327663
+    second: centro_healthy_86
+  - first:
+      213: 370891234653654114
+    second: centro_healthy_87
+  - first:
+      213: -573423957385308472
+    second: centro_healthy_88
+  - first:
+      213: -3743817504311714872
+    second: centro_healthy_89
+  - first:
+      213: -3253359379154998099
+    second: centro_healthy_90
+  - first:
+      213: 7062852695457887660
+    second: centro_healthy_91
+  - first:
+      213: -7360104178765515374
+    second: centro_healthy_92
+  - first:
+      213: -7551482163476428108
+    second: centro_healthy_93
+  - first:
+      213: 786676911452820475
+    second: centro_healthy_94
+  - first:
+      213: -2981162395712295764
+    second: centro_healthy_95
+  - first:
+      213: 4113592220329703504
+    second: centro_healthy_96
+  - first:
+      213: -1242275068852702790
+    second: centro_healthy_97
+  - first:
+      213: -7436424639868824024
+    second: centro_healthy_98
+  - first:
+      213: -1051957204082401349
+    second: centro_healthy_99
+  - first:
+      213: 3040314992767030684
+    second: centro_healthy_100
+  - first:
+      213: 7884814627792380090
+    second: centro_healthy_101
+  - first:
+      213: 638803984762465346
+    second: centro_healthy_102
+  - first:
+      213: -5938821298713866321
+    second: centro_healthy_103
+  - first:
+      213: -7586671354087054454
+    second: centro_healthy_104
+  - first:
+      213: -1651816590961945488
+    second: centro_healthy_105
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: centro_healthy_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 7786
+        width: 392
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 898403eb4c6f92070800000000000000
+      internalID: 8082262331157923992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_1
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 7787
+        width: 388
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adf443e83c4107af0800000000000000
+      internalID: -400797536699002918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_2
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 7790
+        width: 384
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b874262d21f34d290800000000000000
+      internalID: -7866593299037796469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_3
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 7790
+        width: 384
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9e0e632b98fe0310800000000000000
+      internalID: 1373308281592614559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_4
+      rect:
+        serializedVersion: 2
+        x: 1594
+        y: 7794
+        width: 380
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 194806e59d93b6c20800000000000000
+      internalID: 3200715565930939537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_5
+      rect:
+        serializedVersion: 2
+        x: 1986
+        y: 7794
+        width: 376
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdc5c9133b238d2b0800000000000000
+      internalID: -5559637994776011556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_6
+      rect:
+        serializedVersion: 2
+        x: 2382
+        y: 7798
+        width: 372
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a5fb2733cf356810800000000000000
+      internalID: 1757881337234847138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_7
+      rect:
+        serializedVersion: 2
+        x: 2774
+        y: 7798
+        width: 372
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bb065137e727d8c0800000000000000
+      internalID: -3974664272212522055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_8
+      rect:
+        serializedVersion: 2
+        x: 3170
+        y: 7802
+        width: 368
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bc280f0c6cec7f60800000000000000
+      internalID: 8033555784174939319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_9
+      rect:
+        serializedVersion: 2
+        x: 3566
+        y: 7802
+        width: 364
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c953e3ef127f92d0800000000000000
+      internalID: -3269769323154810427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_10
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 7402
+        width: 360
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b5db753903814a90800000000000000
+      internalID: -7331434642807204426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_11
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 7403
+        width: 356
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdcb9d5d56d9a0d50800000000000000
+      internalID: 6704344055999479004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_12
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 7406
+        width: 356
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a64e9d03ce552d450800000000000000
+      internalID: 6112042117215413354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_13
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 7406
+        width: 348
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f213305730ae30ec0800000000000000
+      internalID: -3601777976397319889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_14
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 7408
+        width: 348
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f834033fb7bd50e80800000000000000
+      internalID: -8212917020032744561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_15
+      rect:
+        serializedVersion: 2
+        x: 2002
+        y: 7410
+        width: 344
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53f44dad1b1f62e30800000000000000
+      internalID: 4478532625649389365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_16
+      rect:
+        serializedVersion: 2
+        x: 2396
+        y: 7410
+        width: 342
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 780540a60c2692e20800000000000000
+      internalID: 3326298378341732487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_17
+      rect:
+        serializedVersion: 2
+        x: 2786
+        y: 7407
+        width: 348
+        height: 343
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94ac2fc08de947990800000000000000
+      internalID: -7389106437840778679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_18
+      rect:
+        serializedVersion: 2
+        x: 3178
+        y: 7406
+        width: 348
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75c4a21a6ccac6c10800000000000000
+      internalID: 2048201899654138967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_19
+      rect:
+        serializedVersion: 2
+        x: 3570
+        y: 7402
+        width: 352
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0f2b98d749ed29f0800000000000000
+      internalID: -491480289527517428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_20
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 7002
+        width: 358
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fefa8d6d74e0ca970800000000000000
+      internalID: 8767398276293505007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_21
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 7002
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0750ab6288bdab180800000000000000
+      internalID: -9098718719336905360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_22
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 6998
+        width: 365
+        height: 367
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0b1728535a7a8520800000000000000
+      internalID: 2705109024569236237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_23
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 6998
+        width: 368
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 337bc74109a8ed560800000000000000
+      internalID: 7340456794084128563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_24
+      rect:
+        serializedVersion: 2
+        x: 1594
+        y: 6994
+        width: 372
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04f2959e47b81a260800000000000000
+      internalID: 7107115021214756672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_25
+      rect:
+        serializedVersion: 2
+        x: 1986
+        y: 6990
+        width: 376
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aab9ca15921ca9820800000000000000
+      internalID: 2925863291138644906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_26
+      rect:
+        serializedVersion: 2
+        x: 2378
+        y: 6990
+        width: 376
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe0c91ecfbbbb6010800000000000000
+      internalID: 1183245759585829103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_27
+      rect:
+        serializedVersion: 2
+        x: 2774
+        y: 6990
+        width: 372
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db1b02eeabc0417e0800000000000000
+      internalID: -1795796354415414851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_28
+      rect:
+        serializedVersion: 2
+        x: 3166
+        y: 6990
+        width: 376
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0ce14d14b9e29c90800000000000000
+      internalID: -7164407097398793202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_29
+      rect:
+        serializedVersion: 2
+        x: 3558
+        y: 6990
+        width: 376
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bd684b6d75627330800000000000000
+      internalID: 3707137032624565688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_30
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 6590
+        width: 376
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a40e79e4d6deb5d60800000000000000
+      internalID: 7880153026740609098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_31
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 6586
+        width: 380
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10fd38ad3526b9b90800000000000000
+      internalID: -7234080264152686847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_32
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 6586
+        width: 380
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf3c8ee5327ae8c00800000000000000
+      internalID: 904844345506055164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_33
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 6586
+        width: 380
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27433786bac9f04d0800000000000000
+      internalID: -3166139753012448142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_34
+      rect:
+        serializedVersion: 2
+        x: 1594
+        y: 6586
+        width: 380
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8755c43a261b47f00800000000000000
+      internalID: 1113710045071955320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_35
+      rect:
+        serializedVersion: 2
+        x: 1986
+        y: 6586
+        width: 380
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba586d7174d6380c0800000000000000
+      internalID: -4574692644368251477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_36
+      rect:
+        serializedVersion: 2
+        x: 2378
+        y: 6586
+        width: 380
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8689d7110a1b1300800000000000000
+      internalID: 223801198482392716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_37
+      rect:
+        serializedVersion: 2
+        x: 2770
+        y: 6586
+        width: 384
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2907475317b5cf180800000000000000
+      internalID: -9080282206899507054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_38
+      rect:
+        serializedVersion: 2
+        x: 3162
+        y: 6590
+        width: 384
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e02e5e6d45e5a36b0800000000000000
+      internalID: -5315832691681795570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_39
+      rect:
+        serializedVersion: 2
+        x: 3554
+        y: 6590
+        width: 384
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d90797583c39bfc60800000000000000
+      internalID: 7853032843217825949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_40
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 6190
+        width: 383
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5aa5b61cac7defd0800000000000000
+      internalID: -2311053955213972898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_41
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 6194
+        width: 384
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f769732692a0850e0800000000000000
+      internalID: -2281062038405409153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_42
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 6194
+        width: 384
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dec60c3641a2b1400800000000000000
+      internalID: 295876467584167149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_43
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 6194
+        width: 384
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b707f30c0897bb760800000000000000
+      internalID: 7474701600439627899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_44
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 6198
+        width: 380
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd543d6d24c4cbf70800000000000000
+      internalID: 9204315588394173917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_45
+      rect:
+        serializedVersion: 2
+        x: 1986
+        y: 6198
+        width: 376
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa3654223047a30b0800000000000000
+      internalID: -5748154417576320086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_46
+      rect:
+        serializedVersion: 2
+        x: 2382
+        y: 6202
+        width: 368
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9723f54f561b77a0800000000000000
+      internalID: -6378479848788908132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_47
+      rect:
+        serializedVersion: 2
+        x: 2778
+        y: 6202
+        width: 364
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00961a9756fc5b300800000000000000
+      internalID: 267347787637680384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_48
+      rect:
+        serializedVersion: 2
+        x: 3174
+        y: 6206
+        width: 360
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3359b9dde18c9ea0800000000000000
+      internalID: -5864669756183194819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_49
+      rect:
+        serializedVersion: 2
+        x: 3566
+        y: 6206
+        width: 359
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4857ae7f45e918c0800000000000000
+      internalID: -4027936262116124597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_50
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 5810
+        width: 352
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c5f15e68c006d7f0800000000000000
+      internalID: -588281840480946750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_51
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 5814
+        width: 344
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db0d10dd53f5b9960800000000000000
+      internalID: 7609780680318374077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_52
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 5814
+        width: 340
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c897883f5473f900800000000000000
+      internalID: 717044718001166532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_53
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 5814
+        width: 348
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d66bf68e0464ef930800000000000000
+      internalID: 4178854748837885549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_54
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 5810
+        width: 352
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4097bd66ab543a040800000000000000
+      internalID: 4657643106523117828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_55
+      rect:
+        serializedVersion: 2
+        x: 1998
+        y: 5810
+        width: 352
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0285dbdfa68eab150800000000000000
+      internalID: 5889275008961566752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_56
+      rect:
+        serializedVersion: 2
+        x: 2390
+        y: 5806
+        width: 356
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0426e01c61726ba0800000000000000
+      internalID: -6097186236552305649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_57
+      rect:
+        serializedVersion: 2
+        x: 2778
+        y: 5804
+        width: 364
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aadf8e042f05d0b70800000000000000
+      internalID: 8866832242763693482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_58
+      rect:
+        serializedVersion: 2
+        x: 3170
+        y: 5802
+        width: 364
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24fac0673d6614400800000000000000
+      internalID: 306639308042579778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_59
+      rect:
+        serializedVersion: 2
+        x: 3562
+        y: 5802
+        width: 368
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48a347421fb2fc050800000000000000
+      internalID: 5822921157912050308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_60
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 5398
+        width: 372
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71dfbd3d5b1e72b90800000000000000
+      internalID: -7266591302679266025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_61
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 5398
+        width: 380
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce5d406e64beaf990800000000000000
+      internalID: -7351304751989598740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_62
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 5398
+        width: 376
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4b4510e93befc0c0800000000000000
+      internalID: -4553162064443126966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_63
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 5394
+        width: 380
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 325576a9a1925e530800000000000000
+      internalID: 3883555447913272611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_64
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 5394
+        width: 380
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a364979eb28a12a80800000000000000
+      internalID: -8493322515689945542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_65
+      rect:
+        serializedVersion: 2
+        x: 1982
+        y: 5394
+        width: 384
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e171f0474601ee9d0800000000000000
+      internalID: -2743237099392133346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_66
+      rect:
+        serializedVersion: 2
+        x: 2378
+        y: 5390
+        width: 380
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48b7f6b70d6129d00800000000000000
+      internalID: 977869153772731268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_67
+      rect:
+        serializedVersion: 2
+        x: 2770
+        y: 5390
+        width: 384
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67c2ce35c52c5d3e0800000000000000
+      internalID: -2029502355259773834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_68
+      rect:
+        serializedVersion: 2
+        x: 3162
+        y: 5387
+        width: 384
+        height: 395
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74540e4f708e4cc10800000000000000
+      internalID: 2073036849368024391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_69
+      rect:
+        serializedVersion: 2
+        x: 3554
+        y: 5386
+        width: 388
+        height: 396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab2df6cc69b585520800000000000000
+      internalID: 2691001480586973882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_70
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 4986
+        width: 388
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d86ea9bcc6079dc40800000000000000
+      internalID: 5537580829403440781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_71
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 4986
+        width: 388
+        height: 396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1630342cc252a4490800000000000000
+      internalID: -7761350133651668127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_72
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 4987
+        width: 384
+        height: 395
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae89baf9a1b2c25a0800000000000000
+      internalID: -6544808765128206102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_73
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 4990
+        width: 384
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7d097962b7c09ca0800000000000000
+      internalID: -6012085933451965061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_74
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 4990
+        width: 388
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 952eca5ab19c9bb70800000000000000
+      internalID: 8915378057937478233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_75
+      rect:
+        serializedVersion: 2
+        x: 1986
+        y: 4991
+        width: 384
+        height: 391
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18689abd43ed3da40800000000000000
+      internalID: 5391897497497601665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_76
+      rect:
+        serializedVersion: 2
+        x: 2378
+        y: 4994
+        width: 384
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2c5d788fc2b52130800000000000000
+      internalID: 3541433286414654511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_77
+      rect:
+        serializedVersion: 2
+        x: 2770
+        y: 4994
+        width: 384
+        height: 387
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a50a29dcc2d13ad0800000000000000
+      internalID: -2724164522323868252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_78
+      rect:
+        serializedVersion: 2
+        x: 3166
+        y: 4994
+        width: 380
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c06be20233711d40800000000000000
+      internalID: 5553346474159071426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_79
+      rect:
+        serializedVersion: 2
+        x: 3558
+        y: 4998
+        width: 384
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0645d4634effea1d0800000000000000
+      internalID: -3337448918206294944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_80
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 4602
+        width: 376
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3993a6cda32988100800000000000000
+      internalID: 110498972374284691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_81
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 4602
+        width: 372
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cee2ac7c7d2df2360800000000000000
+      internalID: 7147162957871984364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_82
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 4603
+        width: 368
+        height: 367
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ff6ba9a06e358f90800000000000000
+      internalID: -6952081864892125192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_83
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 4606
+        width: 368
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92a2ea08566fb8110800000000000000
+      internalID: 1264375036218583593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_84
+      rect:
+        serializedVersion: 2
+        x: 1602
+        y: 4606
+        width: 364
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 660b479ae1a78c610800000000000000
+      internalID: 1641696336287150182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_85
+      rect:
+        serializedVersion: 2
+        x: 1994
+        y: 4607
+        width: 364
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e1f47dce951dccc0800000000000000
+      internalID: -3689268747950558744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_86
+      rect:
+        serializedVersion: 2
+        x: 2390
+        y: 4610
+        width: 360
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa0de4b6cb75cb070800000000000000
+      internalID: 8123464294635327663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_87
+      rect:
+        serializedVersion: 2
+        x: 2782
+        y: 4607
+        width: 360
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26c46d3ec9ba52500800000000000000
+      internalID: 370891234653654114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_88
+      rect:
+        serializedVersion: 2
+        x: 3174
+        y: 4606
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c6995ae2f9ca08f0800000000000000
+      internalID: -573423957385308472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_89
+      rect:
+        serializedVersion: 2
+        x: 3566
+        y: 4606
+        width: 364
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cb5c9fb0d94b0cc0800000000000000
+      internalID: -3743817504311714872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_90
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 4210
+        width: 360
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dace7c6b1eeb9d2d0800000000000000
+      internalID: -3253359379154998099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_91
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 4208
+        width: 364
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca57dad1b1b440260800000000000000
+      internalID: 7062852695457887660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_92
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 4210
+        width: 364
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29530d2be38abd990800000000000000
+      internalID: -7360104178765515374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_93
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 4207
+        width: 367
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ba0a465bfeb33790800000000000000
+      internalID: -7551482163476428108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_94
+      rect:
+        serializedVersion: 2
+        x: 1598
+        y: 4206
+        width: 368
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf39524ab76daea00800000000000000
+      internalID: 786676911452820475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_95
+      rect:
+        serializedVersion: 2
+        x: 1994
+        y: 4206
+        width: 364
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cace0d19898c0a6d0800000000000000
+      internalID: -2981162395712295764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_96
+      rect:
+        serializedVersion: 2
+        x: 2384
+        y: 4206
+        width: 370
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 058ff83645a661930800000000000000
+      internalID: 4113592220329703504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_97
+      rect:
+        serializedVersion: 2
+        x: 2778
+        y: 4206
+        width: 368
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab1f5bf186d82cee0800000000000000
+      internalID: -1242275068852702790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_98
+      rect:
+        serializedVersion: 2
+        x: 3170
+        y: 4206
+        width: 372
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82618ad90338cc890800000000000000
+      internalID: -7436424639868824024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_99
+      rect:
+        serializedVersion: 2
+        x: 3562
+        y: 4206
+        width: 372
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbf51c31f72b661f0800000000000000
+      internalID: -1051957204082401349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_100
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 3806
+        width: 376
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c955c2da06e513a20800000000000000
+      internalID: 3040314992767030684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_101
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 3802
+        width: 380
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab06e51e02d7c6d60800000000000000
+      internalID: 7884814627792380090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_102
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 3802
+        width: 380
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24ceed0f6dc7dd800800000000000000
+      internalID: 638803984762465346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_103
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 3802
+        width: 384
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fafc2a97e71159da0800000000000000
+      internalID: -5938821298713866321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_104
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 3802
+        width: 384
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a836200799ab6b690800000000000000
+      internalID: -7586671354087054454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_healthy_105
+      rect:
+        serializedVersion: 2
+        x: 1982
+        y: 3798
+        width: 388
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 074dd9def819319e0800000000000000
+      internalID: -1651816590961945488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

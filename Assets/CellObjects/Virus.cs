@@ -395,7 +395,7 @@ public class Virus : CellObject
 			if (!isNeutralized && doDamage)
 			{
 				p_cell.c_membrane.takeDamageAt(x, y, DMG_PIERCE_MEMBRANE);
-				p_cell.notifyOHandler(EngineEvent.ENGINE_TRIGGER, "virus_entry_wound", wave_id, 1);
+				//p_cell.notifyOHandler(EngineEvent.ENGINE_TRIGGER, "virus_entry_wound", wave_id, 1);  //TODO
 			}
 		}
 		else
@@ -447,7 +447,7 @@ public class Virus : CellObject
 		{
 			p_cell.c_membrane.takeDamageAt(x, y, DMG_PIERCE_MEMBRANE); //damage the membrane
 			p_cell.onVirusEscape(wave_id, 1);
-			p_cell.notifyOHandler(EngineEvent.ENGINE_TRIGGER, "virus_exit_wound", wave_id, 1);
+			//p_cell.notifyOHandler(EngineEvent.ENGINE_TRIGGER, "virus_exit_wound", wave_id, 1);  //TODO
 		}
 
 		outsideCell();
@@ -483,14 +483,16 @@ public class Virus : CellObject
 			if (absorbCount > ABSORB_TIME)
 			{
 				absorbCount = 0;
-				if (p_canvas.checkAbsorbCellObject(this, isNeutralized))
-				{
+
+				/*if (p_canvas.checkAbsorbCellObject(this, isNeutralized))
+				{  //TODO all this 
 
 					p_cell.notifyOHandler(EngineEvent.ENGINE_TRIGGER, "virus_escape", wave_id, 1);
-					cancelMove();
-					StopCoroutine(_checkAbsorbRoutine);
-					p_cell.killVirus(this);
-				}
+					
+				}*/
+				cancelMove();
+				StopCoroutine(_checkAbsorbRoutine);
+				p_cell.killVirus(this);
 			}
 		}
 	}

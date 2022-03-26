@@ -109,11 +109,9 @@ public class Nucleus : CellObject
 
 		callForHelp();
 
-		//trace("Nucleus.infestByRNA(r)!!!");
-		//makeSplatter(r.x, r.y);
 	}
 
-	public override void takeDamage(float n)
+	public override void takeDamage(float n, bool hardKill = false)
 	{
 		callForHelp();
 		base.takeDamage(n);

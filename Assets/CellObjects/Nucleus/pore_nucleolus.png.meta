@@ -1,0 +1,1426 @@
+fileFormatVersion: 2
+guid: 0e7d035d1f0c9be448920a1bcee2644b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8602728008366293526
+    second: pore_nucleolus_6_5
+  - first:
+      213: 8738118835520474453
+    second: pore_nucleolus_1
+  - first:
+      213: 64328633665748085
+    second: pore_nucleolus_2
+  - first:
+      213: 5631887225576052818
+    second: pore_nucleolus_3
+  - first:
+      213: -839867830199579540
+    second: pore_nucleolus_4
+  - first:
+      213: -2994783509543838449
+    second: pore_nucleolus_5
+  - first:
+      213: -5515107505394550088
+    second: pore_nucleolus_6
+  - first:
+      213: -1913554122625736891
+    second: pore_nucleolus_7
+  - first:
+      213: -4701054318077323236
+    second: pore_nucleolus_8
+  - first:
+      213: -4785935572727139515
+    second: pore_nucleolus_9
+  - first:
+      213: 2509098302162888499
+    second: pore_nucleolus_10
+  - first:
+      213: 3511042059075891359
+    second: pore_nucleolus_11
+  - first:
+      213: -781950630666983136
+    second: pore_nucleolus_12
+  - first:
+      213: 2903029013441326047
+    second: pore_nucleolus_13
+  - first:
+      213: -1067854071071524831
+    second: pore_nucleolus_14
+  - first:
+      213: 7429875145079375358
+    second: pore_nucleolus_15
+  - first:
+      213: 2783762085631231264
+    second: pore_nucleolus_16
+  - first:
+      213: -4122429983150813696
+    second: pore_nucleolus_17
+  - first:
+      213: -2977487286675661998
+    second: pore_nucleolus_18
+  - first:
+      213: 1648743414646177252
+    second: pore_nucleolus_19
+  - first:
+      213: 2126175584659199545
+    second: pore_nucleolus_20
+  - first:
+      213: 7644923680653138342
+    second: pore_nucleolus_21
+  - first:
+      213: -5587631081243037894
+    second: pore_nucleolus_22
+  - first:
+      213: 5681722602021877183
+    second: pore_nucleolus_23
+  - first:
+      213: -4299846841098932189
+    second: pore_nucleolus_24
+  - first:
+      213: 316915405951907664
+    second: pore_nucleolus_25
+  - first:
+      213: 7305236641225446984
+    second: pore_nucleolus_26
+  - first:
+      213: -3959673914041962337
+    second: pore_nucleolus_27
+  - first:
+      213: -7638526097537153040
+    second: pore_nucleolus_28
+  - first:
+      213: 2499045441043972835
+    second: pore_nucleolus_29
+  - first:
+      213: 3434488172210901361
+    second: pore_nucleolus_30
+  - first:
+      213: -4906536260519174251
+    second: pore_nucleolus_31
+  - first:
+      213: 7478417248108379789
+    second: pore_nucleolus_32
+  - first:
+      213: 6704232299297945730
+    second: pore_nucleolus_33
+  - first:
+      213: -7228189677237101154
+    second: pore_nucleolus_34
+  - first:
+      213: -5336639487373277754
+    second: pore_nucleolus_35
+  - first:
+      213: -8953302863655842315
+    second: pore_nucleolus_36
+  - first:
+      213: -3262334816932780586
+    second: pore_nucleolus_37
+  - first:
+      213: 2707332132033991848
+    second: pore_nucleolus_38
+  - first:
+      213: 6376586502316697430
+    second: pore_nucleolus_39
+  - first:
+      213: 9093104847618402313
+    second: pore_nucleolus_40
+  - first:
+      213: -3991232218469681987
+    second: pore_nucleolus_41
+  - first:
+      213: 7946956562719756115
+    second: pore_nucleolus_42
+  - first:
+      213: -1339708497891970539
+    second: pore_nucleolus_43
+  - first:
+      213: 8707793991170507341
+    second: pore_nucleolus_44
+  - first:
+      213: 381597879165838480
+    second: pore_nucleolus_45
+  - first:
+      213: 4691338259888106333
+    second: pore_nucleolus_0
+  - first:
+      213: 5795501317780269513
+    second: pore_nucleolus_1
+  - first:
+      213: 5333485242681653316
+    second: pore_nucleolus_2
+  - first:
+      213: 6023476440333131346
+    second: pore_nucleolus_3
+  - first:
+      213: -4208138917337144300
+    second: pore_nucleolus_4
+  - first:
+      213: -5753501696300092
+    second: pore_nucleolus_5
+  - first:
+      213: 4651282420516702763
+    second: pore_nucleolus_6
+  - first:
+      213: -3190845616999659180
+    second: pore_nucleolus_7
+  - first:
+      213: -163799875064980744
+    second: pore_nucleolus_8
+  - first:
+      213: 2787601525526780982
+    second: pore_nucleolus_9
+  - first:
+      213: 2859235470722259687
+    second: pore_nucleolus_10
+  - first:
+      213: -5492582001699580391
+    second: pore_nucleolus_11
+  - first:
+      213: 8597217482554256558
+    second: pore_nucleolus_12
+  - first:
+      213: 3261722801683594378
+    second: pore_nucleolus_13
+  - first:
+      213: -3729455743819455991
+    second: pore_nucleolus_14
+  - first:
+      213: 3873183355238736206
+    second: pore_nucleolus_15
+  - first:
+      213: -384134798499598530
+    second: pore_nucleolus_16
+  - first:
+      213: -3506697866739252708
+    second: pore_nucleolus_17
+  - first:
+      213: -5668254678278528251
+    second: pore_nucleolus_18
+  - first:
+      213: 3160745056674275608
+    second: pore_nucleolus_19
+  - first:
+      213: -473958306326375061
+    second: pore_nucleolus_20
+  - first:
+      213: -1867038402071183366
+    second: pore_nucleolus_21
+  - first:
+      213: 3712395869600929094
+    second: pore_nucleolus_22
+  - first:
+      213: 5497048403911408229
+    second: pore_nucleolus_23
+  - first:
+      213: 2121706102571016657
+    second: pore_nucleolus_24
+  - first:
+      213: 3012502742021165292
+    second: pore_nucleolus_25
+  - first:
+      213: 8324607004865664532
+    second: pore_nucleolus_26
+  - first:
+      213: -9169339059146062717
+    second: pore_nucleolus_27
+  - first:
+      213: 3771530990452761409
+    second: pore_nucleolus_28
+  - first:
+      213: 4760550399786661713
+    second: pore_nucleolus_29
+  - first:
+      213: 2501232858255300554
+    second: pore_nucleolus_30
+  - first:
+      213: -3665572177946217472
+    second: pore_nucleolus_31
+  - first:
+      213: 2652222280369541100
+    second: pore_nucleolus_32
+  - first:
+      213: -3593936803735444092
+    second: pore_nucleolus_33
+  - first:
+      213: 3181398133024446409
+    second: pore_nucleolus_34
+  - first:
+      213: 2164559680675955147
+    second: pore_nucleolus_35
+  - first:
+      213: -7135597446918870357
+    second: pore_nucleolus_36
+  - first:
+      213: 103918378449712863
+    second: pore_nucleolus_37
+  - first:
+      213: -8804362030427045275
+    second: pore_nucleolus_38
+  - first:
+      213: 8211303215492580319
+    second: pore_nucleolus_39
+  - first:
+      213: 487492679557177299
+    second: pore_nucleolus_40
+  - first:
+      213: 3701266172765338974
+    second: pore_nucleolus_41
+  - first:
+      213: 8908142993513416659
+    second: pore_nucleolus_42
+  - first:
+      213: 4177568058915664799
+    second: pore_nucleolus_43
+  - first:
+      213: 4432553965520997237
+    second: pore_nucleolus_44
+  - first:
+      213: 3068975160267404990
+    second: pore_nucleolus_45
+  - first:
+      213: -2743298609155830542
+    second: pore_nucleolus_6_5
+  - first:
+      213: -2743298609155830542
+    second: pore_nucleolus_0_5
+  - first:
+      213: 6548208324327519184
+    second: pore_nucleolus_0
+  - first:
+      213: 1292516974011471458
+    second: pore_nucleolus_6_5
+  - first:
+      213: 7150719100836778359
+    second: pore_nucleolus_48
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pore_nucleolus_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 109
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eacac6810c37f4770800000000000000
+      internalID: 8597217482554256558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pore_nucleolus_13
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 109
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8c74265b97f34d20800000000000000
+      internalID: 3261722801683594378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pore_nucleolus_14
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 109
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 902e910b2cf4e3cc0800000000000000
+      internalID: -3729455743819455991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pore_nucleolus_15
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 109
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e41e5f69dbf40c530800000000000000
+      internalID: 3873183355238736206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pore_nucleolus_16
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 109
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3fa09d9f674baaf0800000000000000
+      internalID: -384134798499598530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pore_nucleolus_17
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 110
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1203669ed4b55fc0800000000000000
+      internalID: -3506697866739252708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pore_nucleolus_19
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 82
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81164a8f1e83ddb20800000000000000
+      internalID: 3160745056674275608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pore_nucleolus_20
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 82
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6512197e692c69f0800000000000000
+      internalID: -473958306326375061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pore_nucleolus_21
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 83
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: affb88e1772f616e0800000000000000
+      internalID: -1867038402071183366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pore_nucleolus_22
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 83
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 645d031df54158330800000000000000
+      internalID: 3712395869600929094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pore_nucleolus_23
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 83
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56a74441660794c40800000000000000
+      internalID: 5497048403911408229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pore_nucleolus_24
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 84
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d126818570d17d10800000000000000
+      internalID: 2121706102571016657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pore_nucleolus_26
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 55
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4161fbb17f1f68370800000000000000
+      internalID: 8324607004865664532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pore_nucleolus_27
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 56
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3840c7af4b6ffb080800000000000000
+      internalID: -9169339059146062717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pore_nucleolus_28
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 56
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1436051147b275430800000000000000
+      internalID: 3771530990452761409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pore_nucleolus_29
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 57
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 157b0aabd5fd01240800000000000000
+      internalID: 4760550399786661713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pore_nucleolus_30
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 57
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac797d0580a26b220800000000000000
+      internalID: 2501232858255300554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pore_nucleolus_31
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 57
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 004f5f27685412dc0800000000000000
+      internalID: -3665572177946217472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pore_nucleolus_33
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 28
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 485652cb485cf1ec0800000000000000
+      internalID: -3593936803735444092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pore_nucleolus_34
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 28
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c753080fb8962c20800000000000000
+      internalID: 3181398133024446409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pore_nucleolus_35
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 28
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc1c2ddaf8f0a0e10800000000000000
+      internalID: 2164559680675955147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pore_nucleolus_36
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 28
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baa67349de349fc90800000000000000
+      internalID: -7135597446918870357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pore_nucleolus_37
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 29
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd63121f631317100800000000000000
+      internalID: 103918378449712863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pore_nucleolus_38
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 29
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 562857e716f90d580800000000000000
+      internalID: -8804362030427045275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pore_nucleolus_40
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 0
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dfdb9b520ce3c600800000000000000
+      internalID: 487492679557177299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pore_nucleolus_41
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 0
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5df8d659f98d5330800000000000000
+      internalID: 3701266172765338974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pore_nucleolus_42
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 0
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d780c0fad410ab70800000000000000
+      internalID: 8908142993513416659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pore_nucleolus_43
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 0
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f93bfa01404b9f930800000000000000
+      internalID: 4177568058915664799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pore_nucleolus_44
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 0
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57bc0a2d858938d30800000000000000
+      internalID: 4432553965520997237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pore_nucleolus_45
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 0
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb67c3ce5a0379a20800000000000000
+      internalID: 3068975160267404990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pore_nucleolus_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 174
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5b64d5aa4bfa1140800000000000000
+      internalID: 4691338259888106333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pore_nucleolus_1
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 174
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55d095cc8c8044970800000000000000
+      internalID: 8738118835520474453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pore_nucleolus_2
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 173
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57c788e2d8a84e000800000000000000
+      internalID: 64328633665748085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pore_nucleolus_3
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 173
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2585587b79b782e40800000000000000
+      internalID: 5631887225576052818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pore_nucleolus_4
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 173
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6c0da288a03854f0800000000000000
+      internalID: -839867830199579540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pore_nucleolus_5
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 172
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0d117ed3446076d0800000000000000
+      internalID: -2994783509543838449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pore_nucleolus_6
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 142
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bafdd2b1f66673b0800000000000000
+      internalID: -5515107505394550088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pore_nucleolus_7
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 141
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54f9866f9a0b175e0800000000000000
+      internalID: -1913554122625736891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pore_nucleolus_8
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 140
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c185f25410082ceb0800000000000000
+      internalID: -4701054318077323236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pore_nucleolus_9
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 140
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54371bd14f0f49db0800000000000000
+      internalID: -4785935572727139515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pore_nucleolus_10
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 139
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33764feac9b12d220800000000000000
+      internalID: 2509098302162888499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pore_nucleolus_11
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 138
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f90bca2862ab9b030800000000000000
+      internalID: 3511042059075891359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pore_nucleolus_18
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 110
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25b94729617dda6d0800000000000000
+      internalID: -2977487286675661998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pore_nucleolus_25
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 84
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 057bc93f1e8e56400800000000000000
+      internalID: 316915405951907664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pore_nucleolus_32
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 57
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8e77a36ddca8c760800000000000000
+      internalID: 7478417248108379789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pore_nucleolus_39
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 29
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6572326a3af2e7850800000000000000
+      internalID: 6376586502316697430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pore_nucleolus_0_5
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 173
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fc81781378dde9d0800000000000000
+      internalID: -2743298609155830542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pore_nucleolus_6_5
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 141
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 266dd1ef651ffe110800000000000000
+      internalID: 1292516974011471458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

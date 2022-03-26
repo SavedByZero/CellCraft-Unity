@@ -4,11 +4,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+//
 public class Centrosome : CellObject
 {
+	//mc_centrosome_anim -- main healthy animation. 
+	//centrolightdam01 -- same thing, but lightly damaged 
+	//centroheavydam01 -- same thing, but heavily damaged 
 
-		public Centrosome()
+		public Centrosome() : base()
 		{
 			showSubtleDamage = true;
 			singleSelect = true;

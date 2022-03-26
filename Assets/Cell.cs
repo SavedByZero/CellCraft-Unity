@@ -3915,9 +3915,9 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 		}
 	}
 
-	public List<int> getActionListFromEngine(int i)
+	public List<CellAction> getActionListFromEngine(int i)
 	{
-		List<int> v = null;//p_engine.lookupActionList(i);  //TODO
+		List<CellAction> v = new List<CellAction>();//p_engine.lookupActionList(i);  //TODO
 		return v;
 	}
 		

@@ -1,0 +1,1567 @@
+fileFormatVersion: 2
+guid: 7f652890ed06788468a6882d5df08ade
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3994031580496711958
+    second: golgi_normal_0
+  - first:
+      213: -2673297386117043492
+    second: golgi_normal_1
+  - first:
+      213: -3331182856686168909
+    second: golgi_normal_2
+  - first:
+      213: 2147947837211773867
+    second: golgi_normal_3
+  - first:
+      213: 2073101505945608219
+    second: golgi_normal_4
+  - first:
+      213: 3617500952097194221
+    second: golgi_normal_5
+  - first:
+      213: -6028431918989620995
+    second: golgi_normal_6
+  - first:
+      213: -4978163302216316883
+    second: golgi_normal_7
+  - first:
+      213: 1947201720487692988
+    second: golgi_normal_8
+  - first:
+      213: 2443970507326341034
+    second: golgi_normal_9
+  - first:
+      213: -7724853004276489842
+    second: golgi_normal_10
+  - first:
+      213: -7892513967861949509
+    second: golgi_normal_11
+  - first:
+      213: 8099301544846657642
+    second: golgi_normal_12
+  - first:
+      213: 6076868970301977659
+    second: golgi_normal_13
+  - first:
+      213: -4605560428335689768
+    second: golgi_normal_14
+  - first:
+      213: -8827049492583526263
+    second: golgi_normal_15
+  - first:
+      213: -2892744145149919110
+    second: golgi_normal_16
+  - first:
+      213: -7080394379541451232
+    second: golgi_normal_17
+  - first:
+      213: -9177248392305396115
+    second: golgi_normal_18
+  - first:
+      213: 7415953444884389780
+    second: golgi_normal_19
+  - first:
+      213: -9194250384317303096
+    second: golgi_normal_20
+  - first:
+      213: -9143146524654397805
+    second: golgi_normal_21
+  - first:
+      213: -5252881097442354154
+    second: golgi_normal_22
+  - first:
+      213: -7024972517309632519
+    second: golgi_normal_23
+  - first:
+      213: 253166543863193225
+    second: golgi_normal_24
+  - first:
+      213: -7105585356451757661
+    second: golgi_normal_25
+  - first:
+      213: 1420328364598441897
+    second: golgi_normal_26
+  - first:
+      213: -4250106905081589001
+    second: golgi_normal_27
+  - first:
+      213: -2942647928534855646
+    second: golgi_normal_28
+  - first:
+      213: 355115270733739649
+    second: golgi_normal_29
+  - first:
+      213: -1024133757763904466
+    second: golgi_normal_30
+  - first:
+      213: -2193530109520279473
+    second: golgi_normal_31
+  - first:
+      213: -383792788064798758
+    second: golgi_normal_32
+  - first:
+      213: -7938099717668085252
+    second: golgi_normal_33
+  - first:
+      213: -7545658044329367957
+    second: golgi_normal_34
+  - first:
+      213: -2589818536970084432
+    second: golgi_normal_35
+  - first:
+      213: 4852818729676051801
+    second: golgi_normal_36
+  - first:
+      213: -830920941104449617
+    second: golgi_normal_37
+  - first:
+      213: -1709959836380404933
+    second: golgi_normal_38
+  - first:
+      213: 7863852060644656060
+    second: golgi_normal_39
+  - first:
+      213: -4405542201813218775
+    second: golgi_normal_40
+  - first:
+      213: 5715499784102107624
+    second: golgi_normal_41
+  - first:
+      213: 3476602234440486024
+    second: golgi_normal_42
+  - first:
+      213: -2836353502182157175
+    second: golgi_normal_43
+  - first:
+      213: 2468538998984288040
+    second: golgi_normal_44
+  - first:
+      213: 2643800170445591817
+    second: golgi_normal_45
+  - first:
+      213: 2626114502918490822
+    second: golgi_normal_46
+  - first:
+      213: -8384873609392282082
+    second: golgi_normal_47
+  - first:
+      213: -7997670409467472055
+    second: golgi_normal_48
+  - first:
+      213: -7285594246839048077
+    second: golgi_normal_49
+  - first:
+      213: 1061676057655463870
+    second: golgi_normal_50
+  - first:
+      213: -6409313077121155005
+    second: golgi_normal_51
+  - first:
+      213: 8261245367666657291
+    second: golgi_normal_52
+  - first:
+      213: 1048415301334025571
+    second: golgi_normal_53
+  - first:
+      213: -4427931046196013864
+    second: golgi_normal_54
+  - first:
+      213: 7864604600261623257
+    second: golgi_normal_55
+  - first:
+      213: 7008749496167218754
+    second: golgi_normal_56
+  - first:
+      213: 1265950632456879277
+    second: golgi_normal_57
+  - first:
+      213: 8790257728058935232
+    second: golgi_normal_58
+  - first:
+      213: -7658329039016692000
+    second: golgi_normal_59
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: golgi_normal_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 936
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aee2dc650795298c0800000000000000
+      internalID: -3994031580496711958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_normal_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 936
+        width: 64
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cda6389e03a86ead0800000000000000
+      internalID: -2673297386117043492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_normal_2
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 936
+        width: 64
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b4995957d245c1d0800000000000000
+      internalID: -3331182856686168909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_normal_3
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 936
+        width: 64
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bab83197d2b0fcd10800000000000000
+      internalID: 2147947837211773867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_normal_4
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 936
+        width: 64
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b10273df5d225cc10800000000000000
+      internalID: 2073101505945608219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_normal_5
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 936
+        width: 64
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de0046813f1f33230800000000000000
+      internalID: 3617500952097194221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_normal_6
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 855
+        width: 63
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df84ff31c15b65ca0800000000000000
+      internalID: -6028431918989620995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_normal_7
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 855
+        width: 63
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d28c2812ad20aeab0800000000000000
+      internalID: -4978163302216316883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_normal_8
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 855
+        width: 63
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbac2b7e5a9d50b10800000000000000
+      internalID: 1947201720487692988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_normal_9
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 855
+        width: 64
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aafb7ba4a3abae120800000000000000
+      internalID: 2443970507326341034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_normal_10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 855
+        width: 64
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e81adf1ee1fcbc490800000000000000
+      internalID: -7724853004276489842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_normal_11
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 855
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbb97c0dc58287290800000000000000
+      internalID: -7892513967861949509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_normal_12
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 774
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a688b55d7df766070800000000000000
+      internalID: 8099301544846657642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_normal_13
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 774
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b347171c120655450800000000000000
+      internalID: 6076868970301977659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_normal_14
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 774
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8df84751133c510c0800000000000000
+      internalID: -4605560428335689768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_normal_15
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 773
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98054c31145008580800000000000000
+      internalID: -8827049492583526263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_normal_16
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 773
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a708f32c688ead7d0800000000000000
+      internalID: -2892744145149919110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_normal_17
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 773
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02e62c943d26dbd90800000000000000
+      internalID: -7080394379541451232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_normal_18
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 692
+        width: 64
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d66bc19d53dd3a080800000000000000
+      internalID: -9177248392305396115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_normal_19
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 692
+        width: 64
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49f1b21ed52cae660800000000000000
+      internalID: 7415953444884389780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_normal_20
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 692
+        width: 64
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c6b4ca1df5776080800000000000000
+      internalID: -9194250384317303096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_normal_21
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 691
+        width: 64
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39690a4ada40d1180800000000000000
+      internalID: -9143146524654397805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_normal_22
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 691
+        width: 64
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61c959b09740a17b0800000000000000
+      internalID: -5252881097442354154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_normal_23
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 691
+        width: 64
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ffa0e427b8428e90800000000000000
+      internalID: -7024972517309632519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_normal_24
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 610
+        width: 64
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98e9afb51ad638300800000000000000
+      internalID: 253166543863193225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_normal_25
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 610
+        width: 65
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a1c97be3c3e36d90800000000000000
+      internalID: -7105585356451757661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_normal_26
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 610
+        width: 66
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a73d445f1506b310800000000000000
+      internalID: 1420328364598441897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_normal_27
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 610
+        width: 66
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f25d21b9469405c0800000000000000
+      internalID: -4250106905081589001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_normal_28
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 609
+        width: 66
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22014a0cc4d9927d0800000000000000
+      internalID: -2942647928534855646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_normal_29
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 609
+        width: 66
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 186b66e057f9de400800000000000000
+      internalID: 355115270733739649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_normal_30
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 528
+        width: 66
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2c1ffdf5cb89c1f0800000000000000
+      internalID: -1024133757763904466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_normal_31
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 529
+        width: 66
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f488be9bcf30f81e0800000000000000
+      internalID: -2193530109520279473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_normal_32
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 529
+        width: 66
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad77a002e7e7caaf0800000000000000
+      internalID: -383792788064798758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_normal_33
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 529
+        width: 64
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf1e3c85d5436d190800000000000000
+      internalID: -7938099717668085252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_normal_34
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 529
+        width: 64
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b66ed2fbcff684790800000000000000
+      internalID: -7545658044329367957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_normal_35
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 530
+        width: 64
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bf1d2713cd1f0cd0800000000000000
+      internalID: -2589818536970084432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_normal_36
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 449
+        width: 64
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95514bd5ceca85340800000000000000
+      internalID: 4852818729676051801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_normal_37
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 449
+        width: 64
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa739057ec9f774f0800000000000000
+      internalID: -830920941104449617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_normal_38
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 449
+        width: 64
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b336c5ca6900548e0800000000000000
+      internalID: -1709959836380404933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_normal_39
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 449
+        width: 64
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb3c2f0e8c3022d60800000000000000
+      internalID: 7863852060644656060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_normal_40
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 449
+        width: 64
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92a4ee185be5cd2c0800000000000000
+      internalID: -4405542201813218775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_normal_41
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 449
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e95a3985c8815f40800000000000000
+      internalID: 5715499784102107624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_normal_42
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 368
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88c8729ff4f5f3030800000000000000
+      internalID: 3476602234440486024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_normal_43
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 369
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9845ff4748f33a8d0800000000000000
+      internalID: -2836353502182157175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_normal_44
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 369
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82728a40423024220800000000000000
+      internalID: 2468538998984288040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_normal_45
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 369
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 905d6806f3aa0b420800000000000000
+      internalID: 2643800170445591817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_normal_46
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 369
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ca45f50a35d17420800000000000000
+      internalID: 2626114502918490822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_normal_47
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 369
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1620a190e1f2ab80800000000000000
+      internalID: -8384873609392282082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_normal_48
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 288
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 947d905d221920190800000000000000
+      internalID: -7997670409467472055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_normal_49
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 288
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 378678b12ae54ea90800000000000000
+      internalID: -7285594246839048077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_normal_50
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 288
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebf471bdfb4dbbe00800000000000000
+      internalID: 1061676057655463870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_normal_51
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 288
+        width: 63
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3408defd6bb8d07a0800000000000000
+      internalID: -6409313077121155005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_normal_52
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 288
+        width: 63
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b08cc1654e6d5a270800000000000000
+      internalID: 8261245367666657291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_normal_53
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 288
+        width: 64
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 365491d6928bc8e00800000000000000
+      internalID: 1048415301334025571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_normal_54
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 207
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d410957c24dc82c0800000000000000
+      internalID: -4427931046196013864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_normal_55
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 207
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dd3f792730b42d60800000000000000
+      internalID: 7864604600261623257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_normal_56
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 207
+        width: 64
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24ebeb66884144160800000000000000
+      internalID: 7008749496167218754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_normal_57
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 207
+        width: 64
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dacf5c6946f819110800000000000000
+      internalID: 1265950632456879277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_normal_58
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 207
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c7c515b4d44df970800000000000000
+      internalID: 8790257728058935232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_normal_59
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 207
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e6f958805628b590800000000000000
+      internalID: -7658329039016692000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

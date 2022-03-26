@@ -1,0 +1,4927 @@
+fileFormatVersion: 2
+guid: b731da0a65ad17b4099db688163d590b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2023318287027413560
+    second: centro_heavy_damage_0
+  - first:
+      213: 6235952738621761150
+    second: centro_heavy_damage_1
+  - first:
+      213: 4171752645502948377
+    second: centro_heavy_damage_2
+  - first:
+      213: 2172489109759692234
+    second: centro_heavy_damage_3
+  - first:
+      213: -7370839627129738168
+    second: centro_heavy_damage_4
+  - first:
+      213: 2712129357959021759
+    second: centro_heavy_damage_5
+  - first:
+      213: -8975063268299437479
+    second: centro_heavy_damage_6
+  - first:
+      213: 9018919937819084661
+    second: centro_heavy_damage_7
+  - first:
+      213: 725979664096905542
+    second: centro_heavy_damage_8
+  - first:
+      213: 2459882782701426152
+    second: centro_heavy_damage_9
+  - first:
+      213: -1028207545874086299
+    second: centro_heavy_damage_10
+  - first:
+      213: 2200874245569015051
+    second: centro_heavy_damage_11
+  - first:
+      213: 5376976456285352558
+    second: centro_heavy_damage_12
+  - first:
+      213: -7760533754944991127
+    second: centro_heavy_damage_13
+  - first:
+      213: -312342845244968764
+    second: centro_heavy_damage_14
+  - first:
+      213: -2793744116209590883
+    second: centro_heavy_damage_15
+  - first:
+      213: -183700692248605274
+    second: centro_heavy_damage_16
+  - first:
+      213: 8653085484666083411
+    second: centro_heavy_damage_17
+  - first:
+      213: 549845663406445737
+    second: centro_heavy_damage_18
+  - first:
+      213: 6979437519083723748
+    second: centro_heavy_damage_19
+  - first:
+      213: -7865525439299283382
+    second: centro_heavy_damage_20
+  - first:
+      213: 5743914179940327072
+    second: centro_heavy_damage_21
+  - first:
+      213: 9045110450592014412
+    second: centro_heavy_damage_22
+  - first:
+      213: -6226486467527461136
+    second: centro_heavy_damage_23
+  - first:
+      213: 5740561085564512819
+    second: centro_heavy_damage_24
+  - first:
+      213: 4807331786157796852
+    second: centro_heavy_damage_25
+  - first:
+      213: 1724249446193229216
+    second: centro_heavy_damage_26
+  - first:
+      213: -4480835551101697254
+    second: centro_heavy_damage_27
+  - first:
+      213: -2170399405663491531
+    second: centro_heavy_damage_28
+  - first:
+      213: -7631354216814467140
+    second: centro_heavy_damage_29
+  - first:
+      213: 8297411963301995214
+    second: centro_heavy_damage_30
+  - first:
+      213: 1125200100494043194
+    second: centro_heavy_damage_31
+  - first:
+      213: -2962822406832957884
+    second: centro_heavy_damage_32
+  - first:
+      213: 8805369352969760736
+    second: centro_heavy_damage_33
+  - first:
+      213: -5824256281531283270
+    second: centro_heavy_damage_34
+  - first:
+      213: -4398854678367009731
+    second: centro_heavy_damage_35
+  - first:
+      213: 7112235320782568
+    second: centro_heavy_damage_36
+  - first:
+      213: -1457672957754342742
+    second: centro_heavy_damage_37
+  - first:
+      213: 6270906957131418991
+    second: centro_heavy_damage_38
+  - first:
+      213: -3180061147660145771
+    second: centro_heavy_damage_39
+  - first:
+      213: 2100739378840325959
+    second: centro_heavy_damage_40
+  - first:
+      213: 9207240473467281909
+    second: centro_heavy_damage_41
+  - first:
+      213: -885522939692967592
+    second: centro_heavy_damage_42
+  - first:
+      213: 2495844073640556898
+    second: centro_heavy_damage_43
+  - first:
+      213: 7663980174218568048
+    second: centro_heavy_damage_44
+  - first:
+      213: 8671953188823489096
+    second: centro_heavy_damage_45
+  - first:
+      213: -4326542002532932912
+    second: centro_heavy_damage_46
+  - first:
+      213: 8300942897968710655
+    second: centro_heavy_damage_47
+  - first:
+      213: -3959640930594451361
+    second: centro_heavy_damage_48
+  - first:
+      213: 5089535481457744686
+    second: centro_heavy_damage_49
+  - first:
+      213: -6974568027637047810
+    second: centro_heavy_damage_50
+  - first:
+      213: -6817739506532028946
+    second: centro_heavy_damage_51
+  - first:
+      213: 4180888412305056856
+    second: centro_heavy_damage_52
+  - first:
+      213: 3956607466305049609
+    second: centro_heavy_damage_53
+  - first:
+      213: 6444913663422994753
+    second: centro_heavy_damage_54
+  - first:
+      213: 4283515315874216430
+    second: centro_heavy_damage_55
+  - first:
+      213: -4353653295240730689
+    second: centro_heavy_damage_56
+  - first:
+      213: 2330490907615704396
+    second: centro_heavy_damage_57
+  - first:
+      213: 5734789395886044328
+    second: centro_heavy_damage_58
+  - first:
+      213: -8686958213480828223
+    second: centro_heavy_damage_59
+  - first:
+      213: 7851917426760129388
+    second: centro_heavy_damage_60
+  - first:
+      213: 8957948376060797854
+    second: centro_heavy_damage_61
+  - first:
+      213: -862055500188078208
+    second: centro_heavy_damage_62
+  - first:
+      213: -5370559033130259677
+    second: centro_heavy_damage_63
+  - first:
+      213: -8175197121175950243
+    second: centro_heavy_damage_64
+  - first:
+      213: -5453413311842227999
+    second: centro_heavy_damage_65
+  - first:
+      213: -3615347975919488589
+    second: centro_heavy_damage_66
+  - first:
+      213: -8491131942469028869
+    second: centro_heavy_damage_67
+  - first:
+      213: 8472747712094218725
+    second: centro_heavy_damage_68
+  - first:
+      213: -3402175518651616825
+    second: centro_heavy_damage_69
+  - first:
+      213: 5681804220546786524
+    second: centro_heavy_damage_70
+  - first:
+      213: -3049506907913830210
+    second: centro_heavy_damage_71
+  - first:
+      213: -2535412262538115484
+    second: centro_heavy_damage_72
+  - first:
+      213: 1142595709570179082
+    second: centro_heavy_damage_73
+  - first:
+      213: 2349305551075707507
+    second: centro_heavy_damage_74
+  - first:
+      213: 567569352346172920
+    second: centro_heavy_damage_75
+  - first:
+      213: 2533029155141926349
+    second: centro_heavy_damage_76
+  - first:
+      213: 5554167692432872141
+    second: centro_heavy_damage_77
+  - first:
+      213: -545951701777921632
+    second: centro_heavy_damage_78
+  - first:
+      213: 259834928434450992
+    second: centro_heavy_damage_79
+  - first:
+      213: -8913280518156016106
+    second: centro_heavy_damage_80
+  - first:
+      213: 7524970505068925431
+    second: centro_heavy_damage_81
+  - first:
+      213: -400670452020249493
+    second: centro_heavy_damage_82
+  - first:
+      213: -8587492469503149557
+    second: centro_heavy_damage_83
+  - first:
+      213: -3414826702504283494
+    second: centro_heavy_damage_84
+  - first:
+      213: -8885716123452074733
+    second: centro_heavy_damage_85
+  - first:
+      213: -6315895190972294717
+    second: centro_heavy_damage_86
+  - first:
+      213: -8734402645644119535
+    second: centro_heavy_damage_87
+  - first:
+      213: 462291406755113375
+    second: centro_heavy_damage_88
+  - first:
+      213: -5015253682660764435
+    second: centro_heavy_damage_89
+  - first:
+      213: -861361053230878127
+    second: centro_heavy_damage_90
+  - first:
+      213: 8073205713547862380
+    second: centro_heavy_damage_91
+  - first:
+      213: 664163516484510084
+    second: centro_heavy_damage_92
+  - first:
+      213: -1641060745565810444
+    second: centro_heavy_damage_93
+  - first:
+      213: -335353195183448227
+    second: centro_heavy_damage_94
+  - first:
+      213: 1948920480694993996
+    second: centro_heavy_damage_95
+  - first:
+      213: 4593951033702755452
+    second: centro_heavy_damage_96
+  - first:
+      213: -4788170691298381375
+    second: centro_heavy_damage_97
+  - first:
+      213: -6952324987851512043
+    second: centro_heavy_damage_98
+  - first:
+      213: 7085839190323958989
+    second: centro_heavy_damage_99
+  - first:
+      213: -1368576902710152188
+    second: centro_heavy_damage_100
+  - first:
+      213: -2680806266323431709
+    second: centro_heavy_damage_101
+  - first:
+      213: -1777771453122645326
+    second: centro_heavy_damage_102
+  - first:
+      213: 5263196347317441749
+    second: centro_heavy_damage_103
+  - first:
+      213: -2232937644120854208
+    second: centro_heavy_damage_104
+  - first:
+      213: 8173885248261079280
+    second: centro_heavy_damage_105
+  - first:
+      213: -5505241696941493687
+    second: centro_heavy_damage_106
+  - first:
+      213: -5520956125926574963
+    second: centro_heavy_damage_107
+  - first:
+      213: 695771810739231628
+    second: centro_heavy_damage_108
+  - first:
+      213: -2506760088341166108
+    second: centro_heavy_damage_109
+  - first:
+      213: -6236362007906782037
+    second: centro_heavy_damage_110
+  - first:
+      213: -7274640331450994415
+    second: centro_heavy_damage_111
+  - first:
+      213: 7957803462062898825
+    second: centro_heavy_damage_112
+  - first:
+      213: -3568374752336099688
+    second: centro_heavy_damage_113
+  - first:
+      213: -2695540414242744910
+    second: centro_heavy_damage_114
+  - first:
+      213: -1877229048687325093
+    second: centro_heavy_damage_115
+  - first:
+      213: 3654207107257318725
+    second: centro_heavy_damage_116
+  - first:
+      213: 345644384735555918
+    second: centro_heavy_damage_117
+  - first:
+      213: 6862650883989014059
+    second: centro_heavy_damage_118
+  - first:
+      213: 351669155579746161
+    second: centro_heavy_damage_119
+  - first:
+      213: 3309603599205009873
+    second: centro_heavy_damage_120
+  - first:
+      213: 3918867147685082460
+    second: centro_heavy_damage_121
+  - first:
+      213: -4995367895451483967
+    second: centro_heavy_damage_122
+  - first:
+      213: 2631760016549315633
+    second: centro_heavy_damage_123
+  - first:
+      213: -5507559100934201349
+    second: centro_heavy_damage_124
+  - first:
+      213: 1199927716615568904
+    second: centro_heavy_damage_125
+  - first:
+      213: 5967395652764522736
+    second: centro_heavy_damage_126
+  - first:
+      213: 7829342962069839636
+    second: centro_heavy_damage_127
+  - first:
+      213: 5356165677836897950
+    second: centro_heavy_damage_128
+  - first:
+      213: -5270122690700117633
+    second: centro_heavy_damage_129
+  - first:
+      213: 30007125750865835
+    second: centro_heavy_damage_130
+  - first:
+      213: -2961216613922779916
+    second: centro_heavy_damage_131
+  - first:
+      213: -7400717908205270625
+    second: centro_heavy_damage_132
+  - first:
+      213: -6346261761120642304
+    second: centro_heavy_damage_133
+  - first:
+      213: -1296054698474255303
+    second: centro_heavy_damage_134
+  - first:
+      213: -830464204228955601
+    second: centro_heavy_damage_135
+  - first:
+      213: -5266061726587561561
+    second: centro_heavy_damage_136
+  - first:
+      213: -7624685988699344315
+    second: centro_heavy_damage_137
+  - first:
+      213: 6917886529704888423
+    second: centro_heavy_damage_138
+  - first:
+      213: 3215553851405230917
+    second: centro_heavy_damage_139
+  - first:
+      213: 3386970819563530726
+    second: centro_heavy_damage_140
+  - first:
+      213: 4705523559903511048
+    second: centro_heavy_damage_141
+  - first:
+      213: 2450791733696860537
+    second: centro_heavy_damage_142
+  - first:
+      213: -1363549078951960254
+    second: centro_heavy_damage_143
+  - first:
+      213: -2716417463523184843
+    second: centro_heavy_damage_144
+  - first:
+      213: 8498189928485713264
+    second: centro_heavy_damage_145
+  - first:
+      213: -7889097157795303934
+    second: centro_heavy_damage_146
+  - first:
+      213: -6298837845034348605
+    second: centro_heavy_damage_147
+  - first:
+      213: -1814619064054247409
+    second: centro_heavy_damage_148
+  - first:
+      213: 9056033468975248026
+    second: centro_heavy_damage_149
+  - first:
+      213: 123684726859079715
+    second: centro_heavy_damage_150
+  - first:
+      213: 4649059193599093024
+    second: centro_heavy_damage_151
+  - first:
+      213: 4625920766567724461
+    second: centro_heavy_damage_152
+  - first:
+      213: -5846555948339805349
+    second: centro_heavy_damage_153
+  - first:
+      213: -8369448626471589306
+    second: centro_heavy_damage_154
+  - first:
+      213: -6210388894701946951
+    second: centro_heavy_damage_155
+  - first:
+      213: -5789283490903274986
+    second: centro_heavy_damage_156
+  - first:
+      213: 2255067268076060470
+    second: centro_heavy_damage_157
+  - first:
+      213: 2166903111735048393
+    second: centro_heavy_damage_158
+  - first:
+      213: -3329401141883281524
+    second: centro_heavy_damage_159
+  - first:
+      213: 463721146819543754
+    second: centro_heavy_damage_160
+  - first:
+      213: 2023741773228936588
+    second: centro_heavy_damage_161
+  - first:
+      213: 2203698545173614949
+    second: centro_heavy_damage_162
+  - first:
+      213: -7182433112522505781
+    second: centro_heavy_damage_163
+  - first:
+      213: -1622173436720943519
+    second: centro_heavy_damage_164
+  - first:
+      213: -5228106795692698257
+    second: centro_heavy_damage_165
+  - first:
+      213: 892152328845454755
+    second: centro_heavy_damage_166
+  - first:
+      213: 5023027081078471179
+    second: centro_heavy_damage_167
+  - first:
+      213: -5165529467856165102
+    second: centro_heavy_damage_168
+  - first:
+      213: -6814974417955994680
+    second: centro_heavy_damage_169
+  - first:
+      213: -2325170330794418356
+    second: centro_heavy_damage_170
+  - first:
+      213: -9045696064383684076
+    second: centro_heavy_damage_171
+  - first:
+      213: 2606819236669993072
+    second: centro_heavy_damage_172
+  - first:
+      213: -7158801159065700847
+    second: centro_heavy_damage_173
+  - first:
+      213: -1040834388256739079
+    second: centro_heavy_damage_174
+  - first:
+      213: -753012471794094314
+    second: centro_heavy_damage_175
+  - first:
+      213: 5965037776169091361
+    second: centro_heavy_damage_176
+  - first:
+      213: 4703400216496686607
+    second: centro_heavy_damage_177
+  - first:
+      213: 6983792972583048122
+    second: centro_heavy_damage_178
+  - first:
+      213: 3159581896737262260
+    second: centro_heavy_damage_179
+  - first:
+      213: -300532910010995947
+    second: centro_heavy_damage_180
+  - first:
+      213: 4084945970944663708
+    second: centro_heavy_damage_181
+  - first:
+      213: -8855343978516054007
+    second: centro_heavy_damage_182
+  - first:
+      213: -7243905641007275052
+    second: centro_heavy_damage_183
+  - first:
+      213: 4320160287497392548
+    second: centro_heavy_damage_184
+  - first:
+      213: -4008168340660917303
+    second: centro_heavy_damage_185
+  - first:
+      213: -1925987850529115585
+    second: centro_heavy_damage_186
+  - first:
+      213: -3600054444229223763
+    second: centro_heavy_damage_187
+  - first:
+      213: 8490619885411729958
+    second: centro_heavy_damage_188
+  - first:
+      213: 3257306367190774876
+    second: centro_heavy_damage_189
+  - first:
+      213: 2906826003793038924
+    second: centro_heavy_damage_190
+  - first:
+      213: -8361750740379602690
+    second: centro_heavy_damage_191
+  - first:
+      213: -9020829404756605786
+    second: centro_heavy_damage_192
+  - first:
+      213: -61395365476934496
+    second: centro_heavy_damage_193
+  - first:
+      213: 5868376711345633381
+    second: centro_heavy_damage_194
+  - first:
+      213: 1535688680106892992
+    second: centro_heavy_damage_195
+  - first:
+      213: -7507758513567759236
+    second: centro_heavy_damage_196
+  - first:
+      213: -1722104792147101543
+    second: centro_heavy_damage_197
+  - first:
+      213: 3373720475504654730
+    second: centro_heavy_damage_198
+  - first:
+      213: -8058500021666715438
+    second: centro_heavy_damage_199
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: centro_heavy_damage_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 7790
+        width: 384
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83222d51345441c10800000000000000
+      internalID: 2023318287027413560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_1
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 7792
+        width: 380
+        height: 371
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e76acade9fd8a8650800000000000000
+      internalID: 6235952738621761150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_2
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 7794
+        width: 377
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 914dffd9dea05e930800000000000000
+      internalID: 4171752645502948377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_3
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 7795
+        width: 375
+        height: 367
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acd81a1c55b362e10800000000000000
+      internalID: 2172489109759692234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_4
+      rect:
+        serializedVersion: 2
+        x: 1597
+        y: 7797
+        width: 371
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84c2f88596485b990800000000000000
+      internalID: -7370839627129738168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_5
+      rect:
+        serializedVersion: 2
+        x: 1991
+        y: 7799
+        width: 368
+        height: 361
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb44e06184b63a520800000000000000
+      internalID: 2712129357959021759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_6
+      rect:
+        serializedVersion: 2
+        x: 2386
+        y: 7801
+        width: 364
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95a0b58628b227380800000000000000
+      internalID: -8975063268299437479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_7
+      rect:
+        serializedVersion: 2
+        x: 2780
+        y: 7802
+        width: 361
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 577056f26e3a92d70800000000000000
+      internalID: 9018919937819084661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_8
+      rect:
+        serializedVersion: 2
+        x: 3174
+        y: 7803
+        width: 359
+        height: 354
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64947a878a2331a00800000000000000
+      internalID: 725979664096905542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_9
+      rect:
+        serializedVersion: 2
+        x: 3568
+        y: 7804
+        width: 357
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e5940c9b52432220800000000000000
+      internalID: 2459882782701426152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_10
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 7404
+        width: 355
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5668cc84fa21bb1f0800000000000000
+      internalID: -1028207545874086299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_11
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 7405
+        width: 353
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0d627237731b8e10800000000000000
+      internalID: 2200874245569015051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_12
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 7406
+        width: 351
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e62f68a399bde9a40800000000000000
+      internalID: 5376976456285352558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_13
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 7407
+        width: 349
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 960531dbaab0d4490800000000000000
+      internalID: -7760533754944991127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_14
+      rect:
+        serializedVersion: 2
+        x: 1607
+        y: 7407
+        width: 348
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c0f90d46d55aabf0800000000000000
+      internalID: -312342845244968764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_15
+      rect:
+        serializedVersion: 2
+        x: 2001
+        y: 7408
+        width: 347
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9d5df73780aa39d0800000000000000
+      internalID: -2793744116209590883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_16
+      rect:
+        serializedVersion: 2
+        x: 2395
+        y: 7409
+        width: 345
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ad4785913d537df0800000000000000
+      internalID: -183700692248605274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_17
+      rect:
+        serializedVersion: 2
+        x: 2789
+        y: 7409
+        width: 343
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3585c9cf66fe51870800000000000000
+      internalID: 8653085484666083411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_18
+      rect:
+        serializedVersion: 2
+        x: 3183
+        y: 7410
+        width: 341
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a451a8b7b171a700800000000000000
+      internalID: 549845663406445737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_19
+      rect:
+        serializedVersion: 2
+        x: 3577
+        y: 7411
+        width: 339
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ebd409e171fbd060800000000000000
+      internalID: 6979437519083723748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_20
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 7012
+        width: 337
+        height: 333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4694ca494a08d290800000000000000
+      internalID: -7865525439299283382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_21
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 7012
+        width: 335
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ae1cab938b76bf40800000000000000
+      internalID: 5743914179940327072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_22
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 7013
+        width: 333
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c40e5b12800b68d70800000000000000
+      internalID: 9045110450592014412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_23
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 7011
+        width: 336
+        height: 333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f6bf301c831799a0800000000000000
+      internalID: -6226486467527461136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_24
+      rect:
+        serializedVersion: 2
+        x: 1612
+        y: 7010
+        width: 338
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33ae08c74e19aaf40800000000000000
+      internalID: 5740561085564512819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_25
+      rect:
+        serializedVersion: 2
+        x: 2003
+        y: 7008
+        width: 342
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fd21670ac217b240800000000000000
+      internalID: 4807331786157796852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_26
+      rect:
+        serializedVersion: 2
+        x: 2395
+        y: 7006
+        width: 344
+        height: 343
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ade2806cb3cde710800000000000000
+      internalID: 1724249446193229216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_27
+      rect:
+        serializedVersion: 2
+        x: 2787
+        y: 7005
+        width: 346
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1344a78ecfd0d1c0800000000000000
+      internalID: -4480835551101697254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_28
+      rect:
+        serializedVersion: 2
+        x: 3178
+        y: 7003
+        width: 350
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53a65b46d3131e1e0800000000000000
+      internalID: -2170399405663491531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_29
+      rect:
+        serializedVersion: 2
+        x: 3570
+        y: 7001
+        width: 352
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb7289fb5cbf71690800000000000000
+      internalID: -7631354216814467140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_30
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 6600
+        width: 356
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec221b31834562370800000000000000
+      internalID: 8297411963301995214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_31
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 6598
+        width: 358
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a386e23a7838d9f00800000000000000
+      internalID: 1125200100494043194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_32
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 6596
+        width: 362
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 446572cf7b0f1e6d0800000000000000
+      internalID: -2962822406832957884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_33
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 6595
+        width: 364
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0efafdf06c4f23a70800000000000000
+      internalID: 8805369352969760736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_34
+      rect:
+        serializedVersion: 2
+        x: 1597
+        y: 6593
+        width: 367
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab88d7a25c51c2fa0800000000000000
+      internalID: -5824256281531283270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_35
+      rect:
+        serializedVersion: 2
+        x: 1991
+        y: 6593
+        width: 367
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d348e55e9f024f2c0800000000000000
+      internalID: -4398854678367009731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_36
+      rect:
+        serializedVersion: 2
+        x: 2384
+        y: 6592
+        width: 367
+        height: 371
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eeaad35a84491000800000000000000
+      internalID: 7112235320782568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_37
+      rect:
+        serializedVersion: 2
+        x: 2777
+        y: 6592
+        width: 367
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa20c520b2e45cbe0800000000000000
+      internalID: -1457672957754342742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_38
+      rect:
+        serializedVersion: 2
+        x: 3170
+        y: 6591
+        width: 367
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6d085f17acb60750800000000000000
+      internalID: 6270906957131418991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_39
+      rect:
+        serializedVersion: 2
+        x: 3563
+        y: 6591
+        width: 368
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59b22b12c372ed3d0800000000000000
+      internalID: -3180061147660145771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_40
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 6190
+        width: 369
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74fc379b553572d10800000000000000
+      internalID: 2100739378840325959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_41
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 6190
+        width: 369
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f1ed96bd60b6cf70800000000000000
+      internalID: 9207240473467281909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_42
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 6189
+        width: 370
+        height: 377
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 859142bf39df5b3f0800000000000000
+      internalID: -885522939692967592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_43
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 6189
+        width: 371
+        height: 377
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 269fb1026f403a220800000000000000
+      internalID: 2495844073640556898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_44
+      rect:
+        serializedVersion: 2
+        x: 1597
+        y: 6188
+        width: 371
+        height: 379
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0712fe9ec5deb5a60800000000000000
+      internalID: 7663980174218568048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_45
+      rect:
+        serializedVersion: 2
+        x: 1990
+        y: 6187
+        width: 372
+        height: 381
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84ad3a0ba77f85870800000000000000
+      internalID: 8671953188823489096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_46
+      rect:
+        serializedVersion: 2
+        x: 2383
+        y: 6186
+        width: 372
+        height: 382
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d2a731c8f805f3c0800000000000000
+      internalID: -4326542002532932912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_47
+      rect:
+        serializedVersion: 2
+        x: 2775
+        y: 6185
+        width: 374
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff30a3ed59fd23370800000000000000
+      internalID: 8300942897968710655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_48
+      rect:
+        serializedVersion: 2
+        x: 3168
+        y: 6186
+        width: 374
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5012dd7d878c09c0800000000000000
+      internalID: -3959640930594451361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_49
+      rect:
+        serializedVersion: 2
+        x: 3561
+        y: 6187
+        width: 373
+        height: 382
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2b190c0e89a1a640800000000000000
+      internalID: 5089535481457744686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_50
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 5787
+        width: 373
+        height: 381
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efd95eae45b553f90800000000000000
+      internalID: -6974568027637047810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_51
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 5788
+        width: 374
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eede20e6a068261a0800000000000000
+      internalID: -6817739506532028946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_52
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 5789
+        width: 374
+        height: 379
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8546df41cdf750a30800000000000000
+      internalID: 4180888412305056856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_53
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 5789
+        width: 374
+        height: 379
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90455c01781b8e630800000000000000
+      internalID: 3956607466305049609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_54
+      rect:
+        serializedVersion: 2
+        x: 1594
+        y: 5790
+        width: 374
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 149936c84dee07950800000000000000
+      internalID: 6444913663422994753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_55
+      rect:
+        serializedVersion: 2
+        x: 1987
+        y: 5791
+        width: 374
+        height: 377
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee9b0a81c7a127b30800000000000000
+      internalID: 4283515315874216430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_56
+      rect:
+        serializedVersion: 2
+        x: 2380
+        y: 5791
+        width: 374
+        height: 377
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb7a7f50567b493c0800000000000000
+      internalID: -4353653295240730689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_57
+      rect:
+        serializedVersion: 2
+        x: 2772
+        y: 5792
+        width: 375
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4536bc0221975020800000000000000
+      internalID: 2330490907615704396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_58
+      rect:
+        serializedVersion: 2
+        x: 3165
+        y: 5792
+        width: 375
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a4f6734290169f40800000000000000
+      internalID: 5734789395886044328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_59
+      rect:
+        serializedVersion: 2
+        x: 3557
+        y: 5793
+        width: 375
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c230d2c789b17780800000000000000
+      internalID: -8686958213480828223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_60
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 5393
+        width: 375
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6b9cb36c4d97fc60800000000000000
+      internalID: 7851917426760129388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_61
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 5393
+        width: 377
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9324673696015c70800000000000000
+      internalID: 8957948376060797854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_62
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 5395
+        width: 373
+        height: 371
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08f2e96071d5904f0800000000000000
+      internalID: -862055500188078208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_63
+      rect:
+        serializedVersion: 2
+        x: 1201
+        y: 5396
+        width: 371
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32b61098301f775b0800000000000000
+      internalID: -5370559033130259677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_64
+      rect:
+        serializedVersion: 2
+        x: 1595
+        y: 5397
+        width: 369
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5ce287488ddb8e80800000000000000
+      internalID: -8175197121175950243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_65
+      rect:
+        serializedVersion: 2
+        x: 1990
+        y: 5398
+        width: 366
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e8e14e7c759154b0800000000000000
+      internalID: -5453413311842227999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_66
+      rect:
+        serializedVersion: 2
+        x: 2384
+        y: 5400
+        width: 363
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b134ebbb24b3ddc0800000000000000
+      internalID: -3615347975919488589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_67
+      rect:
+        serializedVersion: 2
+        x: 2779
+        y: 5400
+        width: 360
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf3392c7c70792a80800000000000000
+      internalID: -8491131942469028869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_68
+      rect:
+        serializedVersion: 2
+        x: 3173
+        y: 5402
+        width: 358
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e921e2572f359570800000000000000
+      internalID: 8472747712094218725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_69
+      rect:
+        serializedVersion: 2
+        x: 3567
+        y: 5403
+        width: 356
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c17d3b246b09c0d0800000000000000
+      internalID: -3402175518651616825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_70
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 5004
+        width: 353
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd4a109c5d2d9de40800000000000000
+      internalID: 5681804220546786524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_71
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 5005
+        width: 351
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb042bdcf99fda5d0800000000000000
+      internalID: -3049506907913830210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_72
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 5006
+        width: 348
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4660f3cfaf760dcd0800000000000000
+      internalID: -2535412262538115484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_73
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 5007
+        width: 346
+        height: 343
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a00e0de7eb05bdf00800000000000000
+      internalID: 1142595709570179082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_74
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 5008
+        width: 344
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37a88b893f86a9020800000000000000
+      internalID: 2349305551075707507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_75
+      rect:
+        serializedVersion: 2
+        x: 2004
+        y: 5010
+        width: 340
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fdfdff915960e700800000000000000
+      internalID: 567569352346172920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_76
+      rect:
+        serializedVersion: 2
+        x: 2398
+        y: 5011
+        width: 338
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcd31f59890272320800000000000000
+      internalID: 2533029155141926349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_77
+      rect:
+        serializedVersion: 2
+        x: 2792
+        y: 5012
+        width: 336
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc2996ac61e541d40800000000000000
+      internalID: 5554167692432872141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_78
+      rect:
+        serializedVersion: 2
+        x: 3187
+        y: 5013
+        width: 333
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a9c10fd1d36c68f0800000000000000
+      internalID: -545951701777921632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_79
+      rect:
+        serializedVersion: 2
+        x: 3579
+        y: 5012
+        width: 335
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0321391ad7e1b9300800000000000000
+      internalID: 259834928434450992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_80
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 4611
+        width: 336
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 616a6e3e79aad4480800000000000000
+      internalID: -8913280518156016106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_81
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 4610
+        width: 338
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f1dceb2ec01e6860800000000000000
+      internalID: 7524970505068925431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_82
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 4610
+        width: 340
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6c7653c858807af0800000000000000
+      internalID: -400670452020249493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_83
+      rect:
+        serializedVersion: 2
+        x: 1217
+        y: 4609
+        width: 342
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0a3ce3f81913d880800000000000000
+      internalID: -8587492469503149557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_84
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 4608
+        width: 344
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a92b6b3e4391c90d0800000000000000
+      internalID: -3414826702504283494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_85
+      rect:
+        serializedVersion: 2
+        x: 2001
+        y: 4607
+        width: 345
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3159da6a3489fa480800000000000000
+      internalID: -8885716123452074733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_86
+      rect:
+        serializedVersion: 2
+        x: 2393
+        y: 4606
+        width: 347
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c99f7f69ce6958a0800000000000000
+      internalID: -6315895190972294717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_87
+      rect:
+        serializedVersion: 2
+        x: 2785
+        y: 4605
+        width: 349
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1127625121b29c680800000000000000
+      internalID: -8734402645644119535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_88
+      rect:
+        serializedVersion: 2
+        x: 3177
+        y: 4604
+        width: 351
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f99aa5ac5936a6600800000000000000
+      internalID: 462291406755113375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_89
+      rect:
+        serializedVersion: 2
+        x: 3569
+        y: 4603
+        width: 353
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de4198af85d366ab0800000000000000
+      internalID: -5015253682660764435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_90
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 4202
+        width: 354
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15231de8fa4db04f0800000000000000
+      internalID: -861361053230878127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_91
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 4201
+        width: 356
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c61aca2a2d9c90070800000000000000
+      internalID: 8073205713547862380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_92
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 4201
+        width: 358
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48165d80335973900800000000000000
+      internalID: 664163516484510084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_93
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 4199
+        width: 360
+        height: 361
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f056b552f7c939e0800000000000000
+      internalID: -1641060745565810444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_94
+      rect:
+        serializedVersion: 2
+        x: 1599
+        y: 4199
+        width: 362
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5f5cc6bb06985bf0800000000000000
+      internalID: -335353195183448227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_95
+      rect:
+        serializedVersion: 2
+        x: 1991
+        y: 4198
+        width: 363
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c440f43f9d4fb0b10800000000000000
+      internalID: 1948920480694993996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_96
+      rect:
+        serializedVersion: 2
+        x: 2383
+        y: 4197
+        width: 365
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7c2467102ef0cf30800000000000000
+      internalID: 4593951033702755452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_97
+      rect:
+        serializedVersion: 2
+        x: 2775
+        y: 4196
+        width: 367
+        height: 369
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c1393500200d8db0800000000000000
+      internalID: -4788170691298381375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_98
+      rect:
+        serializedVersion: 2
+        x: 3167
+        y: 4195
+        width: 369
+        height: 371
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 517e9003241648f90800000000000000
+      internalID: -6952324987851512043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_99
+      rect:
+        serializedVersion: 2
+        x: 3560
+        y: 4195
+        width: 369
+        height: 371
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc41dc28335f55260800000000000000
+      internalID: 7085839190323958989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_100
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 3794
+        width: 369
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 404382ade86d10de0800000000000000
+      internalID: -1368576902710152188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_101
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 3794
+        width: 370
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ee862087ecdbcad0800000000000000
+      internalID: -2680806266323431709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_102
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 3793
+        width: 370
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b27bcc48461457e0800000000000000
+      internalID: -1777771453122645326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_103
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 3793
+        width: 370
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d45df83131aa0940800000000000000
+      internalID: 5263196347317441749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_104
+      rect:
+        serializedVersion: 2
+        x: 1595
+        y: 3792
+        width: 371
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04134941b030301e0800000000000000
+      internalID: -2232937644120854208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_105
+      rect:
+        serializedVersion: 2
+        x: 1988
+        y: 3792
+        width: 371
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f0486183597f6170800000000000000
+      internalID: 8173885248261079280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_106
+      rect:
+        serializedVersion: 2
+        x: 2381
+        y: 3791
+        width: 372
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 942322b38d37993b0800000000000000
+      internalID: -5505241696941493687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_107
+      rect:
+        serializedVersion: 2
+        x: 2774
+        y: 3791
+        width: 372
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8431ad97af9163b0800000000000000
+      internalID: -5520956125926574963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_108
+      rect:
+        serializedVersion: 2
+        x: 3167
+        y: 3790
+        width: 372
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8b97d786c0e7a900800000000000000
+      internalID: 695771810739231628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_109
+      rect:
+        serializedVersion: 2
+        x: 3560
+        y: 3790
+        width: 373
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e74c452bf2363dd0800000000000000
+      internalID: -2506760088341166108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_110
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 3389
+        width: 373
+        height: 379
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba479f3abcdf379a0800000000000000
+      internalID: -6236362007906782037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_111
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 3389
+        width: 373
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 111322749294b0b90800000000000000
+      internalID: -7274640331450994415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_112
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 3388
+        width: 374
+        height: 381
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98ef1a4261ccf6e60800000000000000
+      internalID: 7957803462062898825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_113
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 3388
+        width: 374
+        height: 381
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 896c88d91169a7ec0800000000000000
+      internalID: -3568374752336099688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_114
+      rect:
+        serializedVersion: 2
+        x: 1595
+        y: 3387
+        width: 375
+        height: 382
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b51a5b5644879ad0800000000000000
+      internalID: -2695540414242744910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_115
+      rect:
+        serializedVersion: 2
+        x: 1987
+        y: 3386
+        width: 376
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5092fe402eb2f5e0800000000000000
+      internalID: -1877229048687325093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_116
+      rect:
+        serializedVersion: 2
+        x: 2380
+        y: 3386
+        width: 376
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54db7c3d00a56b230800000000000000
+      internalID: 3654207107257318725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_117
+      rect:
+        serializedVersion: 2
+        x: 2773
+        y: 3385
+        width: 377
+        height: 386
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4175c29cb9fbc400800000000000000
+      internalID: 345644384735555918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_118
+      rect:
+        serializedVersion: 2
+        x: 3166
+        y: 3385
+        width: 377
+        height: 386
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b268fad7e980d3f50800000000000000
+      internalID: 6862650883989014059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_119
+      rect:
+        serializedVersion: 2
+        x: 3559
+        y: 3384
+        width: 378
+        height: 387
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 177dac8db3161e400800000000000000
+      internalID: 351669155579746161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_120
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 2983
+        width: 378
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d908fd30f21eed20800000000000000
+      internalID: 3309603599205009873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_121
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 2983
+        width: 379
+        height: 389
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c55b7b368ec926630800000000000000
+      internalID: 3918867147685082460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_122
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 2983
+        width: 379
+        height: 389
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c0493d9d53ecaab0800000000000000
+      internalID: -4995367895451483967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_123
+      rect:
+        serializedVersion: 2
+        x: 1201
+        y: 2983
+        width: 379
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1348f789ac3e58420800000000000000
+      internalID: 2631760016549315633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_124
+      rect:
+        serializedVersion: 2
+        x: 1594
+        y: 2984
+        width: 378
+        height: 387
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bffd8519d283193b0800000000000000
+      internalID: -5507559100934201349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_125
+      rect:
+        serializedVersion: 2
+        x: 1987
+        y: 2984
+        width: 378
+        height: 387
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80e340996eff6a010800000000000000
+      internalID: 1199927716615568904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_126
+      rect:
+        serializedVersion: 2
+        x: 2380
+        y: 2984
+        width: 378
+        height: 387
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f85d35cab270d250800000000000000
+      internalID: 5967395652764522736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_127
+      rect:
+        serializedVersion: 2
+        x: 2774
+        y: 2985
+        width: 377
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41f90ee31f967ac60800000000000000
+      internalID: 7829342962069839636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_128
+      rect:
+        serializedVersion: 2
+        x: 3167
+        y: 2985
+        width: 377
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9e8b994e4ce45a40800000000000000
+      internalID: 5356165677836897950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_129
+      rect:
+        serializedVersion: 2
+        x: 3560
+        y: 2985
+        width: 377
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f79f71ac553ccd6b0800000000000000
+      internalID: -5270122690700117633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_130
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 2586
+        width: 377
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baf5c17625b9a6000800000000000000
+      internalID: 30007125750865835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_131
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 2586
+        width: 377
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fcc528cd25a7e6d0800000000000000
+      internalID: -2961216613922779916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_132
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 2587
+        width: 377
+        height: 382
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f998d8ee54e5b4990800000000000000
+      internalID: -7400717908205270625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_133
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 2587
+        width: 377
+        height: 382
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00b52cc5d8c8de7a0800000000000000
+      internalID: -6346261761120642304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_134
+      rect:
+        serializedVersion: 2
+        x: 1595
+        y: 2587
+        width: 377
+        height: 382
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93c47f75e1d730ee0800000000000000
+      internalID: -1296054698474255303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_135
+      rect:
+        serializedVersion: 2
+        x: 1989
+        y: 2588
+        width: 376
+        height: 381
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f22714cc4399974f0800000000000000
+      internalID: -830464204228955601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_136
+      rect:
+        serializedVersion: 2
+        x: 2382
+        y: 2588
+        width: 376
+        height: 381
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a9d77da2c03be6b0800000000000000
+      internalID: -5266061726587561561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_137
+      rect:
+        serializedVersion: 2
+        x: 2775
+        y: 2588
+        width: 376
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5427da79d7caf2690800000000000000
+      internalID: -7624685988699344315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_138
+      rect:
+        serializedVersion: 2
+        x: 3168
+        y: 2589
+        width: 375
+        height: 379
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 768058f6525410060800000000000000
+      internalID: 6917886529704888423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_139
+      rect:
+        serializedVersion: 2
+        x: 3561
+        y: 2589
+        width: 375
+        height: 379
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 543e52de031ff9c20800000000000000
+      internalID: 3215553851405230917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_140
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 2190
+        width: 375
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e9a2b4f300f00f20800000000000000
+      internalID: 3386970819563530726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_141
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 2190
+        width: 375
+        height: 377
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 802c74e2fb06d4140800000000000000
+      internalID: 4705523559903511048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_142
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 2190
+        width: 375
+        height: 377
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9711771d816f20220800000000000000
+      internalID: 2450791733696860537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_143
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 2191
+        width: 374
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 241e14b4653b31de0800000000000000
+      internalID: -1363549078951960254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_144
+      rect:
+        serializedVersion: 2
+        x: 1597
+        y: 2191
+        width: 374
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53f680985b85d4ad0800000000000000
+      internalID: -2716417463523184843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_145
+      rect:
+        serializedVersion: 2
+        x: 1990
+        y: 2191
+        width: 374
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0757131f6b2afe570800000000000000
+      internalID: 8498189928485713264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_146
+      rect:
+        serializedVersion: 2
+        x: 2383
+        y: 2192
+        width: 374
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20e2117eeeb448290800000000000000
+      internalID: -7889097157795303934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_147
+      rect:
+        serializedVersion: 2
+        x: 2776
+        y: 2192
+        width: 374
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cfc0f44a580698a0800000000000000
+      internalID: -6298837845034348605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_148
+      rect:
+        serializedVersion: 2
+        x: 3169
+        y: 2193
+        width: 373
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f001564539d21d6e0800000000000000
+      internalID: -1814619064054247409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_149
+      rect:
+        serializedVersion: 2
+        x: 3562
+        y: 2193
+        width: 373
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a927158857e7dad70800000000000000
+      internalID: 9056033468975248026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_150
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1794
+        width: 371
+        height: 371
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 320a3909a9a67b100800000000000000
+      internalID: 123684726859079715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_151
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1795
+        width: 370
+        height: 369
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 029ec3e64b6c48040800000000000000
+      internalID: 4649059193599093024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_152
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 1796
+        width: 368
+        height: 367
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da53f529d62923040800000000000000
+      internalID: 4625920766567724461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_153
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 1796
+        width: 367
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5342c3675cdcdea0800000000000000
+      internalID: -5846555948339805349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_154
+      rect:
+        serializedVersion: 2
+        x: 1601
+        y: 1797
+        width: 365
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64aa74541deb9db80800000000000000
+      internalID: -8369448626471589306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_155
+      rect:
+        serializedVersion: 2
+        x: 1995
+        y: 1798
+        width: 363
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b7724e443440d9a0800000000000000
+      internalID: -6210388894701946951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_156
+      rect:
+        serializedVersion: 2
+        x: 2389
+        y: 1799
+        width: 362
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61a4da4865558afa0800000000000000
+      internalID: -5789283490903274986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_157
+      rect:
+        serializedVersion: 2
+        x: 2782
+        y: 1800
+        width: 361
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63fb8428bbb9b4f10800000000000000
+      internalID: 2255067268076060470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_158
+      rect:
+        serializedVersion: 2
+        x: 3176
+        y: 1800
+        width: 359
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c8f7ad36e2621e10800000000000000
+      internalID: 2166903111735048393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_159
+      rect:
+        serializedVersion: 2
+        x: 3569
+        y: 1801
+        width: 358
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8f54472d479bc1d0800000000000000
+      internalID: -3329401141883281524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_160
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 1402
+        width: 357
+        height: 354
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac204071de77f6600800000000000000
+      internalID: 463721146819543754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_161
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 1402
+        width: 356
+        height: 354
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8d0e66ab66c51c10800000000000000
+      internalID: 2023741773228936588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_162
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 1403
+        width: 356
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5615e11b62c159e10800000000000000
+      internalID: 2203698545173614949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_163
+      rect:
+        serializedVersion: 2
+        x: 1213
+        y: 1403
+        width: 355
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc1c719632fd25c90800000000000000
+      internalID: -7182433112522505781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_164
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 1403
+        width: 354
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16e6c2c9ad1ec79e0800000000000000
+      internalID: -1622173436720943519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_165
+      rect:
+        serializedVersion: 2
+        x: 1999
+        y: 1403
+        width: 354
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f655eeaa1980277b0800000000000000
+      internalID: -5228106795692698257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_166
+      rect:
+        serializedVersion: 2
+        x: 2392
+        y: 1404
+        width: 354
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3adee56f0df816c00800000000000000
+      internalID: 892152328845454755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_167
+      rect:
+        serializedVersion: 2
+        x: 2785
+        y: 1404
+        width: 353
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0a79d0648065b540800000000000000
+      internalID: 5023027081078471179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_168
+      rect:
+        serializedVersion: 2
+        x: 3178
+        y: 1404
+        width: 353
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 217ee9f215a5058b0800000000000000
+      internalID: -5165529467856165102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_169
+      rect:
+        serializedVersion: 2
+        x: 3571
+        y: 1404
+        width: 353
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c3cb58cfd85c61a0800000000000000
+      internalID: -6814974417955994680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_170
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 1004
+        width: 353
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4f98b647e55bbfd0800000000000000
+      internalID: -2325170330794418356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_171
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 1004
+        width: 353
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 412f2480b5b377280800000000000000
+      internalID: -9045696064383684076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_172
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 1004
+        width: 353
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 070be53c8484d2420800000000000000
+      internalID: 2606819236669993072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_173
+      rect:
+        serializedVersion: 2
+        x: 1213
+        y: 1004
+        width: 353
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 116fb385644d6ac90800000000000000
+      internalID: -7158801159065700847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_174
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 1003
+        width: 353
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f032f173a63e81f0800000000000000
+      internalID: -1040834388256739079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_175
+      rect:
+        serializedVersion: 2
+        x: 1998
+        y: 1003
+        width: 354
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61f26438523cc85f0800000000000000
+      internalID: -753012471794094314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_176
+      rect:
+        serializedVersion: 2
+        x: 2391
+        y: 1003
+        width: 354
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1214858d04218c250800000000000000
+      internalID: 5965037776169091361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_177
+      rect:
+        serializedVersion: 2
+        x: 2784
+        y: 1003
+        width: 354
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f06c7c4c395d54140800000000000000
+      internalID: 4703400216496686607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_178
+      rect:
+        serializedVersion: 2
+        x: 3177
+        y: 1003
+        width: 354
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab39ea3f4ba6be060800000000000000
+      internalID: 6983792972583048122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_179
+      rect:
+        serializedVersion: 2
+        x: 3570
+        y: 1003
+        width: 355
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ba87c1bef619db20800000000000000
+      internalID: 3159581896737262260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_180
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 603
+        width: 355
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51bea7f19ea44dbf0800000000000000
+      internalID: -300532910010995947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_181
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 603
+        width: 355
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c90e1d4b7b4a0b830800000000000000
+      internalID: 4084945970944663708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_182
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 603
+        width: 356
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90008a4b19f7b1580800000000000000
+      internalID: -8855343978516054007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_183
+      rect:
+        serializedVersion: 2
+        x: 1211
+        y: 602
+        width: 357
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d32059033a787b90800000000000000
+      internalID: -7243905641007275052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_184
+      rect:
+        serializedVersion: 2
+        x: 1603
+        y: 602
+        width: 359
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a1180d64ea44fb30800000000000000
+      internalID: 4320160287497392548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_185
+      rect:
+        serializedVersion: 2
+        x: 1996
+        y: 602
+        width: 359
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cb60fe51202068c0800000000000000
+      internalID: -4008168340660917303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_186
+      rect:
+        serializedVersion: 2
+        x: 2389
+        y: 601
+        width: 359
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f327e7711448545e0800000000000000
+      internalID: -1925987850529115585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_187
+      rect:
+        serializedVersion: 2
+        x: 2782
+        y: 601
+        width: 360
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daa96af8e890a0ec0800000000000000
+      internalID: -3600054444229223763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_188
+      rect:
+        serializedVersion: 2
+        x: 3174
+        y: 600
+        width: 362
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62285d0fccdb4d570800000000000000
+      internalID: 8490619885411729958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_189
+      rect:
+        serializedVersion: 2
+        x: 3566
+        y: 600
+        width: 363
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c54360d02e6443d20800000000000000
+      internalID: 3257306367190774876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_190
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 199
+        width: 364
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4ec3f379de175820800000000000000
+      internalID: 2906826003793038924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_191
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 199
+        width: 366
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef0705b010815fb80800000000000000
+      internalID: -8361750740379602690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_192
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 198
+        width: 366
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a4851663739fc280800000000000000
+      internalID: -9020829404756605786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_193
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 197
+        width: 368
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ac54e98d31e52ff0800000000000000
+      internalID: -61395365476934496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_194
+      rect:
+        serializedVersion: 2
+        x: 1598
+        y: 197
+        width: 370
+        height: 361
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5687ee7e689a07150800000000000000
+      internalID: 5868376711345633381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_195
+      rect:
+        serializedVersion: 2
+        x: 1990
+        y: 196
+        width: 372
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ce1c57d7bcdf4510800000000000000
+      internalID: 1535688680106892992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_196
+      rect:
+        serializedVersion: 2
+        x: 2383
+        y: 196
+        width: 372
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c740163e8651fc790800000000000000
+      internalID: -7507758513567759236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_197
+      rect:
+        serializedVersion: 2
+        x: 2775
+        y: 195
+        width: 374
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 998f21ec0dad918e0800000000000000
+      internalID: -1722104792147101543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_198
+      rect:
+        serializedVersion: 2
+        x: 3167
+        y: 194
+        width: 376
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a89bae1d5ecd1de20800000000000000
+      internalID: 3373720475504654730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: centro_heavy_damage_199
+      rect:
+        serializedVersion: 2
+        x: 3559
+        y: 193
+        width: 378
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d8e3121de47a2090800000000000000
+      internalID: -8058500021666715438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

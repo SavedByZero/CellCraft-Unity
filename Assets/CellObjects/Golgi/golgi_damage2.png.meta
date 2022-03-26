@@ -1,0 +1,4927 @@
+fileFormatVersion: 2
+guid: 5bced469728cbc9429f214874f0bdc8c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4193429648941868978
+    second: golgi_damage2_0
+  - first:
+      213: -1889524540037231133
+    second: golgi_damage2_1
+  - first:
+      213: -2575953146966539594
+    second: golgi_damage2_2
+  - first:
+      213: -5595282175114588009
+    second: golgi_damage2_3
+  - first:
+      213: 7473599659240018414
+    second: golgi_damage2_4
+  - first:
+      213: 4407692522340039905
+    second: golgi_damage2_5
+  - first:
+      213: 8452046577739900923
+    second: golgi_damage2_6
+  - first:
+      213: -2258053237136980237
+    second: golgi_damage2_7
+  - first:
+      213: -4725981634205387723
+    second: golgi_damage2_8
+  - first:
+      213: 861728312694602840
+    second: golgi_damage2_9
+  - first:
+      213: -4932468280911355287
+    second: golgi_damage2_10
+  - first:
+      213: 8322389975452477094
+    second: golgi_damage2_11
+  - first:
+      213: -7539951108019229703
+    second: golgi_damage2_12
+  - first:
+      213: 2452928099325364233
+    second: golgi_damage2_13
+  - first:
+      213: 3203447959891898513
+    second: golgi_damage2_14
+  - first:
+      213: 1855160814890966424
+    second: golgi_damage2_15
+  - first:
+      213: -8846770526916115040
+    second: golgi_damage2_16
+  - first:
+      213: 6324218342946619706
+    second: golgi_damage2_17
+  - first:
+      213: -1243877089132193702
+    second: golgi_damage2_18
+  - first:
+      213: -7284081967535369643
+    second: golgi_damage2_19
+  - first:
+      213: -5827511739498567666
+    second: golgi_damage2_20
+  - first:
+      213: -4765050548244973735
+    second: golgi_damage2_21
+  - first:
+      213: -3533898434222616640
+    second: golgi_damage2_22
+  - first:
+      213: 6680046709576781681
+    second: golgi_damage2_23
+  - first:
+      213: 447228786826277004
+    second: golgi_damage2_24
+  - first:
+      213: 4303494145177780604
+    second: golgi_damage2_25
+  - first:
+      213: 8528532091626909390
+    second: golgi_damage2_26
+  - first:
+      213: -4030813994157336262
+    second: golgi_damage2_27
+  - first:
+      213: 6428094345836604986
+    second: golgi_damage2_28
+  - first:
+      213: 948091894197330173
+    second: golgi_damage2_29
+  - first:
+      213: 5968951712110764082
+    second: golgi_damage2_30
+  - first:
+      213: 793951330970169791
+    second: golgi_damage2_31
+  - first:
+      213: -1295244058646061060
+    second: golgi_damage2_32
+  - first:
+      213: -8658315483197203509
+    second: golgi_damage2_33
+  - first:
+      213: 7497081784095135578
+    second: golgi_damage2_34
+  - first:
+      213: -3200660425389316097
+    second: golgi_damage2_35
+  - first:
+      213: -5932474389143753865
+    second: golgi_damage2_36
+  - first:
+      213: -302247586383054009
+    second: golgi_damage2_37
+  - first:
+      213: -2753707867662030162
+    second: golgi_damage2_38
+  - first:
+      213: 2559627228726134787
+    second: golgi_damage2_39
+  - first:
+      213: -789835851627127375
+    second: golgi_damage2_40
+  - first:
+      213: -7274497613938132860
+    second: golgi_damage2_41
+  - first:
+      213: -8579294285856591156
+    second: golgi_damage2_42
+  - first:
+      213: -7810593765130284033
+    second: golgi_damage2_43
+  - first:
+      213: -3815028426624187180
+    second: golgi_damage2_44
+  - first:
+      213: -5610171587689341760
+    second: golgi_damage2_45
+  - first:
+      213: 7128785890073214503
+    second: golgi_damage2_46
+  - first:
+      213: 7745202023564797404
+    second: golgi_damage2_47
+  - first:
+      213: 4164525677827312578
+    second: golgi_damage2_48
+  - first:
+      213: 3410221554185650588
+    second: golgi_damage2_49
+  - first:
+      213: 7459196422351982687
+    second: golgi_damage2_50
+  - first:
+      213: 3975455082616420527
+    second: golgi_damage2_51
+  - first:
+      213: 7227669491345519746
+    second: golgi_damage2_52
+  - first:
+      213: -7816368593637352835
+    second: golgi_damage2_53
+  - first:
+      213: 3336028817515609328
+    second: golgi_damage2_54
+  - first:
+      213: 7378855105058207870
+    second: golgi_damage2_55
+  - first:
+      213: -5570352958921480960
+    second: golgi_damage2_56
+  - first:
+      213: -5090202043258763459
+    second: golgi_damage2_57
+  - first:
+      213: 5199302277142233832
+    second: golgi_damage2_58
+  - first:
+      213: -697099684265507422
+    second: golgi_damage2_59
+  - first:
+      213: 7358103450945448937
+    second: golgi_damage2_60
+  - first:
+      213: 6529046481921855642
+    second: golgi_damage2_61
+  - first:
+      213: -6805683500696827295
+    second: golgi_damage2_62
+  - first:
+      213: -1403227073648556616
+    second: golgi_damage2_63
+  - first:
+      213: -4562696605570746600
+    second: golgi_damage2_64
+  - first:
+      213: 7417796428235031147
+    second: golgi_damage2_65
+  - first:
+      213: -1455728353852220079
+    second: golgi_damage2_66
+  - first:
+      213: -7734494287175145820
+    second: golgi_damage2_67
+  - first:
+      213: 635599143542530895
+    second: golgi_damage2_68
+  - first:
+      213: 353287744561697151
+    second: golgi_damage2_69
+  - first:
+      213: 375064437536731377
+    second: golgi_damage2_70
+  - first:
+      213: 7534240442429808146
+    second: golgi_damage2_71
+  - first:
+      213: -3497369943908502254
+    second: golgi_damage2_72
+  - first:
+      213: 6512143399897817817
+    second: golgi_damage2_73
+  - first:
+      213: 2733974844414150684
+    second: golgi_damage2_74
+  - first:
+      213: -8418798691632766703
+    second: golgi_damage2_75
+  - first:
+      213: -6399730441157686158
+    second: golgi_damage2_76
+  - first:
+      213: -3582787597874543357
+    second: golgi_damage2_77
+  - first:
+      213: -1561932778822427610
+    second: golgi_damage2_78
+  - first:
+      213: 6610182630052343117
+    second: golgi_damage2_79
+  - first:
+      213: 7380704628714266419
+    second: golgi_damage2_80
+  - first:
+      213: -3147153211017045194
+    second: golgi_damage2_81
+  - first:
+      213: -1056910832295204247
+    second: golgi_damage2_82
+  - first:
+      213: 4230288390967962909
+    second: golgi_damage2_83
+  - first:
+      213: -8639960610618113717
+    second: golgi_damage2_84
+  - first:
+      213: -7193169688119273439
+    second: golgi_damage2_85
+  - first:
+      213: 2993407225798311948
+    second: golgi_damage2_86
+  - first:
+      213: -4716640687038930687
+    second: golgi_damage2_87
+  - first:
+      213: 4653369326789351752
+    second: golgi_damage2_88
+  - first:
+      213: 7507153446853637770
+    second: golgi_damage2_89
+  - first:
+      213: 6737867477917623488
+    second: golgi_damage2_90
+  - first:
+      213: 986717121720590402
+    second: golgi_damage2_91
+  - first:
+      213: 469861615338060985
+    second: golgi_damage2_92
+  - first:
+      213: 6462671936650913954
+    second: golgi_damage2_93
+  - first:
+      213: -8732634031799959996
+    second: golgi_damage2_94
+  - first:
+      213: -6679986503170153623
+    second: golgi_damage2_95
+  - first:
+      213: 2325157809384166923
+    second: golgi_damage2_96
+  - first:
+      213: -1122083918596663236
+    second: golgi_damage2_97
+  - first:
+      213: 3652350047180192926
+    second: golgi_damage2_98
+  - first:
+      213: 7922276595698473373
+    second: golgi_damage2_99
+  - first:
+      213: -5858632021820938766
+    second: golgi_damage2_100
+  - first:
+      213: 9374174848794471
+    second: golgi_damage2_101
+  - first:
+      213: -3141440487667918338
+    second: golgi_damage2_102
+  - first:
+      213: 5996758408381614771
+    second: golgi_damage2_103
+  - first:
+      213: 8670451749583460071
+    second: golgi_damage2_104
+  - first:
+      213: -8598348442159765131
+    second: golgi_damage2_105
+  - first:
+      213: -5620644618212041876
+    second: golgi_damage2_106
+  - first:
+      213: 2111156662103320447
+    second: golgi_damage2_107
+  - first:
+      213: 8702809559637468927
+    second: golgi_damage2_108
+  - first:
+      213: 5529962176112108077
+    second: golgi_damage2_109
+  - first:
+      213: -390931445533183864
+    second: golgi_damage2_110
+  - first:
+      213: -519165833610654617
+    second: golgi_damage2_111
+  - first:
+      213: -541548253747178568
+    second: golgi_damage2_112
+  - first:
+      213: 4166558855933940724
+    second: golgi_damage2_113
+  - first:
+      213: -4050065635402179477
+    second: golgi_damage2_114
+  - first:
+      213: -6650851855546543327
+    second: golgi_damage2_115
+  - first:
+      213: 2764939951977007427
+    second: golgi_damage2_116
+  - first:
+      213: -7199822286985544919
+    second: golgi_damage2_117
+  - first:
+      213: -3429674146544632383
+    second: golgi_damage2_118
+  - first:
+      213: 366350701472440677
+    second: golgi_damage2_119
+  - first:
+      213: -2812339737265794436
+    second: golgi_damage2_120
+  - first:
+      213: -5417775206740572645
+    second: golgi_damage2_121
+  - first:
+      213: 5580739147898628975
+    second: golgi_damage2_122
+  - first:
+      213: 8591352419016812731
+    second: golgi_damage2_123
+  - first:
+      213: 8332247816815017209
+    second: golgi_damage2_124
+  - first:
+      213: -7146655651528949911
+    second: golgi_damage2_125
+  - first:
+      213: -5059010078045596050
+    second: golgi_damage2_126
+  - first:
+      213: 1617679221148665988
+    second: golgi_damage2_127
+  - first:
+      213: -4371681197997592186
+    second: golgi_damage2_128
+  - first:
+      213: 506189049445144199
+    second: golgi_damage2_129
+  - first:
+      213: -7700568541804849165
+    second: golgi_damage2_130
+  - first:
+      213: -7211808599691861722
+    second: golgi_damage2_131
+  - first:
+      213: -214174241270200117
+    second: golgi_damage2_132
+  - first:
+      213: 8876087571512815659
+    second: golgi_damage2_133
+  - first:
+      213: 9081653527107250714
+    second: golgi_damage2_134
+  - first:
+      213: 538752698714513644
+    second: golgi_damage2_135
+  - first:
+      213: -7267780971187368834
+    second: golgi_damage2_136
+  - first:
+      213: -3945176027402484482
+    second: golgi_damage2_137
+  - first:
+      213: 6869861612577936180
+    second: golgi_damage2_138
+  - first:
+      213: 6940941106540437185
+    second: golgi_damage2_139
+  - first:
+      213: 3300693812297325269
+    second: golgi_damage2_140
+  - first:
+      213: -6450643098663575598
+    second: golgi_damage2_141
+  - first:
+      213: 6084303003035280945
+    second: golgi_damage2_142
+  - first:
+      213: -5307696886279133210
+    second: golgi_damage2_143
+  - first:
+      213: 3081686967547341293
+    second: golgi_damage2_144
+  - first:
+      213: 2022582752193912138
+    second: golgi_damage2_145
+  - first:
+      213: 3802954676289508181
+    second: golgi_damage2_146
+  - first:
+      213: -603348666010903449
+    second: golgi_damage2_147
+  - first:
+      213: 8784702752205068185
+    second: golgi_damage2_148
+  - first:
+      213: -5280010429383615142
+    second: golgi_damage2_149
+  - first:
+      213: 2101142538943248943
+    second: golgi_damage2_150
+  - first:
+      213: 7059415726623239287
+    second: golgi_damage2_151
+  - first:
+      213: 4871062175021596502
+    second: golgi_damage2_152
+  - first:
+      213: 1726457865624060239
+    second: golgi_damage2_153
+  - first:
+      213: 5891879797526119529
+    second: golgi_damage2_154
+  - first:
+      213: 3969175081338616253
+    second: golgi_damage2_155
+  - first:
+      213: 6331544076973752653
+    second: golgi_damage2_156
+  - first:
+      213: -7601715170543551037
+    second: golgi_damage2_157
+  - first:
+      213: 6124911527060255540
+    second: golgi_damage2_158
+  - first:
+      213: 5693095259846390820
+    second: golgi_damage2_159
+  - first:
+      213: 216376797102490966
+    second: golgi_damage2_160
+  - first:
+      213: 3328763509514127684
+    second: golgi_damage2_161
+  - first:
+      213: 1926450061215003424
+    second: golgi_damage2_162
+  - first:
+      213: 2182818199577166047
+    second: golgi_damage2_163
+  - first:
+      213: 6692392542472325003
+    second: golgi_damage2_164
+  - first:
+      213: -6103466062570709462
+    second: golgi_damage2_165
+  - first:
+      213: -4904679418893549340
+    second: golgi_damage2_166
+  - first:
+      213: -5987501604107704175
+    second: golgi_damage2_167
+  - first:
+      213: 7993704729119708506
+    second: golgi_damage2_168
+  - first:
+      213: 8239373836014396762
+    second: golgi_damage2_169
+  - first:
+      213: 5183523989756518866
+    second: golgi_damage2_170
+  - first:
+      213: 9134122682487702529
+    second: golgi_damage2_171
+  - first:
+      213: 2941258199736239113
+    second: golgi_damage2_172
+  - first:
+      213: -2066955628022795947
+    second: golgi_damage2_173
+  - first:
+      213: 9201054963087962464
+    second: golgi_damage2_174
+  - first:
+      213: 8572729672049641475
+    second: golgi_damage2_175
+  - first:
+      213: -5825342317044057476
+    second: golgi_damage2_176
+  - first:
+      213: -8864906280092470917
+    second: golgi_damage2_177
+  - first:
+      213: -6952750320140507222
+    second: golgi_damage2_178
+  - first:
+      213: -6825522164370787471
+    second: golgi_damage2_179
+  - first:
+      213: 2095453154155394674
+    second: golgi_damage2_180
+  - first:
+      213: -1655083945110047265
+    second: golgi_damage2_181
+  - first:
+      213: 9065141592946259871
+    second: golgi_damage2_182
+  - first:
+      213: 2955734055073723893
+    second: golgi_damage2_183
+  - first:
+      213: 5087038530065403710
+    second: golgi_damage2_184
+  - first:
+      213: 3385627906549538844
+    second: golgi_damage2_185
+  - first:
+      213: -2068461293996017232
+    second: golgi_damage2_186
+  - first:
+      213: 3307494538031345858
+    second: golgi_damage2_187
+  - first:
+      213: -4074676690395933362
+    second: golgi_damage2_188
+  - first:
+      213: -4937599159195434313
+    second: golgi_damage2_189
+  - first:
+      213: 6918997827917837606
+    second: golgi_damage2_190
+  - first:
+      213: 16786259429765355
+    second: golgi_damage2_191
+  - first:
+      213: 3861155582350742587
+    second: golgi_damage2_192
+  - first:
+      213: -3830360028295742134
+    second: golgi_damage2_193
+  - first:
+      213: -1472369324195213543
+    second: golgi_damage2_194
+  - first:
+      213: 7028681431827981063
+    second: golgi_damage2_195
+  - first:
+      213: 7404563538830389906
+    second: golgi_damage2_196
+  - first:
+      213: -3349359383552000902
+    second: golgi_damage2_197
+  - first:
+      213: -7486477736674273938
+    second: golgi_damage2_198
+  - first:
+      213: -1437160338499761290
+    second: golgi_damage2_199
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: golgi_damage2_0
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 1962
+        width: 61
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e489a38b3f1fdc5c0800000000000000
+      internalID: -4193429648941868978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_1
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 1962
+        width: 62
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ed82b4217f07c5e0800000000000000
+      internalID: -1889524540037231133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_2
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 1962
+        width: 62
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b28205c240604cd0800000000000000
+      internalID: -2575953146966539594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_3
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 1962
+        width: 62
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 790583eb1809952b0800000000000000
+      internalID: -5595282175114588009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_4
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 1962
+        width: 62
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee15b721b4f87b760800000000000000
+      internalID: 7473599659240018414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_5
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 1962
+        width: 62
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ec39310ff44b2d30800000000000000
+      internalID: 4407692522340039905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_6
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1961
+        width: 62
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf72e33e493bb4570800000000000000
+      internalID: 8452046577739900923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_7
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 1962
+        width: 62
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f687846b88c9a0e0800000000000000
+      internalID: -2258053237136980237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_8
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 1962
+        width: 62
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 534fa263eb0f96eb0800000000000000
+      internalID: -4725981634205387723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_9
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 1962
+        width: 62
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85cfe03b55975fb00800000000000000
+      internalID: 861728312694602840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_10
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 1962
+        width: 62
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 962a56a5b3a5c8bb0800000000000000
+      internalID: -4932468280911355287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_11
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 1962
+        width: 62
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a6ed19b6911f7370800000000000000
+      internalID: 8322389975452477094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_12
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1884
+        width: 62
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fb63b66a66bc5790800000000000000
+      internalID: -7539951108019229703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_13
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 1884
+        width: 62
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 908ccd33c1d8a0220800000000000000
+      internalID: 2452928099325364233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_14
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 1884
+        width: 62
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1907ec962fee47c20800000000000000
+      internalID: 3203447959891898513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_15
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 1884
+        width: 63
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89ddccc9eeadeb910800000000000000
+      internalID: 1855160814890966424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_16
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 1884
+        width: 63
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a505c5f315f93580800000000000000
+      internalID: -8846770526916115040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_17
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 1884
+        width: 63
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a31c755631324c750800000000000000
+      internalID: 6324218342946619706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_18
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 1884
+        width: 63
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a585706b06cdcbee0800000000000000
+      internalID: -1243877089132193702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_19
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 1884
+        width: 63
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 552d9321b0eb9ea90800000000000000
+      internalID: -7284081967535369643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_20
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 1884
+        width: 63
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e08e4cac2f4802fa0800000000000000
+      internalID: -5827511739498567666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_21
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 1884
+        width: 63
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 957f31fc5c32fddb0800000000000000
+      internalID: -4765050548244973735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_22
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 1884
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cf0ad3f81215fec0800000000000000
+      internalID: -3533898434222616640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_23
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 1884
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17f4757071b44bc50800000000000000
+      internalID: 6680046709576781681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_24
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 1806
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c80fb1c4630e43600800000000000000
+      internalID: 447228786826277004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_25
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 1806
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c718b48cf1519bb30800000000000000
+      internalID: 4303494145177780604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_26
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 1806
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecee0f050ce6b5670800000000000000
+      internalID: 8528532091626909390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_27
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 1806
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a39149a470caf08c0800000000000000
+      internalID: -4030813994157336262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_28
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1806
+        width: 65
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3ea94200cd253950800000000000000
+      internalID: 6428094345836604986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_29
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 1806
+        width: 65
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df02f08fd8c482d00800000000000000
+      internalID: 948091894197330173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_30
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 1806
+        width: 65
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23062d115f9f5d250800000000000000
+      internalID: 5968951712110764082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_31
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 1806
+        width: 65
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb1fc6b678ea40b00800000000000000
+      internalID: 793951330970169791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_32
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 1805
+        width: 65
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cff57f2246e560ee0800000000000000
+      internalID: -1295244058646061060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_33
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 1805
+        width: 65
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcb14c611fb77d780800000000000000
+      internalID: -8658315483197203509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_34
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 1805
+        width: 65
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a57da01592cfa0860800000000000000
+      internalID: 7497081784095135578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_35
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 1805
+        width: 65
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff7e40a0d48f493d0800000000000000
+      internalID: -3200660425389316097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_36
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1727
+        width: 65
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77bebf389fd9bada0800000000000000
+      internalID: -5932474389143753865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_37
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1727
+        width: 65
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74b3b6beb633ecbf0800000000000000
+      internalID: -302247586383054009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_38
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 1727
+        width: 65
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaa6eccb84dd8c9d0800000000000000
+      internalID: -2753707867662030162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_39
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 1727
+        width: 65
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30883ad276f958320800000000000000
+      internalID: 2559627228726134787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_40
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1727
+        width: 65
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bd95e84a70f905f0800000000000000
+      internalID: -789835851627127375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_41
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 1727
+        width: 66
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4887ac946facb0b90800000000000000
+      internalID: -7274497613938132860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_42
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 1727
+        width: 66
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc2baf35d4930f880800000000000000
+      internalID: -8579294285856591156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_43
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 1727
+        width: 66
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff357885a523b9390800000000000000
+      internalID: -7810593765130284033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_44
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 1727
+        width: 66
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d44c0fdbdb4e0bc0800000000000000
+      internalID: -3815028426624187180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_45
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 1727
+        width: 66
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cc99ca3aaaa422b0800000000000000
+      internalID: -5610171587689341760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_46
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 1727
+        width: 66
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72e71a14ff88ee260800000000000000
+      internalID: 7128785890073214503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_47
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 1727
+        width: 66
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd56730643c7c7b60800000000000000
+      internalID: 7745202023564797404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_48
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 1649
+        width: 66
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cbc3e41a0e5bc930800000000000000
+      internalID: 4164525677827312578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_49
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1649
+        width: 66
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c91cd967f6a835f20800000000000000
+      internalID: 3410221554185650588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_50
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 1649
+        width: 66
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f50972820a3648760800000000000000
+      internalID: 7459196422351982687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_51
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 1649
+        width: 66
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa87fd3b557ab2730800000000000000
+      internalID: 3975455082616420527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_52
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 1649
+        width: 66
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 284f399cb17dd4460800000000000000
+      internalID: 7227669491345519746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_53
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 1649
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7ad9be4d2ea68390800000000000000
+      internalID: -7816368593637352835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_54
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 1649
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fcfb74d884fb4e20800000000000000
+      internalID: 3336028817515609328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_55
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 1649
+        width: 68
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e78721a8f95f66660800000000000000
+      internalID: 7378855105058207870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_56
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 1649
+        width: 68
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00560f13f7122b2b0800000000000000
+      internalID: -5570352958921480960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_57
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 1649
+        width: 68
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d370890f538fb59b0800000000000000
+      internalID: -5090202043258763459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_58
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 1649
+        width: 68
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e241fcbfd1a72840800000000000000
+      internalID: 5199302277142233832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_59
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 1649
+        width: 68
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a54152d7876356f0800000000000000
+      internalID: -697099684265507422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_60
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 1571
+        width: 68
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ebed2e8a1c3d1660800000000000000
+      internalID: 7358103450945448937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_61
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 1571
+        width: 68
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9057f4de25db9a50800000000000000
+      internalID: 6529046481921855642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_62
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 1571
+        width: 68
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16a8a370aea5d81a0800000000000000
+      internalID: -6805683500696827295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_63
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 1571
+        width: 68
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b587ff396cb68ce0800000000000000
+      internalID: -1403227073648556616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_64
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 1571
+        width: 68
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81733178c9b0ea0c0800000000000000
+      internalID: -4562696605570746600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_65
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 1571
+        width: 68
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b624c11ec8e41f660800000000000000
+      internalID: 7417796428235031147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_66
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 1571
+        width: 68
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15d9c2366c63ccbe0800000000000000
+      internalID: -1455728353852220079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_67
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 1571
+        width: 68
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a623a7cc6e89a490800000000000000
+      internalID: -7734494287175145820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_68
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 1571
+        width: 69
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f432562bd0a12d800800000000000000
+      internalID: 635599143542530895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_69
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1571
+        width: 69
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f715916f45127e400800000000000000
+      internalID: 353287744561697151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_70
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 1571
+        width: 69
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f032476e1f743500800000000000000
+      internalID: 375064437536731377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_71
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 1571
+        width: 69
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21e1967a3cffe8860800000000000000
+      internalID: 7534240442429808146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_72
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1493
+        width: 69
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 215b43dd098d67fc0800000000000000
+      internalID: -3497369943908502254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_73
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 1493
+        width: 69
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d2605d5be7cf5a50800000000000000
+      internalID: 6512143399897817817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_74
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 1493
+        width: 69
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c18c822c2a701f520800000000000000
+      internalID: 2733974844414150684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_75
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 1493
+        width: 69
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 111a4b5d13b6a2b80800000000000000
+      internalID: -8418798691632766703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_76
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 1493
+        width: 69
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27cca8c22179f27a0800000000000000
+      internalID: -6399730441157686158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_77
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 1493
+        width: 69
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 305430389a1674ec0800000000000000
+      internalID: -3582787597874543357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_78
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 1493
+        width: 69
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62c1043c966e25ae0800000000000000
+      internalID: -1561932778822427610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_79
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 1493
+        width: 69
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4d2abc64161cbb50800000000000000
+      internalID: 6610182630052343117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_80
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 1492
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33f589251c78d6660800000000000000
+      internalID: 7380704628714266419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_81
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 1492
+        width: 70
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63b599334d01354d0800000000000000
+      internalID: -3147153211017045194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_82
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 1492
+        width: 70
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96a28c1a2391551f0800000000000000
+      internalID: -1056910832295204247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_83
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 1492
+        width: 70
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1daa19e0e005ba30800000000000000
+      internalID: 4230288390967962909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_84
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1414
+        width: 70
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b418db2e991b81880800000000000000
+      internalID: -8639960610618113717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_85
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 1414
+        width: 71
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1281b8a974abc2c90800000000000000
+      internalID: -7193169688119273439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_86
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 1414
+        width: 71
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c00cbc91308ba8920800000000000000
+      internalID: 2993407225798311948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_87
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 1414
+        width: 71
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 101e3e3f8402b8eb0800000000000000
+      internalID: -4716640687038930687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_88
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 1414
+        width: 71
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8495af38fb6149040800000000000000
+      internalID: 4653369326789351752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_89
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 1414
+        width: 71
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a867f0a0944ce2860800000000000000
+      internalID: 7507153446853637770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_90
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 1414
+        width: 71
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c4efecb5c6b18d50800000000000000
+      internalID: 6737867477917623488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_91
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 1414
+        width: 71
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 240a3fd8ef581bd00800000000000000
+      internalID: 986717121720590402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_92
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 1414
+        width: 71
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bcf0d356a8458600800000000000000
+      internalID: 469861615338060985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_93
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 1414
+        width: 71
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a8a6fbb2e500b950800000000000000
+      internalID: 6462671936650913954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_94
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 1414
+        width: 71
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44e73159d937fc680800000000000000
+      internalID: -8732634031799959996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_95
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 1414
+        width: 72
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 963a32edaabeb43a0800000000000000
+      internalID: -6679986503170153623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_96
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1336
+        width: 72
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b06911b55be944020800000000000000
+      internalID: 2325157809384166923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_97
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1336
+        width: 72
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c381edffe9e8d60f0800000000000000
+      internalID: -1122083918596663236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_98
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 1336
+        width: 72
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9c7e855401cfa230800000000000000
+      internalID: 3652350047180192926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_99
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 1336
+        width: 72
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d999ffaf69491fd60800000000000000
+      internalID: 7922276595698473373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_100
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 1336
+        width: 72
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f562ad6735f1bea0800000000000000
+      internalID: -5858632021820938766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_101
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 1336
+        width: 72
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76fbce923cd412000800000000000000
+      internalID: 9374174848794471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_102
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 1336
+        width: 72
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef91681458c5764d0800000000000000
+      internalID: -3141440487667918338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_103
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 1336
+        width: 72
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ba4c6f0004c83350800000000000000
+      internalID: 5996758408381614771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_104
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 1336
+        width: 71
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e61610ade1a35870800000000000000
+      internalID: 8670451749583460071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_105
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 1336
+        width: 71
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 579a80ad5a78ca880800000000000000
+      internalID: -8598348442159765131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_106
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 1336
+        width: 71
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6b92cacf757ff1b0800000000000000
+      internalID: -5620644618212041876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_107
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 1336
+        width: 71
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f772edd7cc55c4d10800000000000000
+      internalID: 2111156662103320447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_108
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1258
+        width: 71
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff6a01e5f2796c870800000000000000
+      internalID: 8702809559637468927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_109
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 1258
+        width: 71
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d222288dc4f5ebc40800000000000000
+      internalID: 5529962176112108077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_110
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 1258
+        width: 71
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 880f679ebe1239af0800000000000000
+      internalID: -390931445533183864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_111
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 1258
+        width: 71
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76c0e1ccc6d8bc8f0800000000000000
+      internalID: -519165833610654617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_112
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 1258
+        width: 71
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b39aa28bb80c78f0800000000000000
+      internalID: -541548253747178568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_113
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 1258
+        width: 71
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f353bf343792d930800000000000000
+      internalID: 4166558855933940724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_114
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 1258
+        width: 71
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6c16d443c64bc7c0800000000000000
+      internalID: -4050065635402179477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_115
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 1258
+        width: 70
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1239660a97d63b3a0800000000000000
+      internalID: -6650851855546543327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_116
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 1258
+        width: 70
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34900eeac3a0f5620800000000000000
+      internalID: 2764939951977007427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_117
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 1258
+        width: 70
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92b394ab6c7151c90800000000000000
+      internalID: -7199822286985544919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_118
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 1258
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cdbddfe8895760d0800000000000000
+      internalID: -3429674146544632383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_119
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 1259
+        width: 69
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 561ea70a50a851500800000000000000
+      internalID: 366350701472440677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_120
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1181
+        width: 69
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c729e8cc8ef88f8d0800000000000000
+      internalID: -2812339737265794436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_121
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 1181
+        width: 69
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b164f41772230d4b0800000000000000
+      internalID: -5417775206740572645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_122
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 1181
+        width: 69
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6b2d9edfa4c27d40800000000000000
+      internalID: 5580739147898628975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_123
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 1181
+        width: 69
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb8a0b3918d9a3770800000000000000
+      internalID: 8591352419016812731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_124
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 1181
+        width: 69
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fc78c54e3712a370800000000000000
+      internalID: 8332247816815017209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_125
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 1181
+        width: 69
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96f349eac8af1dc90800000000000000
+      internalID: -7146655651528949911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_126
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 1181
+        width: 69
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6698f64329cac9b0800000000000000
+      internalID: -5059010078045596050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_127
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 1181
+        width: 69
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 488c8194ea6237610800000000000000
+      internalID: 1617679221148665988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_128
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 1181
+        width: 69
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6817912dc1ba453c0800000000000000
+      internalID: -4371681197997592186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_129
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1181
+        width: 69
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 786de513248560700800000000000000
+      internalID: 506189049445144199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_130
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 1181
+        width: 69
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f79c29e5b5122590800000000000000
+      internalID: -7700568541804849165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_131
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 1181
+        width: 68
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6216243d9428aeb90800000000000000
+      internalID: -7211808599691861722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_132
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 1103
+        width: 68
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc80d0d89a9170df0800000000000000
+      internalID: -214174241270200117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_133
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 1103
+        width: 68
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b20f7476e923e2b70800000000000000
+      internalID: 8876087571512815659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_134
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 1103
+        width: 68
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1aa66824c3880e70800000000000000
+      internalID: 9081653527107250714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_135
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 1103
+        width: 68
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce069ac99b80a7700800000000000000
+      internalID: 538752698714513644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_136
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 1103
+        width: 68
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7c880b86b7a32b90800000000000000
+      internalID: -7267780971187368834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_137
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 1103
+        width: 68
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef4c9463e4bef39c0800000000000000
+      internalID: -3945176027402484482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_138
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 1103
+        width: 68
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 433dcc11db6a65f50800000000000000
+      internalID: 6869861612577936180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_139
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 1103
+        width: 68
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cedf36692d235060800000000000000
+      internalID: 6940941106540437185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_140
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 1103
+        width: 68
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dadf42d88b6ecd20800000000000000
+      internalID: 3300693812297325269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_141
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 1103
+        width: 68
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2df155b5746ba76a0800000000000000
+      internalID: -6450643098663575598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_142
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 1103
+        width: 68
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 136a2c16859cf6450800000000000000
+      internalID: 6084303003035280945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_143
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 1103
+        width: 68
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e7a2e5adc54756b0800000000000000
+      internalID: -5307696886279133210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_144
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 1025
+        width: 68
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de92c9138f954ca20800000000000000
+      internalID: 3081686967547341293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_145
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1025
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4d99590c48a11c10800000000000000
+      internalID: 2022582752193912138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_146
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 1025
+        width: 66
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5539521112fc6c430800000000000000
+      internalID: 3802954676289508181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_147
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 1025
+        width: 66
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76cd6beb59970a7f0800000000000000
+      internalID: -603348666010903449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_148
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 1025
+        width: 66
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 997549a1c9889e970800000000000000
+      internalID: 8784702752205068185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_149
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 1025
+        width: 66
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5d5b3a3d72a9b6b0800000000000000
+      internalID: -5280010429383615142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_150
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 1025
+        width: 66
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2abc20c102c82d10800000000000000
+      internalID: 2101142538943248943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_151
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 1025
+        width: 66
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77c2f23733518f160800000000000000
+      internalID: 7059415726623239287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_152
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 1025
+        width: 66
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65ff00d7d3d799340800000000000000
+      internalID: 4871062175021596502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_153
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 1025
+        width: 66
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f418338184c95f710800000000000000
+      internalID: 1726457865624060239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_154
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 1025
+        width: 66
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96448d6957924c150800000000000000
+      internalID: 5891879797526119529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_155
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 1025
+        width: 66
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db93586f4b7551730800000000000000
+      internalID: 3969175081338616253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_156
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 947
+        width: 66
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d41cfb3cac92ed750800000000000000
+      internalID: 6331544076973752653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_157
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 947
+        width: 66
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cdbd08f358418690800000000000000
+      internalID: -7601715170543551037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_158
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 947
+        width: 65
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4333f1b259e000550800000000000000
+      internalID: 6124911527060255540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_159
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 947
+        width: 65
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 424ba9bb9ffe10f40800000000000000
+      internalID: 5693095259846390820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_160
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 947
+        width: 65
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6554ee0fc89b00300800000000000000
+      internalID: 216376797102490966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_161
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 947
+        width: 65
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4494fdd76c4223e20800000000000000
+      internalID: 3328763509514127684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_162
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 947
+        width: 65
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 023ff38bf102cba10800000000000000
+      internalID: 1926450061215003424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_163
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 947
+        width: 65
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd00e03669dea4e10800000000000000
+      internalID: 2182818199577166047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_164
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 947
+        width: 65
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b87498f3f8720ec50800000000000000
+      internalID: 6692392542472325003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_165
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 947
+        width: 65
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2e12d124f12c4ba0800000000000000
+      internalID: -6103466062570709462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_166
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 947
+        width: 65
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e04eabfd041febb0800000000000000
+      internalID: -4904679418893549340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_167
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 948
+        width: 65
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1982413a30f18eca0800000000000000
+      internalID: -5987501604107704175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_168
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 870
+        width: 65
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a555a8249185fee60800000000000000
+      internalID: 7993704729119708506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_169
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 870
+        width: 65
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a55294b89d2285270800000000000000
+      internalID: 8239373836014396762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_170
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 870
+        width: 65
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d1272eea939fe740800000000000000
+      internalID: 5183523989756518866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_171
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 870
+        width: 65
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10484806f2ce2ce70800000000000000
+      internalID: 9134122682487702529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_172
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 870
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 904cbfbcfb271d820800000000000000
+      internalID: 2941258199736239113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_173
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 870
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 551f439bec2b053e0800000000000000
+      internalID: -2066955628022795947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_174
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 870
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 061f3b95db6b0bf70800000000000000
+      internalID: 9201054963087962464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_175
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 870
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30848f9673478f670800000000000000
+      internalID: 8572729672049641475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_176
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 870
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7ab981d60a382fa0800000000000000
+      internalID: -5825342317044057476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_177
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 870
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7175ffd4b689f480800000000000000
+      internalID: -8864906280092470917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_178
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 870
+        width: 63
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa7aa0ccb6ed28f90800000000000000
+      internalID: -6952750320140507222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_179
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 870
+        width: 63
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 173bf1231cfd641a0800000000000000
+      internalID: -6825522164370787471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_180
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 792
+        width: 63
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27677e0aa8b841d10800000000000000
+      internalID: 2095453154155394674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_181
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 792
+        width: 63
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd57342cbe5f709e0800000000000000
+      internalID: -1655083945110047265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_182
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 792
+        width: 63
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f973e26ef3addcd70800000000000000
+      internalID: 9065141592946259871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_183
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 792
+        width: 63
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f5b1338670e40920800000000000000
+      internalID: 2955734055073723893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_184
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 792
+        width: 63
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3f064f379ac89640800000000000000
+      internalID: 5087038530065403710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_185
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 792
+        width: 62
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c10e887a4aa2cfe20800000000000000
+      internalID: 3385627906549538844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_186
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 792
+        width: 62
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b9f8bb89695b43e0800000000000000
+      internalID: -2068461293996017232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_187
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 792
+        width: 62
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c037eb22c496ed20800000000000000
+      internalID: 3307494538031345858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_188
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 792
+        width: 62
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e45d26e7327d377c0800000000000000
+      internalID: -4074676690395933362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_189
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 792
+        width: 62
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b283e8a9bf1a7bb0800000000000000
+      internalID: -4937599159195434313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_190
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 792
+        width: 62
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 625fdb6bdd7350060800000000000000
+      internalID: 6918997827917837606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_191
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 792
+        width: 62
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be03b669303ab3000800000000000000
+      internalID: 16786259429765355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_192
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 714
+        width: 62
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b34588c7b84959530800000000000000
+      internalID: 3861155582350742587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_193
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 713
+        width: 62
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4db39f29d3d7dac0800000000000000
+      internalID: -3830360028295742134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_194
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 714
+        width: 62
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91f892d86e7119be0800000000000000
+      internalID: -1472369324195213543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_195
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 714
+        width: 62
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 703ad7fc584ea8160800000000000000
+      internalID: 7028681431827981063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_196
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 714
+        width: 62
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2927bc8be4b42c660800000000000000
+      internalID: 7404563538830389906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_197
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 714
+        width: 62
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7cf246e26fa481d0800000000000000
+      internalID: -3349359383552000902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_198
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 714
+        width: 61
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e65d8aed920ba1890800000000000000
+      internalID: -7486477736674273938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golgi_damage2_199
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 714
+        width: 61
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67b017a594e2e0ce0800000000000000
+      internalID: -1437160338499761290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

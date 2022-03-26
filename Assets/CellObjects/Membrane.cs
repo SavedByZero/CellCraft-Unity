@@ -164,7 +164,7 @@ public class Membrane : CellObject
     private Coroutine _waitShortForCentPullRoutine;
     private Coroutine _waitForCentPullRoutine;
 
-    public Membrane()
+    void Start()
 		{
 			defensin_strength = 0;
 			canSelect = false;
@@ -971,7 +971,7 @@ public class Membrane : CellObject
 
 	public void onHealthChange()
 	{
-		p_cell.onMembraneHealthChange(health);
+		p_cell.onMembraneHealthChange((int)health);
 	}
 
 	public void updateMaxHealth(int changeNodes = 0, bool fillUp = false)
@@ -1022,7 +1022,7 @@ public class Membrane : CellObject
 
 			if (health < maxHealth)
 			{
-				if (p_cell.spendATP(Costs.FIX_MEMBRANE))
+				if (p_cell.spendATP(Costs.FIX_MEMBRANE) > 0)
 				{
 					giveHealth(1);
 				}
@@ -1250,17 +1250,17 @@ public class Membrane : CellObject
 					dist2 = quickCircSeg2(new Vector2(cv.x, cv.y), cv.getRadius(), p1, p2, m1);
 					if (dist2 < 0)
 					{
-						GoodieGem(cv).onTouchCell2(dist2, penetrate_unit_vector);
+						(cv as GoodieGem).onTouchCell2(dist2, penetrate_unit_vector);
 					}
 				}
-				else if (quickCircSeg(new Vector2D(cv.x, cv.y), cv.getRadius(), p1, p2, m1))
+				else if (quickCircSeg(new Vector2(cv.x, cv.y), cv.getRadius(), p1, p2, m1))
 				{
 					if (cv is CanvasWrapperObject)
 					{
-						if (CanvasWrapperObject(cv).c_cellObj is BigVesicle)
+						/*if (CanvasWrapperObject(cv).c_cellObj is BigVesicle)  //TODO
 						{
 							mergeVesicle(CanvasWrapperObject(cv), m1, m2);
-						}
+						}*/ 
 					}
 					cv.onTouchCell();
 				}
@@ -1802,10 +1802,10 @@ public class Membrane : CellObject
 
 	private void doMouseDown()
 	{
-
+		Vector3 mouse = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 		isMouseDown = true;
-		mouseDown_x = m.localX;
-		mouseDown_y = m.localY;
+		mouseDown_x = mouse.x;
+		mouseDown_y = mouse.y;
 		//p_cell.dispatchEvent(m);
 		_doMouseMoveRoutine = StartCoroutine(doMouseMove());
 		

@@ -12,8 +12,9 @@ public class PoreMatrix :MonoBehaviour
 
     public List<MovieClip> pores;
 
-	public PoreMatrix()
+	void Start()
 	{
+		pores = new List<MovieClip>(GetComponentsInChildren<MovieClip>());
 		busy = new List< MovieClip > ();
 		ready = new List< MovieClip > ();
 		for (int i = 0; i < pores.Count; i++) 

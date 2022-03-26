@@ -83,7 +83,7 @@ public class ER : CellObject
 	List<Locator> dockLocators = new List<Locator>();
 	List<Locator> exitLocators = new List<Locator>();
 
-	public ER()
+	void Start()
 	{
 		showSubtleDamage = true;
 		singleSelect = true;
@@ -117,8 +117,8 @@ public class ER : CellObject
 			p.index = i;
 			list_dock.Add(p);
 			//d.visible = true;
-			d.transform.SetParent(null);
-			d = null;
+			d.gameObject.SetActive(false);
+			//d = null;
 			Locator e = exitLocators[i];
 			DockPoint ep = new DockPoint();
 			ep.x = (int)(e.transform.position.x);
@@ -127,8 +127,8 @@ public class ER : CellObject
 			ep.index = i;
 			list_exit.Add(ep);
 			//e.visible = true;
-			e.transform.SetParent(null);
-			e = null;
+			e.gameObject.SetActive(false);
+			//e = null;
 		}
 		_checkBusyRoutine = StartCoroutine(checkBusy());
 		init();

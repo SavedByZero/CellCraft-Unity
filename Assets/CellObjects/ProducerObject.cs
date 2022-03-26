@@ -84,7 +84,7 @@ public class ProducerObject : CellObject
 					if (produce_counter > produce_time)
 					{
 						produce_counter = 0;
-						if (p_cell.spend(_inputs, new Point(x, y + (MaxHeight / 3)), 0.5))
+						if (p_cell.spend(_inputs, new Point(x, y + (MaxHeight / 3)), 0.5f))
 						{
 							playAnim("process");
 							if (brown_fat_toggle_on)
@@ -108,7 +108,7 @@ public class ProducerObject : CellObject
 
 	protected virtual void doAlternateBurn()
 	{
-		if (p_cell.spend(_inputs2, new Point(x, y + (MaxHeight / 2)), 0.5))
+		if (p_cell.spend(_inputs2, new Point(x, y + (MaxHeight / 2)), 0.5f))
 		{
 			alternateBurn = true;
 			playAnim("process");
@@ -169,17 +169,17 @@ public class ProducerObject : CellObject
 		{
 			if (brown_fat_toggle_on)
 			{
-				p_cell.produceHeat(HEAT_PER_BURN, 1, new Point(x, y - (MaxHeight / 3)), 0.5);
+				p_cell.produceHeat(HEAT_PER_BURN, 1, new Point(x, y - (MaxHeight / 3)), 0.5f);
 			}
 			else
 			{
-				p_cell.produce(_outputs, 1, new Point(x, y - (MaxHeight / 3)), 0.5);
+				p_cell.produce(_outputs, 1, new Point(x, y - (MaxHeight / 3)), 0.5f);
 			}
 		}
 		else
 		{
 			alternateBurn = false;
-			p_cell.produce(_outputs2, 1, new Point(x, y - (MaxHeight / 3)), 0.5);
+			p_cell.produce(_outputs2, 1, new Point(x, y - (MaxHeight / 3)), 0.5f);
 		}
 	}
 

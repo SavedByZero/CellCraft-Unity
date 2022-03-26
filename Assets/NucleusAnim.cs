@@ -11,7 +11,7 @@ public class NucleusAnim : MovieClip
 	public NucleolusPoreMatrix n_pores;
 	public MovieClip clip1;
 
-	public NucleusAnim()
+	void Start()
 	{
 		clip1 = null; //to avoid a bug in SelectedPanel  //TODO: do I need this?
 	}

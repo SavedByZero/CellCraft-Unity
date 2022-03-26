@@ -120,6 +120,13 @@ public class CellGameObject : MovieClip, ICellGameObject
 
 	protected bool snapToObject = true;
 
+	public MovieClip Normal;
+	public MovieClip Divide;
+	public MovieClip Recycle;
+	public MovieClip Damage1;
+	public MovieClip Damage2;
+	public MovieClip Plop;
+
 	public CellGameObject()
 	{
 		autoRadius();
@@ -191,6 +198,7 @@ public class CellGameObject : MovieClip, ICellGameObject
 			if (damageLevel != 2)
 			{
 				showHeavyDamage();
+
 			}
 		}
 		else if (health < maxHealth * 0.5)
@@ -218,34 +226,53 @@ public class CellGameObject : MovieClip, ICellGameObject
 		}
 	}
 
+	void switchStatesOff()
+    {
+		Normal.gameObject.SetActive(false);
+		Damage1.gameObject.SetActive(false);
+		Damage2.gameObject.SetActive(false);
+		if (Divide != null)
+			Divide.gameObject.SetActive(false);
+		if (Plop != null)
+			Plop.gameObject.SetActive(false);
+    }
+
 	protected virtual void showNoDamage()
 	{
 		isDamaged = false;
 		damageLevel = 0;
-		if (clip)
+		/*if (clip)
 		{
 			clip.GotoAndStop("normal");
+		}*/
+		switchStatesOff();
+		if (Normal)
+		{
+			Normal.gameObject.SetActive(true);
+			Normal.Loop = true;
+			Normal.GotoAndPlay(0);
 		}
 		bumpBubble();
 	}
 
 	protected virtual void showLightDamage()
 	{
-		if (showSubtleDamage)
+		/*if (showSubtleDamage)
 		{
 			playAnim("damage_1");
-		}
-
+		}*/
+		//TODO: make transition highlight, maybe with DOTween;
+		
 		lightDamageClip();
 	}
 
 	protected virtual void showHeavyDamage()
 	{
-		if (showSubtleDamage)
+		/*if (showSubtleDamage)
 		{
 			playAnim("damage_2");
-		}
-
+		}*/
+		//TODO: Make transition highlight, maybe with DOTween
 		heavyDamageClip();
 	}
 
@@ -253,9 +280,16 @@ public class CellGameObject : MovieClip, ICellGameObject
 	{
 		isDamaged = true;
 		damageLevel = 1;
-		if (clip)
+		/*if (clip)
 		{
 			clip.GotoAndStop("damage_1");
+		}*/
+		if (Damage1 != null)
+		{
+			switchStatesOff();
+			Damage1.gameObject.SetActive(true);
+			Damage1.Loop = true;
+			Damage1.GotoAndPlay(0);
 		}
 		bumpBubble();
 	}
@@ -264,11 +298,17 @@ public class CellGameObject : MovieClip, ICellGameObject
 	{
 		isDamaged = true;
 		damageLevel = 2;
-		if (clip)
+		/*if (clip)
 		{
 			clip.GotoAndStop("damage_2");
+		}*/
+		if (Damage2 != null)
+		{
+			switchStatesOff();
+			Damage2.gameObject.SetActive(true);
+			Damage2.Loop = true;
+			Damage2.GotoAndPlay(0);
 		}
-
 		bumpBubble();
 	}
 
@@ -512,7 +552,13 @@ public class CellGameObject : MovieClip, ICellGameObject
 	public void onDeath()
 	{
 		cancelMove();
-		playAnim("recycle");
+		if (Recycle != null)
+        {
+			switchStatesOff();
+			Recycle.gameObject.SetActive(true);
+			Recycle.Loop = false;
+			Recycle.GotoAndPlay(0);
+        }
 		isDamaged = true;
 
 	}

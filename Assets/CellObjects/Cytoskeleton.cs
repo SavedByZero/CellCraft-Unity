@@ -43,7 +43,7 @@ public class Cytoskeleton : CellObject
 
 	private Coroutine _runRoutine;
 
-	public Cytoskeleton()
+	void Start()
 	{
 		this.gameObject.SetActive(false);
 		canSelect = false;
@@ -212,7 +212,7 @@ public class Cytoskeleton : CellObject
 
 	public void tryPseudopod(float x2, float y2, float cost)
 	{
-		p_engine.onPseudopod();
+		//p_engine.onPseudopod();  //TODO
 
 		float dx = x2 - p_centrosome.x;
 		float dy = y2 - p_centrosome.y;
@@ -220,10 +220,11 @@ public class Cytoskeleton : CellObject
 
 		bool overShot = false;
 
+		/*//TODO
 		if (d2 > WizardOfOz.LENS_RADIUS2)
 		{ //test to see if the ppod is beyond our range
 			overShot = true;
-		}
+		}*/
 
 		Vector2 v = new Vector2(dx, dy); //get a vector from the point to the centrosome
 		v.Normalize();                         //make it a unit vector
@@ -236,7 +237,7 @@ public class Cytoskeleton : CellObject
 		{  //if we overshot somehow, make us stop short of escaping the lens
 			Vector2 v2 = new Vector2(dx, dy); //get a vector from the centrosome to the point
 				v2.Normalize();                           //make it a unit vector
-			v2 *= (WizardOfOz.LENS_RADIUS);      //multiply by the lens radius
+			//v2 *= (WizardOfOz.LENS_RADIUS);   //TODO   //multiply by the lens radius
 			x2 = p_centrosome.x + v2.x;               //this is our new ppod point
 			y2 = p_centrosome.y + v2.y;
 		}
