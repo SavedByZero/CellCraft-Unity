@@ -1,0 +1,1264 @@
+fileFormatVersion: 2
+guid: 49f638cc9262b07489f5d3efedc943f9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2405921080842870820
+    second: peroxisome_digest_0
+  - first:
+      213: -730856108160440406
+    second: peroxisome_digest_1
+  - first:
+      213: -4344416094957139355
+    second: peroxisome_digest_2
+  - first:
+      213: -4361515860584990120
+    second: peroxisome_digest_3
+  - first:
+      213: 9020886465179784443
+    second: peroxisome_digest_4
+  - first:
+      213: 991507232871535532
+    second: peroxisome_digest_5
+  - first:
+      213: 7096083291485709676
+    second: peroxisome_digest_6
+  - first:
+      213: 239254064979612696
+    second: peroxisome_digest_7
+  - first:
+      213: 4784835539950998043
+    second: peroxisome_digest_8
+  - first:
+      213: 2614207045067182853
+    second: peroxisome_digest_9
+  - first:
+      213: -1905779914516290781
+    second: peroxisome_digest_10
+  - first:
+      213: -2506225078761867128
+    second: peroxisome_digest_11
+  - first:
+      213: -8814945855150310566
+    second: peroxisome_digest_12
+  - first:
+      213: -4329108068607695383
+    second: peroxisome_digest_13
+  - first:
+      213: -553814549564464938
+    second: peroxisome_digest_14
+  - first:
+      213: 4153342093108367877
+    second: peroxisome_digest_15
+  - first:
+      213: -1476323598168669799
+    second: peroxisome_digest_16
+  - first:
+      213: 1970367069136287626
+    second: peroxisome_digest_17
+  - first:
+      213: -1754831267695650362
+    second: peroxisome_digest_18
+  - first:
+      213: -5889839342933901646
+    second: peroxisome_digest_19
+  - first:
+      213: 3159592248573250289
+    second: peroxisome_digest_20
+  - first:
+      213: -4166339442016493874
+    second: peroxisome_digest_21
+  - first:
+      213: 3741885632369992658
+    second: peroxisome_digest_22
+  - first:
+      213: -6115277944933513835
+    second: peroxisome_digest_23
+  - first:
+      213: -6607689353496956161
+    second: peroxisome_digest_24
+  - first:
+      213: -4168261000401571059
+    second: peroxisome_digest_25
+  - first:
+      213: -733667705668387983
+    second: peroxisome_digest_26
+  - first:
+      213: -5506681872994362661
+    second: peroxisome_digest_27
+  - first:
+      213: 1738404090801151421
+    second: peroxisome_digest_28
+  - first:
+      213: -5897715258514909725
+    second: peroxisome_digest_29
+  - first:
+      213: 6646068599608593678
+    second: peroxisome_digest_30
+  - first:
+      213: 7651922591811273969
+    second: peroxisome_digest_31
+  - first:
+      213: -1648588401991427772
+    second: peroxisome_digest_32
+  - first:
+      213: -5460633746600208895
+    second: peroxisome_digest_33
+  - first:
+      213: 8840965370268084184
+    second: peroxisome_digest_34
+  - first:
+      213: -454055774884173264
+    second: peroxisome_digest_35
+  - first:
+      213: 5072309520991604420
+    second: peroxisome_digest_36
+  - first:
+      213: 3874705159307697096
+    second: peroxisome_digest_37
+  - first:
+      213: 7228629708963727395
+    second: peroxisome_digest_38
+  - first:
+      213: 9107582318526662437
+    second: peroxisome_digest_39
+  - first:
+      213: 5396586636271715330
+    second: peroxisome_digest_40
+  - first:
+      213: 8986876347956264149
+    second: peroxisome_digest_41
+  - first:
+      213: 6421314018724477915
+    second: peroxisome_digest_42
+  - first:
+      213: -6442949878423393791
+    second: peroxisome_digest_43
+  - first:
+      213: -6127769490765012411
+    second: peroxisome_digest_44
+  - first:
+      213: -1190440983962026370
+    second: peroxisome_digest_45
+  - first:
+      213: -8800633857710615338
+    second: peroxisome_digest_46
+  - first:
+      213: -4191509459150997027
+    second: peroxisome_digest_47
+  - first:
+      213: -3888849867844573867
+    second: peroxisome_digest_48
+  - first:
+      213: 6872683296570437986
+    second: peroxisome_digest_49
+  - first:
+      213: 2313755013055599682
+    second: peroxisome_digest_50
+  - first:
+      213: 4676506585794746978
+    second: peroxisome_digest_51
+  - first:
+      213: 6645855901972387319
+    second: peroxisome_digest_52
+  - first:
+      213: -1373513440024321943
+    second: peroxisome_digest_53
+  - first:
+      213: -7398297322440687971
+    second: peroxisome_digest_54
+  - first:
+      213: -4114336609053682935
+    second: peroxisome_digest_55
+  - first:
+      213: 7112135754878365748
+    second: peroxisome_digest_56
+  - first:
+      213: 1615409800918355883
+    second: peroxisome_digest_57
+  - first:
+      213: -4568098062230915402
+    second: peroxisome_digest_58
+  - first:
+      213: 1731318988956514967
+    second: peroxisome_digest_59
+  - first:
+      213: -8093563869274399903
+    second: peroxisome_digest_60
+  - first:
+      213: -1473769854692660476
+    second: peroxisome_digest_61
+  - first:
+      213: 9215940331283750044
+    second: peroxisome_digest_62
+  - first:
+      213: 3357271319462776741
+    second: peroxisome_digest_63
+  - first:
+      213: -3493597446323999643
+    second: peroxisome_digest_64
+  - first:
+      213: 5460069533056172890
+    second: peroxisome_digest_65
+  - first:
+      213: -5344196518978487318
+    second: peroxisome_digest_66
+  - first:
+      213: 6733806011880617116
+    second: peroxisome_digest_67
+  - first:
+      213: 195965380680010511
+    second: peroxisome_digest_68
+  - first:
+      213: 7687481678198060653
+    second: peroxisome_digest_69
+  - first:
+      213: 4932389547327683413
+    second: peroxisome_digest_70
+  - first:
+      213: -7279612413302477526
+    second: peroxisome_digest_71
+  - first:
+      213: 5355504359060935030
+    second: peroxisome_digest_72
+  - first:
+      213: -1320867307187703065
+    second: peroxisome_digest_73
+  - first:
+      213: 2688851416979109622
+    second: peroxisome_digest_74
+  - first:
+      213: -4725176966686652244
+    second: peroxisome_digest_75
+  - first:
+      213: 602957622146563878
+    second: peroxisome_digest_76
+  - first:
+      213: -5265811178069649162
+    second: peroxisome_digest_77
+  - first:
+      213: -6098238890178214214
+    second: peroxisome_digest_78
+  - first:
+      213: -4757305866738607425
+    second: peroxisome_digest_79
+  - first:
+      213: 6828617577338407456
+    second: peroxisome_digest_80
+  - first:
+      213: -7136187217696708474
+    second: peroxisome_digest_81
+  - first:
+      213: 8380557474418059780
+    second: peroxisome_digest_82
+  - first:
+      213: 3599074356258313384
+    second: peroxisome_digest_83
+  - first:
+      213: -3502278479929785473
+    second: peroxisome_digest_84
+  - first:
+      213: -7555390096803402391
+    second: peroxisome_digest_85
+  - first:
+      213: -7219011829021780332
+    second: peroxisome_digest_86
+  - first:
+      213: -5830957158647559200
+    second: peroxisome_digest_87
+  - first:
+      213: -1689209135291921026
+    second: peroxisome_digest_88
+  - first:
+      213: -4806827601473665620
+    second: peroxisome_digest_89
+  - first:
+      213: -1555207616542355991
+    second: peroxisome_digest_90
+  - first:
+      213: 28863706866556213
+    second: peroxisome_digest_91
+  - first:
+      213: -6015515789611726330
+    second: peroxisome_digest_92
+  - first:
+      213: -5275572436497155796
+    second: peroxisome_digest_93
+  - first:
+      213: -8135449116618658729
+    second: peroxisome_digest_94
+  - first:
+      213: 694243550919393171
+    second: peroxisome_digest_95
+  - first:
+      213: 532311654989449007
+    second: peroxisome_digest_96
+  - first:
+      213: -2689338603713750064
+    second: peroxisome_digest_97
+  - first:
+      213: -2996786864001196213
+    second: peroxisome_digest_98
+  - first:
+      213: -1083665922804869841
+    second: peroxisome_digest_99
+  - first:
+      213: -8743284976033037540
+    second: peroxisome_digest_100
+  - first:
+      213: 5201163583224303569
+    second: peroxisome_digest_101
+  - first:
+      213: 9100603580952803270
+    second: peroxisome_digest_102
+  - first:
+      213: -18622625700523906
+    second: peroxisome_digest_103
+  - first:
+      213: 4033938910306417236
+    second: peroxisome_digest_104
+  - first:
+      213: -5388436349805392147
+    second: peroxisome_digest_105
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: peroxisome_digest_0
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 462
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdf9cba26837c9ed0800000000000000
+      internalID: -2405921080842870820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_digest_1
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 462
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa72c2bed3a7bd5f0800000000000000
+      internalID: -730856108160440406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_digest_2
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 462
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56a079f449885b3c0800000000000000
+      internalID: -4344416094957139355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_digest_3
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 462
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85a799fde68c873c0800000000000000
+      internalID: -4361515860584990120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_digest_4
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 462
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf49b240270a03d70800000000000000
+      internalID: 9020886465179784443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_digest_5
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 462
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca3d987339a82cd00800000000000000
+      internalID: 991507232871535532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_digest_6
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 462
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c65279d282a5a7260800000000000000
+      internalID: 7096083291485709676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_digest_7
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 462
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8149d22fd40025300800000000000000
+      internalID: 239254064979612696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_digest_8
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 462
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b12917b8296276240800000000000000
+      internalID: 4784835539950998043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_digest_9
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 411
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5039d82f477874420800000000000000
+      internalID: 2614207045067182853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_digest_10
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 411
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 323ae27d34f4d85e0800000000000000
+      internalID: -1905779914516290781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_digest_11
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 411
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8883935c199183dd0800000000000000
+      internalID: -2506225078761867128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_digest_12
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 411
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5bb675c2750ba580800000000000000
+      internalID: -8814945855150310566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_digest_13
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 412
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e56c50f52bebe3c0800000000000000
+      internalID: -4329108068607695383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_digest_14
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 411
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d064c5f9947058f0800000000000000
+      internalID: -553814549564464938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_digest_15
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 411
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 502d66ad0a2a3a930800000000000000
+      internalID: 4153342093108367877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_digest_16
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 410
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99141a5628b038be0800000000000000
+      internalID: -1476323598168669799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_digest_17
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 410
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a87fef0f866285b10800000000000000
+      internalID: 1970367069136287626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_digest_18
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 358
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c99040724695a7e0800000000000000
+      internalID: -1754831267695650362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_digest_19
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 358
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2befd44c256134ea0800000000000000
+      internalID: -5889839342933901646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_digest_20
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 359
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fa494be86029db20800000000000000
+      internalID: 3159592248573250289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_digest_21
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 359
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ece58e80a503e26c0800000000000000
+      internalID: -4166339442016493874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_digest_22
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 360
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d32d834829dde330800000000000000
+      internalID: 3741885632369992658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_digest_23
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 360
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5950575fb1b222ba0800000000000000
+      internalID: -6115277944933513835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_digest_24
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 360
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff2fea2ca85cc44a0800000000000000
+      internalID: -6607689353496956161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_digest_25
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 360
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0333fb54bc5726c0800000000000000
+      internalID: -4168261000401571059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_digest_26
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 360
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17bb57cdb1d71d5f0800000000000000
+      internalID: -733667705668387983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_digest_35
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 308
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03a60ddadaed2b9f0800000000000000
+      internalID: -454055774884173264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_digest_36
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 307
+        width: 39
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ce498592a6746640800000000000000
+      internalID: 5072309520991604420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_digest_37
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 306
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cb98e530d7b5c530800000000000000
+      internalID: 3874705159307697096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_digest_38
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 304
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3284e9fdb60415460800000000000000
+      internalID: 7228629708963727395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_digest_47
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 309
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd97d9eba54c4d5c0800000000000000
+      internalID: -4191509459150997027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_digest_27
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 302
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bda961d13065493b0800000000000000
+      internalID: -5506681872994362661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_digest_28
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 302
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbdd9446f4d002810800000000000000
+      internalID: 1738404090801151421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_digest_29
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 297
+        width: 41
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e551d5483b172ea0800000000000000
+      internalID: -5897715258514909725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_digest_30
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 297
+        width: 44
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0d4c80dd249b3c50800000000000000
+      internalID: 6646068599608593678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_digest_31
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 246
+        width: 43
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f482bd3e07113a60800000000000000
+      internalID: 7651922591811273969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_digest_32
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 247
+        width: 43
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 449d87e35990f19e0800000000000000
+      internalID: -1648588401991427772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_digest_33
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 246
+        width: 43
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10652650a8ee734b0800000000000000
+      internalID: -5460633746600208895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

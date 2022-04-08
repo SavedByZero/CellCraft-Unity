@@ -1,0 +1,949 @@
+fileFormatVersion: 2
+guid: 5d970611e4bb634428c22cd59f96fa84
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8648181724949441919
+    second: ribosome_dock_0
+  - first:
+      213: -1799112986209359756
+    second: ribosome_dock_1
+  - first:
+      213: -8440023939084967754
+    second: ribosome_dock_2
+  - first:
+      213: 4693615986019025302
+    second: ribosome_dock_3
+  - first:
+      213: 5772883624192980924
+    second: ribosome_dock_4
+  - first:
+      213: -8196320793217712856
+    second: ribosome_dock_5
+  - first:
+      213: -8278750028299248213
+    second: ribosome_dock_6
+  - first:
+      213: -1690332160458377821
+    second: ribosome_dock_7
+  - first:
+      213: -4772490011247494578
+    second: ribosome_dock_8
+  - first:
+      213: -6370104938769671635
+    second: ribosome_dock_9
+  - first:
+      213: 7988976158553327659
+    second: ribosome_dock_10
+  - first:
+      213: -4094653429779690151
+    second: ribosome_dock_11
+  - first:
+      213: 7230774962364990851
+    second: ribosome_dock_12
+  - first:
+      213: -6365569297763665273
+    second: ribosome_dock_13
+  - first:
+      213: -6529433227008579577
+    second: ribosome_dock_14
+  - first:
+      213: -2067214417306820312
+    second: ribosome_dock_15
+  - first:
+      213: 7412127206402274337
+    second: ribosome_dock_16
+  - first:
+      213: 9014445708268623362
+    second: ribosome_dock_17
+  - first:
+      213: 1715959179026358202
+    second: ribosome_dock_18
+  - first:
+      213: 4333723961095344965
+    second: ribosome_dock_19
+  - first:
+      213: -1453552925242570240
+    second: ribosome_dock_20
+  - first:
+      213: -6007268256252515130
+    second: ribosome_dock_21
+  - first:
+      213: -1632013156346671676
+    second: ribosome_dock_22
+  - first:
+      213: -2010480673018183840
+    second: ribosome_dock_23
+  - first:
+      213: -9191565191511651871
+    second: ribosome_dock_24
+  - first:
+      213: -2632381543897312797
+    second: ribosome_dock_25
+  - first:
+      213: 7678377891601398374
+    second: ribosome_dock_26
+  - first:
+      213: 2707929122346621175
+    second: ribosome_dock_27
+  - first:
+      213: -8910246894349858162
+    second: ribosome_dock_28
+  - first:
+      213: -3394592471194082967
+    second: ribosome_dock_29
+  - first:
+      213: 815041046679278743
+    second: ribosome_dock_30
+  - first:
+      213: -7422373001029799433
+    second: ribosome_dock_31
+  - first:
+      213: 7256811622432609777
+    second: ribosome_dock_32
+  - first:
+      213: 8551945353164806034
+    second: ribosome_dock_33
+  - first:
+      213: 6416302140943802788
+    second: ribosome_dock_34
+  - first:
+      213: -8296602606692853013
+    second: ribosome_dock_35
+  - first:
+      213: -2018808768673895538
+    second: ribosome_dock_36
+  - first:
+      213: 5889544065877096146
+    second: ribosome_dock_37
+  - first:
+      213: 1690334556673207468
+    second: ribosome_dock_38
+  - first:
+      213: -2985621402864915454
+    second: ribosome_dock_39
+  - first:
+      213: -6965444548977767322
+    second: ribosome_dock_40
+  - first:
+      213: -8241676972518835352
+    second: ribosome_dock_41
+  - first:
+      213: 4265732271107052680
+    second: ribosome_dock_42
+  - first:
+      213: -8237752412677947646
+    second: ribosome_dock_43
+  - first:
+      213: -6129375560862789990
+    second: ribosome_dock_44
+  - first:
+      213: 2190752061623821520
+    second: ribosome_dock_45
+  - first:
+      213: 7674902479818128034
+    second: ribosome_dock_46
+  - first:
+      213: 45695212988773541
+    second: ribosome_dock_47
+  - first:
+      213: -639991849347553145
+    second: ribosome_dock_7
+  - first:
+      213: 6721282030926144534
+    second: ribosome_dock_8
+  - first:
+      213: -1281467461837264578
+    second: ribosome_dock_9
+  - first:
+      213: -6521416240463038375
+    second: ribosome_dock_10
+  - first:
+      213: -4366772855081490156
+    second: ribosome_dock_11
+  - first:
+      213: -669965521489518835
+    second: ribosome_dock_12
+  - first:
+      213: 4004869774112242854
+    second: ribosome_dock_13
+  - first:
+      213: 4089903915587784515
+    second: ribosome_dock_14
+  - first:
+      213: -1061914055810371204
+    second: ribosome_dock_15
+  - first:
+      213: -2528101746166571137
+    second: ribosome_dock_16
+  - first:
+      213: -1149434019608536779
+    second: ribosome_dock_17
+  - first:
+      213: 546111269351240377
+    second: ribosome_dock_18
+  - first:
+      213: -1872801649929611204
+    second: ribosome_dock_19
+  - first:
+      213: 289640428819747630
+    second: ribosome_dock_20
+  - first:
+      213: 5208041435753446933
+    second: ribosome_dock_21
+  - first:
+      213: -1759046411642952829
+    second: ribosome_dock_22
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ribosome_dock_0
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 449
+        width: 23
+        height: 63
+      alignment: 9
+      pivot: {x: 0.5, y: 0.531747}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1821d5b8a8c7bf780800000000000000
+      internalID: -8648181724949441919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ribosome_dock_1
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 448
+        width: 24
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5000002, y: 0.53125095}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 478e23a65444807e0800000000000000
+      internalID: -1799112986209359756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ribosome_dock_2
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 448
+        width: 29
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5172422, y: 0.53906345}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b02c0fc1f20fda80800000000000000
+      internalID: -8440023939084967754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ribosome_dock_3
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 448
+        width: 29
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5172422, y: 0.52343845}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69142c61fd2132140800000000000000
+      internalID: 4693615986019025302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ribosome_dock_4
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 449
+        width: 21
+        height: 63
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5158735}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb731b5f1176d1050800000000000000
+      internalID: 5772883624192980924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ribosome_dock_5
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 449
+        width: 17
+        height: 63
+      alignment: 9
+      pivot: {x: 0.5000009, y: 0.507937}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82d3c1f1aa1d04e80800000000000000
+      internalID: -8196320793217712856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ribosome_dock_6
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 449
+        width: 21
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: badd7f246b8fb1d80800000000000000
+      internalID: -8278750028299248213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ribosome_dock_7
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 386
+        width: 23
+        height: 57
+      alignment: 9
+      pivot: {x: 0.50000006, y: 0.7240606}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7886e78cdca4e17f0800000000000000
+      internalID: -639991849347553145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ribosome_dock_8
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 385
+        width: 23
+        height: 57
+      alignment: 9
+      pivot: {x: 0.50000006, y: 0.7240606}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 614a190756ac64d50800000000000000
+      internalID: 6721282030926144534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ribosome_dock_9
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 386
+        width: 23
+        height: 57
+      alignment: 9
+      pivot: {x: 0.50000006, y: 0.7240606}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e39e7f90220573ee0800000000000000
+      internalID: -1281467461837264578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ribosome_dock_10
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 386
+        width: 23
+        height: 57
+      alignment: 9
+      pivot: {x: 0.50000006, y: 0.7240606}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 958bcb23b764f75a0800000000000000
+      internalID: -6521416240463038375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ribosome_dock_11
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 386
+        width: 23
+        height: 57
+      alignment: 9
+      pivot: {x: 0.50000006, y: 0.7240606}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 419ac06793b1663c0800000000000000
+      internalID: -4366772855081490156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ribosome_dock_12
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 385
+        width: 23
+        height: 57
+      alignment: 9
+      pivot: {x: 0.50000006, y: 0.7240606}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0f9bd768edc3b6f0800000000000000
+      internalID: -669965521489518835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ribosome_dock_13
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 386
+        width: 23
+        height: 57
+      alignment: 9
+      pivot: {x: 0.50000006, y: 0.7240606}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6acb8a147d7249730800000000000000
+      internalID: 4004869774112242854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ribosome_dock_14
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 329
+        width: 23
+        height: 53
+      alignment: 9
+      pivot: {x: 0.4749157, y: 0.7893752}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34fc61621f142c830800000000000000
+      internalID: 4089903915587784515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ribosome_dock_15
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 329
+        width: 23
+        height: 53
+      alignment: 9
+      pivot: {x: 0.4749157, y: 0.7893752}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c71bd61eac25341f0800000000000000
+      internalID: -1061914055810371204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ribosome_dock_16
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 329
+        width: 23
+        height: 53
+      alignment: 9
+      pivot: {x: 0.4749157, y: 0.7893752}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7f52b73bd06aecd0800000000000000
+      internalID: -2528101746166571137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ribosome_dock_17
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 328
+        width: 23
+        height: 53
+      alignment: 9
+      pivot: {x: 0.4749157, y: 0.7893752}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 539db7069d36c00f0800000000000000
+      internalID: -1149434019608536779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ribosome_dock_18
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 328
+        width: 23
+        height: 53
+      alignment: 9
+      pivot: {x: 0.4749157, y: 0.7893752}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b2b4895e4d249700800000000000000
+      internalID: 546111269351240377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ribosome_dock_19
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 328
+        width: 23
+        height: 53
+      alignment: 9
+      pivot: {x: 0.4749157, y: 0.7893752}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c381e2962d87206e0800000000000000
+      internalID: -1872801649929611204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ribosome_dock_20
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 329
+        width: 23
+        height: 53
+      alignment: 9
+      pivot: {x: 0.4749157, y: 0.7893752}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2394687f62050400800000000000000
+      internalID: 289640428819747630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ribosome_dock_21
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 272
+        width: 23
+        height: 53
+      alignment: 9
+      pivot: {x: 0.4749157, y: 0.7893752}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51e7999a71ea64840800000000000000
+      internalID: 5208041435753446933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ribosome_dock_22
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 273
+        width: 23
+        height: 53
+      alignment: 9
+      pivot: {x: 0.4749157, y: 0.7893752}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 383a892cb9c9697e0800000000000000
+      internalID: -1759046411642952829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ribosome_dock_23
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 272
+        width: 23
+        height: 53
+      alignment: 9
+      pivot: {x: 0.4749157, y: 0.7893752}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06f76f8da765914e0800000000000000
+      internalID: -2010480673018183840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ribosome_dock_24
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 273
+        width: 23
+        height: 53
+      alignment: 9
+      pivot: {x: 0.4749157, y: 0.7893752}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e94a164820017080800000000000000
+      internalID: -9191565191511651871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ribosome_dock_25
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 272
+        width: 23
+        height: 53
+      alignment: 9
+      pivot: {x: 0.4749157, y: 0.7893752}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e1d4bacee6e77bd0800000000000000
+      internalID: -2632381543897312797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ribosome_dock_26
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 271
+        width: 23
+        height: 53
+      alignment: 9
+      pivot: {x: 0.4749157, y: 0.7893752}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66a3d18b2041f8a60800000000000000
+      internalID: 7678377891601398374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ribosome_dock_27
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 271
+        width: 23
+        height: 53
+      alignment: 9
+      pivot: {x: 0.4749157, y: 0.7893752}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f8d766803f749520800000000000000
+      internalID: 2707929122346621175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ribosome_dock_28
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 216
+        width: 23
+        height: 53
+      alignment: 9
+      pivot: {x: 0.4749157, y: 0.7893752}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8acf3978a1785480800000000000000
+      internalID: -8910246894349858162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ribosome_dock_29
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 215
+        width: 23
+        height: 53
+      alignment: 9
+      pivot: {x: 0.4749157, y: 0.7893752}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 961e24df12cf3e0d0800000000000000
+      internalID: -3394592471194082967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

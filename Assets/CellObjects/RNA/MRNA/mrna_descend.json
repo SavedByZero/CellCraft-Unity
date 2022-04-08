@@ -1,0 +1,131 @@
+﻿{"frames": {
+
+"mc_mrna_anim_descend0000":
+{
+	"frame": {"x":20,"y":20,"w":5,"h":26},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":5,"h":26},
+	"sourceSize": {"w":5,"h":26}
+},
+"mc_mrna_anim_descend0001":
+{
+	"frame": {"x":35,"y":20,"w":5,"h":26},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":5,"h":26},
+	"sourceSize": {"w":5,"h":26}
+},
+"mc_mrna_anim_descend0002":
+{
+	"frame": {"x":50,"y":20,"w":5,"h":26},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":5,"h":26},
+	"sourceSize": {"w":5,"h":26}
+},
+"mc_mrna_anim_descend0003":
+{
+	"frame": {"x":65,"y":20,"w":5,"h":26},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":5,"h":26},
+	"sourceSize": {"w":5,"h":26}
+},
+"mc_mrna_anim_descend0004":
+{
+	"frame": {"x":80,"y":20,"w":5,"h":26},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":5,"h":26},
+	"sourceSize": {"w":5,"h":26}
+},
+"mc_mrna_anim_descend0005":
+{
+	"frame": {"x":95,"y":20,"w":5,"h":26},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":5,"h":26},
+	"sourceSize": {"w":5,"h":26}
+},
+"mc_mrna_anim_descend0006":
+{
+	"frame": {"x":20,"y":56,"w":5,"h":26},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":5,"h":26},
+	"sourceSize": {"w":5,"h":26}
+},
+"mc_mrna_anim_descend0007":
+{
+	"frame": {"x":35,"y":56,"w":5,"h":26},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":5,"h":26},
+	"sourceSize": {"w":5,"h":26}
+},
+"mc_mrna_anim_descend0008":
+{
+	"frame": {"x":50,"y":56,"w":5,"h":26},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":5,"h":26},
+	"sourceSize": {"w":5,"h":26}
+},
+"mc_mrna_anim_descend0009":
+{
+	"frame": {"x":65,"y":56,"w":5,"h":26},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":5,"h":26},
+	"sourceSize": {"w":5,"h":26}
+},
+"mc_mrna_anim_descend0010":
+{
+	"frame": {"x":80,"y":56,"w":5,"h":26},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":5,"h":26},
+	"sourceSize": {"w":5,"h":26}
+},
+"mc_mrna_anim_descend0011":
+{
+	"frame": {"x":95,"y":56,"w":5,"h":26},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":5,"h":26},
+	"sourceSize": {"w":5,"h":26}
+},
+"mc_mrna_anim_descend0012":
+{
+	"frame": {"x":20,"y":92,"w":5,"h":26},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":5,"h":26},
+	"sourceSize": {"w":5,"h":26}
+},
+"mc_mrna_anim_descend0013":
+{
+	"frame": {"x":35,"y":92,"w":5,"h":26},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":5,"h":26},
+	"sourceSize": {"w":5,"h":26}
+},
+"mc_mrna_anim_descend0014":
+{
+	"frame": {"x":50,"y":92,"w":5,"h":26},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":5,"h":26},
+	"sourceSize": {"w":5,"h":26}
+}},
+"meta": {
+	"app": "Adobe Animate",
+	"version": "19.2.1.408",
+	"image": "mrna_descend.png",
+	"format": "RGBA8888",
+	"size": {"w":128,"h":256},
+	"scale": "1"
+}
+}

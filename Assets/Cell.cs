@@ -88,11 +88,20 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 	public const int MAX_G = 50;
 		
 	public const float MAX_ACID_DAMAGE = 15; //maximum X damage per second at 0.0 pH
-		
+
 	//lists:
+	public GameObject MRNA_Prefab;
+	public GameObject RedRNA_Prefab;
+	public GameObject EnzymeRNA_Prefab;
+	public GameObject EvilDNA_Prefab;
+	public GameObject DNARepairEnzyme_Prefab;
+	public GameObject Lysosome_Prefab;
+	public GameObject Ribosome_Prefab;
+	public GameObject Peroxisome_Prefab;
 	private List<RNA> list_rna;
 	private List<Ribosome> list_ribo;
 	private List<Lysosome> list_lyso;
+
 	private List<Peroxisome> list_perox;
 	private List<SlicerEnzyme> list_slicer;
 	private List<DNARepairEnzyme> list_dnarepair;
@@ -115,8 +124,8 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 	private List<CellObject> list_running; //objects that need to run()
 	private List<CellObject> list_selectable; //objects that can be selected
 
-	private ObjectGrid c_objectGrid;
-	public static bool SHOW_GRID = false;
+	public ObjectGrid c_objectGrid;
+	public static bool SHOW_GRID = true;
 		
 	private bool dirty_selectList = false;
 	private bool dirty_units = false;
@@ -167,7 +176,12 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 		//animateOff();
 	}
 
-	public void init()
+    private void Start()
+    {
+		init(); //TODO: this is a placeholder to test the init method.
+    }
+
+    public void init()
 	{
 		setCentLoc(0, 0);
 		makeObjectGrid();
@@ -175,7 +189,7 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 		makeLists();
 		_runRoutine = StartCoroutine(run());
 
-		//addEventListener(MouseEvent.MOUSE_DOWN, mouseDown);  //TODO: make sure this listener happens in editor 
+		
 	}
 
 	public override void destruct()
@@ -228,9 +242,9 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 		}
 	}
 
-	public void mouseDown()
+	public void OnMouseDown()
 	{
-	
+		Debug.Log("mouse down");
 		//p_engine.cellMouseDown();  //TODO
 
 	}
@@ -957,7 +971,7 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 	private void makeObjectGrid()
 	{
 		//trace("Cell.makeObjectGrid()");
-		c_objectGrid = new ObjectGrid();
+		//c_objectGrid = new ObjectGrid();
 		float size = Membrane.STARTING_RADIUS * 2;
 		c_objectGrid.makeGrid(GRID_W, GRID_H, size, size);
 		CellGameObject.setGrid(c_objectGrid);
@@ -1764,7 +1778,9 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 		
 	public DNARepairEnzyme makeDNARepair()
 	{
-		DNARepairEnzyme d = new DNARepairEnzyme();
+		GameObject dro = Instantiate(DNARepairEnzyme_Prefab) as GameObject;
+		DNARepairEnzyme d = dro.GetComponentInChildren<DNARepairEnzyme>();
+		
 		d.transform.SetParent(this.transform);
 		list_dnarepair.Add(d);
 		d.setCell(this);
@@ -2064,7 +2080,8 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 
 	private Peroxisome makePeroxisome()
 	{
-		Peroxisome p = new Peroxisome();
+		GameObject po = Instantiate(Peroxisome_Prefab) as GameObject;
+		Peroxisome p = po.GetComponent<Peroxisome>();
 		p.transform.SetParent(this.transform);
 		p.setCell(this);
 		list_perox.Add(p);
@@ -2077,7 +2094,8 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 
 	private Lysosome makeLysosome() 
 	{
-		Lysosome l = new Lysosome();
+		GameObject lo = Instantiate(Lysosome_Prefab) as GameObject;
+		Lysosome l = lo.GetComponent<Lysosome>();
 		l.transform.SetParent(this.transform);
 		l.setCell(this);
 		list_lyso.Add(l);
@@ -2130,13 +2148,18 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 	public EvilRNA generateEvilRNA(int i, int count, string wave_id= "", bool startImmediately = false, bool evilDNA = false, bool doesVesicle = false) 
 	{
 			
-		EvilRNA r;
+		EvilRNA r;  //was:  EvilRNA;
 		if(evilDNA == false)
 		{
-			r = new RedRNA(i, count, wave_id);
+		   GameObject ro = Instantiate(RedRNA_Prefab) as GameObject; // (i, count, wave_id);
+			r = ro.GetComponent<EvilRNA>();
+			r.InitRNA(i, count, wave_id);
+
 		}else
 		{
-			r = new EvilDNA(i, count, wave_id);
+			GameObject ro = Instantiate(EvilDNA_Prefab) as GameObject;
+			r = ro.GetComponentInChildren<EvilDNA>();
+			(r as EvilDNA).InitEvilDNA(i, count, wave_id);
 		}
 
 		r.product_virus_vesicle = doesVesicle;
@@ -2204,7 +2227,10 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 		switch (i)
 		{
 			case Selectable.VIRUS_INFESTER:
-				r = new RedRNA(Selectable.VIRUS_INFESTER, VirusInfester.SPAWN_COUNT, creator);
+				GameObject ro = Instantiate(RedRNA_Prefab) as GameObject;
+				r = ro.GetComponentInChildren<RedRNA>();
+				r.InitRNA(Selectable.VIRUS_INFESTER, VirusInfester.SPAWN_COUNT, creator);
+				//r = new RedRNA(Selectable.VIRUS_INFESTER, VirusInfester.SPAWN_COUNT, creator);
 				virus_type = "virus_infester";
 				break;
 		}
@@ -2234,12 +2260,16 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 		RNA r;
 		if (i == Selectable.SLICER_ENZYME || i == Selectable.DNAREPAIR)
 		{
-			r = new EnzymeRNA(i); //hack to get the animations right. We use an alternate RNA mc that has offset thread anims
-								  //you can use this for anything that generates proteins in place
+			GameObject ro = Instantiate(EnzymeRNA_Prefab) as GameObject;
+			r = ro.GetComponentInChildren<EnzymeRNA>(); //hack to get the animations right. We use an alternate RNA mc that has offset thread anims
+														//you can use this for anything that generates proteins in place
+			r.InitRNA(i);					
 		}
 		else
 		{
-			r = new MRNA(i);    //the normal MRNA. use this for something that docks with a ribosome and uses the ER
+			GameObject ro = Instantiate(MRNA_Prefab) as GameObject;
+			r = ro.GetComponentInChildren<MRNA>();
+			r.InitRNA(i);    //the normal MRNA. use this for something that docks with a ribosome and uses the ER
 		}
 
 		r.setNAValue(na);
@@ -2843,7 +2873,8 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 	 */
 	private Ribosome makeRibosome(bool instant_deploy = false)
 	{
-		Ribosome r = new Ribosome();
+		GameObject ro = Instantiate(Ribosome_Prefab) as GameObject;
+		Ribosome r = ro.GetComponent<Ribosome>();
 		r.instant_deploy = instant_deploy;
 		r.transform.SetParent(this.transform, false);
 		r.setCell(this);
@@ -3269,8 +3300,7 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 	public void updateObjectGridLoc()
 	{
 		c_objectGrid.transform.localPosition = new Vector3(cent_x - c_objectGrid.getSpanW() / 2, cent_y - c_objectGrid.getSpanH() / 2);
-		//c_objectGrid.x = cent_x - c_objectGrid.getSpanW() / 2;
-		//c_objectGrid.y = cent_y - c_objectGrid.getSpanH() / 2;
+		
 
 		//p_canvas.updateCanvasGridLoc(c_objectGrid.x, c_objectGrid.y);  //TODO
 	}

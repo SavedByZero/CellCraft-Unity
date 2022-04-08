@@ -1,0 +1,3007 @@
+fileFormatVersion: 2
+guid: d19ab09cb9c65824bb742e174ad43377
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3606898868117663834
+    second: lysosome_normal_0
+  - first:
+      213: -3659964650406205737
+    second: lysosome_normal_1
+  - first:
+      213: -7064285764096659042
+    second: lysosome_normal_2
+  - first:
+      213: 4243676514135501005
+    second: lysosome_normal_3
+  - first:
+      213: -7271921311202351161
+    second: lysosome_normal_4
+  - first:
+      213: -2743138683863259626
+    second: lysosome_normal_5
+  - first:
+      213: 4154464579113666152
+    second: lysosome_normal_6
+  - first:
+      213: 4620823020684725815
+    second: lysosome_normal_7
+  - first:
+      213: 1381457824807090029
+    second: lysosome_normal_8
+  - first:
+      213: -4167755540585729890
+    second: lysosome_normal_9
+  - first:
+      213: 5037286700999231154
+    second: lysosome_normal_10
+  - first:
+      213: -3648171572878626926
+    second: lysosome_normal_11
+  - first:
+      213: -2850693698323404343
+    second: lysosome_normal_12
+  - first:
+      213: 2581273282019610566
+    second: lysosome_normal_13
+  - first:
+      213: -7069101885867907090
+    second: lysosome_normal_14
+  - first:
+      213: -992683031115579925
+    second: lysosome_normal_15
+  - first:
+      213: 2797796057833863266
+    second: lysosome_normal_16
+  - first:
+      213: 2176923491033802358
+    second: lysosome_normal_17
+  - first:
+      213: -8986251598018662048
+    second: lysosome_normal_18
+  - first:
+      213: -1888639738157433091
+    second: lysosome_normal_19
+  - first:
+      213: 7821130547568555811
+    second: lysosome_normal_20
+  - first:
+      213: 8071617837110567352
+    second: lysosome_normal_21
+  - first:
+      213: 2502833012594543530
+    second: lysosome_normal_22
+  - first:
+      213: 6474453513684880834
+    second: lysosome_normal_23
+  - first:
+      213: -8290230881243384604
+    second: lysosome_normal_24
+  - first:
+      213: 3130197696160658346
+    second: lysosome_normal_25
+  - first:
+      213: -6094703952532749967
+    second: lysosome_normal_26
+  - first:
+      213: -7837823066010963907
+    second: lysosome_normal_27
+  - first:
+      213: -5923528955581283110
+    second: lysosome_normal_28
+  - first:
+      213: -4237565586711808569
+    second: lysosome_normal_29
+  - first:
+      213: -1094749746575775325
+    second: lysosome_normal_30
+  - first:
+      213: -3839688551264192049
+    second: lysosome_normal_31
+  - first:
+      213: -6054872516693114366
+    second: lysosome_normal_32
+  - first:
+      213: 5988129335440836388
+    second: lysosome_normal_33
+  - first:
+      213: 5619892514609120530
+    second: lysosome_normal_34
+  - first:
+      213: 878985650968613393
+    second: lysosome_normal_35
+  - first:
+      213: 2468134717100472279
+    second: lysosome_normal_36
+  - first:
+      213: -3717840353391091284
+    second: lysosome_normal_37
+  - first:
+      213: -5257409465168205307
+    second: lysosome_normal_38
+  - first:
+      213: -6422126528688531887
+    second: lysosome_normal_39
+  - first:
+      213: 9059300437138787781
+    second: lysosome_normal_40
+  - first:
+      213: -1594574081114360727
+    second: lysosome_normal_41
+  - first:
+      213: -8517477334719364870
+    second: lysosome_normal_42
+  - first:
+      213: 1340686997963236637
+    second: lysosome_normal_43
+  - first:
+      213: -5622982011996226283
+    second: lysosome_normal_44
+  - first:
+      213: -2970543882797955381
+    second: lysosome_normal_45
+  - first:
+      213: 9051882521444989391
+    second: lysosome_normal_46
+  - first:
+      213: -6195524292843003944
+    second: lysosome_normal_47
+  - first:
+      213: 4790673930395709125
+    second: lysosome_normal_48
+  - first:
+      213: 2831703623305528062
+    second: lysosome_normal_49
+  - first:
+      213: -9219100214251063257
+    second: lysosome_normal_50
+  - first:
+      213: 4590857270557877601
+    second: lysosome_normal_51
+  - first:
+      213: -2780905758317768862
+    second: lysosome_normal_52
+  - first:
+      213: -7264735395668350017
+    second: lysosome_normal_53
+  - first:
+      213: -8098214930672607019
+    second: lysosome_normal_54
+  - first:
+      213: 7933655363486340783
+    second: lysosome_normal_55
+  - first:
+      213: 6471909389245470737
+    second: lysosome_normal_56
+  - first:
+      213: -7808044110081703948
+    second: lysosome_normal_57
+  - first:
+      213: 957125319261777563
+    second: lysosome_normal_58
+  - first:
+      213: -7941152230699417244
+    second: lysosome_normal_59
+  - first:
+      213: 3393162265474935574
+    second: lysosome_normal_60
+  - first:
+      213: 4269022167185099870
+    second: lysosome_normal_61
+  - first:
+      213: 5345201882063418039
+    second: lysosome_normal_62
+  - first:
+      213: 1105907275608045401
+    second: lysosome_normal_63
+  - first:
+      213: 8835753220225267215
+    second: lysosome_normal_64
+  - first:
+      213: -3198475320047340659
+    second: lysosome_normal_65
+  - first:
+      213: -4161267014465010908
+    second: lysosome_normal_66
+  - first:
+      213: 76254723128240431
+    second: lysosome_normal_67
+  - first:
+      213: -6267323629630559209
+    second: lysosome_normal_68
+  - first:
+      213: 1900641541111497758
+    second: lysosome_normal_69
+  - first:
+      213: 1418085972782821791
+    second: lysosome_normal_70
+  - first:
+      213: -8066471696923635496
+    second: lysosome_normal_71
+  - first:
+      213: -7054179347397438414
+    second: lysosome_normal_72
+  - first:
+      213: -5000200723752387791
+    second: lysosome_normal_73
+  - first:
+      213: 8888817401195360365
+    second: lysosome_normal_74
+  - first:
+      213: 8991101229617139613
+    second: lysosome_normal_75
+  - first:
+      213: -7556519264359444266
+    second: lysosome_normal_76
+  - first:
+      213: -896195311453513204
+    second: lysosome_normal_77
+  - first:
+      213: 129131514488241093
+    second: lysosome_normal_78
+  - first:
+      213: -8902259115569835981
+    second: lysosome_normal_79
+  - first:
+      213: 3220953112969243231
+    second: lysosome_normal_80
+  - first:
+      213: -6482492744194670210
+    second: lysosome_normal_81
+  - first:
+      213: 8729422105664881332
+    second: lysosome_normal_82
+  - first:
+      213: 3519645256373222716
+    second: lysosome_normal_83
+  - first:
+      213: -1589263755101310130
+    second: lysosome_normal_84
+  - first:
+      213: 19603558511034971
+    second: lysosome_normal_85
+  - first:
+      213: -4137777728074713188
+    second: lysosome_normal_86
+  - first:
+      213: 7978873754049003593
+    second: lysosome_normal_87
+  - first:
+      213: -5414054491482575463
+    second: lysosome_normal_88
+  - first:
+      213: -6400151762963779941
+    second: lysosome_normal_89
+  - first:
+      213: 1038860877458326521
+    second: lysosome_normal_90
+  - first:
+      213: 4667542985010967269
+    second: lysosome_normal_91
+  - first:
+      213: -98552203780277870
+    second: lysosome_normal_92
+  - first:
+      213: -6240623185418068099
+    second: lysosome_normal_93
+  - first:
+      213: -7143766108278307071
+    second: lysosome_normal_94
+  - first:
+      213: 3083857140055263988
+    second: lysosome_normal_95
+  - first:
+      213: 6521787913304616273
+    second: lysosome_normal_96
+  - first:
+      213: -3748314495579637423
+    second: lysosome_normal_97
+  - first:
+      213: 2878946469810419570
+    second: lysosome_normal_98
+  - first:
+      213: -81323534921286255
+    second: lysosome_normal_99
+  - first:
+      213: -8346947527397973060
+    second: lysosome_normal_100
+  - first:
+      213: -1936087553889555658
+    second: lysosome_normal_101
+  - first:
+      213: -4504968324558270062
+    second: lysosome_normal_102
+  - first:
+      213: -2986224196396178969
+    second: lysosome_normal_103
+  - first:
+      213: 8564832980910168201
+    second: lysosome_normal_104
+  - first:
+      213: 2649748992504281091
+    second: lysosome_normal_105
+  - first:
+      213: -7967935301359390122
+    second: lysosome_normal_106
+  - first:
+      213: -3720306726299090732
+    second: lysosome_normal_107
+  - first:
+      213: -2443673654890489464
+    second: lysosome_normal_108
+  - first:
+      213: -1048498695172144836
+    second: lysosome_normal_109
+  - first:
+      213: 3755191502747604460
+    second: lysosome_normal_110
+  - first:
+      213: 4141931460156706036
+    second: lysosome_normal_111
+  - first:
+      213: -7516372652658989224
+    second: lysosome_normal_112
+  - first:
+      213: 5887146322745681971
+    second: lysosome_normal_113
+  - first:
+      213: 3350347484950999206
+    second: lysosome_normal_114
+  - first:
+      213: 1064091489341067767
+    second: lysosome_normal_115
+  - first:
+      213: -3907092422828967379
+    second: lysosome_normal_116
+  - first:
+      213: -1109265737915036161
+    second: lysosome_normal_117
+  - first:
+      213: 8970208936557827236
+    second: lysosome_normal_118
+  - first:
+      213: -5842698288566411462
+    second: lysosome_normal_119
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: lysosome_normal_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 472
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6af8611f698b1fdc0800000000000000
+      internalID: -3606898868117663834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_1
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 472
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d62d02ba81353dc0800000000000000
+      internalID: -3659964650406205737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_2
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 472
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e917b27968d96fd90800000000000000
+      internalID: -7064285764096659042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_3
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 472
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc8e6be3e4194ea30800000000000000
+      internalID: 4243676514135501005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_4
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 472
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c7e0338812f41b90800000000000000
+      internalID: -7271921311202351161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_5
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 472
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 616a2ba96e96ee9d0800000000000000
+      internalID: -2743138683863259626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_6
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 472
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 866430ef58f97a930800000000000000
+      internalID: 4154464579113666152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_7
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 472
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73e4cdd1e06702040800000000000000
+      internalID: 4620823020684725815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_8
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 472
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d677fc7829ceb2310800000000000000
+      internalID: 1381457824807090029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_9
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 472
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e90b8b4ea682926c0800000000000000
+      internalID: -4167755540585729890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_10
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 472
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b6cbdcd09908e540800000000000000
+      internalID: 5037286700999231154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_11
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 472
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29f24e688471f5dc0800000000000000
+      internalID: -3648171572878626926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_12
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 472
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c92dfb5f2d4078d0800000000000000
+      internalID: -2850693698323404343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_13
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 472
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cf4cf2bf5682d320800000000000000
+      internalID: 2581273282019610566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_14
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 472
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee7accbd94185ed90800000000000000
+      internalID: -7069101885867907090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_15
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 441
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bed3ccbea084932f0800000000000000
+      internalID: -992683031115579925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_16
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 441
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 268fc25f0b4c3d620800000000000000
+      internalID: 2797796057833863266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_17
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 441
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 676e54a916cf53e10800000000000000
+      internalID: 2176923491033802358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_18
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 441
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 061bfc568cb6a4380800000000000000
+      internalID: -8986251598018662048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_19
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 441
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfe70722a243ac5e0800000000000000
+      internalID: -1888639738157433091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_20
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 441
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 327b7cd7bcc3a8c60800000000000000
+      internalID: 7821130547568555811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_21
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 441
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b1aea758a5240070800000000000000
+      internalID: 8071617837110567352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_22
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 441
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aab81d74d59dbb220800000000000000
+      internalID: 2502833012594543530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_23
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 441
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cd87f5ea21e9d950800000000000000
+      internalID: 6474453513684880834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_24
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 441
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e4b381efee23fc80800000000000000
+      internalID: -8290230881243384604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_25
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 441
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa3f66c5832b07b20800000000000000
+      internalID: 3130197696160658346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_26
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 441
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 171cd1adb034b6ba0800000000000000
+      internalID: -6094703952532749967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_27
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 441
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d30bd02b2757a3390800000000000000
+      internalID: -7837823066010963907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_28
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 441
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad446d19cc56bcda0800000000000000
+      internalID: -5923528955581283110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_29
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 441
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c57f9bec842135c0800000000000000
+      internalID: -4237565586711808569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_30
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 410
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a9e66dd7eaaec0f0800000000000000
+      internalID: -1094749746575775325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_31
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 410
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc973cd2b9fa6bac0800000000000000
+      internalID: -3839688551264192049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_32
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 410
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2024b32b685c8fba0800000000000000
+      internalID: -6054872516693114366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_33
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 410
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4270c0477eb1a1350800000000000000
+      internalID: 5988129335440836388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_34
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 410
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2154721777eddfd40800000000000000
+      internalID: 5619892514609120530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_35
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 410
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11256a0eac8c23c00800000000000000
+      internalID: 878985650968613393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_36
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 410
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d7359ec273904220800000000000000
+      internalID: 2468134717100472279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_37
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 410
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca1e28485e3976cc0800000000000000
+      internalID: -3717840353391091284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_38
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 410
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50a6fd542fde907b0800000000000000
+      internalID: -5257409465168205307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_39
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 410
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15658e2b2f500e6a0800000000000000
+      internalID: -6422126528688531887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_40
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 410
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cdc235dfb919bd70800000000000000
+      internalID: 9059300437138787781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_41
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 410
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9643227525feed9e0800000000000000
+      internalID: -1594574081114360727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_42
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 410
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af08c99dd77dbc980800000000000000
+      internalID: -8517477334719364870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_43
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 410
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d15659ca8b31b9210800000000000000
+      internalID: 1340686997963236637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_44
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 410
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51dbd84e6a727f1b0800000000000000
+      internalID: -5622982011996226283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_45
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 379
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc64e14c31286c6d0800000000000000
+      internalID: -2970543882797955381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_46
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 379
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc9bb4fb13fbe9d70800000000000000
+      internalID: 9051882521444989391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_47
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 379
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8df1acf1b73150aa0800000000000000
+      internalID: -6195524292843003944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_48
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 379
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cee5ffbe84eb7240800000000000000
+      internalID: 4790673930395709125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_49
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 379
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef20050417b3c4720800000000000000
+      internalID: 2831703623305528062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_50
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 379
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72876d4333d2f0080800000000000000
+      internalID: -9219100214251063257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_51
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 379
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1652f1a3d5006bf30800000000000000
+      internalID: 4590857270557877601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_52
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 379
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26f81a952fc3869d0800000000000000
+      internalID: -2780905758317768862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_53
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 379
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbb2bf9d5a97e2b90800000000000000
+      internalID: -7264735395668350017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_54
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 379
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d0ae7e3d6c5d9f80800000000000000
+      internalID: -8098214930672607019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_55
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 379
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa6d9fec4810a1e60800000000000000
+      internalID: 7933655363486340783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_56
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 379
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 118dd74cc47d0d950800000000000000
+      internalID: 6471909389245470737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_57
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 379
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ffbffb204144a390800000000000000
+      internalID: -7808044110081703948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_58
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 379
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9e61242864684d00800000000000000
+      internalID: 957125319261777563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_59
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 379
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4614cd5ce1c5bc190800000000000000
+      internalID: -7941152230699417244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_60
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 348
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61ba4ea4a1fe61f20800000000000000
+      internalID: 3393162265474935574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_61
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 348
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5c0655fa0d9e3b30800000000000000
+      internalID: 4269022167185099870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_62
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 348
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b2b329aac8fd2a40800000000000000
+      internalID: 5345201882063418039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_63
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 348
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 957332dcec8f85f00800000000000000
+      internalID: 1105907275608045401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_64
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 348
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f067a8e6db6ee9a70800000000000000
+      internalID: 8835753220225267215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_65
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 348
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8379b584abbc93d0800000000000000
+      internalID: -3198475320047340659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_66
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 348
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 423434b92b53046c0800000000000000
+      internalID: -4161267014465010908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_67
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 348
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2921844449ee0100800000000000000
+      internalID: 76254723128240431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_68
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 348
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71c65735d5ef509a0800000000000000
+      internalID: -6267323629630559209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_69
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 348
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e144d4f596f606a10800000000000000
+      internalID: 1900641541111497758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_70
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 348
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f913faccdad0ea310800000000000000
+      internalID: 1418085972782821791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_71
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 348
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d0df1acab22e0090800000000000000
+      internalID: -8066471696923635496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_72
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 348
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2349a7812458a1e90800000000000000
+      internalID: -7054179347397438414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_73
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 348
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13b76171fe7bb9ab0800000000000000
+      internalID: -5000200723752387791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_74
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 348
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d607f87d45c6b5b70800000000000000
+      internalID: 8888817401195360365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_75
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 317
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9f48e27eeec6cc70800000000000000
+      internalID: 8991101229617139613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_76
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 317
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d09575e3c9d12790800000000000000
+      internalID: -7556519264359444266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_77
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 317
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0a517bcc131093f0800000000000000
+      internalID: -896195311453513204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_78
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 317
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cb3162ad64cac100800000000000000
+      internalID: 129131514488241093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_79
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 317
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3301af52082d47480800000000000000
+      internalID: -8902259115569835981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_80
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 317
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5a68b87acf13bc20800000000000000
+      internalID: 3220953112969243231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_81
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 317
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e71ca33e13f8906a0800000000000000
+      internalID: -6482492744194670210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_82
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 317
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b209969723252970800000000000000
+      internalID: 8729422105664881332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_83
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 317
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3db38976ba48d030800000000000000
+      internalID: 3519645256373222716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_84
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 316
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4378c6f80dc1f9e0800000000000000
+      internalID: -1589263755101310130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_85
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 316
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5242652555a54000800000000000000
+      internalID: 19603558511034971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_86
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 316
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9775964419a396c0800000000000000
+      internalID: -4137777728074713188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_87
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 316
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94047c9c767aabe60800000000000000
+      internalID: 7978873754049003593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_88
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 316
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99da298ff1a6dd4b0800000000000000
+      internalID: -5414054491482575463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_89
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 316
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9e24fb81e71e27a0800000000000000
+      internalID: -6400151762963779941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_90
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 285
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f344f3c676ca6e00800000000000000
+      internalID: 1038860877458326521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_91
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 285
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e2f17b7d9176c040800000000000000
+      internalID: 4667542985010967269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_92
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 285
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29938d5fa4fd1aef0800000000000000
+      internalID: -98552203780277870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_93
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 285
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7fd610f64ad469a0800000000000000
+      internalID: -6240623185418068099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_94
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 286
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 107c895e29e3cdc90800000000000000
+      internalID: -7143766108278307071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_95
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 286
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4facb0bdabf0cca20800000000000000
+      internalID: 3083857140055263988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_96
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 286
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15d25f0ad8b028a50800000000000000
+      internalID: 6521787913304616273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_97
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 286
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 159378063df4bfbc0800000000000000
+      internalID: -3748314495579637423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_98
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 286
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2773a6c9f8214f720800000000000000
+      internalID: 2878946469810419570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_99
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 286
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19d33250da41fdef0800000000000000
+      internalID: -81323534921286255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_100
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 286
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb36e96a27fa92c80800000000000000
+      internalID: -8346947527397973060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_101
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 286
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63bab58a0a2a125e0800000000000000
+      internalID: -1936087553889555658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_102
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 286
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 291515a5d232b71c0800000000000000
+      internalID: -4504968324558270062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_103
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 286
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e121224aecce86d0800000000000000
+      internalID: -2986224196396178969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_104
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 286
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98853bbb7366cd670800000000000000
+      internalID: 8564832980910168201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_105
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 255
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 308ba227bacc5c420800000000000000
+      internalID: 2649748992504281091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_106
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 255
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 652bd213f053c6190800000000000000
+      internalID: -7967935301359390122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_107
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 255
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d042735eb0de5cc0800000000000000
+      internalID: -3720306726299090732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_108
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 255
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 889954d02c3561ed0800000000000000
+      internalID: -2443673654890489464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_109
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 255
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c31cdceedfbf271f0800000000000000
+      internalID: -1048498695172144836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_110
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 255
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce516d0a6ce1d1430800000000000000
+      internalID: 3755191502747604460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_111
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 255
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fcc7a6d7b81b7930800000000000000
+      internalID: 4141931460156706036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_112
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 255
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 857ecc655ea70b790800000000000000
+      internalID: -7516372652658989224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_113
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 255
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 338e00c936853b150800000000000000
+      internalID: 5887146322745681971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_114
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 255
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a0b0a26943de7e20800000000000000
+      internalID: 3350347484950999206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_115
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 255
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f1d0be529964ce00800000000000000
+      internalID: 1064091489341067767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_116
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 255
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2ab8a0642837c9c0800000000000000
+      internalID: -3907092422828967379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_117
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 255
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffd001240b81b90f0800000000000000
+      internalID: -1109265737915036161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_118
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 255
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a4509860859c7c70800000000000000
+      internalID: 8970208936557827236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_normal_119
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 255
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3f573cccd09aeea0800000000000000
+      internalID: -5842698288566411462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -9,6 +9,7 @@ using System.Collections;
 
 public class Ribosome : BasicUnit
 {
+	//normal, grow, wait,dock, process, process_inplace, recycle 
 	public bool instant_deploy = false;
 		//private var busy:Boolean = false;
 	private bool ready = false;

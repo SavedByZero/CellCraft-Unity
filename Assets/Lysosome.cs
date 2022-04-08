@@ -7,23 +7,25 @@ using System.Collections;
 using UnityEngine;
 
 public class Lysosome : BasicUnit
-{
+{//nowmal, grow, digest, recycle, pop, fuse, bud 
+
 	//public var isBusy:Boolean = false;
 	private int busyBit = 0;
-		private Selectable eat_target;
-		private bool recycleSelfOnEat = false;
-		public BigVesicle fuse_target;
-		public bool fusing = false;
+	private Selectable eat_target;
+	private bool recycleSelfOnEat = false;
+	public BigVesicle fuse_target;
+	public bool fusing = false;
 		
-		public bool amEating = false;
+	public bool amEating = false;
 		
-		private BigVesicle p_bigVesicle;
+	private BigVesicle p_bigVesicle;
 		
-		public const float PH_BALANCE = 4.5f;
-		public const float VOL_X = 500; //effective volume mult when doing ph stuff with the cytosol
-		public static float VOL_V = 25; //effective volume mult when doing ph stuff with big vesicles
-		public static float L_RADIUS = 10;
-		public static float LYSO_VOL = Mathf.PI* L_RADIUS * L_RADIUS;
+	public const float PH_BALANCE = 4.5f;
+	public const float VOL_X = 500; //effective volume mult when doing ph stuff with the cytosol
+	public static float VOL_V = 25; //effective volume mult when doing ph stuff with big vesicles
+	public static float L_RADIUS = 10;
+	public static float LYSO_VOL = Mathf.PI* L_RADIUS * L_RADIUS;
+	
 		
 	public  Lysosome()
 	{
@@ -308,7 +310,13 @@ public class Lysosome : BasicUnit
 
 	}
 
-	private void makeBusy()
+    public override void playAnim(string label)
+    {
+		base.playAnim(label);
+       
+    }
+
+    private void makeBusy()
 	{
 		isBusy = true;
 	}

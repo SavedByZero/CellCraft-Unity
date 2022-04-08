@@ -249,6 +249,8 @@ public class Nucleus : CellObject
 			}
 			base.wiggle(yes); //for now...
 		}
+		else
+			base.wiggle(yes); //for now...
 	}
 
 	protected override void showLightDamage()

@@ -1,0 +1,2263 @@
+fileFormatVersion: 2
+guid: 4033d6cc58e660e48b31f4db85dc31c0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9102124969708581268
+    second: lysosome_grow_0
+  - first:
+      213: 6557996931657922890
+    second: lysosome_grow_1
+  - first:
+      213: -6624722388792166315
+    second: lysosome_grow_2
+  - first:
+      213: 101916905886667823
+    second: lysosome_grow_3
+  - first:
+      213: -1048236175039626759
+    second: lysosome_grow_4
+  - first:
+      213: 20992674780952333
+    second: lysosome_grow_5
+  - first:
+      213: -3013286829469520629
+    second: lysosome_grow_6
+  - first:
+      213: 183004903780583241
+    second: lysosome_grow_7
+  - first:
+      213: 8941715756988874537
+    second: lysosome_grow_8
+  - first:
+      213: 3929613687609338114
+    second: lysosome_grow_9
+  - first:
+      213: 5022225380472410866
+    second: lysosome_grow_10
+  - first:
+      213: 1665922518891477728
+    second: lysosome_grow_11
+  - first:
+      213: -3474130602265059107
+    second: lysosome_grow_12
+  - first:
+      213: -7988239706959712976
+    second: lysosome_grow_13
+  - first:
+      213: -3619190042354790458
+    second: lysosome_grow_14
+  - first:
+      213: -6570993424314418003
+    second: lysosome_grow_15
+  - first:
+      213: -8036479928287342321
+    second: lysosome_grow_16
+  - first:
+      213: 682653734643235258
+    second: lysosome_grow_17
+  - first:
+      213: 3209945013381077160
+    second: lysosome_grow_18
+  - first:
+      213: -1363470871326350147
+    second: lysosome_grow_19
+  - first:
+      213: 9119445071525687533
+    second: lysosome_grow_20
+  - first:
+      213: 2530089598575468599
+    second: lysosome_grow_21
+  - first:
+      213: 8677721248756161706
+    second: lysosome_grow_22
+  - first:
+      213: -4215637046308533116
+    second: lysosome_grow_23
+  - first:
+      213: 4954502306057722361
+    second: lysosome_grow_24
+  - first:
+      213: -1093653915438574694
+    second: lysosome_grow_25
+  - first:
+      213: -6302609543348805108
+    second: lysosome_grow_26
+  - first:
+      213: -6437233795773099360
+    second: lysosome_grow_27
+  - first:
+      213: -6750849818641809198
+    second: lysosome_grow_28
+  - first:
+      213: 4460985736823722477
+    second: lysosome_grow_29
+  - first:
+      213: -941026591496622980
+    second: lysosome_grow_30
+  - first:
+      213: 4049216498336593300
+    second: lysosome_grow_31
+  - first:
+      213: -8712473882143810598
+    second: lysosome_grow_32
+  - first:
+      213: 490292188288641518
+    second: lysosome_grow_33
+  - first:
+      213: 1195704642629866355
+    second: lysosome_grow_34
+  - first:
+      213: 3897182080375902133
+    second: lysosome_grow_35
+  - first:
+      213: 8066027238597312071
+    second: lysosome_grow_36
+  - first:
+      213: -5871484023459070566
+    second: lysosome_grow_37
+  - first:
+      213: 6837702740513929555
+    second: lysosome_grow_38
+  - first:
+      213: -7736829645860397607
+    second: lysosome_grow_39
+  - first:
+      213: -5181614554827615753
+    second: lysosome_grow_40
+  - first:
+      213: -4670375034254609685
+    second: lysosome_grow_41
+  - first:
+      213: 5297068058287337459
+    second: lysosome_grow_42
+  - first:
+      213: -2474854906903689884
+    second: lysosome_grow_43
+  - first:
+      213: -683750686677773848
+    second: lysosome_grow_44
+  - first:
+      213: -9088856424492723637
+    second: lysosome_grow_45
+  - first:
+      213: -8843368270494086784
+    second: lysosome_grow_46
+  - first:
+      213: -7614858163859057116
+    second: lysosome_grow_47
+  - first:
+      213: -2437318711084070853
+    second: lysosome_grow_48
+  - first:
+      213: 1355492856268038695
+    second: lysosome_grow_49
+  - first:
+      213: 7562619432380867903
+    second: lysosome_grow_50
+  - first:
+      213: 4739777050115330586
+    second: lysosome_grow_51
+  - first:
+      213: -2503799412436471219
+    second: lysosome_grow_52
+  - first:
+      213: -103871006034456457
+    second: lysosome_grow_53
+  - first:
+      213: -6877501730979936324
+    second: lysosome_grow_54
+  - first:
+      213: 3438125360686605759
+    second: lysosome_grow_55
+  - first:
+      213: 1417891683393719068
+    second: lysosome_grow_56
+  - first:
+      213: -5540462399168384975
+    second: lysosome_grow_57
+  - first:
+      213: 6282572533304433978
+    second: lysosome_grow_58
+  - first:
+      213: -6411447179690244659
+    second: lysosome_grow_59
+  - first:
+      213: -1832747597286185764
+    second: lysosome_grow_60
+  - first:
+      213: -7154819223238097332
+    second: lysosome_grow_61
+  - first:
+      213: 7489427888002520520
+    second: lysosome_grow_62
+  - first:
+      213: 6872397368565401127
+    second: lysosome_grow_63
+  - first:
+      213: 7081312109528195898
+    second: lysosome_grow_64
+  - first:
+      213: 6885970671614962152
+    second: lysosome_grow_65
+  - first:
+      213: 3537130619432869895
+    second: lysosome_grow_66
+  - first:
+      213: 7255629178453059610
+    second: lysosome_grow_67
+  - first:
+      213: 3129352228720111220
+    second: lysosome_grow_68
+  - first:
+      213: -6536373110580286
+    second: lysosome_grow_69
+  - first:
+      213: -491561369419243099
+    second: lysosome_grow_70
+  - first:
+      213: -4920200338017177587
+    second: lysosome_grow_71
+  - first:
+      213: -7740924453125990157
+    second: lysosome_grow_72
+  - first:
+      213: -6962921864038294484
+    second: lysosome_grow_73
+  - first:
+      213: 2579117129871600916
+    second: lysosome_grow_74
+  - first:
+      213: 3026129857372784741
+    second: lysosome_grow_75
+  - first:
+      213: 1856406388876646204
+    second: lysosome_grow_76
+  - first:
+      213: 8695728059862214081
+    second: lysosome_grow_77
+  - first:
+      213: 180272235068995154
+    second: lysosome_grow_78
+  - first:
+      213: -8553016437742115948
+    second: lysosome_grow_79
+  - first:
+      213: 8479828548697462911
+    second: lysosome_grow_80
+  - first:
+      213: -7517976371353130048
+    second: lysosome_grow_81
+  - first:
+      213: -2804941658394290256
+    second: lysosome_grow_82
+  - first:
+      213: 5881971600566666994
+    second: lysosome_grow_83
+  - first:
+      213: -4588101678201549384
+    second: lysosome_grow_84
+  - first:
+      213: 8956153718355708535
+    second: lysosome_grow_85
+  - first:
+      213: 7714554866411151739
+    second: lysosome_grow_86
+  - first:
+      213: -8542324601219532509
+    second: lysosome_grow_87
+  - first:
+      213: -7692280937919773107
+    second: lysosome_grow_88
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: lysosome_grow_0
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 489
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6e8e4fa091cea180800000000000000
+      internalID: -9102124969708581268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_grow_1
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 488
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a49729da67fa20b50800000000000000
+      internalID: 6557996931657922890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_grow_2
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 488
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 558377036124014a0800000000000000
+      internalID: -6624722388792166315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_grow_3
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 487
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f245bfbc2e41a6100800000000000000
+      internalID: 101916905886667823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_grow_4
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 486
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f18c0aa0cae371f0800000000000000
+      internalID: -1048236175039626759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_grow_5
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 486
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d07343bf9b49a4000800000000000000
+      internalID: 20992674780952333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_grow_6
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 451
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0d2b1bf797ae26d0800000000000000
+      internalID: -3013286829469520629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_grow_7
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 451
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9470ff98df92a8200800000000000000
+      internalID: 183004903780583241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_grow_8
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 450
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92fb5d11b1b571c70800000000000000
+      internalID: 8941715756988874537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_grow_9
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 450
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 209a77234dac88630800000000000000
+      internalID: 3929613687609338114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_grow_10
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 449
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f25209ef5782b540800000000000000
+      internalID: 5022225380472410866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_grow_11
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 448
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eab9d954bb8e1710800000000000000
+      internalID: 1665922518891477728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_grow_12
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 448
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd06dacbf9869cfc0800000000000000
+      internalID: -3474130602265059107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_grow_13
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 413
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03deefd5f42142190800000000000000
+      internalID: -7988239706959712976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_grow_14
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 413
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cfcfcee4dd06cdc0800000000000000
+      internalID: -3619190042354790458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_grow_15
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 412
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dacbf429b442fc4a0800000000000000
+      internalID: -6570993424314418003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_grow_16
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 412
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0150e59510b87090800000000000000
+      internalID: -8036479928287342321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_grow_17
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 411
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab9f00e64f5497900800000000000000
+      internalID: 682653734643235258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_grow_18
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 410
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a89d1f8bf30c8c20800000000000000
+      internalID: 3209945013381077160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_grow_19
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 410
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db4200d677af31de0800000000000000
+      internalID: -1363470871326350147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_grow_20
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 375
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de0b9f4c9f6ce8e70800000000000000
+      internalID: 9119445071525687533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_grow_21
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 375
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 730600db51fac1320800000000000000
+      internalID: 2530089598575468599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_grow_22
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 374
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aac58fbcf757d6870800000000000000
+      internalID: 8677721248756161706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_grow_23
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 374
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48c8dc8117c0f75c0800000000000000
+      internalID: -4215637046308533116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_grow_24
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 373
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f99c67e89de1c440800000000000000
+      internalID: 4954502306057722361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_grow_25
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 372
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a93911fee8f82d0f0800000000000000
+      internalID: -1093653915438574694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_grow_26
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 372
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0225b25302a888a0800000000000000
+      internalID: -6302609543348805108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_grow_27
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 337
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a21ecaf7f95aa6a0800000000000000
+      internalID: -6437233795773099360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_grow_28
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 337
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d048d38bd92052a0800000000000000
+      internalID: -6750849818641809198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_grow_29
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 337
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de1567f64ea98ed30800000000000000
+      internalID: 4460985736823722477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_grow_30
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 337
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7ca5a10d4dc0f2f0800000000000000
+      internalID: -941026591496622980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_grow_31
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 337
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 495f00a93f4b13830800000000000000
+      internalID: 4049216498336593300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_grow_32
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 337
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adb13f33a23171780800000000000000
+      internalID: -8712473882143810598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_grow_33
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 337
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee9e717c52eddc600800000000000000
+      internalID: 490292188288641518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_grow_34
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 303
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3731d30990ff79010800000000000000
+      internalID: 1195704642629866355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_grow_35
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 303
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bfc2d53472951630800000000000000
+      internalID: 3897182080375902133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_grow_36
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 303
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74eb731b90940ff60800000000000000
+      internalID: 8066027238597312071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_grow_37
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 303
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9d375d936c448ea0800000000000000
+      internalID: -5871484023459070566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_grow_38
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 303
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3593c003a6664ee50800000000000000
+      internalID: 6837702740513929555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_grow_39
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 303
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dd97c6bd6241a490800000000000000
+      internalID: -7736829645860397607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_grow_40
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 303
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f1918804053718b0800000000000000
+      internalID: -5181614554827615753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_grow_41
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 269
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be2b66ba6ae7f2fb0800000000000000
+      internalID: -4670375034254609685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_grow_42
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 268
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ffe84d7557f28940800000000000000
+      internalID: 5297068058287337459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_grow_43
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 268
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4658f53139c87add0800000000000000
+      internalID: -2474854906903689884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_grow_44
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 268
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e154a58f54d286f0800000000000000
+      internalID: -683750686677773848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_grow_45
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 268
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b42959b9c35edd180800000000000000
+      internalID: -9088856424492723637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_grow_46
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 268
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0894d33896b064580800000000000000
+      internalID: -8843368270494086784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_grow_47
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 268
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 426923068d6925690800000000000000
+      internalID: -7614858163859057116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_grow_48
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 234
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b38cb65bb87ec2ed0800000000000000
+      internalID: -2437318711084070853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_grow_49
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 234
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 722af61329dafc210800000000000000
+      internalID: 1355492856268038695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_grow_50
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 235
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3527862e42d3f860800000000000000
+      internalID: 7562619432380867903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_grow_51
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 234
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a125caa5d1217c140800000000000000
+      internalID: 4739777050115330586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_grow_52
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 234
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4274e833b7b04dd0800000000000000
+      internalID: -2503799412436471219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_grow_53
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 234
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7709adeced9fe8ef0800000000000000
+      internalID: -103871006034456457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_grow_54
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 234
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb78ece3d943e80a0800000000000000
+      internalID: -6877501730979936324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_grow_55
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 200
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb5acf0bccca6bf20800000000000000
+      internalID: 3438125360686605759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_grow_56
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 200
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1bc9a649fc5da310800000000000000
+      internalID: 1417891683393719068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_grow_57
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 200
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 130f8267dc25c13b0800000000000000
+      internalID: -5540462399168384975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_grow_58
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 200
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3d9c3bbe6e203750800000000000000
+      internalID: 6282572533304433978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_grow_59
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 200
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc5026662c6f507a0800000000000000
+      internalID: -6411447179690244659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_grow_60
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 200
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd46ec445c5c096e0800000000000000
+      internalID: -1832747597286185764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_grow_61
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 200
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c46c1c603d9f4bc90800000000000000
+      internalID: -7154819223238097332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_grow_62
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 166
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c55b43cbfacfe760800000000000000
+      internalID: 7489427888002520520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_grow_63
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 166
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7268ba4cef8af5f50800000000000000
+      internalID: 6872397368565401127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_grow_64
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 166
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a33a91068dfd54260800000000000000
+      internalID: 7081312109528195898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_grow_65
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 165
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e92e57a7d1ef8f50800000000000000
+      internalID: 6885970671614962152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_grow_66
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 165
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 700247fce89661130800000000000000
+      internalID: 3537130619432869895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_grow_67
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 165
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1867abbb4c21b460800000000000000
+      internalID: 7255629178453059610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_grow_68
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 165
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47e60f1a541bd6b20800000000000000
+      internalID: 3129352228720111220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_grow_69
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 131
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cbdf9a0437c8eff0800000000000000
+      internalID: -6536373110580286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_grow_70
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 131
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a12676f98f9d29f0800000000000000
+      internalID: -491561369419243099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_grow_71
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 131
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d00bab46cdfe7bbb0800000000000000
+      internalID: -4920200338017177587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_grow_72
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 131
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f85a4a1936b29490800000000000000
+      internalID: -7740924453125990157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_grow_73
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 130
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2c523fa47bbe5f90800000000000000
+      internalID: -6962921864038294484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_grow_74
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 130
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41d2f186d5ddac320800000000000000
+      internalID: 2579117129871600916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_grow_75
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 130
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56888e87219fef920800000000000000
+      internalID: 3026129857372784741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_grow_76
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 96
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3712c766c743c910800000000000000
+      internalID: 1856406388876646204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_grow_77
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 96
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c5eb77399e6da870800000000000000
+      internalID: 8695728059862214081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_grow_78
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 96
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 256372684a4708200800000000000000
+      internalID: 180272235068995154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_grow_79
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 96
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 493ed4e9dd49d4980800000000000000
+      internalID: -8553016437742115948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_grow_80
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 96
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f78145113276ea570800000000000000
+      internalID: 8479828548697462911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_grow_81
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 95
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cb67bb7258caa790800000000000000
+      internalID: -7517976371353130048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_grow_82
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 95
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b796b34c68d219d0800000000000000
+      internalID: -2804941658394290256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_grow_83
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 61
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f646b6b106f0a150800000000000000
+      internalID: 5881971600566666994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_grow_84
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 61
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bd4c6d15d9c350c0800000000000000
+      internalID: -4588101678201549384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_grow_85
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 61
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77ac268ea56aa4c70800000000000000
+      internalID: 8956153718355708535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_grow_86
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 61
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b71a2bc07ca9f0b60800000000000000
+      internalID: 7714554866411151739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_grow_87
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 61
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 329ba3cc801937980800000000000000
+      internalID: -8542324601219532509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_grow_88
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 61
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4688ce0e378f3590800000000000000
+      internalID: -7692280937919773107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

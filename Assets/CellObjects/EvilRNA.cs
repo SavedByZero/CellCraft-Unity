@@ -21,8 +21,9 @@ public class EvilRNA : RNA
     private Coroutine _tauntCellRoutine;
     private Coroutine _rotateUpRoutine;
 
-    public EvilRNA(int i, int count= 1, string pc_id = "") : base(i, count)
+    public override void InitRNA (int i, int count= 1, string pc_id = "")
 	{
+		base.InitRNA(i, count);
 		_tauntCellRoutine = StartCoroutine(tauntCell());
 		//addEventListener(RunFrameEvent.RUNFRAME, tauntCell, false, 0, true);
 		speed = 3;

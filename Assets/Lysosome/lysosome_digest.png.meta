@@ -1,0 +1,1303 @@
+fileFormatVersion: 2
+guid: 369a3e036d3ccaa4fb2ccb25abb32573
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2199795100039040054
+    second: lysosome_digest_0
+  - first:
+      213: 4443963816740041882
+    second: lysosome_digest_1
+  - first:
+      213: 4354399544814876082
+    second: lysosome_digest_2
+  - first:
+      213: -2836737133180328393
+    second: lysosome_digest_3
+  - first:
+      213: -153238518072686151
+    second: lysosome_digest_4
+  - first:
+      213: -1871445158540926677
+    second: lysosome_digest_5
+  - first:
+      213: -7617095553610118759
+    second: lysosome_digest_6
+  - first:
+      213: 6710872977713038695
+    second: lysosome_digest_7
+  - first:
+      213: 3343776286818943267
+    second: lysosome_digest_8
+  - first:
+      213: 396906872947591037
+    second: lysosome_digest_9
+  - first:
+      213: -6136171767934203221
+    second: lysosome_digest_10
+  - first:
+      213: -3655633679759232326
+    second: lysosome_digest_11
+  - first:
+      213: 1360484130712149949
+    second: lysosome_digest_12
+  - first:
+      213: 345484078046290734
+    second: lysosome_digest_13
+  - first:
+      213: 8457520341983860244
+    second: lysosome_digest_14
+  - first:
+      213: -7736715053411699301
+    second: lysosome_digest_15
+  - first:
+      213: -4710595550708845845
+    second: lysosome_digest_16
+  - first:
+      213: 5485165762071685614
+    second: lysosome_digest_17
+  - first:
+      213: -2217702767546696264
+    second: lysosome_digest_18
+  - first:
+      213: 1478591484063026565
+    second: lysosome_digest_19
+  - first:
+      213: 6951830081853384260
+    second: lysosome_digest_20
+  - first:
+      213: -3791655868361516168
+    second: lysosome_digest_21
+  - first:
+      213: -9106877780574309920
+    second: lysosome_digest_22
+  - first:
+      213: 5268855750003545210
+    second: lysosome_digest_23
+  - first:
+      213: 4878922422058782886
+    second: lysosome_digest_24
+  - first:
+      213: 5161081970335313382
+    second: lysosome_digest_25
+  - first:
+      213: 3325411067208766880
+    second: lysosome_digest_26
+  - first:
+      213: 1581961461832224258
+    second: lysosome_digest_27
+  - first:
+      213: 3143182317873344726
+    second: lysosome_digest_28
+  - first:
+      213: -3476042777836513152
+    second: lysosome_digest_29
+  - first:
+      213: 569849601828385513
+    second: lysosome_digest_30
+  - first:
+      213: -5160597510468705369
+    second: lysosome_digest_31
+  - first:
+      213: -1194530525580301429
+    second: lysosome_digest_32
+  - first:
+      213: -8692757434989805184
+    second: lysosome_digest_33
+  - first:
+      213: 4979336557587331522
+    second: lysosome_digest_34
+  - first:
+      213: 863252907141005279
+    second: lysosome_digest_28
+  - first:
+      213: -262123127840775188
+    second: lysosome_digest_36
+  - first:
+      213: 2442138183210631704
+    second: lysosome_digest_37
+  - first:
+      213: 2366637841019448798
+    second: lysosome_digest_38
+  - first:
+      213: -7791779608126547405
+    second: lysosome_digest_39
+  - first:
+      213: 7973166944244997575
+    second: lysosome_digest_40
+  - first:
+      213: 4048829697439547735
+    second: lysosome_digest_41
+  - first:
+      213: -1855700940339862106
+    second: lysosome_digest_42
+  - first:
+      213: 8942730623051301012
+    second: lysosome_digest_43
+  - first:
+      213: 8850361744821247936
+    second: lysosome_digest_44
+  - first:
+      213: -3714569310718133288
+    second: lysosome_digest_45
+  - first:
+      213: 9024665866659117206
+    second: lysosome_digest_46
+  - first:
+      213: 4312377166627077793
+    second: lysosome_digest_47
+  - first:
+      213: 1588845606849966979
+    second: lysosome_digest_48
+  - first:
+      213: -8002691042633720606
+    second: lysosome_digest_27
+  - first:
+      213: -409623843076113977
+    second: lysosome_digest_50
+  - first:
+      213: -8826577951605868050
+    second: lysosome_digest_51
+  - first:
+      213: 7855118457888407921
+    second: lysosome_digest_52
+  - first:
+      213: -5346989455434483224
+    second: lysosome_digest_53
+  - first:
+      213: -2717700324159623553
+    second: lysosome_digest_54
+  - first:
+      213: -134348334794579518
+    second: lysosome_digest_55
+  - first:
+      213: -6546311672332263335
+    second: lysosome_digest_56
+  - first:
+      213: -8668059029804843298
+    second: lysosome_digest_57
+  - first:
+      213: -1295319075133613815
+    second: lysosome_digest_58
+  - first:
+      213: 179313900847944482
+    second: lysosome_digest_59
+  - first:
+      213: 621792248882661231
+    second: lysosome_digest_60
+  - first:
+      213: 7709322795035907728
+    second: lysosome_digest_61
+  - first:
+      213: -155454639080008302
+    second: lysosome_digest_62
+  - first:
+      213: 1565717044841769796
+    second: lysosome_digest_63
+  - first:
+      213: 1807224066717578032
+    second: lysosome_digest_64
+  - first:
+      213: -5822855017248289749
+    second: lysosome_digest_65
+  - first:
+      213: 2830518007588502481
+    second: lysosome_digest_66
+  - first:
+      213: -7053872398443028293
+    second: lysosome_digest_67
+  - first:
+      213: -5711820693476722928
+    second: lysosome_digest_68
+  - first:
+      213: -9008617525745840397
+    second: lysosome_digest_69
+  - first:
+      213: 5375390013288871283
+    second: lysosome_digest_70
+  - first:
+      213: -6867359869687266350
+    second: lysosome_digest_71
+  - first:
+      213: -8675058848734374078
+    second: lysosome_digest_72
+  - first:
+      213: -774213056232888884
+    second: lysosome_digest_73
+  - first:
+      213: -8815959730917865793
+    second: lysosome_digest_74
+  - first:
+      213: -3664742962681661187
+    second: lysosome_digest_75
+  - first:
+      213: 8859472180363328820
+    second: lysosome_digest_76
+  - first:
+      213: 7071002436107317069
+    second: lysosome_digest_77
+  - first:
+      213: 7395708657714050931
+    second: lysosome_digest_78
+  - first:
+      213: -3460534552842074490
+    second: lysosome_digest_79
+  - first:
+      213: 3239062541490458786
+    second: lysosome_digest_80
+  - first:
+      213: -8254881194317541682
+    second: lysosome_digest_81
+  - first:
+      213: -7576630827956111108
+    second: lysosome_digest_82
+  - first:
+      213: 1652092512955338627
+    second: lysosome_digest_83
+  - first:
+      213: -7695167486999502482
+    second: lysosome_digest_84
+  - first:
+      213: -2263731601589726077
+    second: lysosome_digest_85
+  - first:
+      213: 8951784256694491321
+    second: lysosome_digest_86
+  - first:
+      213: 9222496813310871416
+    second: lysosome_digest_87
+  - first:
+      213: 359296624720183373
+    second: lysosome_digest_88
+  - first:
+      213: 8968215000036097234
+    second: lysosome_digest_89
+  - first:
+      213: 2374474036131547170
+    second: lysosome_digest_90
+  - first:
+      213: -8583485156423730538
+    second: lysosome_digest_91
+  - first:
+      213: -8478810196645579072
+    second: lysosome_digest_92
+  - first:
+      213: 2754920259017251046
+    second: lysosome_digest_93
+  - first:
+      213: -3331317110767235437
+    second: lysosome_digest_94
+  - first:
+      213: 2071331868231690046
+    second: lysosome_digest_95
+  - first:
+      213: -86364110070060508
+    second: lysosome_digest_96
+  - first:
+      213: -3322640338556729648
+    second: lysosome_digest_97
+  - first:
+      213: -6474644162087983199
+    second: lysosome_digest_98
+  - first:
+      213: 1623079534274541403
+    second: lysosome_digest_99
+  - first:
+      213: -2419332154259735544
+    second: lysosome_digest_100
+  - first:
+      213: 2729398080944723769
+    second: lysosome_digest_101
+  - first:
+      213: -2657888146891412798
+    second: lysosome_digest_102
+  - first:
+      213: 5368472750842044092
+    second: lysosome_digest_103
+  - first:
+      213: 1884405683760715227
+    second: lysosome_digest_104
+  - first:
+      213: 7623588382658301936
+    second: lysosome_digest_105
+  - first:
+      213: 6371284494236627387
+    second: lysosome_digest_106
+  - first:
+      213: -8428779984651812226
+    second: lysosome_digest_107
+  - first:
+      213: 2529418204346973319
+    second: lysosome_digest_108
+  - first:
+      213: 8511806725861110619
+    second: lysosome_digest_109
+  - first:
+      213: -2349115464706470153
+    second: lysosome_digest_110
+  - first:
+      213: 863252907141005279
+    second: lysosome_digest_35
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: lysosome_digest_0
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 462
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac33783f202c871e0800000000000000
+      internalID: -2199795100039040054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_digest_1
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 462
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a94ba73db812cad30800000000000000
+      internalID: 4443963816740041882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_digest_2
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 462
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b530deb05fed6c30800000000000000
+      internalID: 4354399544814876082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_digest_3
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 462
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73660a76b92e1a8d0800000000000000
+      internalID: -2836737133180328393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_digest_4
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 462
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b9ce5431669fddf0800000000000000
+      internalID: -153238518072686151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_digest_5
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 462
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b212b8c2b8a4706e0800000000000000
+      internalID: -1871445158540926677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_digest_6
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 462
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9998cda73f3aa4690800000000000000
+      internalID: -7617095553610118759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_digest_7
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 462
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7658a51ea6fc12d50800000000000000
+      internalID: 6710872977713038695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_digest_8
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 462
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 321c73811da776e20800000000000000
+      internalID: 3343776286818943267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_digest_9
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 411
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d77c3f2b2b8128500800000000000000
+      internalID: 396906872947591037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_digest_10
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 411
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baa4083b940f7daa0800000000000000
+      internalID: -6136171767934203221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_digest_11
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 411
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab23ff06984944dc0800000000000000
+      internalID: -3655633679759232326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_digest_12
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 411
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbf57a5db1961e210800000000000000
+      internalID: 1360484130712149949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_digest_13
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 412
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e23a08340f76bc400800000000000000
+      internalID: 345484078046290734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_digest_14
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 411
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4169690f0f52f5570800000000000000
+      internalID: 8457520341983860244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_digest_15
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 411
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b957af856aaa1a490800000000000000
+      internalID: -7736715053411699301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_digest_16
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 410
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be2b67fed4a90aeb0800000000000000
+      internalID: -4710595550708845845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_digest_17
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 410
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee9ea6ee2393f1c40800000000000000
+      internalID: 5485165762071685614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_digest_18
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 358
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bd7af235132931e0800000000000000
+      internalID: -2217702767546696264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_digest_19
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 358
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58d8e7fee13058410800000000000000
+      internalID: 1478591484063026565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_digest_20
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 359
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 446eeb780acd97060800000000000000
+      internalID: 6951830081853384260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_digest_21
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 359
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87b59c7a315516bc0800000000000000
+      internalID: -3791655868361516168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_digest_22
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 360
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e178fba8eedd9180800000000000000
+      internalID: -9106877780574309920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_digest_23
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 360
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a745cb7936cbe1940800000000000000
+      internalID: 5268855750003545210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_digest_24
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 360
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a0908dd71a65b340800000000000000
+      internalID: 4878922422058782886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_digest_25
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 360
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ed628a15b8df9740800000000000000
+      internalID: 5161081970335313382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_digest_26
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 360
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a591213fbb362e20800000000000000
+      internalID: 3325411067208766880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_digest_35
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 299
+        width: 44
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdf767102f3eafb00800000000000000
+      internalID: 863252907141005279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_digest_27
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 309
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ecdd9495eab0f090800000000000000
+      internalID: -8002691042633720606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_digest_29
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 309
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0881efaa28d92cfc0800000000000000
+      internalID: -3476042777836513152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_digest_30
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 304
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e2f064913388e700800000000000000
+      internalID: 569849601828385513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_digest_31
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 306
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a36fbff7efd168b0800000000000000
+      internalID: -5160597510468705369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_digest_32
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 300
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8bec6dd0dc2c6fe0800000000000000
+      internalID: -1194530525580301429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_digest_33
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 300
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0810cc84b2f1d5780800000000000000
+      internalID: -8692757434989805184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_digest_34
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 299
+        width: 44
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c9fb1ca7382a1540800000000000000
+      internalID: 4979336557587331522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_digest_36
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 296
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce3e2ad6760cc5cf0800000000000000
+      internalID: -262123127840775188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_digest_28
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 308
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d031213aa3de9b20800000000000000
+      internalID: 3143182317873344726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_digest_37
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 245
+        width: 48
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81200b61db734e120800000000000000
+      internalID: 2442138183210631704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_digest_38
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 246
+        width: 43
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edd26f1d39cf7d020800000000000000
+      internalID: 2366637841019448798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lysosome_digest_39
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 248
+        width: 44
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33a1c71aab90ed390800000000000000
+      internalID: -7791779608126547405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

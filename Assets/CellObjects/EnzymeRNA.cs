@@ -6,9 +6,16 @@ using System.Threading.Tasks;
 
 public class EnzymeRNA : RNA
 {
-	public EnzymeRNA(int i, int count = 1) : base(i, count)
+    
+	public override void InitRNA(int i, int count = 1, string pc_id = "")
 	{
-		
+        base.InitRNA(i, count);
 	}
+
+    public override void playAnim(string label)
+    {
+       
+        base.playAnim(label);
+    }
 }
 

@@ -108,7 +108,7 @@ public class Membrane : CellObject
 		
 		private float worldScale = 1;
 		
-		private Engine p_engine;
+		//private Engine p_engine;
 		private ObjectGrid p_objectGrid;
 		
 		private bool dummy_flag = false;
@@ -165,22 +165,22 @@ public class Membrane : CellObject
     private Coroutine _waitForCentPullRoutine;
 
     void Start()
-		{
-			defensin_strength = 0;
-			canSelect = false;
-			//singleSelect = true;
-			text_title = "Membrane";
-			text_description = "";
-			text_id = "membrane";
-			num_id = Selectable.MEMBRANE;
-			bestColors = new bool[]{ false, false, true};
-			//buttonMode = false;  //TODO
-			updatePH(7.5f);
-			CURR_NODES = 15;
+	{
+		defensin_strength = 0;
+		canSelect = false;
+		//singleSelect = true;
+		text_title = "Membrane";
+		text_description = "";
+		text_id = "membrane";
+		num_id = Selectable.MEMBRANE;
+		bestColors = new bool[]{ false, false, true};
+		//buttonMode = false;  //TODO
+		updatePH(7.5f);
+		CURR_NODES = 15;
 
-			has_health = true;
-			setMaxHealth(100, true);
-		}
+		has_health = true;
+		setMaxHealth(100, true);
+	}
 
 	public override void destruct()
 	{

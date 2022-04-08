@@ -1,0 +1,847 @@
+fileFormatVersion: 2
+guid: f7072a071cae40b4aa627d0ae278968c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5566830245974268388
+    second: mrna_hardkill_0
+  - first:
+      213: 2226641708453575602
+    second: mrna_hardkill_1
+  - first:
+      213: -5513358071770479616
+    second: mrna_hardkill_2
+  - first:
+      213: 235817753644774127
+    second: mrna_hardkill_3
+  - first:
+      213: -3729453912426290154
+    second: mrna_hardkill_4
+  - first:
+      213: 2483284174161697921
+    second: mrna_hardkill_5
+  - first:
+      213: 7057868672153492250
+    second: mrna_hardkill_6
+  - first:
+      213: 2878225360885030870
+    second: mrna_hardkill_7
+  - first:
+      213: -4045705965000553529
+    second: mrna_hardkill_8
+  - first:
+      213: -3935312862968908741
+    second: mrna_hardkill_9
+  - first:
+      213: -4067384176170789746
+    second: mrna_hardkill_10
+  - first:
+      213: -8929472739703490311
+    second: mrna_hardkill_11
+  - first:
+      213: -4225084113131666123
+    second: mrna_hardkill_12
+  - first:
+      213: -5695743347405094345
+    second: mrna_hardkill_13
+  - first:
+      213: 7126437505808137925
+    second: mrna_hardkill_14
+  - first:
+      213: 8152318217018853724
+    second: mrna_hardkill_15
+  - first:
+      213: 1781322351920934351
+    second: mrna_hardkill_16
+  - first:
+      213: -5894124232264390327
+    second: mrna_hardkill_17
+  - first:
+      213: 2767796977006081762
+    second: mrna_hardkill_18
+  - first:
+      213: -5400575002367078121
+    second: mrna_hardkill_19
+  - first:
+      213: -5968978898352448361
+    second: mrna_hardkill_20
+  - first:
+      213: 4682043476072247996
+    second: mrna_hardkill_21
+  - first:
+      213: -5231396232389602029
+    second: mrna_hardkill_22
+  - first:
+      213: 4083339365305396924
+    second: mrna_hardkill_23
+  - first:
+      213: -2942766998849063875
+    second: mrna_hardkill_24
+  - first:
+      213: -2067867472361487930
+    second: mrna_hardkill_25
+  - first:
+      213: 8326472946190064258
+    second: mrna_hardkill_26
+  - first:
+      213: 2733607654556552187
+    second: mrna_hardkill_27
+  - first:
+      213: 1923408515933176011
+    second: mrna_hardkill_28
+  - first:
+      213: -380311113560877308
+    second: mrna_hardkill_29
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mrna_hardkill_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 73.14286
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c16adc7b265aeb2b0800000000000000
+      internalID: -5566830245974268388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrna_hardkill_1
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 448
+        width: 73.14286
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bbb17a26de96ee10800000000000000
+      internalID: 2226641708453575602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrna_hardkill_2
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 448
+        width: 73.14286
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00486947b0e9c73b0800000000000000
+      internalID: -5513358071770479616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrna_hardkill_3
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 448
+        width: 73.14286
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe23abd5ffac54300800000000000000
+      internalID: 235817753644774127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrna_hardkill_4
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 448
+        width: 73.14286
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 614e3a71d615e3cc0800000000000000
+      internalID: -3729453912426290154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrna_hardkill_5
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 448
+        width: 73.14286
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18cd145acc5667220800000000000000
+      internalID: 2483284174161697921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrna_hardkill_6
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 448
+        width: 73.14286
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1b1113c92692f160800000000000000
+      internalID: 7057868672153492250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrna_hardkill_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 73.14286
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6df921b57b281f720800000000000000
+      internalID: 2878225360885030870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrna_hardkill_8
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 384
+        width: 73.14286
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cb86722cd3cad7c0800000000000000
+      internalID: -4045705965000553529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrna_hardkill_9
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 384
+        width: 73.14286
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3476b22dc5f269c0800000000000000
+      internalID: -3935312862968908741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrna_hardkill_10
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 384
+        width: 73.14286
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e849b4644afbd87c0800000000000000
+      internalID: -4067384176170789746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrna_hardkill_11
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 384
+        width: 73.14286
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f870768ad3241480800000000000000
+      internalID: -8929472739703490311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrna_hardkill_12
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 384
+        width: 73.14286
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53504a2726c7d55c0800000000000000
+      internalID: -4225084113131666123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrna_hardkill_13
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 384
+        width: 73.14286
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73200265a97a4f0b0800000000000000
+      internalID: -5695743347405094345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrna_hardkill_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 73.14286
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cef6bf672136e260800000000000000
+      internalID: 7126437505808137925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrna_hardkill_15
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 320
+        width: 73.14286
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c59ca5db93ad22170800000000000000
+      internalID: 8152318217018853724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrna_hardkill_16
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 320
+        width: 73.14286
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcde5b0cd3788b810800000000000000
+      internalID: 1781322351920934351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrna_hardkill_17
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 320
+        width: 73.14286
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 949ebd93d3dd33ea0800000000000000
+      internalID: -5894124232264390327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrna_hardkill_18
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 320
+        width: 73.14286
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e6f8d8afa0396620800000000000000
+      internalID: 2767796977006081762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrna_hardkill_19
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 320
+        width: 73.14286
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7115e0916ad4d05b0800000000000000
+      internalID: -5400575002367078121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrna_hardkill_20
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 320
+        width: 73.14286
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79c56e3215de92da0800000000000000
+      internalID: -5968978898352448361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrna_hardkill_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 73.14286
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb2b8362cb5f9f040800000000000000
+      internalID: 4682043476072247996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrna_hardkill_22
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 256
+        width: 73.14286
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 315d91108d85667b0800000000000000
+      internalID: -5231396232389602029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrna_hardkill_23
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 256
+        width: 73.14286
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbea56ea48feaa830800000000000000
+      internalID: 4083339365305396924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrna_hardkill_24
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 256
+        width: 73.14286
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d34fbd881013927d0800000000000000
+      internalID: -2942766998849063875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrna_hardkill_25
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 256
+        width: 73.14286
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c10f4b6d757d43e0800000000000000
+      internalID: -2067867472361487930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrna_hardkill_26
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 256
+        width: 73.14286
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28a1f8d67039d8370800000000000000
+      internalID: 8326472946190064258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrna_hardkill_27
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 256
+        width: 73.14286
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfbc125bda9bfe520800000000000000
+      internalID: 2733607654556552187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrna_hardkill_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 73.14286
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc08826cad151ba10800000000000000
+      internalID: 1923408515933176011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrna_hardkill_29
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 192
+        width: 73.14286
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4071214ae0dd8baf0800000000000000
+      internalID: -380311113560877308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1102 @@
+fileFormatVersion: 2
+guid: eacfd49d8b738fc449012a100f653143
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6802207280377421250
+    second: ribosome_recycle_0
+  - first:
+      213: 9189652310225542583
+    second: ribosome_recycle_1
+  - first:
+      213: 890481504756132021
+    second: ribosome_recycle_2
+  - first:
+      213: 8773116315232923354
+    second: ribosome_recycle_3
+  - first:
+      213: -6785667901511763529
+    second: ribosome_recycle_4
+  - first:
+      213: 334082453030026980
+    second: ribosome_recycle_5
+  - first:
+      213: -3624509606270063178
+    second: ribosome_recycle_6
+  - first:
+      213: 5533237726843264148
+    second: ribosome_recycle_7
+  - first:
+      213: -3133913789405065236
+    second: ribosome_recycle_8
+  - first:
+      213: 610989656599081476
+    second: ribosome_recycle_9
+  - first:
+      213: 8842238303393274125
+    second: ribosome_recycle_10
+  - first:
+      213: -6742697471269891313
+    second: ribosome_recycle_11
+  - first:
+      213: -9001495446960501585
+    second: ribosome_recycle_12
+  - first:
+      213: 5429813349340222496
+    second: ribosome_recycle_13
+  - first:
+      213: 8963834473615533182
+    second: ribosome_recycle_14
+  - first:
+      213: -8486764821180582560
+    second: ribosome_recycle_15
+  - first:
+      213: 3693848129512211833
+    second: ribosome_recycle_16
+  - first:
+      213: -4014135106536180416
+    second: ribosome_recycle_17
+  - first:
+      213: 6788817312403531980
+    second: ribosome_recycle_18
+  - first:
+      213: 3548250839293558959
+    second: ribosome_recycle_19
+  - first:
+      213: -3863911522791939152
+    second: ribosome_recycle_20
+  - first:
+      213: 2088224183092766192
+    second: ribosome_recycle_21
+  - first:
+      213: -5613740947132393090
+    second: ribosome_recycle_22
+  - first:
+      213: 8456675007521495173
+    second: ribosome_recycle_23
+  - first:
+      213: -5153739870816436662
+    second: ribosome_recycle_24
+  - first:
+      213: 4402332521847383206
+    second: ribosome_recycle_25
+  - first:
+      213: 7466790935825543813
+    second: ribosome_recycle_26
+  - first:
+      213: -7707744954723704432
+    second: ribosome_recycle_27
+  - first:
+      213: 7511713486582874823
+    second: ribosome_recycle_28
+  - first:
+      213: -4857774933356176621
+    second: ribosome_recycle_29
+  - first:
+      213: 3621619423831066292
+    second: ribosome_recycle_30
+  - first:
+      213: -9006096281737995383
+    second: ribosome_recycle_31
+  - first:
+      213: -1209286902776392119
+    second: ribosome_recycle_32
+  - first:
+      213: 7552292347084527518
+    second: ribosome_recycle_33
+  - first:
+      213: -1577681383168342990
+    second: ribosome_recycle_34
+  - first:
+      213: 6528924063968339909
+    second: ribosome_recycle_35
+  - first:
+      213: 2973197088547402993
+    second: ribosome_recycle_36
+  - first:
+      213: 8645595301479320331
+    second: ribosome_recycle_37
+  - first:
+      213: -3846424237730115461
+    second: ribosome_recycle_38
+  - first:
+      213: 7633486185356781112
+    second: ribosome_recycle_39
+  - first:
+      213: 96333764591036357
+    second: ribosome_recycle_40
+  - first:
+      213: -4250838152002555213
+    second: ribosome_recycle_41
+  - first:
+      213: -1307832907121384997
+    second: ribosome_recycle_42
+  - first:
+      213: 4104011968051320444
+    second: ribosome_recycle_43
+  - first:
+      213: -8899315110809451787
+    second: ribosome_recycle_44
+  - first:
+      213: 9000197677929367278
+    second: ribosome_recycle_32
+  - first:
+      213: -6549837145593854459
+    second: ribosome_recycle_33
+  - first:
+      213: -8570469629909087890
+    second: ribosome_recycle_34
+  - first:
+      213: -362507336692519130
+    second: ribosome_recycle_35
+  - first:
+      213: 8950053949433586972
+    second: ribosome_recycle_36
+  - first:
+      213: 4942372482343943161
+    second: ribosome_recycle_37
+  - first:
+      213: 4192648008863002381
+    second: ribosome_recycle_38
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ribosome_recycle_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 226
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cdd87b5b7b466e50800000000000000
+      internalID: 6802207280377421250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ribosome_recycle_1
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 226
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bd57585614388f70800000000000000
+      internalID: 9189652310225542583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ribosome_recycle_2
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 226
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b86b0ae530ab5c00800000000000000
+      internalID: 890481504756132021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ribosome_recycle_3
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 226
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ade64a68ece50c970800000000000000
+      internalID: 8773116315232923354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ribosome_recycle_4
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 205
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b9fe9edef674d1a0800000000000000
+      internalID: -6785667901511763529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ribosome_recycle_5
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 206
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eebb829836e2a400800000000000000
+      internalID: 334082453030026980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ribosome_recycle_6
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 206
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bd284177b723bdc0800000000000000
+      internalID: -3624509606270063178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ribosome_recycle_7
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 206
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49c584e65620acc40800000000000000
+      internalID: 5533237726843264148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ribosome_recycle_8
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 185
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cef00d1430a1284d0800000000000000
+      internalID: -3133913789405065236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ribosome_recycle_9
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 185
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 402b6030bdbaa7800800000000000000
+      internalID: 610989656599081476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ribosome_recycle_10
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 185
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d09db1583e0f5ba70800000000000000
+      internalID: 8842238303393274125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ribosome_recycle_11
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 185
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f03980dcf502d62a0800000000000000
+      internalID: -6742697471269891313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ribosome_recycle_12
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 163
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fac8f9c3593441380800000000000000
+      internalID: -9001495446960501585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ribosome_recycle_13
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 163
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 024191c09729a5b40800000000000000
+      internalID: 5429813349340222496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ribosome_recycle_14
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 163
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e74214916ffe56c70800000000000000
+      internalID: 8963834473615533182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ribosome_recycle_15
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 163
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 065ff352c54f83a80800000000000000
+      internalID: -8486764821180582560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ribosome_recycle_16
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 142
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97501dd8d4f234330800000000000000
+      internalID: 3693848129512211833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ribosome_recycle_17
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 143
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0457c7e636dea48c0800000000000000
+      internalID: -4014135106536180416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ribosome_recycle_18
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 143
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc8a5de7069b63e50800000000000000
+      internalID: 6788817312403531980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ribosome_recycle_19
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 143
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa00312c65bed3130800000000000000
+      internalID: 3548250839293558959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ribosome_recycle_20
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 122
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b3a27021f0a06ac0800000000000000
+      internalID: -3863911522791939152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ribosome_recycle_21
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 122
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f5ef94a4dcdafc10800000000000000
+      internalID: 2088224183092766192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ribosome_recycle_22
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 122
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e79db19f95cf712b0800000000000000
+      internalID: -5613740947132393090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ribosome_recycle_23
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 122
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5881e3c2d152c5570800000000000000
+      internalID: 8456675007521495173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ribosome_recycle_24
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 100
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4ef737a4ec3a78b0800000000000000
+      internalID: -5153739870816436662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ribosome_recycle_25
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 101
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a4ecd3aa1a381d30800000000000000
+      internalID: 4402332521847383206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ribosome_recycle_26
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 101
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 582fcfd9bce5f9760800000000000000
+      internalID: 7466790935825543813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ribosome_recycle_27
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 101
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09162621dc6980590800000000000000
+      internalID: -7707744954723704432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ribosome_recycle_28
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 79
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c288460e97fe3860800000000000000
+      internalID: 7511713486582874823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ribosome_recycle_29
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 79
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31b128a8f67b59cb0800000000000000
+      internalID: -4857774933356176621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ribosome_recycle_30
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 79
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b60b158da3924230800000000000000
+      internalID: 3621619423831066292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ribosome_recycle_31
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 78
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98b5a0ae52be30380800000000000000
+      internalID: -9006096281737995383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ribosome_recycle_32
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 57
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee6864d5a1027ec70800000000000000
+      internalID: 9000197677929367278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ribosome_recycle_33
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 57
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 506483091dd4a15a0800000000000000
+      internalID: -6549837145593854459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ribosome_recycle_34
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 57
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e69cef6a7439f0980800000000000000
+      internalID: -8570469629909087890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ribosome_recycle_35
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 57
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62f28f77f7d18faf0800000000000000
+      internalID: -362507336692519130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ribosome_recycle_36
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 36
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c152298c5aaf43c70800000000000000
+      internalID: 8950053949433586972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ribosome_recycle_37
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 35
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fbb6cd3695d69440800000000000000
+      internalID: 4942372482343943161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ribosome_recycle_38
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 36
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0f278486274f2a30800000000000000
+      internalID: 4192648008863002381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

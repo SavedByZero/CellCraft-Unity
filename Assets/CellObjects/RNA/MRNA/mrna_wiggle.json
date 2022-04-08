@@ -1,0 +1,171 @@
+﻿{"frames": {
+
+"mc_mrna_anim_wiggle0000":
+{
+	"frame": {"x":20,"y":20,"w":13,"h":25},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":13,"h":25},
+	"sourceSize": {"w":13,"h":25}
+},
+"mc_mrna_anim_wiggle0001":
+{
+	"frame": {"x":43,"y":20,"w":13,"h":25},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":13,"h":25},
+	"sourceSize": {"w":13,"h":25}
+},
+"mc_mrna_anim_wiggle0002":
+{
+	"frame": {"x":66,"y":20,"w":13,"h":25},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":13,"h":25},
+	"sourceSize": {"w":13,"h":25}
+},
+"mc_mrna_anim_wiggle0003":
+{
+	"frame": {"x":89,"y":20,"w":13,"h":25},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":13,"h":25},
+	"sourceSize": {"w":13,"h":25}
+},
+"mc_mrna_anim_wiggle0004":
+{
+	"frame": {"x":20,"y":55,"w":13,"h":25},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":13,"h":25},
+	"sourceSize": {"w":13,"h":25}
+},
+"mc_mrna_anim_wiggle0005":
+{
+	"frame": {"x":43,"y":55,"w":13,"h":25},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":13,"h":25},
+	"sourceSize": {"w":13,"h":25}
+},
+"mc_mrna_anim_wiggle0006":
+{
+	"frame": {"x":66,"y":55,"w":13,"h":25},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":13,"h":25},
+	"sourceSize": {"w":13,"h":25}
+},
+"mc_mrna_anim_wiggle0007":
+{
+	"frame": {"x":89,"y":55,"w":13,"h":25},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":13,"h":25},
+	"sourceSize": {"w":13,"h":25}
+},
+"mc_mrna_anim_wiggle0008":
+{
+	"frame": {"x":20,"y":90,"w":13,"h":25},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":13,"h":25},
+	"sourceSize": {"w":13,"h":25}
+},
+"mc_mrna_anim_wiggle0009":
+{
+	"frame": {"x":43,"y":90,"w":13,"h":25},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":13,"h":25},
+	"sourceSize": {"w":13,"h":25}
+},
+"mc_mrna_anim_wiggle0010":
+{
+	"frame": {"x":66,"y":90,"w":13,"h":25},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":13,"h":25},
+	"sourceSize": {"w":13,"h":25}
+},
+"mc_mrna_anim_wiggle0011":
+{
+	"frame": {"x":89,"y":90,"w":13,"h":25},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":13,"h":25},
+	"sourceSize": {"w":13,"h":25}
+},
+"mc_mrna_anim_wiggle0012":
+{
+	"frame": {"x":20,"y":125,"w":13,"h":25},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":13,"h":25},
+	"sourceSize": {"w":13,"h":25}
+},
+"mc_mrna_anim_wiggle0013":
+{
+	"frame": {"x":43,"y":125,"w":13,"h":25},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":13,"h":25},
+	"sourceSize": {"w":13,"h":25}
+},
+"mc_mrna_anim_wiggle0014":
+{
+	"frame": {"x":66,"y":125,"w":13,"h":25},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":13,"h":25},
+	"sourceSize": {"w":13,"h":25}
+},
+"mc_mrna_anim_wiggle0015":
+{
+	"frame": {"x":89,"y":125,"w":13,"h":25},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":13,"h":25},
+	"sourceSize": {"w":13,"h":25}
+},
+"mc_mrna_anim_wiggle0016":
+{
+	"frame": {"x":20,"y":160,"w":13,"h":25},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":13,"h":25},
+	"sourceSize": {"w":13,"h":25}
+},
+"mc_mrna_anim_wiggle0017":
+{
+	"frame": {"x":43,"y":160,"w":13,"h":25},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":13,"h":25},
+	"sourceSize": {"w":13,"h":25}
+},
+"mc_mrna_anim_wiggle0018":
+{
+	"frame": {"x":66,"y":160,"w":13,"h":25},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":13,"h":25},
+	"sourceSize": {"w":13,"h":25}
+},
+"mc_mrna_anim_wiggle0019":
+{
+	"frame": {"x":89,"y":160,"w":13,"h":25},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":13,"h":25},
+	"sourceSize": {"w":13,"h":25}
+}},
+"meta": {
+	"app": "Adobe Animate",
+	"version": "19.2.1.408",
+	"image": "mrna_wiggle.png",
+	"format": "RGBA8888",
+	"size": {"w":128,"h":256},
+	"scale": "1"
+}
+}

@@ -1,0 +1,2263 @@
+fileFormatVersion: 2
+guid: 6719a2356713e5e439a9090af4965751
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8470685741093195795
+    second: peroxisome_grow_0
+  - first:
+      213: -1785236257033965754
+    second: peroxisome_grow_1
+  - first:
+      213: 2974527498450174163
+    second: peroxisome_grow_2
+  - first:
+      213: 273915220528155205
+    second: peroxisome_grow_3
+  - first:
+      213: -3176947781472143391
+    second: peroxisome_grow_4
+  - first:
+      213: -7027422709407229999
+    second: peroxisome_grow_5
+  - first:
+      213: 4840138369637073624
+    second: peroxisome_grow_6
+  - first:
+      213: -1672879896918307576
+    second: peroxisome_grow_7
+  - first:
+      213: -7257470921634677089
+    second: peroxisome_grow_8
+  - first:
+      213: 557461660225699072
+    second: peroxisome_grow_9
+  - first:
+      213: 4083213029150115066
+    second: peroxisome_grow_10
+  - first:
+      213: 1129464385455129470
+    second: peroxisome_grow_11
+  - first:
+      213: -2993966380304810001
+    second: peroxisome_grow_12
+  - first:
+      213: -4129694299528091819
+    second: peroxisome_grow_13
+  - first:
+      213: -6418149748958053949
+    second: peroxisome_grow_14
+  - first:
+      213: 6818097676653259810
+    second: peroxisome_grow_15
+  - first:
+      213: -828967566832332575
+    second: peroxisome_grow_16
+  - first:
+      213: -2412185691738476998
+    second: peroxisome_grow_17
+  - first:
+      213: 494254021243018553
+    second: peroxisome_grow_18
+  - first:
+      213: -1985773629028582054
+    second: peroxisome_grow_19
+  - first:
+      213: -3329081014102210799
+    second: peroxisome_grow_20
+  - first:
+      213: 1975418480364794582
+    second: peroxisome_grow_21
+  - first:
+      213: 8561834616196885800
+    second: peroxisome_grow_22
+  - first:
+      213: 7090109827585130680
+    second: peroxisome_grow_23
+  - first:
+      213: -5818032507687135969
+    second: peroxisome_grow_24
+  - first:
+      213: 4563099972298153438
+    second: peroxisome_grow_25
+  - first:
+      213: -4894277604452368338
+    second: peroxisome_grow_26
+  - first:
+      213: -8810195146262650306
+    second: peroxisome_grow_27
+  - first:
+      213: -2741773014224713582
+    second: peroxisome_grow_28
+  - first:
+      213: 6502756025769548560
+    second: peroxisome_grow_29
+  - first:
+      213: -3175924350303540022
+    second: peroxisome_grow_30
+  - first:
+      213: 9142082933536131730
+    second: peroxisome_grow_31
+  - first:
+      213: 6315421074726581790
+    second: peroxisome_grow_32
+  - first:
+      213: -5585584335430209741
+    second: peroxisome_grow_33
+  - first:
+      213: 7946938148698329967
+    second: peroxisome_grow_34
+  - first:
+      213: -7949982684100922553
+    second: peroxisome_grow_35
+  - first:
+      213: -5795162511417441664
+    second: peroxisome_grow_36
+  - first:
+      213: -5069306007940517293
+    second: peroxisome_grow_37
+  - first:
+      213: 4080412170908669632
+    second: peroxisome_grow_38
+  - first:
+      213: -7343913911169879780
+    second: peroxisome_grow_39
+  - first:
+      213: -5068530975521061434
+    second: peroxisome_grow_40
+  - first:
+      213: -3310403209879095446
+    second: peroxisome_grow_41
+  - first:
+      213: 6944808775690808269
+    second: peroxisome_grow_42
+  - first:
+      213: -1763712015092468869
+    second: peroxisome_grow_43
+  - first:
+      213: 1059247198509087126
+    second: peroxisome_grow_44
+  - first:
+      213: -4596971547321072360
+    second: peroxisome_grow_45
+  - first:
+      213: 2676375332154313473
+    second: peroxisome_grow_46
+  - first:
+      213: 1722181722343161472
+    second: peroxisome_grow_47
+  - first:
+      213: -5645436795989590751
+    second: peroxisome_grow_48
+  - first:
+      213: 1948944031787822333
+    second: peroxisome_grow_49
+  - first:
+      213: -8484810531975771828
+    second: peroxisome_grow_50
+  - first:
+      213: -2444198584006408205
+    second: peroxisome_grow_51
+  - first:
+      213: 6765046963128762495
+    second: peroxisome_grow_52
+  - first:
+      213: 7651195889447646018
+    second: peroxisome_grow_53
+  - first:
+      213: 3802637786218791891
+    second: peroxisome_grow_54
+  - first:
+      213: -7349654841401722552
+    second: peroxisome_grow_55
+  - first:
+      213: 3716070054283012058
+    second: peroxisome_grow_56
+  - first:
+      213: 30157486269849097
+    second: peroxisome_grow_57
+  - first:
+      213: -5060575362780501788
+    second: peroxisome_grow_58
+  - first:
+      213: 7922434083837008914
+    second: peroxisome_grow_59
+  - first:
+      213: -2281657313103251467
+    second: peroxisome_grow_60
+  - first:
+      213: -1676674445598625284
+    second: peroxisome_grow_61
+  - first:
+      213: -2259070977226195888
+    second: peroxisome_grow_62
+  - first:
+      213: 928639690763187919
+    second: peroxisome_grow_63
+  - first:
+      213: 7144748249150200430
+    second: peroxisome_grow_64
+  - first:
+      213: -5859238475852623017
+    second: peroxisome_grow_65
+  - first:
+      213: -1998921210106807519
+    second: peroxisome_grow_66
+  - first:
+      213: -6525875018459138853
+    second: peroxisome_grow_67
+  - first:
+      213: -4238472769739781706
+    second: peroxisome_grow_68
+  - first:
+      213: 2239827109282955349
+    second: peroxisome_grow_69
+  - first:
+      213: 7077197458235692701
+    second: peroxisome_grow_70
+  - first:
+      213: -1192549438173316323
+    second: peroxisome_grow_71
+  - first:
+      213: 8567475732222312989
+    second: peroxisome_grow_72
+  - first:
+      213: -6675837654939068689
+    second: peroxisome_grow_73
+  - first:
+      213: -4204727405440977003
+    second: peroxisome_grow_74
+  - first:
+      213: -285426275993999397
+    second: peroxisome_grow_75
+  - first:
+      213: -967229001490111047
+    second: peroxisome_grow_76
+  - first:
+      213: 6004452931710636939
+    second: peroxisome_grow_77
+  - first:
+      213: -5103413095001487002
+    second: peroxisome_grow_78
+  - first:
+      213: 8760362801623714998
+    second: peroxisome_grow_79
+  - first:
+      213: 4781553580305060264
+    second: peroxisome_grow_80
+  - first:
+      213: -6519152372504891338
+    second: peroxisome_grow_81
+  - first:
+      213: -6107422105867505246
+    second: peroxisome_grow_82
+  - first:
+      213: -268828260328903524
+    second: peroxisome_grow_83
+  - first:
+      213: -7716797045268977495
+    second: peroxisome_grow_84
+  - first:
+      213: 7202046243633462852
+    second: peroxisome_grow_85
+  - first:
+      213: 5009367430784696422
+    second: peroxisome_grow_86
+  - first:
+      213: 254295371051842604
+    second: peroxisome_grow_87
+  - first:
+      213: -8606288888793145264
+    second: peroxisome_grow_88
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: peroxisome_grow_0
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 995
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31093d94dcbed8570800000000000000
+      internalID: 8470685741093195795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_grow_1
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 994
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64fa75335119937e0800000000000000
+      internalID: -1785236257033965754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_grow_2
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 993
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d001c70005a74920800000000000000
+      internalID: 2974527498450174163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_grow_3
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 993
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54a472a11742dc300800000000000000
+      internalID: 273915220528155205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_grow_4
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 992
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e7336f23d639e3d0800000000000000
+      internalID: -3176947781472143391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_grow_5
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 991
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d7d4475744997e90800000000000000
+      internalID: -7027422709407229999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_grow_6
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 991
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d2c4f9f330ab2340800000000000000
+      internalID: 4840138369637073624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_grow_7
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 990
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80dca48d89cb8c8e0800000000000000
+      internalID: -1672879896918307576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_grow_8
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 940
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9efc3406a8484b90800000000000000
+      internalID: -7257470921634677089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_grow_9
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 940
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00df6a92d608cb700800000000000000
+      internalID: 557461660225699072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_grow_10
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 939
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af44db0cd9c7aa830800000000000000
+      internalID: 4083213029150115066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_grow_11
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 938
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e730289dfd9acaf00800000000000000
+      internalID: 1129464385455129470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_grow_12
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 937
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fef3878907b4376d0800000000000000
+      internalID: -2993966380304810001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_grow_13
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 937
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5572ca52ae060b6c0800000000000000
+      internalID: -4129694299528091819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_grow_14
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 936
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c9b712eec62ee6a0800000000000000
+      internalID: -6418149748958053949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_grow_15
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 935
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22c65dc86bfbe9e50800000000000000
+      internalID: 6818097676653259810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_grow_16
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 935
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e093a8d36aee74f0800000000000000
+      internalID: -828967566832332575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_grow_17
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 885
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3ee5a7c4e1368ed0800000000000000
+      internalID: -2412185691738476998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_grow_18
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 884
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93d9ff4e961fbd600800000000000000
+      internalID: 494254021243018553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_grow_19
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 884
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5db96dc76d1174e0800000000000000
+      internalID: -1985773629028582054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_grow_20
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 883
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 117c0f5b47abcc1d0800000000000000
+      internalID: -3329081014102210799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_grow_21
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 882
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d2b2e444a81a6b10800000000000000
+      internalID: 1975418480364794582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_grow_22
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 881
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82dee0c883fb1d670800000000000000
+      internalID: 8561834616196885800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_grow_23
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 881
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b0c7bbb251256260800000000000000
+      internalID: 7090109827585130680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_grow_24
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 880
+        width: 10
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1512af6242324fa0800000000000000
+      internalID: -5818032507687135969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_grow_25
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 879
+        width: 10
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edd1d6b9f33635f30800000000000000
+      internalID: 4563099972298153438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_grow_26
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 830
+        width: 10
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2087722378041cb0800000000000000
+      internalID: -4894277604452368338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_grow_27
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 829
+        width: 10
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e32e4216136ebb580800000000000000
+      internalID: -8810195146262650306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_grow_28
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 828
+        width: 11
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 298426858f343f9d0800000000000000
+      internalID: -2741773014224713582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_grow_29
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 828
+        width: 12
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01b5601072e6e3a50800000000000000
+      internalID: 6502756025769548560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_grow_30
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 828
+        width: 12
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acce4a251a9dce3d0800000000000000
+      internalID: -3175924350303540022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_grow_31
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 828
+        width: 12
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29a0590cdf33fde70800000000000000
+      internalID: 9142082933536131730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_grow_32
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 828
+        width: 12
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e16f716c102e4a750800000000000000
+      internalID: 6315421074726581790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_grow_33
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 828
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33f22bff3a40c72b0800000000000000
+      internalID: -5585584335430209741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_grow_34
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 828
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f631a2d3422394e60800000000000000
+      internalID: 7946938148698329967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_grow_35
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 778
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74378af9edcfba190800000000000000
+      internalID: -7949982684100922553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_grow_36
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 778
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0828d436662739fa0800000000000000
+      internalID: -5795162511417441664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_grow_37
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 778
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 352b3fa4b0536a9b0800000000000000
+      internalID: -5069306007940517293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_grow_38
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 778
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c61130204980a830800000000000000
+      internalID: 4080412170908669632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_grow_39
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 778
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c117baf153d251a90800000000000000
+      internalID: -7343913911169879780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_grow_40
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 778
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c5c0079ee5f8a9b0800000000000000
+      internalID: -5068530975521061434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_grow_41
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 778
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a67f7d3e1d51f02d0800000000000000
+      internalID: -3310403209879095446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_grow_42
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 778
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcbe01c49cae06060800000000000000
+      internalID: 6944808775690808269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_grow_43
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 777
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b73335e44490687e0800000000000000
+      internalID: -1763712015092468869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_grow_44
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 728
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 699367407b333be00800000000000000
+      internalID: 1059247198509087126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_grow_45
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 728
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8158957cbb64430c0800000000000000
+      internalID: -4596971547321072360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_grow_46
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 728
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10b0dae3f25642520800000000000000
+      internalID: 2676375332154313473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_grow_47
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 728
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08e3fe6e62b66e710800000000000000
+      internalID: 1722181722343161472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_grow_48
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 728
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12dfe15152167a1b0800000000000000
+      internalID: -5645436795989590751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_grow_49
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 728
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfca4dd554a0c0b10800000000000000
+      internalID: 1948944031787822333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_grow_50
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 728
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c49471f86c5ef3a80800000000000000
+      internalID: -8484810531975771828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_grow_51
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 727
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f709c77656741ed0800000000000000
+      internalID: -2444198584006408205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_grow_52
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 727
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f700026ce5642ed50800000000000000
+      internalID: 6765046963128762495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_grow_53
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 678
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 243b479af128e2a60800000000000000
+      internalID: 7651195889447646018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_grow_54
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 678
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d38c095beea5c430800000000000000
+      internalID: 3802637786218791891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_grow_55
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 678
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8493584acd7c00a90800000000000000
+      internalID: -7349654841401722552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_grow_56
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 678
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad7610a9602229330800000000000000
+      internalID: 3716070054283012058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_grow_57
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 678
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90ede60f2142b6000800000000000000
+      internalID: 30157486269849097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_grow_58
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 678
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e8ef56058935c9b0800000000000000
+      internalID: -5060575362780501788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_grow_59
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 677
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21c5d8b03d322fd60800000000000000
+      internalID: 7922434083837008914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_grow_60
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 677
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f7fe4133cce550e0800000000000000
+      internalID: -2281657313103251467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_grow_61
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 677
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf17e12a9714bb8e0800000000000000
+      internalID: -1676674445598625284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_grow_62
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 628
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05cb9005aea26a0e0800000000000000
+      internalID: -2259070977226195888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_grow_63
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 627
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc6b44ce0e033ec00800000000000000
+      internalID: 928639690763187919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_grow_64
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 627
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6a11389dae372360800000000000000
+      internalID: 7144748249150200430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_grow_65
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 627
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 753d08856adcfaea0800000000000000
+      internalID: -5859238475852623017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_grow_66
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 627
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12bf69900c76244e0800000000000000
+      internalID: -1998921210106807519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_grow_67
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 627
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd4b52c0f3f6f65a0800000000000000
+      internalID: -6525875018459138853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_grow_68
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 626
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b98e79e87bed25c0800000000000000
+      internalID: -4238472769739781706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_grow_69
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 626
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 550c91783e6751f10800000000000000
+      internalID: 2239827109282955349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_grow_70
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 626
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d969f677791473260800000000000000
+      internalID: 7077197458235692701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_grow_71
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 577
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1b7698ba96337fe0800000000000000
+      internalID: -1192549438173316323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_grow_72
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 576
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1204e839c9c5e670800000000000000
+      internalID: 8567475732222312989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_grow_73
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 576
+        width: 33
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe61e2fd509aa53a0800000000000000
+      internalID: -6675837654939068689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_grow_74
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 576
+        width: 33
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 597375dc3bec5a5c0800000000000000
+      internalID: -4204727405440977003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_grow_75
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 576
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd7a0d17056f90cf0800000000000000
+      internalID: -285426275993999397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_grow_76
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 576
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b5e9b50956b392f0800000000000000
+      internalID: -967229001490111047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_grow_77
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 575
+        width: 35
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b835a21e02a145350800000000000000
+      internalID: 6004452931710636939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_grow_78
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 575
+        width: 36
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6690c5244d80d29b0800000000000000
+      internalID: -5103413095001487002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_grow_79
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 575
+        width: 36
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bcc35ebd8f039970800000000000000
+      internalID: 8760362801623714998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_grow_80
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 526
+        width: 36
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a19494c5ad7b5240800000000000000
+      internalID: 4781553580305060264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_grow_81
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 525
+        width: 37
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 630733805715785a0800000000000000
+      internalID: -6519152372504891338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_grow_82
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 525
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a1366604f31e3ba0800000000000000
+      internalID: -6107422105867505246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_grow_83
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 525
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9c628d1f1ee44cf0800000000000000
+      internalID: -268828260328903524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_grow_84
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 525
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a865f009fd68e490800000000000000
+      internalID: -7716797045268977495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_grow_85
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 525
+        width: 40
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44e75b786eec2f360800000000000000
+      internalID: 7202046243633462852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_grow_86
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 524
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66045553329d48540800000000000000
+      internalID: 5009367430784696422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_grow_87
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 524
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2c329bea40778300800000000000000
+      internalID: 254295371051842604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_grow_88
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 524
+        width: 41
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 050e71d8ad1509880800000000000000
+      internalID: -8606288888793145264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

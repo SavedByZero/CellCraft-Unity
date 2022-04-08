@@ -4,17 +4,17 @@ using UnityEngine;
 
 public class ObjectGrid : MonoBehaviour
 {
-	private float cell_w; //how big is a cell? (assume square)
-	private float cell_h;
-	private int grid_w; //how many cells wide
-	private int grid_h; //how many cells tall
+	public float cell_w; //how big is a cell? (assume square)
+	public float cell_h;
+	public int grid_w; //how many cells wide
+	public int grid_h; //how many cells tall
 	private float half_w;
 	private float half_h;
 	private List<List<List<GameDataObject>>> grid;
 	
 
 	private List<GameDataObject> v;
-	public GameObject grid_shape;
+	public Graphics grid_shape;
 	private int t = 0;
 	private int testTime = 30;
 	private int frameCount = 0;
@@ -25,7 +25,14 @@ public class ObjectGrid : MonoBehaviour
 	void Start()
 	{
 		setup();
+		//unitTest();
 	}
+
+	void unitTest()
+    {
+		makeGrid(grid_w, grid_h, 800, 800);
+		displayGrid();
+    }
 
 	// Update is called once per frame
 	void Update()
@@ -84,11 +91,11 @@ public class ObjectGrid : MonoBehaviour
 
 	private void setup()
 	{
-		//grid_shape = new Shape();
-		grid_shape.transform.SetParent(this.transform, false);
+		grid_shape.Begin();
+		//grid_shape.transform.SetParent(this.transform, false);
 
 
-		grid_shape.transform.SetSiblingIndex(this.transform.childCount - 1);
+		//grid_shape.transform.SetSiblingIndex(this.transform.childCount - 1);
 
 	}
 
@@ -146,11 +153,11 @@ public class ObjectGrid : MonoBehaviour
 		grid[xx][yy].Add(thing);
 
 		//DEBUG
-		/*
-		if (Cell.SHOW_GRID)  //TODO
+		
+		if (Cell.SHOW_GRID)
 		{
 			displayGrid();
-		}*/
+		}
 	}
 
 	public void takeOut(int xx, int yy, GameDataObject thing = null)
@@ -192,27 +199,28 @@ public class ObjectGrid : MonoBehaviour
 
 	private void drawGridLines(bool isCanvas)
 	{
-		//TODO:  yeah, I don't think so, not in Unity. 
-
-		/*                   
-		grid_shape.graphics.clear();
+		grid_shape.LineWidth = 1;
+		grid_shape.Begin();
 		if (isCanvas)
-		{
-			grid_shape.graphics.lineStyle(1, 0xFF0000);
-		}
+			grid_shape.SetLineColor(1,0,0);
 		else
+			grid_shape.SetLineColor(0,0,0);
+		grid_shape.MoveTo(0, 0);
+		for (int w = 0; w <= grid_w; w++)
 		{
-			grid_shape.graphics.lineStyle(1, 0x000000);
-		}
-		grid_shape.graphics.moveTo(0, 0);
-		for (var w:int = 0; w <= grid_w; w++){
-			grid_shape.graphics.moveTo(w * cell_w, 0);
-			grid_shape.graphics.lineTo(w * cell_w, cell_h * grid_h);
-			for (var h:int = 0; h <= grid_h; h++){
-				grid_shape.graphics.moveTo(0, h * cell_h);
-				grid_shape.graphics.lineTo(cell_w * grid_w, h * cell_h);
+			grid_shape.MoveTo(w * cell_w, 0);
+			grid_shape.LineTo(w * cell_w, cell_h * grid_h);
+			grid_shape.Stroke();
+			for (int h = 0; h <= grid_h; h++)
+			{
+				grid_shape.MoveTo(0, h * cell_h);
+				grid_shape.LineTo(cell_w * grid_w, h * cell_h);
+				grid_shape.Stroke();
 			}
-		}*/
+		}
+		
+		grid_shape.End();
+			
 
 	}
 
@@ -226,11 +234,12 @@ public class ObjectGrid : MonoBehaviour
 				float sizeRatio = cell_w / 16;
 				if (length > 0)
 				{
-					//TODO: nope
-					//grid_shape.graphics.drawCircle(w * cell_w + half_w, h * cell_h + half_h, length * sizeRatio);
+					
+					grid_shape.Circle(w * cell_w + half_w, h * cell_h + half_h, length * sizeRatio);
 				}
 			}
 		}
+		grid_shape.Stroke();
 	}
 
 	/*

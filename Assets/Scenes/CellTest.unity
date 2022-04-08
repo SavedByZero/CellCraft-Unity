@@ -1865,6 +1865,7 @@ MonoBehaviour:
   SubClip: {fileID: 0}
   Loop: 0
   FrameNames: []
+  NameIndexPairs: []
   _frameInterval: 0.0166
 --- !u!212 &315261573
 SpriteRenderer:
@@ -2082,7 +2083,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 381646423}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.9026666, y: 1.1461319, z: 0.35965657}
+  m_LocalPosition: {x: 0.93, y: 0.07, z: -0.39}
   m_LocalScale: {x: 0.15, y: 0.15, z: 0.2}
   m_Children:
   - {fileID: 471560198}
@@ -2108,21 +2109,15 @@ MonoBehaviour:
   SubClip: {fileID: 0}
   Loop: 0
   FrameNames: []
+  NameIndexPairs: []
   _frameInterval: 0.0166
   radius2: 1225
   loc_bubble: {fileID: 0}
   clip: {fileID: 0}
-  anim: {fileID: 0}
   anim_wiggle: 1
   anim_vital: 0
   isMoving: 0
   v_move: {x: 0, y: 0}
-  Normal: {fileID: 471560200}
-  Divide: {fileID: 471560200}
-  Recycle: {fileID: 1219009192}
-  Damage1: {fileID: 1370012234}
-  Damage2: {fileID: 1117862434}
-  Plop: {fileID: 0}
   isDoomed: 0
   isRecycling: 0
   text_id: centrosome
@@ -2703,6 +2698,7 @@ MonoBehaviour:
   SubClip: {fileID: 0}
   Loop: 1
   FrameNames: []
+  NameIndexPairs: []
   _frameInterval: 0.0166
 --- !u!1 &477034285
 GameObject:
@@ -3171,8 +3167,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 618585131}
-  - component: {fileID: 618585130}
   - component: {fileID: 618585129}
+  - component: {fileID: 618585132}
+  - component: {fileID: 618585130}
   m_Layer: 0
   m_Name: Membrane
   m_TagString: Untagged
@@ -3196,21 +3193,15 @@ MonoBehaviour:
   SubClip: {fileID: 0}
   Loop: 0
   FrameNames: []
+  NameIndexPairs: []
   _frameInterval: 0.0166
   radius2: 0
   loc_bubble: {fileID: 0}
   clip: {fileID: 0}
-  anim: {fileID: 0}
   anim_wiggle: 1
   anim_vital: 0
   isMoving: 0
   v_move: {x: 0, y: 0}
-  Normal: {fileID: 0}
-  Divide: {fileID: 0}
-  Recycle: {fileID: 0}
-  Damage1: {fileID: 0}
-  Damage2: {fileID: 0}
-  Plop: {fileID: 0}
   isDoomed: 0
   isRecycling: 0
   text_id: membrane
@@ -3236,56 +3227,14 @@ MonoBehaviour:
   targetter: {fileID: 0}
   shape_debug: {fileID: 0}
   acceptingVesicles: 1
---- !u!212 &618585130
-SpriteRenderer:
+--- !u!33 &618585130
+MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 618585128}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
+  m_Mesh: {fileID: 0}
 --- !u!4 &618585131
 Transform:
   m_ObjectHideFlags: 0
@@ -3300,6 +3249,45 @@ Transform:
   m_Father: {fileID: 1334094068}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &618585132
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 618585128}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
 --- !u!1 &631364246
 GameObject:
   m_ObjectHideFlags: 0
@@ -3534,6 +3522,7 @@ MonoBehaviour:
   SubClip: {fileID: 0}
   Loop: 0
   FrameNames: []
+  NameIndexPairs: []
   _frameInterval: 0.0166
 --- !u!212 &631364248
 SpriteRenderer:
@@ -4223,21 +4212,15 @@ MonoBehaviour:
   SubClip: {fileID: 0}
   Loop: 0
   FrameNames: []
+  NameIndexPairs: []
   _frameInterval: 0.0166
   radius2: 0
   loc_bubble: {fileID: 0}
   clip: {fileID: 0}
-  anim: {fileID: 0}
   anim_wiggle: 1
   anim_vital: 0
   isMoving: 0
   v_move: {x: 0, y: 0}
-  Normal: {fileID: 1604346732}
-  Divide: {fileID: 1604346732}
-  Recycle: {fileID: 1394975319}
-  Damage1: {fileID: 695963031}
-  Damage2: {fileID: 1761488619}
-  Plop: {fileID: 0}
   isDoomed: 0
   isRecycling: 0
   text_id: golgi
@@ -4333,7 +4316,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 667290715}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.30266666, y: -0.29386818, z: 1.3596566}
+  m_LocalPosition: {x: 1.69, y: -1.32, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1604346734}
@@ -4744,6 +4727,7 @@ MonoBehaviour:
   SubClip: {fileID: 0}
   Loop: 0
   FrameNames: []
+  NameIndexPairs: []
   _frameInterval: 0.0166
 --- !u!212 &695963032
 SpriteRenderer:
@@ -6317,6 +6301,7 @@ MonoBehaviour:
   SubClip: {fileID: 0}
   Loop: 0
   FrameNames: []
+  NameIndexPairs: []
   _frameInterval: 0.0166
 --- !u!212 &990566856
 SpriteRenderer:
@@ -6497,21 +6482,15 @@ MonoBehaviour:
   SubClip: {fileID: 0}
   Loop: 0
   FrameNames: []
+  NameIndexPairs: []
   _frameInterval: 0.0166
   radius2: 10000
   loc_bubble: {fileID: 0}
   clip: {fileID: 0}
-  anim: {fileID: 0}
   anim_wiggle: 1
   anim_vital: 0
   isMoving: 0
   v_move: {x: 0, y: 0}
-  Normal: {fileID: 0}
-  Divide: {fileID: 0}
-  Recycle: {fileID: 0}
-  Damage1: {fileID: 0}
-  Damage2: {fileID: 0}
-  Plop: {fileID: 0}
   isDoomed: 0
   isRecycling: 0
   text_id: er
@@ -6653,7 +6632,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1022417470}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.8626666, y: 0.93613183, z: 1.3596566}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1505869283}
@@ -7350,21 +7329,15 @@ MonoBehaviour:
   SubClip: {fileID: 1791656346}
   Loop: 0
   FrameNames: []
+  NameIndexPairs: []
   _frameInterval: 0.0166
   radius2: 5625
   loc_bubble: {fileID: 0}
   clip: {fileID: 0}
-  anim: {fileID: 0}
   anim_wiggle: 1
   anim_vital: 0
   isMoving: 0
   v_move: {x: 0, y: 0}
-  Normal: {fileID: 1879943741}
-  Divide: {fileID: 1879943741}
-  Recycle: {fileID: 1916164161}
-  Damage1: {fileID: 315261572}
-  Damage2: {fileID: 631364247}
-  Plop: {fileID: 0}
   isDoomed: 0
   isRecycling: 0
   text_id: nucleus
@@ -7442,7 +7415,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1096349649}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.6426666, y: 0.93613183, z: 0.9596566}
+  m_LocalPosition: {x: 0.19, y: 0, z: -0.15}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1791656348}
@@ -7827,6 +7800,7 @@ MonoBehaviour:
   SubClip: {fileID: 0}
   Loop: 1
   FrameNames: []
+  NameIndexPairs: []
   _frameInterval: 0.0166
 --- !u!1001 &1118062591
 PrefabInstance:
@@ -8921,6 +8895,7 @@ MonoBehaviour:
   SubClip: {fileID: 0}
   Loop: 1
   FrameNames: []
+  NameIndexPairs: []
   _frameInterval: 0.0166
 --- !u!1001 &1240883895
 PrefabInstance:
@@ -9561,21 +9536,15 @@ MonoBehaviour:
   SubClip: {fileID: 0}
   Loop: 0
   FrameNames: []
+  NameIndexPairs: []
   _frameInterval: 0.0166
   radius2: 0
   loc_bubble: {fileID: 0}
   clip: {fileID: 0}
-  anim: {fileID: 0}
   anim_wiggle: 1
   anim_vital: 0
   isMoving: 0
   v_move: {x: 0, y: 0}
-  Normal: {fileID: 0}
-  Divide: {fileID: 0}
-  Recycle: {fileID: 0}
-  Damage1: {fileID: 0}
-  Damage2: {fileID: 0}
-  Plop: {fileID: 0}
   r_atp: 0
   r_na: 0
   r_aa: 0
@@ -9593,6 +9562,23 @@ MonoBehaviour:
   c_membrane: {fileID: 618585129}
   c_golgi: {fileID: 667290716}
   c_skeleton: {fileID: 1873041092}
+  MRNA_Prefab: {fileID: 4017737108432255299, guid: 12b8f11c6e0d67d4ab3de584600f6011,
+    type: 3}
+  RedRNA_Prefab: {fileID: 5693273893944954621, guid: 81517b21dd9a448438f2264dcb336c83,
+    type: 3}
+  EnzymeRNA_Prefab: {fileID: 2103683005401069573, guid: 2e1c2bd2797cda643b7e8934ec5bf6e0,
+    type: 3}
+  EvilDNA_Prefab: {fileID: 6191601376675339653, guid: 9d446b7f58c6cea48976258a7502c1a8,
+    type: 3}
+  DNARepairEnzyme_Prefab: {fileID: 4731758577436181626, guid: 7521a9711b30777478f5ee127d5bfb9a,
+    type: 3}
+  Lysosome_Prefab: {fileID: 1041024799938674452, guid: 4fd92f5249af1af418dbb068e783101f,
+    type: 3}
+  Ribosome_Prefab: {fileID: 5207396466752272091, guid: 1a5227d1fd117014a88552cdfaaeb315,
+    type: 3}
+  Peroxisome_Prefab: {fileID: 6818451793669733282, guid: c7b0c8ae394aa1443b5c1bfb97e9dd46,
+    type: 3}
+  c_objectGrid: {fileID: 0}
   isCellDying: 0
   canFatProcess: 1
 --- !u!212 &1334094067
@@ -9653,7 +9639,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1334094065}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.8626666, y: -0.93613183, z: -1.3596566}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 381646425}
@@ -10063,6 +10049,7 @@ MonoBehaviour:
   SubClip: {fileID: 0}
   Loop: 0
   FrameNames: []
+  NameIndexPairs: []
   _frameInterval: 0.0166
 --- !u!212 &1357740210
 SpriteRenderer:
@@ -10498,6 +10485,7 @@ MonoBehaviour:
   SubClip: {fileID: 0}
   Loop: 1
   FrameNames: []
+  NameIndexPairs: []
   _frameInterval: 0.0166
 --- !u!1001 &1377778132
 PrefabInstance:
@@ -10663,6 +10651,7 @@ MonoBehaviour:
   SubClip: {fileID: 0}
   Loop: 0
   FrameNames: []
+  NameIndexPairs: []
   _frameInterval: 0.0166
 --- !u!212 &1394975320
 SpriteRenderer:
@@ -11244,6 +11233,7 @@ MonoBehaviour:
   SubClip: {fileID: 0}
   Loop: 0
   FrameNames: []
+  NameIndexPairs: []
   _frameInterval: 0.0166
 --- !u!212 &1505869285
 SpriteRenderer:
@@ -11954,6 +11944,7 @@ MonoBehaviour:
   SubClip: {fileID: 0}
   Loop: 0
   FrameNames: []
+  NameIndexPairs: []
   _frameInterval: 0.0166
 --- !u!212 &1604346733
 SpriteRenderer:
@@ -13329,6 +13320,7 @@ MonoBehaviour:
   SubClip: {fileID: 0}
   Loop: 0
   FrameNames: []
+  NameIndexPairs: []
   _frameInterval: 0.0166
 --- !u!212 &1761488620
 SpriteRenderer:
@@ -13583,6 +13575,7 @@ MonoBehaviour:
   SubClip: {fileID: 0}
   Loop: 0
   FrameNames: []
+  NameIndexPairs: []
   _frameInterval: 0.0166
   pores: {fileID: 1999097600}
   n_pores: {fileID: 657792679}
@@ -14142,21 +14135,15 @@ MonoBehaviour:
   SubClip: {fileID: 0}
   Loop: 0
   FrameNames: []
+  NameIndexPairs: []
   _frameInterval: 0.0166
   radius2: 0
   loc_bubble: {fileID: 0}
   clip: {fileID: 0}
-  anim: {fileID: 0}
   anim_wiggle: 1
   anim_vital: 0
   isMoving: 0
   v_move: {x: 0, y: 0}
-  Normal: {fileID: 0}
-  Divide: {fileID: 0}
-  Recycle: {fileID: 0}
-  Damage1: {fileID: 0}
-  Damage2: {fileID: 0}
-  Plop: {fileID: 0}
   isDoomed: 0
   isRecycling: 0
   text_id: unknown
@@ -14542,6 +14529,7 @@ MonoBehaviour:
   SubClip: {fileID: 0}
   Loop: 0
   FrameNames: []
+  NameIndexPairs: []
   _frameInterval: 0.0166
 --- !u!212 &1879943742
 SpriteRenderer:
@@ -14914,6 +14902,7 @@ MonoBehaviour:
   SubClip: {fileID: 0}
   Loop: 0
   FrameNames: []
+  NameIndexPairs: []
   _frameInterval: 0.0166
 --- !u!212 &1916164162
 SpriteRenderer:
@@ -15469,6 +15458,68 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1978224727}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1979528642
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1979528645}
+  - component: {fileID: 1979528644}
+  - component: {fileID: 1979528643}
+  m_Layer: 0
+  m_Name: Grid
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1979528643
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1979528642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7216cf89bd375844ba7eba400d486659, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PixelsPerUnit: 100
+--- !u!114 &1979528644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1979528642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 306b96381c944c44a9db15c705edcdf0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cell_w: 50
+  cell_h: 50
+  grid_w: 100
+  grid_h: 100
+  grid_shape: {fileID: 1979528643}
+--- !u!4 &1979528645
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1979528642}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1999097598
 GameObject:
   m_ObjectHideFlags: 0
@@ -15914,6 +15965,7 @@ MonoBehaviour:
   SubClip: {fileID: 0}
   Loop: 0
   FrameNames: []
+  NameIndexPairs: []
   _frameInterval: 0.0166
 --- !u!212 &2059908817
 SpriteRenderer:
@@ -16740,3 +16792,72 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2146761263}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2906012202398673199
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4731758577436181625, guid: 7521a9711b30777478f5ee127d5bfb9a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4731758577436181625, guid: 7521a9711b30777478f5ee127d5bfb9a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4731758577436181625, guid: 7521a9711b30777478f5ee127d5bfb9a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4731758577436181625, guid: 7521a9711b30777478f5ee127d5bfb9a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4731758577436181625, guid: 7521a9711b30777478f5ee127d5bfb9a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4731758577436181625, guid: 7521a9711b30777478f5ee127d5bfb9a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4731758577436181625, guid: 7521a9711b30777478f5ee127d5bfb9a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4731758577436181625, guid: 7521a9711b30777478f5ee127d5bfb9a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4731758577436181625, guid: 7521a9711b30777478f5ee127d5bfb9a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4731758577436181625, guid: 7521a9711b30777478f5ee127d5bfb9a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4731758577436181625, guid: 7521a9711b30777478f5ee127d5bfb9a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4731758577436181626, guid: 7521a9711b30777478f5ee127d5bfb9a,
+        type: 3}
+      propertyPath: m_Name
+      value: DNARepairEnzyme
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7521a9711b30777478f5ee127d5bfb9a, type: 3}

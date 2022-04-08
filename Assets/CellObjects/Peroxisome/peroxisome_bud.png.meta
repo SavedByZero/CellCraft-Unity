@@ -1,0 +1,2263 @@
+fileFormatVersion: 2
+guid: 1e298b2042508614496aeb934e3ba16e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1366006807808901615
+    second: peroxisome_bud_0
+  - first:
+      213: -5583879395691145178
+    second: peroxisome_bud_1
+  - first:
+      213: -5330769650451720174
+    second: peroxisome_bud_2
+  - first:
+      213: 3227980765335204010
+    second: peroxisome_bud_3
+  - first:
+      213: 2537799908284887664
+    second: peroxisome_bud_4
+  - first:
+      213: -7276334189883454443
+    second: peroxisome_bud_5
+  - first:
+      213: -3844136391676420270
+    second: peroxisome_bud_6
+  - first:
+      213: 4632391076798950088
+    second: peroxisome_bud_7
+  - first:
+      213: 5015288804252043131
+    second: peroxisome_bud_8
+  - first:
+      213: -6238133279776009731
+    second: peroxisome_bud_9
+  - first:
+      213: 6722325780097686530
+    second: peroxisome_bud_10
+  - first:
+      213: 2295435630716539828
+    second: peroxisome_bud_11
+  - first:
+      213: -8396804452198105046
+    second: peroxisome_bud_12
+  - first:
+      213: 3246236370386310895
+    second: peroxisome_bud_13
+  - first:
+      213: -5227496145876586386
+    second: peroxisome_bud_14
+  - first:
+      213: -7591468945190336574
+    second: peroxisome_bud_15
+  - first:
+      213: -2611314749600371452
+    second: peroxisome_bud_16
+  - first:
+      213: 7545936264636071880
+    second: peroxisome_bud_17
+  - first:
+      213: -8469094942520609099
+    second: peroxisome_bud_18
+  - first:
+      213: 5075071701470243230
+    second: peroxisome_bud_19
+  - first:
+      213: 1708020030719077610
+    second: peroxisome_bud_20
+  - first:
+      213: -6238829207903936601
+    second: peroxisome_bud_21
+  - first:
+      213: -5722441155365516602
+    second: peroxisome_bud_22
+  - first:
+      213: 7821586137048478832
+    second: peroxisome_bud_23
+  - first:
+      213: -3450424934200233275
+    second: peroxisome_bud_24
+  - first:
+      213: 6986799699627374409
+    second: peroxisome_bud_25
+  - first:
+      213: -7674046330223163300
+    second: peroxisome_bud_26
+  - first:
+      213: -4269551556893077210
+    second: peroxisome_bud_27
+  - first:
+      213: -2846104359625397750
+    second: peroxisome_bud_28
+  - first:
+      213: 4899152963407300524
+    second: peroxisome_bud_29
+  - first:
+      213: -1947291641419556272
+    second: peroxisome_bud_30
+  - first:
+      213: 1235827552693758602
+    second: peroxisome_bud_31
+  - first:
+      213: -1158041605918314492
+    second: peroxisome_bud_32
+  - first:
+      213: 7459329205484491896
+    second: peroxisome_bud_33
+  - first:
+      213: -2914600715190935365
+    second: peroxisome_bud_34
+  - first:
+      213: 1937750538511831484
+    second: peroxisome_bud_35
+  - first:
+      213: 1488555830356487452
+    second: peroxisome_bud_36
+  - first:
+      213: -8145349539588669905
+    second: peroxisome_bud_37
+  - first:
+      213: 2163881685764135760
+    second: peroxisome_bud_38
+  - first:
+      213: 4786041391916316661
+    second: peroxisome_bud_39
+  - first:
+      213: -2324064534690094244
+    second: peroxisome_bud_40
+  - first:
+      213: 2690524980427348815
+    second: peroxisome_bud_41
+  - first:
+      213: 1993795774874767490
+    second: peroxisome_bud_42
+  - first:
+      213: -713744310727491283
+    second: peroxisome_bud_43
+  - first:
+      213: 4413539992034030425
+    second: peroxisome_bud_44
+  - first:
+      213: 7526495145766455103
+    second: peroxisome_bud_45
+  - first:
+      213: -8323308397267963200
+    second: peroxisome_bud_46
+  - first:
+      213: -7290511112022550516
+    second: peroxisome_bud_47
+  - first:
+      213: 2570844441606870343
+    second: peroxisome_bud_48
+  - first:
+      213: -6245400096451515178
+    second: peroxisome_bud_49
+  - first:
+      213: -5104575406242749250
+    second: peroxisome_bud_50
+  - first:
+      213: -149466871635317398
+    second: peroxisome_bud_51
+  - first:
+      213: 1848715242711600513
+    second: peroxisome_bud_52
+  - first:
+      213: 4720899659531579305
+    second: peroxisome_bud_53
+  - first:
+      213: 8188032429097084412
+    second: peroxisome_bud_54
+  - first:
+      213: -1593483440772171287
+    second: peroxisome_bud_55
+  - first:
+      213: -8183210535544994051
+    second: peroxisome_bud_56
+  - first:
+      213: -8777445937370901476
+    second: peroxisome_bud_57
+  - first:
+      213: -1111532153230560323
+    second: peroxisome_bud_58
+  - first:
+      213: 176818363714009502
+    second: peroxisome_bud_59
+  - first:
+      213: -8391156489656752047
+    second: peroxisome_bud_60
+  - first:
+      213: -1902630023060402471
+    second: peroxisome_bud_61
+  - first:
+      213: 6624532141462050352
+    second: peroxisome_bud_62
+  - first:
+      213: -4710199703849326217
+    second: peroxisome_bud_63
+  - first:
+      213: 7366774426722549543
+    second: peroxisome_bud_64
+  - first:
+      213: -5819626660302720954
+    second: peroxisome_bud_65
+  - first:
+      213: 5402007805968038092
+    second: peroxisome_bud_66
+  - first:
+      213: 5064962750391104765
+    second: peroxisome_bud_67
+  - first:
+      213: 3194366431273205502
+    second: peroxisome_bud_68
+  - first:
+      213: -8237259957734505072
+    second: peroxisome_bud_69
+  - first:
+      213: -3029943933170747762
+    second: peroxisome_bud_70
+  - first:
+      213: -8545496117111084484
+    second: peroxisome_bud_71
+  - first:
+      213: -7130871695200584296
+    second: peroxisome_bud_72
+  - first:
+      213: 4804489255058346686
+    second: peroxisome_bud_73
+  - first:
+      213: -2465752818540628548
+    second: peroxisome_bud_74
+  - first:
+      213: -5033163903413865202
+    second: peroxisome_bud_75
+  - first:
+      213: -1281898680948631476
+    second: peroxisome_bud_76
+  - first:
+      213: -3257838513386805359
+    second: peroxisome_bud_77
+  - first:
+      213: -5702089835470040574
+    second: peroxisome_bud_78
+  - first:
+      213: 84841768359707321
+    second: peroxisome_bud_79
+  - first:
+      213: 7777645465522845143
+    second: peroxisome_bud_80
+  - first:
+      213: -8107508056731271517
+    second: peroxisome_bud_81
+  - first:
+      213: -1016836616366742729
+    second: peroxisome_bud_82
+  - first:
+      213: -7685413011397113361
+    second: peroxisome_bud_83
+  - first:
+      213: 2774360914644310562
+    second: peroxisome_bud_84
+  - first:
+      213: 1340013160552281097
+    second: peroxisome_bud_85
+  - first:
+      213: 3843277221940487222
+    second: peroxisome_bud_86
+  - first:
+      213: -2921166686004570720
+    second: peroxisome_bud_87
+  - first:
+      213: -2121609372183003432
+    second: peroxisome_bud_88
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: peroxisome_bud_0
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 489
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11ef8c3bb08fa0de0800000000000000
+      internalID: -1366006807808901615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_bud_1
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 488
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 628d43736431282b0800000000000000
+      internalID: -5583879395691145178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_bud_2
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 488
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 218546d1f3d4506b0800000000000000
+      internalID: -5330769650451720174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_bud_3
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 487
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa0399b47671ccc20800000000000000
+      internalID: 3227980765335204010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_bud_4
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 486
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 072f65c1293183320800000000000000
+      internalID: 2537799908284887664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_bud_5
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 486
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51c87f02b94450b90800000000000000
+      internalID: -7276334189883454443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_bud_6
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 451
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25f99f1a152e6aac0800000000000000
+      internalID: -3844136391676420270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_bud_7
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 451
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ca6a41142f894040800000000000000
+      internalID: 4632391076798950088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_bud_8
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 450
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b77cf676892e99540800000000000000
+      internalID: 5015288804252043131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_bud_9
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 450
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df1986545d2bd69a0800000000000000
+      internalID: -6238133279776009731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_bud_10
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 449
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20c5c2b3eaf7a4d50800000000000000
+      internalID: 6722325780097686530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_bud_11
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 448
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b352ad5b860bdf10800000000000000
+      internalID: 2295435630716539828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_bud_12
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 448
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a204052c6de887b80800000000000000
+      internalID: -8396804452198105046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_bud_13
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 413
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe654d197c2fc0d20800000000000000
+      internalID: 3246236370386310895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_bud_14
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 413
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e607d48a3f33477b0800000000000000
+      internalID: -5227496145876586386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_bud_15
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 412
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c74586373fa5a690800000000000000
+      internalID: -7591468945190336574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_bud_16
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 412
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40de451121fb2cbd0800000000000000
+      internalID: -2611314749600371452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_bud_17
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 411
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cffe577d0d88b860800000000000000
+      internalID: 7545936264636071880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_bud_18
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 410
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b6700e550bb77a80800000000000000
+      internalID: -8469094942520609099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_bud_19
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 410
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9965c7d2d64e6640800000000000000
+      internalID: 5075071701470243230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_bud_20
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 375
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aec23402b2b14b710800000000000000
+      internalID: 1708020030719077610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_bud_21
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 375
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7afdd80e3e93b69a0800000000000000
+      internalID: -6238829207903936601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_bud_22
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 374
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cacc56861ec590b0800000000000000
+      internalID: -5722441155365516602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_bud_23
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 374
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 074f4eea62bdb8c60800000000000000
+      internalID: 7821586137048478832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_bud_24
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 373
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c238d0bdc0ad10d0800000000000000
+      internalID: -3450424934200233275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_bud_25
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 372
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94778152f4916f060800000000000000
+      internalID: 6986799699627374409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_bud_26
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 372
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c588821858f408590800000000000000
+      internalID: -7674046330223163300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_bud_27
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 337
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6211c25ea718fb4c0800000000000000
+      internalID: -4269551556893077210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_bud_28
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 337
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0a66da0a2b9088d0800000000000000
+      internalID: -2846104359625397750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_bud_29
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 337
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca7c134d9a94df340800000000000000
+      internalID: 4899152963407300524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_bud_30
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 337
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05a991fb194d9f4e0800000000000000
+      internalID: -1947291641419556272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_bud_31
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 337
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8aa3f98c9a862110800000000000000
+      internalID: 1235827552693758602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_bud_32
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 337
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 400bd148b4fcdefe0800000000000000
+      internalID: -1158041605918314492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_bud_33
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 336
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8749993246cd48760800000000000000
+      internalID: 7459329205484491896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_bud_34
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 302
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb0e1fc77124d87d0800000000000000
+      internalID: -2914600715190935365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_bud_35
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 302
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb1d15f19d544ea10800000000000000
+      internalID: 1937750538511831484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_bud_36
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 302
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1d2cb814a968a410800000000000000
+      internalID: 1488555830356487452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_bud_37
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 302
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2efc69efb7e5fe80800000000000000
+      internalID: -8145349539588669905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_bud_38
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 302
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05bd1ffade6a70e10800000000000000
+      internalID: 2163881685764135760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_bud_39
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 302
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f7fc75d94f6b6240800000000000000
+      internalID: 4786041391916316661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_bud_40
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 302
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c53a6be7e934fbfd0800000000000000
+      internalID: -2324064534690094244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_bud_41
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 268
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4bdfa5f63aa65520800000000000000
+      internalID: 2690524980427348815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_bud_42
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 268
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 280d51491b26bab10800000000000000
+      internalID: 1993795774874767490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_bud_43
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 268
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d21c1aab4554816f0800000000000000
+      internalID: -713744310727491283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_bud_44
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 268
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9533b232d3b004d30800000000000000
+      internalID: 4413539992034030425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_bud_45
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 268
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f378c1f357b737860800000000000000
+      internalID: 7526495145766455103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_bud_46
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 268
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c231d88c1bad7c80800000000000000
+      internalID: -8323308397267963200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_bud_47
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 268
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c089bd835c6e2da90800000000000000
+      internalID: -7290511112022550516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_bud_48
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 234
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 745d3c216697da320800000000000000
+      internalID: 2570844441606870343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_bud_49
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 234
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dc21daa3b1e359a0800000000000000
+      internalID: -6245400096451515178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_bud_50
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 234
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb4a4b596b7e829b0800000000000000
+      internalID: -5104575406242749250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_bud_51
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 234
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6dec721cacfcedf0800000000000000
+      internalID: -149466871635317398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_bud_52
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 234
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18dcca4e7b4f7a910800000000000000
+      internalID: 1848715242711600513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_bud_53
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 234
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9af64aa5a31048140800000000000000
+      internalID: 4720899659531579305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_bud_54
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 234
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf5e5b9bc1cb1a170800000000000000
+      internalID: 8188032429097084412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_bud_55
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 200
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e9be45d04fc2e9e0800000000000000
+      internalID: -1593483440772171287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_bud_56
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 200
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df64b9adf556f6e80800000000000000
+      internalID: -8183210535544994051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_bud_57
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 200
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c14dfc3cc6f303680800000000000000
+      internalID: -8777445937370901476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_bud_58
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 200
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db37442556b0390f0800000000000000
+      internalID: -1111532153230560323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_bud_59
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 200
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9970fe6d5f247200800000000000000
+      internalID: 176818363714009502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_bud_60
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 200
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 158ab4381af9c8b80800000000000000
+      internalID: -8391156489656752047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_bud_61
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 200
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9decd7813108895e0800000000000000
+      internalID: -1902630023060402471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_bud_62
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 166
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 036d00762e01feb50800000000000000
+      internalID: 6624532141462050352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_bud_63
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 165
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77929e6335202aeb0800000000000000
+      internalID: -4710199703849326217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_bud_64
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 165
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72fba3d6f4a0c3660800000000000000
+      internalID: 7366774426722549543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_bud_65
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 165
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 640734bd2688c3fa0800000000000000
+      internalID: -5819626660302720954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_bud_66
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 165
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc8bc9c7a79c7fa40800000000000000
+      internalID: 5402007805968038092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_bud_67
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 165
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df4b5a149cc5a4640800000000000000
+      internalID: 5064962750391104765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_bud_68
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 165
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efeb872485ba45c20800000000000000
+      internalID: 3194366431273205502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_bud_69
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 131
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0958fa816bf5fad80800000000000000
+      internalID: -8237259957734505072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_bud_70
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 131
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e86f10ecb0a73f5d0800000000000000
+      internalID: -3029943933170747762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_bud_71
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 130
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3a2d16be8c486980800000000000000
+      internalID: -8545496117111084484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_bud_72
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 130
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89d7ea469fd0a0d90800000000000000
+      internalID: -7130871695200584296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_bud_73
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 130
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb21feea589fca240800000000000000
+      internalID: 4804489255058346686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_bud_74
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 130
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb5b7fa20e2e7cdd0800000000000000
+      internalID: -2465752818540628548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_bud_75
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 130
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e05b2b0c81c962ab0800000000000000
+      internalID: -5033163903413865202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_bud_76
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 96
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c48d30401f7c53ee0800000000000000
+      internalID: -1281898680948631476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_bud_77
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 96
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1972ef10225d9c2d0800000000000000
+      internalID: -3257838513386805359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_bud_78
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 96
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 202517f618b1ed0b0800000000000000
+      internalID: -5702089835470040574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_bud_79
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 95
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b24239832b6d2100800000000000000
+      internalID: 84841768359707321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_bud_80
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 96
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d5ba69d75fbfeb60800000000000000
+      internalID: 7777645465522845143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_bud_81
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 95
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ae3ae8b0685c7f80800000000000000
+      internalID: -8107508056731271517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_bud_82
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 95
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 733a9de1c7873e1f0800000000000000
+      internalID: -1016836616366742729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_bud_83
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 61
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe9828fc59de75590800000000000000
+      internalID: -7685413011397113361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_bud_84
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 61
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22a1a1c7d82808620800000000000000
+      internalID: 2774360914644310562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_bud_85
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 61
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 904311daedea89210800000000000000
+      internalID: 1340013160552281097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_bud_86
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 61
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 634ec135540165530800000000000000
+      internalID: 3843277221940487222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_bud_87
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 61
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a51ef6406ee577d0800000000000000
+      internalID: -2921166686004570720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_bud_88
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 61
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8de74ea44878e82e0800000000000000
+      internalID: -2121609372183003432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

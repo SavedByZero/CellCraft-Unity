@@ -1,0 +1,251 @@
+﻿{"frames": {
+
+"mc_ribosome_grow_anim0000":
+{
+	"frame": {"x":20,"y":20,"w":17,"h":42},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":17,"h":42},
+	"sourceSize": {"w":17,"h":42}
+},
+"mc_ribosome_grow_anim0001":
+{
+	"frame": {"x":47,"y":20,"w":17,"h":42},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":17,"h":42},
+	"sourceSize": {"w":17,"h":42}
+},
+"mc_ribosome_grow_anim0002":
+{
+	"frame": {"x":74,"y":20,"w":17,"h":42},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":17,"h":42},
+	"sourceSize": {"w":17,"h":42}
+},
+"mc_ribosome_grow_anim0003":
+{
+	"frame": {"x":101,"y":20,"w":17,"h":42},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":17,"h":42},
+	"sourceSize": {"w":17,"h":42}
+},
+"mc_ribosome_grow_anim0004":
+{
+	"frame": {"x":128,"y":20,"w":17,"h":42},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":17,"h":42},
+	"sourceSize": {"w":17,"h":42}
+},
+"mc_ribosome_grow_anim0005":
+{
+	"frame": {"x":155,"y":20,"w":17,"h":42},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":17,"h":42},
+	"sourceSize": {"w":17,"h":42}
+},
+"mc_ribosome_grow_anim0006":
+{
+	"frame": {"x":182,"y":20,"w":17,"h":42},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":17,"h":42},
+	"sourceSize": {"w":17,"h":42}
+},
+"mc_ribosome_grow_anim0007":
+{
+	"frame": {"x":209,"y":20,"w":17,"h":42},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":17,"h":42},
+	"sourceSize": {"w":17,"h":42}
+},
+"mc_ribosome_grow_anim0008":
+{
+	"frame": {"x":20,"y":72,"w":17,"h":42},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":17,"h":42},
+	"sourceSize": {"w":17,"h":42}
+},
+"mc_ribosome_grow_anim0009":
+{
+	"frame": {"x":47,"y":72,"w":17,"h":42},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":17,"h":42},
+	"sourceSize": {"w":17,"h":42}
+},
+"mc_ribosome_grow_anim0010":
+{
+	"frame": {"x":74,"y":72,"w":17,"h":42},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":17,"h":42},
+	"sourceSize": {"w":17,"h":42}
+},
+"mc_ribosome_grow_anim0011":
+{
+	"frame": {"x":101,"y":72,"w":17,"h":42},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":17,"h":42},
+	"sourceSize": {"w":17,"h":42}
+},
+"mc_ribosome_grow_anim0012":
+{
+	"frame": {"x":128,"y":72,"w":17,"h":42},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":17,"h":42},
+	"sourceSize": {"w":17,"h":42}
+},
+"mc_ribosome_grow_anim0013":
+{
+	"frame": {"x":155,"y":72,"w":17,"h":42},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":17,"h":42},
+	"sourceSize": {"w":17,"h":42}
+},
+"mc_ribosome_grow_anim0014":
+{
+	"frame": {"x":182,"y":72,"w":17,"h":42},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":17,"h":42},
+	"sourceSize": {"w":17,"h":42}
+},
+"mc_ribosome_grow_anim0015":
+{
+	"frame": {"x":209,"y":72,"w":17,"h":42},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":17,"h":42},
+	"sourceSize": {"w":17,"h":42}
+},
+"mc_ribosome_grow_anim0016":
+{
+	"frame": {"x":20,"y":124,"w":17,"h":42},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":17,"h":42},
+	"sourceSize": {"w":17,"h":42}
+},
+"mc_ribosome_grow_anim0017":
+{
+	"frame": {"x":47,"y":124,"w":17,"h":42},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":17,"h":42},
+	"sourceSize": {"w":17,"h":42}
+},
+"mc_ribosome_grow_anim0018":
+{
+	"frame": {"x":74,"y":124,"w":17,"h":42},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":17,"h":42},
+	"sourceSize": {"w":17,"h":42}
+},
+"mc_ribosome_grow_anim0019":
+{
+	"frame": {"x":101,"y":124,"w":17,"h":42},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":17,"h":42},
+	"sourceSize": {"w":17,"h":42}
+},
+"mc_ribosome_grow_anim0020":
+{
+	"frame": {"x":128,"y":124,"w":17,"h":42},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":17,"h":42},
+	"sourceSize": {"w":17,"h":42}
+},
+"mc_ribosome_grow_anim0021":
+{
+	"frame": {"x":155,"y":124,"w":17,"h":42},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":17,"h":42},
+	"sourceSize": {"w":17,"h":42}
+},
+"mc_ribosome_grow_anim0022":
+{
+	"frame": {"x":182,"y":124,"w":17,"h":42},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":17,"h":42},
+	"sourceSize": {"w":17,"h":42}
+},
+"mc_ribosome_grow_anim0023":
+{
+	"frame": {"x":209,"y":124,"w":17,"h":42},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":17,"h":42},
+	"sourceSize": {"w":17,"h":42}
+},
+"mc_ribosome_grow_anim0024":
+{
+	"frame": {"x":20,"y":176,"w":17,"h":42},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":17,"h":42},
+	"sourceSize": {"w":17,"h":42}
+},
+"mc_ribosome_grow_anim0025":
+{
+	"frame": {"x":47,"y":176,"w":17,"h":42},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":17,"h":42},
+	"sourceSize": {"w":17,"h":42}
+},
+"mc_ribosome_grow_anim0026":
+{
+	"frame": {"x":74,"y":176,"w":17,"h":42},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":17,"h":42},
+	"sourceSize": {"w":17,"h":42}
+},
+"mc_ribosome_grow_anim0027":
+{
+	"frame": {"x":101,"y":176,"w":17,"h":42},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":17,"h":42},
+	"sourceSize": {"w":17,"h":42}
+},
+"mc_ribosome_grow_anim0028":
+{
+	"frame": {"x":128,"y":176,"w":17,"h":42},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":17,"h":42},
+	"sourceSize": {"w":17,"h":42}
+},
+"mc_ribosome_grow_anim0029":
+{
+	"frame": {"x":155,"y":176,"w":17,"h":42},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":17,"h":42},
+	"sourceSize": {"w":17,"h":42}
+}},
+"meta": {
+	"app": "Adobe Animate",
+	"version": "19.2.1.408",
+	"image": "ribosome_grow.png",
+	"format": "RGBA8888",
+	"size": {"w":256,"h":256},
+	"scale": "1"
+}
+}

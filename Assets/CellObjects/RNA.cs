@@ -7,6 +7,14 @@ using System.Threading.Tasks;
 using UnityEngine;
 public class RNA : CellObject
 {
+	// infest, fast_grow   (RedRNA)
+	//normal, grow, thread, dock, descend, die_thread, die, hardkill  (MRNA)
+	//normal, grow, thread, thread_inplace,dock, descend, die_thread, die, hardKill  (EnzymeRNA)
+
+	//common:  normal, grow, thread, dock, descend, die, die_thread, hardKill
+	//public MovieClip Normal;
+	
+
 	protected int product;
 	protected string product_creator_id; 
 	public bool product_virus_vesicle = false; //if my product is a virus, is it vesicle-bound
@@ -33,7 +41,7 @@ public class RNA : CellObject
 	protected Coroutine _waitRibRoutine;
     protected Coroutine _dockWaitRoutine;
 
-    public RNA(int i, int count = 1)
+    public virtual void InitRNA(int i, int count = 1, string pc_id = "")
 	{
 		canSelect = false;
 		singleSelect = true;
@@ -230,10 +238,12 @@ public class RNA : CellObject
 		if (inPlace)
 		{
 			playAnim("thread_inplace");
+			
 		}
 		else
 		{
 			playAnim("thread");
+			
 		}
 		deliverProduct();
 		//atRibosome = true;
@@ -244,15 +254,18 @@ public class RNA : CellObject
 		if (label == "grow")
 		{
 			SfxManager.Play(SFX.SFXBlock); //TODO: the "Crack" sound needs a replacement as it never exported.
-			//Director.startSFX(SoundLibrary.SFX_CRACK);
+										   //Director.startSFX(SoundLibrary.SFX_CRACK);
+			
 		}
+		
 		base.playAnim(label);
+
 	}
 
 	public override void onAnimFinish(int i, bool stop = true)
 	{
 		base.onAnimFinish(i, stop);
-		GotoAndStop("normal");
+		//Normal.GotoAndStop(0);
 		//trace("RNA.onAnimFinish() " + i);
 		switch (i)
 		{

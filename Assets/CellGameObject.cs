@@ -21,7 +21,7 @@ public class CellGameObject : MovieClip, ICellGameObject
 	protected Coroutine _doMoveGobjRoutine;
 
 	public MovieClip clip;
-	public MovieClip anim;
+	//public MovieClip anim;
 
 	protected float lastDist2; //the distance to the obj last frame
 
@@ -120,12 +120,7 @@ public class CellGameObject : MovieClip, ICellGameObject
 
 	protected bool snapToObject = true;
 
-	public MovieClip Normal;
-	public MovieClip Divide;
-	public MovieClip Recycle;
-	public MovieClip Damage1;
-	public MovieClip Damage2;
-	public MovieClip Plop;
+	
 
 	public CellGameObject()
 	{
@@ -228,69 +223,73 @@ public class CellGameObject : MovieClip, ICellGameObject
 
 	void switchStatesOff()
     {
-		Normal.gameObject.SetActive(false);
+		/*Normal.gameObject.SetActive(false);
 		Damage1.gameObject.SetActive(false);
 		Damage2.gameObject.SetActive(false);
 		if (Divide != null)
 			Divide.gameObject.SetActive(false);
 		if (Plop != null)
-			Plop.gameObject.SetActive(false);
+			Plop.gameObject.SetActive(false);*/
     }
 
 	protected virtual void showNoDamage()
 	{
 		isDamaged = false;
 		damageLevel = 0;
-		/*if (clip)
+		if (clip)
 		{
 			clip.GotoAndStop("normal");
-		}*/
-		switchStatesOff();
+		}
+		else
+			GotoAndStop("normal");
+		/*switchStatesOff();
 		if (Normal)
 		{
 			Normal.gameObject.SetActive(true);
 			Normal.Loop = true;
 			Normal.GotoAndPlay(0);
-		}
+		}*/
 		bumpBubble();
 	}
 
 	protected virtual void showLightDamage()
 	{
-		/*if (showSubtleDamage)
+		if (showSubtleDamage)
 		{
 			playAnim("damage_1");
-		}*/
+		}
 		//TODO: make transition highlight, maybe with DOTween;
 		
-		lightDamageClip();
+		//lightDamageClip();
 	}
 
 	protected virtual void showHeavyDamage()
 	{
-		/*if (showSubtleDamage)
+		if (showSubtleDamage)
 		{
 			playAnim("damage_2");
-		}*/
+		}
 		//TODO: Make transition highlight, maybe with DOTween
-		heavyDamageClip();
+		//heavyDamageClip();
 	}
 
 	protected void lightDamageClip()
 	{
 		isDamaged = true;
 		damageLevel = 1;
-		/*if (clip)
+		if (clip)
 		{
 			clip.GotoAndStop("damage_1");
-		}*/
-		if (Damage1 != null)
+		}
+		else
+			GotoAndStop("damage_1");
+		/*if (Damage1 != null)
 		{
 			switchStatesOff();
 			Damage1.gameObject.SetActive(true);
 			Damage1.Loop = true;
 			Damage1.GotoAndPlay(0);
-		}
+		}*/
 		bumpBubble();
 	}
 
@@ -298,17 +297,19 @@ public class CellGameObject : MovieClip, ICellGameObject
 	{
 		isDamaged = true;
 		damageLevel = 2;
-		/*if (clip)
+		if (clip)
 		{
 			clip.GotoAndStop("damage_2");
-		}*/
-		if (Damage2 != null)
+		}
+		else
+			GotoAndStop("damage_2");
+		/*if (Damage2 != null)
 		{
 			switchStatesOff();
 			Damage2.gameObject.SetActive(true);
 			Damage2.Loop = true;
 			Damage2.GotoAndPlay(0);
-		}
+		}*/
 		bumpBubble();
 	}
 
@@ -487,6 +488,19 @@ public class CellGameObject : MovieClip, ICellGameObject
 					clip.SubClip.Stop();
 			}
 		}
+		else
+        {
+			if (yes)
+			{
+				if (SubClip != null)
+					SubClip.Play();
+			}
+			else
+			{
+				if (SubClip != null)
+					SubClip.Stop();
+			}
+		}
 	}
 
 	public virtual void animateOn()
@@ -508,14 +522,16 @@ public class CellGameObject : MovieClip, ICellGameObject
 		{   //you are not allowed to start an animation while dying
 
 			GotoAndStop(label);
-			if (anim != null)
-				anim.Stop();
+			//if (anim != null)
+			//anim.Stop();
+			Stop();
 
 			anim_vital = true;
 			_doAnimRoutine = StartCoroutine(doAnimRoutine());
 
 			if (clip != null)
 				clip.gameObject.SetActive(false);
+			//else 
 
 			//if we are playing a death animation, that's the end of me
 			if (label == "die" || label == "recycle")
@@ -537,10 +553,12 @@ public class CellGameObject : MovieClip, ICellGameObject
 	//I don't want to make this public, but considering the nature of the original runframe event code from outside, I have little choice
 	public void doAnim()//(e:RunFrameEvent)
 	{
-		if (anim != null)
+		//if (anim != null)
 		{
-			anim.GotoAndStop(anim.CurrentSpriteIndex + 1);
+			//anim.GotoAndStop(anim.CurrentSpriteIndex + 1);
+			GotoAndStop(CurrentSpriteIndex + 1);
 		}
+
 	}
 
 	public virtual void startGetEaten()
@@ -552,13 +570,14 @@ public class CellGameObject : MovieClip, ICellGameObject
 	public void onDeath()
 	{
 		cancelMove();
-		if (Recycle != null)
+		/*if (Recycle != null)
         {
 			switchStatesOff();
 			Recycle.gameObject.SetActive(true);
 			Recycle.Loop = false;
 			Recycle.GotoAndPlay(0);
-        }
+        }*/
+		playAnim("die");
 		isDamaged = true;
 
 	}
@@ -865,7 +884,7 @@ public class CellGameObject : MovieClip, ICellGameObject
 	protected virtual IEnumerator onDeadTimer(float delay)
 	{
 		yield return new WaitForSeconds(delay);
-
+		Debug.Log(this + " dead");
 		//hard KILL ME
 	}
 

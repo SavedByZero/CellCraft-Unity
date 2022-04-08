@@ -11,6 +11,7 @@ public class MovieClip : MonoBehaviour
     public MovieClip SubClip;
     public bool Loop;
     public string[] FrameNames;
+    public string[] NameIndexPairs;
     private SpriteRenderer _sr;
     private Image _image;
     private float _maxWidth;
@@ -19,13 +20,20 @@ public class MovieClip : MonoBehaviour
     public float _frameInterval = 0.0166f;
     private int _spriteIndex = 0;
     protected bool _playing;
+    private List<Sprite> _currentSet;
     public delegate void Finished(MovieClip mc);
     public Finished onFinished;
+    private Dictionary<string,List<Sprite>> framesByName = new Dictionary<string, List<Sprite>>();
+    private Dictionary<List<Sprite>, bool> ClipLoopStatus = new Dictionary<List<Sprite>, bool>();
     public float FrameInterval
     {
         get
         {
             return _frameInterval;
+        }
+        set
+        {
+            _frameInterval = value;
         }
     }
 
@@ -85,6 +93,22 @@ public class MovieClip : MonoBehaviour
             _maxHeight = Mathf.Max(Sprites[i].bounds.size.y, _maxHeight);
             _maxWidth = Mathf.Max(Sprites[i].bounds.size.x, _maxWidth);
         }
+        for(int i=0; i < NameIndexPairs.Length; i++)
+        {
+            string[] info = NameIndexPairs[i].Split(':');
+            string[] frameBoundaries = info[1].Split('-');
+            int startFrame = int.Parse(frameBoundaries[0]);
+            int endFrame = int.Parse(frameBoundaries[1]);
+            bool loop = (frameBoundaries.Length > 2 && frameBoundaries[2] == "loop");
+           
+            List<Sprite> frames = new List<Sprite>();
+            for(int j=startFrame; j <= endFrame; j++ )
+            {
+                frames.Add(Sprites[j]);
+            }
+            framesByName[info[0]] = frames;
+            ClipLoopStatus[frames] = loop;
+        }
     }
 
   
@@ -109,21 +133,39 @@ public class MovieClip : MonoBehaviour
             if (_counter > _frameInterval)
             {
                 _counter = 0;
-               // Debug.Log("old ndex " + _spriteIndex);
+               
                 _spriteIndex++;
-              //  Debug.Log("new index " + _spriteIndex);
-                if (_spriteIndex == Sprites.Length)
+                if (_currentSet != null)
                 {
-                    if (Loop)
-                        _spriteIndex = 0;
-                    else
+                    if (_spriteIndex == _currentSet.Count)
                     {
-                        _playing = false;
-                        onFinished?.Invoke(this);
-                        return;
+                        if (ClipLoopStatus[_currentSet])
+                        {
+                            _spriteIndex = 0;
+                        }
+                        else
+                        {
+                            _playing = false;
+                            onFinished.Invoke(this);
+                            return;
+                        }
                     }
                 }
-                this.sprite = Sprites[_spriteIndex];
+                else
+                {
+                    if (_spriteIndex == Sprites.Length)
+                    {
+                        if (Loop)
+                            _spriteIndex = 0;
+                        else
+                        {
+                            _playing = false;
+                            onFinished?.Invoke(this);
+                            return;
+                        }
+                    }
+                    this.sprite = Sprites[_spriteIndex];
+                }
             }
         }
     }
@@ -150,6 +192,18 @@ public class MovieClip : MonoBehaviour
 
     public void GotoAndStop(string frameName)
     {
+        if (framesByName.ContainsKey(frameName))
+        {
+            List<Sprite> frames = framesByName[frameName];
+     
+            this.sprite = frames[0];
+            _currentSet = frames;
+            _spriteIndex = 0;
+            _playing = false;
+            return;
+        }
+        
+        //or....
         int index = Array.IndexOf(FrameNames, frameName);
         if (index < 0)
         {

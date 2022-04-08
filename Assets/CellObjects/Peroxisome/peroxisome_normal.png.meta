@@ -1,0 +1,3007 @@
+fileFormatVersion: 2
+guid: 593497600ea7e494bb101f7511e30001
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4751532004026551461
+    second: peroxisome_normal_0
+  - first:
+      213: 8987180868231615836
+    second: peroxisome_normal_1
+  - first:
+      213: -3686587977529137908
+    second: peroxisome_normal_2
+  - first:
+      213: -1412604715458325212
+    second: peroxisome_normal_3
+  - first:
+      213: 2535655385445296386
+    second: peroxisome_normal_4
+  - first:
+      213: -478523643812394112
+    second: peroxisome_normal_5
+  - first:
+      213: 6986547462028390769
+    second: peroxisome_normal_6
+  - first:
+      213: 7534941155337173983
+    second: peroxisome_normal_7
+  - first:
+      213: 8312200810905180405
+    second: peroxisome_normal_8
+  - first:
+      213: -1007834164399216007
+    second: peroxisome_normal_9
+  - first:
+      213: -8624778753899675755
+    second: peroxisome_normal_10
+  - first:
+      213: 1278018643489294929
+    second: peroxisome_normal_11
+  - first:
+      213: 2024018108234367522
+    second: peroxisome_normal_12
+  - first:
+      213: 8360199082403841669
+    second: peroxisome_normal_13
+  - first:
+      213: -8135932667081535519
+    second: peroxisome_normal_14
+  - first:
+      213: 1456893506176978017
+    second: peroxisome_normal_15
+  - first:
+      213: -489563698213476345
+    second: peroxisome_normal_16
+  - first:
+      213: 6765647602071256867
+    second: peroxisome_normal_17
+  - first:
+      213: 4678224337532085321
+    second: peroxisome_normal_18
+  - first:
+      213: 2332708632639857354
+    second: peroxisome_normal_19
+  - first:
+      213: -5511044979641411765
+    second: peroxisome_normal_20
+  - first:
+      213: -8807613985526035419
+    second: peroxisome_normal_21
+  - first:
+      213: -2239259260368570437
+    second: peroxisome_normal_22
+  - first:
+      213: -6479935808618432001
+    second: peroxisome_normal_23
+  - first:
+      213: 7048956341129381526
+    second: peroxisome_normal_24
+  - first:
+      213: 185532189503247251
+    second: peroxisome_normal_25
+  - first:
+      213: 5589531332365100783
+    second: peroxisome_normal_26
+  - first:
+      213: -2021382439955677147
+    second: peroxisome_normal_27
+  - first:
+      213: -4709447445332083512
+    second: peroxisome_normal_28
+  - first:
+      213: -763237537404490445
+    second: peroxisome_normal_29
+  - first:
+      213: -2832603863183186870
+    second: peroxisome_normal_30
+  - first:
+      213: -1530654574662968195
+    second: peroxisome_normal_31
+  - first:
+      213: -3655126938109790070
+    second: peroxisome_normal_32
+  - first:
+      213: -1421456663470318556
+    second: peroxisome_normal_33
+  - first:
+      213: 2020736653978632552
+    second: peroxisome_normal_34
+  - first:
+      213: -5763043942752707455
+    second: peroxisome_normal_35
+  - first:
+      213: -4413584662623474051
+    second: peroxisome_normal_36
+  - first:
+      213: 5664056859750375832
+    second: peroxisome_normal_37
+  - first:
+      213: -288510572541475912
+    second: peroxisome_normal_38
+  - first:
+      213: -389637351270425625
+    second: peroxisome_normal_39
+  - first:
+      213: 2488611141109820569
+    second: peroxisome_normal_40
+  - first:
+      213: 3290891817438303507
+    second: peroxisome_normal_41
+  - first:
+      213: -3646196942255760703
+    second: peroxisome_normal_42
+  - first:
+      213: -4536326155176600517
+    second: peroxisome_normal_43
+  - first:
+      213: -1414162787879935255
+    second: peroxisome_normal_44
+  - first:
+      213: 4771967833406529911
+    second: peroxisome_normal_45
+  - first:
+      213: 2949027578378829423
+    second: peroxisome_normal_46
+  - first:
+      213: -7200107980521124940
+    second: peroxisome_normal_47
+  - first:
+      213: -4764460376660041447
+    second: peroxisome_normal_48
+  - first:
+      213: -5574089500357443085
+    second: peroxisome_normal_49
+  - first:
+      213: -3972395863393539958
+    second: peroxisome_normal_50
+  - first:
+      213: -4221145969000299635
+    second: peroxisome_normal_51
+  - first:
+      213: -1370529677265742772
+    second: peroxisome_normal_52
+  - first:
+      213: 4995719968987840398
+    second: peroxisome_normal_53
+  - first:
+      213: -2647881560453192890
+    second: peroxisome_normal_54
+  - first:
+      213: -6325328256441666881
+    second: peroxisome_normal_55
+  - first:
+      213: 2378936938351184831
+    second: peroxisome_normal_56
+  - first:
+      213: 724834796764137720
+    second: peroxisome_normal_57
+  - first:
+      213: -5888328091804483935
+    second: peroxisome_normal_58
+  - first:
+      213: -2178212545674341090
+    second: peroxisome_normal_59
+  - first:
+      213: 8573024945633345317
+    second: peroxisome_normal_60
+  - first:
+      213: 5316125684300372066
+    second: peroxisome_normal_61
+  - first:
+      213: -3973955907713758040
+    second: peroxisome_normal_62
+  - first:
+      213: -4087506333515462345
+    second: peroxisome_normal_63
+  - first:
+      213: 318110544683396039
+    second: peroxisome_normal_64
+  - first:
+      213: -6483698466641151554
+    second: peroxisome_normal_65
+  - first:
+      213: 7697091059471150627
+    second: peroxisome_normal_66
+  - first:
+      213: 3921557007456123685
+    second: peroxisome_normal_67
+  - first:
+      213: 6337667396370425329
+    second: peroxisome_normal_68
+  - first:
+      213: -5324312591341195709
+    second: peroxisome_normal_69
+  - first:
+      213: -5655117594825431872
+    second: peroxisome_normal_70
+  - first:
+      213: 5953317088999514002
+    second: peroxisome_normal_71
+  - first:
+      213: 6584473776558569753
+    second: peroxisome_normal_72
+  - first:
+      213: 1347499559506588329
+    second: peroxisome_normal_73
+  - first:
+      213: 2767310064424787564
+    second: peroxisome_normal_74
+  - first:
+      213: 1097272930204322301
+    second: peroxisome_normal_75
+  - first:
+      213: -5675701123644626532
+    second: peroxisome_normal_76
+  - first:
+      213: 1358483287414771845
+    second: peroxisome_normal_77
+  - first:
+      213: 7464659081824663332
+    second: peroxisome_normal_78
+  - first:
+      213: 5148686727645742201
+    second: peroxisome_normal_79
+  - first:
+      213: 1211057471832670420
+    second: peroxisome_normal_80
+  - first:
+      213: -5793710154970453685
+    second: peroxisome_normal_81
+  - first:
+      213: 6002698282690205041
+    second: peroxisome_normal_82
+  - first:
+      213: 175147984479735164
+    second: peroxisome_normal_83
+  - first:
+      213: 3373089874198858259
+    second: peroxisome_normal_84
+  - first:
+      213: 3525568333832312870
+    second: peroxisome_normal_85
+  - first:
+      213: -4982526347966735281
+    second: peroxisome_normal_86
+  - first:
+      213: 6801104563113383215
+    second: peroxisome_normal_87
+  - first:
+      213: -3587056343834489203
+    second: peroxisome_normal_88
+  - first:
+      213: 3686174798371867914
+    second: peroxisome_normal_89
+  - first:
+      213: 4040651145856763409
+    second: peroxisome_normal_90
+  - first:
+      213: 1720338817101090254
+    second: peroxisome_normal_91
+  - first:
+      213: -6019077241323216186
+    second: peroxisome_normal_92
+  - first:
+      213: 2858038624190266651
+    second: peroxisome_normal_93
+  - first:
+      213: -1204601551248145061
+    second: peroxisome_normal_94
+  - first:
+      213: 1946036556365899941
+    second: peroxisome_normal_95
+  - first:
+      213: 6135783117919658026
+    second: peroxisome_normal_96
+  - first:
+      213: -8757366363441982911
+    second: peroxisome_normal_97
+  - first:
+      213: -9103388422305258322
+    second: peroxisome_normal_98
+  - first:
+      213: 3364496376162493490
+    second: peroxisome_normal_99
+  - first:
+      213: 7391415513515065250
+    second: peroxisome_normal_100
+  - first:
+      213: -7409203531548512074
+    second: peroxisome_normal_101
+  - first:
+      213: -2720549590106913393
+    second: peroxisome_normal_102
+  - first:
+      213: -8319750592276786259
+    second: peroxisome_normal_103
+  - first:
+      213: 5986014706465408055
+    second: peroxisome_normal_104
+  - first:
+      213: 8482207113039814450
+    second: peroxisome_normal_105
+  - first:
+      213: 5379672519146720666
+    second: peroxisome_normal_106
+  - first:
+      213: 2044260974079394619
+    second: peroxisome_normal_107
+  - first:
+      213: 7902324425048998986
+    second: peroxisome_normal_108
+  - first:
+      213: -1664497039306600290
+    second: peroxisome_normal_109
+  - first:
+      213: -1054131736292924706
+    second: peroxisome_normal_110
+  - first:
+      213: -4402715887784953972
+    second: peroxisome_normal_111
+  - first:
+      213: -5807264936903351293
+    second: peroxisome_normal_112
+  - first:
+      213: 1160429333758880759
+    second: peroxisome_normal_113
+  - first:
+      213: 6485013607315728231
+    second: peroxisome_normal_114
+  - first:
+      213: -8545566714548289373
+    second: peroxisome_normal_115
+  - first:
+      213: 4036558756562517161
+    second: peroxisome_normal_116
+  - first:
+      213: -6981402089426144222
+    second: peroxisome_normal_117
+  - first:
+      213: -3497038045137617679
+    second: peroxisome_normal_118
+  - first:
+      213: -2453161237524520392
+    second: peroxisome_normal_119
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: peroxisome_normal_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 472
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b53f81921da2f0eb0800000000000000
+      internalID: -4751532004026551461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_1
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 472
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c55d12f2261e8bc70800000000000000
+      internalID: 8987180868231615836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_2
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 472
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c05662e44cb96dcc0800000000000000
+      internalID: -3686587977529137908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_3
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 472
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 425901fde7b656ce0800000000000000
+      internalID: -1412604715458325212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_4
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 472
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 209e54a7325703320800000000000000
+      internalID: 2535655385445296386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_5
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 472
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08bcfe10841fb59f0800000000000000
+      internalID: -478523643812394112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_6
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 472
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 171fb9086e335f060800000000000000
+      internalID: 6986547462028390769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_7
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 472
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdbf7571f0d719860800000000000000
+      internalID: 7534941155337173983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_8
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 472
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f897bbf89eda5370800000000000000
+      internalID: 8312200810905180405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_9
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 472
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97a6b7eca247302f0800000000000000
+      internalID: -1007834164399216007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_10
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 472
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59f397b5b61ae4880800000000000000
+      internalID: -8624778753899675755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_11
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 472
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15a818d5f2f6cb110800000000000000
+      internalID: 1278018643489294929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_12
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 472
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2228448eeb1c61c10800000000000000
+      internalID: 2024018108234367522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_13
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 472
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5864a3e65c4650470800000000000000
+      internalID: 8360199082403841669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_14
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 472
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1efcb16685c571f80800000000000000
+      internalID: -8135932667081535519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_15
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 441
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16c8047ccece73410800000000000000
+      internalID: 1456893506176978017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_16
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 441
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7082f090968b439f0800000000000000
+      internalID: -489563698213476345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_17
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 441
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32f3eece5a864ed50800000000000000
+      internalID: 6765647602071256867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_18
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 441
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 944ef2aaf346ce040800000000000000
+      internalID: 4678224337532085321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_19
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 441
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac26cf464227f5020800000000000000
+      internalID: 2332708632639857354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_20
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 441
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b47164f2ac5d483b0800000000000000
+      internalID: -5511044979641411765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_21
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 441
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52c45f1beb115c580800000000000000
+      internalID: -8807613985526035419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_22
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 441
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb73ab9119d8ce0e0800000000000000
+      internalID: -2239259260368570437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_23
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 441
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff9f6f7d6b4a216a0800000000000000
+      internalID: -6479935808618432001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_24
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 441
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 696014ef17ce2d160800000000000000
+      internalID: 7048956341129381526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_25
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 441
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 393ddb91b84239200800000000000000
+      internalID: 185532189503247251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_26
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 441
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe6a986d121029d40800000000000000
+      internalID: 5589531332365100783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_27
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 441
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 520ca3f616b92f3e0800000000000000
+      internalID: -2021382439955677147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_28
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 441
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cc3c9c008ea4aeb0800000000000000
+      internalID: -4709447445332083512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_29
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 441
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33de2c7e08f6865f0800000000000000
+      internalID: -763237537404490445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_30
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 410
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4421915bc190b8d0800000000000000
+      internalID: -2832603863183186870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_31
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 410
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7c136b26c502cae0800000000000000
+      internalID: -1530654574662968195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_32
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 410
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a88310d5a61664dc0800000000000000
+      internalID: -3655126938109790070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_33
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 410
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42c5d3e12b8f54ce0800000000000000
+      internalID: -1421456663470318556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_34
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 410
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 861020dc7491b0c10800000000000000
+      internalID: 2020736653978632552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_35
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 410
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18c1247611e8500b0800000000000000
+      internalID: -5763043942752707455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_36
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 410
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7e273e222ccfb2c0800000000000000
+      internalID: -4413584662623474051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_37
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 410
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 891290954b5ca9e40800000000000000
+      internalID: 5664056859750375832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_38
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 410
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b388b1b9210ffbf0800000000000000
+      internalID: -288510572541475912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_39
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 410
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eb5d46b4eab79af0800000000000000
+      internalID: -389637351270425625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_40
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 410
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99c2ee9c5a2598220800000000000000
+      internalID: 2488611141109820569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_41
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 410
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31556ac0ca89bad20800000000000000
+      internalID: 3290891817438303507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_42
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 410
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cadabb033b166dc0800000000000000
+      internalID: -3646196942255760703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_43
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 410
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3c9267756bbb01c0800000000000000
+      internalID: -4536326155176600517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_44
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 410
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e227dddf62ef5ce0800000000000000
+      internalID: -1414162787879935255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_45
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 379
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77169c5267f693240800000000000000
+      internalID: 4771967833406529911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_46
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 379
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6eb91a35fc0de820800000000000000
+      internalID: 2949027578378829423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_47
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 379
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bb459480f3141c90800000000000000
+      internalID: -7200107980521124940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_48
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 379
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91121c6d78c31edb0800000000000000
+      internalID: -4764460376660041447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_49
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 379
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f1c5f8d12bd4a2b0800000000000000
+      internalID: -5574089500357443085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_50
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 379
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a88623742073fd8c0800000000000000
+      internalID: -3972395863393539958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_51
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 379
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d834aa41b1a7b65c0800000000000000
+      internalID: -4221145969000299635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_52
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 379
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c44d1781586eafce0800000000000000
+      internalID: -1370529677265742772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_53
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 379
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8f78d4e7dc545540800000000000000
+      internalID: 4995719968987840398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_54
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 379
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64361e5ffb5d04bd0800000000000000
+      internalID: -2647881560453192890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_55
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 379
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb2bd0bb67be738a0800000000000000
+      internalID: -6325328256441666881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_56
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 379
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbb4a719a8ea30120800000000000000
+      internalID: 2378936938351184831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_57
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 379
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f808f548612f0a00800000000000000
+      internalID: 724834796764137720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_58
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 379
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ae3a075cc4784ea0800000000000000
+      internalID: -5888328091804483935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_59
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 379
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1518c9fa3f65c1e0800000000000000
+      internalID: -2178212545674341090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_60
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 348
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52fb90724c089f670800000000000000
+      internalID: 8573024945633345317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_61
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 348
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 268dd02d42ca6c940800000000000000
+      internalID: 5316125684300372066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_62
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 348
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ac08a7282ca9d8c0800000000000000
+      internalID: -3973955907713758040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_63
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 348
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 739c6ad65a24647c0800000000000000
+      internalID: -4087506333515462345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_64
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 348
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cbe82fdad72a6400800000000000000
+      internalID: 318110544683396039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_65
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 348
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb9fb11c8964506a0800000000000000
+      internalID: -6483698466641151554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_66
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 348
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32eec93a98f81da60800000000000000
+      internalID: 7697091059471150627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_67
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 348
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52bbddb225b2c6630800000000000000
+      internalID: 3921557007456123685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_68
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 348
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f5eb392beae3f750800000000000000
+      internalID: 6337667396370425329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_69
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 348
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34ee7f758ed3c16b0800000000000000
+      internalID: -5324312591341195709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_70
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 348
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c46e55728cf481b0800000000000000
+      internalID: -5655117594825431872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_71
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 348
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29f1415b95e6e9250800000000000000
+      internalID: 5953317088999514002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_72
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 348
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 919f5a48300c06b50800000000000000
+      internalID: 6584473776558569753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_73
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 348
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a2b263c5b743b210800000000000000
+      internalID: 1347499559506588329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_74
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 348
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6e176d77d5776620800000000000000
+      internalID: 2767310064424787564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_75
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 317
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df90b7a9aeb4a3f00800000000000000
+      internalID: 1097272930204322301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_76
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 317
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9960e136ebdb31b0800000000000000
+      internalID: -5675701123644626532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_77
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 317
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58099a33a5d4ad210800000000000000
+      internalID: 1358483287414771845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_78
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 317
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4277d8da2ebc79760800000000000000
+      internalID: 7464659081824663332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_79
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 317
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 974c715cc4fc37740800000000000000
+      internalID: 5148686727645742201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_80
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 317
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d04b2baa5a8ec010800000000000000
+      internalID: 1211057471832670420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_81
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 317
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b49a9697f4b989fa0800000000000000
+      internalID: -5793710154970453685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_82
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 317
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 175d891d84edd4350800000000000000
+      internalID: 6002698282690205041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_83
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 317
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7d4a06f9204e6200800000000000000
+      internalID: 175147984479735164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_84
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 316
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31a07138e5f9fce20800000000000000
+      internalID: 3373089874198858259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_85
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 316
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 628d07968b55de030800000000000000
+      internalID: 3525568333832312870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_86
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 316
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4c1b616fa28adab0800000000000000
+      internalID: -4982526347966735281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_87
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 316
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2559acf090626e50800000000000000
+      internalID: 6801104563113383215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_88
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 316
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8e0f64a247383ec0800000000000000
+      internalID: -3587056343834489203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_89
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 316
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0dc3fce27ce72330800000000000000
+      internalID: 3686174798371867914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_90
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 285
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11641121fc6431830800000000000000
+      internalID: 4040651145856763409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_91
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 285
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecd40a61a0fdfd710800000000000000
+      internalID: 1720338817101090254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_92
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 285
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c2aa43b321f77ca0800000000000000
+      internalID: -6019077241323216186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_93
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 285
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1df4357cfac9a720800000000000000
+      internalID: 2858038624190266651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_94
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 286
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5548f97545684fe0800000000000000
+      internalID: -1204601551248145061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_95
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 286
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a82d1effe5b10b10800000000000000
+      internalID: 1946036556365899941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_96
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 286
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a20a07aac3ea62550800000000000000
+      internalID: 6135783117919658026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_97
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 286
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1421613e0b5977680800000000000000
+      internalID: -8757366363441982911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_98
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 286
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea4671436744aa180800000000000000
+      internalID: -9103388422305258322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_99
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 286
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2342145d0a711be20800000000000000
+      internalID: 3364496376162493490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_100
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 286
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2af70668f35939660800000000000000
+      internalID: 7391415513515065250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_101
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 286
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b03b79c4a83d2990800000000000000
+      internalID: -7409203531548512074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_102
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 286
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f85c7d7df8aae3ad0800000000000000
+      internalID: -2720549590106913393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_103
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 286
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da31f7f8aee4a8c80800000000000000
+      internalID: -8319750592276786259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_104
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 286
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 734822709a8921350800000000000000
+      internalID: 5986014706465408055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_105
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 255
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23f970cbd6ad6b570800000000000000
+      internalID: 8482207113039814450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_106
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 255
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9dcba747af68aa40800000000000000
+      internalID: 5379672519146720666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_107
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 255
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b334234668cae5c10800000000000000
+      internalID: 2044260974079394619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_108
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 255
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4440fe3232baad60800000000000000
+      internalID: 7902324425048998986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_109
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 255
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e90d07af2c486e8e0800000000000000
+      internalID: -1664497039306600290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_110
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 255
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed26bc755c8fe51f0800000000000000
+      internalID: -1054131736292924706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_111
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 255
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c87fb950a3966e2c0800000000000000
+      internalID: -4402715887784953972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_112
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 255
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3046b4fde43786fa0800000000000000
+      internalID: -5807264936903351293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_113
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 255
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fb24a1b45caa1010800000000000000
+      internalID: 1160429333758880759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_114
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 255
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 767e0ab44856ff950800000000000000
+      internalID: 6485013607315728231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_115
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 255
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a082f6795c086980800000000000000
+      internalID: -8545566714548289373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_116
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 255
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9acb6ef6dccb40830800000000000000
+      internalID: 4036558756562517161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_117
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 255
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 224b599e9c31d1f90800000000000000
+      internalID: -6981402089426144222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_118
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 255
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fcbb811d66087fc0800000000000000
+      internalID: -3497038045137617679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peroxisome_normal_119
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 255
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 832e7941ade94fdd0800000000000000
+      internalID: -2453161237524520392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
