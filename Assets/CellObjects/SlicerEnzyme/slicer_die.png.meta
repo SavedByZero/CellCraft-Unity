@@ -1,0 +1,394 @@
+fileFormatVersion: 2
+guid: 1e1de2c698a35be4f9e1b249d2648d93
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6672771545906029999
+    second: slicer_die_0
+  - first:
+      213: -5217588687886548726
+    second: slicer_die_1
+  - first:
+      213: -3334327745161538252
+    second: slicer_die_2
+  - first:
+      213: -5398403579499677691
+    second: slicer_die_3
+  - first:
+      213: 143964334599814659
+    second: slicer_die_4
+  - first:
+      213: 2276622619597119192
+    second: slicer_die_5
+  - first:
+      213: -5285393702929779590
+    second: slicer_die_6
+  - first:
+      213: -876928610781989294
+    second: slicer_die_7
+  - first:
+      213: 6452039352768224347
+    second: slicer_die_8
+  - first:
+      213: 3422888316010580176
+    second: slicer_die_9
+  - first:
+      213: -2617660173573729448
+    second: slicer_die_10
+  - first:
+      213: 3179913045992089431
+    second: slicer_die_11
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: slicer_die_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 438.85715
+        width: 64
+        height: 73.14286
+      alignment: 9
+      pivot: {x: 0.6866908, y: 0.39791712}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15adfe202ad8563a0800000000000000
+      internalID: -6672771545906029999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slicer_die_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 438.85715
+        width: 64
+        height: 73.14286
+      alignment: 9
+      pivot: {x: 0.6718787, y: 0.39062306}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a010d6a7bb66797b0800000000000000
+      internalID: -5217588687886548726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slicer_die_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 438.85715
+        width: 64
+        height: 73.14286
+      alignment: 9
+      pivot: {x: 0.64844084, y: 0.40429536}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 435dae0f4961ab1d0800000000000000
+      internalID: -3334327745161538252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slicer_die_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 365.85715
+        width: 64
+        height: 73.14286
+      alignment: 9
+      pivot: {x: 0.6796913, y: 0.547853}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50879b1eb840515b0800000000000000
+      internalID: -5398403579499677691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slicer_die_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 365.85715
+        width: 64
+        height: 73.14286
+      alignment: 9
+      pivot: {x: 0.65625334, y: 0.54101706}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30eb520bcc67ff100800000000000000
+      internalID: 143964334599814659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slicer_die_5
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 382
+        width: 45
+        height: 43
+      alignment: 9
+      pivot: {x: 0.5784746, y: 0.5341811}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8de94b0e530389f10800000000000000
+      internalID: 2276622619597119192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slicer_die_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 292.85715
+        width: 64
+        height: 73.14286
+      alignment: 9
+      pivot: {x: 0.7031293, y: 0.66406643}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a74b8ce2e6286a6b0800000000000000
+      internalID: -5285393702929779590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slicer_die_7
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 292.85715
+        width: 64
+        height: 73.14286
+      alignment: 9
+      pivot: {x: 0.68750393, y: 0.65039414}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25676fc131684d3f0800000000000000
+      internalID: -876928610781989294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slicer_die_8
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 316
+        width: 54
+        height: 51
+      alignment: 9
+      pivot: {x: 0.47916666, y: 0.49038398}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5c57926b9f3a8950800000000000000
+      internalID: 6452039352768224347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slicer_die_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 219.85715
+        width: 64
+        height: 73.14286
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 853537be0f33cabd0800000000000000
+      internalID: -2617660173573729448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slicer_die_11
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 219.85715
+        width: 64
+        height: 73.14286
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7572df24112512c20800000000000000
+      internalID: 3179913045992089431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

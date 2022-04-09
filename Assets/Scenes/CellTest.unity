@@ -9578,6 +9578,8 @@ MonoBehaviour:
     type: 3}
   Peroxisome_Prefab: {fileID: 6818451793669733282, guid: c7b0c8ae394aa1443b5c1bfb97e9dd46,
     type: 3}
+  SlicerEnzyme_Prefab: {fileID: 3490458927370990140, guid: 2d3ef200322d79f4caf8533315ff8790,
+    type: 3}
   c_objectGrid: {fileID: 0}
   isCellDying: 0
   canFatProcess: 1

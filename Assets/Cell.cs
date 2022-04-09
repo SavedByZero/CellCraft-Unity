@@ -98,11 +98,16 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 	public GameObject Lysosome_Prefab;
 	public GameObject Ribosome_Prefab;
 	public GameObject Peroxisome_Prefab;
+	public GameObject SlicerEnzyme_Prefab;
+	public GameObject NormalRadical_Prefab;
+	public GameObject InvincibleRadical_Prefab;
+
+
 	private List<RNA> list_rna;
 	private List<Ribosome> list_ribo;
 	private List<Lysosome> list_lyso;
-
 	private List<Peroxisome> list_perox;
+
 	private List<SlicerEnzyme> list_slicer;
 	private List<DNARepairEnzyme> list_dnarepair;
 	private List<FreeRadical> list_radical;
@@ -1756,10 +1761,12 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 		FreeRadical r = null;
 		if (isInvincible) 
 		{
-			r = new InvincibleRadical();
+			GameObject ir = Instantiate(InvincibleRadical_Prefab) as GameObject;
+			r = ir.GetComponent<InvincibleRadical>();
 		}else
 		{
-			r = new NormalRadical();
+			GameObject nr = Instantiate(NormalRadical_Prefab) as GameObject;
+			r = nr.GetComponent<NormalRadical>();
 		}
 
 		r.x = maker.x + maker.getRadius() * (-0.5f + UnityEngine.Random.Range(0f,1f));
@@ -1817,7 +1824,8 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 
 	public SlicerEnzyme makeSlicer(bool instant_deploy = false)
 	{
-		SlicerEnzyme s = new SlicerEnzyme();
+		GameObject so = Instantiate(SlicerEnzyme_Prefab) as GameObject;
+		SlicerEnzyme s = so.GetComponent<SlicerEnzyme>();
 		if (instant_deploy)
 		{
 			s.play_init_sound = false;
