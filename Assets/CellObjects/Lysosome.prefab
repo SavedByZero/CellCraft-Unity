@@ -523,7 +523,8 @@ MonoBehaviour:
   - {fileID: -8689506448683300802, guid: b7ea9533dbb0ecc499f114adb76bf027, type: 3}
   SubClip: {fileID: 0}
   Loop: 0
-  FrameNames:
+  FrameNames: []
+  NameIndexPairs:
   - normal:0-119-loop
   - bud:120-148
   - digest:150-188
@@ -531,7 +532,6 @@ MonoBehaviour:
   - fuse:269-285
   - grow:286-374
   - pop:375-422
-  NameIndexPairs: []
   _frameInterval: 0.0166
   radius2: 100
   loc_bubble: {fileID: 0}

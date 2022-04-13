@@ -1,0 +1,2287 @@
+fileFormatVersion: 2
+guid: c3ba7b4e14765814d95f6725adcec603
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1041065411357263587
+    second: mito_damage_2_0
+  - first:
+      213: 1770053995620318517
+    second: mito_damage_2_1
+  - first:
+      213: -4898714504717507198
+    second: mito_damage_2_2
+  - first:
+      213: -7499224985107640983
+    second: mito_damage_2_3
+  - first:
+      213: 1779822283721293941
+    second: mito_damage_2_4
+  - first:
+      213: -5091777601176109953
+    second: mito_damage_2_5
+  - first:
+      213: 1962075218555853900
+    second: mito_damage_2_6
+  - first:
+      213: -6983459123221969850
+    second: mito_damage_2_7
+  - first:
+      213: -2233911728389765087
+    second: mito_damage_2_8
+  - first:
+      213: -7584028185459202868
+    second: mito_damage_2_9
+  - first:
+      213: 2615511423073639415
+    second: mito_damage_2_10
+  - first:
+      213: 6999655307518698418
+    second: mito_damage_2_11
+  - first:
+      213: -7594045799471992978
+    second: mito_damage_2_12
+  - first:
+      213: 6254225719305890038
+    second: mito_damage_2_13
+  - first:
+      213: -7907364965549595624
+    second: mito_damage_2_14
+  - first:
+      213: 1883003596414136324
+    second: mito_damage_2_15
+  - first:
+      213: 9079210712876711804
+    second: mito_damage_2_16
+  - first:
+      213: 6603095425582122908
+    second: mito_damage_2_17
+  - first:
+      213: 3049617436251007466
+    second: mito_damage_2_18
+  - first:
+      213: 4941867930875088978
+    second: mito_damage_2_19
+  - first:
+      213: -3810605418058748988
+    second: mito_damage_2_20
+  - first:
+      213: 4636383761110431879
+    second: mito_damage_2_21
+  - first:
+      213: 2218173388551440446
+    second: mito_damage_2_22
+  - first:
+      213: 8830634550396817508
+    second: mito_damage_2_23
+  - first:
+      213: 3709755296879916351
+    second: mito_damage_2_24
+  - first:
+      213: -9106400624893059626
+    second: mito_damage_2_25
+  - first:
+      213: 2732993204042177086
+    second: mito_damage_2_26
+  - first:
+      213: -796672659525024279
+    second: mito_damage_2_27
+  - first:
+      213: -8230402607918442404
+    second: mito_damage_2_28
+  - first:
+      213: -8629021971084853528
+    second: mito_damage_2_29
+  - first:
+      213: 7200592704468135013
+    second: mito_damage_2_30
+  - first:
+      213: -3404008268044287955
+    second: mito_damage_2_31
+  - first:
+      213: 5723877626202259318
+    second: mito_damage_2_32
+  - first:
+      213: 8533701542424488125
+    second: mito_damage_2_33
+  - first:
+      213: 1087426979707513092
+    second: mito_damage_2_34
+  - first:
+      213: -2580192614555509601
+    second: mito_damage_2_35
+  - first:
+      213: -7056854715010016394
+    second: mito_damage_2_36
+  - first:
+      213: 2436626983519268842
+    second: mito_damage_2_37
+  - first:
+      213: -4078637774111987382
+    second: mito_damage_2_38
+  - first:
+      213: -5670872592366148931
+    second: mito_damage_2_39
+  - first:
+      213: 7602880119345596615
+    second: mito_damage_2_40
+  - first:
+      213: 7756585419293737679
+    second: mito_damage_2_41
+  - first:
+      213: -8064459849792794851
+    second: mito_damage_2_42
+  - first:
+      213: 6698199593192589091
+    second: mito_damage_2_43
+  - first:
+      213: 6104012511832193749
+    second: mito_damage_2_44
+  - first:
+      213: 5955852530102760669
+    second: mito_damage_2_45
+  - first:
+      213: 9183550008206566111
+    second: mito_damage_2_46
+  - first:
+      213: 8925976786140284995
+    second: mito_damage_2_47
+  - first:
+      213: -7033561108851014962
+    second: mito_damage_2_48
+  - first:
+      213: 2631251361234086398
+    second: mito_damage_2_49
+  - first:
+      213: 5239316726500549469
+    second: mito_damage_2_50
+  - first:
+      213: -3985279103346838147
+    second: mito_damage_2_51
+  - first:
+      213: 7077093864578718613
+    second: mito_damage_2_52
+  - first:
+      213: 5985873444124689106
+    second: mito_damage_2_53
+  - first:
+      213: 9166984213722255194
+    second: mito_damage_2_54
+  - first:
+      213: -2323553369766932082
+    second: mito_damage_2_55
+  - first:
+      213: -4717646802304969769
+    second: mito_damage_2_56
+  - first:
+      213: -3805043506523922099
+    second: mito_damage_2_57
+  - first:
+      213: -8418264892397030272
+    second: mito_damage_2_58
+  - first:
+      213: -1858671423179066623
+    second: mito_damage_2_59
+  - first:
+      213: 8183040935354259508
+    second: mito_damage_2_60
+  - first:
+      213: 1000457559905649764
+    second: mito_damage_2_61
+  - first:
+      213: 5025266455074431653
+    second: mito_damage_2_62
+  - first:
+      213: -4626290554008815098
+    second: mito_damage_2_63
+  - first:
+      213: -715626841234184536
+    second: mito_damage_2_64
+  - first:
+      213: -7622262574268936507
+    second: mito_damage_2_65
+  - first:
+      213: -3465202321237223336
+    second: mito_damage_2_66
+  - first:
+      213: 2124479571601519997
+    second: mito_damage_2_67
+  - first:
+      213: 3268350202113649746
+    second: mito_damage_2_68
+  - first:
+      213: -1888465469796253797
+    second: mito_damage_2_69
+  - first:
+      213: 8329199659456827030
+    second: mito_damage_2_70
+  - first:
+      213: 6273783683605655447
+    second: mito_damage_2_71
+  - first:
+      213: -4635256863672285196
+    second: mito_damage_2_72
+  - first:
+      213: 448493458760715796
+    second: mito_damage_2_73
+  - first:
+      213: -6091415335243121647
+    second: mito_damage_2_74
+  - first:
+      213: 5536231184390323637
+    second: mito_damage_2_75
+  - first:
+      213: 1639815734931973692
+    second: mito_damage_2_76
+  - first:
+      213: -3211003767950277132
+    second: mito_damage_2_77
+  - first:
+      213: -5314138731669268993
+    second: mito_damage_2_78
+  - first:
+      213: 8603304159649747156
+    second: mito_damage_2_79
+  - first:
+      213: -300465244381724150
+    second: mito_damage_2_80
+  - first:
+      213: -575408860772394110
+    second: mito_damage_2_81
+  - first:
+      213: 5738224757239220274
+    second: mito_damage_2_82
+  - first:
+      213: -7701370990646007059
+    second: mito_damage_2_83
+  - first:
+      213: -7550590609218797549
+    second: mito_damage_2_84
+  - first:
+      213: 7194911443791265947
+    second: mito_damage_2_85
+  - first:
+      213: -1538852584307860387
+    second: mito_damage_2_86
+  - first:
+      213: -4421371560636622822
+    second: mito_damage_2_87
+  - first:
+      213: -5060497104826017782
+    second: mito_damage_2_88
+  - first:
+      213: -6908622745419926909
+    second: mito_damage_2_89
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mito_damage_2_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 915
+        width: 35
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e645efc97b927e00800000000000000
+      internalID: 1041065411357263587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_damage_2_1
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 915
+        width: 35
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53db53a1bbe709810800000000000000
+      internalID: 1770053995620318517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_damage_2_2
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 915
+        width: 35
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 285624acc15440cb0800000000000000
+      internalID: -4898714504717507198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_damage_2_3
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 915
+        width: 36
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96dccefcb966de790800000000000000
+      internalID: -7499224985107640983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_damage_2_4
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 916
+        width: 36
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5704888efe233b810800000000000000
+      internalID: 1779822283721293941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_damage_2_5
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 916
+        width: 36
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7c7b96cf3f5659b0800000000000000
+      internalID: -5091777601176109953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_damage_2_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 916
+        width: 37
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4c5e980401ba3b10800000000000000
+      internalID: 1962075218555853900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_damage_2_7
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 916
+        width: 37
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 644c4e86de4c51f90800000000000000
+      internalID: -6983459123221969850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_damage_2_8
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 916
+        width: 37
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 128cfb96e1d8ff0e0800000000000000
+      internalID: -2233911728389765087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_damage_2_9
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 916
+        width: 36
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc467271c8e10c690800000000000000
+      internalID: -7584028185459202868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_damage_2_10
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 916
+        width: 38
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fbd74e18c92c4420800000000000000
+      internalID: 2615511423073639415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_damage_2_11
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 916
+        width: 37
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b364da9a65c32160800000000000000
+      internalID: 6999655307518698418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_damage_2_12
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 916
+        width: 37
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6fac6294978c9690800000000000000
+      internalID: -7594045799471992978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_damage_2_13
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 916
+        width: 38
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f8e658c7297bc650800000000000000
+      internalID: 6254225719305890038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_damage_2_14
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 916
+        width: 38
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8142c077575634290800000000000000
+      internalID: -7907364965549595624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_damage_2_15
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 916
+        width: 38
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4003c0b5bc5c12a10800000000000000
+      internalID: 1883003596414136324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_damage_2_16
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 817
+        width: 38
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7fffe52a06dffd70800000000000000
+      internalID: 9079210712876711804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_damage_2_17
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 817
+        width: 39
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9744db0e48e2ab50800000000000000
+      internalID: 6603095425582122908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_damage_2_18
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 817
+        width: 39
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae9249496ea625a20800000000000000
+      internalID: 3049617436251007466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_damage_2_19
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 817
+        width: 39
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25054b233ba059440800000000000000
+      internalID: 4941867930875088978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_damage_2_20
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 818
+        width: 39
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cbed6dcf820e1bc0800000000000000
+      internalID: -3810605418058748988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_damage_2_21
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 818
+        width: 39
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7887063577eb75040800000000000000
+      internalID: 4636383761110431879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_damage_2_22
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 818
+        width: 39
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3845dac1f888ce10800000000000000
+      internalID: 2218173388551440446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_damage_2_23
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 818
+        width: 39
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46091bd3657bc8a70800000000000000
+      internalID: 8830634550396817508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_damage_2_24
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 818
+        width: 40
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f35b62299c2bb7330800000000000000
+      internalID: 3709755296879916351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_damage_2_25
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 818
+        width: 40
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dd9ad221e09f9180800000000000000
+      internalID: -9106400624893059626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_damage_2_26
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 818
+        width: 39
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3a9d7cc6da8de520800000000000000
+      internalID: 2732993204042177086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_damage_2_27
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 818
+        width: 40
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e5ceb6ef66a1f4f0800000000000000
+      internalID: -796672659525024279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_damage_2_28
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 818
+        width: 40
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5892944f6cb7cd80800000000000000
+      internalID: -8230402607918442404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_damage_2_29
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 818
+        width: 40
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ee327e5c3e8f3880800000000000000
+      internalID: -8629021971084853528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_damage_2_30
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 818
+        width: 41
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56ca7121ae4ade360800000000000000
+      internalID: 7200592704468135013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_damage_2_31
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 818
+        width: 41
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d204ab2f38882c0d0800000000000000
+      internalID: -3404008268044287955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_damage_2_32
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 719
+        width: 41
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67f7797ef5c4f6f40800000000000000
+      internalID: 5723877626202259318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_damage_2_33
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 719
+        width: 40
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db82a6fd65ccd6670800000000000000
+      internalID: 8533701542424488125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_damage_2_34
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 719
+        width: 41
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40964ac9311571f00800000000000000
+      internalID: 1087426979707513092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_damage_2_35
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 719
+        width: 41
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9c155dcc70513cd0800000000000000
+      internalID: -2580192614555509601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_damage_2_36
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 719
+        width: 41
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67b99488604011e90800000000000000
+      internalID: -7056854715010016394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_damage_2_37
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 719
+        width: 42
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aef2ccae453a0d120800000000000000
+      internalID: 2436626983519268842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_damage_2_38
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 719
+        width: 42
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a49a092dd84c567c0800000000000000
+      internalID: -4078637774111987382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_damage_2_39
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 719
+        width: 41
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db2648d3c630d41b0800000000000000
+      internalID: -5670872592366148931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_damage_2_40
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 719
+        width: 42
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c8497fcf2bd28960800000000000000
+      internalID: 7602880119345596615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_damage_2_41
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 719
+        width: 42
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc24afab75de4ab60800000000000000
+      internalID: 7756585419293737679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_damage_2_42
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 718
+        width: 42
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1f43b37e78451090800000000000000
+      internalID: -8064459849792794851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_damage_2_43
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 719
+        width: 42
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32709ea9a09c4fc50800000000000000
+      internalID: 6698199593192589091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_damage_2_44
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 719
+        width: 43
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5da3c400a0fc5b450800000000000000
+      internalID: 6104012511832193749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_damage_2_45
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 719
+        width: 42
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd4f267125077a250800000000000000
+      internalID: 5955852530102760669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_damage_2_46
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 718
+        width: 42
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd220307316827f70800000000000000
+      internalID: 9183550008206566111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_damage_2_47
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 719
+        width: 42
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 348464b58907fdb70800000000000000
+      internalID: 8925976786140284995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_damage_2_48
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 620
+        width: 42
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec2cee8df65c36e90800000000000000
+      internalID: -7033561108851014962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_damage_2_49
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 620
+        width: 41
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef9ee1d0c25148420800000000000000
+      internalID: 2631251361234086398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_damage_2_50
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 620
+        width: 42
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d53e3dcbdcac5b840800000000000000
+      internalID: 5239316726500549469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_damage_2_51
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 620
+        width: 42
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d75793a35c171b8c0800000000000000
+      internalID: -3985279103346838147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_damage_2_52
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 620
+        width: 41
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59b9f40bf53e63260800000000000000
+      internalID: 7077093864578718613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_damage_2_53
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 620
+        width: 41
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d20f73de28121350800000000000000
+      internalID: 5985873444124689106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_damage_2_54
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 620
+        width: 41
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5f4788d29ba73f70800000000000000
+      internalID: 9166984213722255194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_damage_2_55
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 620
+        width: 40
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e81516a558411cfd0800000000000000
+      internalID: -2323553369766932082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_damage_2_56
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 620
+        width: 41
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d3dadc7a3d878eb0800000000000000
+      internalID: -4717646802304969769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_damage_2_57
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 620
+        width: 41
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d412cbe3715c13bc0800000000000000
+      internalID: -3805043506523922099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_damage_2_58
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 620
+        width: 41
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0847887aea05c2b80800000000000000
+      internalID: -8418264892397030272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_damage_2_59
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 620
+        width: 40
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 103fd33303ca436e0800000000000000
+      internalID: -1858671423179066623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_damage_2_60
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 620
+        width: 40
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43855460060009170800000000000000
+      internalID: 8183040935354259508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_damage_2_61
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 620
+        width: 40
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 464c70f99d652ed00800000000000000
+      internalID: 1000457559905649764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_damage_2_62
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 620
+        width: 39
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a2e56447355db540800000000000000
+      internalID: 5025266455074431653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_damage_2_63
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 620
+        width: 40
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60a3f84904d1ccfb0800000000000000
+      internalID: -4626290554008815098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_damage_2_64
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 521
+        width: 40
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a66080fd259116f0800000000000000
+      internalID: -715626841234184536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_damage_2_65
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 521
+        width: 40
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ce02fbb298483690800000000000000
+      internalID: -7622262574268936507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_damage_2_66
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 521
+        width: 39
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 858dbc729d029efc0800000000000000
+      internalID: -3465202321237223336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_damage_2_67
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 521
+        width: 39
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d75f1e51aeaab7d10800000000000000
+      internalID: 2124479571601519997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_damage_2_68
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 521
+        width: 39
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25c6f8e31338b5d20800000000000000
+      internalID: 3268350202113649746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_damage_2_69
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 521
+        width: 39
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9ff33629a2dac5e0800000000000000
+      internalID: -1888465469796253797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_damage_2_70
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 520
+        width: 39
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69e8a35d5f2479370800000000000000
+      internalID: 8329199659456827030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_damage_2_71
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 520
+        width: 39
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79fe4f23505f01750800000000000000
+      internalID: 6273783683605655447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_damage_2_72
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 520
+        width: 39
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f74f1ee0724cafb0800000000000000
+      internalID: -4635256863672285196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_damage_2_73
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 520
+        width: 38
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41ec48dac6e593600800000000000000
+      internalID: 448493458760715796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_damage_2_74
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 520
+        width: 38
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11c777bb602f67ba0800000000000000
+      internalID: -6091415335243121647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_damage_2_75
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 520
+        width: 38
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bd76041ee4a4dc40800000000000000
+      internalID: 5536231184390323637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_damage_2_76
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 520
+        width: 37
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3667b909bbc1c610800000000000000
+      internalID: 1639815734931973692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_damage_2_77
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 520
+        width: 37
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f502eee5193073d0800000000000000
+      internalID: -3211003767950277132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_damage_2_78
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 520
+        width: 37
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff555b3aaf26046b0800000000000000
+      internalID: -5314138731669268993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_damage_2_79
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 520
+        width: 37
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d0509a0d83156770800000000000000
+      internalID: 8603304159649747156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_damage_2_80
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 421
+        width: 36
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a02c641c37884dbf0800000000000000
+      internalID: -300465244381724150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_damage_2_81
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 421
+        width: 37
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28b9c0590bcb308f0800000000000000
+      internalID: -575408860772394110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_damage_2_82
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 421
+        width: 37
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2388898a30542af40800000000000000
+      internalID: 5738224757239220274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_damage_2_83
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 421
+        width: 37
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deaeb0b33eb3f1590800000000000000
+      internalID: -7701370990646007059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_damage_2_84
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 421
+        width: 36
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3100d1d78d9e63790800000000000000
+      internalID: -7550590609218797549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_damage_2_85
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 421
+        width: 36
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b90429d76d579d360800000000000000
+      internalID: 7194911443791265947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_damage_2_86
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 420
+        width: 36
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5c53ae4ab5e4aae0800000000000000
+      internalID: -1538852584307860387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_damage_2_87
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 420
+        width: 35
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a185d34bdf124a2c0800000000000000
+      internalID: -4421371560636622822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_damage_2_88
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 420
+        width: 35
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a08d3ffd1b085c9b0800000000000000
+      internalID: -5060497104826017782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_damage_2_89
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 420
+        width: 35
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 382bf0c6734af10a0800000000000000
+      internalID: -6908622745419926909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

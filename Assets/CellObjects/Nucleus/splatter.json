@@ -1,0 +1,59 @@
+﻿{"frames": {
+
+"splat_growth0000":
+{
+	"frame": {"x":20,"y":20,"w":123,"h":116},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":123,"h":116},
+	"sourceSize": {"w":123,"h":116}
+},
+"splat_growth0001":
+{
+	"frame": {"x":153,"y":20,"w":123,"h":116},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":123,"h":116},
+	"sourceSize": {"w":123,"h":116}
+},
+"splat_growth0002":
+{
+	"frame": {"x":286,"y":20,"w":123,"h":116},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":123,"h":116},
+	"sourceSize": {"w":123,"h":116}
+},
+"splat_growth0003":
+{
+	"frame": {"x":20,"y":146,"w":123,"h":116},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":123,"h":116},
+	"sourceSize": {"w":123,"h":116}
+},
+"splat_growth0004":
+{
+	"frame": {"x":153,"y":146,"w":123,"h":116},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":123,"h":116},
+	"sourceSize": {"w":123,"h":116}
+},
+"splat_growth0005":
+{
+	"frame": {"x":286,"y":146,"w":123,"h":116},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":123,"h":116},
+	"sourceSize": {"w":123,"h":116}
+}},
+"meta": {
+	"app": "Adobe Animate",
+	"version": "19.2.1.408",
+	"image": "splatter.png",
+	"format": "RGBA8888",
+	"size": {"w":512,"h":512},
+	"scale": "1"
+}
+}

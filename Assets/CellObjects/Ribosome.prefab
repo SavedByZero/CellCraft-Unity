@@ -261,7 +261,7 @@ MonoBehaviour:
   - grow:50-76
   - process:77-96
   - process_inplace:97-116
-  - die:117-155
+  - recycle:117-155
   - wait:156
   _frameInterval: 0.0166
   radius2: 0

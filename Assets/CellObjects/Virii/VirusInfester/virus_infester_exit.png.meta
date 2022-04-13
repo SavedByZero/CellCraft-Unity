@@ -1,0 +1,847 @@
+fileFormatVersion: 2
+guid: 82997e68740e48f40b4130452fa761aa
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2695193387465369625
+    second: virus_infester_exit_0
+  - first:
+      213: -8398271845141548404
+    second: virus_infester_exit_1
+  - first:
+      213: -3682014138275481730
+    second: virus_infester_exit_2
+  - first:
+      213: -1434912147235842622
+    second: virus_infester_exit_3
+  - first:
+      213: -5250684423526346030
+    second: virus_infester_exit_4
+  - first:
+      213: 6658905309846082580
+    second: virus_infester_exit_5
+  - first:
+      213: -8719299396671280042
+    second: virus_infester_exit_6
+  - first:
+      213: 1036487826478749452
+    second: virus_infester_exit_7
+  - first:
+      213: -2375829294151551103
+    second: virus_infester_exit_8
+  - first:
+      213: 5280605442908184
+    second: virus_infester_exit_9
+  - first:
+      213: 7829338674502826425
+    second: virus_infester_exit_10
+  - first:
+      213: 7834342055725070438
+    second: virus_infester_exit_11
+  - first:
+      213: -2821295081444245708
+    second: virus_infester_exit_12
+  - first:
+      213: 4418121498198077530
+    second: virus_infester_exit_13
+  - first:
+      213: 7264214418813952008
+    second: virus_infester_exit_14
+  - first:
+      213: -8478437178732106130
+    second: virus_infester_exit_15
+  - first:
+      213: 9003580379761082533
+    second: virus_infester_exit_16
+  - first:
+      213: 4652350620526635279
+    second: virus_infester_exit_17
+  - first:
+      213: 6075525030877055100
+    second: virus_infester_exit_18
+  - first:
+      213: -7936960286922344497
+    second: virus_infester_exit_19
+  - first:
+      213: 3949340711740466675
+    second: virus_infester_exit_20
+  - first:
+      213: -7530773142556910549
+    second: virus_infester_exit_21
+  - first:
+      213: 2989364798137469146
+    second: virus_infester_exit_22
+  - first:
+      213: -4697372070294935786
+    second: virus_infester_exit_23
+  - first:
+      213: -4733239673002279771
+    second: virus_infester_exit_24
+  - first:
+      213: 3666472568328942192
+    second: virus_infester_exit_25
+  - first:
+      213: 1130665588311717251
+    second: virus_infester_exit_26
+  - first:
+      213: 740551534619512081
+    second: virus_infester_exit_27
+  - first:
+      213: -2259540227491376206
+    second: virus_infester_exit_28
+  - first:
+      213: -1213506130247996871
+    second: virus_infester_exit_29
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: virus_infester_exit_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 459
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e71523d4efb89ad0800000000000000
+      internalID: -2695193387465369625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: virus_infester_exit_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 460
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c827c27b048537b80800000000000000
+      internalID: -8398271845141548404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: virus_infester_exit_2
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 460
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e77bf1e36abd6ecc0800000000000000
+      internalID: -3682014138275481730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: virus_infester_exit_3
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 460
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c55d1c210b261ce0800000000000000
+      internalID: -1434912147235842622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: virus_infester_exit_4
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 460
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d2190c0652d127b0800000000000000
+      internalID: -5250684423526346030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: virus_infester_exit_5
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 418
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4149652591f296c50800000000000000
+      internalID: 6658905309846082580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: virus_infester_exit_6
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 417
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65c61234563def680800000000000000
+      internalID: -8719299396671280042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: virus_infester_exit_7
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 417
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c075847cf28526e00800000000000000
+      internalID: 1036487826478749452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: virus_infester_exit_8
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 417
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 187312b38db570fd0800000000000000
+      internalID: -2375829294151551103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: virus_infester_exit_9
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 417
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 810af93cea2c21000800000000000000
+      internalID: 5280605442908184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: virus_infester_exit_10
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 374
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b9f7f7fa0667ac60800000000000000
+      internalID: 7829338674502826425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: virus_infester_exit_11
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 375
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6687560779c29bc60800000000000000
+      internalID: 7834342055725070438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: virus_infester_exit_12
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 374
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43f75ff321fb8d8d0800000000000000
+      internalID: -2821295081444245708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: virus_infester_exit_13
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 374
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a50fc9a2812505d30800000000000000
+      internalID: 4418121498198077530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: virus_infester_exit_14
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 374
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8002da5c68cafc460800000000000000
+      internalID: 7264214418813952008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: virus_infester_exit_15
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 331
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6e253f7e4a865a80800000000000000
+      internalID: -8478437178732106130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: virus_infester_exit_16
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 331
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a0065207a423fc70800000000000000
+      internalID: 9003580379761082533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: virus_infester_exit_17
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 332
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f09ee0b7d38709040800000000000000
+      internalID: 4652350620526635279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: virus_infester_exit_18
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 331
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c78cb6973d9905450800000000000000
+      internalID: 6075525030877055100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: virus_infester_exit_19
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 331
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc77c9dbba04ad190800000000000000
+      internalID: -7936960286922344497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: virus_infester_exit_20
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 288
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f5674ce370eec630800000000000000
+      internalID: 3949340711740466675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: virus_infester_exit_21
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 288
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2cd7d10ab15d7790800000000000000
+      internalID: -7530773142556910549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: virus_infester_exit_22
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 288
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad88a01127b5c7920800000000000000
+      internalID: 2989364798137469146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: virus_infester_exit_23
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 288
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 617aa346df49fceb0800000000000000
+      internalID: -4697372070294935786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: virus_infester_exit_24
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5acb9ed5897205eb0800000000000000
+      internalID: -4733239673002279771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: virus_infester_exit_25
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 245
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 072f5f5006de1e230800000000000000
+      internalID: 3666472568328942192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: virus_infester_exit_26
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 245
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 385f31fac5ee0bf00800000000000000
+      internalID: 1130665588311717251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: virus_infester_exit_27
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 245
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11dcdd672b7f64a00800000000000000
+      internalID: 740551534619512081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: virus_infester_exit_28
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 244
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b3dba8722084a0e0800000000000000
+      internalID: -2259540227491376206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: virus_infester_exit_29
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 244
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93a2fcd9a92c82fe0800000000000000
+      internalID: -1213506130247996871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

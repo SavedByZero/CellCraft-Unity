@@ -101,24 +101,28 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 	public GameObject SlicerEnzyme_Prefab;
 	public GameObject NormalRadical_Prefab;
 	public GameObject InvincibleRadical_Prefab;
+	public GameObject VirusInvader_Prefab;
+	public GameObject VirusInjector_Prefab;
+	public GameObject VirusInfester_Prefab;
+	public GameObject Mitochondrion_Prefab;
+	public GameObject Chloroplast_Prefab;
+	public GameObject PinkVescile_Prefab;
+	public GameObject TransportVesicle_Prefab;
+	public GameObject BigVesicle_Prefab;
 
 
 	private List<RNA> list_rna;
 	private List<Ribosome> list_ribo;
 	private List<Lysosome> list_lyso;
 	private List<Peroxisome> list_perox;
-
 	private List<SlicerEnzyme> list_slicer;
 	private List<DNARepairEnzyme> list_dnarepair;
 	private List<FreeRadical> list_radical;
-		
 	private List<Virus> list_virus;
-		
-		
 	private List<CellObject> list_junk; //protein globs, etc
-		
 	private List<Mitochondrion> list_mito;
 	private List<Chloroplast> list_chlor;
+
 		
 	private List<BlankVesicle> list_ves;
 	private List<BigVesicle> list_bigves;
@@ -175,11 +179,6 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 	private Coroutine _produceTickRoutine;
     private Coroutine _engineSpawnRadicalRoutine;
     private Coroutine _doNecrosisRoutine;
-
-    public Cell()
-	{
-		//animateOff();
-	}
 
     private void Start()
     {
@@ -531,7 +530,7 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 				c_membrane.removeDefensin(1);
 				SfxManager.Play(SFX.SFXPop2);
 				refundDefensin(p);
-				//if(Director.STATS_ON){Log.LevelAverageMetric("cell_sell_defensin", Director.level, 1);}
+				
 		//p_engine.notifyOHandler(EngineEvent.EXECUTE_ACTION, "null", "take_defensin", 1); //TODO
 
 		return FailCode.SUCCESS;
@@ -562,7 +561,7 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 					if(spendATP(atpCost, p) > 0)
 					{
 						refundMembrane(p);
-						//if(Director.STATS_ON){Log.LevelAverageMetric("cell_sell_membrane", Director.level, 1);}
+						
 	//p_engine.notifyOHandler(EngineEvent.EXECUTE_ACTION, "null", "take_membrane", 1); //TODO
 			
 					}else
@@ -586,7 +585,7 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 			float ey = c_er.y + c_er.exit23.transform.position.y;
 			float[] cost = Costs.getMAKE_MEMBRANE(1);
 			spend(cost);// , new Point(ex, ey), 1, 0, false, true);
-		//if (Director.STATS_ON) { Log.LevelAverageMetric("cell_buy_membrane", Director.level, 1); }
+		
 		//p_engine.notifyOHandler(EngineEvent.EXECUTE_ACTION, "null", "make_membrane", 1);  //TODO
 			generateMembrane((int)cost[1]);
 		}
@@ -1448,7 +1447,8 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 
 		private Chloroplast makeChloroplast()
 		{
-			Chloroplast c = new Chloroplast();
+			GameObject co = Instantiate(Chloroplast_Prefab) as GameObject;
+		Chloroplast c = co.GetComponent<Chloroplast>();
 			c.transform.SetParent(this.transform, false);
 			c.setCell(this);
 			list_chlor.Add(c);
@@ -1566,14 +1566,29 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 
 	public Virus export_makeVirus(string type) 
 	{
+		Debug.Log("export_makevirus called");
 			Virus v = null;
-			if (type == "virus_injector") v = new VirusInjector();
-			else if (type == "virus_invader") v = new VirusInvader();
-			else if (type == "virus_infester") v = new VirusInfester();
-			v.setCanvas(p_canvas);
-			v.setCell(this);
-			v.init();
-			return v;
+		if (type == "virus_injector")
+		{
+			GameObject vo = Instantiate(VirusInjector_Prefab) as GameObject;
+
+			v = vo.GetComponent<VirusInjector>();//new VirusInjector();
+		}
+		else if (type == "virus_invader")
+		{
+			GameObject vo = Instantiate(VirusInvader_Prefab) as GameObject;
+			v = vo.GetComponent<VirusInvader>();
+		}
+		else if (type == "virus_infester")
+		{
+			GameObject vo = Instantiate(VirusInfester_Prefab) as GameObject;
+			v = vo.GetComponent<VirusInfester>();//new VirusInfester();
+		}
+
+		v.setCanvas(p_canvas);
+		v.setCell(this);
+		v.init();
+		return v;
 	}
 
 	public void testPopVesicle()
@@ -1973,17 +1988,20 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 		float[] cost;
 		if (type == "virus_injector") 
 		{
-				v = new VirusInjector();
+			GameObject vo = Instantiate(VirusInjector_Prefab) as GameObject;
+			v = vo.GetComponent<VirusInjector>();//new VirusInjector();
 
 		}
 		else if (type == "virus_invader")
 		{
-			v = new VirusInvader();
+			GameObject vo = Instantiate(VirusInvader_Prefab) as GameObject;
+			v = vo.GetComponent<VirusInvader>();//new VirusInvader();
 
 		}
 		else if (type == "virus_infester")
 		{
-			v = new VirusInfester();
+			GameObject vo = Instantiate(VirusInfester_Prefab) as GameObject;
+			v = vo.GetComponent<VirusInfester>();//new VirusInfester();
 
 		}
 
@@ -2061,7 +2079,9 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 
 	private Mitochondrion makeMitochondrion() 
 	{
-		Mitochondrion m = new Mitochondrion();
+		GameObject mo = Instantiate(Mitochondrion_Prefab) as GameObject;
+
+		Mitochondrion m = mo.GetComponent<Mitochondrion>();
 		m.transform.SetParent(this.transform);
 		m.setCell(this);
 		list_mito.Add(m);
@@ -2747,6 +2767,8 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 			case Selectable.LYSOSOME:
 			case Selectable.TOXIN:
 			case Selectable.DEFENSIN:
+				GameObject po = Instantiate(PinkVescile_Prefab) as GameObject;
+				v = po.GetComponent<PinkVesicle>();
 				v = new PinkVesicle();
 				v.x = p.x;
 				v.y = p.y;

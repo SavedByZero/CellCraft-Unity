@@ -1,0 +1,1375 @@
+fileFormatVersion: 2
+guid: f0cf3f9407c57f744906e055616d78ed
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7830674628611569185
+    second: mitochondrion_process_0
+  - first:
+      213: 2860562473557501760
+    second: mitochondrion_process_1
+  - first:
+      213: 5159818753351499605
+    second: mitochondrion_process_2
+  - first:
+      213: 2672324761480916164
+    second: mitochondrion_process_3
+  - first:
+      213: 1420011672277013053
+    second: mitochondrion_process_4
+  - first:
+      213: -5771351306169362698
+    second: mitochondrion_process_5
+  - first:
+      213: -8366092401963409115
+    second: mitochondrion_process_6
+  - first:
+      213: -2542607796401743208
+    second: mitochondrion_process_7
+  - first:
+      213: 3851141694139659867
+    second: mitochondrion_process_8
+  - first:
+      213: 1952146658525873791
+    second: mitochondrion_process_9
+  - first:
+      213: -4042344570430003012
+    second: mitochondrion_process_10
+  - first:
+      213: 4039527100306603411
+    second: mitochondrion_process_11
+  - first:
+      213: 5422483889351303756
+    second: mitochondrion_process_12
+  - first:
+      213: 3032096887326747960
+    second: mitochondrion_process_13
+  - first:
+      213: 1177538433212117310
+    second: mitochondrion_process_14
+  - first:
+      213: 149808389824741661
+    second: mitochondrion_process_15
+  - first:
+      213: -6154070818678754056
+    second: mitochondrion_process_16
+  - first:
+      213: 4416887913211281868
+    second: mitochondrion_process_17
+  - first:
+      213: 6079747002726032914
+    second: mitochondrion_process_18
+  - first:
+      213: -3330274528471049482
+    second: mitochondrion_process_19
+  - first:
+      213: -3713685714329164460
+    second: mitochondrion_process_20
+  - first:
+      213: -4851359138327537962
+    second: mitochondrion_process_21
+  - first:
+      213: -550424318854275126
+    second: mitochondrion_process_22
+  - first:
+      213: -545795536036259817
+    second: mitochondrion_process_23
+  - first:
+      213: -8867410415245355218
+    second: mitochondrion_process_24
+  - first:
+      213: -6634387903627968674
+    second: mitochondrion_process_25
+  - first:
+      213: -8283313401224754080
+    second: mitochondrion_process_26
+  - first:
+      213: -6592953136244855641
+    second: mitochondrion_process_27
+  - first:
+      213: 1289631264886668181
+    second: mitochondrion_process_28
+  - first:
+      213: -3590402646801612683
+    second: mitochondrion_process_29
+  - first:
+      213: -2941324871661418746
+    second: mitochondrion_process_30
+  - first:
+      213: 24997972904490512
+    second: mitochondrion_process_31
+  - first:
+      213: -6643768548982871004
+    second: mitochondrion_process_32
+  - first:
+      213: -910307235606935778
+    second: mitochondrion_process_33
+  - first:
+      213: -4129540652003230436
+    second: mitochondrion_process_34
+  - first:
+      213: -8932524706575625310
+    second: mitochondrion_process_35
+  - first:
+      213: -6066903657002156718
+    second: mitochondrion_process_36
+  - first:
+      213: -6947948741350553359
+    second: mitochondrion_process_37
+  - first:
+      213: 3629026714517116669
+    second: mitochondrion_process_38
+  - first:
+      213: -7600464213167291512
+    second: mitochondrion_process_39
+  - first:
+      213: 1527138274434865340
+    second: mitochondrion_process_40
+  - first:
+      213: -7705396534497163892
+    second: mitochondrion_process_41
+  - first:
+      213: 8679187945804714309
+    second: mitochondrion_process_42
+  - first:
+      213: -7681854454091671603
+    second: mitochondrion_process_43
+  - first:
+      213: 1314258275930366497
+    second: mitochondrion_process_44
+  - first:
+      213: 6884189982527766288
+    second: mitochondrion_process_45
+  - first:
+      213: 8318026768101097711
+    second: mitochondrion_process_46
+  - first:
+      213: -2153268968545850704
+    second: mitochondrion_process_47
+  - first:
+      213: -1335884879454558482
+    second: mitochondrion_process_48
+  - first:
+      213: 5218583254329885347
+    second: mitochondrion_process_49
+  - first:
+      213: 773277101633063447
+    second: mitochondrion_process_50
+  - first:
+      213: 5979472250371178021
+    second: mitochondrion_process_51
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mitochondrion_process_0
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 902
+        width: 42
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1267e0606152cac60800000000000000
+      internalID: 7830674628611569185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mitochondrion_process_1
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 905
+        width: 40
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 047253ee962c2b720800000000000000
+      internalID: 2860562473557501760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mitochondrion_process_2
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 908
+        width: 39
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55f3aea71db5b9740800000000000000
+      internalID: 5159818753351499605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mitochondrion_process_3
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 909
+        width: 39
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ccec844631061520800000000000000
+      internalID: 2672324761480916164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mitochondrion_process_4
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 908
+        width: 39
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d32daf6a715e4b310800000000000000
+      internalID: 1420011672277013053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mitochondrion_process_5
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 906
+        width: 39
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f6d9c1a09a08efa0800000000000000
+      internalID: -5771351306169362698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mitochondrion_process_6
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 904
+        width: 40
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52160ee294ba5eb80800000000000000
+      internalID: -8366092401963409115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mitochondrion_process_7
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 902
+        width: 40
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89ad5543ea7d6bcd0800000000000000
+      internalID: -2542607796401743208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mitochondrion_process_8
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 901
+        width: 40
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b56f3e277f0027530800000000000000
+      internalID: 3851141694139659867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mitochondrion_process_9
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 899
+        width: 40
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7686e20b0b671b10800000000000000
+      internalID: 1952146658525873791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mitochondrion_process_10
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 774
+        width: 40
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb86acbc705b6e7c0800000000000000
+      internalID: -4042344570430003012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mitochondrion_process_11
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 773
+        width: 40
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39db652de784f0830800000000000000
+      internalID: 4039527100306603411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mitochondrion_process_12
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 771
+        width: 40
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4220192e58804b40800000000000000
+      internalID: 5422483889351303756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mitochondrion_process_13
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 774
+        width: 45
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83dada5ed0c241a20800000000000000
+      internalID: 3032096887326747960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mitochondrion_process_14
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 777
+        width: 52
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e317af457f4775010800000000000000
+      internalID: 1177538433212117310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mitochondrion_process_15
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 780
+        width: 59
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1180e3dfe9341200800000000000000
+      internalID: 149808389824741661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mitochondrion_process_16
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 783
+        width: 65
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f43e023239589aa0800000000000000
+      internalID: -6154070818678754056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mitochondrion_process_17
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 785
+        width: 72
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc1cca7c720fb4d30800000000000000
+      internalID: 4416887913211281868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mitochondrion_process_18
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 788
+        width: 78
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2162bb5efa99f5450800000000000000
+      internalID: 6079747002726032914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mitochondrion_process_19
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 791
+        width: 85
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fa93fdf5fc78c1d0800000000000000
+      internalID: -3330274528471049482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mitochondrion_process_20
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 666
+        width: 82
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 455a7fdc486567cc0800000000000000
+      internalID: -3713685714329164460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mitochondrion_process_21
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 665
+        width: 80
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d6542a31928cacb0800000000000000
+      internalID: -4851359138327537962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mitochondrion_process_22
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 664
+        width: 78
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acf54fe8fff7c58f0800000000000000
+      internalID: -550424318854275126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mitochondrion_process_23
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 663
+        width: 74
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 718909a0ad1fc68f0800000000000000
+      internalID: -545795536036259817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mitochondrion_process_24
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 661
+        width: 72
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2793b97531a0f480800000000000000
+      internalID: -8867410415245355218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mitochondrion_process_25
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 660
+        width: 69
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5f3b162a5bede3a0800000000000000
+      internalID: -6634387903627968674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mitochondrion_process_26
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 659
+        width: 67
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06c04c43952cb0d80800000000000000
+      internalID: -8283313401224754080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mitochondrion_process_27
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 658
+        width: 63
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ace355bd002184a0800000000000000
+      internalID: -6592953136244855641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mitochondrion_process_28
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 657
+        width: 61
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59bbeca7dc0b5e110800000000000000
+      internalID: 1289631264886668181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mitochondrion_process_29
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 656
+        width: 59
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57084c4c0d35c2ec0800000000000000
+      internalID: -3590402646801612683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mitochondrion_process_30
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 531
+        width: 56
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 607899fec905e27d0800000000000000
+      internalID: -2941324871661418746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mitochondrion_process_31
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 530
+        width: 54
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 016b31f168fc85000800000000000000
+      internalID: 24997972904490512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mitochondrion_process_32
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 529
+        width: 50
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42ca6f374b79cc3a0800000000000000
+      internalID: -6643768548982871004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mitochondrion_process_33
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 527
+        width: 49
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e174e296460fd53f0800000000000000
+      internalID: -910307235606935778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mitochondrion_process_34
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 526
+        width: 45
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1dffcff7ace0b6c0800000000000000
+      internalID: -4129540652003230436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mitochondrion_process_35
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 525
+        width: 45
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a3d82d1b1c490480800000000000000
+      internalID: -8932524706575625310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mitochondrion_process_36
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 524
+        width: 44
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25d3edd84470ecba0800000000000000
+      internalID: -6066903657002156718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mitochondrion_process_37
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 522
+        width: 43
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f88d2a7e6de39f90800000000000000
+      internalID: -6947948741350553359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mitochondrion_process_38
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 521
+        width: 43
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df61237c194ec5230800000000000000
+      internalID: 3629026714517116669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mitochondrion_process_39
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 519
+        width: 41
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 883481e211ab58690800000000000000
+      internalID: -7600464213167291512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mitochondrion_process_40
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 394
+        width: 40
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb8d7926b2c713510800000000000000
+      internalID: 1527138274434865340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mitochondrion_process_41
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 397
+        width: 40
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8545c34daee01590800000000000000
+      internalID: -7705396534497163892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mitochondrion_process_42
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 400
+        width: 40
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 541da80d37ba27870800000000000000
+      internalID: 8679187945804714309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mitochondrion_process_43
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 402
+        width: 41
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc71d9ff212946590800000000000000
+      internalID: -7681854454091671603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mitochondrion_process_44
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 405
+        width: 41
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12262ff40fe2d3210800000000000000
+      internalID: 1314258275930366497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mitochondrion_process_45
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 408
+        width: 41
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01fbedaa05e898f50800000000000000
+      internalID: 6884189982527766288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mitochondrion_process_46
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 408
+        width: 40
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe04bd856419f6370800000000000000
+      internalID: 8318026768101097711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mitochondrion_process_47
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 411
+        width: 39
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bae3f7184d0e12e0800000000000000
+      internalID: -2153268968545850704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mitochondrion_process_48
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 413
+        width: 39
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee6ab4ba7cbf57de0800000000000000
+      internalID: -1335884879454558482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mitochondrion_process_49
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 413
+        width: 38
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a2822112d12c6840800000000000000
+      internalID: 5218583254329885347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mitochondrion_process_50
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 286
+        width: 40
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71a48cb4d6b3bba00800000000000000
+      internalID: 773277101633063447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mitochondrion_process_51
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 282
+        width: 42
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52efda3c45a5bf250800000000000000
+      internalID: 5979472250371178021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

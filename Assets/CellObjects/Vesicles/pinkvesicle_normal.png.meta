@@ -1,0 +1,3007 @@
+fileFormatVersion: 2
+guid: aa2dbd1ac4e5212458f63136b1f0c410
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8089662593859342230
+    second: pinkvesicle_normal_0
+  - first:
+      213: -8281894628612593279
+    second: pinkvesicle_normal_1
+  - first:
+      213: 4236202906884184951
+    second: pinkvesicle_normal_2
+  - first:
+      213: 2492394892664881210
+    second: pinkvesicle_normal_3
+  - first:
+      213: 8586784083725712425
+    second: pinkvesicle_normal_4
+  - first:
+      213: 6665250912671715189
+    second: pinkvesicle_normal_5
+  - first:
+      213: 122081135128869175
+    second: pinkvesicle_normal_6
+  - first:
+      213: -9001377631612221118
+    second: pinkvesicle_normal_7
+  - first:
+      213: 3843679812817252973
+    second: pinkvesicle_normal_8
+  - first:
+      213: 5702665999722344713
+    second: pinkvesicle_normal_9
+  - first:
+      213: -4950914630085209376
+    second: pinkvesicle_normal_10
+  - first:
+      213: 1989970731484364527
+    second: pinkvesicle_normal_11
+  - first:
+      213: -443387655739317751
+    second: pinkvesicle_normal_12
+  - first:
+      213: -6093156183237775561
+    second: pinkvesicle_normal_13
+  - first:
+      213: 2046324861238069857
+    second: pinkvesicle_normal_14
+  - first:
+      213: -5530775122282355861
+    second: pinkvesicle_normal_15
+  - first:
+      213: -978359046792224246
+    second: pinkvesicle_normal_16
+  - first:
+      213: 5988147964870046593
+    second: pinkvesicle_normal_17
+  - first:
+      213: 4144471476622831490
+    second: pinkvesicle_normal_18
+  - first:
+      213: 2309527946272655030
+    second: pinkvesicle_normal_19
+  - first:
+      213: -6751902860421456427
+    second: pinkvesicle_normal_20
+  - first:
+      213: 8472133448202010576
+    second: pinkvesicle_normal_21
+  - first:
+      213: 1181824720194502854
+    second: pinkvesicle_normal_22
+  - first:
+      213: -8888135718684307741
+    second: pinkvesicle_normal_23
+  - first:
+      213: -8839612759591305333
+    second: pinkvesicle_normal_24
+  - first:
+      213: -3378722522205219615
+    second: pinkvesicle_normal_25
+  - first:
+      213: -3674376642650010719
+    second: pinkvesicle_normal_26
+  - first:
+      213: -1190113676099548341
+    second: pinkvesicle_normal_27
+  - first:
+      213: -630544785755179818
+    second: pinkvesicle_normal_28
+  - first:
+      213: -4002741950991714626
+    second: pinkvesicle_normal_29
+  - first:
+      213: 8187703404150425461
+    second: pinkvesicle_normal_30
+  - first:
+      213: -731894275819542047
+    second: pinkvesicle_normal_31
+  - first:
+      213: -9085877827921770894
+    second: pinkvesicle_normal_32
+  - first:
+      213: -5373432405374815439
+    second: pinkvesicle_normal_33
+  - first:
+      213: 6823811506182400521
+    second: pinkvesicle_normal_34
+  - first:
+      213: 1406442599280583555
+    second: pinkvesicle_normal_35
+  - first:
+      213: 2652405595014830987
+    second: pinkvesicle_normal_36
+  - first:
+      213: -496671839194299461
+    second: pinkvesicle_normal_37
+  - first:
+      213: -8530951604702125360
+    second: pinkvesicle_normal_38
+  - first:
+      213: 722248280653057000
+    second: pinkvesicle_normal_39
+  - first:
+      213: -8497598964737286030
+    second: pinkvesicle_normal_40
+  - first:
+      213: 3024500676139537080
+    second: pinkvesicle_normal_41
+  - first:
+      213: -2067058103065019253
+    second: pinkvesicle_normal_42
+  - first:
+      213: -6581546457662026933
+    second: pinkvesicle_normal_43
+  - first:
+      213: 7646314018255378726
+    second: pinkvesicle_normal_44
+  - first:
+      213: -127497264267863555
+    second: pinkvesicle_normal_45
+  - first:
+      213: 3598958673604254372
+    second: pinkvesicle_normal_46
+  - first:
+      213: -1559513076885595469
+    second: pinkvesicle_normal_47
+  - first:
+      213: -2356609143620104534
+    second: pinkvesicle_normal_48
+  - first:
+      213: -3690444873362806813
+    second: pinkvesicle_normal_49
+  - first:
+      213: 5697426148733798811
+    second: pinkvesicle_normal_50
+  - first:
+      213: 4055114919141572562
+    second: pinkvesicle_normal_51
+  - first:
+      213: 3474184392902024473
+    second: pinkvesicle_normal_52
+  - first:
+      213: -2029073275587917015
+    second: pinkvesicle_normal_53
+  - first:
+      213: 2881399459064941464
+    second: pinkvesicle_normal_54
+  - first:
+      213: 4375880732883385125
+    second: pinkvesicle_normal_55
+  - first:
+      213: -2246263284900700183
+    second: pinkvesicle_normal_56
+  - first:
+      213: 654890382479563372
+    second: pinkvesicle_normal_57
+  - first:
+      213: -124237097577143502
+    second: pinkvesicle_normal_58
+  - first:
+      213: 4163781419735644063
+    second: pinkvesicle_normal_59
+  - first:
+      213: -4662208614101661459
+    second: pinkvesicle_normal_60
+  - first:
+      213: -8951598069823562570
+    second: pinkvesicle_normal_61
+  - first:
+      213: 5004884932361078348
+    second: pinkvesicle_normal_62
+  - first:
+      213: 1722225900214852673
+    second: pinkvesicle_normal_63
+  - first:
+      213: 6590667880196871579
+    second: pinkvesicle_normal_64
+  - first:
+      213: 3966087616694682938
+    second: pinkvesicle_normal_65
+  - first:
+      213: 1065855181149086291
+    second: pinkvesicle_normal_66
+  - first:
+      213: -3547429505564767130
+    second: pinkvesicle_normal_67
+  - first:
+      213: -3199500871493650664
+    second: pinkvesicle_normal_68
+  - first:
+      213: 8566696347887340191
+    second: pinkvesicle_normal_69
+  - first:
+      213: 6225125373811685059
+    second: pinkvesicle_normal_70
+  - first:
+      213: 2293642946960914105
+    second: pinkvesicle_normal_71
+  - first:
+      213: 3974170522061270117
+    second: pinkvesicle_normal_72
+  - first:
+      213: 4165666982087154984
+    second: pinkvesicle_normal_73
+  - first:
+      213: -3601332744652737603
+    second: pinkvesicle_normal_74
+  - first:
+      213: 1713887471889089243
+    second: pinkvesicle_normal_75
+  - first:
+      213: 3053864231313887349
+    second: pinkvesicle_normal_76
+  - first:
+      213: 4490936886596263100
+    second: pinkvesicle_normal_77
+  - first:
+      213: -903985638959687013
+    second: pinkvesicle_normal_78
+  - first:
+      213: 2124739016456354295
+    second: pinkvesicle_normal_79
+  - first:
+      213: -2465411258244279867
+    second: pinkvesicle_normal_80
+  - first:
+      213: -4971101085215585052
+    second: pinkvesicle_normal_81
+  - first:
+      213: 2983347572658137834
+    second: pinkvesicle_normal_82
+  - first:
+      213: -939227506847646532
+    second: pinkvesicle_normal_83
+  - first:
+      213: 3025844060411952246
+    second: pinkvesicle_normal_84
+  - first:
+      213: 3158398154666726807
+    second: pinkvesicle_normal_85
+  - first:
+      213: 1729532470627587909
+    second: pinkvesicle_normal_86
+  - first:
+      213: -6378673584099204925
+    second: pinkvesicle_normal_87
+  - first:
+      213: -728049720275365074
+    second: pinkvesicle_normal_88
+  - first:
+      213: -347342180569852691
+    second: pinkvesicle_normal_89
+  - first:
+      213: -7026566520987421968
+    second: pinkvesicle_normal_90
+  - first:
+      213: 5488899646638917091
+    second: pinkvesicle_normal_91
+  - first:
+      213: 4815264736698315504
+    second: pinkvesicle_normal_92
+  - first:
+      213: -1336981306908528687
+    second: pinkvesicle_normal_93
+  - first:
+      213: -3273325552921832209
+    second: pinkvesicle_normal_94
+  - first:
+      213: -7626334892068357921
+    second: pinkvesicle_normal_95
+  - first:
+      213: 1263462192746289000
+    second: pinkvesicle_normal_96
+  - first:
+      213: -7535095632718616843
+    second: pinkvesicle_normal_97
+  - first:
+      213: -2947458840521452022
+    second: pinkvesicle_normal_98
+  - first:
+      213: 2132827691625167036
+    second: pinkvesicle_normal_99
+  - first:
+      213: 5572352917183912277
+    second: pinkvesicle_normal_100
+  - first:
+      213: 8009078527510061646
+    second: pinkvesicle_normal_101
+  - first:
+      213: -1611679531022430695
+    second: pinkvesicle_normal_102
+  - first:
+      213: 4681718526885414398
+    second: pinkvesicle_normal_103
+  - first:
+      213: 129441647775605199
+    second: pinkvesicle_normal_104
+  - first:
+      213: -2635348679767078106
+    second: pinkvesicle_normal_105
+  - first:
+      213: 6616154269009559530
+    second: pinkvesicle_normal_106
+  - first:
+      213: -5550177299401654827
+    second: pinkvesicle_normal_107
+  - first:
+      213: 139283587285932658
+    second: pinkvesicle_normal_108
+  - first:
+      213: 8664538541767600564
+    second: pinkvesicle_normal_109
+  - first:
+      213: 8714425849723427762
+    second: pinkvesicle_normal_110
+  - first:
+      213: 8060670222438884728
+    second: pinkvesicle_normal_111
+  - first:
+      213: 7067464496121082888
+    second: pinkvesicle_normal_112
+  - first:
+      213: -2271275071208417316
+    second: pinkvesicle_normal_113
+  - first:
+      213: -5737922693945621457
+    second: pinkvesicle_normal_114
+  - first:
+      213: 464282201752608017
+    second: pinkvesicle_normal_115
+  - first:
+      213: 6245247234789747524
+    second: pinkvesicle_normal_116
+  - first:
+      213: -6935582516284476343
+    second: pinkvesicle_normal_117
+  - first:
+      213: 852916830425478368
+    second: pinkvesicle_normal_118
+  - first:
+      213: -3335458534034873361
+    second: pinkvesicle_normal_119
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pinkvesicle_normal_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 472
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a60bf345bbebbbf80800000000000000
+      internalID: -8089662593859342230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_1
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 472
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 189a452f6bcc01d80800000000000000
+      internalID: -8281894628612593279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_2
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 472
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77b1f4579140aca30800000000000000
+      internalID: 4236202906884184951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_3
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 472
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a30c94913f3c69220800000000000000
+      internalID: 2492394892664881210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_4
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 472
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92cf27121a26a2770800000000000000
+      internalID: 8586784083725712425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_5
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 472
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57f45ac146abf7c50800000000000000
+      internalID: 6665250912671715189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_6
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 472
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 739f1254528b1b100800000000000000
+      internalID: 122081135128869175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_7
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 472
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2494b924cbea41380800000000000000
+      internalID: -9001377631612221118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_8
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 472
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d62ff41dc6e775530800000000000000
+      internalID: 3843679812817252973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_9
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 472
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 901f5224380f32f40800000000000000
+      internalID: 5702665999722344713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_10
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 472
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e29c700061da4bb0800000000000000
+      internalID: -4950914630085209376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_11
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 472
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feebc8346dbcd9b10800000000000000
+      internalID: 1989970731484364527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_12
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 472
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9026dd9b645c8d9f0800000000000000
+      internalID: -443387655739317751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_13
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 472
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73f2329fbb2c07ba0800000000000000
+      internalID: -6093156183237775561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_14
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 472
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16a45219e91066c10800000000000000
+      internalID: 2046324861238069857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_15
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 441
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b63eacf545dbe33b0800000000000000
+      internalID: -5530775122282355861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_16
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 441
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a02e82961ab2c62f0800000000000000
+      internalID: -978359046792224246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_17
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 441
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 183be84f8dc2a1350800000000000000
+      internalID: 5988147964870046593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_18
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 441
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28fa7d189de148930800000000000000
+      internalID: 4144471476622831490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_19
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 441
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b64b644e671d0020800000000000000
+      internalID: 2309527946272655030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_20
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 441
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dd92ae1f1c6c42a0800000000000000
+      internalID: -6751902860421456427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_21
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 441
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0df39cddb70139570800000000000000
+      internalID: 8472133448202010576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_22
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 441
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c008f9425fa66010800000000000000
+      internalID: 1181824720194502854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_23
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 441
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ee4c5cb7aff6a480800000000000000
+      internalID: -8888135718684307741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_24
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 441
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8fbc888703635580800000000000000
+      internalID: -8839612759591305333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_25
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 441
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e4985d64cd5c11d0800000000000000
+      internalID: -3378722522205219615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_26
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 441
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ab8ad349edf10dc0800000000000000
+      internalID: -3674376642650010719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_27
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 441
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4b80c5caeddb7fe0800000000000000
+      internalID: -1190113676099548341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_28
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 441
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d4761eabdadf37f0800000000000000
+      internalID: -630544785755179818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_29
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 441
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb6b59b27676378c0800000000000000
+      internalID: -4002741950991714626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_30
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 410
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57784a2add090a170800000000000000
+      internalID: 8187703404150425461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_31
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 410
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e962aca80ac7d5f0800000000000000
+      internalID: -731894275819542047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_32
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 410
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 276002a214a78e180800000000000000
+      internalID: -9085877827921770894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_33
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 410
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 133bf0d62bbbd65b0800000000000000
+      internalID: -5373432405374815439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_34
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 410
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90aa938296c03be50800000000000000
+      internalID: 6823811506182400521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_35
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 410
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 383a817a710b48310800000000000000
+      internalID: 1406442599280583555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_36
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 410
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8b1e1be5dc3fc420800000000000000
+      internalID: 2652405595014830987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_37
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 410
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb342eef7977b19f0800000000000000
+      internalID: -496671839194299461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_38
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 410
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d26ea5e6b8fb9980800000000000000
+      internalID: -8530951604702125360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_39
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 410
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eb46ff0cf0f50a00800000000000000
+      internalID: 722248280653057000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_40
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 410
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2706b1783c6721a80800000000000000
+      internalID: -8497598964737286030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_41
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 410
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b2d938275f29f920800000000000000
+      internalID: 3024500676139537080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_42
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 410
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8c77b46b955053e0800000000000000
+      internalID: -2067058103065019253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_43
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 410
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4b03560e56a9a4a0800000000000000
+      internalID: -6581546457662026933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_44
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 410
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6299333761a2d1a60800000000000000
+      internalID: 7646314018255378726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_45
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 379
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df9da75e9e90b3ef0800000000000000
+      internalID: -127497264267863555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_46
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 379
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aa1e7578d112f130800000000000000
+      internalID: 3598958673604254372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_47
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 379
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ba58a58e1f7b5ae0800000000000000
+      internalID: -1559513076885595469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_48
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 379
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aae06104874ab4fd0800000000000000
+      internalID: -2356609143620104534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_49
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 379
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e76c04c0f7e8ccc0800000000000000
+      internalID: -3690444873362806813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_50
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 379
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b99cc4165e2511f40800000000000000
+      internalID: 5697426148733798811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_51
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 379
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dff1d6b889a64830800000000000000
+      internalID: 4055114919141572562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_52
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 379
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91d912f5c48c63030800000000000000
+      internalID: 3474184392902024473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_53
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 379
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92b08593b9847d3e0800000000000000
+      internalID: -2029073275587917015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_54
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 379
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89b819daa89ccf720800000000000000
+      internalID: 2881399459064941464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_55
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 379
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52b7df697504abc30800000000000000
+      internalID: 4375880732883385125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_56
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 379
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9efdd7f817ba3d0e0800000000000000
+      internalID: -2246263284900700183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_57
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 379
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6a93864553a61900800000000000000
+      internalID: 654890382479563372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_58
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 379
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2332dfa940f964ef0800000000000000
+      internalID: -124237097577143502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_59
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 379
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f97f6bdf329b8c930800000000000000
+      internalID: 4163781419735644063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_60
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 348
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de844b787f18c4fb0800000000000000
+      internalID: -4662208614101661459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_61
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 348
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bc181cabf885c380800000000000000
+      internalID: -8951598069823562570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_62
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 348
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c464617345ce47540800000000000000
+      internalID: 5004884932361078348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_63
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 348
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14c984dd45396e710800000000000000
+      internalID: 1722225900214852673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_64
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 348
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9516b7a481c67b50800000000000000
+      internalID: 6590667880196871579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_65
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 348
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3589259caf5a0730800000000000000
+      internalID: 3966087616694682938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_66
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 348
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 352a66ed3adaace00800000000000000
+      internalID: 1065855181149086291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_67
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 348
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66c8217e8aff4cec0800000000000000
+      internalID: -3547429505564767130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_68
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 348
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8177118b8e61993d0800000000000000
+      internalID: -3199500871493650664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_69
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 348
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9a067aa0f403e670800000000000000
+      internalID: 8566696347887340191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_70
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 348
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c6f05c9b86146650800000000000000
+      internalID: 6225125373811685059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_71
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 348
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b67f27ab18a4df10800000000000000
+      internalID: 2293642946960914105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_72
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 348
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56c6a44a807172730800000000000000
+      internalID: 3974170522061270117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_73
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 348
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82dd0efac0c6fc930800000000000000
+      internalID: 4165666982087154984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_74
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 348
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db3bdfc03fe750ec0800000000000000
+      internalID: -3601332744652737603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_75
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 317
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd201fa3393f8c710800000000000000
+      internalID: 1713887471889089243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_76
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 317
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5705cbb9651816a20800000000000000
+      internalID: 3053864231313887349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_77
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 317
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbcd44aed43035e30800000000000000
+      internalID: 4490936886596263100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_78
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 317
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9ad0c3d9d56473f0800000000000000
+      internalID: -903985638959687013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_79
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 317
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f93b4cc0e69c7d10800000000000000
+      internalID: 2124739016456354295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_80
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 317
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c1d91fd58919cdd0800000000000000
+      internalID: -2465411258244279867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_81
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 317
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ec8a29a6e9130bb0800000000000000
+      internalID: -4971101085215585052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_82
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 317
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeaefc59fcaf66920800000000000000
+      internalID: 2983347572658137834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_83
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 317
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbcf11b0f8137f2f0800000000000000
+      internalID: -939227506847646532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_84
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 316
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67c749e2425fdf920800000000000000
+      internalID: 3025844060411952246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_85
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 316
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 795d8244362e4db20800000000000000
+      internalID: 3158398154666726807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_86
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 316
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 547d24b5e98800810800000000000000
+      internalID: 1729532470627587909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_87
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 316
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c06991cb266a77a0800000000000000
+      internalID: -6378673584099204925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_88
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 316
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e231a2403a275e5f0800000000000000
+      internalID: -728049720275365074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_89
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 316
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de4df97802efd2bf0800000000000000
+      internalID: -347342180569852691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_90
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 285
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f274ed3afe9c7e90800000000000000
+      internalID: -7026566520987421968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_91
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 285
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e50eada52d7c2c40800000000000000
+      internalID: 5488899646638917091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_92
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 285
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f23e5204c143d240800000000000000
+      internalID: 4815264736698315504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_93
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 285
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1df2162c596127de0800000000000000
+      internalID: -1336981306908528687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_94
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 286
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe492ef90cfc292d0800000000000000
+      internalID: -3273325552921832209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_95
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 286
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd8391c52d0d92690800000000000000
+      internalID: -7626334892068357921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_96
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 286
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86757c19b28b88110800000000000000
+      internalID: 1263462192746289000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_97
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 286
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f6a537d176fd6790800000000000000
+      internalID: -7535095632718616843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_98
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 286
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0652a40dc58817d0800000000000000
+      internalID: -2947458840521452022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_99
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 286
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb83f6e3c73599d10800000000000000
+      internalID: 2132827691625167036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_100
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 286
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 559dbdf5479f45d40800000000000000
+      internalID: 5572352917183912277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_101
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 286
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e422272ac76f52f60800000000000000
+      internalID: 8009078527510061646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_102
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 286
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91ec3ad610a22a9e0800000000000000
+      internalID: -1611679531022430695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_103
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 286
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef5ce55023ec8f040800000000000000
+      internalID: 4681718526885414398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_104
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 286
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc16eca2e7edbc100800000000000000
+      internalID: 129441647775605199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_105
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 255
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62b4033a65c5d6bd0800000000000000
+      internalID: -2635348679767078106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_106
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 255
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aefbf77f04d41db50800000000000000
+      internalID: 6616154269009559530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_107
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 255
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dd3abcf62fc9f2b0800000000000000
+      internalID: -5550177299401654827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_108
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 255
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27a58374fa5dee100800000000000000
+      internalID: 139283587285932658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_109
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 255
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b92db4a5ef9e3870800000000000000
+      internalID: 8664538541767600564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_110
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 255
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bb1f3aa32cdfe870800000000000000
+      internalID: 8714425849723427762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_111
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 255
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 875e90c2cd04ddf60800000000000000
+      internalID: 8060670222438884728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_112
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 255
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8047bf1a38da41260800000000000000
+      internalID: 7067464496121082888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_113
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 255
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd71c614b5fca70e0800000000000000
+      internalID: -2271275071208417316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_114
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 255
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2408bee5bdce50b0800000000000000
+      internalID: -5737922693945621457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_115
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 255
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11d100fd336717600800000000000000
+      internalID: 464282201752608017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_116
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 255
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44b222475439ba650800000000000000
+      internalID: 6245247234789747524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_117
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 255
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 944347e927cdfbf90800000000000000
+      internalID: -6935582516284476343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_118
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 255
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e4767c965b26db00800000000000000
+      internalID: 852916830425478368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_normal_119
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 255
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe36ec3a22216b1d0800000000000000
+      internalID: -3335458534034873361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

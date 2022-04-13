@@ -1,0 +1,2935 @@
+fileFormatVersion: 2
+guid: ac2b80a366df06f4097af2635bc27feb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8019053000301952822
+    second: chloroplast_normal_0
+  - first:
+      213: 8561864815200581230
+    second: chloroplast_normal_1
+  - first:
+      213: 7076560465184514606
+    second: chloroplast_normal_2
+  - first:
+      213: -7439489565562919541
+    second: chloroplast_normal_3
+  - first:
+      213: -8822134974321085178
+    second: chloroplast_normal_4
+  - first:
+      213: 8560936774657563547
+    second: chloroplast_normal_5
+  - first:
+      213: -3235328716157917664
+    second: chloroplast_normal_6
+  - first:
+      213: -6611736550836954108
+    second: chloroplast_normal_7
+  - first:
+      213: -6903159061424267270
+    second: chloroplast_normal_8
+  - first:
+      213: 931334035614395324
+    second: chloroplast_normal_9
+  - first:
+      213: -4483806233148121155
+    second: chloroplast_normal_10
+  - first:
+      213: 1233357455014270732
+    second: chloroplast_normal_11
+  - first:
+      213: -1878465887413824055
+    second: chloroplast_normal_12
+  - first:
+      213: 8039524801710423337
+    second: chloroplast_normal_13
+  - first:
+      213: -7444623068579600866
+    second: chloroplast_normal_14
+  - first:
+      213: -982722794697769152
+    second: chloroplast_normal_15
+  - first:
+      213: 3666367074487280835
+    second: chloroplast_normal_16
+  - first:
+      213: -9199960798567052455
+    second: chloroplast_normal_17
+  - first:
+      213: 3113817443850969425
+    second: chloroplast_normal_18
+  - first:
+      213: 1981661811035016403
+    second: chloroplast_normal_19
+  - first:
+      213: -1381286802231813269
+    second: chloroplast_normal_20
+  - first:
+      213: 8634300449812995034
+    second: chloroplast_normal_21
+  - first:
+      213: -2829617063983517918
+    second: chloroplast_normal_22
+  - first:
+      213: 5105336200295752411
+    second: chloroplast_normal_23
+  - first:
+      213: -1332801868679238906
+    second: chloroplast_normal_24
+  - first:
+      213: -5861642069829223309
+    second: chloroplast_normal_25
+  - first:
+      213: 8380906080347883760
+    second: chloroplast_normal_26
+  - first:
+      213: 398671699960627134
+    second: chloroplast_normal_27
+  - first:
+      213: 2786370434470849426
+    second: chloroplast_normal_28
+  - first:
+      213: -7375729715838040677
+    second: chloroplast_normal_29
+  - first:
+      213: -308346547537322477
+    second: chloroplast_normal_30
+  - first:
+      213: -8116777201246198190
+    second: chloroplast_normal_31
+  - first:
+      213: 5593616667799028857
+    second: chloroplast_normal_32
+  - first:
+      213: 742736860913803091
+    second: chloroplast_normal_33
+  - first:
+      213: -5904012874583578118
+    second: chloroplast_normal_34
+  - first:
+      213: 5163664528263910735
+    second: chloroplast_normal_35
+  - first:
+      213: -8335503455848687619
+    second: chloroplast_normal_36
+  - first:
+      213: -8409915727680840855
+    second: chloroplast_normal_37
+  - first:
+      213: -1470238708202445721
+    second: chloroplast_normal_38
+  - first:
+      213: -1433008510056550625
+    second: chloroplast_normal_39
+  - first:
+      213: 1340250648311908588
+    second: chloroplast_normal_40
+  - first:
+      213: -1810460115156699918
+    second: chloroplast_normal_41
+  - first:
+      213: 7121538690509970083
+    second: chloroplast_normal_42
+  - first:
+      213: -5909762659935005705
+    second: chloroplast_normal_43
+  - first:
+      213: 86920270681022677
+    second: chloroplast_normal_44
+  - first:
+      213: -9095241332093785368
+    second: chloroplast_normal_45
+  - first:
+      213: -5347847248852393899
+    second: chloroplast_normal_46
+  - first:
+      213: 7171571729087557187
+    second: chloroplast_normal_47
+  - first:
+      213: -3473256920355671714
+    second: chloroplast_normal_48
+  - first:
+      213: 121382270862449542
+    second: chloroplast_normal_49
+  - first:
+      213: -393650422818880757
+    second: chloroplast_normal_50
+  - first:
+      213: 1317253788775435452
+    second: chloroplast_normal_51
+  - first:
+      213: 5391221326631417243
+    second: chloroplast_normal_52
+  - first:
+      213: -1867829897530338060
+    second: chloroplast_normal_53
+  - first:
+      213: 8485730074842744370
+    second: chloroplast_normal_54
+  - first:
+      213: -1580095506987400481
+    second: chloroplast_normal_55
+  - first:
+      213: 2443010487940522519
+    second: chloroplast_normal_56
+  - first:
+      213: 5112091154305957109
+    second: chloroplast_normal_57
+  - first:
+      213: 4848382730482904349
+    second: chloroplast_normal_58
+  - first:
+      213: 569606529332972597
+    second: chloroplast_normal_59
+  - first:
+      213: 4974277444027908730
+    second: chloroplast_normal_60
+  - first:
+      213: 47329266979524911
+    second: chloroplast_normal_61
+  - first:
+      213: -1304966550661221574
+    second: chloroplast_normal_62
+  - first:
+      213: -4621908621262998247
+    second: chloroplast_normal_63
+  - first:
+      213: -696488123028762464
+    second: chloroplast_normal_64
+  - first:
+      213: 6571120121276891504
+    second: chloroplast_normal_65
+  - first:
+      213: -3359065280856894974
+    second: chloroplast_normal_66
+  - first:
+      213: 6516365972071365526
+    second: chloroplast_normal_67
+  - first:
+      213: -7472744755346559777
+    second: chloroplast_normal_68
+  - first:
+      213: -4189727426298797682
+    second: chloroplast_normal_69
+  - first:
+      213: -2901727055816201946
+    second: chloroplast_normal_70
+  - first:
+      213: 1734518230887445055
+    second: chloroplast_normal_71
+  - first:
+      213: 4562927725815773110
+    second: chloroplast_normal_72
+  - first:
+      213: -1060248858665443264
+    second: chloroplast_normal_73
+  - first:
+      213: 6960600852935442330
+    second: chloroplast_normal_74
+  - first:
+      213: 6860816471956458902
+    second: chloroplast_normal_75
+  - first:
+      213: 6106047185591985412
+    second: chloroplast_normal_76
+  - first:
+      213: 7959017661464793533
+    second: chloroplast_normal_77
+  - first:
+      213: 8421208730562643240
+    second: chloroplast_normal_78
+  - first:
+      213: 1192391212800466317
+    second: chloroplast_normal_79
+  - first:
+      213: 5048980990136328427
+    second: chloroplast_normal_80
+  - first:
+      213: -3816649233768613149
+    second: chloroplast_normal_81
+  - first:
+      213: 7492323638277103603
+    second: chloroplast_normal_82
+  - first:
+      213: 2751921647924501266
+    second: chloroplast_normal_83
+  - first:
+      213: -2276147716506970919
+    second: chloroplast_normal_84
+  - first:
+      213: 2833921441399831526
+    second: chloroplast_normal_85
+  - first:
+      213: -5995178605068572818
+    second: chloroplast_normal_86
+  - first:
+      213: 2202925513119064687
+    second: chloroplast_normal_87
+  - first:
+      213: 1372892955320352168
+    second: chloroplast_normal_88
+  - first:
+      213: 3554591153508995854
+    second: chloroplast_normal_89
+  - first:
+      213: -247839025750217329
+    second: chloroplast_normal_90
+  - first:
+      213: 5827790862349780628
+    second: chloroplast_normal_91
+  - first:
+      213: -50244232200767233
+    second: chloroplast_normal_92
+  - first:
+      213: -2511430775234611538
+    second: chloroplast_normal_93
+  - first:
+      213: 7077709011626247853
+    second: chloroplast_normal_94
+  - first:
+      213: -6767923699592376379
+    second: chloroplast_normal_95
+  - first:
+      213: 2260921128340163669
+    second: chloroplast_normal_96
+  - first:
+      213: -5581837082044718139
+    second: chloroplast_normal_97
+  - first:
+      213: 6902952532089327877
+    second: chloroplast_normal_98
+  - first:
+      213: 3493079946478909776
+    second: chloroplast_normal_99
+  - first:
+      213: -4304718396869596880
+    second: chloroplast_normal_100
+  - first:
+      213: 5487898558977704727
+    second: chloroplast_normal_101
+  - first:
+      213: 5342597379015704795
+    second: chloroplast_normal_102
+  - first:
+      213: -5089812575579359139
+    second: chloroplast_normal_103
+  - first:
+      213: -5811094191929427039
+    second: chloroplast_normal_104
+  - first:
+      213: 7175026985216388978
+    second: chloroplast_normal_105
+  - first:
+      213: -8860815101446109912
+    second: chloroplast_normal_106
+  - first:
+      213: 8856074102707873459
+    second: chloroplast_normal_107
+  - first:
+      213: 1685101225883734523
+    second: chloroplast_normal_108
+  - first:
+      213: 6808608846462950340
+    second: chloroplast_normal_109
+  - first:
+      213: 4062107854585879643
+    second: chloroplast_normal_110
+  - first:
+      213: -8426433526030103979
+    second: chloroplast_normal_111
+  - first:
+      213: -8118181711886474986
+    second: chloroplast_normal_112
+  - first:
+      213: 7416587217834990824
+    second: chloroplast_normal_113
+  - first:
+      213: 7603295207221609977
+    second: chloroplast_normal_114
+  - first:
+      213: -4894609439774439235
+    second: chloroplast_normal_115
+  - first:
+      213: 4607596415029029613
+    second: chloroplast_normal_116
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: chloroplast_normal_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 929
+        width: 48
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63f370e8736694f60800000000000000
+      internalID: 8019053000301952822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_1
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 929
+        width: 48
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6632fccfaad1d670800000000000000
+      internalID: 8561864815200581230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_2
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 929
+        width: 48
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2265e6ff3ef43260800000000000000
+      internalID: 7076560465184514606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_3
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 930
+        width: 48
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b85a56ef7af91c890800000000000000
+      internalID: -7439489565562919541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 930
+        width: 48
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 605ba078bfa719580800000000000000
+      internalID: -8822134974321085178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_5
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 930
+        width: 48
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9bda0683ae8ec670800000000000000
+      internalID: 8560936774657563547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_6
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 930
+        width: 48
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02669c59cadc913d0800000000000000
+      internalID: -3235328716157917664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_7
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 930
+        width: 48
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40c95e233a46e34a0800000000000000
+      internalID: -6611736550836954108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_8
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 930
+        width: 47
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aff99cb786d0330a0800000000000000
+      internalID: -6903159061424267270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_9
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 930
+        width: 47
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbbe608fe53ccec00800000000000000
+      internalID: 931334035614395324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_10
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 930
+        width: 46
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbf1687bcf156c1c0800000000000000
+      internalID: -4483806233148121155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_11
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 931
+        width: 46
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c07943b1214cd1110800000000000000
+      internalID: 1233357455014270732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_12
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 931
+        width: 46
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c5920a5a395ee5e0800000000000000
+      internalID: -1878465887413824055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_13
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 931
+        width: 46
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92d74e04631229f60800000000000000
+      internalID: 8039524801710423337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_14
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 931
+        width: 46
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1662ae23c26fa890800000000000000
+      internalID: -7444623068579600866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_15
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 931
+        width: 46
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04f3c5d23daac52f0800000000000000
+      internalID: -982722794697769152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_16
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 845
+        width: 45
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c4a003dd6d81e230800000000000000
+      internalID: 3666367074487280835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_17
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 845
+        width: 45
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95b44eda56c235080800000000000000
+      internalID: -9199960798567052455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_18
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 845
+        width: 45
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 151e62ca770863b20800000000000000
+      internalID: 3113817443850969425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_19
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 845
+        width: 45
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dc03b7fae6408b10800000000000000
+      internalID: 1981661811035016403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_20
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 845
+        width: 44
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6b9904c8fea4dce0800000000000000
+      internalID: -1381286802231813269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_21
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 845
+        width: 44
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adb591b338233d770800000000000000
+      internalID: 8634300449812995034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_22
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 845
+        width: 44
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22fe0e2b54e2bb8d0800000000000000
+      internalID: -2829617063983517918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_23
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 846
+        width: 44
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd22295993cc9d640800000000000000
+      internalID: 5105336200295752411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_24
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 846
+        width: 44
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60ba56d03cfe08de0800000000000000
+      internalID: -1332801868679238906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_25
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 845
+        width: 43
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37cf753089347aea0800000000000000
+      internalID: -5861642069829223309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_26
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 846
+        width: 43
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f80c071da5fe4470800000000000000
+      internalID: 8380906080347883760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_27
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 846
+        width: 43
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebf77228ccd588500800000000000000
+      internalID: 398671699960627134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_28
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 846
+        width: 43
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29b2947b52d2ba620800000000000000
+      internalID: 2786370434470849426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_29
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 846
+        width: 43
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b954e28d6e424a990800000000000000
+      internalID: -7375729715838040677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_30
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 846
+        width: 43
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31ed15ed27888bbf0800000000000000
+      internalID: -308346547537322477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_31
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 846
+        width: 42
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2562bb6d32a6b5f80800000000000000
+      internalID: -8116777201246198190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_32
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 760
+        width: 42
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9748ddd19b480ad40800000000000000
+      internalID: 5593616667799028857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_33
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 760
+        width: 41
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35f1b546d3bbe4a00800000000000000
+      internalID: 742736860913803091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_34
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 760
+        width: 41
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af9ec15429bb01ea0800000000000000
+      internalID: -5904012874583578118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_35
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 759
+        width: 41
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f45947ab78509a740800000000000000
+      internalID: 5163664528263910735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_36
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 759
+        width: 41
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df7191235c7525c80800000000000000
+      internalID: -8335503455848687619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_37
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 759
+        width: 41
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96bdc9c043af94b80800000000000000
+      internalID: -8409915727680840855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_38
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 759
+        width: 41
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 764609e3fa9a89be0800000000000000
+      internalID: -1470238708202445721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_39
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 759
+        width: 41
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1fa7fd3a5eec1ce0800000000000000
+      internalID: -1433008510056550625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_40
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 759
+        width: 41
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce84e9a1dd6899210800000000000000
+      internalID: 1340250648311908588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_41
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 759
+        width: 40
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f472141e14ffd6e0800000000000000
+      internalID: -1810460115156699918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_42
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 759
+        width: 39
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aa1c0e15b9c4d260800000000000000
+      internalID: 7121538690509970083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_43
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 759
+        width: 39
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f3d4bb0c2e4cfda0800000000000000
+      internalID: -5909762659935005705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_44
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 759
+        width: 39
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d029b1968dc43100800000000000000
+      internalID: 86920270681022677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_45
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 759
+        width: 39
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ea6916723637c180800000000000000
+      internalID: -9095241332093785368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_46
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 759
+        width: 39
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5506a13e241a8c5b0800000000000000
+      internalID: -5347847248852393899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_47
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 758
+        width: 39
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34e6f71bd7a868360800000000000000
+      internalID: 7171571729087557187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_48
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 672
+        width: 39
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e517888ab338ccfc0800000000000000
+      internalID: -3473256920355671714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_49
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 672
+        width: 39
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68b59c0488c3fa100800000000000000
+      internalID: 121382270862449542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_50
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 672
+        width: 39
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b03c23ea609798af0800000000000000
+      internalID: -393650422818880757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_51
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 672
+        width: 39
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbc4ffe7753d74210800000000000000
+      internalID: 1317253788775435452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_52
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 672
+        width: 37
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b95306f8b3771da40800000000000000
+      internalID: 5391221326631417243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_53
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 672
+        width: 37
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f499d8ba922416e0800000000000000
+      internalID: -1867829897530338060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_54
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 672
+        width: 37
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 236c9d23b8e53c570800000000000000
+      internalID: 8485730074842744370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_55
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 671
+        width: 37
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd243d2128f521ae0800000000000000
+      internalID: -1580095506987400481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_56
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 671
+        width: 37
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 712af3c581157e120800000000000000
+      internalID: 2443010487940522519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_57
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 671
+        width: 37
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fcb2dfd1dbc1f640800000000000000
+      internalID: 5112091154305957109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_58
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 671
+        width: 37
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1d6291d76ae84340800000000000000
+      internalID: 4848382730482904349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_59
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 671
+        width: 37
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53c82aade16a7e700800000000000000
+      internalID: 569606529332972597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_60
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 672
+        width: 37
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7285810bfe280540800000000000000
+      internalID: 4974277444027908730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_61
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 672
+        width: 37
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f215bc1b7b528a000800000000000000
+      internalID: 47329266979524911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_62
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 672
+        width: 37
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a33321016d3d3ede0800000000000000
+      internalID: -1304966550661221574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_63
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 672
+        width: 38
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 915bd4dc89eabdfb0800000000000000
+      internalID: -4621908621262998247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_64
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 586
+        width: 39
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a097940eb39556f0800000000000000
+      internalID: -696488123028762464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_65
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 586
+        width: 39
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 071812d5fee413b50800000000000000
+      internalID: 6571120121276891504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_66
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 586
+        width: 39
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2025d259ce33261d0800000000000000
+      internalID: -3359065280856894974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_67
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 586
+        width: 39
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69bb1cf8358ce6a50800000000000000
+      internalID: 6516365972071365526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_68
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 586
+        width: 39
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdca760cc3a7b4890800000000000000
+      internalID: -7472744755346559777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_69
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 587
+        width: 39
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e81afb99a191bd5c0800000000000000
+      internalID: -4189727426298797682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_70
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 587
+        width: 39
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6296fe2ed9efab7d0800000000000000
+      internalID: -2901727055816201946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_71
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 587
+        width: 39
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f323c70242f321810800000000000000
+      internalID: 1734518230887445055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_72
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 587
+        width: 39
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b7b7095796c25f30800000000000000
+      internalID: 4562927725815773110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_73
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 587
+        width: 40
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 040abbdc74d3941f0800000000000000
+      internalID: -1060248858665443264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_74
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 587
+        width: 41
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9f7f7ec895099060800000000000000
+      internalID: 6960600852935442330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_75
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 587
+        width: 41
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69d0d182b34863f50800000000000000
+      internalID: 6860816471956458902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_76
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 587
+        width: 41
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 405ebf660990db450800000000000000
+      internalID: 6106047185591985412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_77
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 587
+        width: 41
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db15ba8f46c147e60800000000000000
+      internalID: 7959017661464793533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_78
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 587
+        width: 41
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 825ca9419b42ed470800000000000000
+      internalID: 8421208730562643240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_79
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 587
+        width: 41
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8dd4409d793c8010800000000000000
+      internalID: 1192391212800466317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_80
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 501
+        width: 41
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be0a6cab575911640800000000000000
+      internalID: 5048980990136328427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_81
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 502
+        width: 41
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ea74fc4eb9880bc0800000000000000
+      internalID: -3816649233768613149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_82
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 502
+        width: 41
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ffd4c927a41af760800000000000000
+      internalID: 7492323638277103603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_83
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 502
+        width: 42
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21b5f32982ac03620800000000000000
+      internalID: 2751921647924501266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_84
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 502
+        width: 42
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d4194d16bf7960e0800000000000000
+      internalID: -2276147716506970919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_85
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 502
+        width: 43
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ebfff3498c145720800000000000000
+      internalID: 2833921441399831526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_86
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 502
+        width: 43
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e67addf82d8dccca0800000000000000
+      internalID: -5995178605068572818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_87
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 502
+        width: 43
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f626b14251d529e10800000000000000
+      internalID: 2202925513119064687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_88
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 502
+        width: 43
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ad71847ede7d0310800000000000000
+      internalID: 1372892955320352168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_89
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 502
+        width: 43
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0356a232d1745130800000000000000
+      internalID: 3554591153508995854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_90
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 501
+        width: 43
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8dedac18bf7f8cf0800000000000000
+      internalID: -247839025750217329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_91
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 502
+        width: 44
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49640af89e870e050800000000000000
+      internalID: 5827790862349780628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_92
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 502
+        width: 44
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff839a3132f7d4ff0800000000000000
+      internalID: -50244232200767233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_93
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 502
+        width: 44
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea6382c140b952dd0800000000000000
+      internalID: -2511430775234611538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_94
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 501
+        width: 44
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da64095c8d2193260800000000000000
+      internalID: 7077709011626247853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_95
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 501
+        width: 44
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cf49d2d0418312a0800000000000000
+      internalID: -6767923699592376379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_96
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 415
+        width: 45
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55c04ef89c7606f10800000000000000
+      internalID: 2260921128340163669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_97
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 415
+        width: 45
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c32f9a6fb45982b0800000000000000
+      internalID: -5581837082044718139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_98
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 415
+        width: 45
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 501519821c63ccf50800000000000000
+      internalID: 6902952532089327877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_99
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 415
+        width: 45
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0597ae544b9e97030800000000000000
+      internalID: 3493079946478909776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_100
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 415
+        width: 46
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 039af78ec619244c0800000000000000
+      internalID: -4304718396869596880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_101
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 415
+        width: 46
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7138e3bc9aee82c40800000000000000
+      internalID: 5487898558977704727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_102
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 415
+        width: 46
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd00a2a8208b42a40800000000000000
+      internalID: 5342597379015704795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_103
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 415
+        width: 46
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d58b643fd6a5d59b0800000000000000
+      internalID: -5089812575579359139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_104
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 415
+        width: 46
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1abf5b5fe98da5fa0800000000000000
+      internalID: -5811094191929427039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_105
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 415
+        width: 46
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27f2aa33701d29360800000000000000
+      internalID: 7175026985216388978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_106
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 414
+        width: 46
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82543e1ac9f080580800000000000000
+      internalID: -8860815101446109912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_107
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 414
+        width: 47
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b66074997817ea70800000000000000
+      internalID: 8856074102707873459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_108
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 414
+        width: 47
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf1106b03aea26710800000000000000
+      internalID: 1685101225883734523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_109
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 414
+        width: 48
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cb910c1ca90d7e50800000000000000
+      internalID: 6808608846462950340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_110
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 414
+        width: 48
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5c5aef52918f5830800000000000000
+      internalID: 4062107854585879643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_111
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 414
+        width: 48
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55a888d6a5b4f0b80800000000000000
+      internalID: -8426433526030103979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_112
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 328
+        width: 48
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6112fe8bebc665f80800000000000000
+      internalID: -8118181711886474986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_113
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 328
+        width: 48
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ecd1c4a7c20de660800000000000000
+      internalID: 7416587217834990824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_114
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 327
+        width: 48
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f5cfdcf4b4548960800000000000000
+      internalID: 7603295207221609977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_115
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 327
+        width: 48
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db888f3b5aad21cb0800000000000000
+      internalID: -4894609439774439235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_normal_116
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 327
+        width: 48
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dea2b22078871ff30800000000000000
+      internalID: 4607596415029029613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

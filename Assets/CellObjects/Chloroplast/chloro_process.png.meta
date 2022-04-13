@@ -1,0 +1,1399 @@
+fileFormatVersion: 2
+guid: b0ab95782a60e574990a007383af0074
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6728906656798290003
+    second: chloro_process_0
+  - first:
+      213: 5131987687200792210
+    second: chloro_process_1
+  - first:
+      213: -7850031314944323511
+    second: chloro_process_2
+  - first:
+      213: -7036072626289688197
+    second: chloro_process_3
+  - first:
+      213: -8071716577779483380
+    second: chloro_process_4
+  - first:
+      213: 5298201477940286178
+    second: chloro_process_5
+  - first:
+      213: -6927329388448184003
+    second: chloro_process_6
+  - first:
+      213: 1497483809510160744
+    second: chloro_process_7
+  - first:
+      213: 8723415319446077513
+    second: chloro_process_8
+  - first:
+      213: -937884903873044307
+    second: chloro_process_9
+  - first:
+      213: -8537731853674371257
+    second: chloro_process_10
+  - first:
+      213: 3094935914855406006
+    second: chloro_process_11
+  - first:
+      213: -4278852251220043573
+    second: chloro_process_12
+  - first:
+      213: 1047055184168769389
+    second: chloro_process_13
+  - first:
+      213: 7600068828966532771
+    second: chloro_process_14
+  - first:
+      213: 2336838040590528811
+    second: chloro_process_15
+  - first:
+      213: -8058628414791917369
+    second: chloro_process_16
+  - first:
+      213: 4241285747695805403
+    second: chloro_process_17
+  - first:
+      213: 9208097312971405451
+    second: chloro_process_18
+  - first:
+      213: 1195116064693739103
+    second: chloro_process_19
+  - first:
+      213: -5645907667930577183
+    second: chloro_process_20
+  - first:
+      213: 1467699402248322229
+    second: chloro_process_21
+  - first:
+      213: -1114899314819928532
+    second: chloro_process_22
+  - first:
+      213: 4938155723544522985
+    second: chloro_process_23
+  - first:
+      213: 6355157629744705347
+    second: chloro_process_24
+  - first:
+      213: -2869065035514288232
+    second: chloro_process_25
+  - first:
+      213: -3030570343002341655
+    second: chloro_process_26
+  - first:
+      213: -641834395119590732
+    second: chloro_process_27
+  - first:
+      213: -6069561212134237949
+    second: chloro_process_28
+  - first:
+      213: 4888234868860172291
+    second: chloro_process_29
+  - first:
+      213: 8826045805873782237
+    second: chloro_process_30
+  - first:
+      213: 448638999282088607
+    second: chloro_process_31
+  - first:
+      213: -976108135506282579
+    second: chloro_process_32
+  - first:
+      213: -7709938243998008638
+    second: chloro_process_33
+  - first:
+      213: -5180510297936159508
+    second: chloro_process_34
+  - first:
+      213: -6692683097801012452
+    second: chloro_process_35
+  - first:
+      213: 7549735724522513481
+    second: chloro_process_36
+  - first:
+      213: -7604026275286670845
+    second: chloro_process_37
+  - first:
+      213: -4214512989587773116
+    second: chloro_process_38
+  - first:
+      213: 9044409785009451603
+    second: chloro_process_39
+  - first:
+      213: 5087923742553158941
+    second: chloro_process_40
+  - first:
+      213: 2117204018351743921
+    second: chloro_process_41
+  - first:
+      213: -6510733260905203765
+    second: chloro_process_42
+  - first:
+      213: -3335009751739991606
+    second: chloro_process_43
+  - first:
+      213: -5818262617679901601
+    second: chloro_process_44
+  - first:
+      213: 2990044621310193352
+    second: chloro_process_45
+  - first:
+      213: 34775774583370056
+    second: chloro_process_46
+  - first:
+      213: -4608527765558727973
+    second: chloro_process_47
+  - first:
+      213: -7009285491140769791
+    second: chloro_process_48
+  - first:
+      213: -1809574310236705461
+    second: chloro_process_49
+  - first:
+      213: -4150813126644628954
+    second: chloro_process_50
+  - first:
+      213: -8965362400349648350
+    second: chloro_process_51
+  - first:
+      213: 5488569589780070520
+    second: chloro_process_52
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: chloro_process_0
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 920
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dafc6c20c0f1e92a0800000000000000
+      internalID: -6728906656798290003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_process_1
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 919
+        width: 52
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29e184f6c9b783740800000000000000
+      internalID: 5131987687200792210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_process_2
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 918
+        width: 52
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9401d0d3c161f0390800000000000000
+      internalID: -7850031314944323511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_process_3
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 917
+        width: 51
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b714720a939da5e90800000000000000
+      internalID: -7036072626289688197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_process_4
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 916
+        width: 50
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0d72ddc9808bff80800000000000000
+      internalID: -8071716577779483380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_process_5
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 915
+        width: 50
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e294115c2ef68940800000000000000
+      internalID: 5298201477940286178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_process_6
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 915
+        width: 50
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d390c6faf9e2ddf90800000000000000
+      internalID: -6927329388448184003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_process_7
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 807
+        width: 50
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86970ca379128c410800000000000000
+      internalID: 1497483809510160744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_process_8
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 806
+        width: 49
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 940c8cfa30ccf0970800000000000000
+      internalID: 8723415319446077513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_process_9
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 805
+        width: 49
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da0227826a6fbf2f0800000000000000
+      internalID: -937884903873044307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_process_10
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 802
+        width: 57
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 747a33a2d12e38980800000000000000
+      internalID: -8537731853674371257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_process_11
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 802
+        width: 57
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b91e8f11db63fa20800000000000000
+      internalID: 3094935914855406006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_process_12
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 802
+        width: 57
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc816af3c867e94c0800000000000000
+      internalID: -4278852251220043573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_process_13
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 802
+        width: 57
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d675c987423e78e00800000000000000
+      internalID: 1047055184168769389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_process_14
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 695
+        width: 57
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a6b113455ed87960800000000000000
+      internalID: 7600068828966532771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_process_15
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 695
+        width: 57
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b21b40b11dd1e6020800000000000000
+      internalID: 2336838040590528811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_process_16
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 695
+        width: 57
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c0657737200a2090800000000000000
+      internalID: -8058628414791917369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_process_17
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 694
+        width: 57
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd3e55e8ae21cda30800000000000000
+      internalID: 4241285747695805403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_process_18
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 694
+        width: 57
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b88b3e438bbb9cf70800000000000000
+      internalID: 9208097312971405451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_process_19
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 694
+        width: 57
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5ede659ab7e59010800000000000000
+      internalID: 1195116064693739103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_process_20
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 694
+        width: 57
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e6085aa3e4b5a1b0800000000000000
+      internalID: -5645907667930577183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_process_21
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 587
+        width: 57
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bc701484d05e5410800000000000000
+      internalID: 1467699402248322229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_process_22
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 587
+        width: 57
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2ee4dbeaf41780f0800000000000000
+      internalID: -1114899314819928532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_process_23
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 587
+        width: 57
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e0fe63977ad78440800000000000000
+      internalID: 4938155723544522985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_process_24
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 587
+        width: 57
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34feb84713e023850800000000000000
+      internalID: 6355157629744705347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_process_25
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 586
+        width: 58
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8976da81d880f28d0800000000000000
+      internalID: -2869065035514288232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_process_26
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 586
+        width: 58
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eef286645041f5d0800000000000000
+      internalID: -3030570343002341655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_process_27
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 586
+        width: 58
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b2e44aa40fb717f0800000000000000
+      internalID: -641834395119590732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_process_28
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 480
+        width: 57
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 309df384c3694cba0800000000000000
+      internalID: -6069561212134237949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_process_29
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 480
+        width: 57
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 308b619d6bf76d340800000000000000
+      internalID: 4888234868860172291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_process_30
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 480
+        width: 57
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dddde66e5e96c7a70800000000000000
+      internalID: 8826045805873782237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_process_31
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 480
+        width: 57
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9a7898fac2e93600800000000000000
+      internalID: 448638999282088607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_process_32
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 480
+        width: 57
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da777c882da2472f0800000000000000
+      internalID: -976108135506282579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_process_33
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 480
+        width: 57
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cabc4e140cc00590800000000000000
+      internalID: -7709938243998008638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_process_34
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 480
+        width: 57
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cec1340e4512b18b0800000000000000
+      internalID: -5180510297936159508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_process_35
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 373
+        width: 57
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1b4f419e20de13a0800000000000000
+      internalID: -6692683097801012452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_process_36
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 374
+        width: 57
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 944ad3824ac06c860800000000000000
+      internalID: 7549735724522513481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_process_37
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 374
+        width: 57
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3022dc6f362197690800000000000000
+      internalID: -7604026275286670845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_process_38
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 374
+        width: 57
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 449e952f3ca0385c0800000000000000
+      internalID: -4214512989587773116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_process_39
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 374
+        width: 57
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3523e86b7c2348d70800000000000000
+      internalID: 9044409785009451603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_process_40
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 374
+        width: 57
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d153827dfafeb9640800000000000000
+      internalID: 5087923742553158941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_process_41
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 374
+        width: 57
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b3a2e656d1d16d10800000000000000
+      internalID: 2117204018351743921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_process_42
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 267
+        width: 57
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc7bc64389a35a5a0800000000000000
+      internalID: -6510733260905203765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_process_43
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 270
+        width: 49
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac9f219ec4aa7b1d0800000000000000
+      internalID: -3335009751739991606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_process_44
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 271
+        width: 49
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5c4147c9f0614fa0800000000000000
+      internalID: -5818262617679901601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_process_45
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 272
+        width: 50
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cee2cbbdb5ce7920800000000000000
+      internalID: 2990044621310193352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_process_46
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 273
+        width: 50
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 841b4daf16c8b7000800000000000000
+      internalID: 34775774583370056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_process_47
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 273
+        width: 50
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdae85c0a683b00c0800000000000000
+      internalID: -4608527765558727973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_process_48
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 274
+        width: 50
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 108414b8bf30abe90800000000000000
+      internalID: -7009285491140769791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_process_49
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 168
+        width: 51
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4d2bab90c913e6e0800000000000000
+      internalID: -1809574310236705461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_process_50
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 169
+        width: 52
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 622815904795566c0800000000000000
+      internalID: -4150813126644628954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_process_51
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 170
+        width: 52
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22a048cb562a49380800000000000000
+      internalID: -8965362400349648350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_process_52
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 171
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8704ad356f05b2c40800000000000000
+      internalID: 5488569589780070520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1111 @@
+fileFormatVersion: 2
+guid: 6e8ce95cc0ddefd458d2310935caca83
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6441797561112181586
+    second: chloro_divide_0
+  - first:
+      213: -6941337292925982471
+    second: chloro_divide_1
+  - first:
+      213: -3216817859360878175
+    second: chloro_divide_2
+  - first:
+      213: -5676265486007053788
+    second: chloro_divide_3
+  - first:
+      213: 2702727826053038887
+    second: chloro_divide_4
+  - first:
+      213: 6221751559977812180
+    second: chloro_divide_5
+  - first:
+      213: 2477329186799270695
+    second: chloro_divide_6
+  - first:
+      213: 8959142490932780903
+    second: chloro_divide_7
+  - first:
+      213: 3579237351158383793
+    second: chloro_divide_8
+  - first:
+      213: -3829741371635123384
+    second: chloro_divide_9
+  - first:
+      213: 8366390240506965239
+    second: chloro_divide_10
+  - first:
+      213: 5298259217595120523
+    second: chloro_divide_11
+  - first:
+      213: 3206084868537751772
+    second: chloro_divide_12
+  - first:
+      213: -2046278258803699226
+    second: chloro_divide_13
+  - first:
+      213: -8064585702452021524
+    second: chloro_divide_14
+  - first:
+      213: -6843912417812158771
+    second: chloro_divide_15
+  - first:
+      213: 4636515747086248520
+    second: chloro_divide_16
+  - first:
+      213: -500470709407214552
+    second: chloro_divide_17
+  - first:
+      213: 8144714652941214462
+    second: chloro_divide_18
+  - first:
+      213: 1627885740652345998
+    second: chloro_divide_19
+  - first:
+      213: 461807228235268832
+    second: chloro_divide_20
+  - first:
+      213: 1620206511424964459
+    second: chloro_divide_21
+  - first:
+      213: 7544330444210240520
+    second: chloro_divide_22
+  - first:
+      213: 7312421051946418020
+    second: chloro_divide_23
+  - first:
+      213: 8201004232209659164
+    second: chloro_divide_24
+  - first:
+      213: 5326948688531993216
+    second: chloro_divide_25
+  - first:
+      213: -2163727168002233850
+    second: chloro_divide_26
+  - first:
+      213: 1535676618346828552
+    second: chloro_divide_27
+  - first:
+      213: -3637227424638330713
+    second: chloro_divide_28
+  - first:
+      213: 2387125785406872705
+    second: chloro_divide_29
+  - first:
+      213: 8921443750798249431
+    second: chloro_divide_30
+  - first:
+      213: 7902739665399462399
+    second: chloro_divide_31
+  - first:
+      213: 3317733953349514719
+    second: chloro_divide_32
+  - first:
+      213: 8631751829527357494
+    second: chloro_divide_33
+  - first:
+      213: -5287683000947430812
+    second: chloro_divide_34
+  - first:
+      213: 8627802938255259205
+    second: chloro_divide_35
+  - first:
+      213: -6906364295888317370
+    second: chloro_divide_36
+  - first:
+      213: -7067085958133078172
+    second: chloro_divide_37
+  - first:
+      213: -1083166672572512330
+    second: chloro_divide_38
+  - first:
+      213: 4158600387227799619
+    second: chloro_divide_39
+  - first:
+      213: 7551136805551502805
+    second: chloro_divide_40
+  - first:
+      213: -4966734484164234588
+    second: chloro_divide_41
+  - first:
+      213: 1061179753820429452
+    second: chloro_divide_42
+  - first:
+      213: 7622282862165938052
+    second: chloro_divide_43
+  - first:
+      213: -3904857733519665387
+    second: chloro_divide_44
+  - first:
+      213: -8791718221912505885
+    second: chloro_divide_45
+  - first:
+      213: -6095360151640779175
+    second: chloro_divide_46
+  - first:
+      213: -4047867302316250267
+    second: chloro_divide_47
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: chloro_divide_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 857
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea44eee8f332a96a0800000000000000
+      internalID: -6441797561112181586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_divide_1
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 857
+        width: 52
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f8a9f4428a6baf90800000000000000
+      internalID: -6941337292925982471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_divide_2
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 857
+        width: 52
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a199a943319b53d0800000000000000
+      internalID: -3216817859360878175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_divide_3
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 857
+        width: 52
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4225db75d9ad931b0800000000000000
+      internalID: -5676265486007053788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_divide_4
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 857
+        width: 52
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 723847c53a4028520800000000000000
+      internalID: 2702727826053038887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_divide_5
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 857
+        width: 52
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d0c53d541a185650800000000000000
+      internalID: 6221751559977812180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_divide_6
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 857
+        width: 52
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72bb0ea15cd316220800000000000000
+      internalID: 2477329186799270695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_divide_7
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 699
+        width: 52
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76f1820c0a4455c70800000000000000
+      internalID: 8959142490932780903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_divide_8
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 700
+        width: 52
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b40b9248610ca130800000000000000
+      internalID: 3579237351158383793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_divide_9
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 700
+        width: 52
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84b321a63860adac0800000000000000
+      internalID: -3829741371635123384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_divide_10
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 700
+        width: 52
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fc66b1c8936b1470800000000000000
+      internalID: 8366390240506965239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_divide_11
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 700
+        width: 52
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8b32b0efa2378940800000000000000
+      internalID: 5298259217595120523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_divide_12
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 700
+        width: 52
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd892fc833d4e7c20800000000000000
+      internalID: 3206084868537751772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_divide_13
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 700
+        width: 52
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e19668e3c82a93e0800000000000000
+      internalID: -2046278258803699226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_divide_14
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 542
+        width: 52
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce637a81806d41090800000000000000
+      internalID: -8064585702452021524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_divide_15
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 542
+        width: 52
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc6eb66aae98501a0800000000000000
+      internalID: -6843912417812158771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_divide_16
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 542
+        width: 50
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84aa494b186385040800000000000000
+      internalID: 4636515747086248520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_divide_17
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 542
+        width: 49
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8249b499a88fd09f0800000000000000
+      internalID: -500470709407214552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_divide_18
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 542
+        width: 48
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef2ea7503d6d70170800000000000000
+      internalID: 8144714652941214462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_divide_19
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 542
+        width: 46
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8ab18ac479679610800000000000000
+      internalID: 1627885740652345998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_divide_20
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 541
+        width: 45
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e2cba13a3ba86600800000000000000
+      internalID: 461807228235268832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_divide_21
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 383
+        width: 46
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b678248ec312c7610800000000000000
+      internalID: 1620206511424964459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_divide_22
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 383
+        width: 46
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80cf0534198d2b860800000000000000
+      internalID: 7544330444210240520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_divide_23
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 384
+        width: 46
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46fba513430fa7560800000000000000
+      internalID: 7312421051946418020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_divide_24
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 384
+        width: 46
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c15f45ef5e1dfc170800000000000000
+      internalID: 8201004232209659164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_divide_25
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 384
+        width: 46
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 082beacdb9f1de940800000000000000
+      internalID: 5326948688531993216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_divide_26
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 384
+        width: 46
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60a6d58ca95e8f1e0800000000000000
+      internalID: -2163727168002233850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_divide_27
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 384
+        width: 46
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8039f6e7fb1df4510800000000000000
+      internalID: 1535676618346828552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_divide_28
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 226
+        width: 46
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a89f1b9de8f58dc0800000000000000
+      internalID: -3637227424638330713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_divide_29
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 226
+        width: 46
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18c1a591146c02120800000000000000
+      internalID: 2387125785406872705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_divide_30
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 226
+        width: 47
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dd45f1d2d55fcb70800000000000000
+      internalID: 8921443750798249431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_divide_31
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 226
+        width: 46
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff9368ceadb2cad60800000000000000
+      internalID: 7902739665399462399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_divide_32
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 227
+        width: 46
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd576a4d375fa0e20800000000000000
+      internalID: 3317733953349514719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_divide_33
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 227
+        width: 47
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6386e445e842ac770800000000000000
+      internalID: 8631751829527357494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_divide_34
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 227
+        width: 49
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46a28a373506e96b0800000000000000
+      internalID: -5287683000947430812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_divide_38
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 66
+        width: 50
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b706c076a1d7f0f0800000000000000
+      internalID: -1083166672572512330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_divide_39
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 66
+        width: 49
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 340d38bd40156b930800000000000000
+      internalID: 4158600387227799619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_divide_40
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 66
+        width: 50
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d57641cae60bc860800000000000000
+      internalID: 7551136805551502805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_divide_41
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 66
+        width: 50
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a235b13d4d921bb0800000000000000
+      internalID: -4966734484164234588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_divide_42
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 66
+        width: 52
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8c9d4d1d511abe00800000000000000
+      internalID: 1061179753820429452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

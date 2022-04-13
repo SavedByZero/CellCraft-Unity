@@ -186,11 +186,11 @@ public class Nucleus : CellObject
 		float percent = infestation / max_infestation;
 		if (percent <= 0.009f)
 		{
-			splatter.GotoAndStop("0%");
+			//splatter.GotoAndStop("0%");
 		}
 		else if (percent <= 0.2)
 		{
-			splatter.GotoAndStop("20%");
+			//splatter.GotoAndStop("20%");
 		}
 		else if (percent <= 0.4)
 		{

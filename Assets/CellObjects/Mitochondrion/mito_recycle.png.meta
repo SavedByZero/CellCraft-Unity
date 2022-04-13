@@ -1,0 +1,877 @@
+fileFormatVersion: 2
+guid: c2be94d4e6610254a81afb723d1f0c08
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7548345486235681664
+    second: mito_recycle_0
+  - first:
+      213: 4871523133651931821
+    second: mito_recycle_1
+  - first:
+      213: -4633175979522812480
+    second: mito_recycle_2
+  - first:
+      213: 8828352119242069309
+    second: mito_recycle_3
+  - first:
+      213: 2728721229028828600
+    second: mito_recycle_4
+  - first:
+      213: -7446181257245406266
+    second: mito_recycle_5
+  - first:
+      213: 3177075794995281306
+    second: mito_recycle_6
+  - first:
+      213: 4228489106460240076
+    second: mito_recycle_7
+  - first:
+      213: 5976165861252711870
+    second: mito_recycle_8
+  - first:
+      213: 7433027829438863013
+    second: mito_recycle_9
+  - first:
+      213: 950828044610938810
+    second: mito_recycle_10
+  - first:
+      213: -5788165556426165336
+    second: mito_recycle_11
+  - first:
+      213: -5969554373289965856
+    second: mito_recycle_12
+  - first:
+      213: -2415158652874523839
+    second: mito_recycle_13
+  - first:
+      213: -2009283998659081553
+    second: mito_recycle_14
+  - first:
+      213: -5460273280751545337
+    second: mito_recycle_15
+  - first:
+      213: 1948955193518488819
+    second: mito_recycle_16
+  - first:
+      213: 4678442731918505894
+    second: mito_recycle_17
+  - first:
+      213: 7305652181457703177
+    second: mito_recycle_18
+  - first:
+      213: 3427043548924313314
+    second: mito_recycle_19
+  - first:
+      213: -880844376496316712
+    second: mito_recycle_20
+  - first:
+      213: -1170811851224411681
+    second: mito_recycle_21
+  - first:
+      213: -3626377743279549436
+    second: mito_recycle_22
+  - first:
+      213: -5031587790619749689
+    second: mito_recycle_23
+  - first:
+      213: -3664869905292313683
+    second: mito_recycle_24
+  - first:
+      213: 2890004121786852572
+    second: mito_recycle_25
+  - first:
+      213: 405214269920832521
+    second: mito_recycle_26
+  - first:
+      213: 5539475312544001289
+    second: mito_recycle_27
+  - first:
+      213: 8997408212722050453
+    second: mito_recycle_28
+  - first:
+      213: 110207622105749530
+    second: mito_recycle_29
+  - first:
+      213: -2030515390034945238
+    second: mito_recycle_30
+  - first:
+      213: -1755463588444948596
+    second: mito_recycle_31
+  - first:
+      213: -3595058130909824759
+    second: mito_recycle_32
+  - first:
+      213: -1742729642909893479
+    second: mito_recycle_33
+  - first:
+      213: -3950696860469509178
+    second: mito_recycle_34
+  - first:
+      213: -5110492941082860110
+    second: mito_recycle_35
+  - first:
+      213: -5919555312269510544
+    second: mito_recycle_36
+  - first:
+      213: 8730809673373746045
+    second: mito_recycle_37
+  - first:
+      213: 5187749625282960924
+    second: mito_recycle_38
+  - first:
+      213: -259041894045590520
+    second: mito_recycle_39
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mito_recycle_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 391
+        width: 43
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08340051a3c11c860800000000000000
+      internalID: 7548345486235681664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_recycle_1
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 391
+        width: 44
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da2db68ca702b9340800000000000000
+      internalID: 4871523133651931821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_recycle_2
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 395
+        width: 47
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c59ba68ef6a3bfb0800000000000000
+      internalID: -4633175979522812480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_recycle_3
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 394
+        width: 50
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d359d735a7b948a70800000000000000
+      internalID: 8828352119242069309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_recycle_4
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 394
+        width: 43
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b5a45b108d5ed520800000000000000
+      internalID: 2728721229028828600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_recycle_5
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 395
+        width: 46
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cb47bc1999d9a890800000000000000
+      internalID: -7446181257245406266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_recycle_6
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 394
+        width: 45
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9d7f294a9d371c20800000000000000
+      internalID: 3177075794995281306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_recycle_7
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 392
+        width: 40
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc8eb27507c9eaa30800000000000000
+      internalID: 4228489106460240076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_recycle_8
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 394
+        width: 50
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb5c8ce003b9fe250800000000000000
+      internalID: 5976165861252711870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_recycle_9
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 392
+        width: 50
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a6db43dd6b672760800000000000000
+      internalID: 7433027829438863013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_recycle_10
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 289
+        width: 48
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab7a381a115023d00800000000000000
+      internalID: 950828044610938810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_recycle_11
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 289
+        width: 38
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a3311ce71e4cafa0800000000000000
+      internalID: -5788165556426165336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_recycle_12
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 287
+        width: 43
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e60ca0fce1e72da0800000000000000
+      internalID: -5969554373289965856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_recycle_13
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 286
+        width: 44
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14bf3335002ab7ed0800000000000000
+      internalID: -2415158652874523839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_recycle_14
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 286
+        width: 42
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faa8c0f49d69d14e0800000000000000
+      internalID: -2009283998659081553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_recycle_15
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 284
+        width: 40
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7045f3481663934b0800000000000000
+      internalID: -5460273280751545337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_recycle_16
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 287
+        width: 40
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fc72d82c641c0b10800000000000000
+      internalID: 1948955193518488819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_recycle_17
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 285
+        width: 40
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a7b20290ea2de040800000000000000
+      internalID: 4678442731918505894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_recycle_18
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 286
+        width: 37
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9011858b3f3e26560800000000000000
+      internalID: 7305652181457703177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_recycle_19
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 288
+        width: 50
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ee7d6353fd4f8f20800000000000000
+      internalID: 3427043548924313314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_recycle_20
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 181
+        width: 45
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8de598cd4bc96c3f0800000000000000
+      internalID: -880844376496316712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_recycle_21
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 184
+        width: 49
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd193f413d070cfe0800000000000000
+      internalID: -1170811851224411681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_recycle_22
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 181
+        width: 47
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4049076e7a48cadc0800000000000000
+      internalID: -3626377743279549436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_recycle_23
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 177
+        width: 46
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c2daeb10953c2ab0800000000000000
+      internalID: -5031587790619749689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_recycle_24
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 178
+        width: 43
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dab380b0d34c32dc0800000000000000
+      internalID: -3664869905292313683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_recycle_25
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 177
+        width: 43
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd42586df6b5b1820800000000000000
+      internalID: 2890004121786852572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_recycle_26
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 179
+        width: 39
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90cec884b3c9f9500800000000000000
+      internalID: 405214269920832521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_recycle_27
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 182
+        width: 45
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90d2b36827b20ec40800000000000000
+      internalID: 5539475312544001289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_recycle_28
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 182
+        width: 44
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 595ea7269173ddc70800000000000000
+      internalID: 8997408212722050453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mito_recycle_29
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 185
+        width: 50
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1857279f39878100800000000000000
+      internalID: 110207622105749530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

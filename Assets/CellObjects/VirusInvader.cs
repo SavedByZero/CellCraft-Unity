@@ -8,7 +8,7 @@ using UnityEngine;
 
 public class VirusInvader : Virus
 {
-
+	//TODO: the onAnimFinish is called from the timeline in the original game quite a bit. make sure the code calls it manually. 
 	public const int RNA_COUNT = 4;
 	public const int SPAWN_COUNT = 1;
 		

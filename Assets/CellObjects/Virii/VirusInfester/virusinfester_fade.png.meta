@@ -1,0 +1,1486 @@
+fileFormatVersion: 2
+guid: cd7537123defc4f4fa9dc51b3563874a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 667380795974770333
+    second: virusinfester_fade_0
+  - first:
+      213: 8256094332651292948
+    second: virusinfester_fade_1
+  - first:
+      213: 3921311001789045881
+    second: virusinfester_fade_2
+  - first:
+      213: -2567923042624241041
+    second: virusinfester_fade_3
+  - first:
+      213: 5121977507706734349
+    second: virusinfester_fade_4
+  - first:
+      213: -5609027777925221624
+    second: virusinfester_fade_5
+  - first:
+      213: 1086918021449752152
+    second: virusinfester_fade_6
+  - first:
+      213: -687241616572354729
+    second: virusinfester_fade_7
+  - first:
+      213: -1173534248586983544
+    second: virusinfester_fade_8
+  - first:
+      213: -7543192697844725534
+    second: virusinfester_fade_9
+  - first:
+      213: 8108620305443299417
+    second: virusinfester_fade_10
+  - first:
+      213: 3235269050416069745
+    second: virusinfester_fade_11
+  - first:
+      213: -5869165089144653589
+    second: virusinfester_fade_12
+  - first:
+      213: 1474402093956357314
+    second: virusinfester_fade_13
+  - first:
+      213: 5722551608457905964
+    second: virusinfester_fade_14
+  - first:
+      213: -7542975915080410754
+    second: virusinfester_fade_15
+  - first:
+      213: -771161535814592379
+    second: virusinfester_fade_16
+  - first:
+      213: -7129950054802331878
+    second: virusinfester_fade_17
+  - first:
+      213: 3522140690807131825
+    second: virusinfester_fade_18
+  - first:
+      213: -5978338867385420993
+    second: virusinfester_fade_19
+  - first:
+      213: 3207137586102065949
+    second: virusinfester_fade_20
+  - first:
+      213: -661732437237385034
+    second: virusinfester_fade_21
+  - first:
+      213: -243916974375985540
+    second: virusinfester_fade_22
+  - first:
+      213: -7725382013506526256
+    second: virusinfester_fade_23
+  - first:
+      213: 8463558640180715891
+    second: virusinfester_fade_24
+  - first:
+      213: -2963541362179232049
+    second: virusinfester_fade_25
+  - first:
+      213: 8846726281464201748
+    second: virusinfester_fade_26
+  - first:
+      213: -6306043726775793587
+    second: virusinfester_fade_27
+  - first:
+      213: -7551402510345105431
+    second: virusinfester_fade_28
+  - first:
+      213: 4121475097354272405
+    second: virusinfester_fade_29
+  - first:
+      213: 4195131450415662666
+    second: virusinfester_fade_30
+  - first:
+      213: 6010281496970269437
+    second: virusinfester_fade_31
+  - first:
+      213: 6226149277077424327
+    second: virusinfester_fade_32
+  - first:
+      213: -744853419673781533
+    second: virusinfester_fade_33
+  - first:
+      213: -430179844353545253
+    second: virusinfester_fade_34
+  - first:
+      213: -3962357693531094997
+    second: virusinfester_fade_35
+  - first:
+      213: 817498248899079786
+    second: virusinfester_fade_36
+  - first:
+      213: -3546222071682726387
+    second: virusinfester_fade_37
+  - first:
+      213: 3003676696821896255
+    second: virusinfester_fade_38
+  - first:
+      213: -4340247792480529004
+    second: virusinfester_fade_39
+  - first:
+      213: 6865488116482523268
+    second: virusinfester_fade_40
+  - first:
+      213: 8754917064769890629
+    second: virusinfester_fade_41
+  - first:
+      213: 6971375995695270445
+    second: virusinfester_fade_42
+  - first:
+      213: 6742064237097877549
+    second: virusinfester_fade_43
+  - first:
+      213: 5179356282090913247
+    second: virusinfester_fade_44
+  - first:
+      213: -2612141578989872462
+    second: virusinfester_fade_45
+  - first:
+      213: 9004437679453238991
+    second: virusinfester_fade_46
+  - first:
+      213: 5066643103634685958
+    second: virusinfester_fade_47
+  - first:
+      213: 5544971679042636347
+    second: virusinfester_fade_48
+  - first:
+      213: 3073690990385217860
+    second: virusinfester_fade_49
+  - first:
+      213: 3290512378869477148
+    second: virusinfester_fade_50
+  - first:
+      213: 2112153423635552842
+    second: virusinfester_fade_51
+  - first:
+      213: -8184808376257019027
+    second: virusinfester_fade_52
+  - first:
+      213: -5089823806445109959
+    second: virusinfester_fade_53
+  - first:
+      213: -8836708897539627668
+    second: virusinfester_fade_54
+  - first:
+      213: 7672291253924643656
+    second: virusinfester_fade_55
+  - first:
+      213: 8436880964354118395
+    second: virusinfester_fade_56
+  - first:
+      213: 2181951786024855966
+    second: virusinfester_fade_57
+  - first:
+      213: -4710027012732316530
+    second: virusinfester_fade_58
+  - first:
+      213: 562311593567246170
+    second: virusinfester_fade_59
+  - first:
+      213: -7670249272365703654
+    second: virusinfester_fade_60
+  - first:
+      213: 3042479911730388568
+    second: virusinfester_fade_61
+  - first:
+      213: 1455735145780614737
+    second: virusinfester_fade_62
+  - first:
+      213: 86852645415301874
+    second: virusinfester_fade_63
+  - first:
+      213: 5216219719177623198
+    second: virusinfester_fade_64
+  - first:
+      213: 9173325755933110141
+    second: virusinfester_fade_65
+  - first:
+      213: 2881857241346395199
+    second: virusinfester_fade_66
+  - first:
+      213: 1013815143601731455
+    second: virusinfester_fade_67
+  - first:
+      213: 1173147522218031576
+    second: virusinfester_fade_68
+  - first:
+      213: -7757667341400187383
+    second: virusinfester_fade_69
+  - first:
+      213: -3449289483479096821
+    second: virusinfester_fade_70
+  - first:
+      213: -8478057673302388658
+    second: virusinfester_fade_71
+  - first:
+      213: 7403356007234200184
+    second: virusinfester_fade_72
+  - first:
+      213: -2962286822476507732
+    second: virusinfester_fade_73
+  - first:
+      213: -3816848477089563409
+    second: virusinfester_fade_74
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: virusinfester_fade_0
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1820.7
+        width: 200.8
+        height: 202.3
+      alignment: 9
+      pivot: {x: 0.44046015, y: 0.46060273}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9e5ef94c43034900800000000000000
+      internalID: 667380795974770333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: virusinfester_fade_1
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1820.7
+        width: 200.8
+        height: 202.3
+      alignment: 9
+      pivot: {x: 0.44046, y: 0.48030233}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 419cbc98d0a839270800000000000000
+      internalID: 8256094332651292948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: virusinfester_fade_2
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 1820.7
+        width: 200.8
+        height: 202.3
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97c9773849b4b6630800000000000000
+      internalID: 3921311001789045881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: virusinfester_fade_3
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1820.7
+        width: 200.8
+        height: 202.3
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6287d12997ec5cd0800000000000000
+      internalID: -2567923042624241041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: virusinfester_fade_4
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1828
+        width: 214
+        height: 195
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d078666e76be41740800000000000000
+      internalID: 5121977507706734349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: virusinfester_fade_5
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 1821
+        width: 201
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 803f77134fab822b0800000000000000
+      internalID: -5609027777925221624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: virusinfester_fade_6
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 1821
+        width: 201
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85e9b788e22851f00800000000000000
+      internalID: 1086918021449752152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: virusinfester_fade_7
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 1817
+        width: 201
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75fe651146d6676f0800000000000000
+      internalID: -687241616572354729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: virusinfester_fade_8
+      rect:
+        serializedVersion: 2
+        x: 1672
+        y: 1821
+        width: 201
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 887c73d81d4c6bfe0800000000000000
+      internalID: -1173534248586983544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: virusinfester_fade_10
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1601
+        width: 215
+        height: 220
+      alignment: 9
+      pivot: {x: 0.42061347, y: 0.40150392}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 950a77cd43b978070800000000000000
+      internalID: 8108620305443299417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: virusinfester_fade_11
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1597
+        width: 200
+        height: 224
+      alignment: 9
+      pivot: {x: 0.46030673, y: 0.42120352}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17c7dd66f0cf5ec20800000000000000
+      internalID: 3235269050416069745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: virusinfester_fade_12
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 1609
+        width: 191
+        height: 212
+      alignment: 9
+      pivot: {x: 0.48015395, y: 0.42120352}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be8b86592798c8ea0800000000000000
+      internalID: -5869165089144653589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: virusinfester_fade_13
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1601
+        width: 187
+        height: 220
+      alignment: 9
+      pivot: {x: 0.51984787, y: 0.47713345}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cc5c5a84e0267410800000000000000
+      internalID: 1474402093956357314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: virusinfester_fade_14
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1609
+        width: 202
+        height: 212
+      alignment: 9
+      pivot: {x: 0.53969425, y: 0.42120352}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2749f65e569a6f40800000000000000
+      internalID: 5722551608457905964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: virusinfester_fade_15
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 1613
+        width: 191
+        height: 208
+      alignment: 9
+      pivot: {x: 0.515988, y: 0.3988536}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e791e40ae57f15790800000000000000
+      internalID: -7542975915080410754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: virusinfester_fade_16
+      rect:
+        serializedVersion: 2
+        x: 1269
+        y: 1625
+        width: 172
+        height: 196
+      alignment: 9
+      pivot: {x: 0.5463406, y: 0.39833784}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58893514ba84c45f0800000000000000
+      internalID: -771161535814592379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: virusinfester_fade_17
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 1629
+        width: 176
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5908453, y: 0.3796927}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a17ea3583345d0d90800000000000000
+      internalID: -7129950054802331878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: virusinfester_fade_18
+      rect:
+        serializedVersion: 2
+        x: 1670
+        y: 1616
+        width: 197
+        height: 193
+      alignment: 9
+      pivot: {x: 0.52023023, y: 0.47935304}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1be02841c4821e030800000000000000
+      internalID: 3522140690807131825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: virusinfester_fade_20
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 1398
+        width: 187
+        height: 187
+      alignment: 9
+      pivot: {x: 0.47868887, y: 0.45255968}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1bda6574aa028c20800000000000000
+      internalID: 3207137586102065949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: virusinfester_fade_21
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1398
+        width: 184
+        height: 195
+      alignment: 9
+      pivot: {x: 0.52165884, y: 0.43869066}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b8bc16badd01d6f0800000000000000
+      internalID: -661732437237385034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: virusinfester_fade_22
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 1405
+        width: 191
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7e91abddce6d9cf0800000000000000
+      internalID: -243916974375985540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: virusinfester_fade_23
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 1394
+        width: 195
+        height: 183
+      alignment: 9
+      pivot: {x: 0.50000095, y: 0.517891}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d360c25dfde9c490800000000000000
+      internalID: -7725382013506526256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: virusinfester_fade_24
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1394
+        width: 182
+        height: 191
+      alignment: 9
+      pivot: {x: 0.58220506, y: 0.44686568}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 371e8abcdb9947570800000000000000
+      internalID: 8463558640180715891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: virusinfester_fade_25
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 1394
+        width: 175
+        height: 191
+      alignment: 9
+      pivot: {x: 0.5556041, y: 0.48081514}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fce212625d26fd6d0800000000000000
+      internalID: -2963541362179232049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: virusinfester_fade_26
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 1390
+        width: 188
+        height: 197
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41249c75ea2e5ca70800000000000000
+      internalID: 8846726281464201748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: virusinfester_fade_27
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 1394
+        width: 176
+        height: 187
+      alignment: 9
+      pivot: {x: 0.57003784, y: 0.4514023}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d48c27f24ae6c78a0800000000000000
+      internalID: -6306043726775793587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: virusinfester_fade_28
+      rect:
+        serializedVersion: 2
+        x: 1670
+        y: 1408
+        width: 205
+        height: 172
+      alignment: 9
+      pivot: {x: 0.5000036, y: 0.4729962}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ef03e60d67043790800000000000000
+      internalID: -7551402510345105431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: virusinfester_fade_30
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1177
+        width: 185
+        height: 197
+      alignment: 9
+      pivot: {x: 0.43537506, y: 0.4190835}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a464810d3d9183a30800000000000000
+      internalID: 4195131450415662666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: virusinfester_fade_31
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1173
+        width: 188
+        height: 201
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df2140b7d2fc86350800000000000000
+      internalID: 6010281496970269437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: virusinfester_fade_32
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 1181
+        width: 187
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c841caa7c9b76650800000000000000
+      internalID: 6226149277077424327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: virusinfester_fade_33
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1177
+        width: 199
+        height: 197
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eafb9ed2cfb9a5f0800000000000000
+      internalID: -744853419673781533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: virusinfester_fade_34
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1177
+        width: 206
+        height: 209
+      alignment: 9
+      pivot: {x: 0.5386921, y: 0.48093307}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdb26c3f5b1b70af0800000000000000
+      internalID: -430179844353545253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: virusinfester_fade_35
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 1181
+        width: 201
+        height: 193
+      alignment: 9
+      pivot: {x: 0.5396546, y: 0.45870417}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b200b04dba0e209c0800000000000000
+      internalID: -3962357693531094997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: virusinfester_fade_36
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 1165
+        width: 216
+        height: 205
+      alignment: 9
+      pivot: {x: 0.5553504, y: 0.5000012}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6e222a7356585b00800000000000000
+      internalID: 817498248899079786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: virusinfester_fade_37
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 1181
+        width: 200
+        height: 189
+      alignment: 9
+      pivot: {x: 0.6594104, y: 0.45783085}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0683b280d949cec0800000000000000
+      internalID: -3546222071682726387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: virusinfester_fade_38
+      rect:
+        serializedVersion: 2
+        x: 1670
+        y: 1189
+        width: 217
+        height: 191
+      alignment: 9
+      pivot: {x: 0.46327204, y: 0.45941067}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f341036aa043fa920800000000000000
+      internalID: 3003676696821896255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: virusinfester_fade_40
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 962
+        width: 189
+        height: 196
+      alignment: 9
+      pivot: {x: 0.45782837, y: 0.45933563}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4804b98211d174f50800000000000000
+      internalID: 6865488116482523268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: virusinfester_fade_41
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 966
+        width: 200
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5496d935fa6bf7970800000000000000
+      internalID: 8754917064769890629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: virusinfester_fade_42
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 966
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2a0a1b388d4fb060800000000000000
+      internalID: 6971375995695270445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: virusinfester_fade_43
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 962
+        width: 195
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d208511e3bf909d50800000000000000
+      internalID: 6742064237097877549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: virusinfester_fade_44
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 966
+        width: 194
+        height: 192
+      alignment: 9
+      pivot: {x: 0.56162727, y: 0.43773207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdd773fd815c0e740800000000000000
+      internalID: 5179356282090913247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: virusinfester_fade_45
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 958
+        width: 209
+        height: 211
+      alignment: 9
+      pivot: {x: 0.5381368, y: 0.44333914}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bad749d21fcfbbd0800000000000000
+      internalID: -2612141578989872462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: virusinfester_fade_46
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 954
+        width: 204
+        height: 200
+      alignment: 9
+      pivot: {x: 0.61721265, y: 0.5000012}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc6f3f5ac5036fc70800000000000000
+      internalID: 9004437679453238991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: virusinfester_fade_47
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 958
+        width: 208
+        height: 200
+      alignment: 9
+      pivot: {x: 0.5730908, y: 0.44022462}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60004dbfe05505640800000000000000
+      internalID: 5066643103634685958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: virusinfester_fade_48
+      rect:
+        serializedVersion: 2
+        x: 1670
+        y: 949
+        width: 201
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3a00f21d52b3fc40800000000000000
+      internalID: 5544971679042636347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: virusinfester_fade_50
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 739
+        width: 201
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1f6a8f139f3aad20800000000000000
+      internalID: 3290512378869477148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: virusinfester_fade_51
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 731
+        width: 201
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4a1cee1950ef4d10800000000000000
+      internalID: 2112153423635552842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: virusinfester_fade_52
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 731
+        width: 201
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d630f829528b96e80800000000000000
+      internalID: -8184808376257019027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: virusinfester_fade_53
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 735
+        width: 201
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93d338f07305d59b0800000000000000
+      internalID: -5089823806445109959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: virusinfester_fade_54
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 739
+        width: 201
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c65ed9a9314bd5580800000000000000
+      internalID: -8836708897539627668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: virusinfester_fade_55
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 735
+        width: 201
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 843c383fe34797a60800000000000000
+      internalID: 7672291253924643656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: virusinfester_fade_56
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 731
+        width: 201
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf2159c5982d51570800000000000000
+      internalID: 8436880964354118395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: virusinfester_fade_57
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 735
+        width: 201
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e996a03c699d74e10800000000000000
+      internalID: 2181951786024855966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: virusinfester_fade_58
+      rect:
+        serializedVersion: 2
+        x: 1670
+        y: 743
+        width: 201
+        height: 202
+      alignment: 9
+      pivot: {x: 0.5198282, y: 0.4605432}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e84989ff26f92aeb0800000000000000
+      internalID: -4710027012732316530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

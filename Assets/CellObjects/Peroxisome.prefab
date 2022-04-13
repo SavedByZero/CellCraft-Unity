@@ -538,7 +538,7 @@ MonoBehaviour:
   - fuse:209-225
   - eat:226-305
   - digest:306-344
-  - bug:345-433
+  - bud:345-433
   _frameInterval: 0.0166
   radius2: 0
   loc_bubble: {fileID: 0}

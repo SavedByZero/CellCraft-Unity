@@ -114,13 +114,12 @@ MonoBehaviour:
   Loop: 0
   FrameNames:
   - normal:0-0-loop
-  - die:1-14
+  - recycle:1-14
   NameIndexPairs: []
   _frameInterval: 0.0166
   radius2: 0
   loc_bubble: {fileID: 0}
   clip: {fileID: 0}
-  anim: {fileID: 0}
   anim_wiggle: 1
   anim_vital: 0
   isMoving: 0

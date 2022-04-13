@@ -275,21 +275,15 @@ MonoBehaviour:
   - die:81-107
   - die_thread:108-137
   - hardKill:138-167
+  - recycle:81-107
   _frameInterval: 0.0166
   radius2: 4
   loc_bubble: {fileID: 0}
   clip: {fileID: 0}
-  anim: {fileID: 0}
   anim_wiggle: 1
   anim_vital: 0
   isMoving: 0
   v_move: {x: 0, y: 0}
-  Normal: {fileID: 0}
-  Divide: {fileID: 0}
-  Recycle: {fileID: 0}
-  Damage1: {fileID: 0}
-  Damage2: {fileID: 0}
-  Plop: {fileID: 0}
   isDoomed: 0
   isRecycling: 0
   text_id: unknown
@@ -305,13 +299,6 @@ MonoBehaviour:
   isOutsideCell: 0
   doesCollide: 0
   hardCollide: 0
-  Grow: {fileID: 0}
-  Thread: {fileID: 0}
-  Dock: {fileID: 0}
-  Descend: {fileID: 0}
-  Die: {fileID: 0}
-  Die_Thread: {fileID: 0}
-  HardKill: {fileID: 0}
   product_virus_vesicle: 0
   na_value: 1
   slicer_killed: 0

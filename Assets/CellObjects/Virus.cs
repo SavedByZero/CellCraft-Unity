@@ -4,10 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using UnityEngine;
+using DG.Tweening;
 using System.Collections;
 
 public class Virus : CellObject
 {
+	
+
+
+
 	public string type;
 	public bool atCell = false; //at the membrane
 	public bool inCell = false; //inside the cell
@@ -657,8 +662,38 @@ public class Virus : CellObject
 
 	public override void playAnim(string label)
 	{
-
+		//grow will be a scaling version of normal 
+		//land will be the height scaling from 108/108 to 85/108, and it moving down slightly 
+		//fade will it be either scaling down or shrinking EXCEPT for the infester, which has specialized animation. 
+		//exit and invade will be the same set of frames 
+		//eaten is just the virus tweening down slightly 
+		//recycle is it scaling down (again)
+		//notes:
+		//anim_invade will need an onAnimFinish for the invader type
 		base.playAnim(label);
+		switch (label)  //handle procedural movements that replace unnecessary frame animations 
+        {
+			case "grow":
+				this.transform.localScale = Vector3.one * 0.05f;
+				this.transform.DOScale(1, 1f).OnComplete(new TweenCallback(delegate { onAnimFinish(CellGameObject.ANIM_GROW); }));
+				break;
+			case "land":
+				this.transform.DOScale(85f/108f, 1f).OnComplete(new TweenCallback(delegate { onAnimFinish(CellGameObject.ANIM_LAND); }));
+				this.transform.DOBlendableLocalMoveBy(new Vector3(0, -0.5f, 0), 1);
+				break;
+			case "fade":
+				if (this is VirusInvader || this is VirusInjector)
+					this.transform.DOScale(0,1).OnComplete(new TweenCallback(delegate { onAnimFinish(CellGameObject.ANIM_FADE); }));
+				break;
+			case "eaten":
+				this.transform.DOBlendableLocalMoveBy(new Vector3(0,-0.5f,0),1);
+				break;
+			case "recycle":
+			case "die":
+				this.transform.DOScale(85f / 108f, 1f).OnComplete(new TweenCallback(delegate { onAnimFinish(CellGameObject.ANIM_RECYCLE); }));
+				break;
+
+		}
 		if (!dying)
 		{   //you are not allowed to start an animation while dying
 			//if we are playing a death animation, that's the end of me

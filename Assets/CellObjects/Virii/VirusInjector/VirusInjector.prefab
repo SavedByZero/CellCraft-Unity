@@ -1,0 +1,184 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3096014892831300789
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3096014892831300778}
+  - component: {fileID: 3096014892831300776}
+  - component: {fileID: 3096014892831300779}
+  m_Layer: 0
+  m_Name: VirusInjector
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3096014892831300778
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3096014892831300789}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &3096014892831300776
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3096014892831300789}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 0
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!114 &3096014892831300779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3096014892831300789}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 083864b17620eae4785d8f1e0586e3ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Sprites:
+  - {fileID: 21300000, guid: 99f28fe5cdeb3a6498d8b4f4a34a797f, type: 3}
+  - {fileID: 4259781518403366248, guid: 50f6653961870ad4a95082e0ebbaa1d8, type: 3}
+  - {fileID: 91426718026921911, guid: 50f6653961870ad4a95082e0ebbaa1d8, type: 3}
+  - {fileID: -6251336164371456737, guid: 50f6653961870ad4a95082e0ebbaa1d8, type: 3}
+  - {fileID: 6273827243280019085, guid: 50f6653961870ad4a95082e0ebbaa1d8, type: 3}
+  - {fileID: -342224968553855961, guid: 50f6653961870ad4a95082e0ebbaa1d8, type: 3}
+  - {fileID: 235002351717557460, guid: 50f6653961870ad4a95082e0ebbaa1d8, type: 3}
+  - {fileID: 3457804248031332551, guid: 50f6653961870ad4a95082e0ebbaa1d8, type: 3}
+  - {fileID: -3513428479314654136, guid: 50f6653961870ad4a95082e0ebbaa1d8, type: 3}
+  - {fileID: -2158608127275075486, guid: 50f6653961870ad4a95082e0ebbaa1d8, type: 3}
+  - {fileID: -64971979501477415, guid: 50f6653961870ad4a95082e0ebbaa1d8, type: 3}
+  - {fileID: -1834462813324738762, guid: 50f6653961870ad4a95082e0ebbaa1d8, type: 3}
+  - {fileID: 5503859557101657478, guid: 50f6653961870ad4a95082e0ebbaa1d8, type: 3}
+  - {fileID: 8249885849236514980, guid: 50f6653961870ad4a95082e0ebbaa1d8, type: 3}
+  - {fileID: -1648668284731621652, guid: 50f6653961870ad4a95082e0ebbaa1d8, type: 3}
+  - {fileID: 4849281816010348898, guid: 50f6653961870ad4a95082e0ebbaa1d8, type: 3}
+  - {fileID: 4874817559508315107, guid: 50f6653961870ad4a95082e0ebbaa1d8, type: 3}
+  - {fileID: -7264367971748475009, guid: 50f6653961870ad4a95082e0ebbaa1d8, type: 3}
+  - {fileID: 1045537885337296666, guid: 50f6653961870ad4a95082e0ebbaa1d8, type: 3}
+  - {fileID: 8074275091700386134, guid: 50f6653961870ad4a95082e0ebbaa1d8, type: 3}
+  - {fileID: 906409710120981322, guid: 50f6653961870ad4a95082e0ebbaa1d8, type: 3}
+  - {fileID: -4429031907137585456, guid: 50f6653961870ad4a95082e0ebbaa1d8, type: 3}
+  - {fileID: 4665690925291279937, guid: 50f6653961870ad4a95082e0ebbaa1d8, type: 3}
+  - {fileID: 3192985863246986622, guid: 50f6653961870ad4a95082e0ebbaa1d8, type: 3}
+  - {fileID: 7684861124631058720, guid: 50f6653961870ad4a95082e0ebbaa1d8, type: 3}
+  - {fileID: -7335535667430449373, guid: 50f6653961870ad4a95082e0ebbaa1d8, type: 3}
+  - {fileID: 5320599678978661037, guid: 50f6653961870ad4a95082e0ebbaa1d8, type: 3}
+  - {fileID: -3410688657470665674, guid: 50f6653961870ad4a95082e0ebbaa1d8, type: 3}
+  - {fileID: 105324778892929693, guid: 50f6653961870ad4a95082e0ebbaa1d8, type: 3}
+  - {fileID: 2840595849061215116, guid: 50f6653961870ad4a95082e0ebbaa1d8, type: 3}
+  - {fileID: 3656896419275059464, guid: 50f6653961870ad4a95082e0ebbaa1d8, type: 3}
+  SubClip: {fileID: 0}
+  Loop: 0
+  FrameNames: []
+  NameIndexPairs:
+  - normal:0-0-loop
+  - grow:0-0
+  - land:0-0
+  - fade:0-0
+  - exit:1-30
+  - eaten:0-0
+  - recycle:0-0
+  _frameInterval: 0.0166
+  radius2: 625
+  loc_bubble: {fileID: 0}
+  clip: {fileID: 0}
+  anim_wiggle: 1
+  anim_vital: 0
+  isMoving: 0
+  v_move: {x: 0, y: 0}
+  isDoomed: 0
+  isRecycling: 0
+  text_id: virus_injector
+  num_id: 17
+  recycleOfMany: 0
+  plopDepth: 0
+  is_active: 0
+  is_basicUnit: 0
+  might_collide: 0
+  clip_divide: {fileID: 0}
+  isInVesicle: 0
+  myVesicle: {fileID: 0}
+  isOutsideCell: 0
+  doesCollide: 0
+  hardCollide: 0
+  type: 
+  atCell: 0
+  inCell: 0
+  tauntCount: 0
+  TAUNT_TIME: 15
+  position_state: 0
+  motivation_state: -1
+  condition_state: -1
+  rib: {fileID: 0}
+  nuc: {fileID: 0}
+  entering: 0
+  leaving: 0
+  spawnCount: 2
+  rnaCount: 1
+  p_canvas: {fileID: 0}
+  wave_id: 
+  toCent: 0
+  isNeutralized: 0
+  newnode_count: 0
+  NEWNODE_TIME: 5
+  doesVesicle: 0
+  hasVesicle: 0

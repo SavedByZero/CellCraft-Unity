@@ -1,0 +1,4927 @@
+fileFormatVersion: 2
+guid: 5aa7223760acc014fabfbaaf9ab86d2b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5751333708466500571
+    second: chloro_damage_2_0
+  - first:
+      213: -1170049134199174678
+    second: chloro_damage_2_1
+  - first:
+      213: 5382748965633497359
+    second: chloro_damage_2_2
+  - first:
+      213: -240598646707903928
+    second: chloro_damage_2_3
+  - first:
+      213: 3940796822421385497
+    second: chloro_damage_2_4
+  - first:
+      213: 5181109336028419145
+    second: chloro_damage_2_5
+  - first:
+      213: 8311310698014148260
+    second: chloro_damage_2_6
+  - first:
+      213: 992745367560124342
+    second: chloro_damage_2_7
+  - first:
+      213: -6848312316234578863
+    second: chloro_damage_2_8
+  - first:
+      213: -9093736271367278147
+    second: chloro_damage_2_9
+  - first:
+      213: 1889757034167460199
+    second: chloro_damage_2_10
+  - first:
+      213: -6479566239998070862
+    second: chloro_damage_2_11
+  - first:
+      213: -3049926700227989651
+    second: chloro_damage_2_12
+  - first:
+      213: 6444020637768486934
+    second: chloro_damage_2_13
+  - first:
+      213: -2395341881630770799
+    second: chloro_damage_2_14
+  - first:
+      213: 4483323712873819729
+    second: chloro_damage_2_15
+  - first:
+      213: -5671926481087944668
+    second: chloro_damage_2_16
+  - first:
+      213: 4246033676601479479
+    second: chloro_damage_2_17
+  - first:
+      213: -3940467773854166831
+    second: chloro_damage_2_18
+  - first:
+      213: -6894097579215385445
+    second: chloro_damage_2_19
+  - first:
+      213: -2003258539168948627
+    second: chloro_damage_2_20
+  - first:
+      213: 2698725635012151140
+    second: chloro_damage_2_21
+  - first:
+      213: 7302063234741534595
+    second: chloro_damage_2_22
+  - first:
+      213: -2866857235558816497
+    second: chloro_damage_2_23
+  - first:
+      213: -7437323579237365006
+    second: chloro_damage_2_24
+  - first:
+      213: 4289413998924071612
+    second: chloro_damage_2_25
+  - first:
+      213: 3488138376596255370
+    second: chloro_damage_2_26
+  - first:
+      213: 4223623020807620627
+    second: chloro_damage_2_27
+  - first:
+      213: 7245748613893258129
+    second: chloro_damage_2_28
+  - first:
+      213: 7792968111222970933
+    second: chloro_damage_2_29
+  - first:
+      213: -1672691286278241514
+    second: chloro_damage_2_30
+  - first:
+      213: -7260844400676817611
+    second: chloro_damage_2_31
+  - first:
+      213: -1914390652165259683
+    second: chloro_damage_2_32
+  - first:
+      213: 2796577015196806303
+    second: chloro_damage_2_33
+  - first:
+      213: -6480776496021602492
+    second: chloro_damage_2_34
+  - first:
+      213: -7108118609023964712
+    second: chloro_damage_2_35
+  - first:
+      213: -6786226315865135256
+    second: chloro_damage_2_36
+  - first:
+      213: -1702874373713086781
+    second: chloro_damage_2_37
+  - first:
+      213: 9076967725520637866
+    second: chloro_damage_2_38
+  - first:
+      213: 8400443600056018488
+    second: chloro_damage_2_39
+  - first:
+      213: 2027210479387105828
+    second: chloro_damage_2_40
+  - first:
+      213: -8252910242311909473
+    second: chloro_damage_2_41
+  - first:
+      213: 2945467062226460467
+    second: chloro_damage_2_42
+  - first:
+      213: -308468150797509289
+    second: chloro_damage_2_43
+  - first:
+      213: 5376546025850685983
+    second: chloro_damage_2_44
+  - first:
+      213: -7496027614034293528
+    second: chloro_damage_2_45
+  - first:
+      213: 1690353270917625525
+    second: chloro_damage_2_46
+  - first:
+      213: 2199134805546708492
+    second: chloro_damage_2_47
+  - first:
+      213: -3436035267438885002
+    second: chloro_damage_2_48
+  - first:
+      213: 4141561384617719658
+    second: chloro_damage_2_49
+  - first:
+      213: -2655180170600935433
+    second: chloro_damage_2_50
+  - first:
+      213: -4668565305029762466
+    second: chloro_damage_2_51
+  - first:
+      213: -6352149794867407550
+    second: chloro_damage_2_52
+  - first:
+      213: 8173586840752619829
+    second: chloro_damage_2_53
+  - first:
+      213: 6064570734502048224
+    second: chloro_damage_2_54
+  - first:
+      213: -102007183522380585
+    second: chloro_damage_2_55
+  - first:
+      213: 7783236294748061357
+    second: chloro_damage_2_56
+  - first:
+      213: -4606246819011866286
+    second: chloro_damage_2_57
+  - first:
+      213: 7416917737845767309
+    second: chloro_damage_2_58
+  - first:
+      213: -2354156173294597521
+    second: chloro_damage_2_59
+  - first:
+      213: -4738643513661658712
+    second: chloro_damage_2_60
+  - first:
+      213: 1039081395034920231
+    second: chloro_damage_2_61
+  - first:
+      213: -5182133836403938514
+    second: chloro_damage_2_62
+  - first:
+      213: 1358557368635361124
+    second: chloro_damage_2_63
+  - first:
+      213: -5824910222535662795
+    second: chloro_damage_2_64
+  - first:
+      213: 5057721245515603331
+    second: chloro_damage_2_65
+  - first:
+      213: 5400591708444486123
+    second: chloro_damage_2_66
+  - first:
+      213: -524120386674062940
+    second: chloro_damage_2_67
+  - first:
+      213: 8945736758842433369
+    second: chloro_damage_2_68
+  - first:
+      213: 5160654236472453079
+    second: chloro_damage_2_69
+  - first:
+      213: 3745594711269200452
+    second: chloro_damage_2_70
+  - first:
+      213: 2699482037814892671
+    second: chloro_damage_2_71
+  - first:
+      213: 2457999025802270867
+    second: chloro_damage_2_72
+  - first:
+      213: -2121588370439135617
+    second: chloro_damage_2_73
+  - first:
+      213: 4745575040848237691
+    second: chloro_damage_2_74
+  - first:
+      213: -6066044355569173288
+    second: chloro_damage_2_75
+  - first:
+      213: -636179299599725255
+    second: chloro_damage_2_76
+  - first:
+      213: -2506069764139473037
+    second: chloro_damage_2_77
+  - first:
+      213: -1826472728866836683
+    second: chloro_damage_2_78
+  - first:
+      213: 2193829557996416700
+    second: chloro_damage_2_79
+  - first:
+      213: 8149514693865439482
+    second: chloro_damage_2_80
+  - first:
+      213: -404023917127470527
+    second: chloro_damage_2_81
+  - first:
+      213: 5978851311742875453
+    second: chloro_damage_2_82
+  - first:
+      213: 1953971677211233315
+    second: chloro_damage_2_83
+  - first:
+      213: -2381216486346392909
+    second: chloro_damage_2_84
+  - first:
+      213: -6215410072145784388
+    second: chloro_damage_2_85
+  - first:
+      213: 6827233738937754210
+    second: chloro_damage_2_86
+  - first:
+      213: -834780700128198222
+    second: chloro_damage_2_87
+  - first:
+      213: -5764781700147608262
+    second: chloro_damage_2_88
+  - first:
+      213: 2717157134983878212
+    second: chloro_damage_2_89
+  - first:
+      213: -2420912071562154092
+    second: chloro_damage_2_90
+  - first:
+      213: 3169016278482097398
+    second: chloro_damage_2_91
+  - first:
+      213: 8663711105580570167
+    second: chloro_damage_2_92
+  - first:
+      213: 3391441863872927350
+    second: chloro_damage_2_93
+  - first:
+      213: -7730806181180146821
+    second: chloro_damage_2_94
+  - first:
+      213: 5511278489086104438
+    second: chloro_damage_2_95
+  - first:
+      213: 7843836833004753412
+    second: chloro_damage_2_96
+  - first:
+      213: -7091927737744502233
+    second: chloro_damage_2_97
+  - first:
+      213: -6241113317376369155
+    second: chloro_damage_2_98
+  - first:
+      213: -5396086432418833030
+    second: chloro_damage_2_99
+  - first:
+      213: 7410018987591061349
+    second: chloro_damage_2_100
+  - first:
+      213: -2658299470515040199
+    second: chloro_damage_2_101
+  - first:
+      213: -4035961837353577898
+    second: chloro_damage_2_102
+  - first:
+      213: 8920086761959948114
+    second: chloro_damage_2_103
+  - first:
+      213: 2847706910202101534
+    second: chloro_damage_2_104
+  - first:
+      213: -6263293178656020919
+    second: chloro_damage_2_105
+  - first:
+      213: -7747604772714118926
+    second: chloro_damage_2_106
+  - first:
+      213: 740898274219443389
+    second: chloro_damage_2_107
+  - first:
+      213: -5264679537066865766
+    second: chloro_damage_2_108
+  - first:
+      213: 7820911267378376392
+    second: chloro_damage_2_109
+  - first:
+      213: -5528110072129851915
+    second: chloro_damage_2_110
+  - first:
+      213: 8419350075031893356
+    second: chloro_damage_2_111
+  - first:
+      213: 5566102524871644205
+    second: chloro_damage_2_112
+  - first:
+      213: -3875827060016911221
+    second: chloro_damage_2_113
+  - first:
+      213: 3849338761343598086
+    second: chloro_damage_2_114
+  - first:
+      213: -3442882658441559369
+    second: chloro_damage_2_115
+  - first:
+      213: -6880817520404500035
+    second: chloro_damage_2_116
+  - first:
+      213: 7784846747319033334
+    second: chloro_damage_2_117
+  - first:
+      213: -1897395409339585962
+    second: chloro_damage_2_118
+  - first:
+      213: -1751421689006044571
+    second: chloro_damage_2_119
+  - first:
+      213: 5743637022413896258
+    second: chloro_damage_2_120
+  - first:
+      213: -8220757486282323888
+    second: chloro_damage_2_121
+  - first:
+      213: -4096247577028224797
+    second: chloro_damage_2_122
+  - first:
+      213: 3102776443502387287
+    second: chloro_damage_2_123
+  - first:
+      213: -8799418196480591950
+    second: chloro_damage_2_124
+  - first:
+      213: -2467982225362369609
+    second: chloro_damage_2_125
+  - first:
+      213: 1587095983189591603
+    second: chloro_damage_2_126
+  - first:
+      213: 4871270634418370670
+    second: chloro_damage_2_127
+  - first:
+      213: -214603738611754702
+    second: chloro_damage_2_128
+  - first:
+      213: 9118322006800618525
+    second: chloro_damage_2_129
+  - first:
+      213: -4563966448953359127
+    second: chloro_damage_2_130
+  - first:
+      213: 3249819937393177955
+    second: chloro_damage_2_131
+  - first:
+      213: -6832696301971982025
+    second: chloro_damage_2_132
+  - first:
+      213: 8551747332733566682
+    second: chloro_damage_2_133
+  - first:
+      213: 6630555262088447859
+    second: chloro_damage_2_134
+  - first:
+      213: -3204758233213379509
+    second: chloro_damage_2_135
+  - first:
+      213: -5091634837162032398
+    second: chloro_damage_2_136
+  - first:
+      213: -1815515199968311952
+    second: chloro_damage_2_137
+  - first:
+      213: -1975230035137725944
+    second: chloro_damage_2_138
+  - first:
+      213: 7759563677564371112
+    second: chloro_damage_2_139
+  - first:
+      213: -6379918892387460090
+    second: chloro_damage_2_140
+  - first:
+      213: -5346363346839847408
+    second: chloro_damage_2_141
+  - first:
+      213: -4125819660522169988
+    second: chloro_damage_2_142
+  - first:
+      213: -8036603448306877114
+    second: chloro_damage_2_143
+  - first:
+      213: -3305915821134219374
+    second: chloro_damage_2_144
+  - first:
+      213: -3234257656397988652
+    second: chloro_damage_2_145
+  - first:
+      213: -4228882066284361740
+    second: chloro_damage_2_146
+  - first:
+      213: -7707225676854066097
+    second: chloro_damage_2_147
+  - first:
+      213: 6571259258594340304
+    second: chloro_damage_2_148
+  - first:
+      213: -5276293463189298293
+    second: chloro_damage_2_149
+  - first:
+      213: -7807290416125982890
+    second: chloro_damage_2_150
+  - first:
+      213: 3953978861090484789
+    second: chloro_damage_2_151
+  - first:
+      213: 2780093246961947907
+    second: chloro_damage_2_152
+  - first:
+      213: -8317055725013007882
+    second: chloro_damage_2_153
+  - first:
+      213: 8654110209755583355
+    second: chloro_damage_2_154
+  - first:
+      213: 548446510071929883
+    second: chloro_damage_2_155
+  - first:
+      213: 6108443452621293466
+    second: chloro_damage_2_156
+  - first:
+      213: 1687435161720408055
+    second: chloro_damage_2_157
+  - first:
+      213: 6123512261039645638
+    second: chloro_damage_2_158
+  - first:
+      213: 1198101159627240383
+    second: chloro_damage_2_159
+  - first:
+      213: -1052325568277203473
+    second: chloro_damage_2_160
+  - first:
+      213: -8705998236282066527
+    second: chloro_damage_2_161
+  - first:
+      213: -6726410725281241627
+    second: chloro_damage_2_162
+  - first:
+      213: -4125748170900004893
+    second: chloro_damage_2_163
+  - first:
+      213: -3474493348250591754
+    second: chloro_damage_2_164
+  - first:
+      213: 6770950241121861242
+    second: chloro_damage_2_165
+  - first:
+      213: 3681866884415461486
+    second: chloro_damage_2_166
+  - first:
+      213: -5017483294603339742
+    second: chloro_damage_2_167
+  - first:
+      213: 6596540521580765741
+    second: chloro_damage_2_168
+  - first:
+      213: -8219803316489886900
+    second: chloro_damage_2_169
+  - first:
+      213: -8445881491840982878
+    second: chloro_damage_2_170
+  - first:
+      213: -5011630961042833727
+    second: chloro_damage_2_171
+  - first:
+      213: -7001690358874300213
+    second: chloro_damage_2_172
+  - first:
+      213: -4016141767442461171
+    second: chloro_damage_2_173
+  - first:
+      213: -7197504109942966051
+    second: chloro_damage_2_174
+  - first:
+      213: 3196941437890067938
+    second: chloro_damage_2_175
+  - first:
+      213: -2439734165985969552
+    second: chloro_damage_2_176
+  - first:
+      213: 4328497273680985472
+    second: chloro_damage_2_177
+  - first:
+      213: 5264784132410443352
+    second: chloro_damage_2_178
+  - first:
+      213: 9051927349208950922
+    second: chloro_damage_2_179
+  - first:
+      213: 3286423017183369315
+    second: chloro_damage_2_180
+  - first:
+      213: -1126669753081003582
+    second: chloro_damage_2_181
+  - first:
+      213: -2479103703868416759
+    second: chloro_damage_2_182
+  - first:
+      213: 3585735866542668927
+    second: chloro_damage_2_183
+  - first:
+      213: -7531074181529338688
+    second: chloro_damage_2_184
+  - first:
+      213: -5630977122616289747
+    second: chloro_damage_2_185
+  - first:
+      213: 1953680039358290991
+    second: chloro_damage_2_186
+  - first:
+      213: 3297361459013949181
+    second: chloro_damage_2_187
+  - first:
+      213: -1750030568367210677
+    second: chloro_damage_2_188
+  - first:
+      213: 4483022036893540947
+    second: chloro_damage_2_189
+  - first:
+      213: -1991115775886632034
+    second: chloro_damage_2_190
+  - first:
+      213: 5777633228671010010
+    second: chloro_damage_2_191
+  - first:
+      213: -5480545826486689865
+    second: chloro_damage_2_192
+  - first:
+      213: -2735762401704900668
+    second: chloro_damage_2_193
+  - first:
+      213: -5286103654724624195
+    second: chloro_damage_2_194
+  - first:
+      213: 7824465449489085757
+    second: chloro_damage_2_195
+  - first:
+      213: 7604387224108000561
+    second: chloro_damage_2_196
+  - first:
+      213: 800745730653110740
+    second: chloro_damage_2_197
+  - first:
+      213: 4783194844218524105
+    second: chloro_damage_2_198
+  - first:
+      213: 7513994650679975358
+    second: chloro_damage_2_199
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: chloro_damage_2_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1958
+        width: 54
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd330e53987d0df40800000000000000
+      internalID: 5751333708466500571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_1
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1958
+        width: 54
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae90e4af28623cfe0800000000000000
+      internalID: -1170049134199174678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_2
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1958
+        width: 54
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f099fab4aad53ba40800000000000000
+      internalID: 5382748965633497359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_3
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1958
+        width: 54
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84229893ec839acf0800000000000000
+      internalID: -240598646707903928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_4
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1958
+        width: 53
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9113a6ca4d580b630800000000000000
+      internalID: 3940796822421385497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_5
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1958
+        width: 52
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9441f6c8d7ff6e740800000000000000
+      internalID: 5181109336028419145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_6
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 1958
+        width: 52
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a6890d6b05b75370800000000000000
+      internalID: 8311310698014148260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_7
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 1958
+        width: 52
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b7f5d9e6a0f6cd00800000000000000
+      internalID: 992745367560124342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_8
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 1958
+        width: 52
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 154c7e77b38e5f0a0800000000000000
+      internalID: -6848312316234578863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_9
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 1958
+        width: 52
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db17118ba0f8cc180800000000000000
+      internalID: -9093736271367278147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_10
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 1959
+        width: 52
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 761e85d9204c93a10800000000000000
+      internalID: 1889757034167460199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_11
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 1959
+        width: 52
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bf2d4eb5d4f316a0800000000000000
+      internalID: -6479566239998070862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_12
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 1959
+        width: 52
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6f6ee943db7ca5d0800000000000000
+      internalID: -3049926700227989651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_13
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 1959
+        width: 52
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6101a7fc0a2cd6950800000000000000
+      internalID: 6444020637768486934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_14
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 1959
+        width: 52
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19938cdef3902ced0800000000000000
+      internalID: -2395341881630770799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_15
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1879
+        width: 52
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15eede6c927f73e30800000000000000
+      internalID: 4483323712873819729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_16
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1879
+        width: 51
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4282f96aae44941b0800000000000000
+      internalID: -5671926481087944668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_17
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1879
+        width: 51
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7315d26e121fcea30800000000000000
+      internalID: 4246033676601479479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_18
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1879
+        width: 51
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d05c8aef65a059c0800000000000000
+      internalID: -3940467773854166831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_19
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1879
+        width: 51
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9c8cf737ce3350a0800000000000000
+      internalID: -6894097579215385445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_20
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1879
+        width: 51
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6e119be8fef234e0800000000000000
+      internalID: -2003258539168948627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_21
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 1879
+        width: 51
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 467c325aaacc37520800000000000000
+      internalID: 2698725635012151140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_22
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 1880
+        width: 51
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38f7532f2d3265560800000000000000
+      internalID: 7302063234741534595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_23
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 1880
+        width: 51
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0522c49880e638d0800000000000000
+      internalID: -2866857235558816497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_24
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 1880
+        width: 51
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fa8bebfb9159c890800000000000000
+      internalID: -7437323579237365006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_25
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 1880
+        width: 51
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb205744e4f078b30800000000000000
+      internalID: 4289413998924071612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_26
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 1880
+        width: 50
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a827d606f5b586030800000000000000
+      internalID: 3488138376596255370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_27
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 1880
+        width: 49
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 318866c72c25d9a30800000000000000
+      internalID: 4223623020807620627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_28
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1880
+        width: 49
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19bf2e689f11e8460800000000000000
+      internalID: 7245748613893258129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_29
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 1880
+        width: 49
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53a546f453f262c60800000000000000
+      internalID: 7792968111222970933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_30
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1800
+        width: 49
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6138e7e232869c8e0800000000000000
+      internalID: -1672691286278241514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_31
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1800
+        width: 49
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5353648bc7c4c3b90800000000000000
+      internalID: -7260844400676817611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_32
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1800
+        width: 49
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5e7c5048d7be65e0800000000000000
+      internalID: -1914390652165259683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_33
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1800
+        width: 49
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9ce3d97aff6fc620800000000000000
+      internalID: 2796577015196806303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_34
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1801
+        width: 49
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44f7eed0d18af06a0800000000000000
+      internalID: -6480776496021602492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_35
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1801
+        width: 49
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d968c719c3ea5d90800000000000000
+      internalID: -7108118609023964712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_36
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1801
+        width: 49
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8676375ee1b72d1a0800000000000000
+      internalID: -6786226315865135256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_37
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 1801
+        width: 49
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c637b187cc2e58e0800000000000000
+      internalID: -1702874373713086781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_38
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 1801
+        width: 49
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aafc755fd0ed7fd70800000000000000
+      internalID: 9076967725520637866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_39
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 1801
+        width: 49
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 836ea0162fe549470800000000000000
+      internalID: 8400443600056018488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_40
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 1801
+        width: 48
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42a51dcb039122c10800000000000000
+      internalID: 2027210479387105828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_41
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 1801
+        width: 48
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9fc0d34cd5c77d80800000000000000
+      internalID: -8252910242311909473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_42
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 1801
+        width: 48
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33f1f95ffa660e820800000000000000
+      internalID: 2945467062226460467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_43
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1801
+        width: 48
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75d5137e9d918bbf0800000000000000
+      internalID: -308468150797509289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_44
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 1801
+        width: 48
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1a4e55df145d9a40800000000000000
+      internalID: 5376546025850685983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_45
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 1721
+        width: 47
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ec87f6c992c8f790800000000000000
+      internalID: -7496027614034293528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_46
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1721
+        width: 48
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b6f6f11857557710800000000000000
+      internalID: 1690353270917625525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_47
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1721
+        width: 48
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0e2fc14475e48e10800000000000000
+      internalID: 2199134805546708492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_48
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1721
+        width: 48
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67747901120c050d0800000000000000
+      internalID: -3436035267438885002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_49
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1721
+        width: 48
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a673d99e228c97930800000000000000
+      internalID: 4141561384617719658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_50
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 1722
+        width: 47
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ff8bacd3b7e62bd0800000000000000
+      internalID: -2655180170600935433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_51
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1722
+        width: 47
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e52ecf6179ce53fb0800000000000000
+      internalID: -4668565305029762466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_52
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 1722
+        width: 47
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2459bdcaa61a8d7a0800000000000000
+      internalID: -6352149794867407550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_53
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 1722
+        width: 47
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5310ed71de96e6170800000000000000
+      internalID: 8173586840752619829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_54
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 1722
+        width: 47
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e1793993fea92450800000000000000
+      internalID: 6064570734502048224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_55
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 1722
+        width: 46
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d44c9dc109959ef0800000000000000
+      internalID: -102007183522380585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_56
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 1722
+        width: 46
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daeb2673c2c930c60800000000000000
+      internalID: 7783236294748061357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_57
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 1722
+        width: 46
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 251560d4ce25310c0800000000000000
+      internalID: -4606246819011866286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_58
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 1722
+        width: 46
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8c3794d26f2ee660800000000000000
+      internalID: 7416917737845767309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_59
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 1722
+        width: 46
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6a8bf8ee6b545fd0800000000000000
+      internalID: -2354156173294597521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_60
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 1642
+        width: 46
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a9ecfaa4d4fc3eb0800000000000000
+      internalID: -4738643513661658712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_61
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 1642
+        width: 46
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72516c3060f8b6e00800000000000000
+      internalID: 1039081395034920231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_62
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1642
+        width: 46
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2b6c9e5bbc5518b0800000000000000
+      internalID: -5182133836403938514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_63
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1642
+        width: 46
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46700849ab09ad210800000000000000
+      internalID: 1358557368635361124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_64
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1642
+        width: 46
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5336839a303c92fa0800000000000000
+      internalID: -5824910222535662795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_65
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 1642
+        width: 46
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38d57e30da2a03640800000000000000
+      internalID: 5057721245515603331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_66
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1643
+        width: 46
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be9e0c69b81c2fa40800000000000000
+      internalID: 5400591708444486123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_67
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 1643
+        width: 46
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a980c40943f9b8f0800000000000000
+      internalID: -524120386674062940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_68
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 1642
+        width: 46
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95f15f48f24a52c70800000000000000
+      internalID: 8945736758842433369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_69
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 1643
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d72e8d8fa35e9740800000000000000
+      internalID: 5160654236472453079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_70
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 1643
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44258cd7b860bf330800000000000000
+      internalID: 3745594711269200452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_71
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 1643
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7811856c9c767520800000000000000
+      internalID: 2699482037814892671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_72
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 1643
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 398533747119c1220800000000000000
+      internalID: 2457999025802270867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_73
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 1643
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7e10642e9a9e82e0800000000000000
+      internalID: -2121588370439135617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_74
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 1643
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7418b44b5babd140800000000000000
+      internalID: 4745575040848237691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_75
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 1563
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dc39824cc411dba0800000000000000
+      internalID: -6066044355569173288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_76
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 1563
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93dc6e13c46db27f0800000000000000
+      internalID: -636179299599725255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_77
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 1563
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 377ae16c3d6a83dd0800000000000000
+      internalID: -2506069764139473037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_78
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 1563
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53f24fbeab017a6e0800000000000000
+      internalID: -1826472728866836683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_79
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1563
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbee02e0c5c027e10800000000000000
+      internalID: 2193829557996416700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_80
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 1563
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af00da3af64e81170800000000000000
+      internalID: 8149514693865439482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_81
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 1563
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 142fad2536e946af0800000000000000
+      internalID: -404023917127470527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_82
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1563
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d37ff49379529f250800000000000000
+      internalID: 5978851311742875453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_83
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 1563
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32c895943e6ed1b10800000000000000
+      internalID: 1953971677211233315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_84
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 1563
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3baf40ec83834fed0800000000000000
+      internalID: -2381216486346392909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_85
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 1563
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb19d54587d6eb9a0800000000000000
+      internalID: -6215410072145784388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_86
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 1563
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26262ffc9e43fbe50800000000000000
+      internalID: 6827233738937754210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_87
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 1563
+        width: 44
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b1c18740634a64f0800000000000000
+      internalID: -834780700128198222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_88
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 1563
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a35870b36916fffa0800000000000000
+      internalID: -5764781700147608262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_89
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 1563
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 446d1a5a40845b520800000000000000
+      internalID: 2717157134983878212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_90
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 1483
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49f25162c41376ed0800000000000000
+      internalID: -2420912071562154092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_91
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 1483
+        width: 44
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f41b5ed38b9afb20800000000000000
+      internalID: 3169016278482097398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_92
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 1483
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7369cb4295fab3870800000000000000
+      internalID: 8663711105580570167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_93
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 1483
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 676d8841862d01f20800000000000000
+      internalID: 3391441863872927350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_94
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 1483
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7bfc5fdcb8a6b490800000000000000
+      internalID: -7730806181180146821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_95
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 1483
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6739a38f59efb7c40800000000000000
+      internalID: 5511278489086104438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_96
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1483
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4029f5b8a08eadc60800000000000000
+      internalID: 7843836833004753412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_97
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 1483
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 722dff21c49649d90800000000000000
+      internalID: -7091927737744502233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_98
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 1483
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfd52d2318c1369a0800000000000000
+      internalID: -6241113317376369155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_99
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 1483
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7dde5abaff3d15b0800000000000000
+      internalID: -5396086432418833030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_100
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 1483
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56fc34e520da5d660800000000000000
+      internalID: 7410018987591061349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_101
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 1483
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 930975147b2db1bd0800000000000000
+      internalID: -2658299470515040199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_102
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 1483
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 652d185a7126df7c0800000000000000
+      internalID: -4035961837353577898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_103
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 1483
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25f794c36a38acb70800000000000000
+      internalID: 8920086761959948114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_104
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 1483
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1f7507d856158720800000000000000
+      internalID: 2847706910202101534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_105
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 1403
+        width: 46
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 946a412d9005419a0800000000000000
+      internalID: -6263293178656020919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_106
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 1403
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f0014ef18afa7490800000000000000
+      internalID: -7747604772714118926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_107
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 1403
+        width: 44
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db4cc811e03384a00800000000000000
+      internalID: 740898274219443389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_108
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 1403
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9b8cd0cad910f6b0800000000000000
+      internalID: -5264679537066865766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_109
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1403
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ce20f75c55798c60800000000000000
+      internalID: 7820911267378376392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_110
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 1403
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fde077bd253843b0800000000000000
+      internalID: -5528110072129851915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_111
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 1403
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c653fed194a87d470800000000000000
+      internalID: 8419350075031893356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_112
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1403
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d24116281c4ce3d40800000000000000
+      internalID: 5566102524871644205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_113
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 1403
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8c68dce2db463ac0800000000000000
+      internalID: -3875827060016911221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_114
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 1403
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60ef60275399b6530800000000000000
+      internalID: 3849338761343598086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_115
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 1403
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b20d3c967c6830d0800000000000000
+      internalID: -3442882658441559369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_116
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 1403
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db1710cdbec6280a0800000000000000
+      internalID: -6880817520404500035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_117
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 1403
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fd5ecceed4590c60800000000000000
+      internalID: 7784846747319033334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_118
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 1403
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65a6bd39de81ba5e0800000000000000
+      internalID: -1897395409339585962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_119
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 1403
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56a41e6d043b1b7e0800000000000000
+      internalID: -1751421689006044571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_120
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 1323
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24a33c7d07f75bf40800000000000000
+      internalID: 5743637022413896258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_121
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 1323
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05842852f900aed80800000000000000
+      internalID: -8220757486282323888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_122
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 1323
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e89d2318843727c0800000000000000
+      internalID: -4096247577028224797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_123
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 1323
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 750e8647cb64f0b20800000000000000
+      internalID: 3102776443502387287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_124
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1323
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b77aa885cf22e580800000000000000
+      internalID: -8799418196480591950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_125
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 1323
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b34c41fd37ffbdd0800000000000000
+      internalID: -2467982225362369609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_126
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 1323
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 336077e436f760610800000000000000
+      internalID: 1587095983189591603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_127
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1323
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e687c4935da3a9340800000000000000
+      internalID: 4871270634418370670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_128
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 1323
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23953986903950df0800000000000000
+      internalID: -214603738611754702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_129
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 1323
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d145af2ed89ca8e70800000000000000
+      internalID: 9118322006800618525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_130
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 1323
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e4855312b889a0c0800000000000000
+      internalID: -4563966448953359127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_131
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 1323
+        width: 46
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3657d48c30ea91d20800000000000000
+      internalID: 3249819937393177955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_132
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 1323
+        width: 46
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 739b5de1ae26d21a0800000000000000
+      internalID: -6832696301971982025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_133
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 1323
+        width: 46
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ade7a78d3e8eda670800000000000000
+      internalID: 8551747332733566682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_134
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 1322
+        width: 46
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 377016471e6740c50800000000000000
+      internalID: 6630555262088447859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_135
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 1242
+        width: 46
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4cde4ecd596683d0800000000000000
+      internalID: -3204758233213379509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_136
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 1242
+        width: 46
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f204fc9711e659b0800000000000000
+      internalID: -5091634837162032398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_137
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1242
+        width: 46
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 075019d6b8efdc6e0800000000000000
+      internalID: -1815515199968311952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_138
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1242
+        width: 46
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80afeed8fb29694e0800000000000000
+      internalID: -1975230035137725944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_139
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1242
+        width: 46
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a08f358d028fab60800000000000000
+      internalID: 7759563677564371112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_140
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 1242
+        width: 46
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60c1173d199f577a0800000000000000
+      internalID: -6379918892387460090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_141
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1242
+        width: 46
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01e317fbcd6edc5b0800000000000000
+      internalID: -5346363346839847408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_142
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 1242
+        width: 46
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c79d047d0e42eb6c0800000000000000
+      internalID: -4125819660522169988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_143
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 1242
+        width: 46
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64d3df65ebf387090800000000000000
+      internalID: -8036603448306877114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_144
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 1242
+        width: 46
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29773ff73170f12d0800000000000000
+      internalID: -3305915821134219374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_145
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 1242
+        width: 47
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dc7f4e1ccb9d13d0800000000000000
+      internalID: -3234257656397988652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_146
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 1242
+        width: 47
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f7c9129a2eff45c0800000000000000
+      internalID: -4228882066284361740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_147
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 1242
+        width: 47
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f44085fd41f6a0590800000000000000
+      internalID: -7707225676854066097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_148
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 1242
+        width: 47
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dd238bca7dc13b50800000000000000
+      internalID: 6571259258594340304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_149
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 1241
+        width: 47
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b83e2ebdc07d6c6b0800000000000000
+      internalID: -5276293463189298293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_150
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1161
+        width: 48
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 657cf783bbee6a390800000000000000
+      internalID: -7807290416125982890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_151
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1161
+        width: 48
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 532b3b833da5fd630800000000000000
+      internalID: 3953978861090484789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_152
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1161
+        width: 48
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30511ab1410e49620800000000000000
+      internalID: 2780093246961947907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_153
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1161
+        width: 47
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f1887d32e1e39c80800000000000000
+      internalID: -8317055725013007882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_154
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1161
+        width: 48
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7310936263991870800000000000000
+      internalID: 8654110209755583355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_155
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1161
+        width: 48
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1cd323f1397c9700800000000000000
+      internalID: 548446510071929883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_156
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1161
+        width: 48
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a978d0cc4fc85c450800000000000000
+      internalID: 6108443452621293466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_157
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 1161
+        width: 48
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f749d3d659fa6710800000000000000
+      internalID: 1687435161720408055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_158
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 1161
+        width: 48
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c3640925f51bf450800000000000000
+      internalID: 6123512261039645638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_159
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 1161
+        width: 49
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb3b09828a280a010800000000000000
+      internalID: 1198101159627240383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_160
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 1161
+        width: 49
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe5b6ca98736561f0800000000000000
+      internalID: -1052325568277203473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_161
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 1161
+        width: 49
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a9ea3ffab41e2780800000000000000
+      internalID: -8705998236282066527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_162
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 1161
+        width: 49
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e5eb3a551df6a2a0800000000000000
+      internalID: -6726410725281241627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_163
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1161
+        width: 49
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ef99c0d5e56eb6c0800000000000000
+      internalID: -4125748170900004893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_164
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 1161
+        width: 49
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fdd01b55be18cfc0800000000000000
+      internalID: -3474493348250591754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_165
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1080
+        width: 49
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7ef9e9ce5f37fd50800000000000000
+      internalID: 6770950241121861242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_166
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1080
+        width: 49
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e689bdb8c6e981330800000000000000
+      internalID: 3681866884415461486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_167
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1080
+        width: 49
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22816bef6815e5ab0800000000000000
+      internalID: -5017483294603339742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_168
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1080
+        width: 49
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d22aa4787ae9b8b50800000000000000
+      internalID: 6596540521580765741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_169
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1080
+        width: 49
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c43ea0d1f646ded80800000000000000
+      internalID: -8219803316489886900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_170
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1080
+        width: 49
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a0a5c708833aca80800000000000000
+      internalID: -8445881491840982878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_171
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1080
+        width: 50
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ce31b5913c137ab0800000000000000
+      internalID: -5011630961042833727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_172
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 1080
+        width: 49
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc0250417bff4de90800000000000000
+      internalID: -7001690358874300213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_173
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 1080
+        width: 50
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0e8bf7475cc348c0800000000000000
+      internalID: -4016141767442461171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_174
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 1080
+        width: 50
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd87f6165245d1c90800000000000000
+      internalID: -7197504109942966051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_175
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 1080
+        width: 51
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2edf925bc41dd5c20800000000000000
+      internalID: 3196941437890067938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_176
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 1080
+        width: 51
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07ab50ac3b2542ed0800000000000000
+      internalID: -2439734165985969552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_177
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 1080
+        width: 51
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08d70094659e11c30800000000000000
+      internalID: 4328497273680985472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_178
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 1079
+        width: 51
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 856007f3645401940800000000000000
+      internalID: 5264784132410443352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_179
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 1079
+        width: 51
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a882e3607f7ee9d70800000000000000
+      internalID: 9051927349208950922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_180
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 999
+        width: 51
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 368d1e86258bb9d20800000000000000
+      internalID: 3286423017183369315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_181
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 999
+        width: 51
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c10e6434d34d50f0800000000000000
+      internalID: -1126669753081003582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_182
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 999
+        width: 51
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90d5191f054789dd0800000000000000
+      internalID: -2479103703868416759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_183
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 999
+        width: 52
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7c37a7c5c713c130800000000000000
+      internalID: 3585735866542668927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_184
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 999
+        width: 52
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ccf3d8eeef3c7790800000000000000
+      internalID: -7531074181529338688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_185
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 999
+        width: 52
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d26da142420cad1b0800000000000000
+      internalID: -5630977122616289747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_186
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 999
+        width: 52
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2cd8be05addc1b10800000000000000
+      internalID: 1953680039358290991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_187
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 999
+        width: 52
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df6179cd6c492cd20800000000000000
+      internalID: 3297361459013949181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_188
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 999
+        width: 52
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4fb56a5874a6b7e0800000000000000
+      internalID: -1750030568367210677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_189
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 999
+        width: 52
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 352a94d5ac4e63e30800000000000000
+      internalID: 4483022036893540947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_190
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 998
+        width: 52
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9bd99f40c22e54e0800000000000000
+      internalID: -1991115775886632034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_191
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 998
+        width: 52
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad4cd6d6fc64e2050800000000000000
+      internalID: 5777633228671010010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_192
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 998
+        width: 52
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bfd205ab9031f3b0800000000000000
+      internalID: -5480545826486689865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_193
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 998
+        width: 52
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c78280279e980ad0800000000000000
+      internalID: -2735762401704900668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_194
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 998
+        width: 52
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db0ae36abbcf3a6b0800000000000000
+      internalID: -5286103654724624195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_195
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 918
+        width: 53
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d353d1aded5169c60800000000000000
+      internalID: 7824465449489085757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_196
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 918
+        width: 54
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 135e97bf3e5388960800000000000000
+      internalID: 7604387224108000561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_197
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 918
+        width: 54
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d14dfedff1dc1b00800000000000000
+      internalID: 800745730653110740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_198
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 918
+        width: 54
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c1002d4e52516240800000000000000
+      internalID: 4783194844218524105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_damage_2_199
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 918
+        width: 54
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebd17fde252174860800000000000000
+      internalID: 7513994650679975358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

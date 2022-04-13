@@ -1,0 +1,1093 @@
+fileFormatVersion: 2
+guid: fec0054ae90116544b8caab33108d8cd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6530818435337339094
+    second: mitochondrion_divide_0
+  - first:
+      213: -2820462061204370141
+    second: mitochondrion_divide_1
+  - first:
+      213: 3140291163930677153
+    second: mitochondrion_divide_2
+  - first:
+      213: 8251424684628153362
+    second: mitochondrion_divide_3
+  - first:
+      213: -1835599392664477150
+    second: mitochondrion_divide_4
+  - first:
+      213: -3811658592673087581
+    second: mitochondrion_divide_5
+  - first:
+      213: -4441084052619736938
+    second: mitochondrion_divide_6
+  - first:
+      213: -2759084021026096094
+    second: mitochondrion_divide_7
+  - first:
+      213: -242887577876188571
+    second: mitochondrion_divide_8
+  - first:
+      213: 4130700107239283932
+    second: mitochondrion_divide_9
+  - first:
+      213: -5705503189916978356
+    second: mitochondrion_divide_10
+  - first:
+      213: 631237140299301849
+    second: mitochondrion_divide_11
+  - first:
+      213: 7774748416924364348
+    second: mitochondrion_divide_12
+  - first:
+      213: 8351532248890347847
+    second: mitochondrion_divide_13
+  - first:
+      213: 5874158821797569438
+    second: mitochondrion_divide_14
+  - first:
+      213: 4186132018436892856
+    second: mitochondrion_divide_15
+  - first:
+      213: 1826977408698132268
+    second: mitochondrion_divide_16
+  - first:
+      213: -5466850618582529058
+    second: mitochondrion_divide_17
+  - first:
+      213: 4540539375908591477
+    second: mitochondrion_divide_18
+  - first:
+      213: 8040751637897533664
+    second: mitochondrion_divide_19
+  - first:
+      213: -1689993800366793581
+    second: mitochondrion_divide_20
+  - first:
+      213: -8171506099854956594
+    second: mitochondrion_divide_21
+  - first:
+      213: 710147304981850241
+    second: mitochondrion_divide_22
+  - first:
+      213: 380667223594964759
+    second: mitochondrion_divide_23
+  - first:
+      213: 8568751615234002367
+    second: mitochondrion_divide_24
+  - first:
+      213: 7143395523631071804
+    second: mitochondrion_divide_25
+  - first:
+      213: 2925504479808982013
+    second: mitochondrion_divide_26
+  - first:
+      213: 2534254850206832024
+    second: mitochondrion_divide_27
+  - first:
+      213: -8926028742124495498
+    second: mitochondrion_divide_28
+  - first:
+      213: -4671256634092842566
+    second: mitochondrion_divide_29
+  - first:
+      213: -7391715916668052157
+    second: mitochondrion_divide_30
+  - first:
+      213: 4627079864143197743
+    second: mitochondrion_divide_31
+  - first:
+      213: 6945208266442190806
+    second: mitochondrion_divide_32
+  - first:
+      213: -2422675594096328615
+    second: mitochondrion_divide_33
+  - first:
+      213: -4391712154104855602
+    second: mitochondrion_divide_34
+  - first:
+      213: -3440029690966031691
+    second: mitochondrion_divide_35
+  - first:
+      213: 3494995483279437595
+    second: mitochondrion_divide_36
+  - first:
+      213: 1121845931371818547
+    second: mitochondrion_divide_37
+  - first:
+      213: 6419222246861618424
+    second: mitochondrion_divide_38
+  - first:
+      213: 5299362560457853523
+    second: mitochondrion_divide_39
+  - first:
+      213: -6830423104477186906
+    second: mitochondrion_divide_40
+  - first:
+      213: -3350302901223175018
+    second: mitochondrion_divide_41
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mitochondrion_divide_0
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 824
+        width: 42
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d0cad2e3c022aa50800000000000000
+      internalID: 6530818435337339094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mitochondrion_divide_1
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 825
+        width: 42
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32d8273e2b4bbd8d0800000000000000
+      internalID: -2820462061204370141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mitochondrion_divide_2
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 825
+        width: 40
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1afc265fc2e849b20800000000000000
+      internalID: 3140291163930677153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mitochondrion_divide_3
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 824
+        width: 42
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21496226803f28270800000000000000
+      internalID: 8251424684628153362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mitochondrion_divide_4
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 824
+        width: 42
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 222af4ae314a686e0800000000000000
+      internalID: -1835599392664477150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mitochondrion_divide_5
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 824
+        width: 42
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3afb7aa74b44a1bc0800000000000000
+      internalID: -3811658592673087581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mitochondrion_divide_6
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 824
+        width: 42
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 698c2f185991e52c0800000000000000
+      internalID: -4441084052619736938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mitochondrion_divide_7
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 823
+        width: 41
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22c784d73b3c5b9d0800000000000000
+      internalID: -2759084021026096094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mitochondrion_divide_8
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 631
+        width: 41
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 562b558e80711acf0800000000000000
+      internalID: -242887577876188571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mitochondrion_divide_9
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 631
+        width: 41
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdc5aa5bcd1335930800000000000000
+      internalID: 4130700107239283932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mitochondrion_divide_10
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 631
+        width: 41
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c43f32ce31bf1d0b0800000000000000
+      internalID: -5705503189916978356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mitochondrion_divide_11
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 631
+        width: 41
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d3c29ca5da92c800800000000000000
+      internalID: 631237140299301849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mitochondrion_divide_12
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 631
+        width: 41
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3eaec82e7475eb60800000000000000
+      internalID: 7774748416924364348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mitochondrion_divide_13
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 631
+        width: 41
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7411451055a96e370800000000000000
+      internalID: 8351532248890347847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mitochondrion_divide_14
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 631
+        width: 41
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e93a8776354358150800000000000000
+      internalID: 5874158821797569438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mitochondrion_divide_15
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 631
+        width: 41
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b8e1d544e0281a30800000000000000
+      internalID: 4186132018436892856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mitochondrion_divide_16
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 439
+        width: 41
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c27ad12064aba5910800000000000000
+      internalID: 1826977408698132268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mitochondrion_divide_17
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 439
+        width: 41
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edb8347b358d124b0800000000000000
+      internalID: -5466850618582529058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mitochondrion_divide_18
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 439
+        width: 41
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57794bd618c330f30800000000000000
+      internalID: 4540539375908591477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mitochondrion_divide_19
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 439
+        width: 41
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e8d500530d769f60800000000000000
+      internalID: 8040751637897533664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mitochondrion_divide_20
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 439
+        width: 41
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39c5680b79feb88e0800000000000000
+      internalID: -1689993800366793581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mitochondrion_divide_21
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 439
+        width: 41
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec725362f7af89e80800000000000000
+      internalID: -8171506099854956594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mitochondrion_divide_22
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 439
+        width: 41
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 188e4ab1633fad900800000000000000
+      internalID: 710147304981850241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mitochondrion_divide_23
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 439
+        width: 41
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7171300b2d6684500800000000000000
+      internalID: 380667223594964759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mitochondrion_divide_24
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 247
+        width: 41
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbdc392e1325ae670800000000000000
+      internalID: 8568751615234002367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mitochondrion_divide_25
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 247
+        width: 41
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c324524a160722360800000000000000
+      internalID: 7143395523631071804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mitochondrion_divide_26
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 247
+        width: 41
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfb04db03da799820800000000000000
+      internalID: 2925504479808982013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mitochondrion_divide_27
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 247
+        width: 41
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89593e4fb5b7b2320800000000000000
+      internalID: 2534254850206832024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mitochondrion_divide_28
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 247
+        width: 41
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67d1eb2b620602480800000000000000
+      internalID: -8926028742124495498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mitochondrion_divide_29
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 247
+        width: 41
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab1953637dc5c2fb0800000000000000
+      internalID: -4671256634092842566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mitochondrion_divide_30
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 247
+        width: 41
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34d566a69895b6990800000000000000
+      internalID: -7391715916668052157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mitochondrion_divide_31
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 247
+        width: 41
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f263e910f90b63040800000000000000
+      internalID: 4627079864143197743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mitochondrion_divide_32
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 55
+        width: 40
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dfa46cfe16526060800000000000000
+      internalID: 6945208266442190806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mitochondrion_divide_33
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 55
+        width: 40
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95041ef026de06ed0800000000000000
+      internalID: -2422675594096328615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mitochondrion_divide_34
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 54
+        width: 40
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec380da60118d03c0800000000000000
+      internalID: -4391712154104855602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mitochondrion_divide_35
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 55
+        width: 41
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b24c2dd83f8240d0800000000000000
+      internalID: -3440029690966031691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mitochondrion_divide_36
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 56
+        width: 42
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1f2770ffd7b08030800000000000000
+      internalID: 3494995483279437595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mitochondrion_divide_37
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 57
+        width: 44
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33e62284ee8919f00800000000000000
+      internalID: 1121845931371818547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mitochondrion_divide_38
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 53
+        width: 48
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fcb87e7f98a51950800000000000000
+      internalID: 6419222246861618424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mitochondrion_divide_39
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 52
+        width: 50
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35a4818eb2e1b8940800000000000000
+      internalID: 5299362560457853523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

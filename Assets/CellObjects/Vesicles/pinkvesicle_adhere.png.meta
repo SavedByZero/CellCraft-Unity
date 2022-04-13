@@ -1,0 +1,2263 @@
+fileFormatVersion: 2
+guid: f005742f609988b4b9e4b1f20ab20e18
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3779080569000628737
+    second: pinkvesicle_adhere_0
+  - first:
+      213: -4669103159363892550
+    second: pinkvesicle_adhere_1
+  - first:
+      213: -6970187436464793869
+    second: pinkvesicle_adhere_2
+  - first:
+      213: -6200671947938686327
+    second: pinkvesicle_adhere_3
+  - first:
+      213: 2522672642592445739
+    second: pinkvesicle_adhere_4
+  - first:
+      213: 6137201810492147581
+    second: pinkvesicle_adhere_5
+  - first:
+      213: -444987873826810489
+    second: pinkvesicle_adhere_6
+  - first:
+      213: -3581190520746977153
+    second: pinkvesicle_adhere_7
+  - first:
+      213: -6802618235594150759
+    second: pinkvesicle_adhere_8
+  - first:
+      213: -7228265324203785176
+    second: pinkvesicle_adhere_9
+  - first:
+      213: 5291989638575048095
+    second: pinkvesicle_adhere_10
+  - first:
+      213: -7184119188341781118
+    second: pinkvesicle_adhere_11
+  - first:
+      213: 5585886077926572427
+    second: pinkvesicle_adhere_12
+  - first:
+      213: 5997607855081809725
+    second: pinkvesicle_adhere_13
+  - first:
+      213: -7406826849730571827
+    second: pinkvesicle_adhere_14
+  - first:
+      213: 1641590260278470242
+    second: pinkvesicle_adhere_15
+  - first:
+      213: 450177625020681086
+    second: pinkvesicle_adhere_16
+  - first:
+      213: -3844264391384532760
+    second: pinkvesicle_adhere_17
+  - first:
+      213: 6124286048696386673
+    second: pinkvesicle_adhere_18
+  - first:
+      213: 1735527610928069007
+    second: pinkvesicle_adhere_19
+  - first:
+      213: 6285563850859696800
+    second: pinkvesicle_adhere_20
+  - first:
+      213: 2025102591621304519
+    second: pinkvesicle_adhere_21
+  - first:
+      213: -882932852817618520
+    second: pinkvesicle_adhere_22
+  - first:
+      213: 6509720589493830294
+    second: pinkvesicle_adhere_23
+  - first:
+      213: -8747664486727766014
+    second: pinkvesicle_adhere_24
+  - first:
+      213: -8670280084478575953
+    second: pinkvesicle_adhere_25
+  - first:
+      213: 4859758177834586398
+    second: pinkvesicle_adhere_26
+  - first:
+      213: -6108267527001759887
+    second: pinkvesicle_adhere_27
+  - first:
+      213: -7789102012556420753
+    second: pinkvesicle_adhere_28
+  - first:
+      213: -2409390449532956731
+    second: pinkvesicle_adhere_29
+  - first:
+      213: -1213361364630820976
+    second: pinkvesicle_adhere_30
+  - first:
+      213: 3220274980208127067
+    second: pinkvesicle_adhere_31
+  - first:
+      213: -2944738231567191413
+    second: pinkvesicle_adhere_32
+  - first:
+      213: 2178824622981647756
+    second: pinkvesicle_adhere_33
+  - first:
+      213: -4115860470701456191
+    second: pinkvesicle_adhere_34
+  - first:
+      213: -4237299018952658351
+    second: pinkvesicle_adhere_35
+  - first:
+      213: -2705500063563855692
+    second: pinkvesicle_adhere_36
+  - first:
+      213: 6971932633252025927
+    second: pinkvesicle_adhere_37
+  - first:
+      213: -5864592679811631429
+    second: pinkvesicle_adhere_38
+  - first:
+      213: -7933599336690481661
+    second: pinkvesicle_adhere_39
+  - first:
+      213: 6938133559038935248
+    second: pinkvesicle_adhere_40
+  - first:
+      213: -5712490448992363196
+    second: pinkvesicle_adhere_41
+  - first:
+      213: -2551424823974964342
+    second: pinkvesicle_adhere_42
+  - first:
+      213: 7959279593400175089
+    second: pinkvesicle_adhere_43
+  - first:
+      213: 1035731962059281284
+    second: pinkvesicle_adhere_44
+  - first:
+      213: -2569770732122595264
+    second: pinkvesicle_adhere_45
+  - first:
+      213: -53751013215559044
+    second: pinkvesicle_adhere_46
+  - first:
+      213: -1134455016019246504
+    second: pinkvesicle_adhere_47
+  - first:
+      213: 5899901389323377668
+    second: pinkvesicle_adhere_48
+  - first:
+      213: -894769729899819595
+    second: pinkvesicle_adhere_49
+  - first:
+      213: -5097983477133905513
+    second: pinkvesicle_adhere_50
+  - first:
+      213: 5693785987197972592
+    second: pinkvesicle_adhere_51
+  - first:
+      213: 3760001002999553465
+    second: pinkvesicle_adhere_52
+  - first:
+      213: -7258157992084897044
+    second: pinkvesicle_adhere_53
+  - first:
+      213: -7021973066924369336
+    second: pinkvesicle_adhere_54
+  - first:
+      213: 762165131167060635
+    second: pinkvesicle_adhere_55
+  - first:
+      213: 6934486294241551445
+    second: pinkvesicle_adhere_56
+  - first:
+      213: -3144712522710687337
+    second: pinkvesicle_adhere_57
+  - first:
+      213: 6380557319261384825
+    second: pinkvesicle_adhere_58
+  - first:
+      213: -7920249110760401145
+    second: pinkvesicle_adhere_59
+  - first:
+      213: -2594936486499664505
+    second: pinkvesicle_adhere_60
+  - first:
+      213: -2477665294496525941
+    second: pinkvesicle_adhere_61
+  - first:
+      213: 881779894560437499
+    second: pinkvesicle_adhere_62
+  - first:
+      213: -6626527674988776237
+    second: pinkvesicle_adhere_63
+  - first:
+      213: -6173235755494972229
+    second: pinkvesicle_adhere_64
+  - first:
+      213: -1153780286019004535
+    second: pinkvesicle_adhere_65
+  - first:
+      213: -4882612453096279744
+    second: pinkvesicle_adhere_66
+  - first:
+      213: 1148086956229060890
+    second: pinkvesicle_adhere_67
+  - first:
+      213: 6848733286030767469
+    second: pinkvesicle_adhere_68
+  - first:
+      213: -2344111716213184816
+    second: pinkvesicle_adhere_69
+  - first:
+      213: -8702200749757564308
+    second: pinkvesicle_adhere_70
+  - first:
+      213: 290026618830697247
+    second: pinkvesicle_adhere_71
+  - first:
+      213: 6594147977295609121
+    second: pinkvesicle_adhere_72
+  - first:
+      213: 1165713318723925386
+    second: pinkvesicle_adhere_73
+  - first:
+      213: -3816221653829691736
+    second: pinkvesicle_adhere_74
+  - first:
+      213: -8598845363436555184
+    second: pinkvesicle_adhere_75
+  - first:
+      213: 8126528714932952579
+    second: pinkvesicle_adhere_76
+  - first:
+      213: -7749638080021630639
+    second: pinkvesicle_adhere_77
+  - first:
+      213: 4155502805961426204
+    second: pinkvesicle_adhere_78
+  - first:
+      213: -8331673730050078641
+    second: pinkvesicle_adhere_79
+  - first:
+      213: 1082687087009245554
+    second: pinkvesicle_adhere_80
+  - first:
+      213: -3935416043466422257
+    second: pinkvesicle_adhere_81
+  - first:
+      213: -3980174975582634814
+    second: pinkvesicle_adhere_82
+  - first:
+      213: 1782898895778701211
+    second: pinkvesicle_adhere_83
+  - first:
+      213: -7134735770564859551
+    second: pinkvesicle_adhere_84
+  - first:
+      213: 7554683018396318208
+    second: pinkvesicle_adhere_85
+  - first:
+      213: 4500044447717710952
+    second: pinkvesicle_adhere_86
+  - first:
+      213: 6898627621815117913
+    second: pinkvesicle_adhere_87
+  - first:
+      213: 6378784359378025200
+    second: pinkvesicle_adhere_88
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pinkvesicle_adhere_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 469
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffde223be320e8bc0800000000000000
+      internalID: -3779080569000628737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_adhere_1
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 469
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aba067e1a63043fb0800000000000000
+      internalID: -4669103159363892550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_adhere_2
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 469
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f610a7c47be44f90800000000000000
+      internalID: -6970187436464793869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_adhere_3
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 469
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98a926647b9c2f9a0800000000000000
+      internalID: -6200671947938686327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_adhere_4
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 469
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b25915a1765520320800000000000000
+      internalID: 2522672642592445739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_adhere_5
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 469
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d77c445c788bb2550800000000000000
+      internalID: 6137201810492147581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_adhere_6
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 469
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 785523be2e513d9f0800000000000000
+      internalID: -444987873826810489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_adhere_7
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 435
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7851e1023e0d4ec0800000000000000
+      internalID: -3581190520746977153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_adhere_8
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 436
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99ce0dca1ce3891a0800000000000000
+      internalID: -6802618235594150759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_adhere_9
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 436
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8244f801cfa00bb90800000000000000
+      internalID: -7228265324203785176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_adhere_10
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 436
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f954052c98ce07940800000000000000
+      internalID: 5291989638575048095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_adhere_11
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 436
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28d02da49a1ec4c90800000000000000
+      internalID: -7184119188341781118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_adhere_12
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 436
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b810d96eacd058d40800000000000000
+      internalID: 5585886077926572427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_adhere_13
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 436
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d376e384198cb3350800000000000000
+      internalID: 5997607855081809725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_adhere_14
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 402
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc1dbf4293aa53990800000000000000
+      internalID: -7406826849730571827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_adhere_15
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 402
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 266a3aae4a918c610800000000000000
+      internalID: 1641590260278470242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_adhere_16
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 403
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7bcf213a2a5f3600800000000000000
+      internalID: 450177625020681086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_adhere_17
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 402
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e877d067ed66aac0800000000000000
+      internalID: -3844264391384532760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_adhere_18
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 403
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 174cd63a6b5ddf450800000000000000
+      internalID: 6124286048696386673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_adhere_19
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 403
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f89ff3bba25d51810800000000000000
+      internalID: 1735527610928069007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_adhere_20
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 403
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a2578f150fca3750800000000000000
+      internalID: 6285563850859696800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_adhere_21
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 369
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c09f4fd31c9a1c10800000000000000
+      internalID: 2025102591621304519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_adhere_22
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 369
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a998439f313fb3f0800000000000000
+      internalID: -882932852817618520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_adhere_23
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 369
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69283dbd26c275a50800000000000000
+      internalID: 6509720589493830294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_adhere_24
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 369
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 200ba461f7d0a9680800000000000000
+      internalID: -8747664486727766014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_adhere_25
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 369
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faab285433afca780800000000000000
+      internalID: -8670280084478575953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_adhere_26
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 370
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e11512c8054517340800000000000000
+      internalID: 4859758177834586398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_adhere_27
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 370
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17f91041c031b3ba0800000000000000
+      internalID: -6108267527001759887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_adhere_28
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 336
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f695b4eecfc87e390800000000000000
+      internalID: -7789102012556420753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_adhere_29
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 336
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cf8e52d620209ed0800000000000000
+      internalID: -2409390449532956731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_adhere_30
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 336
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0972ffc7446492fe0800000000000000
+      internalID: -1213361364630820976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_adhere_31
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 336
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5c22626807b0bc20800000000000000
+      internalID: 3220274980208127067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_adhere_32
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 336
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b82fce62e203227d0800000000000000
+      internalID: -2944738231567191413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_adhere_33
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 336
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8d02b0637dbc3e10800000000000000
+      internalID: 2178824622981647756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_adhere_34
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 336
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c484ca65b681e6c0800000000000000
+      internalID: -4115860470701456191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_adhere_35
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 302
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15237301ef61235c0800000000000000
+      internalID: -4237299018952658351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_adhere_36
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 302
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b8ca7bc602247ad0800000000000000
+      internalID: -2705500063563855692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_adhere_37
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 302
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 746d0f28ac741c060800000000000000
+      internalID: 6971932633252025927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_adhere_38
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 302
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb6b8779708cc9ea0800000000000000
+      internalID: -5864592679811631429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_adhere_39
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 302
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3060a42ff6136e190800000000000000
+      internalID: -7933599336690481661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_adhere_40
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 302
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d08bbe46b3394060800000000000000
+      internalID: 6938133559038935248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_adhere_41
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 302
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44d9ff4e33829b0b0800000000000000
+      internalID: -5712490448992363196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_adhere_42
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 268
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a83dbdff3a4879cd0800000000000000
+      internalID: -2551424823974964342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_adhere_43
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 268
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f902a0ce9a057e60800000000000000
+      internalID: 7959279593400175089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_adhere_44
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 268
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 483df016bb8af5e00800000000000000
+      internalID: 1035731962059281284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_adhere_45
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 268
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04023a56227565cd0800000000000000
+      internalID: -2569770732122595264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_adhere_46
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 268
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7228fefcb9014ff0800000000000000
+      internalID: -53751013215559044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_adhere_47
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 269
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 852438c6c2b9140f0800000000000000
+      internalID: -1134455016019246504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_adhere_48
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 269
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40c1478fd09a0e150800000000000000
+      internalID: 5899901389323377668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_adhere_49
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 235
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bd8c8ddba32593f0800000000000000
+      internalID: -894769729899819595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_adhere_50
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 235
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7917f9ea9035049b0800000000000000
+      internalID: -5097983477133905513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_adhere_51
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 235
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 070380a3034640f40800000000000000
+      internalID: 5693785987197972592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_adhere_52
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 235
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bd96eaadf43e2430800000000000000
+      internalID: 3760001002999553465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_adhere_53
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 235
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce20e16f2c7d54b90800000000000000
+      internalID: -7258157992084897044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_adhere_54
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 235
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84adc9b13b0fc8e90800000000000000
+      internalID: -7021973066924369336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_adhere_55
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 235
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b92d66f0621c39a00800000000000000
+      internalID: 762165131167060635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_adhere_56
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 201
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 554251c4b8e3c3060800000000000000
+      internalID: 6934486294241551445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_adhere_57
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 201
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7916b1b3f9cbb54d0800000000000000
+      internalID: -3144712522710687337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_adhere_58
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 201
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 970f793831b4c8850800000000000000
+      internalID: 6380557319261384825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_adhere_59
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 201
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 707d584a56f951290800000000000000
+      internalID: -7920249110760401145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_adhere_60
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 201
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78dbc7b930fecfbd0800000000000000
+      internalID: -2594936486499664505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_adhere_61
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 201
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b819839ba809d9dd0800000000000000
+      internalID: -2477665294496525941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_adhere_62
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 202
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf43b596426bc3c00800000000000000
+      internalID: 881779894560437499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_adhere_63
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 169
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d4bffd3038d904a0800000000000000
+      internalID: -6626527674988776237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_adhere_64
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 169
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb46bfe99c2445aa0800000000000000
+      internalID: -6173235755494972229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_adhere_65
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 170
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9871dfe51f2fcffe0800000000000000
+      internalID: -1153780286019004535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_adhere_66
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 170
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0413c45d7d97d3cb0800000000000000
+      internalID: -4882612453096279744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_adhere_67
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 171
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a19ea4df003deef00800000000000000
+      internalID: 1148086956229060890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_adhere_68
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 171
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d65f14333a69b0f50800000000000000
+      internalID: 6848733286030767469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_adhere_69
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 172
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d6284150da087fd0800000000000000
+      internalID: -2344111716213184816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_adhere_70
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 139
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6aff8a36829b3780800000000000000
+      internalID: -8702200749757564308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_adhere_71
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 139
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f13bfc65ca1660400800000000000000
+      internalID: 290026618830697247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_adhere_72
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 140
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12db017e5ae138b50800000000000000
+      internalID: 6594147977295609121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_adhere_73
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 140
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a853b7056127d2010800000000000000
+      internalID: 1165713318723925386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_adhere_74
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 141
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a6d35300ae0a0bc0800000000000000
+      internalID: -3816221653829691736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_adhere_75
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 142
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05479d953b3caa880800000000000000
+      internalID: -8598845363436555184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_adhere_76
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 142
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30e179e5fca37c070800000000000000
+      internalID: 8126528714932952579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_adhere_77
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 109
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 151787eb931c37490800000000000000
+      internalID: -7749638080021630639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_adhere_78
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 109
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c15487409cf4ba930800000000000000
+      internalID: 4155502805961426204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_adhere_79
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 110
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4849e7b2e2ff5c80800000000000000
+      internalID: -8331673730050078641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_adhere_80
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 111
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 279a6185b2a760f00800000000000000
+      internalID: 1082687087009245554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_adhere_81
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 111
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f088fcd85f79269c0800000000000000
+      internalID: -3935416043466422257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_adhere_82
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 112
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cc7f7492f393c8c0800000000000000
+      internalID: -3980174975582634814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_adhere_83
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 112
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9f535979112eb810800000000000000
+      internalID: 1782898895778701211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_adhere_84
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 79
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 169653d3e935cfc90800000000000000
+      internalID: -7134735770564859551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_adhere_85
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 80
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00a3036cd20a7d860800000000000000
+      internalID: 7554683018396318208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_adhere_86
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 80
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86cdeab359e537e30800000000000000
+      internalID: 4500044447717710952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_adhere_87
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 81
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 958ecf38549dcbf50800000000000000
+      internalID: 6898627621815117913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_adhere_88
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 81
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fa7b8f149ef58850800000000000000
+      internalID: 6378784359378025200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

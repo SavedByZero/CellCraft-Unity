@@ -1,0 +1,862 @@
+fileFormatVersion: 2
+guid: fd8e9c239fa130e42bf8c0af69234d76
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3365515720769002407
+    second: chloro_recycle_0
+  - first:
+      213: -6764529433143068681
+    second: chloro_recycle_1
+  - first:
+      213: -2638603569401519524
+    second: chloro_recycle_2
+  - first:
+      213: 4004909703978162429
+    second: chloro_recycle_3
+  - first:
+      213: 1130571206620311041
+    second: chloro_recycle_4
+  - first:
+      213: -7252240231426666085
+    second: chloro_recycle_5
+  - first:
+      213: -2807114858385243135
+    second: chloro_recycle_6
+  - first:
+      213: -6494507230402647102
+    second: chloro_recycle_7
+  - first:
+      213: -6332850610874988290
+    second: chloro_recycle_8
+  - first:
+      213: 4829874959882482468
+    second: chloro_recycle_9
+  - first:
+      213: 5824468344738700107
+    second: chloro_recycle_10
+  - first:
+      213: 3204254362575094161
+    second: chloro_recycle_11
+  - first:
+      213: -6117855890811654451
+    second: chloro_recycle_12
+  - first:
+      213: 1111083156562140728
+    second: chloro_recycle_13
+  - first:
+      213: -3072749789213173229
+    second: chloro_recycle_14
+  - first:
+      213: -1488136459077965037
+    second: chloro_recycle_15
+  - first:
+      213: 9145788428364961511
+    second: chloro_recycle_16
+  - first:
+      213: -7246451225734224062
+    second: chloro_recycle_17
+  - first:
+      213: 5780031688023854328
+    second: chloro_recycle_18
+  - first:
+      213: 7505433927325317583
+    second: chloro_recycle_19
+  - first:
+      213: 2950237588278977831
+    second: chloro_recycle_20
+  - first:
+      213: 5514137189805059482
+    second: chloro_recycle_21
+  - first:
+      213: 6243629595001141949
+    second: chloro_recycle_22
+  - first:
+      213: -270777420693737163
+    second: chloro_recycle_23
+  - first:
+      213: -6814702424149540295
+    second: chloro_recycle_24
+  - first:
+      213: -2214477096510984948
+    second: chloro_recycle_25
+  - first:
+      213: 1989677991317529246
+    second: chloro_recycle_26
+  - first:
+      213: -4517949552984603499
+    second: chloro_recycle_27
+  - first:
+      213: -6845792828995827885
+    second: chloro_recycle_28
+  - first:
+      213: 3523252819962166444
+    second: chloro_recycle_29
+  - first:
+      213: -6076198881500938328
+    second: chloro_recycle_30
+  - first:
+      213: -6469991076424253144
+    second: chloro_recycle_31
+  - first:
+      213: -5864225790759502606
+    second: chloro_recycle_32
+  - first:
+      213: 7540625317038177019
+    second: chloro_recycle_33
+  - first:
+      213: -7653772347997709380
+    second: chloro_recycle_34
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: chloro_recycle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 908.1
+        width: 85.333336
+        height: 100.9
+      alignment: 9
+      pivot: {x: 0.66542315, y: 0.49999952}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 954229188494b41d0800000000000000
+      internalID: -3365515720769002407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_recycle_1
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 908.1
+        width: 85.333336
+        height: 100.9
+      alignment: 9
+      pivot: {x: 0.5992538, y: 0.5139898}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f735d012509f12a0800000000000000
+      internalID: -6764529433143068681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_recycle_2
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 908.1
+        width: 85.333336
+        height: 100.9
+      alignment: 9
+      pivot: {x: 0.549627, y: 0.49999952}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c52aeb6980cc16bd0800000000000000
+      internalID: -2638603569401519524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_recycle_3
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 908.1
+        width: 85.333336
+        height: 100.9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df81227282c449730800000000000000
+      internalID: 4004909703978162429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_recycle_4
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 908.1
+        width: 85.333336
+        height: 100.9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10e63ebb58890bf00800000000000000
+      internalID: 1130571206620311041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_recycle_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 808.1
+        width: 85.333336
+        height: 100.9
+      alignment: 9
+      pivot: {x: 0.63233846, y: 0.4860098}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b91540cfeedda5b90800000000000000
+      internalID: -7252240231426666085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_recycle_6
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 808.1
+        width: 85.333336
+        height: 100.9
+      alignment: 9
+      pivot: {x: 0.5827115, y: 0.4860098}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1040a36b8ef1b09d0800000000000000
+      internalID: -2807114858385243135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_recycle_7
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 808.1
+        width: 85.333336
+        height: 100.9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cbe4a45510eed5a0800000000000000
+      internalID: -6494507230402647102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_recycle_8
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 808.1
+        width: 85.333336
+        height: 100.9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef84e2b1ce13d18a0800000000000000
+      internalID: -6332850610874988290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_recycle_9
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 808.1
+        width: 85.333336
+        height: 100.9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 423795dafa9270340800000000000000
+      internalID: 4829874959882482468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_recycle_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 708.1
+        width: 85.333336
+        height: 100.9
+      alignment: 9
+      pivot: {x: 0.59925383, y: 0.4580292}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4b58a5a91ba4d050800000000000000
+      internalID: 5824468344738700107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_recycle_11
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 708.1
+        width: 85.333336
+        height: 100.9
+      alignment: 9
+      pivot: {x: 0.5992538, y: 0.47201952}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 191c84bad5cc77c20800000000000000
+      internalID: 3204254362575094161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_recycle_12
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 708.1
+        width: 85.333336
+        height: 100.9
+      alignment: 9
+      pivot: {x: 0.549627, y: 0.4580292}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcee3292b72091ba0800000000000000
+      internalID: -6117855890811654451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_recycle_13
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 708.1
+        width: 85.333336
+        height: 100.9
+      alignment: 9
+      pivot: {x: 0.5330844, y: 0.44403893}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83e5ece7e3c5b6f00800000000000000
+      internalID: 1111083156562140728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_recycle_14
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 708.1
+        width: 85.333336
+        height: 100.9
+      alignment: 9
+      pivot: {x: 0.49999952, y: 0.4580292}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31ada4ac8566b55d0800000000000000
+      internalID: -3072749789213173229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_recycle_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 608.1
+        width: 85.333336
+        height: 100.9
+      alignment: 9
+      pivot: {x: 0.64888084, y: 0.4300486}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31ba95366c3195be0800000000000000
+      internalID: -1488136459077965037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_recycle_16
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 608.1
+        width: 85.333336
+        height: 100.9
+      alignment: 9
+      pivot: {x: 0.63233846, y: 0.44403893}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e6529f7e1e5cee70800000000000000
+      internalID: 9145788428364961511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_recycle_17
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 610
+        width: 85
+        height: 101
+      alignment: 9
+      pivot: {x: 0.5996431, y: 0.41614193}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 247eae7e00f6f6b90800000000000000
+      internalID: -7246451225734224062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_recycle_18
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 608.1
+        width: 85.333336
+        height: 100.9
+      alignment: 9
+      pivot: {x: 0.5330844, y: 0.5000001}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fcc923423cc63050800000000000000
+      internalID: 5780031688023854328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_recycle_19
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 608.1
+        width: 85.333336
+        height: 100.9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc9f3633468a82860800000000000000
+      internalID: 7505433927325317583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_recycle_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 500
+        width: 85
+        height: 101
+      alignment: 9
+      pivot: {x: 0.59964305, y: 0.4999994}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 725af5c947951f820800000000000000
+      internalID: 2950237588278977831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_recycle_21
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 500
+        width: 85
+        height: 101
+      alignment: 9
+      pivot: {x: 0.54982173, y: 0.4999994}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9de9191f86268c40800000000000000
+      internalID: 5514137189805059482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_recycle_22
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 502
+        width: 85
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbab8275904d5a650800000000000000
+      internalID: 6243629595001141949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_recycle_23
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 497
+        width: 85
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5317a5ade510e3cf0800000000000000
+      internalID: -270777420693737163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_recycle_24
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 498
+        width: 85
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 932c29640405d61a0800000000000000
+      internalID: -6814702424149540295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_recycle_25
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 397
+        width: 78
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0d693340d89441e0800000000000000
+      internalID: -2214477096510984948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_recycle_26
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 395
+        width: 76
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e92e4e16791cc9b10800000000000000
+      internalID: 1989677991317529246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_recycle_27
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 392
+        width: 85
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 594c73591d40d41c0800000000000000
+      internalID: -4517949552984603499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_recycle_28
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 390
+        width: 85
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35789cd41bbdef0a0800000000000000
+      internalID: -6845792828995827885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloro_recycle_29
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 390
+        width: 85
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cacfcb3d5cb15e030800000000000000
+      internalID: 3523252819962166444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

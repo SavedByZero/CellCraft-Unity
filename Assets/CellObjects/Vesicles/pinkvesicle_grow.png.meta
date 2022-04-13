@@ -1,0 +1,2263 @@
+fileFormatVersion: 2
+guid: 8f46fff852c9ae248a35fcd2bbb78d7d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4590689899409941999
+    second: pinkvesicle_grow_0
+  - first:
+      213: -2072663215138455273
+    second: pinkvesicle_grow_1
+  - first:
+      213: 4299372262964486730
+    second: pinkvesicle_grow_2
+  - first:
+      213: 5181668864479349841
+    second: pinkvesicle_grow_3
+  - first:
+      213: 3747129862730268698
+    second: pinkvesicle_grow_4
+  - first:
+      213: 4422386738728760501
+    second: pinkvesicle_grow_5
+  - first:
+      213: -5193839708171997706
+    second: pinkvesicle_grow_6
+  - first:
+      213: -3301690628446594141
+    second: pinkvesicle_grow_7
+  - first:
+      213: 554586026082813332
+    second: pinkvesicle_grow_8
+  - first:
+      213: 6830105423471055874
+    second: pinkvesicle_grow_9
+  - first:
+      213: 2336639579449893940
+    second: pinkvesicle_grow_10
+  - first:
+      213: -6796283546896570033
+    second: pinkvesicle_grow_11
+  - first:
+      213: 3837208593015464615
+    second: pinkvesicle_grow_12
+  - first:
+      213: 2944818838262478393
+    second: pinkvesicle_grow_13
+  - first:
+      213: 5530294361202845759
+    second: pinkvesicle_grow_14
+  - first:
+      213: -3263309684016308914
+    second: pinkvesicle_grow_15
+  - first:
+      213: -4172146650021468352
+    second: pinkvesicle_grow_16
+  - first:
+      213: -7560775039282077521
+    second: pinkvesicle_grow_17
+  - first:
+      213: 8584091260159715342
+    second: pinkvesicle_grow_18
+  - first:
+      213: 1505445477290469052
+    second: pinkvesicle_grow_19
+  - first:
+      213: -6635524027746373757
+    second: pinkvesicle_grow_20
+  - first:
+      213: -3404920345022917610
+    second: pinkvesicle_grow_21
+  - first:
+      213: 5849997296965953524
+    second: pinkvesicle_grow_22
+  - first:
+      213: -3035404903571133960
+    second: pinkvesicle_grow_23
+  - first:
+      213: -4114626128749944040
+    second: pinkvesicle_grow_24
+  - first:
+      213: 7459078326550435687
+    second: pinkvesicle_grow_25
+  - first:
+      213: -5226674165522866941
+    second: pinkvesicle_grow_26
+  - first:
+      213: -8889035952203619700
+    second: pinkvesicle_grow_27
+  - first:
+      213: 4567176896219231713
+    second: pinkvesicle_grow_28
+  - first:
+      213: -7717902801050675502
+    second: pinkvesicle_grow_29
+  - first:
+      213: 4250943927380418703
+    second: pinkvesicle_grow_30
+  - first:
+      213: -6674633131082573212
+    second: pinkvesicle_grow_31
+  - first:
+      213: 3390528713628913888
+    second: pinkvesicle_grow_32
+  - first:
+      213: 7592966210944533323
+    second: pinkvesicle_grow_33
+  - first:
+      213: 7382490073563136536
+    second: pinkvesicle_grow_34
+  - first:
+      213: -2463883589753919389
+    second: pinkvesicle_grow_35
+  - first:
+      213: -1591834416065688298
+    second: pinkvesicle_grow_36
+  - first:
+      213: 6178231967982221984
+    second: pinkvesicle_grow_37
+  - first:
+      213: -4761373260244346427
+    second: pinkvesicle_grow_38
+  - first:
+      213: 6021446349054627445
+    second: pinkvesicle_grow_39
+  - first:
+      213: 1919211996717679751
+    second: pinkvesicle_grow_40
+  - first:
+      213: -9086412777764130339
+    second: pinkvesicle_grow_41
+  - first:
+      213: -850392237140647245
+    second: pinkvesicle_grow_42
+  - first:
+      213: 594542945090896853
+    second: pinkvesicle_grow_43
+  - first:
+      213: -8185727373366447835
+    second: pinkvesicle_grow_44
+  - first:
+      213: 4710477608068232646
+    second: pinkvesicle_grow_45
+  - first:
+      213: 8765983408667266007
+    second: pinkvesicle_grow_46
+  - first:
+      213: 971969891010683490
+    second: pinkvesicle_grow_47
+  - first:
+      213: 8778664897380686197
+    second: pinkvesicle_grow_48
+  - first:
+      213: 7982987946132908868
+    second: pinkvesicle_grow_49
+  - first:
+      213: 111343723341838267
+    second: pinkvesicle_grow_50
+  - first:
+      213: 206072679943897403
+    second: pinkvesicle_grow_51
+  - first:
+      213: 505419980026528602
+    second: pinkvesicle_grow_52
+  - first:
+      213: 8030321770841900522
+    second: pinkvesicle_grow_53
+  - first:
+      213: -5295161516883412403
+    second: pinkvesicle_grow_54
+  - first:
+      213: 2466381632418369693
+    second: pinkvesicle_grow_55
+  - first:
+      213: 7120136777988444966
+    second: pinkvesicle_grow_56
+  - first:
+      213: 8939400659149151856
+    second: pinkvesicle_grow_57
+  - first:
+      213: -742531773224478152
+    second: pinkvesicle_grow_58
+  - first:
+      213: 5394814972741807776
+    second: pinkvesicle_grow_59
+  - first:
+      213: 7493175282995631525
+    second: pinkvesicle_grow_60
+  - first:
+      213: -2962456679902593385
+    second: pinkvesicle_grow_61
+  - first:
+      213: -7719023081639711107
+    second: pinkvesicle_grow_62
+  - first:
+      213: 3671460553341222669
+    second: pinkvesicle_grow_63
+  - first:
+      213: -3921903631558807853
+    second: pinkvesicle_grow_64
+  - first:
+      213: -5277446932581941997
+    second: pinkvesicle_grow_65
+  - first:
+      213: -6086483367063767921
+    second: pinkvesicle_grow_66
+  - first:
+      213: 6328174800658656618
+    second: pinkvesicle_grow_67
+  - first:
+      213: -1319690816072572456
+    second: pinkvesicle_grow_68
+  - first:
+      213: -3886508124911519212
+    second: pinkvesicle_grow_69
+  - first:
+      213: 5694612466703883162
+    second: pinkvesicle_grow_70
+  - first:
+      213: -4385544204558909806
+    second: pinkvesicle_grow_71
+  - first:
+      213: -6595437559685130044
+    second: pinkvesicle_grow_72
+  - first:
+      213: -2070773674404367379
+    second: pinkvesicle_grow_73
+  - first:
+      213: -760109381474472486
+    second: pinkvesicle_grow_74
+  - first:
+      213: -7278967596125130598
+    second: pinkvesicle_grow_75
+  - first:
+      213: -1909712217207780950
+    second: pinkvesicle_grow_76
+  - first:
+      213: 859896491080782965
+    second: pinkvesicle_grow_77
+  - first:
+      213: 3890289393326346
+    second: pinkvesicle_grow_78
+  - first:
+      213: -809490910909270266
+    second: pinkvesicle_grow_79
+  - first:
+      213: 2275677550650780426
+    second: pinkvesicle_grow_80
+  - first:
+      213: -8191500936734309975
+    second: pinkvesicle_grow_81
+  - first:
+      213: -7155814570168917677
+    second: pinkvesicle_grow_82
+  - first:
+      213: -8442137345869907303
+    second: pinkvesicle_grow_83
+  - first:
+      213: 7690652892123560227
+    second: pinkvesicle_grow_84
+  - first:
+      213: 1670356039384605962
+    second: pinkvesicle_grow_85
+  - first:
+      213: -1018044635155256829
+    second: pinkvesicle_grow_86
+  - first:
+      213: -8747099656912569449
+    second: pinkvesicle_grow_87
+  - first:
+      213: -1726413789752536828
+    second: pinkvesicle_grow_88
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pinkvesicle_grow_0
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 489
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe5ad48142865bf30800000000000000
+      internalID: 4590689899409941999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_grow_1
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 489
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71147aa89cb6c33e0800000000000000
+      internalID: -2072663215138455273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_grow_2
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 488
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a426a2b4b407aab30800000000000000
+      internalID: 4299372262964486730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_grow_3
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 488
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15c4efae06cf8e740800000000000000
+      internalID: 5181668864479349841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_grow_4
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 487
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a10cb4bc1ca700430800000000000000
+      internalID: 3747129862730268698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_grow_5
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 486
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b4735dde497f5d30800000000000000
+      internalID: 4422386738728760501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_grow_6
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 452
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fde616bd46cbe7b0800000000000000
+      internalID: -5193839708171997706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_grow_7
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 451
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ab5435ddd90e22d0800000000000000
+      internalID: -3301690628446594141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_grow_8
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 451
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 495cf0a6d0942b700800000000000000
+      internalID: 554586026082813332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_grow_9
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 450
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2041678f1b869ce50800000000000000
+      internalID: 6830105423471055874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_grow_10
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 450
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 434aa3541596d6020800000000000000
+      internalID: 2336639579449893940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_grow_11
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 449
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f49e5625f10cea1a0800000000000000
+      internalID: -6796283546896570033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_grow_12
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 448
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a263cb82e0804530800000000000000
+      internalID: 3837208593015464615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_grow_13
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 414
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 936738e81291ed820800000000000000
+      internalID: 2944818838262478393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_grow_14
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 413
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3867d6bb6d8fbc40800000000000000
+      internalID: 5530294361202845759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_grow_15
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 413
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4d9d14d12566b2d0800000000000000
+      internalID: -3263309684016308914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_grow_16
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 412
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04762ae0abe8916c0800000000000000
+      internalID: -4172146650021468352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_grow_17
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 411
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa0a3f4192bb21790800000000000000
+      internalID: -7560775039282077521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_grow_18
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 411
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e08ea594581d02770800000000000000
+      internalID: 8584091260159715342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_grow_19
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 410
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb6ed967faa64e410800000000000000
+      internalID: 1505445477290469052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_grow_20
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 376
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38fab93ad02e9e3a0800000000000000
+      internalID: -6635524027746373757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_grow_21
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 375
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 614986a7cfa4fb0d0800000000000000
+      internalID: -3404920345022917610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_grow_22
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 375
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f7a6a60c8d5f2150800000000000000
+      internalID: 5849997296965953524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_grow_23
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 374
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f9e92d825310e5d0800000000000000
+      internalID: -3035404903571133960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_grow_24
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 373
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 813a15c0659e5e6c0800000000000000
+      internalID: -4114626128749944040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_grow_25
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 373
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7679ad5d738f38760800000000000000
+      internalID: 7459078326550435687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_grow_26
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 372
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30d5c4fd98f1777b0800000000000000
+      internalID: -5226674165522866941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_grow_27
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 338
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c822a39c5ecc3a480800000000000000
+      internalID: -8889035952203619700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_grow_28
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 337
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e5b48d603fd16f30800000000000000
+      internalID: 4567176896219231713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_grow_29
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 337
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d6d16c2b4084e490800000000000000
+      internalID: -7717902801050675502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_grow_30
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 337
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f802d9fbaf26efa30800000000000000
+      internalID: 4250943927380418703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_grow_31
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 337
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46a15cfe780fe53a0800000000000000
+      internalID: -6674633131082573212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_grow_32
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 337
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e01d98b6e39d0f20800000000000000
+      internalID: 3390528713628913888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_grow_33
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 337
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4384e22a82af5960800000000000000
+      internalID: 7592966210944533323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_grow_34
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 303
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81204989b9fd37660800000000000000
+      internalID: 7382490073563136536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_grow_35
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 303
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 368adc8ede68ecdd0800000000000000
+      internalID: -2463883589753919389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_grow_36
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 303
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61dc921580ba8e9e0800000000000000
+      internalID: -1591834416065688298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_grow_37
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 303
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aafa8fbd3d7db550800000000000000
+      internalID: 6178231967982221984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_grow_38
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 303
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c997142f343cedb0800000000000000
+      internalID: -4761373260244346427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_grow_39
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 303
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57e497d2d89709350800000000000000
+      internalID: 6021446349054627445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_grow_40
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 303
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7848601842962aa10800000000000000
+      internalID: 1919211996717679751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_grow_41
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 269
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd17cc278b396e180800000000000000
+      internalID: -9086412777764130339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_grow_42
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 269
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b26b7114ccc234f0800000000000000
+      internalID: -850392237140647245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_grow_43
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 269
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d38bd598ad304800800000000000000
+      internalID: 594542945090896853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_grow_44
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 269
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5213d42e254766e80800000000000000
+      internalID: -8185727373366447835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_grow_45
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 269
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c5b6576d6afe5140800000000000000
+      internalID: 4710477608068232646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_grow_46
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 269
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7db849c477707a970800000000000000
+      internalID: 8765983408667266007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_grow_47
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 269
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 262211657712d7d00800000000000000
+      internalID: 971969891010683490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_grow_48
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 235
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 579119a763514d970800000000000000
+      internalID: 8778664897380686197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_grow_49
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 235
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44b2a77cd3549ce60800000000000000
+      internalID: 7982987946132908868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_grow_50
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 235
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb772c5c6829b8100800000000000000
+      internalID: 111343723341838267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_grow_51
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 234
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3108f5b20e1cd200800000000000000
+      internalID: 206072679943897403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_grow_52
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 234
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a53cdd34bcc930700800000000000000
+      internalID: 505419980026528602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_grow_53
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 234
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae50e17aa1f617f60800000000000000
+      internalID: 8030321770841900522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_grow_54
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 234
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4a78d5c7aec386b0800000000000000
+      internalID: -5295161516883412403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_grow_55
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 200
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9058d8f6095a3220800000000000000
+      internalID: 2466381632418369693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_grow_56
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 200
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 623123cecaecfc260800000000000000
+      internalID: 7120136777988444966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_grow_57
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 200
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07e5a7959812f0c70800000000000000
+      internalID: 8939400659149151856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_grow_58
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 200
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83a938e494ff1b5f0800000000000000
+      internalID: -742531773224478152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_grow_59
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 200
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aeeb3f72ab3eda40800000000000000
+      internalID: 5394814972741807776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_grow_60
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 200
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a511b6283b1df760800000000000000
+      internalID: 7493175282995631525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_grow_61
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 200
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79e3ceb685d33e6d0800000000000000
+      internalID: -2962456679902593385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_grow_62
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 166
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7ee2d5876580e490800000000000000
+      internalID: -7719023081639711107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_grow_63
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 166
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0f33c8cbe5a3f230800000000000000
+      internalID: 3671460553341222669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_grow_64
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 166
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3de6f9d1d699299c0800000000000000
+      internalID: -3921903631558807853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_grow_65
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 165
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31d7a76d9fdb2c6b0800000000000000
+      internalID: -5277446932581941997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_grow_66
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 165
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8437de00a7788ba0800000000000000
+      internalID: -6086483367063767921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_grow_67
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 165
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6d66ddf37132d750800000000000000
+      internalID: 6328174800658656618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_grow_68
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 165
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d126aed1348fade0800000000000000
+      internalID: -1319690816072572456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_grow_69
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 131
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41abaf5b379501ac0800000000000000
+      internalID: -3886508124911519212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_grow_70
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 131
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9b556bfdd3570f40800000000000000
+      internalID: 5694612466703883162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_grow_71
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 131
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29e3e7418ca6323c0800000000000000
+      internalID: -4385544204558909806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_grow_72
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 131
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c8d2bccb7c4874a0800000000000000
+      internalID: -6595437559685130044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_grow_73
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 130
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de3b5e680522343e0800000000000000
+      internalID: -2070773674404367379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_grow_74
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 130
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adda5c67b8c8375f0800000000000000
+      internalID: -760109381474472486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_grow_75
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 130
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a90f1657989ebfa90800000000000000
+      internalID: -7278967596125130598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_grow_76
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 96
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa94b164bd65f75e0800000000000000
+      internalID: -1909712217207780950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_grow_77
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 96
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 574997e7d47feeb00800000000000000
+      internalID: 859896491080782965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_grow_78
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 96
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a09dc559232dd0000800000000000000
+      internalID: 3890289393326346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_grow_79
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 96
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 607785e2e4c14c4f0800000000000000
+      internalID: -809490910909270266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_grow_80
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 96
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0beedddca4d49f10800000000000000
+      internalID: 2275677550650780426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_grow_81
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 95
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a10ca86c41f15e80800000000000000
+      internalID: -8191500936734309975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_grow_82
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 95
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3516482cf8071bc90800000000000000
+      internalID: -7155814570168917677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_grow_83
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 61
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99a7d52ffc087da80800000000000000
+      internalID: -8442137345869907303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_grow_84
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 61
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 329faddfe00baba60800000000000000
+      internalID: 7690652892123560227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_grow_85
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 61
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a05a2f7c7fb4e2710800000000000000
+      internalID: 1670356039384605962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_grow_86
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 61
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30a24145ccd2fd1f0800000000000000
+      internalID: -1018044635155256829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_grow_87
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 61
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79bf8c6c43f0c9680800000000000000
+      internalID: -8747099656912569449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkvesicle_grow_88
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 61
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 401d67e1ecb8a08e0800000000000000
+      internalID: -1726413789752536828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
