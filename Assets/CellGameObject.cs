@@ -122,8 +122,9 @@ public class CellGameObject : MovieClip, ICellGameObject
 
 	
 
-	public CellGameObject()
+	public virtual void Start()
 	{
+		Debug.Log("cell game object Start() " + this);
 		autoRadius();
 		createInfoLoc();
 		//makeGameDataObject();

@@ -109,6 +109,7 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 	public GameObject PinkVescile_Prefab;
 	public GameObject TransportVesicle_Prefab;
 	public GameObject BigVesicle_Prefab;
+	public GameObject HardPointPrefab;
 
 
 	private List<RNA> list_rna;
@@ -977,8 +978,11 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 		//trace("Cell.makeObjectGrid()");
 		//c_objectGrid = new ObjectGrid();
 		float size = Membrane.STARTING_RADIUS * 2;
-		c_objectGrid.makeGrid(GRID_W, GRID_H, size, size);
-		CellGameObject.setGrid(c_objectGrid);
+		if (c_objectGrid != null)
+		{
+			c_objectGrid.makeGrid(GRID_W, GRID_H, size, size);
+			CellGameObject.setGrid(c_objectGrid);
+		}
 	}
 		
 		public void makeLists()
@@ -1651,7 +1655,10 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 
 	public BigVesicle export_makeBigVesicle(float size) 
 	{
-		BigVesicle v = new BigVesicle(size);
+		GameObject bvo = Instantiate(BigVesicle_Prefab) as GameObject;
+		BigVesicle v = bvo.GetComponent<BigVesicle>();//new BigVesicle(size);
+		v.InitBigVesicle(size);
+
 		v.setCell(this);
 		return v;
 	}
@@ -1816,7 +1823,8 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 
 	public HardPoint makeEscortPoint(CellObject c)
 	{
-		HardPoint h = new HardPoint();
+		GameObject hpo = Instantiate(HardPointPrefab) as GameObject;
+		HardPoint h = hpo.GetComponent<HardPoint>();
 		//addChild(h);
 		list_hardpoint.Add(h);
 		h.setCell(this);
@@ -1828,8 +1836,9 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 
 	public HardPoint makeHardPoint() 
 	{
-		HardPoint h = new HardPoint();
-	//addChild(h); //LATER WE WILL COMMENT THIS OUT
+		GameObject hpo = Instantiate(HardPointPrefab) as GameObject;
+		HardPoint h = hpo.GetComponent<HardPoint>();
+		//addChild(h); //LATER WE WILL COMMENT THIS OUT
 		list_hardpoint.Add(h);
 		h.setCell(this);
 		addRunning(h);
@@ -2095,7 +2104,8 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 
 	private TransportVesicle makeTransportVesicle(int product, float amount = 1)
 	{
-		TransportVesicle t = new TransportVesicle();
+		GameObject to = Instantiate(TransportVesicle_Prefab) as GameObject;
+		TransportVesicle t = to.GetComponent<TransportVesicle>();
 		t.setProduct(product, amount);
 		t.transform.SetParent(this.transform);
 		t.setCell(this);
@@ -2769,7 +2779,7 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 			case Selectable.DEFENSIN:
 				GameObject po = Instantiate(PinkVescile_Prefab) as GameObject;
 				v = po.GetComponent<PinkVesicle>();
-				v = new PinkVesicle();
+				
 				v.x = p.x;
 				v.y = p.y;
 				v.setCell(this);

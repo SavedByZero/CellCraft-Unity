@@ -61,8 +61,9 @@ public class Selectable : CellGameObject
 
 	protected bool _mDown;
 
-	public Selectable()
+	public override void Start()
 	{
+		base.Start();
 		//addEventListener(MouseEvent.MOUSE_DOWN, mouseDown); //TODO
 		//addEventListener(MouseEvent.CLICK, click);  //TODO
 		list_actions = new List<CellAction> ();

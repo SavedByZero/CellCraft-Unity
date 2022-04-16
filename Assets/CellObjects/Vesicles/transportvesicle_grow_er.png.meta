@@ -1,0 +1,2239 @@
+fileFormatVersion: 2
+guid: 9f3f7a42f19d58a419968843342051cf
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4456905140821098055
+    second: transportvesicle_grow_er_0
+  - first:
+      213: -4796006821979368834
+    second: transportvesicle_grow_er_1
+  - first:
+      213: 7864128348701929061
+    second: transportvesicle_grow_er_2
+  - first:
+      213: 5720326270604456281
+    second: transportvesicle_grow_er_3
+  - first:
+      213: 7734955155665092561
+    second: transportvesicle_grow_er_4
+  - first:
+      213: 1166421616076220251
+    second: transportvesicle_grow_er_5
+  - first:
+      213: -5698981656590332223
+    second: transportvesicle_grow_er_6
+  - first:
+      213: -3172054614872805786
+    second: transportvesicle_grow_er_7
+  - first:
+      213: -2375944065997883029
+    second: transportvesicle_grow_er_8
+  - first:
+      213: -1017663308878074937
+    second: transportvesicle_grow_er_9
+  - first:
+      213: 1959925162683264086
+    second: transportvesicle_grow_er_10
+  - first:
+      213: 5492414062078486213
+    second: transportvesicle_grow_er_11
+  - first:
+      213: -6132252095580402779
+    second: transportvesicle_grow_er_12
+  - first:
+      213: 3568555952357330327
+    second: transportvesicle_grow_er_13
+  - first:
+      213: 2858163593575581409
+    second: transportvesicle_grow_er_14
+  - first:
+      213: -3412068139181456337
+    second: transportvesicle_grow_er_15
+  - first:
+      213: 4166489024428744536
+    second: transportvesicle_grow_er_16
+  - first:
+      213: 4467142984671589587
+    second: transportvesicle_grow_er_17
+  - first:
+      213: 6400386709138465935
+    second: transportvesicle_grow_er_18
+  - first:
+      213: 7395425260366405155
+    second: transportvesicle_grow_er_19
+  - first:
+      213: -2849087525237640529
+    second: transportvesicle_grow_er_20
+  - first:
+      213: -8215684252387535948
+    second: transportvesicle_grow_er_21
+  - first:
+      213: 4398498456206847024
+    second: transportvesicle_grow_er_22
+  - first:
+      213: -7688408132424213422
+    second: transportvesicle_grow_er_23
+  - first:
+      213: 105827896764758926
+    second: transportvesicle_grow_er_24
+  - first:
+      213: -1587480622789485879
+    second: transportvesicle_grow_er_25
+  - first:
+      213: 4659559123692299456
+    second: transportvesicle_grow_er_26
+  - first:
+      213: -2735635675089326940
+    second: transportvesicle_grow_er_27
+  - first:
+      213: 8420388314685051503
+    second: transportvesicle_grow_er_28
+  - first:
+      213: 4214506611460989868
+    second: transportvesicle_grow_er_29
+  - first:
+      213: -2413880459233153917
+    second: transportvesicle_grow_er_30
+  - first:
+      213: 8613074784575027960
+    second: transportvesicle_grow_er_31
+  - first:
+      213: -5773084828900853876
+    second: transportvesicle_grow_er_32
+  - first:
+      213: 4926036594139615196
+    second: transportvesicle_grow_er_33
+  - first:
+      213: -188614932068464249
+    second: transportvesicle_grow_er_34
+  - first:
+      213: 4825663538049504245
+    second: transportvesicle_grow_er_35
+  - first:
+      213: 3978616217308253602
+    second: transportvesicle_grow_er_36
+  - first:
+      213: -9068465278483000949
+    second: transportvesicle_grow_er_37
+  - first:
+      213: -8992666528937131483
+    second: transportvesicle_grow_er_38
+  - first:
+      213: 7060158352425673184
+    second: transportvesicle_grow_er_39
+  - first:
+      213: 470816633675465767
+    second: transportvesicle_grow_er_40
+  - first:
+      213: 2431544282493912885
+    second: transportvesicle_grow_er_41
+  - first:
+      213: -5192134835140654934
+    second: transportvesicle_grow_er_42
+  - first:
+      213: -4832633834639730329
+    second: transportvesicle_grow_er_43
+  - first:
+      213: 3157625268036833936
+    second: transportvesicle_grow_er_44
+  - first:
+      213: 5221081178034989502
+    second: transportvesicle_grow_er_45
+  - first:
+      213: 2064454161057387470
+    second: transportvesicle_grow_er_46
+  - first:
+      213: -5303224867485245379
+    second: transportvesicle_grow_er_47
+  - first:
+      213: -6086434824712164317
+    second: transportvesicle_grow_er_48
+  - first:
+      213: 6002409942817327622
+    second: transportvesicle_grow_er_49
+  - first:
+      213: 5116211449956255922
+    second: transportvesicle_grow_er_50
+  - first:
+      213: -7843189428737157953
+    second: transportvesicle_grow_er_51
+  - first:
+      213: 5787038209568203586
+    second: transportvesicle_grow_er_52
+  - first:
+      213: -385595283643789764
+    second: transportvesicle_grow_er_53
+  - first:
+      213: 9099645119175788626
+    second: transportvesicle_grow_er_54
+  - first:
+      213: 6216876438582174278
+    second: transportvesicle_grow_er_55
+  - first:
+      213: -7670772993952263659
+    second: transportvesicle_grow_er_56
+  - first:
+      213: 6287782670169606685
+    second: transportvesicle_grow_er_57
+  - first:
+      213: 3499328297632492853
+    second: transportvesicle_grow_er_58
+  - first:
+      213: 1562691534787278110
+    second: transportvesicle_grow_er_59
+  - first:
+      213: -8564006964508361708
+    second: transportvesicle_grow_er_60
+  - first:
+      213: -4738823073118463899
+    second: transportvesicle_grow_er_61
+  - first:
+      213: 699781870311364815
+    second: transportvesicle_grow_er_62
+  - first:
+      213: -6928626491046714855
+    second: transportvesicle_grow_er_63
+  - first:
+      213: -9154140797795605771
+    second: transportvesicle_grow_er_64
+  - first:
+      213: -2003835899830398788
+    second: transportvesicle_grow_er_65
+  - first:
+      213: 5075025716132053418
+    second: transportvesicle_grow_er_66
+  - first:
+      213: -1065642828701769948
+    second: transportvesicle_grow_er_67
+  - first:
+      213: -3666130272013134329
+    second: transportvesicle_grow_er_68
+  - first:
+      213: -249840476001749905
+    second: transportvesicle_grow_er_69
+  - first:
+      213: -6438289552608651310
+    second: transportvesicle_grow_er_70
+  - first:
+      213: 3018724354294300931
+    second: transportvesicle_grow_er_71
+  - first:
+      213: -8332341250985558725
+    second: transportvesicle_grow_er_72
+  - first:
+      213: -6043734708982137409
+    second: transportvesicle_grow_er_73
+  - first:
+      213: 9076143137836876778
+    second: transportvesicle_grow_er_74
+  - first:
+      213: -3106179679844215972
+    second: transportvesicle_grow_er_75
+  - first:
+      213: 2687158956494051713
+    second: transportvesicle_grow_er_76
+  - first:
+      213: 3471947577509056699
+    second: transportvesicle_grow_er_77
+  - first:
+      213: 2075871326309838489
+    second: transportvesicle_grow_er_78
+  - first:
+      213: -4377391824602472740
+    second: transportvesicle_grow_er_79
+  - first:
+      213: -7584613544066044605
+    second: transportvesicle_grow_er_80
+  - first:
+      213: -368128299906862834
+    second: transportvesicle_grow_er_81
+  - first:
+      213: 4745664937138182180
+    second: transportvesicle_grow_er_82
+  - first:
+      213: 7750109386849863196
+    second: transportvesicle_grow_er_83
+  - first:
+      213: -255360725602617823
+    second: transportvesicle_grow_er_84
+  - first:
+      213: -8944565417223169069
+    second: transportvesicle_grow_er_85
+  - first:
+      213: 8959143630784817449
+    second: transportvesicle_grow_er_86
+  - first:
+      213: 2606329483445098817
+    second: transportvesicle_grow_er_87
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: transportvesicle_grow_er_0
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 488
+        width: 55
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b10fbb5364e522c0800000000000000
+      internalID: -4456905140821098055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_grow_er_1
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 487
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e72d19ba439217db0800000000000000
+      internalID: -4796006821979368834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_grow_er_2
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 486
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56e2574311ff22d60800000000000000
+      internalID: 7864128348701929061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_grow_er_3
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 485
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 951b6be7f6ea26f40800000000000000
+      internalID: 5720326270604456281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_grow_er_4
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 484
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1df7ef68bb4185b60800000000000000
+      internalID: 7734955155665092561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_grow_er_5
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 483
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b576f84a746ff2010800000000000000
+      internalID: 1166421616076220251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_grow_er_6
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 482
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ce4779b06629e0b0800000000000000
+      internalID: -5698981656590332223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_grow_er_7
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 481
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66e2e5052299af3d0800000000000000
+      internalID: -3172054614872805786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_grow_er_8
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 437
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b69bff3d573f60fd0800000000000000
+      internalID: -2375944065997883029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_grow_er_9
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 436
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cbaf55cc9880e1f0800000000000000
+      internalID: -1017663308878074937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_grow_er_10
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 435
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65ce5142d8d033b10800000000000000
+      internalID: 1959925162683264086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_grow_er_11
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 434
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c66c894d79f83c40800000000000000
+      internalID: 5492414062078486213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_grow_er_12
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 433
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ab09c9853dd5eaa0800000000000000
+      internalID: -6132252095580402779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_grow_er_13
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 432
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79d4d5d4bbe068130800000000000000
+      internalID: 3568555952357330327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_grow_er_14
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 431
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e6c60925ac3aa720800000000000000
+      internalID: 2858163593575581409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_grow_er_15
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 430
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2449a6fa16e5a0d0800000000000000
+      internalID: -3412068139181456337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_grow_er_16
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 429
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85f93a551b752d930800000000000000
+      internalID: 4166489024428744536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_grow_er_17
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 428
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d47a3a60ea7efd30800000000000000
+      internalID: 4467142984671589587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_grow_er_18
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 384
+        width: 8
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f84645f1dcdb2d850800000000000000
+      internalID: 6400386709138465935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_grow_er_19
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 383
+        width: 8
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32e17177714d1a660800000000000000
+      internalID: 7395425260366405155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_grow_er_20
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 382
+        width: 8
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa2b63cadf10678d0800000000000000
+      internalID: -2849087525237640529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_grow_er_21
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 380
+        width: 8
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b39ba573b60cfd80800000000000000
+      internalID: -8215684252387535948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_grow_er_22
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 379
+        width: 8
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03c205baa0b9a0d30800000000000000
+      internalID: 4398498456206847024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_grow_er_23
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 378
+        width: 8
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25c51aad9894d4590800000000000000
+      internalID: -7688408132424213422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_grow_er_24
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 377
+        width: 8
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8b7df159e9f77100800000000000000
+      internalID: 105827896764758926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_grow_er_25
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 376
+        width: 8
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ca11dec8c228f9e0800000000000000
+      internalID: -1587480622789485879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_grow_er_26
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 375
+        width: 8
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c42c99e5541aa040800000000000000
+      internalID: 4659559123692299456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_grow_er_27
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 374
+        width: 8
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ac2a67f8d1190ad0800000000000000
+      internalID: -2735635675089326940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_grow_er_28
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 331
+        width: 8
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6217af1f8a3bd470800000000000000
+      internalID: 8420388314685051503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_grow_er_29
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 331
+        width: 8
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca3eaa70f6fec7a30800000000000000
+      internalID: 4214506611460989868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_grow_er_30
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 332
+        width: 8
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38ca629f28c208ed0800000000000000
+      internalID: -2413880459233153917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_grow_er_31
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 332
+        width: 8
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8faf77ee1e9c78770800000000000000
+      internalID: 8613074784575027960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_grow_er_32
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 332
+        width: 8
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c87fa2b6fe1e1efa0800000000000000
+      internalID: -5773084828900853876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_grow_er_33
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 332
+        width: 9
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdf4440ee2ccc5440800000000000000
+      internalID: 4926036594139615196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_grow_er_34
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 332
+        width: 9
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78989b6f7b7e16df0800000000000000
+      internalID: -188614932068464249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_grow_er_35
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 332
+        width: 10
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f3defe9b6338f240800000000000000
+      internalID: 4825663538049504245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_grow_er_36
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 332
+        width: 10
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ad444abe52e63730800000000000000
+      internalID: 3978616217308253602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_grow_er_37
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 332
+        width: 10
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b819e0240e6562280800000000000000
+      internalID: -9068465278483000949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_grow_er_38
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 289
+        width: 10
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5224827ef61a33380800000000000000
+      internalID: -8992666528937131483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_grow_er_39
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 289
+        width: 10
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e1e65e7d98baf160800000000000000
+      internalID: 7060158352425673184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_grow_er_40
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 289
+        width: 11
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 724429cdb3da88600800000000000000
+      internalID: 470816633675465767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_grow_er_41
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 289
+        width: 11
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5378ead54a49eb120800000000000000
+      internalID: 2431544282493912885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_grow_er_42
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 289
+        width: 11
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa8828560e4d1f7b0800000000000000
+      internalID: -5192134835140654934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_grow_er_43
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 289
+        width: 11
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 769d3ccb1290fecb0800000000000000
+      internalID: -4832633834639730329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_grow_er_44
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 289
+        width: 11
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0921223937322db20800000000000000
+      internalID: 3157625268036833936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_grow_er_45
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 289
+        width: 12
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb9e0404ba1057840800000000000000
+      internalID: 5221081178034989502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_grow_er_46
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 289
+        width: 12
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec317ec1f1a66ac10800000000000000
+      internalID: 2064454161057387470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_grow_er_47
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 289
+        width: 12
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d302689a4192766b0800000000000000
+      internalID: -5303224867485245379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_grow_er_48
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 246
+        width: 13
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32ce67436c3a88ba0800000000000000
+      internalID: -6086434824712164317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_grow_er_49
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 246
+        width: 13
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60a46e57a08dc4350800000000000000
+      internalID: 6002409942817327622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_grow_er_50
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 246
+        width: 13
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b8cd66f43f600740800000000000000
+      internalID: 5116211449956255922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_grow_er_51
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 246
+        width: 13
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb4d50205c4672390800000000000000
+      internalID: -7843189428737157953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_grow_er_52
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 246
+        width: 13
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 243ecee2790bf4050800000000000000
+      internalID: 5787038209568203586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_grow_er_53
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 246
+        width: 13
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3e885be12716aaf0800000000000000
+      internalID: -385595283643789764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_grow_er_54
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 246
+        width: 13
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 258079e160f684e70800000000000000
+      internalID: 9099645119175788626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_grow_er_55
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 246
+        width: 13
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 642af26be28c64650800000000000000
+      internalID: 6216876438582174278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_grow_er_56
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 246
+        width: 15
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 512d0de7a90fb8590800000000000000
+      internalID: -7670772993952263659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_grow_er_57
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 246
+        width: 15
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1a01504601b24750800000000000000
+      internalID: 6287782670169606685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_grow_er_58
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 203
+        width: 15
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53d6bd4eb8c109030800000000000000
+      internalID: 3499328297632492853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_grow_er_59
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 203
+        width: 15
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e157180ebabcfa510800000000000000
+      internalID: 1562691534787278110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_grow_er_60
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 203
+        width: 17
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41cf1823a09862980800000000000000
+      internalID: -8564006964508361708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_grow_er_61
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 203
+        width: 17
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5685959b5815c3eb0800000000000000
+      internalID: -4738823073118463899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_grow_er_62
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 202
+        width: 19
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc8da2847ef16b900800000000000000
+      internalID: 699781870311364815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_grow_er_63
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 202
+        width: 19
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 912acc37ae298df90800000000000000
+      internalID: -6928626491046714855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_grow_er_64
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 202
+        width: 19
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f26b73f175f5f080800000000000000
+      internalID: -9154140797795605771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_grow_er_65
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 202
+        width: 21
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb01f6aadd1f034e0800000000000000
+      internalID: -2003835899830398788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_grow_er_66
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 202
+        width: 21
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa1060c000d1e6640800000000000000
+      internalID: 5075025716132053418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_grow_er_67
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 202
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42fd9c94e731631f0800000000000000
+      internalID: -1065642828701769948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_grow_er_68
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 159
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 706d95c01f94f1dc0800000000000000
+      internalID: -3666130272013134329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_grow_er_69
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 159
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f64b6692963688cf0800000000000000
+      internalID: -249840476001749905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_grow_er_70
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 159
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d717af63c996a6a0800000000000000
+      internalID: -6438289552608651310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_grow_er_71
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 159
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 301488c6ec9a4e920800000000000000
+      internalID: 3018724354294300931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_grow_er_72
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 159
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3dfba367c39d5c80800000000000000
+      internalID: -8332341250985558725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_grow_er_73
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 159
+        width: 26
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbdbb62ad47502ca0800000000000000
+      internalID: -6043734708982137409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_grow_er_74
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 159
+        width: 27
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae3cd5da810f4fd70800000000000000
+      internalID: 9076143137836876778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_grow_er_75
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 159
+        width: 28
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c535956d902a4e4d0800000000000000
+      internalID: -3106179679844215972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_grow_er_76
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 159
+        width: 28
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18956d075d4ba4520800000000000000
+      internalID: 2687158956494051713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_grow_er_77
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 159
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb094343de5de2030800000000000000
+      internalID: 3471947577509056699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_grow_er_78
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 116
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99eed1c09f9fecc10800000000000000
+      internalID: 2075871326309838489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_grow_er_79
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 116
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdeded3f3516043c0800000000000000
+      internalID: -4377391824602472740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_grow_er_80
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 116
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34da35baa2a0eb690800000000000000
+      internalID: -7584613544066044605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_grow_er_81
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 116
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e01784cf24524eaf0800000000000000
+      internalID: -368128299906862834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_grow_er_82
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 116
+        width: 33
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 428d521ed1dfbd140800000000000000
+      internalID: 4745664937138182180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_grow_er_83
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 116
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c164b9dec6bed8b60800000000000000
+      internalID: 7750109386849863196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_grow_er_84
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 116
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 126bed4e5c6c47cf0800000000000000
+      internalID: -255360725602617823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_grow_er_85
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 116
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3db5b24b4258ed380800000000000000
+      internalID: -8944565417223169069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_grow_er_86
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 116
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 929e1a42aa5455c70800000000000000
+      internalID: 8959143630784817449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_grow_er_87
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 116
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1495f543bda8b2420800000000000000
+      internalID: 2606329483445098817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

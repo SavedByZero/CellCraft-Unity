@@ -239,7 +239,9 @@ public class MembraneNode : ICellGameObject
 		}
 	}
 
-		public static void setGrid(ObjectGrid g)
+	public static void setGrid(ObjectGrid g)
+	{
+		if (g != null)
 		{
 			grid_w = g.getCellW();
 			grid_h = g.getCellH();
@@ -247,6 +249,7 @@ public class MembraneNode : ICellGameObject
 			span_h = g.getSpanH();
 			p_grid = g;
 		}
+	}
 
 	public void updateStretch()
 	{
@@ -534,8 +537,8 @@ public class MembraneNode : ICellGameObject
 
 		grid_x = (int)(xx / grid_w);
 		grid_y = (int)(yy / grid_h);
-
-		p_grid.putIn((int)grid_x, (int)grid_y, gdata);
+		if (p_grid != null)
+			p_grid.putIn((int)grid_x, (int)grid_y, gdata);
 	}
 
 	private void updateLoc()

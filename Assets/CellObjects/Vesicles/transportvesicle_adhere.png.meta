@@ -1,0 +1,2263 @@
+fileFormatVersion: 2
+guid: 61bbd4e42702b8644a63e87ffa4184a3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7507171569946885248
+    second: transportvesicle_adhere_0
+  - first:
+      213: -4741635277788285125
+    second: transportvesicle_adhere_1
+  - first:
+      213: 1604617628821090248
+    second: transportvesicle_adhere_2
+  - first:
+      213: -4937979488090111788
+    second: transportvesicle_adhere_3
+  - first:
+      213: -2057371986940389248
+    second: transportvesicle_adhere_4
+  - first:
+      213: -7355929540212029879
+    second: transportvesicle_adhere_5
+  - first:
+      213: 5556258198173170502
+    second: transportvesicle_adhere_6
+  - first:
+      213: 6874187262127901343
+    second: transportvesicle_adhere_7
+  - first:
+      213: -6434963386788539537
+    second: transportvesicle_adhere_8
+  - first:
+      213: 72890388722353463
+    second: transportvesicle_adhere_9
+  - first:
+      213: 8578689480060457152
+    second: transportvesicle_adhere_10
+  - first:
+      213: 6982457304312333746
+    second: transportvesicle_adhere_11
+  - first:
+      213: -4556396445828857407
+    second: transportvesicle_adhere_12
+  - first:
+      213: -6100869183847020611
+    second: transportvesicle_adhere_13
+  - first:
+      213: -263370277329948726
+    second: transportvesicle_adhere_14
+  - first:
+      213: -3895155458251220742
+    second: transportvesicle_adhere_15
+  - first:
+      213: 5927022437315232827
+    second: transportvesicle_adhere_16
+  - first:
+      213: -5536222298365615953
+    second: transportvesicle_adhere_17
+  - first:
+      213: 4897343373216473617
+    second: transportvesicle_adhere_18
+  - first:
+      213: 8108128219155049270
+    second: transportvesicle_adhere_19
+  - first:
+      213: -3065728218572660650
+    second: transportvesicle_adhere_20
+  - first:
+      213: -8020625823602324991
+    second: transportvesicle_adhere_21
+  - first:
+      213: -3930848332658015061
+    second: transportvesicle_adhere_22
+  - first:
+      213: -6695323936221491657
+    second: transportvesicle_adhere_23
+  - first:
+      213: 2623677907563219624
+    second: transportvesicle_adhere_24
+  - first:
+      213: -7893249289726509669
+    second: transportvesicle_adhere_25
+  - first:
+      213: 351648098794038263
+    second: transportvesicle_adhere_26
+  - first:
+      213: 2489767355064544990
+    second: transportvesicle_adhere_27
+  - first:
+      213: -1190088895807151023
+    second: transportvesicle_adhere_28
+  - first:
+      213: -6629606636439749300
+    second: transportvesicle_adhere_29
+  - first:
+      213: -6319912681608674779
+    second: transportvesicle_adhere_30
+  - first:
+      213: 915190235861731146
+    second: transportvesicle_adhere_31
+  - first:
+      213: -4415706276595611771
+    second: transportvesicle_adhere_32
+  - first:
+      213: -5936147686780632485
+    second: transportvesicle_adhere_33
+  - first:
+      213: 753531187058737025
+    second: transportvesicle_adhere_34
+  - first:
+      213: 204953975375777211
+    second: transportvesicle_adhere_35
+  - first:
+      213: 654303002294186455
+    second: transportvesicle_adhere_36
+  - first:
+      213: 1529234642702537660
+    second: transportvesicle_adhere_37
+  - first:
+      213: 4684189677439476551
+    second: transportvesicle_adhere_38
+  - first:
+      213: 2036615064689817113
+    second: transportvesicle_adhere_39
+  - first:
+      213: 1947136868309212599
+    second: transportvesicle_adhere_40
+  - first:
+      213: 5248134372965083832
+    second: transportvesicle_adhere_41
+  - first:
+      213: -8537368314703098535
+    second: transportvesicle_adhere_42
+  - first:
+      213: 7740192093528368409
+    second: transportvesicle_adhere_43
+  - first:
+      213: 6349200020922403310
+    second: transportvesicle_adhere_44
+  - first:
+      213: 3846484011205734860
+    second: transportvesicle_adhere_45
+  - first:
+      213: 8094671259019071249
+    second: transportvesicle_adhere_46
+  - first:
+      213: -6850639413398240797
+    second: transportvesicle_adhere_47
+  - first:
+      213: 6914234967424095025
+    second: transportvesicle_adhere_48
+  - first:
+      213: -6424112006687476470
+    second: transportvesicle_adhere_49
+  - first:
+      213: 5425166541196588733
+    second: transportvesicle_adhere_50
+  - first:
+      213: 2052127783542882378
+    second: transportvesicle_adhere_51
+  - first:
+      213: 5491570973862866575
+    second: transportvesicle_adhere_52
+  - first:
+      213: -4669102944034869260
+    second: transportvesicle_adhere_53
+  - first:
+      213: -2763998114342522719
+    second: transportvesicle_adhere_54
+  - first:
+      213: -2878221300074119140
+    second: transportvesicle_adhere_55
+  - first:
+      213: -1679577492754917258
+    second: transportvesicle_adhere_56
+  - first:
+      213: -6841033027501759066
+    second: transportvesicle_adhere_57
+  - first:
+      213: 2011813874514082006
+    second: transportvesicle_adhere_58
+  - first:
+      213: -8044981609256068201
+    second: transportvesicle_adhere_59
+  - first:
+      213: -7270274993856188019
+    second: transportvesicle_adhere_60
+  - first:
+      213: 1150663374257275080
+    second: transportvesicle_adhere_61
+  - first:
+      213: -6855339184446309711
+    second: transportvesicle_adhere_62
+  - first:
+      213: -3513561395155837997
+    second: transportvesicle_adhere_63
+  - first:
+      213: 3646051300386476633
+    second: transportvesicle_adhere_64
+  - first:
+      213: 4162510769867849956
+    second: transportvesicle_adhere_65
+  - first:
+      213: 1498470321409380643
+    second: transportvesicle_adhere_66
+  - first:
+      213: -7752808759829822588
+    second: transportvesicle_adhere_67
+  - first:
+      213: -9192432071511143794
+    second: transportvesicle_adhere_68
+  - first:
+      213: -8878055040213580637
+    second: transportvesicle_adhere_69
+  - first:
+      213: -460896894145356278
+    second: transportvesicle_adhere_70
+  - first:
+      213: 7069533395531739434
+    second: transportvesicle_adhere_71
+  - first:
+      213: -7229609211542932687
+    second: transportvesicle_adhere_72
+  - first:
+      213: -6563338820749626713
+    second: transportvesicle_adhere_73
+  - first:
+      213: 4157869526650073786
+    second: transportvesicle_adhere_74
+  - first:
+      213: 7281761912749692020
+    second: transportvesicle_adhere_75
+  - first:
+      213: -4986996711664436527
+    second: transportvesicle_adhere_76
+  - first:
+      213: -7094198089307048332
+    second: transportvesicle_adhere_77
+  - first:
+      213: -904362429966794166
+    second: transportvesicle_adhere_78
+  - first:
+      213: -4531190504883272420
+    second: transportvesicle_adhere_79
+  - first:
+      213: -8019346291944299586
+    second: transportvesicle_adhere_80
+  - first:
+      213: 2363898856139690656
+    second: transportvesicle_adhere_81
+  - first:
+      213: -6788150359822322351
+    second: transportvesicle_adhere_82
+  - first:
+      213: 2855370151759670384
+    second: transportvesicle_adhere_83
+  - first:
+      213: -2817876982598142198
+    second: transportvesicle_adhere_84
+  - first:
+      213: -5622071412452057225
+    second: transportvesicle_adhere_85
+  - first:
+      213: -6085646142537377831
+    second: transportvesicle_adhere_86
+  - first:
+      213: -3158355039067389621
+    second: transportvesicle_adhere_87
+  - first:
+      213: -7639882382094055054
+    second: transportvesicle_adhere_88
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: transportvesicle_adhere_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 469
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08c7896a4c4de2860800000000000000
+      internalID: 7507171569946885248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_adhere_1
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 469
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b37f7fc46d3523eb0800000000000000
+      internalID: -4741635277788285125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_adhere_2
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 469
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cfe5365b3fb44610800000000000000
+      internalID: 1604617628821090248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_adhere_3
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 469
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d0493071d5c87bb0800000000000000
+      internalID: -4937979488090111788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_adhere_4
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 469
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 088149b041fb273e0800000000000000
+      internalID: -2057371986940389248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_adhere_5
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 469
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9460cda7e0d7ae990800000000000000
+      internalID: -7355929540212029879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_adhere_6
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 469
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64bb676946bcb1d40800000000000000
+      internalID: 5556258198173170502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_adhere_7
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 435
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9a06a6d4e4066f50800000000000000
+      internalID: 6874187262127901343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_adhere_8
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 435
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6313d3c4ea62b6a0800000000000000
+      internalID: -6434963386788539537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_adhere_9
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 435
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 735065f1c65f20100800000000000000
+      internalID: 72890388722353463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_adhere_10
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 435
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c0526951a0ad0770800000000000000
+      internalID: 8578689480060457152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_adhere_11
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 435
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b54ed27ceba6e060800000000000000
+      internalID: 6982457304312333746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_adhere_12
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 435
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c1c486c29d64c0c0800000000000000
+      internalID: -4556396445828857407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_adhere_13
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 436
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db7cba31dcb555ba0800000000000000
+      internalID: -6100869183847020611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_adhere_14
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 402
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acf2a5fc022585cf0800000000000000
+      internalID: -263370277329948726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_adhere_15
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 402
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af813068fb0a1f9c0800000000000000
+      internalID: -3895155458251220742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_adhere_16
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 402
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b34c1f70183014250800000000000000
+      internalID: 5927022437315232827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_adhere_17
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 402
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa0225cd6236b23b0800000000000000
+      internalID: -5536222298365615953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_adhere_18
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 402
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1126ea7c9dbd6f340800000000000000
+      internalID: 4897343373216473617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_adhere_19
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 402
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63bae0818abd58070800000000000000
+      internalID: 8108128219155049270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_adhere_20
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 402
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 650e51a9d685475d0800000000000000
+      internalID: -3065728218572660650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_adhere_21
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 368
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10acbdbfe4301b090800000000000000
+      internalID: -8020625823602324991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_adhere_22
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 368
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba48bf99442d279c0800000000000000
+      internalID: -3930848332658015061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_adhere_23
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 368
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73e09557a5e6513a0800000000000000
+      internalID: -6695323936221491657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_adhere_24
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 368
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aa8855f72d296420800000000000000
+      internalID: 2623677907563219624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_adhere_25
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 368
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9d3f3a579b857290800000000000000
+      internalID: -7893249289726509669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_adhere_26
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 368
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f36f8e251e41e400800000000000000
+      internalID: 351648098794038263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_adhere_27
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 368
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ede6cf3d73e6d8220800000000000000
+      internalID: 2489767355064544990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_adhere_28
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 334
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15427426474fb7fe0800000000000000
+      internalID: -1190088895807151023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_adhere_29
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 334
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4dbf6aa3e7eef3a0800000000000000
+      internalID: -6629606636439749300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_adhere_30
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 335
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5228a3186e82b48a0800000000000000
+      internalID: -6319912681608674779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_adhere_31
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 335
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a47c17eaba863bc00800000000000000
+      internalID: 915190235861731146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_adhere_32
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 335
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5874e0f698248b2c0800000000000000
+      internalID: -4415706276595611771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_adhere_33
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 335
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b520f2341219e9da0800000000000000
+      internalID: -5936147686780632485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_adhere_34
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 335
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18f70db4f94157a00800000000000000
+      internalID: 753531187058737025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_adhere_35
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 301
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbdc3910e8428d200800000000000000
+      internalID: 204953975375777211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_adhere_36
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 301
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d1773b2d1d841900800000000000000
+      internalID: 654303002294186455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_adhere_37
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 301
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb391882ecee83510800000000000000
+      internalID: 1529234642702537660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_adhere_38
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 301
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 743e45891b5910140800000000000000
+      internalID: 4684189677439476551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_adhere_39
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 301
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 916bb036c92834c10800000000000000
+      internalID: 2036615064689817113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_adhere_40
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 301
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bd13a45aae950b10800000000000000
+      internalID: 1947136868309212599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_adhere_41
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 301
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bae91a086e15d840800000000000000
+      internalID: 5248134372965083832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_adhere_42
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 267
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95d427d20cc258980800000000000000
+      internalID: -8537368314703098535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_adhere_43
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 268
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 915ab0423bfaa6b60800000000000000
+      internalID: 7740192093528368409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_adhere_44
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 268
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee98bfe87c3ec1850800000000000000
+      internalID: 6349200020922403310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_adhere_45
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 268
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc1332224d4716530800000000000000
+      internalID: 3846484011205734860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_adhere_46
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 268
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11f45676f9c065070800000000000000
+      internalID: 8094671259019071249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_adhere_47
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 268
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e18b10ffb3ade0a0800000000000000
+      internalID: -6850639413398240797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_adhere_48
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 268
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 133d5e6d11c44ff50800000000000000
+      internalID: 6914234967424095025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_adhere_49
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 234
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0532149a28f8d6a0800000000000000
+      internalID: -6424112006687476470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_adhere_50
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 234
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db67b57b9301a4b40800000000000000
+      internalID: 5425166541196588733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_adhere_51
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 234
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4088c3b85f9a7c10800000000000000
+      internalID: 2052127783542882378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_adhere_52
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 234
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8e21f384baf53c40800000000000000
+      internalID: 5491570973862866575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_adhere_53
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 234
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ff22114c93043fb0800000000000000
+      internalID: -4669102944034869260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_adhere_54
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 234
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a0b3cafb5e44a9d0800000000000000
+      internalID: -2763998114342522719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_adhere_55
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 234
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c108e102af08e08d0800000000000000
+      internalID: -2878221300074119140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_adhere_56
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 201
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6781a9b4b21f0b8e0800000000000000
+      internalID: -1679577492754917258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_adhere_57
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 201
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a5ea03f4b4cf01a0800000000000000
+      internalID: -6841033027501759066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_adhere_58
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 200
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d83d905f066beb10800000000000000
+      internalID: 2011813874514082006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_adhere_59
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 201
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79bddbbb9db7a5090800000000000000
+      internalID: -8044981609256068201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_adhere_60
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 201
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d81fbc3a96bca1b90800000000000000
+      internalID: -7270274993856188019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_adhere_61
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 201
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c048ae0e3af7ff00800000000000000
+      internalID: 1150663374257275080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_adhere_62
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 202
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1baf2483551fcd0a0800000000000000
+      internalID: -6855339184446309711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_adhere_63
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 169
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dbd539d6825d3fc0800000000000000
+      internalID: -3513561395155837997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_adhere_64
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 169
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95213601750699230800000000000000
+      internalID: 3646051300386476633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_adhere_65
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 170
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e006b3cd7534c930800000000000000
+      internalID: 4162510769867849956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_adhere_66
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 170
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 321521e61d2abc410800000000000000
+      internalID: 1498470321409380643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_adhere_67
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 171
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4838ec2528d786490800000000000000
+      internalID: -7752808759829822588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_adhere_68
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 171
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8a8bab0cbbed6080800000000000000
+      internalID: -9192432071511143794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_adhere_69
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 172
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a404b79affcac480800000000000000
+      internalID: -8878055040213580637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_adhere_70
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 139
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0e926a77b09a99f0800000000000000
+      internalID: -460896894145356278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_adhere_71
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 139
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a213e60da270c1260800000000000000
+      internalID: 7069533395531739434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_adhere_72
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 140
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1337719e9b44bab90800000000000000
+      internalID: -7229609211542932687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_adhere_73
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 140
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a2ffa8dd165ae4a0800000000000000
+      internalID: -6563338820749626713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_adhere_74
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 141
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab2366e1e48b3b930800000000000000
+      internalID: 4157869526650073786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_adhere_75
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 142
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4741a6411e30e0560800000000000000
+      internalID: 7281761912749692020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_adhere_76
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 142
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1da3339b9e0aacab0800000000000000
+      internalID: -4986996711664436527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_adhere_77
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 109
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4763998ac685c8d90800000000000000
+      internalID: -7094198089307048332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_adhere_78
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 109
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a42ce95592f0373f0800000000000000
+      internalID: -904362429966794166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_adhere_79
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 110
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c154fca3e3afd11c0800000000000000
+      internalID: -4531190504883272420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_adhere_80
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 111
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb360d9290f85b090800000000000000
+      internalID: -8019346291944299586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_adhere_81
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 111
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a298253c714ec020800000000000000
+      internalID: 2363898856139690656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_adhere_82
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 112
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 155b9d08635abc1a0800000000000000
+      internalID: -6788150359822322351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_adhere_83
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 112
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07c63ed460050a720800000000000000
+      internalID: 2855370151759670384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_adhere_84
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 79
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a07fc7760d3e4e8d0800000000000000
+      internalID: -2817876982598142198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_adhere_85
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 80
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77f9aee56d36af1b0800000000000000
+      internalID: -5622071412452057225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_adhere_86
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 80
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d7555593117b8ba0800000000000000
+      internalID: -6085646142537377831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_adhere_87
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 81
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b41c2dd53d44b24d0800000000000000
+      internalID: -3158355039067389621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transportvesicle_adhere_88
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 81
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 279c489837fa9f590800000000000000
+      internalID: -7639882382094055054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

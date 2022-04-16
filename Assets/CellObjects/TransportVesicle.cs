@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using UnityEngine;
+using DG.Tweening;
 
 
 public class TransportVesicle : BlankVesicle
@@ -62,6 +63,10 @@ public class TransportVesicle : BlankVesicle
 	private void startFade()
 	{
 		playAnim("fade");
+		this.GetComponent<SpriteRenderer>().DOFade(0, 1).OnComplete(new TweenCallback(delegate
+		{
+			onAnimFinish(CellGameObject.ANIM_FADE);
+		}));
 		int newRadius = 30;//MAGIC NUMBER! OOPS! width / 2;
 		if (product == Selectable.MEMBRANE)
 		{

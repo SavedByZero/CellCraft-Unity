@@ -7187,8 +7187,12 @@ MonoBehaviour:
     type: 3}
   PinkVescile_Prefab: {fileID: 2964658258960978386, guid: c711fd6f8d7647d41a5be029e7928de9,
     type: 3}
-  TransportVesicle_Prefab: {fileID: 0}
-  BigVesicle_Prefab: {fileID: 0}
+  TransportVesicle_Prefab: {fileID: 5782042454856980892, guid: f898f9cdaffe5dc469757d487db77464,
+    type: 3}
+  BigVesicle_Prefab: {fileID: 1942635603489445192, guid: 3e37697e8f6c14045a6bf120c60909ee,
+    type: 3}
+  HardPointPrefab: {fileID: 5679450909661025545, guid: f6fb6b8e38480fa4f8da71e55740a708,
+    type: 3}
   c_objectGrid: {fileID: 0}
   isCellDying: 0
   canFatProcess: 1

@@ -16,8 +16,9 @@ public class BasicUnit : CellObject
 	public const int SLICER = 3;
 	public const int DNAREPAIR = 4;
 
-	public BasicUnit()
+	public override void Start()
 	{
+		base.Start();
 		is_basicUnit = true;
 		might_collide = false;
 	}

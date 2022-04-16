@@ -54,8 +54,9 @@ public class CellObject : Selectable
     {
 		p_cell = GetComponentInParent<Cell>();
 	}
-    public CellObject()
+    public override void Start()
 	{
+		base.Start();
 		setLevel(1);
 		speed = 6;
 

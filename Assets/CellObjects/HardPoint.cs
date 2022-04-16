@@ -32,11 +32,12 @@ public class HardPoint : CellObject
 
 	private Coroutine _updatePosRoutine;
 	private Coroutine _updateRadiusRoutine;
-	private Coroutine _warbleRoutine;
+	private Coroutine _warbleRoutine;//
 	private Coroutine _escortRoutine;
 
-	public HardPoint()
+	public override void Start()
 	{
+		base.Start();
 		singleSelect = true;
 		canSelect = false;
 		text_title = "HardPoint";
@@ -183,9 +184,16 @@ public class HardPoint : CellObject
 	public override void setRadius(float r)
 	{
 		base.setRadius(r);
-		clip.transform.localScale = new Vector3((r * 2) / clip.MaxWidth, (r * 2) /clip.MaxHeight);
-		clip.transform.position = Vector3.zero;
-		
+		if (clip != null)
+		{
+			clip.transform.localScale = new Vector3((r * 2) / clip.MaxWidth, (r * 2) / clip.MaxHeight);
+			clip.transform.position = Vector3.zero;
+		}
+		else
+        {
+			transform.localScale = new Vector3((r * 2) / MaxWidth, (r * 2) / MaxHeight);
+			transform.position = Vector3.zero;
+		}
 	}
 
 	public void rememberRadius()

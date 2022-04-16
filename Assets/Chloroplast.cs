@@ -8,8 +8,9 @@ using UnityEngine;
 
  public class Chloroplast : ProducerObject
 {
-	public Chloroplast()
+	public void Start()
 	{
+		base.Start();
 		showSubtleDamage = true;
 		text_title = "Chloroplast";
 		text_description = "Produces Glucose from co2, water, and sunlight";

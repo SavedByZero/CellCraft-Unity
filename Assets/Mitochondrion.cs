@@ -7,8 +7,9 @@ using System.Threading.Tasks;
 
 public class Mitochondrion : ProducerObject
 {
-	public Mitochondrion()
+	void Start()
 	{
+		base.Start();
 		showSubtleDamage = true;
 		singleSelect = true;
 		text_title = "Mitochondrion";

@@ -36,7 +36,7 @@ public class Ribosome : BasicUnit
     private Coroutine _processFailSafeRoutine;
     private Coroutine _waitERroutine;
 
-    public  Ribosome()
+    void Start()
 	{
 		canSelect = false;
 		//buttonMode = false;

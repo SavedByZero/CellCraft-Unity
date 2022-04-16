@@ -48,7 +48,7 @@ public class BigVesicle : CellObject
 		private bool unRecycle = false;
 	public Graphics graphics;
 
-	public BigVesicle(float startSize = 0)
+	public void InitBigVesicle(float startSize = 0)
 	{
 		graphics = new Graphics();
 		size = startSize;
