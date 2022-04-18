@@ -911,10 +911,13 @@ public class CellGameObject : MovieClip, ICellGameObject
 	                                     
 	public static void setGrid(ObjectGrid g)
 	{
-		grid_w = g.getCellW();
-		grid_h = g.getCellH();
-		span_w = g.getSpanW();
-		span_h = g.getSpanH();
+		if (g != null)
+		{
+			grid_w = g.getCellW();
+			grid_h = g.getCellH();
+			span_w = g.getSpanW();
+			span_h = g.getSpanH();
+		}
 		//trace("gridsize = ("+grid_w+","+grid_h+")");
 		p_grid = g;
 	}

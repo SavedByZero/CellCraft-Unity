@@ -3347,10 +3347,12 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 
 	private void updateObjectGrid(float w, float h, bool hardUpdate = false)
 	{
-		c_objectGrid.wipeGrid();
-		c_objectGrid.makeGrid(GRID_W, GRID_H, w, h);
-		c_objectGrid.displayGrid();
-
+		if (c_objectGrid != null)
+		{
+			c_objectGrid.wipeGrid();
+			c_objectGrid.makeGrid(GRID_W, GRID_H, w, h);
+			c_objectGrid.displayGrid();
+		}
 		//update everything that needs to know the differences
 		CellGameObject.setGrid(c_objectGrid);
 		c_membrane.setObjectGrid(c_objectGrid);

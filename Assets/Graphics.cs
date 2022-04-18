@@ -321,8 +321,10 @@ public class Graphics : MonoBehaviour
 
         var meshRenderer = gameObject.AddComponent<MeshRenderer>();
         meshRenderer.rendererPriority = 9;
+        Debug.Log("this is " + this);
         Material material = Resources.Load(
             "Default2D", typeof(Material)) as Material;
+        Debug.Log("loaded " + material + " in " + this);
         meshRenderer.materials = new Material[] { material };
     }
 

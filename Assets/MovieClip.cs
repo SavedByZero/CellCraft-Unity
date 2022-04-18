@@ -93,16 +93,23 @@ public class MovieClip : MonoBehaviour
             _maxHeight = Mathf.Max(Sprites[i].bounds.size.y, _maxHeight);
             _maxWidth = Mathf.Max(Sprites[i].bounds.size.x, _maxWidth);
         }
-        for(int i=0; i < NameIndexPairs.Length; i++)
+        processFramesByName();
+    }
+
+    void processFramesByName()
+    {
+        for (int i = 0; i < NameIndexPairs.Length; i++)
         {
             string[] info = NameIndexPairs[i].Split(':');
             string[] frameBoundaries = info[1].Split('-');
+            if (frameBoundaries.Length < 2)
+                continue;
             int startFrame = int.Parse(frameBoundaries[0]);
             int endFrame = int.Parse(frameBoundaries[1]);
             bool loop = (frameBoundaries.Length > 2 && frameBoundaries[2] == "loop");
-           
+
             List<Sprite> frames = new List<Sprite>();
-            for(int j=startFrame; j <= endFrame; j++ )
+            for (int j = startFrame; j <= endFrame; j++)
             {
                 frames.Add(Sprites[j]);
             }
@@ -192,6 +199,9 @@ public class MovieClip : MonoBehaviour
 
     public void GotoAndStop(string frameName)
     {
+        if (framesByName.Count == 0 && NameIndexPairs.Length > 0) //in case the Awake() call was skipped.
+            processFramesByName();
+
         if (framesByName.ContainsKey(frameName))
         {
             List<Sprite> frames = framesByName[frameName];

@@ -9,17 +9,18 @@ using Unity.VectorGraphics;
 
 public class Membrane : CellObject
 {
-		private List<MembraneNode> list_nodes;
-		private List<GravPoint> list_grav;
-		private List<BasicUnit> list_basicUnits;
-		private List<Virus> list_viruses;
-		private List<GravPoint> list_grav_blank;
+	private List<MembraneNode> list_nodes;
+	private List<GravPoint> list_grav;
+	private List<BasicUnit> list_basicUnits;
+	private List<Virus> list_viruses;
+	private List<GravPoint> list_grav_blank;
+	public GameObject GraphicsPrefab;
 		
 		
 
 		
-		private Centrosome p_cent;
-		private Cytoskeleton p_skeleton;
+	private Centrosome p_cent;
+	private Cytoskeleton p_skeleton;
 
     public Coroutine _waitForReadyRoutine { get; private set; }
 	private Coroutine _doMouseMoveRoutine;
@@ -220,41 +221,34 @@ public class Membrane : CellObject
 		{
 			activateNodes();
 		}
-
-		//membraneSprite = new Sprite();       //TODO
-		//membraneSprite.buttonMode = true;
-		//membraneSprite.useHandCursor = true;
-
-		shape_cyto = new Graphics();
-		shape_spring = new Graphics();
-		//shape_node = new Shape();
-
-		shape_gap = new Graphics();
-		shape_outline = new Graphics();
-		shape_debug = new Graphics();
-
-
-		targetter = new Targetter();
-		/*   //TODO: figure out how this is done in Unity 
-		addChild(shape_cyto);
 		
 
-		addChild(membraneSprite);
-		addChild(iconSprite);
+		
 
-		membraneSprite.addChild(shape_outline);
-		membraneSprite.addChild(shape_spring);
-		membraneSprite.addChild(shape_gap);
+		shape_cyto = (Instantiate(GraphicsPrefab) as GameObject).GetComponent<Graphics>();//new Graphics();
+		shape_spring = (Instantiate(GraphicsPrefab) as GameObject).GetComponent<Graphics>();
+		//shape_node = new Shape();
 
-		membraneSprite.addEventListener(MouseEvent.ROLL_OVER, doOver, false, 0, true);
-		membraneSprite.addEventListener(MouseEvent.ROLL_OUT, doOut, false, 0, true);
-		membraneSprite.addEventListener(Event.MOUSE_LEAVE, doOut, false, 0, true);
-		membraneSprite.addEventListener(MouseEvent.MOUSE_DOWN, doMouseDown, false, 0, true);
+		shape_gap = (Instantiate(GraphicsPrefab) as GameObject).GetComponent<Graphics>();
+		shape_outline = (Instantiate(GraphicsPrefab) as GameObject).GetComponent<Graphics>();
+		shape_debug = (Instantiate(GraphicsPrefab) as GameObject).GetComponent<Graphics>();
+
+		shape_cyto.gameObject.transform.SetParent(this.transform);
+
+		shape_outline.transform.SetParent(membraneSprite.transform);
+		shape_spring.transform.SetParent(membraneSprite.transform);
+		shape_gap.transform.SetParent(membraneSprite.transform);
+		shape_debug.transform.SetParent(this.transform);
+		targetter.transform.SetParent(this.transform);
+		/*   //TODO: figure out how this is done in Unity 
+
+		//membraneSprite.addEventListener(MouseEvent.ROLL_OVER, doOver, false, 0, true);
+		//membraneSprite.addEventListener(MouseEvent.ROLL_OUT, doOut, false, 0, true);
+		//membraneSprite.addEventListener(Event.MOUSE_LEAVE, doOut, false, 0, true);
+		//membraneSprite.addEventListener(MouseEvent.MOUSE_DOWN, doMouseDown, false, 0, true);
 
 		membraneSprite.addEventListener(MouseEvent.CLICK, click, false, 0, true);
 
-		addChild(shape_debug);
-		addChild(targetter); 
 		 */
 		_churnRoutine = StartCoroutine(churn());
 		//addEventListener(RunFrameEvent.FAUXFRAME, justDraw, false, 0, true);
@@ -933,7 +927,7 @@ public class Membrane : CellObject
 		}
 	}
 
-	new void OnMouseDown()
+	void OnMouseClick()
 	{
 		//trace("Membrane : Clicked at" + m.localX + "," + m.localY + "VS" + mouseX + "," + mouseY);
 		if (isMouseDown)
@@ -1800,7 +1794,7 @@ public class Membrane : CellObject
 	}
 
 
-	private void doMouseDown()
+	private new void OnMouseDown()
 	{
 		Vector3 mouse = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 		isMouseDown = true;
@@ -1870,7 +1864,7 @@ public class Membrane : CellObject
 		}
 	}
 
-	private void doOver()
+	void OnMouseOver()
 	{
 		if (!isMouseDown)
 		{
@@ -1878,7 +1872,7 @@ public class Membrane : CellObject
 		}
 	}
 
-	private void doOut()
+	private void OnMouseExit()
 	{
 		if (!isMouseDown)
 		{
