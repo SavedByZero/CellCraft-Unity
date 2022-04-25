@@ -1,8 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
-public class CellObject : Selectable
+public class CellObject : Selectable, IComparable<CellObject>
 {
 	protected Cell p_cell;
 	protected Microtubule p_tube;  
@@ -68,7 +69,7 @@ public class CellObject : Selectable
 	{
 		
 		getMyMoveCost();
-		if (float.IsNaN(myMoveCost))
+		if (float.IsNaN(myMoveCost) || myMoveCost < 0)
 		{
 			myMoveCost = 0;
 		}
@@ -211,8 +212,8 @@ public class CellObject : Selectable
 
 	protected void deployCytoplasm(float xx, float yy, float radius, float spread, bool free = true, bool instant = false)
 	{
-		Vector2 v = new Vector2(radius + Random.Range(0,1) * spread, 0); //Nucleus Radius = 75
-		float radians = Random.Range(0,1) * (Mathf.PI * 2);
+		Vector2 v = new Vector2(radius + UnityEngine.Random.Range(0,1) * spread, 0); //Nucleus Radius = 75
+		float radians = UnityEngine.Random.Range(0,1) * (Mathf.PI * 2);
 		float ca = Mathf.Cos(radians);
 		float sa = Mathf.Sin(radians);
 		float rx = x * ca - y * sa;
@@ -542,8 +543,14 @@ return false;
 		}
 	}
 
+
 	public void updateGridLoc(float xx, float yy)
 	{
+		if (gdata == null)
+        {
+			makeGameDataObject();
+			
+        }
 		gdata.x = xx;
 		gdata.y = yy;
 
@@ -557,8 +564,11 @@ return false;
 		if (grid_y >= grid_h) grid_y = (int)grid_h - 1;
 		if ((old_x != grid_x) || (old_y != grid_y))
 		{
-			p_grid.takeOut(old_x, old_y, gdata);
-			p_grid.putIn(grid_x, grid_y, gdata);
+			if (p_grid != null)
+			{
+				p_grid.takeOut(old_x, old_y, gdata);
+				p_grid.putIn(grid_x, grid_y, gdata);
+			}
 		}
 	}
 
@@ -611,6 +621,14 @@ return false;
 		p_grid.putIn(grid_x, grid_y, gdata);
 	}
 
+    public int CompareTo(CellObject other)
+    {
+		if (num_id > other.num_id)
+			return 1;
+		if (other.num_id > num_id)
+			return -1;
+		return 0;
 
-
+       
+    }
 }

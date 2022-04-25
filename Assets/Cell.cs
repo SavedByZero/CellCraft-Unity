@@ -135,7 +135,7 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 	private List<CellObject> list_selectable; //objects that can be selected
 
 	public ObjectGrid c_objectGrid;
-	public static bool SHOW_GRID = true;
+	public static bool SHOW_GRID = false;
 		
 	private bool dirty_selectList = false;
 	private bool dirty_units = false;
@@ -181,20 +181,25 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
     private Coroutine _engineSpawnRadicalRoutine;
     private Coroutine _doNecrosisRoutine;
 
-    private void Start()
+    public override void Start()
     {
+		Debug.Log("new cell " + this);
+		base.Start();
 		init(); //TODO: this is a placeholder to test the init method.
     }
 
     public void init()
 	{
+		if (gdata == null)
+			makeGameDataObject();
 		setCentLoc(0, 0);
 		makeObjectGrid();
 		setChildren();
 		makeLists();
-		_runRoutine = StartCoroutine(run());
-
+		_runRoutine = StartCoroutine(run());//
 		
+
+
 	}
 
 	public override void destruct()
@@ -280,9 +285,11 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 	{
 		while (true)
 		{
-			yield return new WaitForEndOfFrame();
-			int i = 0;
-			foreach(CellGameObject g in list_running) {
+			yield return new WaitForSeconds(0.2f);//WaitForEndOfFrame();//
+												 
+			for (int i = list_running.Count-1; i >= 0; i--) 
+			{
+				CellGameObject g = list_running[i] as CellGameObject;
 				if (g != null)
 				{
 					g.RemoteRun();
@@ -293,13 +300,12 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 				{ //if we come across a null object, remove it from the list
 				  //trace("spliced null object g=" + g + "from list_running");
 
-
-					list_running.RemoveAt(i);  //TODO: I don't know if this will work with forward iteration 
+					//
+					list_running.RemoveAt(i);  
 				}
-				i++;
+				//i++;
 			}
-			//checkSituations();
-			//produceTick();
+		
 			clearTick();
 			flush();
 		}
@@ -375,10 +381,11 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 		if (clearCount > CLEAR_TIME)
 		{
 			clearCount = 0;
-			c_objectGrid.clearGrid();
+			if (c_objectGrid != null)
+				c_objectGrid.clearGrid();
 			c_membrane.updateGrid();
 			updateGridThings();
-			//c_cell.updateGrid();
+			
 		}
 	}
 
@@ -446,7 +453,7 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 		if (dirty_selectList)
 		{
 			//trace("p_world = " + p_world);
-			list_selectable.Sort(); // .sort(sortOnNumID); //sort it so the   //TODO: investigate this sorting request 
+			list_selectable.Sort(); // .sort(sortOnNumID); //sort it so the   
 			bool hasMulti = false;
 			foreach(Selectable s in list_selectable) {    //look for multiselectable units
 				if (s.getCanSelect() && s.getSingleSelect() == false)
@@ -972,7 +979,7 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 	}
 
 /*************************/
-
+	
 	private void makeObjectGrid()
 	{
 		//trace("Cell.makeObjectGrid()");
@@ -1005,7 +1012,7 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 		makeRunningList();
 		makeSelectableList();
 
-		/*makeStartSlicers(p_engine.lvl.levelData.start_slicers);  //TODO
+		/*makeStartSlicers(p_engine.lvl.levelData.start_slicers);   //TODO
 		makeStartRibosomes(p_engine.lvl.levelData.start_ribos);
 		makeStartMitochondria(p_engine.lvl.levelData.start_mitos);
 		makeStartChloroplasts(p_engine.lvl.levelData.start_chloros);
@@ -1022,21 +1029,30 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 	public void makeRunningList()
 	{
 		list_running = new List< CellObject >();
-
-		addRunningList(list_chlor);
-		addRunningList(list_lyso);
-		addRunningList(list_mito);
-		addRunningList(list_perox);
-		addRunningList(list_ribo);
-		addRunningList(list_slicer);
-		addRunningList(list_radical);
-		addRunningList(list_bigves);
-		addRunningList(list_ves);
-		addRunningList(list_hardpoint);
+		for (int i = 0; i < list_chlor.Count; i++)
+			list_running.Add(list_chlor[i]);
+		for (int i = 0; i < list_lyso.Count; i++)
+			list_running.Add(list_lyso[i]);
+		for (int i = 0; i < list_mito.Count; i++)
+			list_running.Add(list_mito[i]);
+		for (int i = 0; i < list_perox.Count; i++)
+			list_running.Add(list_perox[i]);
+		for (int i = 0; i < list_ribo.Count; i++)
+			list_running.Add(list_ribo[i]);
+		for (int i = 0; i < list_slicer.Count; i++)
+			list_running.Add(list_slicer[i]);
+		for (int i = 0; i < list_radical.Count; i++)
+			list_running.Add(list_radical[i]);
+		for (int i = 0; i < list_bigves.Count; i++)
+			list_running.Add(list_bigves[i]);
+		for (int i = 0; i < list_ves.Count; i++)
+			list_running.Add(list_ves[i]);
+		for (int i = 0; i < list_hardpoint.Count; i++)
+			list_running.Add(list_hardpoint[i]);
 		//Other lists aren't included here, generally this is okay because these things (dna repair) etc aren't spawned
 		//at the beginning of the game. If I ever decide to do that, I'll have to make sure to include them here
 		//or starting units of that type won't work!
-
+		//
 		addRunning(c_nucleus);
 		addRunning(c_golgi);
 		addRunning(c_er);
@@ -1049,37 +1065,28 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 	{
 		list_selectable = new List< CellObject >();
 
-		addSelectableList(list_chlor);
-		addSelectableList(list_lyso);
-		addSelectableList(list_mito);
-		addSelectableList(list_perox);
-		addSelectableList(list_ribo);
-		addSelectableList(list_bigves);
-		addSelectableList(list_ves);
+		
+		for (int i = 0; i < list_chlor.Count; i++)
+			list_selectable.Add(list_chlor[i]);
+		for (int i = 0; i < list_lyso.Count; i++)
+			list_selectable.Add(list_lyso[i]);
+		for (int i = 0; i < list_mito.Count; i++)
+			list_selectable.Add(list_mito[i]);
+		for (int i = 0; i < list_perox.Count; i++)
+			list_selectable.Add(list_perox[i]);
+
+		for (int i = 0; i < list_ribo.Count; i++)
+			list_selectable.Add(list_ribo[i]);
+		for (int i = 0; i < list_bigves.Count; i++)
+			list_selectable.Add(list_bigves[i]);
+		for (int i = 0; i < list_ves.Count; i++)
+			list_selectable.Add(list_ves[i]);
 
 		addSelectable(c_nucleus);
 		addSelectable(c_golgi);
 		addSelectable(c_er);
 		addSelectable(c_centrosome);
 		addSelectable(c_membrane);
-	}
-
-	public void addRunningList(object v)
-	{
-		List<CellObject> list = v as List<CellObject>;
-		foreach(CellObject i in list) {
-			list_running.Add(i);
-		}
-	}
-
-	public void addSelectableList(object v)
-	{
-		List<CellObject> list = v as List<CellObject>;
-		foreach(CellObject i in list) 
-				{
-			list_selectable.Add(i);
-		}
-		dirty_selectList = true;
 	}
 
 	public int sortOnNumID(Selectable a, Selectable b) 
@@ -1837,6 +1844,7 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 	public HardPoint makeHardPoint() 
 	{
 		GameObject hpo = Instantiate(HardPointPrefab) as GameObject;
+		hpo.transform.SetParent(this.transform);
 		HardPoint h = hpo.GetComponent<HardPoint>();
 		//addChild(h); //LATER WE WILL COMMENT THIS OUT
 		list_hardpoint.Add(h);
@@ -3339,9 +3347,9 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 
 	public void updateObjectGridLoc()
 	{
-		c_objectGrid.transform.localPosition = new Vector3(cent_x - c_objectGrid.getSpanW() / 2, cent_y - c_objectGrid.getSpanH() / 2);
+		if (c_objectGrid != null)
+			c_objectGrid.transform.localPosition = new Vector3(cent_x - c_objectGrid.getSpanW() / 2, cent_y - c_objectGrid.getSpanH() / 2);
 		
-
 		//p_canvas.updateCanvasGridLoc(c_objectGrid.x, c_objectGrid.y);  //TODO
 	}
 

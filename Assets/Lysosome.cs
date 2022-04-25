@@ -27,8 +27,9 @@ public class Lysosome : BasicUnit
 	public static float LYSO_VOL = Mathf.PI* L_RADIUS * L_RADIUS;
 	
 		
-	public  Lysosome()
+	public override void Start()
 	{
+		base.Start();
 		text_title = "Lysosome";
 		text_description = "A small vesicle filled with digestive acid. Digests stuff and regulates pH";
 		text_id = "lysosome";

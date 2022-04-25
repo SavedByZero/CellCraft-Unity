@@ -97,8 +97,9 @@ public class Virus : CellObject
     protected Coroutine _tauntCellRoutine;
     private Coroutine _waitForEatRoutine;
 
-    public Virus()
+    public override void Start()
 	{
+		base.Start();
 		singleSelect = false;
 		canSelect = false;
 		text_title = "Virus";

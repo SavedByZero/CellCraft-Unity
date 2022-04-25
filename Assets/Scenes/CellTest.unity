@@ -3284,8 +3284,8 @@ MonoBehaviour:
   - normal:0-59-loop
   - divide:0-59
   - recycle:60-94
-  - damage_1:95-194
-  - damage_2:195-394
+  - damage_1:95-194-loop
+  - damage_2:195-394-loop
   _frameInterval: 0.0166
   radius2: 0
   loc_bubble: {fileID: 0}
@@ -5086,9 +5086,8 @@ MonoBehaviour:
   - normal:0-53-loop
   - divide:0-53
   - recycle:54-104
-  - damage_1:105-304
-  - damage_2:305-504
-  - 
+  - damage_1:105-304-loop
+  - damage_2:305-504-loop
   _frameInterval: 0.0166
   radius2: 10000
   loc_bubble: {fileID: 0}
@@ -6178,9 +6177,8 @@ MonoBehaviour:
   - normal:0-79-loop
   - divide:0-79
   - recycle:80-127
-  - damage_1:128-327
-  - damage_2:328-527
-  - 
+  - damage_1:128-327-loop
+  - damage_2:328-527-loop
   _frameInterval: 0.0166
   radius2: 5625
   loc_bubble: {fileID: 0}
@@ -7378,7 +7376,7 @@ MonoBehaviour:
     type: 3}
   HardPointPrefab: {fileID: 5679450909661025545, guid: f6fb6b8e38480fa4f8da71e55740a708,
     type: 3}
-  c_objectGrid: {fileID: 0}
+  c_objectGrid: {fileID: 1979528644}
   isCellDying: 0
   canFatProcess: 1
 --- !u!212 &1334094067
@@ -9159,6 +9157,8 @@ MonoBehaviour:
   isOutsideCell: 0
   doesCollide: 0
   hardCollide: 0
+  Microtubule_Prefab: {fileID: 332078500347378858, guid: ff6b02bab21b6f240951ac80e000ab07,
+    type: 3}
   isPPoding: 0
   cent_radius: 100
 --- !u!212 &1873041093
@@ -9793,10 +9793,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 306b96381c944c44a9db15c705edcdf0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cell_w: 50
-  cell_h: 50
-  grid_w: 100
-  grid_h: 100
+  cell_w: 0.5
+  cell_h: 0.5
+  grid_w: 1
+  grid_h: 1
   grid_shape: {fileID: 1979528643}
 --- !u!4 &1979528645
 Transform:

@@ -136,7 +136,9 @@ public static Vector2 rotateVector(float radians, Vector2 v)
 
 	public static float toRotation(Vector2 v)
  		{
- 			//calc the angle
+		//calc the angle
+		if (v.x == 0 || v.y == 0)
+			return 0;
  			float ang = Mathf.Atan(v.y / v.x);
  			
  			//if it is in the first quadrant

@@ -83,8 +83,9 @@ public class ER : CellObject
 	List<Locator> dockLocators = new List<Locator>();
 	List<Locator> exitLocators = new List<Locator>();
 
-	void Start()
+	public override void Start()
 	{
+		base.Start();
 		showSubtleDamage = true;
 		singleSelect = true;
 		text_title = "E.R.";
@@ -132,6 +133,7 @@ public class ER : CellObject
 		}
 		_checkBusyRoutine = StartCoroutine(checkBusy());
 		init();
+		instantSetHealth(10);
 	}
 
 	private void busyDockingPoint(int i)

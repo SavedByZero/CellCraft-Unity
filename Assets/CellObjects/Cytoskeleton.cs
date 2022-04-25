@@ -25,9 +25,9 @@ public class Cytoskeleton : CellObject
 	private Nucleus p_nucleus;
 	private Membrane p_membrane;
 		
-	public const float PPOD_RADIUS = 150;
+	public const float PPOD_RADIUS = 1.50f;
 	public const float PPOD_RADIUS2 = PPOD_RADIUS* PPOD_RADIUS;
-	public const float GRAV_RADIUS = 100;
+	public const float GRAV_RADIUS = 1.00f;
 	public const float GRAV_RADIUS2 = GRAV_RADIUS* GRAV_RADIUS;
 	public const float PPOD_SPEED = 12;
 	public static bool SHOW = false;
@@ -36,15 +36,17 @@ public class Cytoskeleton : CellObject
 	public static float MEM_WARBLE_FRAC = 1-(0.6f);
 	public static float MEM_WARBLECIRC_FRAC = 0.7f * 0.8f;
 	public static int WARBLE_POINTS = 6;
+	public GameObject Microtubule_Prefab;
 		
 	public bool isPPoding = false;
 		
-	public float cent_radius = 100;
+	public float cent_radius = 1.00f;
 
 	private Coroutine _runRoutine;
 
-	void Start()
+	public override void Start()
 	{
+		base.Start();
 		this.gameObject.SetActive(false);
 		canSelect = false;
 		singleSelect = true;
@@ -220,11 +222,11 @@ public class Cytoskeleton : CellObject
 
 		bool overShot = false;
 
-		/*//TODO
+		
 		if (d2 > WizardOfOz.LENS_RADIUS2)
 		{ //test to see if the ppod is beyond our range
 			overShot = true;
-		}*/
+		}
 
 		Vector2 v = new Vector2(dx, dy); //get a vector from the point to the centrosome
 		v.Normalize();                         //make it a unit vector
@@ -237,7 +239,7 @@ public class Cytoskeleton : CellObject
 		{  //if we overshot somehow, make us stop short of escaping the lens
 			Vector2 v2 = new Vector2(dx, dy); //get a vector from the centrosome to the point
 				v2.Normalize();                           //make it a unit vector
-			//v2 *= (WizardOfOz.LENS_RADIUS);   //TODO   //multiply by the lens radius
+			v2 *= (WizardOfOz.LENS_RADIUS);     //multiply by the lens radius
 			x2 = p_centrosome.x + v2.x;               //this is our new ppod point
 			y2 = p_centrosome.y + v2.y;
 		}
@@ -253,7 +255,8 @@ public class Cytoskeleton : CellObject
 
 	private Microtubule makePPodMicrotubule(Point p) 
 	{
-		Microtubule temp = new Microtubule();
+		GameObject mo = Instantiate(Microtubule_Prefab) as GameObject;
+		Microtubule temp = mo.GetComponent<Microtubule>();
 		temp.setPoints(new Point(0, 0), p);
 			temp.setSkeleton(this);
 	temp.isBlank = true;
@@ -267,7 +270,8 @@ public class Cytoskeleton : CellObject
 
 	private Microtubule makeMicrotubule(Point p)
 	{
-		Microtubule temp = new Microtubule();
+		GameObject mo = Instantiate(Microtubule_Prefab) as GameObject;
+		Microtubule temp = mo.GetComponent<Microtubule>();
 		temp.setPoints(new Point(0, 0), p);
 		temp.setSkeleton(this);
 		temp.isBlank = false;
@@ -485,8 +489,8 @@ public class Cytoskeleton : CellObject
 		{
 			float xloc = ((Mathf.Cos(i / MAX * Mathf.PI * 2)) * rr);
 			float yloc = ((Mathf.Sin(i / MAX * Mathf.PI * 2)) * rr);
-			list_circ[count] = xloc;// .push(xloc);
-			list_circ[count + 1] = yloc;// .push(yloc);
+			list_circ.Add(xloc);//[count] = xloc;// .push(xloc);
+			list_circ.Add(yloc);//[count + 1] = yloc;// .push(yloc);
 			count += 2;
 			//list_grav.push(new GravPoint(new Point(xloc, yloc), null, r2));
 		}
@@ -534,12 +538,15 @@ public class Cytoskeleton : CellObject
 			int length = list_circ.Count;
 			for (int i = 0; i < length; i += 2) 
 			{
-				list_grav_warble[count].x = list_circ[i] + xo;
-				list_grav_warble[count].y = list_circ[i + 1] + yo;
-				list_grav_warble[count].radius = theR;
-				list_grav_warble[count].radius2 = theR;
-				list_grav_warble[count].p_obj = null;
-				count++;
+				if (count < list_grav_warble.Count)
+				{
+					list_grav_warble[count].x = list_circ[i] + xo;
+					list_grav_warble[count].y = list_circ[i + 1] + yo;
+					list_grav_warble[count].radius = theR;
+					list_grav_warble[count].radius2 = theR;
+					list_grav_warble[count].p_obj = null;
+					count++;
+				}
 				//trace("Cytoskeleton.makeWarblePoints() list_grav_warble[" + count + "]=" + list_grav_warble[count]);
 				//list_grav_warble.push(new GravPoint(new Point(list_circ[i]+xo, list_circ[i + 1]+yo), null, theR));
 			}

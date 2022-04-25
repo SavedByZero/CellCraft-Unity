@@ -10,7 +10,7 @@ public class Peroxisome : BasicUnit
 	private FreeRadical targetRadical;
 	public bool orderOnDeath = false;
 		
-	public Peroxisome()
+	public override void Start()
 	{
 		text_title = "Peroxisome";
 		text_description = "A large vesicle filled with hydrogen peroxide. Neutralizes toxins.";

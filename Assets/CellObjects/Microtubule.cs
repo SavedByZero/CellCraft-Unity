@@ -11,7 +11,7 @@ public class Microtubule : CellObject
 {
 	public Point origin;
 	public Point terminus;
-	public Point finishPoint;
+	public Point finishPoint = new Point(0,0);
 		
 	private float distToTarget;
 		
@@ -48,27 +48,27 @@ public class Microtubule : CellObject
 		private GameObject actinTarget;
 		private int currActin = 0;
 		
-		public static float endTubeRadius = 75;
+		public static float endTubeRadius = .75f;
 		private Sprite debugShape;  //was: true
 		public bool debugging = true;
 		
 		public Cytoskeleton p_skeleton;
 		public bool dirty_grav = false; //do I have new grav data since last time I gave it?
-		
-		public static float PPOD_R2 = 1000*1000;
-		public static float LENS_R2 = 1000*1000;
+
+	public static float PPOD_R2 = 1.5f * 1.5f; //TODO: I modified this because the initial value seemed way too high and the skeleton set it lower. Keep an eye out for issues here. //10.00f*10.00f;
+		public static float LENS_R2 = 10.00f*10.00f;
 		
 		//public var isShrunk:Boolean = false;
 		
 		private int instant_grow_count = 0;
-		private const int INSTANT_GROW_FAILSAFE = 1000;
+		private const int INSTANT_GROW_FAILSAFE = 10;
 	private Coroutine _GrowBitRoutine;
 
-	public Microtubule()
-	{
+    public override void Start()
+    {
+        base.Start();
 		canSelect = false;
 		singleSelect = true;
-
 		finishPoint = new Point(0, 0);
 		//cacheAsBitmap = true;
 		speed = 17;
@@ -220,7 +220,8 @@ public class Microtubule : CellObject
 	{
 
 		//removeEventListener(RunFrameEvent.RUNFRAME, growBit);
-		StopCoroutine(_GrowBitRoutine);
+		if (_GrowBitRoutine != null)
+			StopCoroutine(_GrowBitRoutine);
 		isMoving = false;
 		terminus.x = xLoc;
 		terminus.y = yLoc;
@@ -333,7 +334,7 @@ public class Microtubule : CellObject
 	public void instantGrowBit()
 	{
 		amReady = false;
-		while (!amReady)
+		//while (!amReady)
 		{
 			_GrowBitRoutine = StartCoroutine(growBit());
 		}
@@ -385,8 +386,8 @@ public class Microtubule : CellObject
 		finishPoint.y = yLoc; //
 		xLoc = terminus.x;    //where we were trying to go
 		yLoc = terminus.y;
-
-		StopCoroutine(_GrowBitRoutine);
+		if (_GrowBitRoutine != null)
+			StopCoroutine(_GrowBitRoutine);
 		isMoving = false;
 
 		amReady = true;
@@ -412,10 +413,11 @@ public class Microtubule : CellObject
 
 	public IEnumerator growBit()
 	{
-		while (true)
+		while (!amReady)
 		{
-			yield return new WaitForEndOfFrame();
+			
 			growBitHelper();
+			yield return new WaitForEndOfFrame();
 		}
 	}
 

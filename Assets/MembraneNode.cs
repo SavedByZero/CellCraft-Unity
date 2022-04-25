@@ -17,7 +17,7 @@ public class MembraneNode : ICellGameObject
 
 	public Membrane p_membrane;
 		
-	public static float CLOSE_ENOUGH = 15;
+	public static float CLOSE_ENOUGH = .15f;
 	public static float NODE_PULL = 15;
 		
 	public static float NODE_PUSH = 6;
@@ -101,7 +101,7 @@ public class MembraneNode : ICellGameObject
 	public float stretch;
 		
 		
-	private static float NODE_RADIUS = 50;
+	private static float NODE_RADIUS = .50f;
 	private static ObjectGrid p_grid;
 
 	private GameDataObject gdata;
@@ -131,12 +131,15 @@ public class MembraneNode : ICellGameObject
 	public float xdist = 0; //the distance I moved last
 	public float ydist = 0;
 
-    public float x { get { return 0; } set => _ = value; }
-    public float y { get { return 0; } set => _ = value; }
+	private float _x;
+	private float _y;
+    public float x { get { return _x; } set => _x = value; }
+    public float y { get { return _y; } set => _y = value; }
     bool ICellGameObject.dying { get { return false; } set => _ = value; }
 
     public MembraneNode()
 	{
+		p_grid = GameObject.FindObjectOfType<ObjectGrid>();
 		u_norm = new Vector2();
 		u_cent = new Vector2();
 		u_tube = new Vector2();
@@ -192,7 +195,7 @@ public class MembraneNode : ICellGameObject
 
 	public float getRadius2() 
 	{
-			return NODE_RADIUS* NODE_RADIUS;
+			return 25;
 	}
 
 	public void destruct()

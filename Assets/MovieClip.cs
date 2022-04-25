@@ -20,6 +20,13 @@ public class MovieClip : MonoBehaviour
     public float _frameInterval = 0.0166f;
     private int _spriteIndex = 0;
     protected bool _playing;
+    protected bool Playing
+    {
+        get
+        {
+            return _playing;
+        }
+    }
     private List<Sprite> _currentSet;
     public delegate void Finished(MovieClip mc);
     public Finished onFinished;
@@ -49,6 +56,8 @@ public class MovieClip : MonoBehaviour
         }
         set
         {
+            if (_sr == null)
+                _sr = GetComponentInChildren<SpriteRenderer>();
             if (_sr != null)
                 _sr.sprite = value;
             if (_image != null)
@@ -153,10 +162,12 @@ public class MovieClip : MonoBehaviour
                         else
                         {
                             _playing = false;
-                            onFinished.Invoke(this);
+                            onFinished?.Invoke(this);
                             return;
                         }
                     }
+                    if (_spriteIndex < _currentSet.Count)
+                        this.sprite = _currentSet[_spriteIndex];
                 }
                 else
                 {
@@ -171,7 +182,8 @@ public class MovieClip : MonoBehaviour
                             return;
                         }
                     }
-                    this.sprite = Sprites[_spriteIndex];
+                    if (_spriteIndex < Sprites.Length)
+                        this.sprite = Sprites[_spriteIndex];
                 }
             }
         }
@@ -192,9 +204,19 @@ public class MovieClip : MonoBehaviour
 
     public void GotoAndStop(int keyframe)
     {
-        this.sprite = Sprites[keyframe];
-        _spriteIndex = keyframe;
-        _playing = false;
+        if (Sprites.Length > 1)
+        {
+            try
+            {
+                this.sprite = Sprites[keyframe];
+            }
+            catch(System.Exception err)
+            {
+                Debug.Log("no sprite index for " + this + ":" + keyframe + ":" + Sprites.Length);
+            }
+            _spriteIndex = keyframe;
+            _playing = false;
+        }
     }
 
     public void GotoAndStop(string frameName)

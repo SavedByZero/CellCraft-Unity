@@ -17,8 +17,9 @@ public class Nucleus : CellObject
 	public static bool CHECK_INFEST = false;
     private Coroutine _infestTickRoutine;
 
-    public Nucleus()
+    public override void Start()
 	{
+		base.Start();
 		showSubtleDamage = true;
 		singleSelect = true;
 		text_title = "Nucleus";
@@ -33,6 +34,7 @@ public class Nucleus : CellObject
 		CHECK_INFEST = false;
 		//p_cell.onNucleusInfest(false);
 		init();
+		instantSetHealth(10);
 	}
 
 	protected override void autoRadius()

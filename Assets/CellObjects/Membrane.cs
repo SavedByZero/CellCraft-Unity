@@ -62,9 +62,9 @@ public class Membrane : CellObject
 		
 		
 		
-		public const float SPRING_THICK_ = 35;
-		public const float GAP_THICK_ = 15;
-		public const float OUTLINE_THICK_ = 40;
+		public const float SPRING_THICK_ = .35f;
+		public const float GAP_THICK_ = .15f;
+		public const float OUTLINE_THICK_ = .40f;
 		
 		public static float SPRING_THICK = SPRING_THICK_;
 		public static float GAP_THICK = GAP_THICK_;
@@ -104,7 +104,7 @@ public class Membrane : CellObject
 		private bool isPPoding = false;
 		
 		private float d2_mouse = 0;
-		private const float D2_PPOD = 100 * 100; //100 pixels
+		private const float D2_PPOD = 100f; //100 pixels
 		public const float PPOD_ANGLE = 90; //+- 30 degrees
 		
 		private float worldScale = 1;
@@ -133,7 +133,7 @@ public class Membrane : CellObject
 		private Color health_col;
 		private Color health_col2;
 		
-		public const float STARTING_RADIUS = 400;
+		public const float STARTING_RADIUS = 4.00f;
 		public const int STARTING_NODES = 15;
 		public const int MAX_NODES = 25;
 		
@@ -142,7 +142,7 @@ public class Membrane : CellObject
 		private ObjectGrid p_cgrid;
 		//private var p_virusGrid:ObjectGrid;
 		
-		private float D2_NODERADIUS = 10;
+		private float D2_NODERADIUS = .10f;
 		
 		private float defensins=0; 				//how many defensins do we have?
 		public static float defensin_strength=0; //chance of killing incoming viruses
@@ -165,8 +165,9 @@ public class Membrane : CellObject
     private Coroutine _waitShortForCentPullRoutine;
     private Coroutine _waitForCentPullRoutine;
 
-    void Start()
+    public override void Start()
 	{
+		base.Start();
 		defensin_strength = 0;
 		canSelect = false;
 		//singleSelect = true;
@@ -181,6 +182,7 @@ public class Membrane : CellObject
 
 		has_health = true;
 		setMaxHealth(100, true);
+		//instantSetHealth(10);
 	}
 
 	public override void destruct()
@@ -1495,7 +1497,8 @@ public class Membrane : CellObject
 		shape_debug.Begin();
 
 		startCyto();
-
+		shape_spring.LineWidth = SPRING_THICK;
+		
 		shape_spring.lineStyle(SPRING_THICK, health_col);// , false, "normal", CapsStyle.ROUND);
 		shape_gap.lineStyle(GAP_THICK, health_col2);
 		shape_outline.lineStyle(OUTLINE_THICK, Color.black);
@@ -1512,6 +1515,7 @@ public class Membrane : CellObject
 			}
 		}
 		endCyto();
+
 	}
 
 	public void startCyto()
@@ -1690,6 +1694,10 @@ public class Membrane : CellObject
 
 
 		}
+		shape_spring.Stroke();
+		shape_gap.Stroke();
+		shape_outline.Stroke();
+		shape_cyto.Stroke();
 	}
 
 	public void drawCentralSprings(MembraneNode m)

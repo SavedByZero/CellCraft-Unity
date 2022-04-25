@@ -10,9 +10,9 @@ using UnityEngine;
 public class HardPoint : CellObject
 {
 	private float warble_count = 0;
-	private float WARBLE_AMOUNT = 1;
-	private const float WARBLE_MAX = 30;
-	public int warble_sign = 1;
+	private float WARBLE_AMOUNT = .01f;
+	private const float WARBLE_MAX = .30f;
+	public float warble_sign = .01f;
 	private float base_radius;
 		
 	public CellObject p_escort;
@@ -107,6 +107,8 @@ public class HardPoint : CellObject
 	public void startWarble()
 	{
 		isWarble = true;
+		if (_warbleRoutine != null)
+			StopCoroutine(_warbleRoutine);
 		_warbleRoutine = StartCoroutine(warble());
 		//addEventListener(RunFrameEvent.RUNFRAME, warble, false, 0, true);
 	}
@@ -123,12 +125,12 @@ public class HardPoint : CellObject
 		{
 			yield return new WaitForEndOfFrame();
 			warble_count += warble_sign * WARBLE_AMOUNT;
-			if (warble_sign == 1 && warble_count > WARBLE_MAX)
+			if (warble_sign == .01f && warble_count > WARBLE_MAX)
 			{
 				warble_count = WARBLE_MAX;
 				warble_sign *= -1;
 			}
-			else if (warble_sign == -1 && warble_count < -WARBLE_MAX)
+			else if (warble_sign == -.01f && warble_count < -WARBLE_MAX)
 			{
 				warble_count = -WARBLE_MAX;
 				warble_sign *= -1;
@@ -186,12 +188,12 @@ public class HardPoint : CellObject
 		base.setRadius(r);
 		if (clip != null)
 		{
-			clip.transform.localScale = new Vector3((r * 2) / clip.MaxWidth, (r * 2) / clip.MaxHeight);
+			clip.transform.localScale = new Vector3((r * 2), (r * 2));
 			clip.transform.position = Vector3.zero;
 		}
 		else
         {
-			transform.localScale = new Vector3((r * 2) / MaxWidth, (r * 2) / MaxHeight);
+			transform.localScale = new Vector3((r * 2), (r * 2));
 			transform.position = Vector3.zero;
 		}
 	}

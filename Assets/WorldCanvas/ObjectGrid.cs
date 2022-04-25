@@ -151,7 +151,7 @@ public class ObjectGrid : MonoBehaviour
 		if (xx <= 0) xx = 0;
 		if (yy <= 0) yy = 0;
 		grid[xx][yy].Add(thing);
-
+		
 		//DEBUG
 		
 		if (Cell.SHOW_GRID)

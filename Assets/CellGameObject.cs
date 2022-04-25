@@ -84,7 +84,7 @@ public class CellGameObject : MovieClip, ICellGameObject
 	private float move_dist; //how far to move
 	public Vector2 v_move; //my movement vector
 	private int move_count = 0; //
-	protected int MAX_COUNT = 15; //how long between recalcs
+	protected int MAX_COUNT = 30; //TODO: was 15 - play around with changing this.  //how long between recalcs
 
 	public static int FLOAT = 0;        //float to destination
 	public static int WAYPOINT = 1; //follow waypoints
@@ -96,8 +96,8 @@ public class CellGameObject : MovieClip, ICellGameObject
 	protected float speed = 1;
 
 
-	private static int boundX = 640;
-	private static int boundY = 480;
+	private static int boundX = 7;  //TODO: was 640
+	private static int boundY = 5; //TODO: was 480. Make sure these are okay approximations.
 
 	protected int grid_x = 0;
 	protected int grid_y = 0;
@@ -110,11 +110,11 @@ public class CellGameObject : MovieClip, ICellGameObject
 	public static float cent_x = 0;
 	public static float cent_y = 0;
 
-	protected static float BOUNDARY_W = 1000;
-	protected static float BOUNDARY_H = 1000;
+	protected static float BOUNDARY_W = 10.00f;
+	protected static float BOUNDARY_H = 10.00f;
 
-	protected static float BOUNDARY_R = 1000;
-	protected static float BOUNDARY_R2 = 1000 * 1000;
+	protected static float BOUNDARY_R = 10.00f;
+	protected static float BOUNDARY_R2 = 10.00f * 10.00f;
 
 	protected GameDataObject gdata;
 
@@ -127,6 +127,8 @@ public class CellGameObject : MovieClip, ICellGameObject
 		Debug.Log("cell game object Start() " + this);
 		autoRadius();
 		createInfoLoc();
+		if (p_grid == null)
+			p_grid = GameObject.FindObjectOfType<ObjectGrid>();
 		//makeGameDataObject();
 	}
 
@@ -300,10 +302,10 @@ public class CellGameObject : MovieClip, ICellGameObject
 		damageLevel = 2;
 		if (clip)
 		{
-			clip.GotoAndStop("damage_2");
+			clip.GotoAndPlay("damage_2");
 		}
 		else
-			GotoAndStop("damage_2");
+			GotoAndPlay("damage_2");
 		/*if (Damage2 != null)
 		{
 			switchStatesOff();
@@ -557,7 +559,11 @@ public class CellGameObject : MovieClip, ICellGameObject
 		//if (anim != null)
 		{
 			//anim.GotoAndStop(anim.CurrentSpriteIndex + 1);
-			GotoAndStop(CurrentSpriteIndex + 1);
+			if (!_playing && Sprites.Length > 0)
+			{
+				
+				//GotoAndPlay(CurrentSpriteIndex + 1);
+			}
 		}
 
 	}
@@ -949,8 +955,11 @@ public class CellGameObject : MovieClip, ICellGameObject
 
 	public void makeGameDataObject()
 	{
-		gdata = new GameDataObject();
-		gdata.setThing(x, y, getRadius(), this, this.GetType());
+		if (gdata == null)
+		{
+			gdata = new GameDataObject();
+			gdata.setThing(x, y, getRadius(), this, this.GetType());
+		}
 	}
 
 	public GameDataObject getGameDataObject() 

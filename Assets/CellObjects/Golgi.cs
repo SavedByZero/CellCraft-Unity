@@ -40,8 +40,9 @@ public class Golgi : CellObject
 	private const int busyTime = 30 * 2; //2 seconds
 	private Coroutine _checkBudyRoutine;
 
-	void Start()
+	public override void Start()
 	{
+		base.Start();
 		showSubtleDamage = true;
 		singleSelect = true;
 		text_title = "Golgi Body";

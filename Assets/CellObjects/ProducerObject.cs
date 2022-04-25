@@ -49,8 +49,9 @@ public class ProducerObject : CellObject
 		public const int AA = 3;
 		public const int G = 4;
 
-	public void Start()
+	public override void Start()
 	{
+		base.Start();
 		Debug.Log("producer object start");
 		_produceRoutine = StartCoroutine(produce());
 		//addEventListener(RunFrameEvent.RUNFRAME, produce, false, 0, true);
