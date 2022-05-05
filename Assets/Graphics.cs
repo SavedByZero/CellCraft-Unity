@@ -9,24 +9,32 @@ public class Graphics : MonoBehaviour
     //private Path m_Path;
     private Scene m_Scene;
     private VectorUtils.TessellationOptions m_Options;
-
+    public string TextureName = "TestVector";
     private Mesh m_mesh;
     public float PixelsPerUnit = 100;
     private float m_LineWidth = 1f;
     private Color m_LineColor = Color.black;
     private Color m_FillColor = Color.black;
     private IFill m_CurrentFill = new SolidFill() { Color = Color.white };
+    private GradientFill _gradientFill;
 
     private List<BezierPathSegment> m_Segments = new List<BezierPathSegment>();
     private List<BezierContour> m_Contours = new List<BezierContour>();
+    private List<BezierSegment> m_bSegments = new List<BezierSegment>();
 
     private Shape m_CurrentShape;
+    public bool Pattern = false;
 
 
 
     public void SetLineColor(float r, float g, float b, float a = 1)
     {
         m_LineColor = new Color(r, g, b, a);
+    }
+
+    public void SetLineColor(Color c)
+    {
+        m_LineColor = c;
     }
 
     public float LineWidth
@@ -59,6 +67,8 @@ public class Graphics : MonoBehaviour
         }
     }
 
+    public int SortOrder = 1;
+
     public void SetFillColor(float r, float g, float b, float a = 1)
     {
         m_CurrentFill = new SolidFill() { Color = new Color(r, g, b, a) };
@@ -75,15 +85,40 @@ public class Graphics : MonoBehaviour
         if (m_LineWidth > 0.0f)
         {
             var v = LocalPoint(m_LineWidth, 0) - LocalPoint(0, 0);
+           
+            /**/
+            Stroke stroke;
+            if (m_LineColor == Color.clear)
+            {
+                stroke = new Stroke()
+                {
+                    HalfThickness = m_LineWidth / 2,
+                    TippedCornerLimit = 0,
+                    FillTransform = Matrix2D.identity,
+                    Fill = _gradientFill
+                    
+                };
+            }
+            else
+            {
+                stroke = new Stroke()
+                {
+                    Color = m_LineColor,
+                    HalfThickness = m_LineWidth / 2,
+                    TippedCornerLimit = 0,
+                };
+            }
 
             return new PathProperties()
             {
-                Stroke = new Stroke()
-                {
-                    Color = m_LineColor,
-                    HalfThickness = m_LineWidth / 2//v.magnitude / 2
-                }
+                
+                Corners = PathCorner.Round,
+                Head = PathEnding.Round,
+                Tail = PathEnding.Round,
+              
+                Stroke = stroke
             };
+           
         }
         else
         {
@@ -107,36 +142,22 @@ public class Graphics : MonoBehaviour
 
             m_Contours.Add(contour);
             m_Segments.Clear();
-
-            if (VectorUtils.PathEndsPerfectlyMatch(contour.Segments))
+            
+            //if (VectorUtils.PathEndsPerfectlyMatch(contour.Segments))
             {
                 contour.Closed = true;
             }
         }
+
+        
     }
 
-    void addFillAndStroke(Shape shape)
-    {
-        addFill(shape);
-        addStroke(shape);
-
-
-    }
 
     void addFill(Shape shape)
     {
         shape.Fill = new SolidFill() { Color = m_FillColor };
     }
 
-    void addStroke(Shape shape)
-    {
-        shape.PathProps = new PathProperties()
-        {
-            Stroke = new Stroke() { Color = m_LineColor }
-        };
-        if (shape.PathProps.Stroke.HalfThickness == 0)
-            shape.PathProps.Stroke.HalfThickness = m_LineWidth / 2;
-    }
 
     void addToScene(Shape shape)
     {
@@ -163,8 +184,8 @@ public class Graphics : MonoBehaviour
     public void Ellipse(float x, float y, float rx, float ry)
     {
         m_CurrentShape = new Shape();
-        VectorUtils.MakeEllipseShape(m_CurrentShape, new Vector2(x / PixelsPerUnit, y / PixelsPerUnit), rx / PixelsPerUnit, ry / PixelsPerUnit);
-
+        VectorUtils.MakeEllipseShape(m_CurrentShape, new Vector2(x, y), rx, ry);
+        //addToScene(m_CurrentShape);
     }
 
 
@@ -205,6 +226,55 @@ public class Graphics : MonoBehaviour
             P0 = line.P3
         });
     }
+
+    public void CurveTo(float cx1, float cy1, float x, float y)
+    {
+        /*if (m_Segments.Count == 0)
+        {
+            MoveTo(x, y);
+        }*///
+        //MoveTo(cx1, cy1);
+        var n = m_Segments.Count;
+
+       // var a = m_Segments[n - 1].P0;
+        var b = LocalPoint(cx1 / PixelsPerUnit, cy1 / PixelsPerUnit);
+        var d = LocalPoint(x / PixelsPerUnit, y / PixelsPerUnit);
+       
+
+        /*m_Segments[n - 1] = new BezierPathSegment()
+        {
+            P0 = a
+        };*/
+        
+        m_Segments.Add(new BezierPathSegment()
+        {
+            P0 = b,
+            P1 = d
+        });
+    }
+
+    public void BezierCurve(Vector2 p0, Vector2 p1, Vector2 p2, Vector2 p3)
+    {
+        //  m_bSegments.Add(
+        BezierPathSegment[] segs = ( VectorUtils.BezierSegmentToPath(new BezierSegment()
+        {
+            P0 = p0,
+            P1 = p1,
+            //P2 = p2,
+            P3 = p3
+        }));
+        for(int i=0; i < segs.Length; i++)
+        {
+            m_Segments.Add(segs[i]);
+        }
+       
+    }
+
+    public void RectangleContour()
+    {
+        
+    }
+
 
     public void BezierCurveTo(float cx1, float cy1, float cx2, float cy2, float x, float y)
     {
@@ -257,6 +327,7 @@ public class Graphics : MonoBehaviour
         }
         else
         {
+            //m_CurrentShape
             /*var d = drawables[drawables.Count - 1];
             if (d != null)
             {
@@ -276,6 +347,7 @@ public class Graphics : MonoBehaviour
         if (m_Contours.Count > 0)
         {
             m_CurrentShape.Contours = m_Contours.ToArray();
+           
             m_CurrentShape.PathProps = NewPathProperties();
         }
         else
@@ -291,7 +363,7 @@ public class Graphics : MonoBehaviour
         }
 
 
-        addStroke(m_CurrentShape);
+       // addStroke(m_CurrentShape);
         addToScene(m_CurrentShape);
     }
 
@@ -308,37 +380,115 @@ public class Graphics : MonoBehaviour
 
         m_Options = new VectorUtils.TessellationOptions()
         {
-            StepDistance = 1000.0f,
-            MaxCordDeviation = 0.05f,
-            MaxTanAngleDeviation = 0.05f,
-            SamplingStepSize = 0.01f
+            StepDistance = 1f,
+            MaxCordDeviation = 1f,
+            MaxTanAngleDeviation = 5f,
+            SamplingStepSize = 1f
         };
 
+      
+        Debug.Log("this is " + this);
+       
+    }
+
+    private void loadTexture()
+    {
         m_mesh = new Mesh();
 
         var meshFilter = gameObject.AddComponent<MeshFilter>();
         meshFilter.mesh = m_mesh;
 
         var meshRenderer = gameObject.AddComponent<MeshRenderer>();
-        meshRenderer.rendererPriority = 9;
-        Debug.Log("this is " + this);
+        meshRenderer.rendererPriority = SortOrder;
         Material material = Resources.Load(
-            "Default2D", typeof(Material)) as Material;
-        Debug.Log("loaded " + material + " in " + this);
+           TextureName, typeof(Material)) as Material;
+       
         meshRenderer.materials = new Material[] { material };
+        _gradientFill = new GradientFill()
+        {
+            //Mode = FillMode.NonZero,
+            Type = GradientFillType.Radial,
+            Stops = new GradientStop[]
+                        {
+                           
+                            new GradientStop()
+                            {
+                                Color = FastMath.ConvertFromUint(0x0066FF),
+                                StopPercentage = 0.9f
+                            },
+                            new GradientStop()
+                            {
+                                Color = FastMath.ConvertFromUint(0x0066FF),
+                                StopPercentage = 0.94f
+                            },
+                             new GradientStop()
+                            {
+                                Color = FastMath.ConvertFromUint(0x99ccFF),
+                                StopPercentage = 0.95f
+                            },
+                             new GradientStop()
+                            {
+                                Color = FastMath.ConvertFromUint(0x0066FF),
+                                StopPercentage = 0.97f
+                            },
+                             new GradientStop()
+                            {
+                                Color = FastMath.ConvertFromUint(0x0066FF),
+                                StopPercentage = 0.998f
+                            },
+                             new GradientStop()
+                            {
+                                Color = Color.black,
+                                StopPercentage = 1f
+                            }
+
+
+                        },
+            Addressing = AddressMode.Clamp,
+            Opacity = 255,
+             RadialFocus = Vector2.zero
+        };
+        /*if (Pattern)
+        {
+            var geoms = VectorUtils.TessellateScene(m_Scene, m_Options);
+            var texAtlas = VectorUtils.GenerateAtlasAndFillUVs(geoms, 16);
+           material.mainTexture = texAtlas.Texture;
+        }*/
+
+        //m_mesh.uv = new Vector2[] { };
     }
 
     public void Begin()
     {
         // m_Scene.Root.Drawables.Clear();
+        if (m_mesh == null)
+            loadTexture();
         m_mesh.Clear();
+        m_Scene.Root.Shapes.Clear();
     }
 
     public void End()
     {
         //m_mesh.Clear();
         var geoms = VectorUtils.TessellateScene(m_Scene, m_Options);
-        VectorUtils.FillMesh(m_mesh, geoms, 1.0f);
+        if (Pattern)
+        {
+            var texAtlas = VectorUtils.GenerateAtlasAndFillUVs(geoms, 16);
+            if (texAtlas != null)
+            {
+                GetComponent<MeshRenderer>().material.mainTexture = texAtlas.Texture;
+                VectorUtils.FillMesh(m_mesh, geoms, 1.0f);
+            }
+        }
+        else
+            VectorUtils.FillMesh(m_mesh, geoms, 1.0f);
+
+
+
+
+        // var textAtlas = VectorUtils.GenerateAtlasAndFillUVs(geoms, 16);
+        // .material.mainTexture = textAtlas.Texture;
+
     }
 
     private Vector2 LocalPoint(float x, float y)

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2499571369502995250}
   - component: {fileID: 6727005702032646317}
   m_Layer: 0
-  m_Name: GraphicalPref
+  m_Name: MembraneRimGraphicalPref
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -43,4 +43,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7216cf89bd375844ba7eba400d486659, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  TextureName: MembraneOuter
   PixelsPerUnit: 1
+  SortOrder: 1

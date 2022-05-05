@@ -70,9 +70,9 @@ public class Membrane : CellObject
 		public static float GAP_THICK = GAP_THICK_;
 		public static float OUTLINE_THICK = OUTLINE_THICK_;
 		
-		private const float SPRING_MIN = 13;
-		private const float GAP_MIN = 4;
-		private const float OUTLINE_MIN = 15;
+		private const float SPRING_MIN = .13f;
+		private const float GAP_MIN = .04f;
+		private const float OUTLINE_MIN = .15f;
 		
 		private const float HEALTH_PER_NODE = 10;
 
@@ -84,8 +84,8 @@ public class Membrane : CellObject
 		private float D_MNODECLICK = 50 * .75f;
 		private float D2_MNODECLICK = (50 * .75f) * (50*.75f);//D_MNODECLICK* D_MNODECLICK;
 
-		private float D_BASIC_UNIT_COLLIDE = 70;
-	private float D2_BASIC_UNIT_COLLIDE = 70 * 70;//D_BASIC_UNIT_COLLIDE* D_BASIC_UNIT_COLLIDE;
+		private float D_BASIC_UNIT_COLLIDE = .70f;
+	private float D2_BASIC_UNIT_COLLIDE = 49f;//D_BASIC_UNIT_COLLIDE* D_BASIC_UNIT_COLLIDE;
 
 	private const float OBJ_FUDGE = 1; //the "effective" size of an object gravpoint radius for a hard collision
 
@@ -126,23 +126,23 @@ public class Membrane : CellObject
 		/*private var ph_balance:Number = 7.5;	  //the real number
 		private var ph_balance_show:Number = 7.5; //the number we show - add a delay for animation*/
 		
-		private Color cyto_col = FastMath.ConvertFromUint(0x44AAFF);
-		private Color spring_col = FastMath.ConvertFromUint(0x0066FF);
-		private Color gap_col = FastMath.ConvertFromUint(0x99CCFF);
+		private Color cyto_col;
+		private Color spring_col;
+		private Color gap_col;
 		
 		private Color health_col;
 		private Color health_col2;
-		
-		public const float STARTING_RADIUS = 4.00f;
-		public const int STARTING_NODES = 15;
-		public const int MAX_NODES = 25;
-		
-		public static int CURR_NODES = 15;
+
+	public const float STARTING_RADIUS = 4;//4.00f;
+	public const int STARTING_NODES = 30;//15;
+		public const int MAX_NODES = 30;
+
+	public static int CURR_NODES = 30;//15;
 		
 		private ObjectGrid p_cgrid;
 		//private var p_virusGrid:ObjectGrid;
 		
-		private float D2_NODERADIUS = .10f;
+		private float D2_NODERADIUS = .10f;//
 		
 		private float defensins=0; 				//how many defensins do we have?
 		public static float defensin_strength=0; //chance of killing incoming viruses
@@ -168,6 +168,11 @@ public class Membrane : CellObject
     public override void Start()
 	{
 		base.Start();
+		cyto_col = FastMath.ConvertFromUint(0x44AAFF);
+		
+		spring_col = FastMath.ConvertFromUint(0x0066FF);
+		gap_col = FastMath.ConvertFromUint(0x99CCFF);
+		
 		defensin_strength = 0;
 		canSelect = false;
 		//singleSelect = true;
@@ -181,7 +186,9 @@ public class Membrane : CellObject
 		CURR_NODES = 15;
 
 		has_health = true;
-		setMaxHealth(100, true);
+		setMaxHealth(1000, true);
+		if (p_cgrid == null)
+			p_cgrid = GameObject.FindObjectOfType<ObjectGrid>();
 		//instantSetHealth(10);
 	}
 
@@ -235,11 +242,21 @@ public class Membrane : CellObject
 		shape_outline = (Instantiate(GraphicsPrefab) as GameObject).GetComponent<Graphics>();
 		shape_debug = (Instantiate(GraphicsPrefab) as GameObject).GetComponent<Graphics>();
 
-		shape_cyto.gameObject.transform.SetParent(this.transform);
+		
+		shape_spring.SetFillColor(spring_col);
+		shape_spring.SetLineColor(spring_col.r, spring_col.g, spring_col.b);
+		shape_gap.SetFillColor(gap_col);
+		shape_gap.SetLineColor(gap_col.r, gap_col.g, gap_col.b);
 
+
+		shape_cyto.transform.SetParent(membraneSprite.transform);
+		shape_cyto.name = "Cytoplasm";
 		shape_outline.transform.SetParent(membraneSprite.transform);
+		shape_outline.name = "Outline";
 		shape_spring.transform.SetParent(membraneSprite.transform);
+		shape_spring.name = "Spring";
 		shape_gap.transform.SetParent(membraneSprite.transform);
+		shape_gap.name = "Gap";
 		shape_debug.transform.SetParent(this.transform);
 		targetter.transform.SetParent(this.transform);
 		/*   //TODO: figure out how this is done in Unity 
@@ -884,7 +901,7 @@ public class Membrane : CellObject
 			n.p_membrane = this;
 			n.index = i;
 			n.init();
-			
+		
 			/*if(shieldCounter >= NODES_PER_SHIELD){
 				createShield();
 				shieldCounter = 0;
@@ -909,6 +926,7 @@ public class Membrane : CellObject
 
 	private void makeNode(float xx, float yy, float r, int i, int max)
 	{
+		Debug.Log("makin node at " + xx + "," + yy);
 		MembraneNode n = createNode(xx, yy, r, i);
 		list_nodes.Add(n);
 		linkNode(i, max);
@@ -943,9 +961,10 @@ public class Membrane : CellObject
 	{
 		while (true)
 		{
-			yield return new WaitForEndOfFrame();
+			
 			updateHealth();
 			updateNodes();
+			yield return new WaitForSeconds(.1f);//new WaitForEndOfFrame();
 		}
 	}
 
@@ -1197,6 +1216,7 @@ public class Membrane : CellObject
 
 		if (distsqr<(r* r)) {
 			float penetrate = r - d.magnitude;//  d.length;
+			//penetrate /= 100f; //TODO: I added this as a damper for Unity's coordinate system. Make sure it works okay.
 				Vector2 unitd = d.normalized;
 				Vector2 pushd = unitd *= (penetrate);
 
@@ -1238,7 +1258,7 @@ public class Membrane : CellObject
 
 		List<GameDataObject> neighbors = p_cgrid.getNeighbors((int)m1.grid_x, (int)m1.grid_y);
 			foreach(GameDataObject gdo in neighbors) {
-			CanvasObject cv = (CanvasObject)(gdo.ptr);
+			CanvasObject cv = (gdo.ptr as CanvasObject);
 			if (cv != null)
 			{
 				if (cv is GoodieGem)
@@ -1484,24 +1504,32 @@ public class Membrane : CellObject
 		drawAllNodes(true);
 
 		p_skeleton.x += MembraneNode.tug_x;
-		p_skeleton.y += MembraneNode.tug_y;
+		p_skeleton.y += MembraneNode.tug_y;//
 	}
 
 	public void drawAllNodes(bool doTug = false)
 	{
-
+		
 		shape_spring.Begin();//  .graphics.clear();
 		shape_cyto.Begin();
 		shape_gap.Begin();
 		shape_outline.Begin();
 		shape_debug.Begin();
+		//shape_cyto.SetLineColor(cyto_col.r, cyto_col.g, cyto_col.b);
+		//shape_cyto.SetFillColor(cyto_col);
+		//shape_spring.SetFillColor(spring_col);
+		//shape_spring.SetLineColor(spring_col.r, spring_col.g, spring_col.b);
+		//shape_gap.SetFillColor(gap_col);
+		//shape_gap.SetLineColor(gap_col.r, gap_col.g, gap_col.b);
+
 
 		startCyto();
 		shape_spring.LineWidth = SPRING_THICK;
-		
-		shape_spring.lineStyle(SPRING_THICK, health_col);// , false, "normal", CapsStyle.ROUND);
-		shape_gap.lineStyle(GAP_THICK, health_col2);
-		shape_outline.lineStyle(OUTLINE_THICK, Color.black);
+
+		//shape_spring.lineStyle(SPRING_THICK, health_col);// , false, "normal", CapsStyle.ROUND);
+		shape_gap.LineWidth = GAP_THICK;
+		shape_outline.LineWidth = OUTLINE_THICK;
+
 
 		int length = list_nodes.Count;
 		for (int i = 0; i < length; i++) {
@@ -1514,13 +1542,23 @@ public class Membrane : CellObject
 				drawMembrane(list_nodes[i]);// , c, c2);
 			}
 		}
+		
 		endCyto();
+		
+
+
+		shape_spring.End();
+		shape_gap.End();
+		shape_outline.End();
+		//shape_cyto.End();
 
 	}
 
 	public void startCyto()
 	{
 		shape_cyto.SetFillColor(cyto_col.r,cyto_col.g,cyto_col.b,cyto_col.a);
+		shape_cyto.SetLineColor(cyto_col.r,cyto_col.g,cyto_col.b,cyto_col.a);
+	
 		MembraneNode m = list_nodes[0];
 		if (list_nodes.Count >= 1)
 		{
@@ -1546,7 +1584,8 @@ public class Membrane : CellObject
 			}
 			shape_cyto.LineTo(mid.x, mid.y);
 		}
-
+		shape_cyto.Fill();
+		//shape_cyto.Stroke();
 		shape_cyto.End();
 
 	}
@@ -1574,24 +1613,22 @@ public class Membrane : CellObject
 	}
 
 	public void drawMembrane(MembraneNode m)
-	{//, c:uint, c2:uint) {
+	{
+		Debug.Log("original node " + m + "::" + m.x + "," + m.y);
+		Point mid_prev = new Point((m.pt_control_prev.x + m.p_prev.pt_control_next.x) / 2,(m.pt_control_prev.y + m.p_prev.pt_control_next.y) / 2);
 
-		Point mid_prev = new Point(
-					(m.pt_control_prev.x + m.p_prev.pt_control_next.x) / 2,
-					(m.pt_control_prev.y + m.p_prev.pt_control_next.y) / 2);
-
-		Point mid = new Point(
-					(m.pt_control_next.x + m.p_next.pt_control_prev.x) / 2,
-					(m.pt_control_next.y + m.p_next.pt_control_prev.y) / 2);
+		Point mid = new Point((m.pt_control_next.x + m.p_next.pt_control_prev.x) / 2, (m.pt_control_next.y + m.p_next.pt_control_prev.y) / 2);
 
 
 		float dx = mid_prev.x - mid.x;
 		float dy = mid_prev.y - mid.y;
+		Debug.Log("dx " + dx);
+		Debug.Log("dy " + dy);
 		float d2 = (dx * dx) + (dy * dy);
 
 		if (d2 < MembraneNode.D2_NODEREST / 10)
 		{
-			//super hacky hack!
+			//super hacky hack!//
 			m.isFolded = true;
 			//this is not elegant code!
 			dummy_flag = true;
@@ -1607,16 +1644,19 @@ public class Membrane : CellObject
 		  //THE NORMAL WAY OF DOING THINGS:
 			if (!dummy_flag)
 			{
+				Debug.Log("prev: " + mid_prev+ "mid: " + mid + ", cur " + m.x + "," + m.y);
 				shape_spring.MoveTo(mid_prev.x, mid_prev.y);
 				shape_gap.MoveTo(mid_prev.x, mid_prev.y);
 				shape_outline.MoveTo(mid_prev.x, mid_prev.y);
+
 				
-				shape_spring.BezierCurveTo(mid_prev.x, mid_prev.y,m.x, m.y, mid.x, mid.y);
-				shape_gap.BezierCurveTo(mid_prev.x, mid_prev.y,m.x, m.y, mid.x, mid.y);
-				shape_outline.BezierCurveTo(mid_prev.x, mid_prev.y, m.x, m.y, mid.x, mid.y);
+				shape_spring.BezierCurveTo(mid_prev.x, mid_prev.y, mid.x, mid.y,m.x,m.y);
+				shape_gap.BezierCurveTo(mid_prev.x, mid_prev.y, mid.x, mid.y, m.x, m.y);
+				//shape_outline.BezierCurveTo(mid_prev.x, mid_prev.y, mid.x, mid.y, m.x, m.y);
 
 				shape_cyto.LineTo((mid.x + m.x) / 2, (mid.y + m.y) / 2);
 				shape_cyto.LineTo(mid.x, mid.y);
+				//shape_cyto.LineTo(m.x, m.y);
 			}
 			else
 			{
@@ -1645,7 +1685,10 @@ public class Membrane : CellObject
 			shape_cyto.LineTo(mid.x, mid.y);
 		}
 
-
+		shape_spring.Stroke();
+		shape_gap.Stroke();
+		shape_outline.Stroke();
+		shape_cyto.Stroke();
 
 
 
@@ -1694,10 +1737,8 @@ public class Membrane : CellObject
 
 
 		}
-		shape_spring.Stroke();
-		shape_gap.Stroke();
-		shape_outline.Stroke();
-		shape_cyto.Stroke();
+		
+
 	}
 
 	public void drawCentralSprings(MembraneNode m)
@@ -1709,15 +1750,24 @@ public class Membrane : CellObject
 				if (!m.rest_cent)
 				{
 					if (m.dpull_cent > 0)
-						shape_spring.lineStyle(1, new Color(0,1,0,0.5f));
+					{
+						shape_spring.LineWidth = 1;
+						shape_spring.SetLineColor(0, 1, 0, 0.5f);
+					}
 					else
-						shape_spring.lineStyle(1, Color.red);
+					{
+						shape_spring.LineWidth = 1;
+						shape_spring.SetLineColor(1, 0, 0, 1);
+					}
 
 				}
 			}
 			else
 			{
-				shape_spring.lineStyle(1, (FastMath.ConvertFromUint(0x55CCFF)));//, 1);
+				shape_spring.LineWidth = 1;
+				Color newcol = FastMath.ConvertFromUint(0x55CCFF);
+				shape_spring.SetLineColor(newcol.r, newcol.g, newcol.b, 1);
+			
 			}
 			shape_spring.MoveTo(m.x, m.y);
 			shape_spring.LineTo(m.p_cent.x, m.p_cent.y);

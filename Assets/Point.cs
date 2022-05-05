@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[System.Serializable]
 public class Point 
 {
     public float x;
@@ -11,6 +12,11 @@ public class Point
     {
         x = xPos;
         y = yPos;
+    }
+
+    public override string ToString()
+    {
+       return ("[x:" + x + ", y:" + y + "]");
     }
 
     public static Point Interpolate(Point p1, Point p2, float f)

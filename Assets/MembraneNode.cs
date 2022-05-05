@@ -18,16 +18,16 @@ public class MembraneNode : ICellGameObject
 	public Membrane p_membrane;
 		
 	public static float CLOSE_ENOUGH = .15f;
-	public static float NODE_PULL = 15;
+	public static float NODE_PULL = .15f;
 		
-	public static float NODE_PUSH = 6;
+	public static float NODE_PUSH = .06f;
 
-	public static float CENT_PULL = 10;
-	public static float CENT_PULL_BASE = 10;
-	public static float GRAV_PULL = 2;
+	public static float CENT_PULL = .10f;
+	public static float CENT_PULL_BASE = .10f;
+	public static float GRAV_PULL = .02f;
 		
-	public static float FRICT = 0.5f;
-	public static float GRAVITY = 40000;
+	public static float FRICT = 0.05f;
+	public static float GRAVITY = 400;  //TODO: was 40,000 - make sure it's okay
 		
 	public static bool CENT_PULL_DIMINISHED = false;
 	public bool stable = false;
@@ -73,13 +73,13 @@ public class MembraneNode : ICellGameObject
 		
 	public float foldRatio = 1;
 	public float d2_next; //distance^2 to p_next
-	public float d2_cent = 1;
+	public float d2_cent = .01f;
 		
 	private float d_centx = 0;
 	private float d_centy = 0;
 		
-	public static float D2_CENT = 1; //the GREATEST D2_CENT that anyone has
-	public static float D2_CENT_NEW = 1; //for the next update
+	public static float D2_CENT = .01f; //the GREATEST D2_CENT that anyone has
+	public static float D2_CENT_NEW = .01f; //for the next update
 		
 	public bool rest_node = false;
 	public bool rest_cent = false;
@@ -133,7 +133,9 @@ public class MembraneNode : ICellGameObject
 
 	private float _x;
 	private float _y;
-    public float x { get { return _x; } set => _x = value; }
+    public float x { get { return _x; } 
+		set => _x = value; //
+	}
     public float y { get { return _y; } set => _y = value; }
     bool ICellGameObject.dying { get { return false; } set => _ = value; }
 
@@ -195,7 +197,7 @@ public class MembraneNode : ICellGameObject
 
 	public float getRadius2() 
 	{
-			return 25;
+		return 25;
 	}
 
 	public void destruct()
@@ -279,6 +281,7 @@ public class MembraneNode : ICellGameObject
 		D2_CENTREST = cd * cd;
 		D_NODEREST = nd;
 		D_CENTREST = cd;
+	
 
 	}
 
@@ -292,7 +295,7 @@ public class MembraneNode : ICellGameObject
 		//fadupinator
 		//frac = 1;
 		
-		return Color.Lerp(Color.red, new Color(0, (float)66/255,1), frac);
+		return Color.Lerp(Color.red, new Color(0, (float)66/255f,1), frac);
 	}
 
 	public void makeGameDataObject()
@@ -361,7 +364,8 @@ public class MembraneNode : ICellGameObject
 		{
 			D2_CENT_NEW = d2_cent;
 		}
-
+		Debug.Log("noddist " + D2_NODEREST);
+	
 		dpull_prev = D2_NODEREST - d2_prev; //positive : PUSH AWAY , negative PULL TOWARDS
 		dpull_next = D2_NODEREST - d2_next;
 		dpull_cent = d2_cent - D2_CENTREST;
@@ -392,7 +396,8 @@ public class MembraneNode : ICellGameObject
 		pt_control_prev.x = (x + p_prev.x) / 2;
 		pt_control_prev.y = (y + p_prev.y) / 2;
 
-		Vector2 pushv = u_cent * 20; 
+		Vector2 pushv = u_cent * 1.2f;// 20;
+	
 		Point push = new Point(pushv.x, pushv.y);
 		float pushMult = 0;
 
@@ -402,7 +407,7 @@ public class MembraneNode : ICellGameObject
 		pushMult = (d2_centRatio) / (D2_CENT / p_prev.d2_cent);
 		pushMult = pushMult - 1;
 		pushMult *= 1;
-
+		
 		
 		if (float.IsNaN(pushMult)) 
 			pushMult = 0;

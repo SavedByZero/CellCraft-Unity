@@ -26,10 +26,10 @@ public class Cytoskeleton : CellObject
 	private Membrane p_membrane;
 		
 	public const float PPOD_RADIUS = 1.50f;
-	public const float PPOD_RADIUS2 = PPOD_RADIUS* PPOD_RADIUS;
+	public const float PPOD_RADIUS2 = 225;//PPOD_RADIUS* PPOD_RADIUS;
 	public const float GRAV_RADIUS = 1.00f;
-	public const float GRAV_RADIUS2 = GRAV_RADIUS* GRAV_RADIUS;
-	public const float PPOD_SPEED = 12;
+	public const float GRAV_RADIUS2 = 100;//GRAV_RADIUS* GRAV_RADIUS;
+	public const float PPOD_SPEED = .12f;
 	public static bool SHOW = false;
 		
 	public static float MEM_FRAC = 0.7f;
@@ -40,7 +40,7 @@ public class Cytoskeleton : CellObject
 		
 	public bool isPPoding = false;
 		
-	public float cent_radius = 1.00f;
+	public float cent_radius = 1.5f; //was initially 100 pixels
 
 	private Coroutine _runRoutine;
 

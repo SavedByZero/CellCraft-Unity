@@ -116,9 +116,11 @@ public class FastMath
 	public static Color ConvertFromUint(uint uCol)
     {
 		Color c = new Color();
-		c.b = (byte)(uCol & 0xff);
-		c.g = (byte)( (uCol >> 8) & 0xff);
-		c.r = (byte)((uCol >> 16) & 0xff);
+		c.b = (byte)(uCol & 0xff) / 255f;
+		c.g = (byte)( (uCol >> 8) & 0xff) / 255f;
+		c.r = (byte)((uCol >> 16) & 0xff) / 255f;
+		c.a = 1;
+		Debug.Log("color " + c);
 		return c;
     }
 
