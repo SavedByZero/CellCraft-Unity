@@ -55,23 +55,24 @@ public class Microtubule : CellObject
 		public Cytoskeleton p_skeleton;
 		public bool dirty_grav = false; //do I have new grav data since last time I gave it?
 
-	public static float PPOD_R2 = 1.5f * 1.5f; //TODO: I modified this because the initial value seemed way too high and the skeleton set it lower. Keep an eye out for issues here. //10.00f*10.00f;
+	public static float PPOD_R2 = 1;//1.5f * 1.5f; //TODO: I modified this because the initial value seemed way too high and the skeleton set it lower. Keep an eye out for issues here. //10.00f*10.00f;
 		public static float LENS_R2 = 10.00f*10.00f;
 		
 		//public var isShrunk:Boolean = false;
 		
 		private int instant_grow_count = 0;
 		private const int INSTANT_GROW_FAILSAFE = 10;
-	private Coroutine _GrowBitRoutine;
+	private bool _shouldGrow;
 
-    public override void Start()
+
+	public override void Start()
     {
         base.Start();
 		canSelect = false;
 		singleSelect = true;
 		finishPoint = new Point(0, 0);
 		//cacheAsBitmap = true;
-		speed = 17;
+		speed = .17f;
 	}
 
 	public void destruct()
@@ -203,6 +204,7 @@ public class Microtubule : CellObject
 	{
 		
 		terminus = new Point(p_obj.x - p_skeleton.x, p_obj.y - p_skeleton.y);
+		Debug.Log("new terminus " + terminus);
 		calcTrajectory(terminus);
 		p_skeleton.updateGravityPoints();
 		//instantFollow();
@@ -220,19 +222,28 @@ public class Microtubule : CellObject
 	{
 
 		//removeEventListener(RunFrameEvent.RUNFRAME, growBit);
-		if (_GrowBitRoutine != null)
-			StopCoroutine(_GrowBitRoutine);
+		//if (_GrowBitRoutine != null)
+		//StopCoroutine(_GrowBitRoutine);
+		_shouldGrow = false;
 		isMoving = false;
 		terminus.x = xLoc;
 		terminus.y = yLoc;
 		onFinish();
 	}
 
+	public void checkShouldGrow()
+    {
+		if (_shouldGrow)
+        {
+			growBitHelper();
+        }
+    }
+
 	public void ppodTo(float xx, float yy)
 	{
 		isPpoding = true;
 		p_skeleton.onStartPPod();
-				origin.x = terminus.x;
+		origin.x = terminus.x;
 		origin.y = terminus.y;
 		xLoc = terminus.x;
 		yLoc = terminus.y;
@@ -240,7 +251,8 @@ public class Microtubule : CellObject
 		terminus.y = yy;
 		calcTrajectory(terminus);
 		isMoving = true;
-		_GrowBitRoutine = StartCoroutine(growBit());
+		//_GrowBitRoutine = StartCoroutine(growBit());
+		_shouldGrow = true;
 	}
 
 	public void grow()
@@ -249,7 +261,8 @@ public class Microtubule : CellObject
 		yLoc = y;
 		calcTrajectory(terminus);
 		isMoving = true;
-		_GrowBitRoutine = StartCoroutine(growBit());
+		//_GrowBitRoutine = StartCoroutine(growBit());
+		_shouldGrow = true;
 	}
 
 	private void calcTrajectory(Point p)
@@ -257,6 +270,7 @@ public class Microtubule : CellObject
 
 
 		Vector2 dist = new Vector2(xLoc - p.x, yLoc - p.y);
+		Debug.Log("finding dist: " + dist);
 		dist.Normalize();
 
 		angle = FastMath.toRotation(dist);
@@ -264,6 +278,7 @@ public class Microtubule : CellObject
 		angle -= 90;
 
 		dist *= speed;
+		Debug.Log("finding speed: " + dist);
 		xSpeed = -dist.x;
 		ySpeed = -dist.y;
 	}
@@ -294,7 +309,7 @@ public class Microtubule : CellObject
 		{ 
 			if (p_obj.num_id == Selectable.CENTROSOME)
 			{
-				p_obj.getPpodContract(xx, yy);
+				p_obj.getPpodContract(xx, yy); //Bookmark: this moves the cell objects to the expanded pseudopod point by moving the centrosome, which then tells the cell to move everything else
 			}
 		}
 	}
@@ -311,8 +326,10 @@ public class Microtubule : CellObject
 		xLoc = origin.x;
 		yLoc = origin.y;
 		calcTrajectory(terminus);
-		_GrowBitRoutine = StartCoroutine(growBit());
-	
+		//_GrowBitRoutine = StartCoroutine(growBit());
+		_shouldGrow = true;
+
+
 	}
 
 	private void instantFollow()
@@ -336,7 +353,8 @@ public class Microtubule : CellObject
 		amReady = false;
 		//while (!amReady)
 		{
-			_GrowBitRoutine = StartCoroutine(growBit());
+			//_GrowBitRoutine = StartCoroutine(growBit());
+			_shouldGrow = true;
 		}
 	}
 
@@ -368,7 +386,9 @@ public class Microtubule : CellObject
 		if (isPpoding)
 		{
 			isPpoding = false;
-			StopCoroutine(_GrowBitRoutine);
+			//if (_GrowBitRoutine != null)
+			//	StopCoroutine(_GrowBitRoutine);
+			_shouldGrow = false;
 			isMoving = false;
 			xSpeed = 0;
 			ySpeed = 0;
@@ -386,8 +406,9 @@ public class Microtubule : CellObject
 		finishPoint.y = yLoc; //
 		xLoc = terminus.x;    //where we were trying to go
 		yLoc = terminus.y;
-		if (_GrowBitRoutine != null)
-			StopCoroutine(_GrowBitRoutine);
+		//if (_GrowBitRoutine != null)
+		//	StopCoroutine(_GrowBitRoutine);
+		_shouldGrow = false;
 		isMoving = false;
 
 		amReady = true;
@@ -411,16 +432,7 @@ public class Microtubule : CellObject
 		}
 	}
 
-	public IEnumerator growBit()
-	{
-		while (!amReady)
-		{
-			
-			growBitHelper();
-			yield return new WaitForEndOfFrame();
-		}
-	}
-
+	
 	public void growBitHelper()
     {
 		float oldLocX = xLoc;
@@ -439,6 +451,7 @@ public class Microtubule : CellObject
 			Vector2 dir_v = new Vector2(terminus.x, terminus.y);
 			Vector2 dir_v_n = dir_v.normalized;
 			float angle = FastMath.angleTo(dir_v, cent_v);
+			Debug.Log("d2 " + d2 + ", boundary r2 " + BOUNDARY_R2);
 			Debug.Log("Microtubule.growBit OUTSIDE()! \n cent_v = " + cent_v + " dir_v = " + dir_v);
 			Debug.Log("Microtubule.growBit OUTSIDE()! \n cent_v_n = " + cent_v_n + " dir_v_n = " + dir_v_n);
 			outside = true;
@@ -460,22 +473,24 @@ public class Microtubule : CellObject
 		}
 		else
 		{                   //we're inside the boundary
+			Debug.Log("inside");
 			dirty_grav = true;
 
 			if (isPpodContracting)
 			{
-				p_skeleton.ppodContract(this, xSpeed, ySpeed);
+				Debug.Log("xspeed " + xSpeed + ", yspeed " + ySpeed);
+				p_skeleton.ppodContract(this, xSpeed, ySpeed); //Bookmark: This moves everything inside the cell toward the stretched out pod 
 			}
 
 			counter++;
 
-			if (counter * speed > 50)
+			if (counter * speed > 50f)
 			{
 				calcTrajectory(terminus);
 				counter = 0;
 			}
 
-			p_skeleton.updateTube();
+			p_skeleton.updateTube();  //this makes the grav points that the membrane checks with its collision tests.
 
 			if (terminus != null)
 			{

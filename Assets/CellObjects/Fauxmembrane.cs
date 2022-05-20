@@ -20,11 +20,15 @@ public class Fauxmembrane : MonoBehaviour
 
     public const float STARTING_RADIUS = 4;//4.00f;
     public const int STARTING_NODES = 30;//15;
- 
+
+
+
+
+
     // Start is called before the first frame update
     //0x55CCFF = spring
     //0x44aaff = cyto
-    private FauxNode[] _nodes;
+    private MembraneNode[] _nodes;
     private bool _active;
     public GameObject NodePrefab;
     private void Awake()
@@ -71,7 +75,7 @@ public class Fauxmembrane : MonoBehaviour
         {
             rot = 90 + ((i / 2) * (360 / max));
             GameObject node = Instantiate(NodePrefab) as GameObject;
-            FauxNode fn = node.GetComponent<FauxNode>();
+            MembraneNode fn = node.GetComponent<MembraneNode>();
             SpringJoint2D sj2d = node.GetComponent<SpringJoint2D>();
             sj2d.connectedBody = Anchor.GetComponent<Rigidbody2D>();
             
@@ -80,10 +84,10 @@ public class Fauxmembrane : MonoBehaviour
             node.transform.SetParent(this.transform);
             //sj2d.distance = Mathf.Abs(Vector3.Distance(node.transform.position, Anchor.transform.position));
             sj2d.autoConfigureDistance = false;
-            fn.Index = max - 1;
+            fn.index = max - 1;
             //makeNode(v[i], v[i + 1], rot, i / 2, max - 1); //do max-1 so that it knows that that's the last index in the list
         }
-        _nodes = GetComponentsInChildren<FauxNode>();
+        _nodes = GetComponentsInChildren<MembraneNode>();
 
     }
 
@@ -117,26 +121,15 @@ public class Fauxmembrane : MonoBehaviour
         float minX = 0;
         for (i=0; i < _nodes.Length-1; i++)
         {
-            //Vector3 currentNodePosition = _nodes[i].transform.localPosition;
-
             Vector2 p0 = _nodes[i].transform.localPosition;
             Vector2 p3 = _nodes[i + 1].transform.localPosition;
-           
-
             Vector2 distToNext = (p3 - p0);
             Vector2 distFromNext = (p0 - p3);
             distToNext = FastMath.rotateVector(LerpVal * Mathf.PI / 180, distToNext);
             distFromNext = FastMath.rotateVector(LerpVal * Mathf.PI / 180, distFromNext);
           
             m_rim.BezierCurveTo(p0.x, p0.y, p0.x + distToNext.x, p0.y + distToNext.y, p3.x, p3.y);//(p0.x, p0.y, p0.x, p0.y, p3.x, p3.y);
-           // m_innerRim.BezierCurveTo(p0.x, p0.y, p0.x + distToNext.x, p0.y + distToNext.y, p3.x, p3.y);//(p0.x, p0.y, p0.x, p0.y, p3.x, p3.y);
-           // m_outerRim.BezierCurveTo(p0.x, p0.y, p0.x + distToNext.x, p0.y + distToNext.y, p3.x, p3.y);//(p0.x, p0.y, p0.x, p0.y, p3.x, p3.y);
-             
-            
-            
             m_Cytoplasm.LineTo(p0.x,p0.y);//.BezierCurveTo(p0.x,p0.y, p1.x, p1.y, p3.x,p3.y);//BezierCurve(p0, _nodes[i].localPosition+ perp1, _nodes[i+1].localPosition+perp2, p3);
-           // m_Cytoplasm.LineTo(p0.x + (distToNext.x / 2), p0.y + (distToNext.y / 2));
-           // m_Cytoplasm.LineTo(p3.x + (distFromNext.x / 2), p3.y + (distFromNext.y / 2));
             m_Cytoplasm.LineTo(p3.x,p3.y);//.BezierCurveTo(p0.x,p0.y, p1.x, p1.y, p3.x,p3.y);//BezierCurve(p0, _nodes[i].localPosition+ perp1, _nodes[i+1].localPosition+perp2, p3);
             //m_Cytoplasm.LineTo(dist.x, dist.y);//.BezierCurveTo(p0.x,p0.y, p1.x, p1.y, p3.x,p3.y);//BezierCurve(p0, _nodes[i].localPosition+ perp1, _nodes[i+1].localPosition+perp2, p3);
 
@@ -147,22 +140,12 @@ public class Fauxmembrane : MonoBehaviour
         Vector2 distFromNextl = (p0l - p3l) / 2;
 
         m_rim.BezierCurveTo(p0l.x + distToNextl.x, p0l.y + distToNextl.y, p3l.x + distFromNextl.x, p3l.y + distFromNextl.y, p3l.x, p3l.y);//(p0.x, p0.y, p0.x, p0.y, p3.x, p3.y);
-        //m_Cytoplasm.MoveTo(p0l.x, p0l.y);
         m_Cytoplasm.LineTo(p3l.x, p3l.y);//.BezierCurveTo(p0.x,p0.y, p1.x, p1.y, p3.x,p3.y);//BezierCurve(p0, _nodes[i].localPosition+ perp1, _nodes[i+1].localPosition+perp2, p3);
 
-       
-        //m_Graphics.Ellipse(sum.x,sum.y,rx,ry);
-
-
-        //m_Graphicsf.Stroke();
         m_rim.Stroke();
-            
-       // m_innerRim.Stroke();
-      //  m_outerRim.Stroke();
+
         m_Cytoplasm.Fill();
         m_rim.End();
-       // m_innerRim.End();
-       // m_outerRim.End();
         m_Cytoplasm.End();
       
     }

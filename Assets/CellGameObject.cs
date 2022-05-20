@@ -7,8 +7,11 @@ public class CellGameObject : MovieClip, ICellGameObject
 	private InfoBubble c_bubble;
 
 	//need:  Locator,
-	public float x { get; set; }
-	public float y { get; set; }
+	public float x { get { return this.transform.position.x; } set {
+			this.transform.position = new Vector3(value, this.transform.position.y, this.transform.position.z); 
+		} 
+	}
+	public float y { get { return this.transform.position.y; } set { this.transform.position = new Vector3(this.transform.position.y, value, this.transform.position.z); } }
 	public bool dying { get; set; }
 	private float radius; //what is your bounding circle, for collision or selection
 	public float radius2;
@@ -110,11 +113,11 @@ public class CellGameObject : MovieClip, ICellGameObject
 	public static float cent_x = 0;
 	public static float cent_y = 0;
 
-	protected static float BOUNDARY_W = 10.00f;
-	protected static float BOUNDARY_H = 10.00f;
+	protected static float BOUNDARY_W = .10f;
+	protected static float BOUNDARY_H = .10f;
 
-	protected static float BOUNDARY_R = 10.00f;
-	protected static float BOUNDARY_R2 = 10.00f * 10.00f;
+	protected static float BOUNDARY_R = .10f;
+	protected static float BOUNDARY_R2 = 20.0f;
 
 	protected GameDataObject gdata;
 
@@ -124,7 +127,7 @@ public class CellGameObject : MovieClip, ICellGameObject
 
 	public virtual void Start()
 	{
-		Debug.Log("cell game object Start() " + this);
+		//Debug.Log("cell game object Start() " + this);
 		autoRadius();
 		createInfoLoc();
 		if (p_grid == null)

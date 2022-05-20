@@ -24,11 +24,11 @@ public class Cytoskeleton : CellObject
 	private Centrosome p_centrosome;
 	private Nucleus p_nucleus;
 	private Membrane p_membrane;
-		
+
 	public const float PPOD_RADIUS = 1.50f;
-	public const float PPOD_RADIUS2 = 225;//PPOD_RADIUS* PPOD_RADIUS;
-	public const float GRAV_RADIUS = 1.00f;
-	public const float GRAV_RADIUS2 = 100;//GRAV_RADIUS* GRAV_RADIUS;
+	public const float PPOD_RADIUS2 = 2.25f;//PPOD_RADIUS* PPOD_RADIUS;
+	public const float GRAV_RADIUS = 2.00f;
+	public const float GRAV_RADIUS2 = 4;//100;//GRAV_RADIUS* GRAV_RADIUS;
 	public const float PPOD_SPEED = .12f;
 	public static bool SHOW = false;
 		
@@ -40,14 +40,14 @@ public class Cytoskeleton : CellObject
 		
 	public bool isPPoding = false;
 		
-	public float cent_radius = 1.5f; //was initially 100 pixels
+	public float cent_radius = 0.3f; //was initially 100 pixels TODO: find the real intended cent radius and real intended PPOD radius.
 
 	private Coroutine _runRoutine;
 
 	public override void Start()
 	{
 		base.Start();
-		this.gameObject.SetActive(false);
+		//this.gameObject.SetActive(false);  //TODO: think about when this needs to happen, and how it needs to be shown
 		canSelect = false;
 		singleSelect = true;
 		Microtubule.PPOD_R2 = PPOD_RADIUS2;
@@ -119,7 +119,11 @@ public class Cytoskeleton : CellObject
 		}
 
 		//DO NOT PPOD CONTRACT PPOD TUBES!
-		recordGravityPoints();
+		Debug.Log("contracting ppod");
+		
+		
+		//recordGravityPoints();
+
 	}
 
 	public void updateTube()
@@ -212,7 +216,7 @@ public class Cytoskeleton : CellObject
 		}
 	}
 
-	public void tryPseudopod(float x2, float y2, float cost)
+	public bool tryPseudopod(float x2, float y2, float cost)
 	{
 		//p_engine.onPseudopod();  //TODO
 
@@ -230,9 +234,9 @@ public class Cytoskeleton : CellObject
 
 		Vector2 v = new Vector2(dx, dy); //get a vector from the point to the centrosome
 		v.Normalize();                         //make it a unit vector
-		v *= ((cent_radius - (PPOD_RADIUS))); //find the point right near the edge of the membrane
+		v *= ((cent_radius - (PPOD_RADIUS))); //find the point right near the edge of the membrane. 
 
-		Point p = new Point(p_centrosome.x + v.x, p_centrosome.y + v.y);
+		Point p = new Point(p_centrosome.x + v.x, p_centrosome.y + v.y);//THIS IS THE TERMINUS - from the centrosome to the end of the membrane.
 		Microtubule m = makePPodMicrotubule(p);
 
 		if (overShot)
@@ -251,17 +255,24 @@ public class Cytoskeleton : CellObject
 		SfxManager.Play(SFX.SFXDrain);
 		p_cell.spendATP(cost, p, 1, 0, false);
 		//recordGravityPoints();
+		return true;
 	}
 
 	private Microtubule makePPodMicrotubule(Point p) 
 	{
 		GameObject mo = Instantiate(Microtubule_Prefab) as GameObject;
+		mo.name = "Microtubule_ppod " + UnityEngine.Random.value; 
+		mo.SetActive(true);
 		Microtubule temp = mo.GetComponent<Microtubule>();
 		temp.setPoints(new Point(0, 0), p);
 			temp.setSkeleton(this);
 	temp.isBlank = true;
-		temp.transform.SetParent(this.transform, false); //was addchild
-			list_tubes_blank.Add(temp);
+		temp.transform.SetParent(this.transform); //was addchild
+		//StopCoroutine(_runRoutine);	
+		list_tubes_blank.Add(temp);
+		//if (_runRoutine == null)
+		//_runRoutine = StartCoroutine(run());
+			
 			
 			temp.instantGrow();
 			
@@ -275,7 +286,7 @@ public class Cytoskeleton : CellObject
 		temp.setPoints(new Point(0, 0), p);
 		temp.setSkeleton(this);
 		temp.isBlank = false;
-			temp.gameObject.transform.SetParent(this.transform, false);//addChild(temp);
+			temp.gameObject.transform.SetParent(this.transform);//addChild(temp);
 			list_tubes.Add(temp);
 
 		temp.instantGrow();
@@ -388,7 +399,7 @@ public class Cytoskeleton : CellObject
 	public void updateGravityPoints(bool doWarble = false)
 	{
 		int length = list_tubes.Count;
-
+		
 		for (int j = 0; j < length; j++) 
 		{          //just do the regular organelles
 			Point p = list_tubes[j].getTerminus();  //we don't need a new gravity point, just a regular point
@@ -414,14 +425,14 @@ public class Cytoskeleton : CellObject
 				getWarblePoints();
 			}
 			p_membrane.updateGravPoints(list_grav, list_grav_blank);
-		}
+	}
 
 
 	private void recordGravityPoints()
 	{
 		//trace("Cytoskeleton.recordGravityPoints()");
 		clearGravPoints();
-
+		
 		int length = list_tubes.Count;
 		int j = 0;
 		float r = GRAV_RADIUS;
@@ -433,7 +444,7 @@ public class Cytoskeleton : CellObject
 
 			Microtubule m;
 			GravPoint gg;
-			if (list_tubes[j].p_obj)
+			if (list_tubes[j].p_obj != null)
 			{
 				GravPoint g = list_tubes[j].getGravPoint();
 				gg = g.copy();
@@ -464,10 +475,10 @@ public class Cytoskeleton : CellObject
 			list_grav_blank.Add(gg);
 		}
 
-		//getWarblePoints();
+		
 		updateGravityPoints(true);
 
-		//p_membrane.updateGravPoints(list_grav,list_grav_blank);
+		
 	}
 
 	public void updateCentralGrav()
@@ -561,12 +572,14 @@ public class Cytoskeleton : CellObject
 	{
 		while (true)
 		{
-			yield return new WaitForEndOfFrame();
-	foreach(Microtubule m in list_tubes) {
-				m.growBitHelper();
+			yield return new WaitForSeconds(0.032f);// WaitForEndOfFrame();
+	for (int i= 0; i < list_tubes.Count; i++) {
+
+				list_tubes[i].checkShouldGrow();//growBitHelper();
 			}
-			foreach (Microtubule mm in list_tubes_blank) {
-				mm.growBitHelper();
+			for (int i=0; i < list_tubes_blank.Count; i++) {
+
+				list_tubes_blank[i].checkShouldGrow();//growBitHelper();
 			}
 
 		}

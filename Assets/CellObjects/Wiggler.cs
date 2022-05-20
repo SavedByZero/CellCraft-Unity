@@ -5,25 +5,48 @@ using DG.Tweening;
 
 public class Wiggler : MonoBehaviour
 {
-    private Vector3 _originalPos;
+    public Vector3 _corePos;
+    private Rigidbody2D _rb;
+    private bool _active;
+    public float Radius = 1;
+    public bool Active
+    {
+        get
+        {
+            return _active;
+        }
+        set
+        {
+            _active = value;
+            _corePos = this.transform.position;
+        }
+    }
+
+    private void Awake()
+    {
+        //_wiggleDirection = new Vector3(-0.1f, 0.1f, 0);
+        _rb = GetComponentInChildren<Rigidbody2D>();
+    }
 
     // Start is called before the first frame update
     void Start()
     {
-        _originalPos = this.transform.position;
-        StartCoroutine(Wiggle());
+       
+        //StartCoroutine(Wiggle());
     }
 
-    // Update is called once per frame
-    IEnumerator Wiggle()
+    public void ChangeOriginalPos(Vector3 newPos)
     {
-        while (true)
-        {
-            yield return new WaitForSeconds(1f);
-            this.transform.DOLocalMove(_originalPos + new Vector3(Random.Range(-0.25f, 0.25f), Random.Range(-0.25f, 0.25f)), 1);
-        }
-       
         
-        //this.transform.position = _originalPos + , 0);
     }
+
+    private void Update()
+    {
+        if (Active)
+            _rb.MovePosition(_corePos + new Vector3(Mathf.Cos(Time.time), Mathf.Sin(Time.time), 0)*Radius);//(this.transform.localPosition + (_wiggleDirection * Time.deltaTime));
+    }
+
+
+
+    
 }

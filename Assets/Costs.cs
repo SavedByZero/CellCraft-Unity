@@ -79,8 +79,8 @@ public class Costs
 	public static float[] MAKE_TOXIN = { 50, 0, 2.5f * AAX, 1, 0 };
 	public static float[] SELL_TOXIN = { 25, 0, 2.5f * AAX, 1, 0 };
 
-	public static int PIXEL_TO_MICRON = 50; //pixels to micron ratio
-	public static float MOVE_DISTANCE = PIXEL_TO_MICRON * 10; //how many pixels the below costs get you
+	public static float PIXEL_TO_MICRON = 50f; //pixels to micron ratio
+	public static float MOVE_DISTANCE = PIXEL_TO_MICRON * 10f; //how many pixels the below costs get you
 	public static float MOVE_DISTANCE2 = MOVE_DISTANCE * MOVE_DISTANCE; //to save sqrts
 
 	public static float[] BLEB = { 10, 0, 0, 0, 0 };

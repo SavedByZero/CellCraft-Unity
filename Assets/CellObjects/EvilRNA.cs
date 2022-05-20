@@ -73,9 +73,9 @@ public class EvilRNA : RNA
 	{
 		while (true)
 		{
-			yield return new WaitForEndOfFrame(); 
-			x = (mnode.x + mnode.p_next.x) / 2;
-			y = (mnode.y + mnode.p_next.y) / 2;
+			yield return new WaitForEndOfFrame();
+			x = (mnode.x);// + mnode.p_next.x) / 2;
+			y = (mnode.y);// + mnode.p_next.y) / 2;
 		}
 	}
 
@@ -153,8 +153,8 @@ public class EvilRNA : RNA
 			}
 			else
 			{
-				x2 = (mnode.x + mnode.p_next.x) / 2;
-				y2 = (mnode.x + mnode.p_next.y) / 2;
+				x2 = (mnode.x);// + mnode.p_next.x) / 2;
+				y2 = (mnode.x);// + mnode.p_next.y) / 2;
 				dist2 = (((x1 - x2) * (x1 - x2)) + ((y1 - y2) * (y1 - y2)));
 				if (dist2 > (50 * 50))
 				{ //HACK AND MAGIC NUMBER
@@ -174,8 +174,8 @@ public class EvilRNA : RNA
 		if (ang < (Mathf.PI / 2))
 		{
 			//we're outside
-			x = (mnode.x + mnode.p_next.x) / 2;
-			y = (mnode.y + mnode.p_next.y) / 2;
+			x = (mnode.x);// + mnode.p_next.x) / 2;
+			y = (mnode.y);// + mnode.p_next.y) / 2;
 			v_cent.Normalize();
 			v_cent *= (-51);
 			x += v_cent.x;

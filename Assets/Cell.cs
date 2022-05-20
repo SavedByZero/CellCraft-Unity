@@ -181,8 +181,16 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
     private Coroutine _engineSpawnRadicalRoutine;
     private Coroutine _doNecrosisRoutine;
 
+	private Rigidbody2D _rb;
+	private Rigidbody2D _sb;
+	//private Rigidbody2D _muscle;
+	public GameObject SpriteShape;
+
     public override void Start()
     {
+		//_muscle = GetComponentInParent<Membrane>().Mover.GetComponent<Rigidbody2D>();
+		_rb = this.GetComponent<Rigidbody2D>();
+		_sb = GameObject.FindObjectOfType<Membrane>().Skin.GetComponent<Rigidbody2D>();
 		Debug.Log("new cell " + this);
 		base.Start();
 		init(); //TODO: this is a placeholder to test the init method.
@@ -192,7 +200,8 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 	{
 		if (gdata == null)
 			makeGameDataObject();
-		setCentLoc(0, 0);
+		Centrosome cent = GetComponentInChildren<Centrosome>();
+		setCentLoc(cent.transform.position.x, cent.transform.position.y);
 		makeObjectGrid();
 		setChildren();
 		makeLists();
@@ -285,7 +294,7 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 	{
 		while (true)
 		{
-			yield return new WaitForSeconds(0.2f);//WaitForEndOfFrame();//
+			yield return new WaitForEndOfFrame();//new WaitForSeconds(0.2f);//WaitForEndOfFrame();//
 												 
 			for (int i = list_running.Count-1; i >= 0; i--) 
 			{
@@ -1029,6 +1038,8 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 	public void makeRunningList()
 	{
 		list_running = new List< CellObject >();
+		//list_running.Add(c_membrane.Anchor.GetComponent<CellObject>());
+		//list_running.Add(_sb.transform.GetComponent<CellObject>());
 		for (int i = 0; i < list_chlor.Count; i++)
 			list_running.Add(list_chlor[i]);
 		for (int i = 0; i < list_lyso.Count; i++)
@@ -2938,17 +2949,24 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 
 	public void getPpodContract(float xx, float yy) 
 	{
-		int centnum = Selectable.CENTROSOME;
+		Debug.Log("cell contents direction: " + -xx + "," + -yy);
+		int centnum = Selectable.CENTROSOME;   //Bookmark: this also moves all the cell objects to match the expanded pseudopod -- 
 		foreach(CellObject c in list_running) 
 		{
 			if (c.num_id != centnum)
 			{
-				if (c != c_membrane && c != c_skeleton)
+				if (/*c != c_membrane && */c != c_skeleton)
 				{
-					c.getPpodContract(xx, yy);
+					c.getPpodContract(xx, yy);  
 				}
 			}
 		}
+		//_rb.MovePosition(new Vector2(this.transform.position.x -xx, this.transform.position.y - yy));
+		//_sb.MovePosition(new Vector2(this.transform.position.x -xx, this.transform.position.y - yy));
+		
+		//SpriteShape.transform.position = (new Vector2(SpriteShape.transform.position.x -xx, SpriteShape.transform.position.y - yy));
+		//Vector3 mempos = GetComponentInParent<Membrane>().transform.localPosition;
+		//GetComponentInParent<Membrane>().transform.localPosition = new Vector3(mempos.x - xx, mempos.y - yy);
 		onCellMove(xx, yy);
 	}
 

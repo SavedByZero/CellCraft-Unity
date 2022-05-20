@@ -9,15 +9,14 @@ using Unity.VectorGraphics;
 
 public class Membrane : CellObject
 {
-	private List<MembraneNode> list_nodes;
+	private List<MembraneNode> list_nodes = new List<MembraneNode>();
 	private List<GravPoint> list_grav;
 	private List<BasicUnit> list_basicUnits;
 	private List<Virus> list_viruses;
 	private List<GravPoint> list_grav_blank;
+	public SoftBody Skin;
 	public GameObject GraphicsPrefab;
 		
-		
-
 		
 	private Centrosome p_cent;
 	private Cytoskeleton p_skeleton;
@@ -85,7 +84,7 @@ public class Membrane : CellObject
 		private float D2_MNODECLICK = (50 * .75f) * (50*.75f);//D_MNODECLICK* D_MNODECLICK;
 
 		private float D_BASIC_UNIT_COLLIDE = .70f;
-	private float D2_BASIC_UNIT_COLLIDE = 49f;//D_BASIC_UNIT_COLLIDE* D_BASIC_UNIT_COLLIDE;
+	private float D2_BASIC_UNIT_COLLIDE = 4.9f;//D_BASIC_UNIT_COLLIDE* D_BASIC_UNIT_COLLIDE;
 
 	private const float OBJ_FUDGE = 1; //the "effective" size of an object gravpoint radius for a hard collision
 
@@ -104,7 +103,7 @@ public class Membrane : CellObject
 		private bool isPPoding = false;
 		
 		private float d2_mouse = 0;
-		private const float D2_PPOD = 100f; //100 pixels
+		private const float D2_PPOD = 1.00f; //100 pixels
 		public const float PPOD_ANGLE = 90; //+- 30 degrees
 		
 		private float worldScale = 1;
@@ -133,11 +132,11 @@ public class Membrane : CellObject
 		private Color health_col;
 		private Color health_col2;
 
-	public const float STARTING_RADIUS = 4;//4.00f;
-	public const int STARTING_NODES = 30;//15;
-		public const int MAX_NODES = 30;
+	public const float STARTING_RADIUS = 2.5f;//4.00f;
+	public const int STARTING_NODES = 15;//15;
+		public const int MAX_NODES = 25;
 
-	public static int CURR_NODES = 30;//15;
+	public static int CURR_NODES = 15;//15;
 		
 		private ObjectGrid p_cgrid;
 		//private var p_virusGrid:ObjectGrid;
@@ -164,14 +163,40 @@ public class Membrane : CellObject
 		public bool acceptingVesicles = true;
     private Coroutine _waitShortForCentPullRoutine;
     private Coroutine _waitForCentPullRoutine;
+	
 
-    public override void Start()
+
+	//new stuff from the replacement class
+	public GameObject Rim;
+	private Graphics m_rim;
+	public GameObject NodePrefab;
+	public Transform Anchor;
+	private List<MembraneNode> _nodePool;
+	public Muscle Mover;
+
+	private void Awake()
+	{
+		_nodePool = new List<MembraneNode>();
+		Mover.onFinishStretching += moverFinishedStretching;
+		//shape_cyto = gameObject.AddComponent<Graphics>();
+		//m_rim = Rim.AddComponent<Graphics>();
+		//m_rim.TextureName = "MembraneOuter";
+		//m_rim.Pattern = true;
+		//shape_cyto.PixelsPerUnit = 1;
+		//m_rim.PixelsPerUnit = 1;
+		//shape_cyto.SortOrder = 2;
+
+
+	}
+
+	public override void Start()
 	{
 		base.Start();
-		cyto_col = FastMath.ConvertFromUint(0x44AAFF);
-		
-		spring_col = FastMath.ConvertFromUint(0x0066FF);
-		gap_col = FastMath.ConvertFromUint(0x99CCFF);
+		//m_rim.LineWidth = .4f;
+		//cyto_col = FastMath.ConvertFromUint(0x44AAFF);
+		//m_rim.SetLineColor(Color.clear);//(FastMath.ConvertFromUint(0x0066FF));
+		//spring_col = FastMath.ConvertFromUint(0x0066FF); //dark blue
+		//gap_col = FastMath.ConvertFromUint(0x99CCFF);  //light blue 
 		
 		defensin_strength = 0;
 		canSelect = false;
@@ -184,12 +209,15 @@ public class Membrane : CellObject
 		//buttonMode = false;  //TODO
 		updatePH(7.5f);
 		CURR_NODES = 15;
+	
 
 		has_health = true;
 		setMaxHealth(1000, true);
 		if (p_cgrid == null)
 			p_cgrid = GameObject.FindObjectOfType<ObjectGrid>();
 		//instantSetHealth(10);
+
+		//shape_cyto.SetFillColor(FastMath.ConvertFromUint(0x44aaff));
 	}
 
 	public override void destruct()
@@ -217,7 +245,7 @@ public class Membrane : CellObject
 	{
 		base.init();
 		//list_shields = new Vector.<ShieldIcon>();
-		list_nodes = new List< MembraneNode > ();
+		//list_nodes = new List< MembraneNode > ();
 		list_viruses = new List<Virus> ();
 
 		//iconSprite = new Sprite();  //TODO
@@ -226,38 +254,39 @@ public class Membrane : CellObject
 		tempTurnOffCentPullShort();
 		//MembraneNode.turnOffCentPull();
 
-		if (testNodeLinks())
+		/*if (testNodeLinks())
 		{
 			activateNodes();
-		}
+		}*/
 		
 
 		
 
-		shape_cyto = (Instantiate(GraphicsPrefab) as GameObject).GetComponent<Graphics>();//new Graphics();
-		shape_spring = (Instantiate(GraphicsPrefab) as GameObject).GetComponent<Graphics>();
+		//shape_cyto = (Instantiate(GraphicsPrefab) as GameObject).GetComponent<Graphics>();//new Graphics();
+		//shape_spring = (Instantiate(GraphicsPrefab) as GameObject).GetComponent<Graphics>();
 		//shape_node = new Shape();
 
-		shape_gap = (Instantiate(GraphicsPrefab) as GameObject).GetComponent<Graphics>();
-		shape_outline = (Instantiate(GraphicsPrefab) as GameObject).GetComponent<Graphics>();
-		shape_debug = (Instantiate(GraphicsPrefab) as GameObject).GetComponent<Graphics>();
+		//shape_gap = (Instantiate(GraphicsPrefab) as GameObject).GetComponent<Graphics>();
+		//shape_outline = (Instantiate(GraphicsPrefab) as GameObject).GetComponent<Graphics>();
+		//shape_debug = (Instantiate(GraphicsPrefab) as GameObject).GetComponent<Graphics>();
 
 		
-		shape_spring.SetFillColor(spring_col);
-		shape_spring.SetLineColor(spring_col.r, spring_col.g, spring_col.b);
-		shape_gap.SetFillColor(gap_col);
-		shape_gap.SetLineColor(gap_col.r, gap_col.g, gap_col.b);
+		//shape_spring.SetFillColor(spring_col);
+		//shape_spring.SetLineColor(spring_col.r, spring_col.g, spring_col.b);
+		//shape_gap.SetFillColor(gap_col);
+		//shape_gap.SetLineColor(gap_col.r, gap_col.g, gap_col.b);
 
 
-		shape_cyto.transform.SetParent(membraneSprite.transform);
-		shape_cyto.name = "Cytoplasm";
-		shape_outline.transform.SetParent(membraneSprite.transform);
-		shape_outline.name = "Outline";
-		shape_spring.transform.SetParent(membraneSprite.transform);
-		shape_spring.name = "Spring";
-		shape_gap.transform.SetParent(membraneSprite.transform);
-		shape_gap.name = "Gap";
-		shape_debug.transform.SetParent(this.transform);
+		//shape_cyto.transform.SetParent(membraneSprite.transform);
+		//shape_cyto.name = "Cytoplasm";
+
+		//shape_outline.transform.SetParent(membraneSprite.transform);
+		//shape_outline.name = "Outline";
+		//shape_spring.transform.SetParent(membraneSprite.transform);
+		//shape_spring.name = "Spring";
+		//shape_gap.transform.SetParent(membraneSprite.transform);
+		//shape_gap.name = "Gap";
+		//shape_debug.transform.SetParent(this.transform);
 		targetter.transform.SetParent(this.transform);
 		/*   //TODO: figure out how this is done in Unity 
 
@@ -286,22 +315,6 @@ public class Membrane : CellObject
 		//hideShields();
 
 		p_cell.onMembraneUpdate();
-	}
-
-	private void hideShields()
-	{
-		//iconSprite.visible = false;
-		//shieldsOn = false;
-	}
-
-	private void showShields()
-	{
-		/*trace("Membrane.showShields()!");
-		iconSprite.visible = true;
-		shieldsOn = true;
-		for each (var s:ShieldIcon in list_shields) {
-			s.setNum(Math.round(100 * defensin_strength));
-		}*/
 	}
 
 	public float getDefensins() 
@@ -425,6 +438,7 @@ public class Membrane : CellObject
 		p_cent = c;
 	}
 
+	/*
 	public bool testNodeLinks()
 	{
 		bool done = false;
@@ -459,7 +473,7 @@ public class Membrane : CellObject
 		i++;	//increase the counter by one
 		}
 		return pass;
-	}
+	}*/
 		
 	public float getCircum()
 	{
@@ -471,10 +485,11 @@ public class Membrane : CellObject
 		return (list_nodes.Count * MembraneNode.D_NODEREST) / (Mathf.PI * 2);
 	}
 
+	
 	private void activateNodes()
 	{
 		//var length:int = list_nodes.length;
-
+		Skin.PrepareNodes();
 		float distX = list_nodes[0].x - list_nodes[0].p_next.x;
 		float distY = list_nodes[0].y - list_nodes[0].p_next.y;
 		MembraneNode.D2_NODEREST = (distX * distX) + (distY * distY);
@@ -582,7 +597,7 @@ public class Membrane : CellObject
 		float springDist = MembraneNode.D_NODEREST;
 		float circumference = springDist * (listlength + 2); //+2 to fudge
 		float radius = circumference / (Mathf.PI*2);
-		MembraneNode.getSprings(springDist, radius);
+		//MembraneNode.getSprings(springDist, radius);
 		updateBasicUnitCollideDist();
 
 		updateMaxHealth(i);
@@ -599,7 +614,7 @@ public class Membrane : CellObject
 			{
 				wait_cent_count = 0;
 				StopCoroutine(_waitShortForCentPullRoutine);
-				MembraneNode.turnOnCentPull();
+				//MembraneNode.turnOnCentPull();
 				readyForVesicle();
 			}
 		}
@@ -614,7 +629,7 @@ public class Membrane : CellObject
 			{
 				wait_cent_count = 0;
 				StopCoroutine(_waitForCentPullRoutine);
-				MembraneNode.turnOnCentPull();
+				//MembraneNode.turnOnCentPull();
 				readyForVesicle();
 			}
 		}
@@ -663,31 +678,45 @@ public class Membrane : CellObject
 	{
 		_waitShortForCentPullRoutine = StartCoroutine(waitShortForCentPull());
 		//addEventListener(RunFrameEvent.RUNFRAME, waitShortForCentPull, false, 0, true);
-		MembraneNode.turnOffCentPull();
+		//MembraneNode.turnOffCentPull();
 	}
 
 	public void tempTurnOffCentPull()
 	{
 		_waitForCentPullRoutine = StartCoroutine(waitForCentPull());
 		//addEventListener(RunFrameEvent.RUNFRAME, waitForCentPull, false, 0, true);
-		MembraneNode.turnOffCentPull();
+		//MembraneNode.turnOffCentPull();
 	}
 
+	/*
+	 * This deletes and reshuffles all the positions 
+	 * */
 	public void deleteMembraneNode(int i, bool doUpdate = true)
 	{
 
 		tempTurnOffCentPull();
 
 		MembraneNode theNode = list_nodes[i];
-		MembraneNode prev = list_nodes[i].p_prev;
-		MembraneNode next = list_nodes[i].p_next;
 
-		prev.p_next = next; //unhook it from the list, and hook up its pointers to eachother
-		next.p_prev = prev;
 
-		theNode.destruct(); //kill the node
-		list_nodes[i] = null;
+		//MembraneNode prev = list_nodes[i].p_prev;
+		//MembraneNode next = list_nodes[i].p_next;
+
+		//prev.p_next = next; //unhook it from the list, and hook up its pointers to eachother
+		//next.p_prev = prev;
+
+		//theNode.destruct(); //kill the node
+
+
+
+
+		list_nodes[i].gameObject.SetActive(false);// = null;
 		list_nodes.RemoveAt(i); //remove it from the list
+
+		//What will need to be done here as a replacement:  
+		//-deactivate all the nodes 
+		//-reactivate n-1 (new number) of nodes from the pool as if they were just made
+		//then: do everything below 
 
 		int listlength = list_nodes.Count;
 
@@ -697,10 +726,11 @@ public class Membrane : CellObject
 
 		float length = list_nodes.Count;
 		foreach(MembraneNode m in list_nodes) {
-			Vector2 v = new Vector2(m.x - cent_x, m.y - cent_y);
-			v.Normalize();
-			m.x += v.x * length; //extra "shove" to avoid crap
-			m.y += v.y * length;
+
+			//Vector2 v = new Vector2(m.x - cent_x, m.y - cent_y);
+			//v.Normalize();
+			//m.x += v.x * length; //extra "shove" to avoid crap
+			//m.y += v.y * length;
 
 		}
 
@@ -717,7 +747,7 @@ public class Membrane : CellObject
 			i = 0;
 		}
 
-		MembraneNode newNode = interpolate(list_nodes[i], list_nodes[i].p_next, 0.5f);
+		/*MembraneNode newNode = interpolate(list_nodes[i], list_nodes[i].p_next, 0.5f);
 
 		MembraneNode old = list_nodes[i];
 		MembraneNode oldNext = list_nodes[i].p_next;
@@ -731,7 +761,15 @@ public class Membrane : CellObject
 		oldNext.p_prev = (newNode);
 
 		newNode.p_cent = (p_cent);
+		*/
 
+		//This code was trying to insert a new node at position X.  It would interpolate the position between x and x+1, then shift everything accordingly.
+		//we will need to:
+		//-record the spot of node i. 
+		//find some way to make sure the new node is at that spot, in the new deactivate / reactivate system.  Maybe.
+
+
+		MembraneNode newNode = null;  //make it!
 
 		float listlength = list_nodes.Count;
 		
@@ -829,18 +867,7 @@ public class Membrane : CellObject
 		}
 	}
 
-	public MembraneNode interpolate(MembraneNode n1, MembraneNode n2, float f)
-	{
-			if (f > 1) f = 1;
-			else if (f< 0) f = 0;
-					
-			var p = Point.Interpolate(new Point(n1.x, n1.y), new Point(n2.x, n2.y), f);
-			float rot = (n1.rotation* f) + (n2.rotation* (1 - f));
-			MembraneNode n = createNode(p.x, p.y, rot, -1);
-			
-			
-			return n;
-	}
+
 
 	public List<object> getPopPoints()
 	{
@@ -876,27 +903,93 @@ public class Membrane : CellObject
 
 	}
 
+	private MembraneNode fetchNodeFromPool()
+    {
+		for(int i=0; i < _nodePool.Count; i++)
+        {
+			if (!_nodePool[i].gameObject.activeSelf)
+			{
+				_nodePool[i].gameObject.SetActive(true);
+				return _nodePool[i];
+			}
+        }
+
+		GameObject n = Instantiate(NodePrefab) as GameObject;
+		MembraneNode node = n.GetComponent<MembraneNode>();
+		_nodePool.Add(node);
+		return node;
+    }
+
 	private void makeNodes(float radius, int max)
 	{
-		
 
 		List<float> v = FastMath.circlePoints(radius, max);
+		int length = v.Count;
+		float rot = 0;
+		for (int i = 0; i < length; i += 2)
+		{
+			rot = 90 + ((i / 2) * (360 / max));
+			MembraneNode node = fetchNodeFromPool();
+			node.p_cent = p_cent;
+			node.p_membrane = this;
+			
+			//MembraneNode fn = node.GetComponent<MembraneNode>();
+			SpringJoint2D sj2d = node.GetComponent<SpringJoint2D>();
+			//sj2d.connectedBody = Anchor.GetComponent<Rigidbody2D>();
+			Rigidbody2D rb = node.GetComponent<Rigidbody2D>();
+			node.transform.localPosition = (new Vector3(v[i], v[i + 1]));
+			
+			//rb.MoveRotation(rot);// = new Vector3(0, 0, rot);
+		
+			//node.transform.SetParent(this.transform);
+			node.init();
+			
+			//sj2d.autoConfigureDistance = false;
+			node.index = list_nodes.Count;//max - 1;
+			list_nodes.Add(node);
+			if (i > 0)
+            {
+				node.p_prev = list_nodes[list_nodes.Count-2];
+				list_nodes[list_nodes.Count-2].p_next = node;
+            }
+			if (i == length-2)
+            {
+				node.p_next = list_nodes[0];
+				list_nodes[0].p_prev = node;
+            }
+			//AddToMembraneSkin(node.gameObject);
+			//makeNode(v[i], v[i + 1], rot, i / 2, max - 1); //do max-1 so that it knows that that's the last index in the list
+		}
+		for (int i = list_nodes.Count-1; i >= 0; i--)
+		{
+			AddToMembraneSkin(list_nodes[i].gameObject);  //This needs to be done backwards so the sprite shape circle winds correctly. 
+		}
+		activateNodes();
+		
+		//list_nodes = new List<MembraneNode>(GetComponentsInChildren<MembraneNode>());
+		/*List<float> v = FastMath.circlePoints(radius, max);
 		int length = v.Count;
 		float rot = 0;
 		for (int i = 0; i < length; i += 2) 
 		{
 			rot = 90 + ((i / 2) * (360 / max));
 			makeNode(v[i], v[i + 1], rot, i / 2, max - 1); //do max-1 so that it knows that that's the last index in the list
-		}
+		}*/
 
 	}
+
+	private void AddToMembraneSkin(GameObject node)
+    {
+		Skin.AddNode(node);
+		
+    }
 
 	private MembraneNode createNode(float xx, float yy, float r, int i) 
 	{
 			MembraneNode n = new MembraneNode();
 			n.x = xx;
 			n.y = yy;
-			n.rotation = r;
+			//n.rotation = r;
 			n.p_cent = p_cent;
 			n.p_membrane = this;
 			n.index = i;
@@ -926,15 +1019,15 @@ public class Membrane : CellObject
 
 	private void makeNode(float xx, float yy, float r, int i, int max)
 	{
-		Debug.Log("makin node at " + xx + "," + yy);
+		/*Debug.Log("makin node at " + xx + "," + yy);
 		MembraneNode n = createNode(xx, yy, r, i);
 		list_nodes.Add(n);
-		linkNode(i, max);
+		linkNode(i, max);*/
 	}
 
 	private void linkNode(int i, int max)
 	{
-		if (i > 0)
+		/*if (i > 0)
 		{ //don't link the first one
 			list_nodes[i].p_prev = list_nodes[i - 1];
 			list_nodes[i - 1].p_next = list_nodes[i];
@@ -944,7 +1037,7 @@ public class Membrane : CellObject
 		{//once we arrive at the last one, link the first one
 			list_nodes[i].p_next = (list_nodes[0]);
 			list_nodes[0].p_prev = (list_nodes[i]);
-		}
+		}*/
 	}
 
 	void OnMouseClick()
@@ -963,8 +1056,10 @@ public class Membrane : CellObject
 		{
 			
 			updateHealth();
+			Skin.UpdateVertices();
+			//Redraw();
 			updateNodes();
-			yield return new WaitForSeconds(.1f);//new WaitForEndOfFrame();
+			yield return new WaitForEndOfFrame();
 		}
 	}
 
@@ -1045,8 +1140,8 @@ public class Membrane : CellObject
 
 			float frac = (float)(health) / (float)(maxHealth);
 			//Color springColor = FastMath.ConvertFromUint(spring_col);
-			health_col = Color.Lerp(Color.red, spring_col ,frac); //Color.interpolateColor(0xFF0000, spring_col, frac);
-			health_col2 = Color.Lerp(FastMath.ConvertFromUint(0xFFCC99), gap_col, frac);
+			health_col = Color.Lerp(Color.red, spring_col ,frac); //the dark blue
+			health_col2 = Color.Lerp(FastMath.ConvertFromUint(0xFFCC99), gap_col, frac);  //the light blue 
 			onHealthChange();
 		}
 	}
@@ -1080,18 +1175,24 @@ public class Membrane : CellObject
 		float dx = cent_x - xx;
 		float dy = cent_y - yy;
 		float d2 = (dx * dx) + (dy * dy);
-		d2 /= Costs.MOVE_DISTANCE2;
+		d2 /= (Costs.MOVE_DISTANCE2/100);
 
 		float cost = Costs.PSEUDOPOD[0] * d2;
-		if (p_engine.canAfford((int)cost, 0, 0, 0, 0))
+		//if (p_engine.canAfford((int)cost, 0, 0, 0, 0))//TODO
 		{
 			p_skeleton.cancelPseudopod(); //only 1 ppod at once!
-			p_skeleton.tryPseudopod(xx, yy, cost);
+			if (p_skeleton.tryPseudopod(xx, yy, cost))
+            {
+				
+					//Bookmark: the new way of moving the membrane
+				Mover.Stretch(xx, yy);
+				
+			}
 		}
-		else
+		/*else  //TODO
 		{
 			p_engine.showImmediateAlert(Messages.A_NO_AFFORD_PPOD);
-		}
+		}*/  
 
 	}
 
@@ -1213,21 +1314,23 @@ public class Membrane : CellObject
 		Vector2 closest = p1 + pushBit;
 		Vector2 d = c - closest;
 		float distsqr = Vector2.Dot(d, d);// d.dotOf(d);
-
+		Debug.Log("intersectcs " + r + "," + distsqr);
 		if (distsqr<(r* r)) {
 			float penetrate = r - d.magnitude;//  d.length;
 			//penetrate /= 100f; //TODO: I added this as a damper for Unity's coordinate system. Make sure it works okay.
 				Vector2 unitd = d.normalized;
 				Vector2 pushd = unitd *= (penetrate);
 
-				
-				
-				m.x -= pushd.x;
-				m.y -= pushd.y;
-				m.p_next.x -= pushd.x;
-				m.p_next.y -= pushd.y;
-							
-				if (obj) {
+			//Bookmark: this used to move the cell membrane nodes to make the pseudopod 
+			Debug.Log("push direction for membrane: " + -pushd);
+
+			/*m.push(-pushd.x, -pushd.y);     //Old Way
+			m.p_next.push(-pushd.x, -pushd.y);
+			*/
+			
+			
+
+			if (obj) {
 					if (!(obj is Microtubule) && !(obj is Centrosome) && !(obj is Nucleus)) { //if its an object
 						obj.push(pushd.x, pushd.y);	
 						obj.cancelMove();
@@ -1237,6 +1340,11 @@ public class Membrane : CellObject
 			}
 			return false;
 	}
+
+	private void moverFinishedStretching()
+    {
+
+    }
 
 	/**
 		 * This function keeps everything happy. It is big, it is ugly, but for the most part, it works.
@@ -1317,7 +1425,7 @@ public class Membrane : CellObject
 							//CHECK TO SEE IF I'M ACTUALLY INSIDE MEMBRANE. 
 							//If so, push to keep me there.
 							//If not, let me in!!!!
-
+							//Bookmark
 							if (dd2 < dm2)
 							{
 								v.push(penetrate_vector.x, penetrate_vector.y); //push away from membrane
@@ -1394,12 +1502,14 @@ public class Membrane : CellObject
 			}
 		}
 
-		foreach(GravPoint gg in list_grav_blank) 
+		/*foreach(GravPoint gg in list_grav_blank) 
 		{
+			//Debug.Log("grav");
 			CellObject c;
 			if (gg != null)
 			{
 				c = gg.p_obj;
+				
 				if (intersectCircleSegment(c, new Vector2(gg.x, gg.y), gg.radius, p1, p2, m1))
 				{
 					m1.state_ppod = true; //if I'm touching a ppod ball, I'm ppoding!
@@ -1412,7 +1522,7 @@ public class Membrane : CellObject
 					m1.state_ppod = false;
 				}
 			}
-		}
+	}*/
 
 		if (yes)
 		{
@@ -1461,133 +1571,37 @@ public class Membrane : CellObject
 		//updateColors();
 	}
 
-	private void updateColors()
-	{
-		//cyto_col = 0x8833CC;// PH.getCytoColor(ph_balance_show);
-		//spring_col = 0x663399;// PH.getLineColor(ph_balance_show);
-		//gap_col = 0xBB99FF;// PH.getGapColor(ph_balance_show);
-	}
-
-	private void animatePH()
-	{
-		/*if (ph_balance_show < ph_balance - 0.1) {
-			ph_balance_show += 0.1;
-		}else if (ph_balance_show > ph_balance + .1) {
-			ph_balance_show -= 0.1;
-		}else {
-			ph_balance_show = ph_balance;
-		}
-		updateColors();*/
-	}
-
 	private void updateNodes()
 	{
 		int i = 0;
 
-		MembraneNode.tug_x = 0;
-		MembraneNode.tug_y = 0;
+		//MembraneNode.tug_x = 0;
+		//MembraneNode.tug_y = 0;
 
 		int length = list_nodes.Count;
 		float avg_stretch = 0;
 		for (i = 0; i < length; i++)
 		{
+			
 			if (skeletonReady)
 			{
-				list_nodes[i].updateDist();
-				list_nodes[i].doMove();
+				
 				collisionTest(i);
 				avg_stretch += list_nodes[i].stretch;
 			}
 		}
 		AVG_STRETCH = avg_stretch / length;
 
-		drawAllNodes(true);
+		//drawAllNodes(true);
 
-		p_skeleton.x += MembraneNode.tug_x;
-		p_skeleton.y += MembraneNode.tug_y;//
+		//p_skeleton.x += MembraneNode.tug_x;//TODO: figure out how the skeleton needs to move in this new reality, with no tug value
+		//p_skeleton.y += MembraneNode.tug_y;//
 	}
 
 	public void drawAllNodes(bool doTug = false)
 	{
 		
-		shape_spring.Begin();//  .graphics.clear();
-		shape_cyto.Begin();
-		shape_gap.Begin();
-		shape_outline.Begin();
-		shape_debug.Begin();
-		//shape_cyto.SetLineColor(cyto_col.r, cyto_col.g, cyto_col.b);
-		//shape_cyto.SetFillColor(cyto_col);
-		//shape_spring.SetFillColor(spring_col);
-		//shape_spring.SetLineColor(spring_col.r, spring_col.g, spring_col.b);
-		//shape_gap.SetFillColor(gap_col);
-		//shape_gap.SetLineColor(gap_col.r, gap_col.g, gap_col.b);
-
-
-		startCyto();
-		shape_spring.LineWidth = SPRING_THICK;
-
-		//shape_spring.lineStyle(SPRING_THICK, health_col);// , false, "normal", CapsStyle.ROUND);
-		shape_gap.LineWidth = GAP_THICK;
-		shape_outline.LineWidth = OUTLINE_THICK;
-
-
-		int length = list_nodes.Count;
-		for (int i = 0; i < length; i++) {
-			if (skeletonReady)
-			{
-				if (doTug)
-				{
-					list_nodes[i].tugNodes();
-				}
-				drawMembrane(list_nodes[i]);// , c, c2);
-			}
-		}
 		
-		endCyto();
-		
-
-
-		shape_spring.End();
-		shape_gap.End();
-		shape_outline.End();
-		//shape_cyto.End();
-
-	}
-
-	public void startCyto()
-	{
-		shape_cyto.SetFillColor(cyto_col.r,cyto_col.g,cyto_col.b,cyto_col.a);
-		shape_cyto.SetLineColor(cyto_col.r,cyto_col.g,cyto_col.b,cyto_col.a);
-	
-		MembraneNode m = list_nodes[0];
-		if (list_nodes.Count >= 1)
-		{
-			Point mid = new Point(
-					(m.pt_control_next.x + m.p_next.pt_control_prev.x) / 2,
-					(m.pt_control_next.y + m.p_next.pt_control_prev.y) / 2);
-			shape_cyto.MoveTo(mid.x, mid.y);
-		}
-	}
-
-	public void endCyto()
-	{
-		
-		MembraneNode m = list_nodes[0];
-		if (list_nodes.Count >= 1)
-		{
-			Point mid = new Point(
-					(m.pt_control_next.x + m.p_next.pt_control_prev.x) / 2,
-					(m.pt_control_next.y + m.p_next.pt_control_prev.y) / 2);
-			if (DRAW_QUALITY == DRAW_CURVES)
-			{
-				shape_cyto.LineTo((mid.x + m.x) / 2, (mid.y + m.y) / 2);
-			}
-			shape_cyto.LineTo(mid.x, mid.y);
-		}
-		shape_cyto.Fill();
-		//shape_cyto.Stroke();
-		shape_cyto.End();
-
 	}
 
 	public override void updateBubbleZoom(float n)
@@ -1614,168 +1628,17 @@ public class Membrane : CellObject
 
 	public void drawMembrane(MembraneNode m)
 	{
-		Debug.Log("original node " + m + "::" + m.x + "," + m.y);
-		Point mid_prev = new Point((m.pt_control_prev.x + m.p_prev.pt_control_next.x) / 2,(m.pt_control_prev.y + m.p_prev.pt_control_next.y) / 2);
+		
+		
 
-		Point mid = new Point((m.pt_control_next.x + m.p_next.pt_control_prev.x) / 2, (m.pt_control_next.y + m.p_next.pt_control_prev.y) / 2);
-
-
-		float dx = mid_prev.x - mid.x;
-		float dy = mid_prev.y - mid.y;
-		Debug.Log("dx " + dx);
-		Debug.Log("dy " + dy);
-		float d2 = (dx * dx) + (dy * dy);
-
-		if (d2 < MembraneNode.D2_NODEREST / 10)
-		{
-			//super hacky hack!//
-			m.isFolded = true;
-			//this is not elegant code!
-			dummy_flag = true;
-		}
-		else
-		{
-			m.isFolded = false;
-			endDummy = true;
-		}
-
-		if (DRAW_QUALITY == DRAW_CURVES)
-		{ //curves
-		  //THE NORMAL WAY OF DOING THINGS:
-			if (!dummy_flag)
-			{
-				Debug.Log("prev: " + mid_prev+ "mid: " + mid + ", cur " + m.x + "," + m.y);
-				shape_spring.MoveTo(mid_prev.x, mid_prev.y);
-				shape_gap.MoveTo(mid_prev.x, mid_prev.y);
-				shape_outline.MoveTo(mid_prev.x, mid_prev.y);
-
-				
-				shape_spring.BezierCurveTo(mid_prev.x, mid_prev.y, mid.x, mid.y,m.x,m.y);
-				shape_gap.BezierCurveTo(mid_prev.x, mid_prev.y, mid.x, mid.y, m.x, m.y);
-				//shape_outline.BezierCurveTo(mid_prev.x, mid_prev.y, mid.x, mid.y, m.x, m.y);
-
-				shape_cyto.LineTo((mid.x + m.x) / 2, (mid.y + m.y) / 2);
-				shape_cyto.LineTo(mid.x, mid.y);
-				//shape_cyto.LineTo(m.x, m.y);
-			}
-			else
-			{
-
-				shape_spring.MoveTo(mid_prev.x, mid_prev.y);
-				shape_gap.MoveTo(mid_prev.x, mid_prev.y);
-				shape_outline.MoveTo(mid_prev.x, mid_prev.y);
-
-				shape_spring.LineTo(mid.x, mid.y);
-				shape_gap.LineTo(mid.x, mid.y);
-				shape_outline.LineTo(mid.x, mid.y);
-
-				shape_cyto.LineTo(mid.x, mid.y);
-			}
-		}
-		else if (DRAW_QUALITY == DRAW_LINES)
-		{ //lines
-			shape_spring.MoveTo(mid_prev.x, mid_prev.y);
-			shape_gap.MoveTo(mid_prev.x, mid_prev.y);
-			shape_outline.MoveTo(mid_prev.x, mid_prev.y);
-
-			shape_spring.LineTo(mid.x, mid.y);
-			shape_gap.LineTo(mid.x, mid.y);
-			shape_outline.LineTo(mid.x, mid.y);
-
-			shape_cyto.LineTo(mid.x, mid.y);
-		}
-
-		shape_spring.Stroke();
-		shape_gap.Stroke();
-		shape_outline.Stroke();
-		shape_cyto.Stroke();
-
-
-
-		if (SHOW_NODES)
-		{
-			
-			if (m.state_ppod)
-			{
-				shape_debug.SetFillColor(1,0,0,1);
-			}
-			else if (dummy_flag)
-			{
-				shape_debug.SetFillColor(1,0,1,1);
-			}
-			else
-			{
-				shape_debug.SetFillColor(Color.white);
-			}
-
-			shape_debug.Circle(m.x, m.y, 10);
-
-			shape_debug.Circle(mid.x, mid.y, 5);
-
-			shape_debug.Circle(mid_prev.x, mid_prev.y, 5);
-			shape_debug.End();
-		}
-
-		if (endDummy)
-		{
-			dummy_flag = false;
-		}
-
-		if (SHOW_GRAVPOINTS)
-		{
-			uint colorz = 0xFF0000;
-			shape_debug.lineStyle(3, Color.blue);
-			for (int i = 0; i < list_grav.Count; i++) 
-			{
-				shape_debug.Circle(list_grav[i].x, list_grav[i].y, list_grav[i].radius);
-			}
-
-			shape_debug.lineStyle(3, Color.white);
-			for (int j = 0; j < list_grav_blank.Count; j++) {
-				shape_debug.Circle(list_grav_blank[j].x, list_grav_blank[j].y, list_grav_blank[j].radius);
-			}
-
-
-		}
+		
 		
 
 	}
 
 	public void drawCentralSprings(MembraneNode m)
 	{
-		if (SHOWLINES)
-		{
-			if (DEBUG)
-			{
-				if (!m.rest_cent)
-				{
-					if (m.dpull_cent > 0)
-					{
-						shape_spring.LineWidth = 1;
-						shape_spring.SetLineColor(0, 1, 0, 0.5f);
-					}
-					else
-					{
-						shape_spring.LineWidth = 1;
-						shape_spring.SetLineColor(1, 0, 0, 1);
-					}
-
-				}
-			}
-			else
-			{
-				shape_spring.LineWidth = 1;
-				Color newcol = FastMath.ConvertFromUint(0x55CCFF);
-				shape_spring.SetLineColor(newcol.r, newcol.g, newcol.b, 1);
-			
-			}
-			shape_spring.MoveTo(m.x, m.y);
-			shape_spring.LineTo(m.p_cent.x, m.p_cent.y);
-		}
-		else
-		{
-			//don't show any lines
-		}
+		
 	}
 
 	public override void setEngine(Engine e)
@@ -1797,7 +1660,7 @@ public class Membrane : CellObject
 
 	private void doMouseUp()
 	{
-		Vector3 mouse = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+		Vector3 mouse = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x,Input.mousePosition.y,0));
 		if (isMouseDown)
 		{
 			float xd = mouse.x - mouseDown_x;
@@ -1805,6 +1668,7 @@ public class Membrane : CellObject
 			d2_mouse = (xd * xd) + (yd * yd);
 			if (d2_mouse > D2_PPOD)
 			{
+				Debug.Log("trying pseudopod");
 				tryPseudopod(mouse.x, mouse.y);
 				hidePPodCursor();
 			}
@@ -1821,6 +1685,7 @@ public class Membrane : CellObject
 
 	public void onCellMove(float xx, float yy)
 	{
+		//this.transform.localPosition -= new Vector3(xx, yy, 0);
 		targetter.transform.localPosition = new Vector3(targetter.transform.localPosition.x - xx,targetter.transform.localPosition.y - yy, targetter.transform.position.z);
 		mouseDown_x -= xx;
 		mouseDown_y -= yy;
@@ -1835,18 +1700,19 @@ public class Membrane : CellObject
 		{
 			//BUG ALERT
 			//BUG ALERT: This assumes that the membrane is at 0,0 without scale!
-			worldScale = p_engine.getWorldScale();
+			worldScale = 1;//p_engine.getWorldScale(); //TODO
 			targetter.transform.localScale = new Vector3(1 / worldScale, 1 / worldScale, 1); //There's going to be bugs unless you update this whenever you change scale!
 
 			targetter.gameObject.SetActive(true);
-			targetter.transform.position = new Vector3(mouseDown_x, mouseDown_y, targetter.transform.position.z);
-		
-			p_engine.setCursorArrowPoint(mouseDown_x, mouseDown_y);
+			targetter.transform.localPosition = new Vector3(mouseDown_x, mouseDown_y, targetter.transform.position.z);
+			if (p_engine != null)
+				p_engine.setCursorArrowPoint(mouseDown_x, mouseDown_y);
 			if (m.Count > 1)
 			{
 				MembraneNode mm = m[m.Count-1];
 				m.RemoveAt(m.Count - 1);
-				p_engine.setCursorArrowRotation(mm.rotation);
+				if (p_engine != null)
+					p_engine.setCursorArrowRotation(mm.transform.eulerAngles.z);
 			}
 		}
 	}
@@ -1854,11 +1720,13 @@ public class Membrane : CellObject
 
 	private new void OnMouseDown()
 	{
-		Vector3 mouse = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+		base.OnMouseDown();
+		Vector3 mouse = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y,0));
 		isMouseDown = true;
 		mouseDown_x = mouse.x;
 		mouseDown_y = mouse.y;
 		//p_cell.dispatchEvent(m);
+		Debug.Log("mouse down");
 		_doMouseMoveRoutine = StartCoroutine(doMouseMove());
 		
 		//m.stopPropagation(); //keep it from going to the cell
@@ -1872,16 +1740,18 @@ public class Membrane : CellObject
 	{
 		while (true)
 		{
+			//Debug.Log("doMouseMove " + isMouseDown);
 			yield return new WaitForEndOfFrame();
 			if (isMouseDown)
 			{
-				if (Director.IS_MOUSE_DOWN == false)
+				/*if (Director.IS_MOUSE_DOWN == false)
 				{ //CHEAP HACK : "Release Outside" event - just check every frame against global
 					doMouseUp();
 				}
-				else
+				else*/ //TODO: uncomment when this is better understood. 
 				{
-					Vector3 mouse = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+					Vector3 mouse = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x,Input.mousePosition.y,0));
+					
 					float xd  = mouse.x - mouseDown_x;
 					float yd = mouse.y - mouseDown_y;
 					d2_mouse = (xd * xd) + (yd * yd);
@@ -1905,7 +1775,8 @@ public class Membrane : CellObject
 	{
 		if (!isPPodCursor)
 		{
-			p_engine.showCursor((int)CellAction.PSEUDOPOD);
+			if (p_engine != null)
+				p_engine.showCursor((int)CellAction.PSEUDOPOD);
 			isPPodCursor = true;
 			showTargetter();
 		}
@@ -1915,25 +1786,39 @@ public class Membrane : CellObject
 	{
 		if (isPPodCursor)
 		{
-			p_engine.endCursorArrow();
-			p_engine.lastCursor();
+			if (p_engine != null)
+			{
+				p_engine.endCursorArrow();
+				p_engine.lastCursor();
+			}
 			isPPodCursor = false;
 			hideTargetter();
 		}
 	}
 
-	void OnMouseOver()
+    private void OnMouseUp()
+    {
+		doMouseUp();
+    }
+
+    void OnMouseOver()
 	{
 		if (!isMouseDown)
 		{
+			Debug.Log("over");
 			showCursor();
 		}
+		else
+        {
+			//tryPseudopod(1, 1);
+        }
 	}
 
 	private void OnMouseExit()
 	{
 		if (!isMouseDown)
 		{
+			Debug.Log("exit");
 			hideCursor();
 		}
 	}
@@ -1942,7 +1827,8 @@ public class Membrane : CellObject
 	{
 		if (!isMouseOver)
 		{
-			p_engine.showCursor((int)CellAction.PSEUDOPOD_PREPARE);
+			if (p_engine != null)
+				p_engine.showCursor((int)CellAction.PSEUDOPOD_PREPARE);
 			isMouseOver = true;
 		}
 	}
@@ -1951,9 +1837,56 @@ public class Membrane : CellObject
 	{
 		if (isMouseOver)
 		{
-			p_engine.lastCursor();
+			if (p_engine != null)
+				p_engine.lastCursor();
 			isMouseOver = false;
 		}
+	}
+
+	public void Redraw()
+	{
+		 
+		shape_cyto.Begin();
+		m_rim.Begin();
+		
+		shape_cyto.MoveTo(list_nodes[0].transform.localPosition.x, list_nodes[0].transform.localPosition.y);
+		m_rim.MoveTo(list_nodes[0].transform.localPosition.x, list_nodes[0].transform.localPosition.y);
+		int i;
+		Vector3 sum = new Vector3();
+		float maxY = 0;
+		float minY = 0;
+		float maxX = 0;
+		float minX = 0;
+		for (i = 0; i < list_nodes.Count - 1; i++)
+		{
+			Vector2 p0 = list_nodes[i].transform.localPosition;
+			Vector2 p3 = list_nodes[i + 1].transform.localPosition;
+			Vector2 distToNext = (p3 - p0);
+			Vector2 distFromNext = (p0 - p3);
+			//distToNext = FastMath.rotateVector(LerpVal * Mathf.PI / 180, distToNext);
+			//distFromNext = FastMath.rotateVector(LerpVal * Mathf.PI / 180, distFromNext);
+
+			m_rim.BezierCurveTo(p0.x, p0.y, p0.x + distToNext.x, p0.y + distToNext.y, p3.x, p3.y);//(p0.x, p0.y, p0.x, p0.y, p3.x, p3.y);
+			shape_cyto.LineTo(p0.x, p0.y);//.BezierCurveTo(p0.x,p0.y, p1.x, p1.y, p3.x,p3.y);//BezierCurve(p0, _nodes[i].localPosition+ perp1, _nodes[i+1].localPosition+perp2, p3);
+			shape_cyto.LineTo(p3.x, p3.y);//.BezierCurveTo(p0.x,p0.y, p1.x, p1.y, p3.x,p3.y);//BezierCurve(p0, _nodes[i].localPosition+ perp1, _nodes[i+1].localPosition+perp2, p3);
+										   //m_Cytoplasm.LineTo(dist.x, dist.y);//.BezierCurveTo(p0.x,p0.y, p1.x, p1.y, p3.x,p3.y);//BezierCurve(p0, _nodes[i].localPosition+ perp1, _nodes[i+1].localPosition+perp2, p3);
+
+		}
+		Vector2 p0l = list_nodes[i].transform.localPosition;
+		Vector2 p3l = list_nodes[0].transform.localPosition;
+		Vector2 distToNextl = (p3l - p0l) / 2;
+		Vector2 distFromNextl = (p0l - p3l) / 2;
+
+		m_rim.BezierCurveTo(p0l.x + distToNextl.x, p0l.y + distToNextl.y, p3l.x + distFromNextl.x, p3l.y + distFromNextl.y, p3l.x, p3l.y);//(p0.x, p0.y, p0.x, p0.y, p3.x, p3.y);
+		shape_cyto.LineTo(p3l.x, p3l.y);//.BezierCurveTo(p0.x,p0.y, p1.x, p1.y, p3.x,p3.y);//BezierCurve(p0, _nodes[i].localPosition+ perp1, _nodes[i+1].localPosition+perp2, p3);
+
+		m_rim.Stroke();
+
+		shape_cyto.Fill();
+		m_rim.End();
+		shape_cyto.End();
+		
+
 	}
 
 

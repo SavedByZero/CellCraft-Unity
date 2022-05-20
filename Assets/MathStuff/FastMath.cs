@@ -120,7 +120,7 @@ public class FastMath
 		c.g = (byte)( (uCol >> 8) & 0xff) / 255f;
 		c.r = (byte)((uCol >> 16) & 0xff) / 255f;
 		c.a = 1;
-		Debug.Log("color " + c);
+		//Debug.Log("color " + c);
 		return c;
     }
 
