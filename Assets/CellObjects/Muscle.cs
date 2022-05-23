@@ -41,7 +41,7 @@ public class Muscle : MonoBehaviour
             _stretching = true;
             Vector3 originalPos = this.transform.localPosition;
 
-            _rb.DOMove(new Vector3(xDir, yDir, 0), 1f).OnComplete(new TweenCallback(delegate
+            _rb.DOMove(new Vector3(xDir, yDir, 0), 0.5f).OnComplete(new TweenCallback(delegate
             {
                
                 _stretching = false;

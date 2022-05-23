@@ -1172,20 +1172,19 @@ public class Membrane : CellObject
 
 	private void tryPseudopod(float xx, float yy)
 	{
-		float dx = cent_x - xx;
-		float dy = cent_y - yy;
-		float d2 = (dx * dx) + (dy * dy);
-		d2 /= (Costs.MOVE_DISTANCE2/100);
+		float dx = cent_x - xx;   //  this distance between the centrosome and the mouse click
+		float dy = cent_y - yy;   //
+		float d2 = (dx * dx) + (dy * dy);  //the square of that.
+		d2 /= (Costs.MOVE_DISTANCE2/100);   //divide the square by the cost / 100.  This part is really just to figure the cost of the move by distance.
 
-		float cost = Costs.PSEUDOPOD[0] * d2;
+		float cost = Costs.PSEUDOPOD[0] * d2;               
 		//if (p_engine.canAfford((int)cost, 0, 0, 0, 0))//TODO
 		{
 			p_skeleton.cancelPseudopod(); //only 1 ppod at once!
-			if (p_skeleton.tryPseudopod(xx, yy, cost))
+			if (p_skeleton.tryPseudopod(xx, yy, cost))         //pass the mouse click coords to p_skeleton.tryPseudopod.
             {
 				
-					//Bookmark: the new way of moving the membrane
-				Mover.Stretch(xx, yy);
+				
 				
 			}
 		}
@@ -1194,6 +1193,12 @@ public class Membrane : CellObject
 			p_engine.showImmediateAlert(Messages.A_NO_AFFORD_PPOD);
 		}*/  
 
+	}
+
+	public void StretchMembrane(float xx, float yy)
+    {
+		//Bookmark: the new way of moving the membrane
+		Mover.Stretch(xx, yy);
 	}
 
 	/**
@@ -1821,6 +1826,7 @@ public class Membrane : CellObject
 			Debug.Log("exit");
 			hideCursor();
 		}
+		
 	}
 
 	private void showCursor()

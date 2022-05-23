@@ -7,11 +7,11 @@ public class CellGameObject : MovieClip, ICellGameObject
 	private InfoBubble c_bubble;
 
 	//need:  Locator,
-	public float x { get { return this.transform.position.x; } set {
-			this.transform.position = new Vector3(value, this.transform.position.y, this.transform.position.z); 
+	public float x { get { return this.transform.localPosition.x; } set {
+			this.transform.localPosition = new Vector3(value, this.transform.localPosition.y, this.transform.localPosition.z); 
 		} 
 	}
-	public float y { get { return this.transform.position.y; } set { this.transform.position = new Vector3(this.transform.position.y, value, this.transform.position.z); } }
+	public float y { get { return this.transform.localPosition.y; } set { this.transform.localPosition = new Vector3(this.transform.localPosition.x, value, this.transform.localPosition.z); } }
 	public bool dying { get; set; }
 	private float radius; //what is your bounding circle, for collision or selection
 	public float radius2;

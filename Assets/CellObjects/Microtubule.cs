@@ -9,6 +9,8 @@ using UnityEngine;
 
 public class Microtubule : CellObject
 {
+	public delegate void ReadyToContract();
+	public ReadyToContract onReadyToContract;
 	public Point origin;
 	public Point terminus;
 	public Point finishPoint = new Point(0,0);
@@ -55,7 +57,7 @@ public class Microtubule : CellObject
 		public Cytoskeleton p_skeleton;
 		public bool dirty_grav = false; //do I have new grav data since last time I gave it?
 
-	public static float PPOD_R2 = 1;//1.5f * 1.5f; //TODO: I modified this because the initial value seemed way too high and the skeleton set it lower. Keep an eye out for issues here. //10.00f*10.00f;
+	public static float PPOD_R2 = 10*10;//1.5f * 1.5f; //TODO: I modified this because the initial value seemed way too high and the skeleton set it lower. Keep an eye out for issues here. //10.00f*10.00f;
 		public static float LENS_R2 = 10.00f*10.00f;
 		
 		//public var isShrunk:Boolean = false;
@@ -240,16 +242,18 @@ public class Microtubule : CellObject
     }
 
 	public void ppodTo(float xx, float yy)
-	{
+	{ //ppod to the mouse position (xx,yy).  Here, the origin is 0,0 and the terminus is new Point(p_centrosome.x + v.x, p_centrosome.y + v.y);.  
 		isPpoding = true;
-		p_skeleton.onStartPPod();
+		p_skeleton.onStartPPod(); //tells the membrane that ppod has started
+		
 		origin.x = terminus.x;
 		origin.y = terminus.y;
 		xLoc = terminus.x;
 		yLoc = terminus.y;
 		terminus.x = xx;
 		terminus.y = yy;
-		calcTrajectory(terminus);
+		calcTrajectory(terminus); //get the distance from xLoc, yLoc(edge of membrane?) to the terminus(which is now the mouse point).  normalize it. multiply it by the speed.
+		                         // then set xSpeed and ySpeed to its NEGATIVE x and y values.
 		isMoving = true;
 		//_GrowBitRoutine = StartCoroutine(growBit());
 		_shouldGrow = true;
@@ -309,6 +313,7 @@ public class Microtubule : CellObject
 		{ 
 			if (p_obj.num_id == Selectable.CENTROSOME)
 			{
+				Debug.Log("contracting to " + xx + ", " + yy);
 				p_obj.getPpodContract(xx, yy); //Bookmark: this moves the cell objects to the expanded pseudopod point by moving the centrosome, which then tells the cell to move everything else
 			}
 		}
@@ -421,9 +426,9 @@ public class Microtubule : CellObject
 			p_skeleton.onFinishPPod();
 			SfxManager.Play(SFX.SFXMudStep);
 			SfxManager.Play(SFX.SFXMudSlide);
-
-			isPpodContracting = true;
-			contract();
+			onReadyToContract?.Invoke();
+			//Debug.Log("ready to contract" + Time.time);
+			StartCoroutine(delayBeforecontracting());
 		}
 		else if (isPpodContracting)
 		{
@@ -431,6 +436,14 @@ public class Microtubule : CellObject
 			p_skeleton.removeTube(this, true);
 		}
 	}
+
+	IEnumerator delayBeforecontracting()
+    {
+		yield return new WaitForSeconds(1);
+		isPpodContracting = true;
+		contract();
+		
+    }
 
 	
 	public void growBitHelper()
@@ -478,13 +491,16 @@ public class Microtubule : CellObject
 
 			if (isPpodContracting)
 			{
-				Debug.Log("xspeed " + xSpeed + ", yspeed " + ySpeed);
+				
 				p_skeleton.ppodContract(this, xSpeed, ySpeed); //Bookmark: This moves everything inside the cell toward the stretched out pod 
 			}
-
+			else
+            {
+				Debug.Log("getting into position " + Time.time);
+            }
 			counter++;
 
-			if (counter * speed > 50f)
+			if (counter * speed > 50f) //is this how long it waits to calculate the trajectory and aim?PROD_R
 			{
 				calcTrajectory(terminus);
 				counter = 0;

@@ -198,10 +198,12 @@ public class CellObject : Selectable, IComparable<CellObject>
 	{
 		x -= xx;
 		y -= yy;
+		Debug.Log("contracted by " + xx + "," + yy);
 		if (isMoving)
 		{
 			if (pt_dest != null)
 			{
+				Debug.Log("pt_dest contracted by " + xx + "," + yy);
 				pt_dest.x -= xx;
 				pt_dest.y -= yy;
 			}

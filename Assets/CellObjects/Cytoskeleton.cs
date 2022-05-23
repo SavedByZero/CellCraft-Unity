@@ -31,8 +31,8 @@ public class Cytoskeleton : CellObject
 	public const float GRAV_RADIUS2 = 4;//100;//GRAV_RADIUS* GRAV_RADIUS;
 	public const float PPOD_SPEED = .12f;
 	public static bool SHOW = false;
-		
-	public static float MEM_FRAC = 0.7f;
+
+	public static float MEM_FRAC = 0.038f;//0.7f;  //This is the percentage of the membrane covered by the centrosome -- I think??
 	public static float MEM_WARBLE_FRAC = 1-(0.6f);
 	public static float MEM_WARBLECIRC_FRAC = 0.7f * 0.8f;
 	public static int WARBLE_POINTS = 6;
@@ -40,7 +40,7 @@ public class Cytoskeleton : CellObject
 		
 	public bool isPPoding = false;
 		
-	public float cent_radius = 0.3f; //was initially 100 pixels TODO: find the real intended cent radius and real intended PPOD radius.
+	public float cent_radius = 1; //was initially 100 pixels TODO: find the real intended cent radius and real intended PPOD radius.
 
 	private Coroutine _runRoutine;
 
@@ -114,6 +114,7 @@ public class Cytoskeleton : CellObject
 		//y -= yy;
 		/*p_centrosome.x = x;
 		p_centrosome.y = y;*/
+		
 		foreach(Microtubule t in list_tubes) {
 			t.ppodContract(xx, yy);
 		}
@@ -219,10 +220,12 @@ public class Cytoskeleton : CellObject
 	public bool tryPseudopod(float x2, float y2, float cost)
 	{
 		//p_engine.onPseudopod();  //TODO
+		Debug.Log("mouse click at " + x2 + "," + y2);
+		//try to form a pseudopod to the mouse click coords (x2 and y2)
+		float dx = x2 - p_centrosome.x;    //get the distance to the centrosome from the click 
 
-		float dx = x2 - p_centrosome.x;
-		float dy = y2 - p_centrosome.y;
-		float d2 = (dx * dx) + (dy * dy);
+		float dy = y2 - p_centrosome.y;    //
+		float d2 = (dx * dx) + (dy * dy);  //square it.  
 
 		bool overShot = false;
 
@@ -233,14 +236,27 @@ public class Cytoskeleton : CellObject
 		}
 
 		Vector2 v = new Vector2(dx, dy); //get a vector from the point to the centrosome
+		Debug.Log("distance v to point is " + v);
+		
+		 
 		v.Normalize();                         //make it a unit vector
+		Debug.Log("v normalized is " + v);
 		v *= ((cent_radius - (PPOD_RADIUS))); //find the point right near the edge of the membrane. 
-
+		Debug.Log("cent radius is " + cent_radius);
+		Debug.Log("prod radius is " + PPOD_RADIUS);
+		Debug.Log("the point near the edge of the membrane is: " + v);
+		
 		Point p = new Point(p_centrosome.x + v.x, p_centrosome.y + v.y);//THIS IS THE TERMINUS - from the centrosome to the end of the membrane.
-		Microtubule m = makePPodMicrotubule(p);
+		Microtubule m = makePPodMicrotubule(p);  //the origin is 0,0, the terminus is p
+		m.onReadyToContract += delegate
+		{
+			p_membrane.StretchMembrane(x2, y2);
 
+		};
 		if (overShot)
-		{  //if we overshot somehow, make us stop short of escaping the lens
+		{
+			Debug.Log("opvershot ");
+			//if we overshot somehow, make us stop short of escaping the lens
 			Vector2 v2 = new Vector2(dx, dy); //get a vector from the centrosome to the point
 				v2.Normalize();                           //make it a unit vector
 			v2 *= (WizardOfOz.LENS_RADIUS);     //multiply by the lens radius
@@ -249,13 +265,13 @@ public class Cytoskeleton : CellObject
 		}
 
 		m.setObjectSelf(); //the microtubule's cellObject is itself!
-		m.setSpeed(PPOD_SPEED);
-		m.ppodTo(x2, y2);
+		m.setSpeed(PPOD_SPEED); //.12? was 12. 
+		m.ppodTo(x2, y2); //ppod to the moriginal mouse position
 
 		SfxManager.Play(SFX.SFXDrain);
 		p_cell.spendATP(cost, p, 1, 0, false);
 		//recordGravityPoints();
-		return true;
+		return !overShot;
 	}
 
 	private Microtubule makePPodMicrotubule(Point p) 
@@ -437,8 +453,9 @@ public class Cytoskeleton : CellObject
 		int j = 0;
 		float r = GRAV_RADIUS;
 		float rr = p_membrane.getRadius();
+		Debug.Log("membrane radius " + rr);
 		float frac = MEM_FRAC;
-		cent_radius = rr * frac;
+		cent_radius = (3.8f/2) * p_centrosome.transform.localScale.x; //rr * frac;
 		for (j = 0; j < length; j++)
 		{
 
