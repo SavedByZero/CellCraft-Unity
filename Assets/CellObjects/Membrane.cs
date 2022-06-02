@@ -923,28 +923,17 @@ public class Membrane : CellObject
 	private void makeNodes(float radius, int max)
 	{
 
-		List<float> v = FastMath.circlePoints(radius, max);
+		List<Vector2> v = FastMath.circlePoints(radius, max);
 		int length = v.Count;
 		float rot = 0;
-		for (int i = 0; i < length; i += 2)
+		for (int i = 0; i < length; i ++)
 		{
 			rot = 90 + ((i / 2) * (360 / max));
 			MembraneNode node = fetchNodeFromPool();
 			node.p_cent = p_cent;
 			node.p_membrane = this;
-			
-			//MembraneNode fn = node.GetComponent<MembraneNode>();
-			SpringJoint2D sj2d = node.GetComponent<SpringJoint2D>();
-			//sj2d.connectedBody = Anchor.GetComponent<Rigidbody2D>();
-			Rigidbody2D rb = node.GetComponent<Rigidbody2D>();
-			node.transform.localPosition = (new Vector3(v[i], v[i + 1]));
-			
-			//rb.MoveRotation(rot);// = new Vector3(0, 0, rot);
-		
-			//node.transform.SetParent(this.transform);
+			node.transform.localPosition = (new Vector3(v[i].x, v[i].y));
 			node.init();
-			
-			//sj2d.autoConfigureDistance = false;
 			node.index = list_nodes.Count;//max - 1;
 			list_nodes.Add(node);
 			if (i > 0)
@@ -952,29 +941,17 @@ public class Membrane : CellObject
 				node.p_prev = list_nodes[list_nodes.Count-2];
 				list_nodes[list_nodes.Count-2].p_next = node;
             }
-			if (i == length-2)
+			if (i == length-1)
             {
 				node.p_next = list_nodes[0];
 				list_nodes[0].p_prev = node;
             }
-			//AddToMembraneSkin(node.gameObject);
-			//makeNode(v[i], v[i + 1], rot, i / 2, max - 1); //do max-1 so that it knows that that's the last index in the list
 		}
 		for (int i = list_nodes.Count-1; i >= 0; i--)
 		{
 			AddToMembraneSkin(list_nodes[i].gameObject);  //This needs to be done backwards so the sprite shape circle winds correctly. 
 		}
 		activateNodes();
-		
-		//list_nodes = new List<MembraneNode>(GetComponentsInChildren<MembraneNode>());
-		/*List<float> v = FastMath.circlePoints(radius, max);
-		int length = v.Count;
-		float rot = 0;
-		for (int i = 0; i < length; i += 2) 
-		{
-			rot = 90 + ((i / 2) * (360 / max));
-			makeNode(v[i], v[i + 1], rot, i / 2, max - 1); //do max-1 so that it knows that that's the last index in the list
-		}*/
 
 	}
 
@@ -1848,76 +1825,6 @@ public class Membrane : CellObject
 			isMouseOver = false;
 		}
 	}
-
-	public void Redraw()
-	{
-		 
-		shape_cyto.Begin();
-		m_rim.Begin();
-		
-		shape_cyto.MoveTo(list_nodes[0].transform.localPosition.x, list_nodes[0].transform.localPosition.y);
-		m_rim.MoveTo(list_nodes[0].transform.localPosition.x, list_nodes[0].transform.localPosition.y);
-		int i;
-		Vector3 sum = new Vector3();
-		float maxY = 0;
-		float minY = 0;
-		float maxX = 0;
-		float minX = 0;
-		for (i = 0; i < list_nodes.Count - 1; i++)
-		{
-			Vector2 p0 = list_nodes[i].transform.localPosition;
-			Vector2 p3 = list_nodes[i + 1].transform.localPosition;
-			Vector2 distToNext = (p3 - p0);
-			Vector2 distFromNext = (p0 - p3);
-			//distToNext = FastMath.rotateVector(LerpVal * Mathf.PI / 180, distToNext);
-			//distFromNext = FastMath.rotateVector(LerpVal * Mathf.PI / 180, distFromNext);
-
-			m_rim.BezierCurveTo(p0.x, p0.y, p0.x + distToNext.x, p0.y + distToNext.y, p3.x, p3.y);//(p0.x, p0.y, p0.x, p0.y, p3.x, p3.y);
-			shape_cyto.LineTo(p0.x, p0.y);//.BezierCurveTo(p0.x,p0.y, p1.x, p1.y, p3.x,p3.y);//BezierCurve(p0, _nodes[i].localPosition+ perp1, _nodes[i+1].localPosition+perp2, p3);
-			shape_cyto.LineTo(p3.x, p3.y);//.BezierCurveTo(p0.x,p0.y, p1.x, p1.y, p3.x,p3.y);//BezierCurve(p0, _nodes[i].localPosition+ perp1, _nodes[i+1].localPosition+perp2, p3);
-										   //m_Cytoplasm.LineTo(dist.x, dist.y);//.BezierCurveTo(p0.x,p0.y, p1.x, p1.y, p3.x,p3.y);//BezierCurve(p0, _nodes[i].localPosition+ perp1, _nodes[i+1].localPosition+perp2, p3);
-
-		}
-		Vector2 p0l = list_nodes[i].transform.localPosition;
-		Vector2 p3l = list_nodes[0].transform.localPosition;
-		Vector2 distToNextl = (p3l - p0l) / 2;
-		Vector2 distFromNextl = (p0l - p3l) / 2;
-
-		m_rim.BezierCurveTo(p0l.x + distToNextl.x, p0l.y + distToNextl.y, p3l.x + distFromNextl.x, p3l.y + distFromNextl.y, p3l.x, p3l.y);//(p0.x, p0.y, p0.x, p0.y, p3.x, p3.y);
-		shape_cyto.LineTo(p3l.x, p3l.y);//.BezierCurveTo(p0.x,p0.y, p1.x, p1.y, p3.x,p3.y);//BezierCurve(p0, _nodes[i].localPosition+ perp1, _nodes[i+1].localPosition+perp2, p3);
-
-		m_rim.Stroke();
-
-		shape_cyto.Fill();
-		m_rim.End();
-		shape_cyto.End();
-		
-
-	}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

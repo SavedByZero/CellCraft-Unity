@@ -27,8 +27,10 @@ public class CellObject : Selectable, IComparable<CellObject>
 		
 	protected bool does_divide = false;
 	protected bool does_move = false;
+	private Coroutine _damageRoutine;
 
-		
+
+
 	protected bool does_pop = false;
 		
 	public MovieClip clip_divide;
@@ -503,7 +505,7 @@ return false;
 
 		if (n < 0.001f)
 		{
-			StopAllCoroutines();
+			StopCoroutine(_damageRoutine);
 		}
 		else
 		{
@@ -521,7 +523,7 @@ return false;
 			phDamage_counter = 0;
 			//if(this is Nucleus)
 			//	trace("CellObject.setPHDamage(" + n + ") phDamage_time = " + phDamage_time + " phDamage = " + phDamage);
-			StartCoroutine(takePHDamage());
+			_damageRoutine = StartCoroutine(takePHDamage());
 		}
 	}
 

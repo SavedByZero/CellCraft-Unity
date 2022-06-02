@@ -16,7 +16,6 @@ public class SoftBody : MonoBehaviour
 
     private void Awake()
     {
-        //UpdateVertices();
         _rb = GetComponent<Rigidbody2D>();
         points = new List<Transform>();
         SpriteShape.spline.Clear();
@@ -38,6 +37,12 @@ public class SoftBody : MonoBehaviour
        // sj.autoConfigureDistance = false;
     }
 
+    IEnumerator delayDistanceTweak(DistanceJoint2D dj)
+    {
+        yield return new WaitForEndOfFrame();
+        dj.autoConfigureDistance = false;
+    }
+
     public void PrepareNodes()
     {
         for (int i = 0; i < points.Count; i++)
@@ -45,6 +50,7 @@ public class SoftBody : MonoBehaviour
             SpringJoint2D sj = points[i].GetComponent<SpringJoint2D>();
             DistanceJoint2D dj = points[i].GetComponent<DistanceJoint2D>();
             SpringJoint2D[] springs = points[i].GetComponents<SpringJoint2D>();
+            StartCoroutine(delayDistanceTweak(dj));
             sj.autoConfigureDistance = false;
             // dj.autoConfigureDistance = false;
             if (i < points.Count - 1)
@@ -69,44 +75,11 @@ public class SoftBody : MonoBehaviour
                 springs[2].connectedBody = points[points.Count - 1].GetComponent<Rigidbody2D>();
                 springs[2].autoConfigureDistance = false;
             }
-            //springs[1].connectedBody = seek(i, 2, false).GetComponent<Rigidbody2D>();
-            //springs[2].connectedBody = seek(i, 2).GetComponent<Rigidbody2D>();
+            
         }
         _prepped = true;
 
     }
-
-    
-
-    Transform seek(int currentIndex, int amount, bool forwards = true)
-    {
-        int diff = 0;
-        if (forwards)
-        {
-            diff = (points.Count-1) - (currentIndex + amount);
-            if (diff < 0)
-            {
-                return points[-diff];
-            }
-            else
-            {
-                return points[currentIndex + amount];
-            }
-        }
-        else
-        {
-            diff = currentIndex - amount;
-            if (diff < 0)
-            {
-                return points[points.Count - diff];
-            }
-            else
-            {
-                return points[diff];
-            }
-        }
-    }
-
   
 
     public void UpdateVertices()

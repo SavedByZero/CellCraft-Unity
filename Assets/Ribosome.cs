@@ -9,6 +9,7 @@ using System.Collections;
 
 public class Ribosome : BasicUnit
 {
+//
 	//normal, grow, wait,dock, process, process_inplace, recycle 
 	public bool instant_deploy = false;
 		//private var busy:Boolean = false;
@@ -36,8 +37,9 @@ public class Ribosome : BasicUnit
     private Coroutine _processFailSafeRoutine;
     private Coroutine _waitERroutine;
 
-    void Start()
+    public override void Start()
 	{
+		base.Start();
 		canSelect = false;
 		//buttonMode = false;
 		//mouseEnabled = false;  //TODO:?
@@ -412,7 +414,7 @@ return false;
 		p_rna = null;
 		product = NOTHING; //just to be safe
 		deploying = true;
-		deployCytoplasm(p_cell.c_nucleus.x, p_cell.c_nucleus.y, 90, 20, true, instant);
+		deployCytoplasm(p_cell.c_nucleus.x, p_cell.c_nucleus.y, .90f, .20f, true, instant);
 		if (instant)
 		{
 			ready = true; //HACK HACK HACK

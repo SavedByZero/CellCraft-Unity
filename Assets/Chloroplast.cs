@@ -8,7 +8,7 @@ using UnityEngine;
 
  public class Chloroplast : ProducerObject
 {
-	public void Start()
+	public override void Start()
 	{
 		base.Start();
 		showSubtleDamage = true;
@@ -32,7 +32,13 @@ using UnityEngine;
 		init();
 	}
 
-	public void setSunlight(float s)
+    public override void playAnim(string label)
+    {
+		Debug.Log("playing: " + label);
+        base.playAnim(label);
+    }
+
+    public void setSunlight(float s)
 	{
 		setEfficiency(s);
 		if (efficiency > 0)

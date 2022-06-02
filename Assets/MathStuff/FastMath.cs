@@ -78,13 +78,12 @@ public class FastMath
 	 * @return a list of circle coordinates in a Vector.<Number>
 	 */
 
-	public static List<float> circlePoints(float radius, float MAX) 
+	public static List<Vector2> circlePoints(float radius, float MAX) 
 	{
 		
-		List<float> circ = new List<float> ();
+		List<Vector2> circ = new List<Vector2> ();
 		for (float i = 0; i < MAX; i++){
-			circ.Add((Mathf.Cos(i / MAX * TWOPI)) * radius);
-			circ.Add((Mathf.Sin(i / MAX * TWOPI)) * radius);
+			circ.Add( new Vector2(((Mathf.Cos(i / MAX * TWOPI)) * radius), ((Mathf.Sin(i / MAX * TWOPI)) * radius) ) );
 		}
 		return circ;
 	}

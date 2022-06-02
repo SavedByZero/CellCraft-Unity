@@ -113,11 +113,11 @@ public class CellGameObject : MovieClip, ICellGameObject
 	public static float cent_x = 0;
 	public static float cent_y = 0;
 
-	protected static float BOUNDARY_W = .10f;
-	protected static float BOUNDARY_H = .10f;
+	protected static float BOUNDARY_W = 10f;
+	protected static float BOUNDARY_H = 10f;
 
-	protected static float BOUNDARY_R = .10f;
-	protected static float BOUNDARY_R2 = 20.0f;
+	protected static float BOUNDARY_R = 10f;
+	protected static float BOUNDARY_R2 = 10000;//20.0f;
 
 	protected GameDataObject gdata;
 
@@ -127,6 +127,7 @@ public class CellGameObject : MovieClip, ICellGameObject
 
 	public virtual void Start()
 	{
+		
 		//Debug.Log("cell game object Start() " + this);
 		autoRadius();
 		createInfoLoc();
@@ -527,13 +528,13 @@ public class CellGameObject : MovieClip, ICellGameObject
 		if (!dying)
 		{   //you are not allowed to start an animation while dying
 
-			GotoAndStop(label);
+			GotoAndPlay(label);
 			//if (anim != null)
 			//anim.Stop();
-			Stop();
+			//Stop();
 
 			anim_vital = true;
-			_doAnimRoutine = StartCoroutine(doAnimRoutine());
+			//_doAnimRoutine = StartCoroutine(doAnimRoutine());
 
 			if (clip != null)
 				clip.gameObject.SetActive(false);

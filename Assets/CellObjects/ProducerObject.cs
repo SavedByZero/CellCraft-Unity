@@ -52,12 +52,15 @@ public class ProducerObject : CellObject
 	public override void Start()
 	{
 		base.Start();
-		Debug.Log("producer object start");
-		_produceRoutine = StartCoroutine(produce());
+		Debug.Log("producer object start " + this );
+		
 		//addEventListener(RunFrameEvent.RUNFRAME, produce, false, 0, true);
 		setRadicals(Cell.RADICALS_ON);
 		makeGameDataObject();
 		doesCollide = true;
+		Debug.Log("starting produce routine for " + this);
+		if (_produceRoutine == null)
+			_produceRoutine = StartCoroutine(produce());
 	}
 
 	public override void destruct()
@@ -73,11 +76,11 @@ public class ProducerObject : CellObject
 		produce_time = (int)(PRODUCE_TIME / efficiency);
 	}
 
-	protected IEnumerator produce()
+	private IEnumerator produce()
 	{
 		while (true)
 		{
-			yield return new WaitForEndOfFrame();
+			yield return new WaitForSeconds(FrameInterval);
 			if (is_producing && toggle_on)
 			{
 				if (!anim_vital && !isDoomed && !isDamaged)
@@ -86,7 +89,7 @@ public class ProducerObject : CellObject
 					if (produce_counter > produce_time)
 					{
 						produce_counter = 0;
-						if (p_cell.spend(_inputs, new Point(x, y + (MaxHeight / 3)), 0.5f))
+						if (p_cell.spend(_inputs, new Point(x, y + ((float)MaxHeight / 3f)), 0.5f))
 						{
 							playAnim("process");
 							if (brown_fat_toggle_on)
@@ -105,6 +108,7 @@ public class ProducerObject : CellObject
 					}
 				}
 			}
+			
 		}
 	}
 

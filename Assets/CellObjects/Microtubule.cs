@@ -250,6 +250,7 @@ public class Microtubule : CellObject
 		origin.y = terminus.y;
 		xLoc = terminus.x;
 		yLoc = terminus.y;
+		Debug.Log("starting x,yLocs " + terminus);
 		terminus.x = xx;
 		terminus.y = yy;
 		calcTrajectory(terminus); //get the distance from xLoc, yLoc(edge of membrane?) to the terminus(which is now the mouse point).  normalize it. multiply it by the speed.
@@ -457,6 +458,8 @@ public class Microtubule : CellObject
 		float d2 = (xLoc * xLoc) + (yLoc * yLoc);
 		d2 += PPOD_R2 * 4;
 		bool outside = false;
+		Debug.Log("xLoc " + xLoc + "yLoc " + yLoc );
+		Debug.Log("d2 " + d2 + ", boundary r2 " + BOUNDARY_R2 + ", PPOD_R2" + PPOD_R2 );
 		if (d2 > BOUNDARY_R2)
 		{
 			Vector2 cent_v = new Vector2(cent_x - 0, cent_y - 0);
@@ -464,7 +467,7 @@ public class Microtubule : CellObject
 			Vector2 dir_v = new Vector2(terminus.x, terminus.y);
 			Vector2 dir_v_n = dir_v.normalized;
 			float angle = FastMath.angleTo(dir_v, cent_v);
-			Debug.Log("d2 " + d2 + ", boundary r2 " + BOUNDARY_R2);
+			
 			Debug.Log("Microtubule.growBit OUTSIDE()! \n cent_v = " + cent_v + " dir_v = " + dir_v);
 			Debug.Log("Microtubule.growBit OUTSIDE()! \n cent_v_n = " + cent_v_n + " dir_v_n = " + dir_v_n);
 			outside = true;

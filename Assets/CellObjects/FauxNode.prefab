@@ -139,7 +139,7 @@ SpringJoint2D:
   m_AutoConfigureDistance: 1
   m_Distance: 0.53
   m_DampingRatio: 0
-  m_Frequency: 1
+  m_Frequency: 1.3
 --- !u!231 &4700270177659692257
 SpringJoint2D:
   m_ObjectHideFlags: 0
@@ -159,7 +159,7 @@ SpringJoint2D:
   m_AutoConfigureDistance: 1
   m_Distance: 0.54
   m_DampingRatio: 0
-  m_Frequency: 1
+  m_Frequency: 1.3
 --- !u!231 &3397755879722936462
 SpringJoint2D:
   m_ObjectHideFlags: 0
@@ -179,4 +179,4 @@ SpringJoint2D:
   m_AutoConfigureDistance: 1
   m_Distance: 0.53
   m_DampingRatio: 0
-  m_Frequency: 1
+  m_Frequency: 1.3

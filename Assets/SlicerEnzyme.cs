@@ -19,9 +19,11 @@ public class SlicerEnzyme : BasicUnit
 	private int release_count = 0;
 	private int release_time = 30;
 	private Point old_spot;
+	private bool _rotating;
 
-	public SlicerEnzyme()
+	public override void Start()
 	{
+		base.Start();
 		does_recycle = true;
 		speed = 3;
 		num_id = Selectable.SLICER_ENZYME;
@@ -36,7 +38,21 @@ public class SlicerEnzyme : BasicUnit
 		snapToObject = false; //KEEPS EM IN THE MEMBRANE!
 	}
 
-	protected override void autoRadius()
+    public override void playAnim(string label)
+    {
+		_rotating = (label == "normal");
+        base.playAnim(label);
+    }
+
+    private void Update()
+    {
+        if (_rotating)
+        {
+			this.transform.Rotate(new Vector3(0, 0, Time.deltaTime*60));
+        }
+    }
+
+    protected override void autoRadius()
 	{
 		setRadius(25);
 	}

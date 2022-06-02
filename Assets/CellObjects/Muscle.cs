@@ -19,23 +19,28 @@ public class Muscle : MonoBehaviour
        
     }
 
-    public IEnumerator Settle()
+    public IEnumerator Settle(Vector3 originalPos)
     {
         //stop moving
 
         // _rb.transform.SetParent(this.transform.parent);
         //  
-        yield return new WaitForSeconds(2);
-        _rb.MovePosition(_membrane.transform.position);
-        GetComponent<Wiggler>().Active = true;
+        yield return new WaitForSeconds(0.5f);
+        _rb.isKinematic = true;
+        _rb.transform.localPosition = Vector3.zero;
+        _rb.isKinematic = false;
+        _rb.gameObject.SetActive(false);
+        //Wiggler w = GetComponent<Wiggler>();
+       // w.UpdateCorePos(_membrane.transform.localPosition);
+       // w.Active = true;
         //this.gameObject.SetActive(false);
         //resume wiggling
     }
 
     public void Stretch(float xDir, float yDir)
     {
-         GetComponent<Wiggler>().Active = false;
-       
+        // GetComponent<Wiggler>().Active = false;
+        _rb.gameObject.SetActive(true);
         if (!_stretching)
         {
             _stretching = true;
@@ -47,7 +52,7 @@ public class Muscle : MonoBehaviour
                 _stretching = false;
                 onFinishStretching?.Invoke();
 
-                StartCoroutine(Settle());
+                StartCoroutine(Settle(originalPos));
 
             }));
         }

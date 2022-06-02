@@ -18,8 +18,13 @@ public class Wiggler : MonoBehaviour
         set
         {
             _active = value;
-            _corePos = this.transform.position;
+           // _corePos = this.transform.localPosition;
         }
+    }
+
+    public void UpdateCorePos(Vector3 pos)
+    {
+        _corePos = pos;
     }
 
     private void Awake()

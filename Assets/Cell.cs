@@ -828,7 +828,8 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 		for (i = 0; i < n; i++)
 		{
 			SlicerEnzyme s = instantSlicer(0, 0);
-			s.clip.GotoAndPlay(i); //offset their animations so it looks nice; HACK
+			s.playAnim("normal");
+			//s.GotoAndPlay(i); //offset their animations so it looks nice; HACK
 		}
 	}
 
@@ -841,7 +842,7 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 			//p_engine.startAndFinishLysosome();  //TODO
 			Lysosome l = instantLysosome(0, 0, false);
 			l.deployGolgi(true);
-			(l.clip as MovieClip).SubClip.GotoAndPlay(i); //offset their animations so it looks nice; HACK
+			l.playAnim("normal");//(l.clip as MovieClip).SubClip.GotoAndPlay(i); //offset their animations so it looks nice; HACK
 		}
 	}
 
@@ -862,19 +863,19 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 
 	private void makeStartRibosomes(int n)
 	{
-		List<float> c = FastMath.circlePointsOffset(230, n, 0, 0);
+		List<float> c = FastMath.circlePointsOffset(2.30f, n, 0, 0);
 		int i = 0;
 		for (i = 0; i < n; i++)
 		{
 			Ribosome r = instantRibosome(0, 0);
 			r.ribosomeDeploy(true);
-			r.clip.SubClip.GotoAndPlay(i); //offset their animations so it looks nice; HACK
+			r.playAnim("normal");//r.clip.SubClip.GotoAndPlay(i); //offset their animations so it looks nice; HACK
 		}
 	}
 
 	private void makeStartMitochondria(int n)
 	{
-		List<float> c = new List<float>() { -50, -200, -150, -200, 50, -200 };
+		List<float> c = new List<float>() { -.50f, -2.00f, -1.50f, -2.00f, .50f, -2.00f };
 		for (int i = 0; i < n; i++) 
 		{
 			Mitochondrion m = makeMitochondrion();
@@ -885,7 +886,7 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 
 	private void makeStartChloroplasts(int n)
 	{
-		List<float> c = new List<float> { -50, 200, -150, 200, 50, 200 };
+		List<float> c = new List<float> { -.50f, 2.00f, -1.50f, 2.00f, .50f, 2.00f };
 		for (int i = 0; i < n; i++) 
 		{
 			Chloroplast cl = makeChloroplast();
@@ -907,7 +908,7 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 
 	private void makeTestMitochondria(int n)
 	{
-		List<float> c = FastMath.circlePointsOffset(300, n, 0, 0);
+		List<float> c = FastMath.circlePointsOffset(3.00f, n, 0, 0);
 		for (int i = 0; i < n; i++) 
 		{
 			Mitochondrion m = makeMitochondrion();
@@ -1020,7 +1021,11 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 
 		makeRunningList();
 		makeSelectableList();
-
+		makeStartSlicers(5); //-
+		makeStartRibosomes(5);//-
+		makeStartLysosomes(5);//-
+		makeStartMitochondria(2);//-
+		makeStartChloroplasts(2); //-
 		/*makeStartSlicers(p_engine.lvl.levelData.start_slicers);   //TODO
 		makeStartRibosomes(p_engine.lvl.levelData.start_ribos);
 		makeStartMitochondria(p_engine.lvl.levelData.start_mitos);
@@ -1284,7 +1289,7 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 			int numNotZero = 0;
 			if (p != null)
 		{
-			float[] b = a.Concat(null).ToArray();
+			float[] b = a.Concat(new List<float>()).ToArray();
 			int length = b.Length;
 		
 			for (int i = 0; i < length; i++) 
@@ -1471,9 +1476,10 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 		{
 			GameObject co = Instantiate(Chloroplast_Prefab) as GameObject;
 		Chloroplast c = co.GetComponent<Chloroplast>();
-			c.transform.SetParent(this.transform, false);
+			c.transform.SetParent(this.transform);
 			c.setCell(this);
 			list_chlor.Add(c);
+		c.name = "Chloroplast_" + list_chlor.Count;
 			chloroCount = list_chlor.Count;
 			//p_engine.setChloroCount(chloroCount);  //TODO
 			addRunning(c);
@@ -2480,7 +2486,7 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 			DockPoint pt = c_er.findDockingPoint();
 			if (pt != null)
 			{
-				r.setDockPoint(pt, (int)c_er.transform.position.x, (int)c_er.transform.position.y);
+				r.setDockPoint(pt, (int)c_er.transform.localPosition.x, (int)c_er.transform.localPosition.y);
 				//c_er.busyDockingPoint(pt.index);
 				return true;
 			}

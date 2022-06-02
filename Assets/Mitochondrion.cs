@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 public class Mitochondrion : ProducerObject
 {
-	void Start()
+	public override void Start()
 	{
 		base.Start();
 		showSubtleDamage = true;
@@ -35,6 +35,7 @@ public class Mitochondrion : ProducerObject
 
 		allowAlternateBurn = true;
 		init();
+		//playAnim("normal");
 	}
 
 	protected override void doAlternateBurn()

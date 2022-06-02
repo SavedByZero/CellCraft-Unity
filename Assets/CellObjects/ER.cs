@@ -112,8 +112,8 @@ public class ER : CellObject
 			Locator d = dockLocators[i];  //let's hope 33 is the magic number...=p
 			
 			DockPoint p = new DockPoint();
-			p.x = (int)(d.transform.position.x);
-			p.y = (int)(d.transform.position.y);
+			p.x = (int)(d.transform.localPosition.x);
+			p.y = (int)(d.transform.localPosition.y);
 			p.busy = false;
 			p.index = i;
 			list_dock.Add(p);
@@ -122,8 +122,8 @@ public class ER : CellObject
 			//d = null;
 			Locator e = exitLocators[i];
 			DockPoint ep = new DockPoint();
-			ep.x = (int)(e.transform.position.x);
-			ep.y = (int)(e.transform.position.y);
+			ep.x = (int)(e.transform.localPosition.x);
+			ep.y = (int)(e.transform.localPosition.y);
 			ep.busy = false;
 			ep.index = i;
 			list_exit.Add(ep);
@@ -232,7 +232,7 @@ public class ER : CellObject
 
 	protected override void autoRadius()
 	{
-		setRadius(100);
+		setRadius(1.00f);
 	}
 
 }
