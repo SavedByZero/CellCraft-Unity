@@ -54,7 +54,7 @@ public class Virus : CellObject
 	public string wave_id;
 	protected float normal_speed;
 	protected float escape_speed;
-	protected float inside_speed;
+	protected float inside_speed = 0.1f;
 		
 	public bool toCent = false;
 		
@@ -66,7 +66,7 @@ public class Virus : CellObject
 	public bool isNeutralized = false;
 		
 	protected int DMG_PIERCE_MEMBRANE = 1;
-	public const float INJECT_DISTANCE = 30;
+	public const float INJECT_DISTANCE = .30f;
 		
 	public int newnode_count = 0;
 	public int NEWNODE_TIME = 5;
@@ -107,11 +107,11 @@ public class Virus : CellObject
 		text_id = "virus";
 		wave_id = "";
 		num_id = Selectable.VIRUS;
-		setMaxHealth(10, true);
+		setMaxHealth(100, true);
 		normal_speed = speed;
 		escape_speed = speed * 4;
 		inside_speed = speed / 2;
-		setRadius(25); //MAGIC NUMBER ALERT
+		setRadius(.25f); //MAGIC NUMBER ALERT
 		makeGameDataObject();
 		//giveVesicle();
 	}
@@ -254,7 +254,8 @@ public class Virus : CellObject
 
 	public override void destruct()
 	{
-		StopCoroutine(_clingCellRoutine);
+		if (_clingCellRoutine != null)
+			StopCoroutine(_clingCellRoutine);
 		
 		if (list_lyso != null)
 		{
@@ -337,8 +338,8 @@ public class Virus : CellObject
 			onBornInCell();
 			insideCell();
 			motivation_state = MOT_ESCAPING_CELL;
-
-			StopCoroutine(_tryEnter);
+			if (_tryEnter != null)
+				StopCoroutine(_tryEnter);
 			playAnim("grow");
 
 		}
@@ -511,8 +512,8 @@ public class Virus : CellObject
 	public void exitMembrane()
 	{
 		//entering = false;
-
-		StopCoroutine(_tryEnter);
+		if (_tryEnter != null)
+			StopCoroutine(_tryEnter);
 		mnode = p_cell.c_membrane.findClosestMembraneHalf(x, y);
 		Vector2 v = new Vector2((mnode.x + mnode.p_next.x) / 2, (mnode.y + mnode.p_next.y) / 2);
 		v *= (2);
@@ -671,7 +672,7 @@ public class Virus : CellObject
 		//recycle is it scaling down (again)
 		//notes:
 		//anim_invade will need an onAnimFinish for the invader type
-		base.playAnim(label);
+		base.playAnim(label == "die" ? "recycle" : label);
 		switch (label)  //handle procedural movements that replace unnecessary frame animations 
         {
 			case "grow":

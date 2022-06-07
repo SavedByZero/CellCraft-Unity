@@ -857,7 +857,7 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 			p.deployGolgi(true);
 			p.isBusy = false; //HACK HACK HACK
 			p.is_active = true;
-			p.clip.SubClip.GotoAndPlay(i); //offset their animations so it looks nice; HACK
+			p.playAnim("normal"); //offset their animations so it looks nice; HACK
 		}
 	}
 
@@ -1026,6 +1026,7 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 		makeStartLysosomes(5);//-
 		makeStartMitochondria(2);//-
 		makeStartChloroplasts(2); //-
+		makeStartPeroxisomes(2); //
 		/*makeStartSlicers(p_engine.lvl.levelData.start_slicers);   //TODO
 		makeStartRibosomes(p_engine.lvl.levelData.start_ribos);
 		makeStartMitochondria(p_engine.lvl.levelData.start_mitos);
@@ -1231,12 +1232,14 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 		}
 		if (superTop)
 		{ //make them at the top of EVERYTHING
-			thing2.transform.SetSiblingIndex(this.transform.childCount - 1);
+			thing2.transform.position = new Vector3(thing2.transform.position.x, thing2.transform.position.y, -this.transform.childCount - 5);
+			
+			/*thing2.transform.SetSiblingIndex(this.transform.childCount - 1);
 			//setChildIndex(thing2, numChildren - 1);
 			int thi = thing1.transform.GetSiblingIndex();
 			int th2i = thing2.transform.GetSiblingIndex();
 			thing2.transform.SetSiblingIndex(thi);
-			thing1.transform.SetSiblingIndex(th2i);
+			thing1.transform.SetSiblingIndex(th2i);*/
 			
 		}
 		else
@@ -1703,7 +1706,7 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 	public void spawnRibosomeDNARepair(Ribosome r, int count = 1)
 	{
 		DNARepairEnzyme d = makeDNARepair();
-		float SIZE = 25;
+		float SIZE = .25f;
 		for (int i = 0; i < count; i++) {
 			d.x = r.x + (UnityEngine.Random.Range(0f,1f) * SIZE) - SIZE / 2;
 			d.y = r.y + (UnityEngine.Random.Range(0f,1f) * SIZE) - SIZE / 2;
@@ -1715,7 +1718,7 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 	public void spawnRibosomeSlicer(Ribosome r, int count = 1)
 	{
 		SlicerEnzyme s = makeSlicer();
-		float SIZE = 25;
+		float SIZE = .25f;
 		for (int i = 0; i < count; i++) {
 			s.x = r.x + (UnityEngine.Random.Range(0f,1f) * SIZE) - SIZE / 2;
 			s.y = r.y + (UnityEngine.Random.Range(0f, 1f) * SIZE) - SIZE / 2;
@@ -1738,7 +1741,7 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 		bool success = false;
 		for (int i = 0; i < count; i++) 
 		{
-			float SIZE = 20;
+			float SIZE = .20f;
 			float xx = (UnityEngine.Random.Range(0f,1f) * SIZE) - (SIZE / 2);
 			float yy = (UnityEngine.Random.Range(0f, 1f) * SIZE) - (SIZE / 2);
 			Virus vi = makeVirus(v, r.x + xx, r.y + yy, true, true);
@@ -3525,13 +3528,14 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 
 	public void killRunning(CellGameObject g)
 	{
-		int i = 0;
-		foreach(CellGameObject gg in list_running) {
-			if (g == gg)
+		//int i = 0;
+
+		for(int j=list_running.Count-1; j >= 0; j--) {
+			if (g == list_running[j])
 			{
-				list_running.RemoveAt(i);
+				list_running.RemoveAt(j);
 			}
-			i++;
+			//i++;
 		}
 		if (g is HardPoint)
 		{
@@ -3583,13 +3587,14 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 
 	public void killVirus(Virus v)
 	{
-		int i = 0;
-		foreach(Virus vv in list_virus) {
-			if (vv == v)
+		//int i = 0;
+		for (int j = list_virus.Count - 1; j >= 0; j--)// Virus vv in list_virus) {
+		{ 
+			if (list_virus[j] == v)
 			{
-				list_virus.RemoveAt(i);
+				list_virus.RemoveAt(j);
 			}
-			i++;
+			//i++;
 		}
 
 		killRunning(v as CellGameObject);

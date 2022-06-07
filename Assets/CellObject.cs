@@ -61,7 +61,7 @@ public class CellObject : Selectable, IComparable<CellObject>
 	{
 		base.Start();
 		setLevel(1);
-		speed = 6;
+		speed = .06f;
 
 	}
 
@@ -505,7 +505,8 @@ return false;
 
 		if (n < 0.001f)
 		{
-			StopCoroutine(_damageRoutine);
+			if (_damageRoutine != null)
+				StopCoroutine(_damageRoutine);
 		}
 		else
 		{

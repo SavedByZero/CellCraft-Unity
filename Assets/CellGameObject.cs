@@ -12,7 +12,8 @@ public class CellGameObject : MovieClip, ICellGameObject
 		} 
 	}
 	public float y { get { return this.transform.localPosition.y; } set { this.transform.localPosition = new Vector3(this.transform.localPosition.x, value, this.transform.localPosition.z); } }
-	public bool dying { get; set; }
+	private bool _dying = false;
+	public bool dying { get { return _dying; } set { _dying = value; } }
 	private float radius; //what is your bounding circle, for collision or selection
 	public float radius2;
 
@@ -96,7 +97,7 @@ public class CellGameObject : MovieClip, ICellGameObject
 
 	//private var deadTimer:Timer;  //TODO
 
-	protected float speed = 1;
+	protected float speed = .01f;
 
 
 	private static int boundX = 7;  //TODO: was 640
@@ -588,7 +589,7 @@ public class CellGameObject : MovieClip, ICellGameObject
 			Recycle.Loop = false;
 			Recycle.GotoAndPlay(0);
         }*/
-		playAnim("die");
+		playAnim("recycle");
 		isDamaged = true;
 
 	}
@@ -613,16 +614,22 @@ public class CellGameObject : MovieClip, ICellGameObject
 	protected void hardRevertAnim()
 	{
 		GotoAndStop(1);
-		clip.gameObject.SetActive(true);
-		if (clip.SubClip != null)
+		if (clip != null)
+			clip.gameObject.SetActive(true);
+		else
+			gameObject.SetActive(true);
+
+		if (clip != null && clip.SubClip != null)
 			clip.SubClip.GotoAndPlay(1);
 		else
 		{
+			playAnim("normal"); //should I do this? -Michael
 			//trace("GameObject.onAnimFinish() NO clip.clip!" + this.name + " " + this);
 		}
 		anim_vital = false;
 		//removeEventListener(RunFrameEvent.RUNFRAME, doAnim);
-		StopCoroutine(_doAnimRoutine);
+		if (_doAnimRoutine != null)
+			StopCoroutine(_doAnimRoutine);
 	}
 
 	public virtual bool doAction(CellAction i, object parms = null) 
@@ -720,6 +727,8 @@ public class CellGameObject : MovieClip, ICellGameObject
 
 	protected virtual void doMoveToPoint()
 	{
+		if (pt_dest == null)
+			return;
 		x += v_move.x;
 		y += v_move.y;
 		move_count++;
@@ -1016,7 +1025,8 @@ public class CellGameObject : MovieClip, ICellGameObject
 		//trace("GameObject.showBubble() " + s);
 		if (!c_bubble)
 		{
-			c_bubble = new InfoBubble();
+			GameObject bubbleObj = GetComponentInParent<CellGameManager>().FetchInfoBubble();
+			c_bubble = bubbleObj.GetComponent<InfoBubble>();
 			c_bubble.transform.SetParent(this.transform, false);//addChild(c_bubble);
 																//c_bubble.x = pt_bubble.x;
 																//c_bubble.y = pt_bubble.y;

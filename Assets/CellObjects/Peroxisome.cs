@@ -12,6 +12,7 @@ public class Peroxisome : BasicUnit
 		
 	public override void Start()
 	{
+		base.Start();
 		text_title = "Peroxisome";
 		text_description = "A large vesicle filled with hydrogen peroxide. Neutralizes toxins.";
 		text_id = "peroxisome";

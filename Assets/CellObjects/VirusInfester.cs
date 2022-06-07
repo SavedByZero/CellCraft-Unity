@@ -13,20 +13,23 @@ public class VirusInfester : Virus
 	public const int SPAWN_COUNT = 2;
 		
 		
-	private const float RNA_DISTANCE = 5;
+	private const float RNA_DISTANCE = .05f;
 		
-	public VirusInfester()
+	public override void Start()
 	{
+	
+		base.Start();
+		speed = .08f;
 		singleSelect = false;
 		canSelect = false;
 		text_title = "Infester Virus";
 		text_description = "Invades your membrane and infests the Nucleus!";
 		text_id = "virus_infester";
 		num_id = Selectable.VIRUS_INFESTER;
-		setMaxHealth(10, true);
+		setMaxHealth(100, true);
 		rnaCount = RNA_COUNT;
 		spawnCount = SPAWN_COUNT;
-		speed = 8;
+		
 	}
 
 	protected override void whatsMyMotivation()
@@ -47,7 +50,7 @@ public class VirusInfester : Virus
 			float theRot = (Mathf.PI * 2) / RNA_COUNT;
 			for (int i = 0; i < RNA_COUNT; i++) 
 			{
-
+				Debug.Log("infected cell");
 				p_cell.generateVirusRNA(this, num_id, 1, SPAWN_COUNT, x + vec2.x, y + vec2.y, 0, true, true);
 			}
 			playAnim("fade"); //killMe

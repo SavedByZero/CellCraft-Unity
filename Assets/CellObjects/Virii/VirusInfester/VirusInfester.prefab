@@ -47,6 +47,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -70,7 +71,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -189,7 +190,7 @@ MonoBehaviour:
   - exit:1-30
   - invade:1-30
   - eaten:0-0
-  - recycle:0-0
+  - recycle:31-82
   _frameInterval: 0.0166
   radius2: 625
   loc_bubble: {fileID: 0}
@@ -221,8 +222,12 @@ MonoBehaviour:
   position_state: 0
   motivation_state: -1
   condition_state: -1
+  mnode: {fileID: 0}
   rib: {fileID: 0}
   nuc: {fileID: 0}
+  nuc_node:
+    x: 0
+    y: 0
   entering: 0
   leaving: 0
   spawnCount: 2

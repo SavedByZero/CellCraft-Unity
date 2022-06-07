@@ -37,7 +37,7 @@ public class Lysosome : BasicUnit
 		num_id = Selectable.LYSOSOME;
 		list_actions = new List<CellAction> { CellAction.MOVE, CellAction.RECYCLE};
 		setMaxHealth(3, true);
-		speed = 5;
+		speed = .05f;
 		init();
 		makeGameDataObject();
 		doesCollide = true;
