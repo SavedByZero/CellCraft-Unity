@@ -132,7 +132,7 @@ public class Membrane : CellObject
 		private Color health_col;
 		private Color health_col2;
 
-	public const float STARTING_RADIUS = 2.5f;//4.00f;
+	public const float STARTING_RADIUS = 4;//2.5f;//4.00f;
 	public const int STARTING_NODES = 15;//15;
 		public const int MAX_NODES = 25;
 
@@ -488,7 +488,15 @@ public class Membrane : CellObject
 	
 	private void activateNodes()
 	{
+		StartCoroutine(prepDelay());
 		//var length:int = list_nodes.length;
+		
+
+	}
+
+	IEnumerator prepDelay()
+    {
+		yield return new WaitForEndOfFrame();
 		Skin.PrepareNodes();
 		float distX = list_nodes[0].x - list_nodes[0].p_next.x;
 		float distY = list_nodes[0].y - list_nodes[0].p_next.y;
@@ -1174,6 +1182,7 @@ public class Membrane : CellObject
 
 	public void StretchMembrane(float xx, float yy)
     {
+		Debug.Log("stretching toward " + xx + "," + yy);
 		//Bookmark: the new way of moving the membrane
 		Mover.Stretch(xx, yy);
 	}
@@ -1306,9 +1315,9 @@ public class Membrane : CellObject
 			//Bookmark: this used to move the cell membrane nodes to make the pseudopod 
 			Debug.Log("push direction for membrane: " + -pushd);
 
-			/*m.push(-pushd.x, -pushd.y);     //Old Way
-			m.p_next.push(-pushd.x, -pushd.y);
-			*/
+			//m.push(-pushd.x, -pushd.y);     //Old Way
+			//m.p_next.push(-pushd.x, -pushd.y);
+			
 			
 			
 

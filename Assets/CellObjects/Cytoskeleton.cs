@@ -26,7 +26,7 @@ public class Cytoskeleton : CellObject
 	private Membrane p_membrane;
 
 	public const float PPOD_RADIUS = 1.50f;
-	public const float PPOD_RADIUS2 = 225f;//PPOD_RADIUS* PPOD_RADIUS;
+	public const float PPOD_RADIUS2 = 2.25f;//PPOD_RADIUS* PPOD_RADIUS;
 	public const float GRAV_RADIUS = 2.00f;
 	public const float GRAV_RADIUS2 = 4;//100;//GRAV_RADIUS* GRAV_RADIUS;
 	public const float PPOD_SPEED = .12f;

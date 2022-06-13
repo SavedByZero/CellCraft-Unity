@@ -7,8 +7,8 @@ public class CanvasObject : CellGameObject
 	//private static var p_cgrid:ObjectGrid; //TODO
 		//protected var p_canvas:WorldCanvas;  //TODO
 		
-	public static float LENS_RADIUS = 1000;
-	public static float LENS_RADIUS2 = 1000 * 1000;
+	public static float LENS_RADIUS = 10.00f;
+	public static float LENS_RADIUS2 = 100f;//1000 * 1000;
 
 	public CanvasObject()
 	{

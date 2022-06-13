@@ -57,7 +57,7 @@ public class Microtubule : CellObject
 		public Cytoskeleton p_skeleton;
 		public bool dirty_grav = false; //do I have new grav data since last time I gave it?
 
-	public static float PPOD_R2 = 10*10;//1.5f * 1.5f; //TODO: I modified this because the initial value seemed way too high and the skeleton set it lower. Keep an eye out for issues here. //10.00f*10.00f;
+	public static float PPOD_R2 = 2.25f;//10*10;//1.5f * 1.5f; //TODO: I modified this because the initial value seemed way too high and the skeleton set it lower. Keep an eye out for issues here. //10.00f*10.00f;
 		public static float LENS_R2 = 10.00f*10.00f;
 		
 		//public var isShrunk:Boolean = false;
@@ -458,8 +458,8 @@ public class Microtubule : CellObject
 		float d2 = (xLoc * xLoc) + (yLoc * yLoc);
 		d2 += PPOD_R2 * 4;
 		bool outside = false;
-		Debug.Log("xLoc " + xLoc + "yLoc " + yLoc );
-		Debug.Log("d2 " + d2 + ", boundary r2 " + BOUNDARY_R2 + ", PPOD_R2" + PPOD_R2 );
+		//Debug.Log("xLoc " + xLoc + "yLoc " + yLoc );
+		Debug.Log("d2 " + d2 + ", boundary r2 " + BOUNDARY_R2 + ", PPOD_R2 " + PPOD_R2 );
 		if (d2 > BOUNDARY_R2)
 		{
 			Vector2 cent_v = new Vector2(cent_x - 0, cent_y - 0);
@@ -489,7 +489,7 @@ public class Microtubule : CellObject
 		}
 		else
 		{                   //we're inside the boundary
-			Debug.Log("inside");
+			//Debug.Log("inside");
 			dirty_grav = true;
 
 			if (isPpodContracting)
@@ -499,7 +499,7 @@ public class Microtubule : CellObject
 			}
 			else
             {
-				Debug.Log("getting into position " + Time.time);
+				//Debug.Log("getting into position " + Time.time);
             }
 			counter++;
 

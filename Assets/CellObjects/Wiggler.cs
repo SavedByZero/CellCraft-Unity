@@ -7,8 +7,9 @@ public class Wiggler : MonoBehaviour
 {
     public Vector3 _corePos;
     private Rigidbody2D _rb;
-    private bool _active;
+    private bool _active = true;
     public float Radius = 1;
+    public float Speed = 1;
     public bool Active
     {
         get
@@ -48,7 +49,7 @@ public class Wiggler : MonoBehaviour
     private void Update()
     {
         if (Active)
-            _rb.MovePosition(_corePos + new Vector3(Mathf.Cos(Time.time), Mathf.Sin(Time.time), 0)*Radius);//(this.transform.localPosition + (_wiggleDirection * Time.deltaTime));
+            _rb.transform.localPosition = (_corePos + new Vector3(Mathf.Cos(Time.time*Speed), Mathf.Sin(Time.time*Speed), 0)*Radius);//(this.transform.localPosition + (_wiggleDirection * Time.deltaTime));
     }
 
 

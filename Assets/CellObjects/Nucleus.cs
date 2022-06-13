@@ -10,14 +10,18 @@ using UnityEngine;
 public class Nucleus : CellObject
 {
 	public Locator loc_nucleolus;
-	public NucleusAnim nclip;
+	//public NucleusAnim nclip;
 	public MovieClip splatter;
 		
 	public string infester = "";
 	public static bool CHECK_INFEST = false;
     private Coroutine _infestTickRoutine;
 
-    public override void Start()
+	/* NucleusAnim properties */
+	public PoreMatrix pores;
+	public NucleolusPoreMatrix n_pores;
+
+	public override void Start()
 	{
 		base.Start();
 		showSubtleDamage = true;
@@ -29,7 +33,7 @@ public class Nucleus : CellObject
 		bestColors = new bool[] { false, true, false };
 		list_actions = new List<CellAction>() { CellAction.BUY_RIBOSOME, CellAction.BUY_SLICER, CellAction.APOPTOSIS, CellAction.NECROSIS, CellAction.MITOSIS };// ([Act.REPAIR, Act.MITOSIS, Act.APOPTOSIS]);
 		setMaxHealth(200, true);
-		nclip = clip as NucleusAnim;//clip.nclip;  //TODO: what was this? "clip.nclip"? Was that a mistake or some weird hack?
+		//nclip = clip as NucleusAnim;//clip.nclip;  //TODO: what was this? "clip.nclip"? Was that a mistake or some weird hack?
 		//clip = MovieClip(nclip);
 		CHECK_INFEST = false;
 		//p_cell.onNucleusInfest(false);
@@ -47,22 +51,8 @@ public class Nucleus : CellObject
 		return new Point(x + loc_nucleolus.transform.position.x, y + loc_nucleolus.transform.position.y);
 	}
 
-	public List<object> getPorePoint(int i = 0)
-	{ //returns a pore location with no anim
-		var a = nclip.getPorePoint(i);
-		return a;
-	}
 
-	public Point getPoreByI(int i, int type = 0)
-	{
-		Point p = nclip.getPoreByI(i, type);
-		return p;
-	}
 
-	public void openPore(int i, int type = 0) 
-	{
-		nclip.openPore(i, type);
-	}
 
 	public void healDNA(uint i)
 	{
@@ -221,19 +211,7 @@ public class Nucleus : CellObject
 
 	}
 
-	public Point getPoreLoc(int i= 0, bool doOpen = false) 
-	{ //returns a pore location and makes it open
-			Point p = nclip.getPoreLoc(i, doOpen);
-			p.x += x;
-			p.y += y;
-			return p;
-	}
-
-	public bool freePore(int i= 0)
-	{
-		return nclip.freePore(i);
-	}
-
+	
 	protected override void wiggle(bool yes)
 	{
 		//cacheAsBitmap = !yes;
@@ -258,13 +236,109 @@ public class Nucleus : CellObject
 	protected override void showLightDamage()
 	{
 		base.showLightDamage();
-		nclip.gameObject.SetActive(false);
+		//nclip.gameObject.SetActive(false);
 	}
 
 	protected override void showHeavyDamage()
 	{
 		showLightDamage();
 	}
+
+	//NucleusAnim-----------------------------------------------------------------------
+
+	/**
+		 * 0 for regular pore, 1 for Nucleolus pore
+		 * @param	i
+		 * @return
+		 */
+
+	public Point getPoreLoc(int i = 0, bool doOpen = false)
+	{
+		MovieClip p = null;
+		if (i == 0)
+		{
+			p = pores.getPore(doOpen);
+		}
+		else
+		{
+			p = n_pores.getPore(doOpen);
+		}
+		Point pt = new Point(p.transform.position.x, p.transform.position.y);
+		pt.x *= this.transform.localScale.x;
+		pt.y *= this.transform.localScale.y;
+
+		pt.x += x;
+		pt.y += y;
+		return pt;
+	}
+	public List<object> getPorePoint(int i = 0)
+	{
+		MovieClip p;
+		if (i == 0)
+		{
+			p = pores.getPore(false);
+		}
+		else
+		{
+			p = n_pores.getPore(false);
+		}
+		Point pt = new Point(p.transform.position.x, p.transform.position.y);
+		pt.x *= this.transform.localScale.x;
+		pt.y *= this.transform.localScale.y;
+		string name = p.name;
+		//Debug.Log("pore point name " + name);
+		int id = int.Parse(name.Split(new char[] { '(',')' })[1]);//int.Parse(name.Substring(5, 2));
+		//trace("NucleusAnim.getPorePoint id = " + id);
+		return new List<object> { pt, id };
+	}
+
+	public Point getPoreByI(int i, int type = 0)
+	{
+		MovieClip p;
+		if (type == 0)
+		{
+			p = pores.getPoreByI(i);
+		}
+		else
+		{
+			p = n_pores.getPoreByI(i);
+		}
+		Point pt = new Point(p.transform.position.x, p.transform.position.y);
+		pt.x *= this.transform.localScale.x;
+		pt.y *= this.transform.localScale.y;
+		return pt;
+		//var p:Point = nclip.getPoreByI(i, type);
+		//return p;
+	}
+
+	public void openPore(int i, int type = 0)
+	{
+		if (type == 0)
+		{
+			pores.openPore(i);
+		}
+		else
+		{
+			n_pores.openPore(i);
+		}
+	}
+
+
+	public bool freePore(int i = 0)
+	{
+		if (i == 0)
+		{
+			return pores.freePore();
+		}
+		else
+		{
+			return n_pores.freePore();
+		}
+	}
+
+
+	/*              NClip Code */
+
 
 
 

@@ -1023,7 +1023,7 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 		makeSelectableList();
 		makeStartSlicers(5); //-
 		makeStartRibosomes(5);//-
-		makeStartLysosomes(5);//-
+		//makeStartLysosomes(5);//-
 		makeStartMitochondria(2);//-
 		makeStartChloroplasts(2); //-
 		makeStartPeroxisomes(2); //

@@ -66,7 +66,7 @@ public class Virus : CellObject
 	public bool isNeutralized = false;
 		
 	protected int DMG_PIERCE_MEMBRANE = 1;
-	public const float INJECT_DISTANCE = .30f;
+	public const float INJECT_DISTANCE = 3;//30f;
 		
 	public int newnode_count = 0;
 	public int NEWNODE_TIME = 5;
