@@ -6,9 +6,11 @@ public class Zoomer : MySlider
 {
     public GameObject plus;  //button
     public GameObject minus;//:SimpleButton;
-	private const float zRange = 2;
+	private const float zRange = .02f;
 	private float oldZoom = 0;
 	private float zoomScale = 0.5f;
+	//public GameObject SceneParent;
+	//public GameObject CellMembraneHolder;
 
 	public override void init()
 	{
@@ -25,7 +27,7 @@ public class Zoomer : MySlider
 		if (handle.transform.localPosition.y > max)
 			handle.transform.localPosition = new Vector3(handle.transform.localPosition.x, max, handle.transform.localPosition.z);
 
-		updateMe();
+		updateMe(1);
 	}
 
 	public void doMinus()
@@ -34,7 +36,7 @@ public class Zoomer : MySlider
 		if (handle.transform.localPosition.y < min)
 			handle.transform.localPosition = new Vector3(handle.transform.localPosition.x, min, handle.transform.localPosition.z);
 
-		updateMe();
+		updateMe(-1);
 	}
 
 	public void unTakeOver()
@@ -88,14 +90,17 @@ public class Zoomer : MySlider
 		updateMe();
 	}
 
-	protected override void updateMe()
+	protected override void updateMe(float dir = 0)
 	{
 		base.updateMe();
-
-		float zoom = (zRange - (_value * zRange) + 0.1f); //
-
-		if (oldZoom != zoom)
+		float zoom = dir;// (dir > 0 ? 0.1f : -0.1f);
+		//float zoom = (zRange - (_value * zRange) + 0.1f); //
+		Debug.Log("value zoom " + zoom);
+		//if (SceneParent != null)
 		{
+			Camera.main.transform.position = new Vector3(Camera.main.transform.position.x, Camera.main.transform.position.y, Camera.main.transform.position.z + zoom);
+			//SceneParent.transform.localScale = new Vector3(SceneParent.transform.localScale.x + zoom, SceneParent.transform.localScale.y + zoom, 1);
+			//CellMembraneHolder.transform.localScale = new Vector3(CellMembraneHolder.transform.localScale.x + zoom, CellMembraneHolder.transform.localScale.y + zoom, 1);
 			//p_master.changeZoom(zoom); //TODO //do this to get the right values
 		}
 		oldZoom = zoom;

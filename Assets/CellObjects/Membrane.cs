@@ -287,7 +287,7 @@ public class Membrane : CellObject
 		//shape_gap.transform.SetParent(membraneSprite.transform);
 		//shape_gap.name = "Gap";
 		//shape_debug.transform.SetParent(this.transform);
-		targetter.transform.SetParent(this.transform);
+		//targetter.transform.SetParent(this.transform);
 		/*   //TODO: figure out how this is done in Unity 
 
 		//membraneSprite.addEventListener(MouseEvent.ROLL_OVER, doOver, false, 0, true);
@@ -1649,9 +1649,18 @@ public class Membrane : CellObject
 		}
 	}
 
+	public Vector3 GetWorldPositionOnPlane(float z)
+    {
+		Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+		Plane xy = new Plane(Vector3.forward, new Vector3(0, 0, z));
+		float distance;
+		xy.Raycast(ray, out distance);
+		return ray.GetPoint(distance);
+    }
+
 	private void doMouseUp()
 	{
-		Vector3 mouse = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x,Input.mousePosition.y,0));
+		Vector3 mouse = GetWorldPositionOnPlane(-Camera.main.transform.position.z);//Camera.main.ScreenToWorldPoint(Input.mousePosition);//(new Vector3(Input.mousePosition.x,Input.mousePosition.y,-1));
 		if (isMouseDown)
 		{
 			float xd = mouse.x - mouseDown_x;
@@ -1677,7 +1686,7 @@ public class Membrane : CellObject
 	public void onCellMove(float xx, float yy)
 	{
 		//this.transform.localPosition -= new Vector3(xx, yy, 0);
-		targetter.transform.localPosition = new Vector3(targetter.transform.localPosition.x - xx,targetter.transform.localPosition.y - yy, targetter.transform.position.z);
+		targetter.transform.position = new Vector3(targetter.transform.position.x - xx,targetter.transform.position.y - yy, -Camera.main.transform.position.z);
 		mouseDown_x -= xx;
 		mouseDown_y -= yy;
 	}
@@ -1695,7 +1704,7 @@ public class Membrane : CellObject
 			targetter.transform.localScale = new Vector3(1 / worldScale, 1 / worldScale, 1); //There's going to be bugs unless you update this whenever you change scale!
 
 			targetter.gameObject.SetActive(true);
-			targetter.transform.localPosition = new Vector3(mouseDown_x, mouseDown_y, targetter.transform.position.z);
+			targetter.transform.position = new Vector3(mouseDown_x, mouseDown_y, -Camera.main.transform.position.z);
 			if (p_engine != null)
 				p_engine.setCursorArrowPoint(mouseDown_x, mouseDown_y);
 			if (m.Count > 1)
@@ -1712,12 +1721,12 @@ public class Membrane : CellObject
 	private new void OnMouseDown()
 	{
 		base.OnMouseDown();
-		Vector3 mouse = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y,0));
+		Vector3 mouse = GetWorldPositionOnPlane(-Camera.main.transform.position.z);//(new Vector3(Input.mousePosition.x, Input.mousePosition.y, -1));//Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y,0));
 		isMouseDown = true;
 		mouseDown_x = mouse.x;
 		mouseDown_y = mouse.y;
 		//p_cell.dispatchEvent(m);
-		Debug.Log("mouse down");
+		Debug.Log("mouse down" + mouse);
 		_doMouseMoveRoutine = StartCoroutine(doMouseMove());
 		
 		//m.stopPropagation(); //keep it from going to the cell
@@ -1731,7 +1740,7 @@ public class Membrane : CellObject
 	{
 		while (true)
 		{
-			//Debug.Log("doMouseMove " + isMouseDown);
+			//Debug.Log("doMouseMove " + Input.mousePosition);
 			yield return new WaitForEndOfFrame();
 			if (isMouseDown)
 			{
@@ -1741,8 +1750,9 @@ public class Membrane : CellObject
 				}
 				else*/ //TODO: uncomment when this is better understood. 
 				{
-					Vector3 mouse = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x,Input.mousePosition.y,0));
-					
+					Vector3 mouse = GetWorldPositionOnPlane(-Camera.main.transform.position.z);//(new Vector3(Input.mousePosition.x, Input.mousePosition.y, -1));
+
+
 					float xd  = mouse.x - mouseDown_x;
 					float yd = mouse.y - mouseDown_y;
 					d2_mouse = (xd * xd) + (yd * yd);

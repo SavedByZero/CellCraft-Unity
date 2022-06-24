@@ -5,7 +5,7 @@ using UnityEngine;
 public class WizardOfOz : MonoBehaviour
 {
     public static float LENS_RADIUS = .10f;
-		public static float LENS_RADIUS2 = 100.00f;
+		public static float LENS_RADIUS2 = 1.00f;
     private float lensRadius = .10f;
     // Start is called before the first frame update
     void Start()

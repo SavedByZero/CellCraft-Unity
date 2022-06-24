@@ -31,6 +31,13 @@ public class Engine : MonoBehaviour
 	public const int SELECT_NONE = 0;
 
 	bool dirty_basicUnit;
+
+	public void changeZoom(float n)
+	{
+		//if (c_world) //TODO
+			//c_world.changeZoom(n);  //TODO
+	}
+
 	public void oneLessDefensin(float n)
 	{
 		_defensins_produced -= (int)n;

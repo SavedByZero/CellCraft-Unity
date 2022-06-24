@@ -206,7 +206,7 @@ public class Microtubule : CellObject
 	{
 		
 		terminus = new Point(p_obj.x - p_skeleton.x, p_obj.y - p_skeleton.y);
-		Debug.Log("new terminus " + terminus);
+		Debug.Log("micro: new terminus " + terminus);
 		calcTrajectory(terminus);
 		p_skeleton.updateGravityPoints();
 		//instantFollow();
@@ -245,14 +245,15 @@ public class Microtubule : CellObject
 	{ //ppod to the mouse position (xx,yy).  Here, the origin is 0,0 and the terminus is new Point(p_centrosome.x + v.x, p_centrosome.y + v.y);.  
 		isPpoding = true;
 		p_skeleton.onStartPPod(); //tells the membrane that ppod has started
-		
+		Debug.Log("micro5: setting origin to old terminus (the rim) " + terminus);
 		origin.x = terminus.x;
 		origin.y = terminus.y;
 		xLoc = terminus.x;
 		yLoc = terminus.y;
-		Debug.Log("starting x,yLocs " + terminus);
+		Debug.Log("micro6: starting x,yLocs to old terminus (the rim) " + terminus);
 		terminus.x = xx;
 		terminus.y = yy;
+		Debug.Log("micro7: setting new terminus as the xx, yy of mouse click " + terminus);
 		calcTrajectory(terminus); //get the distance from xLoc, yLoc(edge of membrane?) to the terminus(which is now the mouse point).  normalize it. multiply it by the speed.
 		                         // then set xSpeed and ySpeed to its NEGATIVE x and y values.
 		isMoving = true;
@@ -275,7 +276,7 @@ public class Microtubule : CellObject
 
 
 		Vector2 dist = new Vector2(xLoc - p.x, yLoc - p.y);
-		Debug.Log("finding dist: " + dist);
+		Debug.Log("micro2: finding dist: " + dist);
 		dist.Normalize();
 
 		angle = FastMath.toRotation(dist);
@@ -283,7 +284,7 @@ public class Microtubule : CellObject
 		angle -= 90;
 
 		dist *= speed;
-		Debug.Log("finding speed: " + dist);
+		Debug.Log("micro3: finding speed: " + -dist);
 		xSpeed = -dist.x;
 		ySpeed = -dist.y;
 	}
@@ -314,7 +315,7 @@ public class Microtubule : CellObject
 		{ 
 			if (p_obj.num_id == Selectable.CENTROSOME)
 			{
-				Debug.Log("contracting to " + xx + ", " + yy);
+				Debug.Log("micro8: contracting to " + xx + ", " + yy);
 				p_obj.getPpodContract(xx, yy); //Bookmark: this moves the cell objects to the expanded pseudopod point by moving the centrosome, which then tells the cell to move everything else
 			}
 		}
@@ -361,6 +362,7 @@ public class Microtubule : CellObject
 		{
 			//_GrowBitRoutine = StartCoroutine(growBit());
 			_shouldGrow = true;
+			Debug.Log("micro4: turn growth routine on");
 		}
 	}
 
@@ -459,7 +461,8 @@ public class Microtubule : CellObject
 		d2 += PPOD_R2 * 4;
 		bool outside = false;
 		//Debug.Log("xLoc " + xLoc + "yLoc " + yLoc );
-		Debug.Log("d2 " + d2 + ", boundary r2 " + BOUNDARY_R2 + ", PPOD_R2 " + PPOD_R2 );
+		Debug.Log("micro7+: new loc " + xLoc + "," + yLoc);
+		Debug.Log("micro7+: d2 " + d2 + ", boundary r2 " + BOUNDARY_R2 + ", PPOD_R2 " + PPOD_R2 );
 		if (d2 > BOUNDARY_R2)
 		{
 			Vector2 cent_v = new Vector2(cent_x - 0, cent_y - 0);
@@ -468,8 +471,8 @@ public class Microtubule : CellObject
 			Vector2 dir_v_n = dir_v.normalized;
 			float angle = FastMath.angleTo(dir_v, cent_v);
 			
-			Debug.Log("Microtubule.growBit OUTSIDE()! \n cent_v = " + cent_v + " dir_v = " + dir_v);
-			Debug.Log("Microtubule.growBit OUTSIDE()! \n cent_v_n = " + cent_v_n + " dir_v_n = " + dir_v_n);
+			Debug.Log("micro7+: Microtubule.growBit OUTSIDE()! \n cent_v = " + cent_v + " dir_v = " + dir_v);
+			Debug.Log("micro7+ Microtubule.growBit OUTSIDE()! \n cent_v_n = " + cent_v_n + " dir_v_n = " + dir_v_n);
 			outside = true;
 		}
 

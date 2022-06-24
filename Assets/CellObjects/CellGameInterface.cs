@@ -67,4 +67,11 @@ public class CellGameInterface : MonoBehaviour
     {
         
     }
+
+	/****Respond to stuff******/
+
+	public void changeZoom(float n)
+	{
+		p_engine.changeZoom(n);
+	}
 }

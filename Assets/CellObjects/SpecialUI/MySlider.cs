@@ -62,7 +62,7 @@ public class MySlider : InterfaceElement
 
 
 	// Update is called once per frame
-	protected virtual void updateMe()
+	protected virtual void updateMe(float dir = 0)
     {
 		old_value = _value;
 		Vector3 mouse = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 0));

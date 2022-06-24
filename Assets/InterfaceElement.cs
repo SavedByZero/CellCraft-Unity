@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class InterfaceElement : MovieClip
 {
-    //protected var p_master:Interface; //TODO
+    protected CellGameInterface p_master; //TODO
 
     //Stuff to help the tooltip work
     //private var ttTimer:Timer;  //TODO
@@ -29,8 +29,9 @@ public class InterfaceElement : MovieClip
 	public GameObject c_black;
 	public bool isBlackedOut = true;
 
-	public InterfaceElement()
+	public void Start()
 	{
+		
 		//ttTimer = new Timer(500, 0);  //TODO
 
 		unBlackOut();
