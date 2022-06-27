@@ -240,8 +240,8 @@ public class Cytoskeleton : CellObject
 
 		
 		v.Normalize();                         //make it a unit vector
-		float finalX = v.x;
-		float finalY = v.y;
+		float finalX = x2;//v.x;
+		float finalY = y2;//v.y;
 		Debug.Log("v normalized is " + v);
 
 		v *= ((cent_radius - (PPOD_RADIUS))); //find the point right near the edge of the membrane. 
@@ -253,14 +253,14 @@ public class Cytoskeleton : CellObject
 		Point p = new Point(p_centrosome.x + v.x, p_centrosome.y + v.y);//THIS IS THE TERMINUS - from the centrosome to the end of the membrane.
 		Debug.Log("the point near the edge of the membrane is: " + p);
 		Debug.Log("v is: " + v);
-		p_membrane.StretchMembrane(finalX * 4, finalY * 4);
-		/*
+		//p_membrane.StretchMembrane(finalX * 4, finalY * 4);
+		
 		Microtubule m = makePPodMicrotubule(p);  //the origin is 0,0, the terminus is p
 		
 		
 		m.onReadyToContract += delegate
 		{
-			p_membrane.StretchMembrane(finalX*4, finalY*4);
+			p_membrane.StretchMembrane(finalX, finalY);//(finalX*4, finalY*4);
 
 		};
 		if (overShot)
@@ -277,7 +277,7 @@ public class Cytoskeleton : CellObject
 		m.setObjectSelf(); //the microtubule's cellObject is itself!
 		m.setSpeed(PPOD_SPEED); //.12? was 12. 
 		m.ppodTo(x2, y2); //ppod to the moriginal mouse position
-		*/
+		
 		SfxManager.Play(SFX.SFXDrain);
 		p_cell.spendATP(cost, p, 1, 0, false);
 		//recordGravityPoints();

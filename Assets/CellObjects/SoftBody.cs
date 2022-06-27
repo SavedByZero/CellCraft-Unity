@@ -11,12 +11,14 @@ public class SoftBody : MonoBehaviour
     public const float splineOffset = 0.5f;
 
     private List<Transform> points;
+
+    public GameObject Anchor;
     private Rigidbody2D _rb;
     private bool _prepped;
 
     private void Awake()
     {
-        _rb = GetComponent<Rigidbody2D>();
+        _rb = Anchor.GetComponent<Rigidbody2D>();
         points = new List<Transform>();
         SpriteShape.spline.Clear();
         
@@ -52,7 +54,7 @@ public class SoftBody : MonoBehaviour
             SpringJoint2D[] springs = points[i].GetComponents<SpringJoint2D>();
             StartCoroutine(delayDistanceTweak(dj));
             sj.autoConfigureDistance = false;
-            // dj.autoConfigureDistance = false;
+          
             if (i < points.Count - 1)
             {
                 dj.connectedBody = points[i + 1].GetComponent<Rigidbody2D>();
@@ -90,7 +92,7 @@ public class SoftBody : MonoBehaviour
             for (int i = 0; i < points.Count; i++)
             {
                 Vector2 vertex = points[i].GetComponent<Rigidbody2D>().transform.localPosition;
-                Vector2 towardsCenter = (Vector2.zero - vertex).normalized;
+                Vector2 towardsCenter = ((Vector2)Anchor.transform.localPosition - vertex).normalized;
                // Debug.Log("local pos " + _rb.position);
                 float colliderRadius = 0.5f;//points[i].gameObject.GetComponent<CircleCollider2D>().radius;
                 try

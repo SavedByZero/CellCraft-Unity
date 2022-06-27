@@ -2964,7 +2964,7 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 		{
 			if (c.num_id != centnum)
 			{
-				if (/*c != c_membrane && */c != c_skeleton)
+				if (c != c_membrane && c != c_skeleton)
 				{
 					c.getPpodContract(xx, yy);  
 				}

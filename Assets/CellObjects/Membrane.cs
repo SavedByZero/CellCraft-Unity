@@ -220,7 +220,19 @@ public class Membrane : CellObject
 		//shape_cyto.SetFillColor(FastMath.ConvertFromUint(0x44aaff));
 	}
 
-	public override void destruct()
+    private void Update()
+    {
+        if (Input.GetMouseButtonDown(0))
+        {
+			OnMouseDown();
+        }
+		if (Input.GetMouseButtonUp(0))
+        {
+			OnMouseUp();
+        }
+    }
+
+    public override void destruct()
 	{
 		StopCoroutine(_churnRoutine);
 

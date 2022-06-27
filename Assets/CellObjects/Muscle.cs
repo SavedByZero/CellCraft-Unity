@@ -10,6 +10,7 @@ public class Muscle : MonoBehaviour
     private bool _stretching;
     private Rigidbody2D _rb;
     private Membrane _membrane;
+    private Vector3 _moveVector;
     public bool Debugg;
     // Start is called before the first frame update
     void Start()
@@ -25,32 +26,49 @@ public class Muscle : MonoBehaviour
 
         // _rb.transform.SetParent(this.transform.parent);
         //  
-        yield return new WaitForSeconds(0.01f);
-        _rb.isKinematic = true;
-        _rb.transform.localPosition = Vector3.zero;
-        _rb.isKinematic = false;
-        _rb.gameObject.SetActive(false);
-        _membrane.GetComponentInChildren<Wiggler>(true).gameObject.SetActive(true);
-        //Wiggler w = GetComponent<Wiggler>();
-        // w.UpdateCorePos(_membrane.transform.localPosition);
-        // w.Active = true;
-        //this.gameObject.SetActive(false);
-        //resume wiggling
+        yield return new WaitForSeconds(1.5f);
+      
+        //_membrane.GetComponentInChildren<Wiggler>(true).gameObject.SetActive(true);
+
+
+        MembraneNode[] nodes = _membrane.GetComponentsInChildren<MembraneNode>();
+        GameObject sbAnchor = _membrane.gameObject.GetComponent<SoftBody>().Anchor;
+        sbAnchor.transform.DOMove(GameObject.FindObjectOfType<Cell>().c_nucleus.transform.localPosition, 1).SetEase(Ease.Linear).OnComplete(new TweenCallback(delegate {
+            _rb.isKinematic = true;
+            _rb.transform.localPosition = Vector3.zero;
+            _rb.isKinematic = false;
+            _rb.gameObject.SetActive(false);
+        }));//.DOBlendableLocalMoveBy(_moveVector, 2).SetEase(Ease.Linear);
+        for(int i=0; i < nodes.Length; i++)
+        {
+           // Vector3 dir = _rb.transform.localPosition - nodes[i].transform.localPosition;
+           // nodes[i].gameObject.transform.DOBlendableMoveBy(_moveVector, 2).SetEase(Ease.Linear);
+        }
     }
 
     public void Stretch(float xDir, float yDir)
     {
-        Debug.Log("original stretch dir " + xDir + ", " + yDir);
+       
         _membrane.GetComponentInChildren<Wiggler>(true).gameObject.SetActive(false);
-        Vector2 norm = new Vector3(xDir, yDir).normalized;
+        Vector3 norm = new Vector3(xDir, yDir, -Camera.main.transform.position.z).normalized;
+        Debug.Log("old norm " + norm);
+        norm.x = Mathf.Round(norm.x);
+        norm.y = Mathf.Round(norm.y);
+        norm = Vector3.ClampMagnitude(norm, 1.44f);
+        Debug.Log("norm " + norm);
+        norm *= _membrane.getRadius();
+        Debug.Log("membrane radius " + _membrane.getRadius());
+        Debug.Log("original stretch dir " + norm);
+   
         _rb.gameObject.SetActive(true);
         Debug.Log("current velocity " + _rb.velocity);
         if (!_stretching)
         {
             _stretching = true;
             Vector3 originalPos = this.transform.localPosition;
-
-            _rb.DOMove(new Vector3(norm.x*4, norm.y*4, 0), 2f).OnComplete(new TweenCallback(delegate
+            _moveVector = (norm - _rb.transform.position); //new Vector3(norm.x * 4, norm.y * 4, 0);
+            _moveVector.z = -Camera.main.transform.position.z;
+            _rb.transform.DOBlendableLocalMoveBy(norm, 0.5f).SetEase(Ease.Linear).OnComplete(new TweenCallback(delegate
             {
                
                 _stretching = false;
