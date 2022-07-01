@@ -36,7 +36,7 @@ public class Muscle : MonoBehaviour
         sbAnchor.transform.DOMove(GameObject.FindObjectOfType<Cell>().c_nucleus.transform.localPosition, 1).SetEase(Ease.Linear).OnComplete(new TweenCallback(delegate {
             _rb.isKinematic = true;
             _rb.transform.localPosition = Vector3.zero;
-            _rb.isKinematic = false;
+           // _rb.isKinematic = false;
             _rb.gameObject.SetActive(false);
         }));//.DOBlendableLocalMoveBy(_moveVector, 2).SetEase(Ease.Linear);
         for(int i=0; i < nodes.Length; i++)
@@ -52,9 +52,11 @@ public class Muscle : MonoBehaviour
         _membrane.GetComponentInChildren<Wiggler>(true).gameObject.SetActive(false);
         Vector3 norm = new Vector3(xDir, yDir, -Camera.main.transform.position.z).normalized;
         Debug.Log("old norm " + norm);
-        norm.x = Mathf.Round(norm.x);
-        norm.y = Mathf.Round(norm.y);
+      
+        norm.z = 0;
         norm = Vector3.ClampMagnitude(norm, 1.44f);
+        //norm.x = Mathf.Round(norm.x);
+        //norm.y = Mathf.Round(norm.y);
         Debug.Log("norm " + norm);
         norm *= _membrane.getRadius();
         Debug.Log("membrane radius " + _membrane.getRadius());

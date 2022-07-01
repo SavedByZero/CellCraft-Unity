@@ -218,14 +218,12 @@ public class Membrane : CellObject
 		//instantSetHealth(10);
 
 		//shape_cyto.SetFillColor(FastMath.ConvertFromUint(0x44aaff));
+		GetComponentInChildren<MembraneAnchor>().onMembraneAreaClicked += OnMouseDown;
 	}
 
     private void Update()
     {
-        if (Input.GetMouseButtonDown(0))
-        {
-			OnMouseDown();
-        }
+       
 		if (Input.GetMouseButtonUp(0))
         {
 			OnMouseUp();
@@ -496,6 +494,8 @@ public class Membrane : CellObject
 	{
 		return (list_nodes.Count * MembraneNode.D_NODEREST) / (Mathf.PI * 2);
 	}
+
+	
 
 	
 	private void activateNodes()
@@ -1732,8 +1732,11 @@ public class Membrane : CellObject
 
 	private new void OnMouseDown()
 	{
-		base.OnMouseDown();
+		
 		Vector3 mouse = GetWorldPositionOnPlane(-Camera.main.transform.position.z);//(new Vector3(Input.mousePosition.x, Input.mousePosition.y, -1));//Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y,0));
+		
+		
+		base.OnMouseDown();
 		isMouseDown = true;
 		mouseDown_x = mouse.x;
 		mouseDown_y = mouse.y;

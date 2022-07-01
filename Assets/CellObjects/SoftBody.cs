@@ -26,6 +26,7 @@ public class SoftBody : MonoBehaviour
 
   
 
+
     public void AddNode(GameObject node)
     {
         node.transform.SetParent(this.transform);

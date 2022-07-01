@@ -461,8 +461,8 @@ public class Microtubule : CellObject
 		d2 += PPOD_R2 * 4;
 		bool outside = false;
 		//Debug.Log("xLoc " + xLoc + "yLoc " + yLoc );
-		Debug.Log("micro7+: new loc " + xLoc + "," + yLoc);
-		Debug.Log("micro7+: d2 " + d2 + ", boundary r2 " + BOUNDARY_R2 + ", PPOD_R2 " + PPOD_R2 );
+		//Debug.Log("micro7+: new loc " + xLoc + "," + yLoc);
+		//Debug.Log("micro7+: d2 " + d2 + ", boundary r2 " + BOUNDARY_R2 + ", PPOD_R2 " + PPOD_R2 );
 		if (d2 > BOUNDARY_R2)
 		{
 			Vector2 cent_v = new Vector2(cent_x - 0, cent_y - 0);
