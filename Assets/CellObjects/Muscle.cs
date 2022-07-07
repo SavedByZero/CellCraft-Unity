@@ -12,6 +12,8 @@ public class Muscle : MonoBehaviour
     private Membrane _membrane;
     private Vector3 _moveVector;
     public bool Debugg;
+    public delegate void MovingTowards(float x, float y);
+    public MovingTowards onMovingTowards;
     // Start is called before the first frame update
     void Start()
     {
@@ -26,10 +28,10 @@ public class Muscle : MonoBehaviour
 
         // _rb.transform.SetParent(this.transform.parent);
         //  
-        yield return new WaitForSeconds(1.5f);
-      
-        //_membrane.GetComponentInChildren<Wiggler>(true).gameObject.SetActive(true);
+        yield return new WaitForSeconds(1f);
 
+        //_membrane.GetComponentInChildren<Wiggler>(true).gameObject.SetActive(true);
+      
 
         MembraneNode[] nodes = _membrane.GetComponentsInChildren<MembraneNode>();
         GameObject sbAnchor = _membrane.gameObject.GetComponent<SoftBody>().Anchor;
@@ -68,14 +70,15 @@ public class Muscle : MonoBehaviour
         {
             _stretching = true;
             Vector3 originalPos = this.transform.localPosition;
-            _moveVector = (norm - _rb.transform.position); //new Vector3(norm.x * 4, norm.y * 4, 0);
-            _moveVector.z = -Camera.main.transform.position.z;
-            _rb.transform.DOBlendableLocalMoveBy(norm, 0.5f).SetEase(Ease.Linear).OnComplete(new TweenCallback(delegate
+            _moveVector = norm;//(norm - _rb.transform.position); //new Vector3(norm.x * 4, norm.y * 4, 0);
+            //_moveVector.z = -Camera.main.transform.position.z;
+            
+            _rb.transform.DOBlendableLocalMoveBy(norm, 1.5f).SetEase(Ease.Linear).OnComplete(new TweenCallback(delegate
             {
                
                 _stretching = false;
                 onFinishStretching?.Invoke();
-
+                  onMovingTowards?.Invoke(_moveVector.x, _moveVector.y);
                 StartCoroutine(Settle(originalPos));
 
             }));

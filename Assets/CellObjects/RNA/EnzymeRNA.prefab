@@ -47,6 +47,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -80,7 +81,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 0
-  m_MaskInteraction: 0
+  m_MaskInteraction: 1
   m_SpriteSortPoint: 0
 --- !u!114 &2103683005401069574
 MonoBehaviour:
@@ -279,17 +280,10 @@ MonoBehaviour:
   radius2: 0
   loc_bubble: {fileID: 0}
   clip: {fileID: 0}
-  anim: {fileID: 0}
   anim_wiggle: 0
   anim_vital: 0
   isMoving: 0
   v_move: {x: 0, y: 0}
-  Normal: {fileID: 0}
-  Divide: {fileID: 0}
-  Recycle: {fileID: 0}
-  Damage1: {fileID: 0}
-  Damage2: {fileID: 0}
-  Plop: {fileID: 0}
   isDoomed: 0
   isRecycling: 0
   text_id: 
@@ -305,13 +299,6 @@ MonoBehaviour:
   isOutsideCell: 0
   doesCollide: 0
   hardCollide: 0
-  Grow: {fileID: 0}
-  Thread: {fileID: 0}
-  Dock: {fileID: 0}
-  Descend: {fileID: 0}
-  Die: {fileID: 0}
-  Die_Thread: {fileID: 0}
-  HardKill: {fileID: 0}
   product_virus_vesicle: 0
   na_value: 0
   slicer_killed: 0

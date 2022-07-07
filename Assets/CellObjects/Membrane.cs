@@ -16,8 +16,9 @@ public class Membrane : CellObject
 	private List<GravPoint> list_grav_blank;
 	public SoftBody Skin;
 	public GameObject GraphicsPrefab;
-		
-		
+
+
+
 	private Centrosome p_cent;
 	private Cytoskeleton p_skeleton;
 
@@ -1346,8 +1347,8 @@ public class Membrane : CellObject
 
 	private void moverFinishedStretching()
     {
-
-    }
+		
+	}
 
 	/**
 		 * This function keeps everything happy. It is big, it is ugly, but for the most part, it works.

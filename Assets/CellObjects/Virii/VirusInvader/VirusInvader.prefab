@@ -47,6 +47,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -80,7 +81,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 0
-  m_MaskInteraction: 0
+  m_MaskInteraction: 1
   m_SpriteSortPoint: 0
 --- !u!114 &7874303791030962053
 MonoBehaviour:
@@ -169,8 +170,12 @@ MonoBehaviour:
   position_state: 0
   motivation_state: -1
   condition_state: -1
+  mnode: {fileID: 0}
   rib: {fileID: 0}
   nuc: {fileID: 0}
+  nuc_node:
+    x: 0
+    y: 0
   entering: 0
   leaving: 0
   spawnCount: 1

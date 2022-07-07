@@ -256,11 +256,11 @@ public class Cytoskeleton : CellObject
 		//p_membrane.StretchMembrane(finalX * 4, finalY * 4);
 		
 		Microtubule m = makePPodMicrotubule(p);  //the origin is 0,0, the terminus is p
-		
-		
+
+		p_membrane.StretchMembrane(finalX, finalY);//(finalX*4, finalY*4);
 		m.onReadyToContract += delegate
 		{
-			p_membrane.StretchMembrane(finalX, finalY);//(finalX*4, finalY*4);
+			
 
 		};
 		if (overShot)

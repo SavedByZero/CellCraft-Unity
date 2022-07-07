@@ -49,7 +49,9 @@ public class Cell : CellGameObject
 	public Membrane c_membrane;
 	public Golgi c_golgi;
 	public Cytoskeleton c_skeleton;
-		
+
+
+
 	public static int LYSOSOME_STARTED = 0;
 	public static int LYSOSOME_FINISHED = 0;
 	public static int LYSO_RNA_STARTED = 0;
@@ -2959,6 +2961,7 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 	public void getPpodContract(float xx, float yy) 
 	{
 		Debug.Log("cell contents direction: " + xx + "," + yy);
+		
 		int centnum = Selectable.CENTROSOME;   //Bookmark: this also moves all the cell objects to match the expanded pseudopod -- 
 		foreach(CellObject c in list_running) 
 		{
