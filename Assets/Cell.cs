@@ -2961,7 +2961,7 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 	public void getPpodContract(float xx, float yy) 
 	{
 		Debug.Log("cell contents direction: " + xx + "," + yy);
-		
+		c_membrane.Skin.Anchor.transform.localPosition += new Vector3(-xx, -yy);
 		int centnum = Selectable.CENTROSOME;   //Bookmark: this also moves all the cell objects to match the expanded pseudopod -- 
 		foreach(CellObject c in list_running) 
 		{
@@ -2973,6 +2973,7 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 				}
 			}
 		}
+		
 		//_rb.MovePosition(new Vector2(this.transform.position.x -xx, this.transform.position.y - yy));
 		//_sb.MovePosition(new Vector2(this.transform.position.x -xx, this.transform.position.y - yy));
 		

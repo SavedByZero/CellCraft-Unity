@@ -220,7 +220,11 @@ public class Cytoskeleton : CellObject
 	public bool tryPseudopod(float x2, float y2, float cost)
 	{
 		//p_engine.onPseudopod();  //TODO
-		Debug.Log("mouse click at " + x2 + "," + y2);
+		Debug.Log("ppod:  mouse click at " + x2 + "," + y2);
+		
+		//x2 -= p_membrane.Skin.Anchor.transform.position.x;
+		//y2 -= p_membrane.Skin.Anchor.transform.position.y;
+		Debug.Log("ppod:  after adding anchor position " + x2 + "," + y2);
 		//try to form a pseudopod to the mouse click coords (x2 and y2)
 		float dx = x2 - p_centrosome.x;    //get the distance to the centrosome from the click 
 
@@ -257,7 +261,7 @@ public class Cytoskeleton : CellObject
 		
 		Microtubule m = makePPodMicrotubule(p);  //the origin is 0,0, the terminus is p
 
-		p_membrane.StretchMembrane(finalX, finalY);//(finalX*4, finalY*4);
+		p_membrane.StretchMembrane(dx, dy); // (finalX, finalY);//(finalX*4, finalY*4);
 		m.onReadyToContract += delegate
 		{
 			

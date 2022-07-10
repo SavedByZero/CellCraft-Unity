@@ -28,24 +28,21 @@ public class Muscle : MonoBehaviour
 
         // _rb.transform.SetParent(this.transform.parent);
         //  
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(1.5f);
 
-        //_membrane.GetComponentInChildren<Wiggler>(true).gameObject.SetActive(true);
-      
+        //the problem here is that the nucleus localPosition is not in the right spot before a 2.5 second delay.  
+        //Somehow, though, the nucleus and other parts need to move WITH the tail end of the membrane.  
 
         MembraneNode[] nodes = _membrane.GetComponentsInChildren<MembraneNode>();
         GameObject sbAnchor = _membrane.gameObject.GetComponent<SoftBody>().Anchor;
-        sbAnchor.transform.DOMove(GameObject.FindObjectOfType<Cell>().c_nucleus.transform.localPosition, 1).SetEase(Ease.Linear).OnComplete(new TweenCallback(delegate {
+        
+       /// sbAnchor.transform.DOMove(GameObject.FindObjectOfType<Cell>().c_nucleus.transform.localPosition, 1).SetEase(Ease.Linear).OnComplete(new TweenCallback(delegate {
             _rb.isKinematic = true;
             _rb.transform.localPosition = Vector3.zero;
-           // _rb.isKinematic = false;
+         
             _rb.gameObject.SetActive(false);
-        }));//.DOBlendableLocalMoveBy(_moveVector, 2).SetEase(Ease.Linear);
-        for(int i=0; i < nodes.Length; i++)
-        {
-           // Vector3 dir = _rb.transform.localPosition - nodes[i].transform.localPosition;
-           // nodes[i].gameObject.transform.DOBlendableMoveBy(_moveVector, 2).SetEase(Ease.Linear);
-        }
+       // }));
+       
     }
 
     public void Stretch(float xDir, float yDir)
@@ -62,7 +59,7 @@ public class Muscle : MonoBehaviour
         Debug.Log("norm " + norm);
         norm *= _membrane.getRadius();
         Debug.Log("membrane radius " + _membrane.getRadius());
-        Debug.Log("original stretch dir " + norm);
+        Debug.Log("ppod muscle to: " + norm);
    
         _rb.gameObject.SetActive(true);
         Debug.Log("current velocity " + _rb.velocity);
@@ -73,7 +70,7 @@ public class Muscle : MonoBehaviour
             _moveVector = norm;//(norm - _rb.transform.position); //new Vector3(norm.x * 4, norm.y * 4, 0);
             //_moveVector.z = -Camera.main.transform.position.z;
             
-            _rb.transform.DOBlendableLocalMoveBy(norm, 1.5f).SetEase(Ease.Linear).OnComplete(new TweenCallback(delegate
+            _rb.transform.DOBlendableLocalMoveBy(norm, 1f).SetEase(Ease.Linear).OnComplete(new TweenCallback(delegate
             {
                
                 _stretching = false;

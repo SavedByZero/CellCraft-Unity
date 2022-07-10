@@ -7,6 +7,10 @@ public class Terrain : CellGameObject
 {
 	//This class looks like it defines the type of floor the cell is on -- for instance, petri dishes. 
 	//-32 x 32, -32 x 32
+	public const float LEFT_BORDER = -32;
+	public const float RIGHT_BORDER = 32;
+	public const float UP_BORDER = 32;
+	public const float DOWN_BORDER = -32;
     public const int PETRI_DISH = 0;
 	public const int PETRI_DISH_GOLD = 1;
 	public  const int PETRI_DISH_SILVER = 2;
@@ -44,11 +48,14 @@ public class Terrain : CellGameObject
 		
 	private float t_width;
 	private float t_height;
+	private Nucleus _nucleus;
+	private bool _following;
     void Start()
     {
 		//initTerrain has to somehow be called with parameters
 		SwitchSkin(0);
 		GameObject.FindObjectOfType<Muscle>().onMovingTowards += ShiftDirection;
+		_nucleus = GameObject.FindObjectOfType<Nucleus>();
 	}
 
 	void SwitchSkin(int index)
@@ -65,12 +72,13 @@ public class Terrain : CellGameObject
 
 	public void ShiftDirection(float cellDirX, float cellDirY)
     {
-		Vector3 dir = new Vector3(cellDirX, cellDirY);
+		_following = true;
+		StartCoroutine(cooldown());
+		/*Vector3 dir = new Vector3(cellDirX, cellDirY);
 		this.transform.DOBlendableLocalMoveBy(dir, 3f).SetDelay(0f);//this.transform.position += dir;
 		Camera.main.transform.DOBlendableLocalMoveBy(dir, 3f).SetDelay(0f);//Camera.main.transform.position += dir;
-		_currentSkin.transform.DOBlendableLocalMoveBy(dir, 3f).SetDelay(0f);//_currentSkin.transform.position += dir;
-
-		//mask.transform.position -= dir;
+		_currentSkin.transform.DOBlendableLocalMoveBy(-dir, 3f).SetDelay(0f);//_currentSkin.transform.position += dir;
+		*/
 		
     }
 
@@ -189,6 +197,19 @@ public class Terrain : CellGameObject
 	// Update is called once per frame
 	void Update()
     {
+		if (_following)
+        {
+			this.transform.localPosition = new Vector3(_nucleus.transform.localPosition.x,_nucleus.transform.localPosition.y,1);//.DOBlendableLocalMoveBy(dir, 3f).SetDelay(0f);//this.transform.position += dir;
+			Camera.main.transform.localPosition = new Vector3(_nucleus.transform.localPosition.x,_nucleus.transform.localPosition.y,Camera.main.transform.localPosition.z);//DOBlendableLocalMoveBy(dir, 3f).SetDelay(0f);//Camera.main.transform.position += dir;
+			_currentSkin.transform.localPosition = -_nucleus.transform.position;//DOBlendableLocalMoveBy(-dir, 3f).SetDelay(0f);//_currentSkin.transform.position += dir;
+		
+		}
         
+    }
+
+	IEnumerator cooldown()
+    {
+		yield return new WaitForSeconds(3);
+		_following = false;
     }
 }

@@ -1679,11 +1679,14 @@ public class Membrane : CellObject
 			float xd = mouse.x - mouseDown_x;
 			float yd = mouse.y - mouseDown_y;
 			d2_mouse = (xd * xd) + (yd * yd);
-			if (d2_mouse > D2_PPOD)
+			if (mouse.x > Terrain.LEFT_BORDER && mouse.x < Terrain.RIGHT_BORDER && mouse.y < Terrain.UP_BORDER && mouse.y > Terrain.DOWN_BORDER)
 			{
-				Debug.Log("trying pseudopod");
-				tryPseudopod(mouse.x, mouse.y);
-				hidePPodCursor();
+				if (d2_mouse > D2_PPOD)
+				{
+					Debug.Log("trying pseudopod");
+					tryPseudopod(mouse.x, mouse.y);
+					hidePPodCursor();
+				}
 			}
 		}
 		isMouseDown = false;
