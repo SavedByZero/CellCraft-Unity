@@ -5,11 +5,16 @@ using UnityEngine;
 public class CellGameManager : MonoBehaviour
 {
     public GameObject InfoBubblePrefab;
+    public int StartHealth = 100;
     private List<GameObject> _infoBubbles = new List<GameObject>();
     // Start is called before the first frame update
     void Start()
     {
-        
+        CellObject[] cell_objects = GetComponentsInChildren<CellObject>();
+        for(int i=0; i < cell_objects.Length; i++)
+        {
+            cell_objects[i].instantSetHealth(StartHealth);
+        }
     }
 
     public GameObject FetchInfoBubble()

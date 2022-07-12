@@ -111,7 +111,7 @@ public class SoftBody : MonoBehaviour
                 Vector2 lt = SpriteShape.spline.GetLeftTangent(i);
                
               
-                Vector2 newlt = -Vector2.Perpendicular(towardsCenter) * (1f/2f);// * lt.magnitude;//   1/3 works for 2.5 radius
+                Vector2 newlt = -Vector2.Perpendicular(towardsCenter) * (1f/3f);// * lt.magnitude;//   1/3 works for 2.5 radius, 1/2 works for 4 radius
                 
 
                  SpriteShape.spline.SetRightTangent(i, -newlt);

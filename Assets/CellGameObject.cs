@@ -246,10 +246,10 @@ public class CellGameObject : MovieClip, ICellGameObject
 		damageLevel = 0;
 		if (clip)
 		{
-			clip.GotoAndStop("normal");
+			//("normal");
 		}
 		else
-			GotoAndStop("normal");
+			playAnim("normal");
 		/*switchStatesOff();
 		if (Normal)
 		{

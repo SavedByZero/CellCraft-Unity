@@ -16,6 +16,7 @@ public class Membrane : CellObject
 	private List<GravPoint> list_grav_blank;
 	public SoftBody Skin;
 	public GameObject GraphicsPrefab;
+	public MouseArrow Arrow;
 
 
 
@@ -133,7 +134,7 @@ public class Membrane : CellObject
 		private Color health_col;
 		private Color health_col2;
 
-	public const float STARTING_RADIUS = 4;//2.5f;//4.00f;
+	public const float STARTING_RADIUS = 2f;//2.5f;//4.00f;
 	public const int STARTING_NODES = 15;//15;
 		public const int MAX_NODES = 25;
 
@@ -1673,6 +1674,7 @@ public class Membrane : CellObject
 
 	private void doMouseUp()
 	{
+	
 		Vector3 mouse = GetWorldPositionOnPlane(-Camera.main.transform.position.z);//Camera.main.ScreenToWorldPoint(Input.mousePosition);//(new Vector3(Input.mousePosition.x,Input.mousePosition.y,-1));
 		if (isMouseDown)
 		{
@@ -1688,6 +1690,10 @@ public class Membrane : CellObject
 					hidePPodCursor();
 				}
 			}
+			else
+            {
+				hidePPodCursor();
+            }
 		}
 		isMouseDown = false;
 		hideCursor(); //go back from the bleb cursor to nothing
@@ -1697,6 +1703,7 @@ public class Membrane : CellObject
 	private void hideTargetter()
 	{
 		targetter.gameObject.SetActive(false);
+		Arrow.Show(false);
 	}
 
 	public void onCellMove(float xx, float yy)
@@ -1710,7 +1717,7 @@ public class Membrane : CellObject
 	private void showTargetter()
 	{
 
-
+		Arrow.Show(true);
 		List <MembraneNode> m = getClosestNodes(mouseDown_x, mouseDown_y, D2_PPOD);
 		if (m != null)
 		{
@@ -1748,6 +1755,7 @@ public class Membrane : CellObject
 		Debug.Log("mouse down" + mouse);
 		_doMouseMoveRoutine = StartCoroutine(doMouseMove());
 		
+		Arrow.SetPosition(mouse.x, mouse.y, mouse.x, mouse.y);
 		//m.stopPropagation(); //keep it from going to the cell
 
 		//p_engine.dispatchEvent(m); //TODO  //send it directly to the engine
@@ -1771,7 +1779,7 @@ public class Membrane : CellObject
 				{
 					Vector3 mouse = GetWorldPositionOnPlane(-Camera.main.transform.position.z);//(new Vector3(Input.mousePosition.x, Input.mousePosition.y, -1));
 
-
+					Arrow.SetPosition(mouseDown_x, mouseDown_y, mouse.x, mouse.y);
 					float xd  = mouse.x - mouseDown_x;
 					float yd = mouse.y - mouseDown_y;
 					d2_mouse = (xd * xd) + (yd * yd);
