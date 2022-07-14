@@ -115,6 +115,7 @@ public class Membrane : CellObject
 		
 		private bool dummy_flag = false;
 		private bool endDummy = false;
+	private bool _canMove = true;
 		
 		private Point dummy_lastPoint;
 		private Point dummy_nextPoint;
@@ -1194,6 +1195,12 @@ public class Membrane : CellObject
 
 	}
 
+	IEnumerator cooldownFromMove()
+    {
+		yield return new WaitForSeconds(4);
+		_canMove = true;
+    }
+
 	public void StretchMembrane(float xx, float yy)
     {
 		Debug.Log("stretching toward " + xx + "," + yy);
@@ -1674,7 +1681,8 @@ public class Membrane : CellObject
 
 	private void doMouseUp()
 	{
-	
+		if (!_canMove)
+			return;
 		Vector3 mouse = GetWorldPositionOnPlane(-Camera.main.transform.position.z);//Camera.main.ScreenToWorldPoint(Input.mousePosition);//(new Vector3(Input.mousePosition.x,Input.mousePosition.y,-1));
 		if (isMouseDown)
 		{
@@ -1686,6 +1694,8 @@ public class Membrane : CellObject
 				if (d2_mouse > D2_PPOD)
 				{
 					Debug.Log("trying pseudopod");
+					_canMove = false;
+					StartCoroutine(cooldownFromMove());
 					tryPseudopod(mouse.x, mouse.y);
 					hidePPodCursor();
 				}
@@ -1743,7 +1753,8 @@ public class Membrane : CellObject
 
 	private new void OnMouseDown()
 	{
-		
+		if (!_canMove)
+			return;
 		Vector3 mouse = GetWorldPositionOnPlane(-Camera.main.transform.position.z);//(new Vector3(Input.mousePosition.x, Input.mousePosition.y, -1));//Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y,0));
 		
 		
@@ -1771,6 +1782,7 @@ public class Membrane : CellObject
 			yield return new WaitForEndOfFrame();
 			if (isMouseDown)
 			{
+				
 				/*if (Director.IS_MOUSE_DOWN == false)
 				{ //CHEAP HACK : "Release Outside" event - just check every frame against global
 					doMouseUp();
@@ -1824,7 +1836,7 @@ public class Membrane : CellObject
 		}
 	}
 
-    private void OnMouseUp()
+    private new void OnMouseUp()
     {
 		doMouseUp();
     }

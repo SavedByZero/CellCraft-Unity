@@ -14,7 +14,7 @@ public class Engine : MonoBehaviour
 	private int _defensin_strength;
 	private bool[] spend_checker = new bool[] { true, true, true, true, true };
 
-	private float r_atp = 0;
+	private float r_atp = 1000;
 	private float r_na = 0;
 	private float r_aa = 0;
 	private float r_fa = 0;
@@ -138,8 +138,198 @@ public class Engine : MonoBehaviour
 		}
 	}
 
+	public bool spendATP(float i) 
+	{
+			clearSpendCheck(new float[]{i,0,0,0,0});
+			if (r_atp >= i) 
+			{
+					spend_checker[0] = true;
+					spend_checker[1] = true;
+					spend_checker[2] = true;
+					spend_checker[3] = true;
+					spend_checker[4] = true;
+					r_atp -= i;
+					//dirty_resource = true;
+					//notifyOHandler(EngineEvent.RESOURCE_CHANGE, "null", "atp", r_atp);
+					return true;
+				}
+		return false;
+	}
 
-	public void showImmediateWarning(String s)
+	private void clearSpendCheck(float[] a = null)
+	{
+		if (a != null)
+		{
+			for (int i = 0; i < a.Length; i++) {
+				if (a[i] > 0)
+					spend_checker[i] = false;
+				else
+					spend_checker[i] = true;
+			}
+		}
+		else
+		{
+			spend_checker = new bool[] { false, false, false, false, false };
+		}
+	}
+
+	public bool produce(float[] a) 
+	{
+			r_atp += a[0];
+			r_na += a[1];
+			r_aa += a[2];
+			r_fa += a[3];
+			r_g += a[4];
+			checkMaxResource();
+	/*notifyOHandler(EngineEvent.RESOURCE_CHANGE, "null", "atp", r_atp);
+	notifyOHandler(EngineEvent.RESOURCE_CHANGE, "null", "na", r_na);
+	notifyOHandler(EngineEvent.RESOURCE_CHANGE, "null", "aa", r_aa);
+	notifyOHandler(EngineEvent.RESOURCE_CHANGE, "null", "fa", r_fa);
+	notifyOHandler(EngineEvent.RESOURCE_CHANGE, "null", "g", r_g);*/
+	//dirty_resource = true;
+			return true;
+		}
+
+	public void zeroResources()
+	{
+		r_atp = 0;
+		r_na = 0;
+		r_aa = 0;
+		r_fa = 0;
+		r_g = 0;
+		/*notifyOHandler(EngineEvent.RESOURCE_CHANGE, "null", "atp", r_atp);
+		notifyOHandler(EngineEvent.RESOURCE_CHANGE, "null", "na", r_na);
+		notifyOHandler(EngineEvent.RESOURCE_CHANGE, "null", "aa", r_aa);
+		notifyOHandler(EngineEvent.RESOURCE_CHANGE, "null", "fa", r_fa);
+		notifyOHandler(EngineEvent.RESOURCE_CHANGE, "null", "g", r_g);*/
+		//dirty_resource = true;
+	}
+
+	public bool loseResources(float[] a)
+	{
+		r_atp -= a[0];
+		r_na -= a[1];
+		r_aa -= a[2];
+		r_fa -= a[3];
+		r_g -= a[4];
+		if (r_atp < 0) r_atp = 0;
+		if (r_na < 0) r_na = 0;
+		if (r_aa < 0) r_aa = 0;
+		if (r_fa < 0) r_fa = 0;
+		if (r_g < 0) r_g = 0;
+
+		/*notifyOHandler(EngineEvent.RESOURCE_CHANGE, "null", "atp", r_atp);
+		notifyOHandler(EngineEvent.RESOURCE_CHANGE, "null", "na", r_na);
+		notifyOHandler(EngineEvent.RESOURCE_CHANGE, "null", "aa", r_aa);
+		notifyOHandler(EngineEvent.RESOURCE_CHANGE, "null", "fa", r_fa);
+		notifyOHandler(EngineEvent.RESOURCE_CHANGE, "null", "g", r_g);
+		dirty_resource = true;*/
+		return true;
+	}
+
+	private void checkMaxResource()
+	{
+		if (r_atp > r_max_atp)
+			r_atp = r_max_atp;
+
+		if (r_aa > r_max_aa)
+			r_aa = r_max_aa;
+
+		if (r_na > r_max_na)
+			r_na = r_max_na;
+
+		if (r_fa > r_max_fa)
+			r_fa = r_max_fa;
+
+		if (r_g > r_max_g * 2)
+			r_g = r_max_g;
+	}
+
+	public bool spend(float[] a) 
+	{
+		clearSpendCheck(a);
+		if (r_atp >= a[0]) {
+			spend_checker[0] = true;
+		}
+		if (r_na >= a[1])
+		{
+			spend_checker[1] = true;
+		}
+		if (r_aa >= a[2])
+		{
+			spend_checker[2] = true;
+		}
+		if (r_fa >= a[3])
+		{
+			spend_checker[3] = true;
+		}
+		if (r_g >= a[4])
+		{
+			spend_checker[4] = true;
+		}
+		if (spend_checker[0] && spend_checker[1] && spend_checker[2] && spend_checker[3] && spend_checker[4])
+		{
+			r_atp -= a[0];
+			r_na -= a[1];
+			r_aa -= a[2];
+			r_fa -= a[3];
+			r_g -= a[4];
+			/*notifyOHandler(EngineEvent.RESOURCE_CHANGE, "null", "atp", r_atp);
+			notifyOHandler(EngineEvent.RESOURCE_CHANGE, "null", "na", r_na);
+			notifyOHandler(EngineEvent.RESOURCE_CHANGE, "null", "aa", r_aa);
+			notifyOHandler(EngineEvent.RESOURCE_CHANGE, "null", "fa", r_fa);
+			notifyOHandler(EngineEvent.RESOURCE_CHANGE, "null", "g", r_g);
+			dirty_resource = true;*/
+			return true;
+		}
+		return false;
+	}
+		
+	public void getRewards(float[] a) 
+	{
+		//p_cell.rewardProduce(a, 1, new Point(p_cell.c_centrosome.x, p_cell.c_centrosome.y));  //TODO
+	}
+
+	private void income(float[] a) 
+	{
+
+		if ((int)(a[0]) > 0)
+		{
+			r_atp += a[0];
+			//notifyOHandler(EngineEvent.RESOURCE_CHANGE, "null", "atp", r_atp);
+		}
+
+		if (a[1] > 0)
+		{
+			r_na += a[1];
+			//notifyOHandler(EngineEvent.RESOURCE_CHANGE, "null", "na", r_na);
+		}
+
+		if (a[2] > 0)
+		{
+			r_aa += a[2];
+			//notifyOHandler(EngineEvent.RESOURCE_CHANGE, "null", "aa", r_aa);
+		}
+
+		if (a[3] > 0)
+		{
+			r_fa += a[3];
+			//notifyOHandler(EngineEvent.RESOURCE_CHANGE, "null", "fa", r_fa);
+		}
+
+		if (a[4] > 0)
+		{
+			r_g += a[4];
+			//notifyOHandler(EngineEvent.RESOURCE_CHANGE, "null", "g", r_g);
+		}
+		checkMaxResource();
+
+	//dirty_resource = true;
+	}
+
+
+
+public void showImmediateWarning(String s)
 	{
 		//c_interface.showEnemyWarning(s);  //TODO
 	}

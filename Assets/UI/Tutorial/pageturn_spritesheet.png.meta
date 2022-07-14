@@ -1,0 +1,2436 @@
+fileFormatVersion: 2
+guid: 4265636218bf4274a9363ef8aa59d8c1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2301313649834577256
+    second: pageturn_spritesheet_0
+  - first:
+      213: 3780938359874627622
+    second: pageturn_spritesheet_1
+  - first:
+      213: 5203916678098479036
+    second: pageturn_spritesheet_2
+  - first:
+      213: 1157723353852872901
+    second: pageturn_spritesheet_3
+  - first:
+      213: 1304969650751029035
+    second: pageturn_spritesheet_4
+  - first:
+      213: -8688212909265912194
+    second: pageturn_spritesheet_5
+  - first:
+      213: 1266373111065917552
+    second: pageturn_spritesheet_6
+  - first:
+      213: 2308732863428459946
+    second: pageturn_spritesheet_7
+  - first:
+      213: 5716199759690520782
+    second: pageturn_spritesheet_8
+  - first:
+      213: 7520387610351863193
+    second: pageturn_spritesheet_9
+  - first:
+      213: 1096927571252866090
+    second: pageturn_spritesheet_10
+  - first:
+      213: -2818779163360716928
+    second: pageturn_spritesheet_11
+  - first:
+      213: -4761352876423003369
+    second: pageturn_spritesheet_12
+  - first:
+      213: 841768637288470127
+    second: pageturn_spritesheet_13
+  - first:
+      213: -8783099455543758963
+    second: pageturn_spritesheet_14
+  - first:
+      213: 7144260322845355298
+    second: pageturn_spritesheet_15
+  - first:
+      213: -5987073403458635312
+    second: pageturn_spritesheet_16
+  - first:
+      213: -4023856683920355697
+    second: pageturn_spritesheet_17
+  - first:
+      213: 5076662214272423598
+    second: pageturn_spritesheet_18
+  - first:
+      213: 7800537980125044098
+    second: pageturn_spritesheet_19
+  - first:
+      213: -8001829299972319484
+    second: pageturn_spritesheet_20
+  - first:
+      213: -4473228703511153082
+    second: pageturn_spritesheet_21
+  - first:
+      213: 8373131379120326294
+    second: pageturn_spritesheet_22
+  - first:
+      213: 6526332279253563536
+    second: pageturn_spritesheet_23
+  - first:
+      213: 6203308731623672965
+    second: pageturn_spritesheet_24
+  - first:
+      213: 2858850141837137723
+    second: pageturn_spritesheet_25
+  - first:
+      213: -2000517326451502042
+    second: pageturn_spritesheet_26
+  - first:
+      213: 2627504126851444015
+    second: pageturn_spritesheet_27
+  - first:
+      213: -8685990457875927420
+    second: pageturn_spritesheet_28
+  - first:
+      213: 2751838734120787611
+    second: pageturn_spritesheet_29
+  - first:
+      213: -7995046701655130328
+    second: pageturn_spritesheet_30
+  - first:
+      213: -5024872583447245830
+    second: pageturn_spritesheet_31
+  - first:
+      213: 3767720444229400312
+    second: pageturn_spritesheet_32
+  - first:
+      213: 6574072153165242742
+    second: pageturn_spritesheet_33
+  - first:
+      213: 648632401661185686
+    second: pageturn_spritesheet_34
+  - first:
+      213: 5060094305253936931
+    second: pageturn_spritesheet_35
+  - first:
+      213: 7468098175645915765
+    second: pageturn_spritesheet_36
+  - first:
+      213: -3669484033737961386
+    second: pageturn_spritesheet_37
+  - first:
+      213: 3461246019989802605
+    second: pageturn_spritesheet_38
+  - first:
+      213: -37242617847076499
+    second: pageturn_spritesheet_39
+  - first:
+      213: -4312233898290850705
+    second: pageturn_spritesheet_40
+  - first:
+      213: 250609560921498870
+    second: pageturn_spritesheet_41
+  - first:
+      213: -1761256728775871206
+    second: pageturn_spritesheet_42
+  - first:
+      213: -6071199930553708136
+    second: pageturn_spritesheet_43
+  - first:
+      213: 3467209908017801041
+    second: pageturn_spritesheet_44
+  - first:
+      213: -7034223386820327180
+    second: pageturn_spritesheet_45
+  - first:
+      213: 5150631113749935851
+    second: pageturn_spritesheet_46
+  - first:
+      213: -7990693872464945456
+    second: pageturn_spritesheet_47
+  - first:
+      213: -6419966612566249771
+    second: pageturn_spritesheet_48
+  - first:
+      213: 6751520468935028387
+    second: pageturn_spritesheet_49
+  - first:
+      213: -3390981887568489662
+    second: pageturn_spritesheet_50
+  - first:
+      213: 5069554959276721613
+    second: pageturn_spritesheet_51
+  - first:
+      213: -2896809384461327691
+    second: pageturn_spritesheet_52
+  - first:
+      213: -7729717176198794989
+    second: pageturn_spritesheet_53
+  - first:
+      213: -5094715019139919786
+    second: pageturn_spritesheet_54
+  - first:
+      213: 8154223927144563476
+    second: pageturn_spritesheet_55
+  - first:
+      213: -1427198222201816362
+    second: pageturn_spritesheet_56
+  - first:
+      213: 9163957612676392580
+    second: pageturn_spritesheet_57
+  - first:
+      213: 1108523937810443992
+    second: pageturn_spritesheet_58
+  - first:
+      213: -8051715936329408261
+    second: pageturn_spritesheet_59
+  - first:
+      213: -342719022817179483
+    second: pageturn_spritesheet_60
+  - first:
+      213: 2100449430327829376
+    second: pageturn_spritesheet_61
+  - first:
+      213: 1097241559273865902
+    second: pageturn_spritesheet_62
+  - first:
+      213: -691109431395621890
+    second: pageturn_spritesheet_63
+  - first:
+      213: 8831513302021225532
+    second: pageturn_spritesheet_64
+  - first:
+      213: 5894721032630248528
+    second: pageturn_spritesheet_65
+  - first:
+      213: -222701590805360899
+    second: pageturn_spritesheet_66
+  - first:
+      213: 4885889491299228459
+    second: pageturn_spritesheet_67
+  - first:
+      213: 3585605301845730370
+    second: pageturn_spritesheet_68
+  - first:
+      213: 5672451399061898307
+    second: pageturn_spritesheet_69
+  - first:
+      213: 418590535252221553
+    second: pageturn_spritesheet_70
+  - first:
+      213: -2491163501288467797
+    second: pageturn_spritesheet_71
+  - first:
+      213: -4434616366719248819
+    second: pageturn_spritesheet_72
+  - first:
+      213: -2467645997960772000
+    second: pageturn_spritesheet_73
+  - first:
+      213: 8353169670288569020
+    second: pageturn_spritesheet_74
+  - first:
+      213: -3007760573020629816
+    second: pageturn_spritesheet_75
+  - first:
+      213: -4816122289971790606
+    second: pageturn_spritesheet_76
+  - first:
+      213: 3694264769198074705
+    second: pageturn_spritesheet_77
+  - first:
+      213: 5752464606406442614
+    second: pageturn_spritesheet_78
+  - first:
+      213: 1826893832978533810
+    second: pageturn_spritesheet_79
+  - first:
+      213: -877395136367677289
+    second: pageturn_spritesheet_80
+  - first:
+      213: -3537448818506188392
+    second: pageturn_spritesheet_81
+  - first:
+      213: -4654306655236625360
+    second: pageturn_spritesheet_82
+  - first:
+      213: -1572826148749574046
+    second: pageturn_spritesheet_83
+  - first:
+      213: 8842767893869492482
+    second: pageturn_spritesheet_84
+  - first:
+      213: -8677476192381908380
+    second: pageturn_spritesheet_85
+  - first:
+      213: -3626760220671081930
+    second: pageturn_spritesheet_86
+  - first:
+      213: -7842244801939466556
+    second: pageturn_spritesheet_87
+  - first:
+      213: -3711086115272366947
+    second: pageturn_spritesheet_88
+  - first:
+      213: -2115597472499640770
+    second: pageturn_spritesheet_89
+  - first:
+      213: 4760776025054634050
+    second: pageturn_spritesheet_90
+  - first:
+      213: -4889647297642937052
+    second: pageturn_spritesheet_91
+  - first:
+      213: 1954238592144500624
+    second: pageturn_spritesheet_92
+  - first:
+      213: -8141379411689175154
+    second: pageturn_spritesheet_93
+  - first:
+      213: 5468676853723835459
+    second: pageturn_spritesheet_94
+  - first:
+      213: 2717194727894243628
+    second: pageturn_spritesheet_95
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pageturn_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 312
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8923ad8ad671010e0800000000000000
+      internalID: -2301313649834577256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturn_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 312
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 628a9f1f767987430800000000000000
+      internalID: 3780938359874627622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturn_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 312
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb76acea5a6083840800000000000000
+      internalID: 5203916678098479036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturn_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 312
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c80396a14f011010800000000000000
+      internalID: 1157723353852872901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturn_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 312
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2f3eabbbfe2c1210800000000000000
+      internalID: 1304969650751029035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturn_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 312
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7efd3224644d6780800000000000000
+      internalID: -8688212909265912194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturn_spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 312
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 078b03e82af039110800000000000000
+      internalID: 1266373111065917552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturn_spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 312
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aad7ced9e444a0020800000000000000
+      internalID: 2308732863428459946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturn_spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 312
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec8d68d4565045f40800000000000000
+      internalID: 5716199759690520782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturn_spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 312
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9958548dfa8cd5860800000000000000
+      internalID: 7520387610351863193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturn_spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 273
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2cebd470d1193f00800000000000000
+      internalID: 1096927571252866090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturn_spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 273
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0879c93194fa1e8d0800000000000000
+      internalID: -2818779163360716928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturn_spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 273
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 713c58e19c64cedb0800000000000000
+      internalID: -4761352876423003369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturn_spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 273
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f66d4a0ad109eab00800000000000000
+      internalID: 841768637288470127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturn_spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 273
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8f236d74992c1680800000000000000
+      internalID: -8783099455543758963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturn_spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 273
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22d6d1669e2852360800000000000000
+      internalID: 7144260322845355298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturn_spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 273
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d9b8aed574a9eca0800000000000000
+      internalID: -5987073403458635312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturn_spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 273
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8e88df4aa36828c0800000000000000
+      internalID: -4023856683920355697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturn_spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 273
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea61b56f26de37640800000000000000
+      internalID: 5076662214272423598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturn_spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 273
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28ddb42c6f3114c60800000000000000
+      internalID: 7800537980125044098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturn_spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 273
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40756dda5aac3f090800000000000000
+      internalID: -8001829299972319484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturn_spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 234
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 646f220c136ebe1c0800000000000000
+      internalID: -4473228703511153082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturn_spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 234
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 696c42660a6533470800000000000000
+      internalID: 8373131379120326294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturn_spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 234
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 098f21741a0329a50800000000000000
+      internalID: 6526332279253563536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturn_spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 234
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58c0284cc64961650800000000000000
+      internalID: 6203308731623672965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturn_spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 234
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b371742ae0daca720800000000000000
+      internalID: 2858850141837137723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturn_spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 234
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62418dd371cbc34e0800000000000000
+      internalID: -2000517326451502042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturn_spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 234
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2d6ade0515c67420800000000000000
+      internalID: 2627504126851444015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturn_spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 234
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48e6fdbe2b9257780800000000000000
+      internalID: -8685990457875927420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturn_spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 234
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9e1e62bfbe703620800000000000000
+      internalID: 2751838734120787611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturn_spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 234
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82fff296263eb0190800000000000000
+      internalID: -7995046701655130328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturn_spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 234
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afb070e1201144ab0800000000000000
+      internalID: -5024872583447245830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturn_spritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 195
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f6354328c1a94430800000000000000
+      internalID: 3767720444229400312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturn_spritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 195
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 671a339dacbcb3b50800000000000000
+      internalID: 6574072153165242742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturn_spritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 195
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69ec2d29bb7600900800000000000000
+      internalID: 648632401661185686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturn_spritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 195
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32f43aa06f0193640800000000000000
+      internalID: 5060094305253936931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturn_spritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 195
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57a1e1b19b304a760800000000000000
+      internalID: 7468098175645915765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturn_spritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 195
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 650d41c86bf531dc0800000000000000
+      internalID: -3669484033737961386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturn_spritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 195
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6e0abdaae0d80030800000000000000
+      internalID: 3461246019989802605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturn_spritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 195
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6928b05900bb7ff0800000000000000
+      internalID: -37242617847076499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturn_spritesheet_40
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 195
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f64d9ffdd1ed724c0800000000000000
+      internalID: -4312233898290850705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturn_spritesheet_41
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 195
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f4ea0061185a7300800000000000000
+      internalID: 250609560921498870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturn_spritesheet_42
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 195
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a153c033652ce87e0800000000000000
+      internalID: -1761256728775871206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturn_spritesheet_43
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 156
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89158fa64d3cebba0800000000000000
+      internalID: -6071199930553708136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturn_spritesheet_44
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 156
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 157ad119a010e1030800000000000000
+      internalID: 3467209908017801041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturn_spritesheet_45
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 156
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f844dd391b616e90800000000000000
+      internalID: -7034223386820327180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturn_spritesheet_46
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 156
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be6b32075b7ba7740800000000000000
+      internalID: 5150631113749935851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturn_spritesheet_47
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 156
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0de16de624a5b1190800000000000000
+      internalID: -7990693872464945456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturn_spritesheet_48
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 156
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5deee1c5162b7e6a0800000000000000
+      internalID: -6419966612566249771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturn_spritesheet_49
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 156
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aea6ac681832bd50800000000000000
+      internalID: 6751520468935028387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturn_spritesheet_50
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 156
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24352bf70ffc0f0d0800000000000000
+      internalID: -3390981887568489662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturn_spritesheet_51
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 156
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc54205306daa5640800000000000000
+      internalID: 5069554959276721613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturn_spritesheet_52
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 156
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b22a2976377cc7d0800000000000000
+      internalID: -2896809384461327691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturn_spritesheet_53
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 156
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3117f6a9e278ab490800000000000000
+      internalID: -7729717176198794989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturn_spritesheet_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 117
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 650515cdeafeb49b0800000000000000
+      internalID: -5094715019139919786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturn_spritesheet_55
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 117
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4134174757f992170800000000000000
+      internalID: 8154223927144563476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturn_spritesheet_56
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 117
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6da779d47c2913ce0800000000000000
+      internalID: -1427198222201816362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturn_spritesheet_57
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 117
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 486205065eaec2f70800000000000000
+      internalID: 9163957612676392580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturn_spritesheet_58
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 117
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8de6532f5a4426f00800000000000000
+      internalID: 1108523937810443992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturn_spritesheet_59
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 117
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf0ebb6040f824090800000000000000
+      internalID: -8051715936329408261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturn_spritesheet_60
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 117
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a886335dda6e3bf0800000000000000
+      internalID: -342719022817179483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturn_spritesheet_61
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 117
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 083ac53d0ab462d10800000000000000
+      internalID: 2100449430327829376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturn_spritesheet_62
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 117
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea2805d726f2a3f00800000000000000
+      internalID: 1097241559273865902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturn_spritesheet_63
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 117
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef3edb042afa866f0800000000000000
+      internalID: -691109431395621890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturn_spritesheet_64
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 117
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3cbc1c8e86df8a70800000000000000
+      internalID: 8831513302021225532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturn_spritesheet_65
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 78
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05423ff2c814ec150800000000000000
+      internalID: 5894721032630248528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturn_spritesheet_66
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 78
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfec125451ec8ecf0800000000000000
+      internalID: -222701590805360899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturn_spritesheet_67
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 78
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2b54b41b9a2ec340800000000000000
+      internalID: 4885889491299228459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturn_spritesheet_68
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 78
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 244a5415601a2c130800000000000000
+      internalID: 3585605301845730370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturn_spritesheet_69
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 78
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34480c65e7898be40800000000000000
+      internalID: 5672451399061898307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturn_spritesheet_70
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 78
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17e9c00cfd12fc500800000000000000
+      internalID: 418590535252221553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturn_spritesheet_71
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 78
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba2584c8efb9d6dd0800000000000000
+      internalID: -2491163501288467797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturn_spritesheet_72
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 78
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d46d09af8e31572c0800000000000000
+      internalID: -4434616366719248819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturn_spritesheet_73
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 78
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 066422cf90921cdd0800000000000000
+      internalID: -2467645997960772000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturn_spritesheet_74
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 78
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb2fd12ee8b6ce370800000000000000
+      internalID: 8353169670288569020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturn_spritesheet_75
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 78
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c41ea3d1b94246d0800000000000000
+      internalID: -3007760573020629816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturn_spritesheet_76
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 39
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fcf36f4b42b92db0800000000000000
+      internalID: -4816122289971790606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturn_spritesheet_77
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 39
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15baa4a0c3aa44330800000000000000
+      internalID: 3694264769198074705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturn_spritesheet_78
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 39
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67efcd7e41cd4df40800000000000000
+      internalID: 5752464606406442614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturn_spritesheet_79
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 39
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bd8905034e6a5910800000000000000
+      internalID: 1826893832978533810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturn_spritesheet_80
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 39
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7903629a5cdd2d3f0800000000000000
+      internalID: -877395136367677289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturn_spritesheet_81
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 39
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89930d1ba0578eec0800000000000000
+      internalID: -3537448818506188392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturn_spritesheet_82
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 39
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03c62e2b1c4986fb0800000000000000
+      internalID: -4654306655236625360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturn_spritesheet_83
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 39
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 260065e63f23c2ae0800000000000000
+      internalID: -1572826148749574046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturn_spritesheet_84
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 39
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 209f1596c82d7ba70800000000000000
+      internalID: 8842767893869492482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturn_spritesheet_85
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 39
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46aca26d069639780800000000000000
+      internalID: -8677476192381908380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturn_spritesheet_86
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63202617bc82badc0800000000000000
+      internalID: -3626760220671081930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturn_spritesheet_87
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 0
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c69eb217efba2390800000000000000
+      internalID: -7842244801939466556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturn_spritesheet_88
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 0
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d946e4027d29f7cc0800000000000000
+      internalID: -3711086115272366947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturn_spritesheet_89
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 0
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e36d1f3ce43e3a2e0800000000000000
+      internalID: -2115597472499640770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturn_spritesheet_90
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 0
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 240e394329ca11240800000000000000
+      internalID: 4760776025054634050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturn_spritesheet_91
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 0
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4254b0370bb742cb0800000000000000
+      internalID: -4889647297642937052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturn_spritesheet_92
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 0
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 097e12345a9de1b10800000000000000
+      internalID: 1954238592144500624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturn_spritesheet_93
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 0
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8786985f82040f80800000000000000
+      internalID: -8141379411689175154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturn_spritesheet_94
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 0
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34c2c99cf94a4eb40800000000000000
+      internalID: 5468676853723835459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturn_spritesheet_95
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 0
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2953bd653a65b520800000000000000
+      internalID: 2717194727894243628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
