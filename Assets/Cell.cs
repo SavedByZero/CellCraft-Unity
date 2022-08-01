@@ -194,7 +194,10 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 		_rb = this.GetComponent<Rigidbody2D>();
 		_sb = GameObject.FindObjectOfType<Membrane>().Skin.GetComponent<Rigidbody2D>();
 		Debug.Log("new cell " + this);
+		p_engine = GameObject.FindObjectOfType<Engine>();
+		setEngine(p_engine);
 		base.Start();
+	
 		init(); //TODO: this is a placeholder to test the init method.
     }
 
@@ -205,6 +208,7 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 		Centrosome cent = GetComponentInChildren<Centrosome>();
 		setCentLoc(cent.transform.position.x, cent.transform.position.y);
 		makeObjectGrid();
+		
 		setChildren();
 		makeLists();
 		_runRoutine = StartCoroutine(run());//

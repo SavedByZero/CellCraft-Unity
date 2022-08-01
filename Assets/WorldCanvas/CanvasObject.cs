@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CanvasObject : CellGameObject
+public class CanvasObject : MonoBehaviour
 {
 	//private static var p_cgrid:ObjectGrid; //TODO
 		//protected var p_canvas:WorldCanvas;  //TODO
@@ -10,19 +10,15 @@ public class CanvasObject : CellGameObject
 	public static float LENS_RADIUS = 10.00f;
 	public static float LENS_RADIUS2 = 100f;//1000 * 1000;
 
-	public CanvasObject()
+	public void Start()
 	{
-		speed = 2;
-		makeGameDataObject();
+		//speed = 2;
+		//makeGameDataObject();
+		//base.Start();
 	}
 
-	/*public override function destruct()
-	{
-		//super.destruct();
-		//p_canvas = null;
-	}*/
-
-	public override void putInGrid()
+	
+	/*public override void putInGrid()
 	{
 		float xx = x - cent_x + span_w / 2;
 		float yy = y - cent_y + span_h / 2;
@@ -103,7 +99,7 @@ public class CanvasObject : CellGameObject
 	public virtual void onTouchcell2(float n)
 	{
 		//define per subclass
-	}
+	}*/
 
 
 }

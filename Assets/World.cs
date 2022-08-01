@@ -333,7 +333,7 @@ public class World : MonoBehaviour
 
 		makeCanvas(); //have to do this after the cell is made but before it's initialized
 
-		c_cell.init();
+		//c_cell.init();
 		//get the selectables within the cell and add them to the selectList
 		makeSelectList();
 	}

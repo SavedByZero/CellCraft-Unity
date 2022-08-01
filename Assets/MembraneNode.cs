@@ -148,6 +148,8 @@ public class MembraneNode : MonoBehaviour, ICellGameObject
         this.transform.position += new Vector3(xx, yy, 0);
     }
 
+  
+
     public void push(float x, float y)
     {
        //this.GetComponent<Rigidbody2D>().AddForce(new Vector2(x, y)*10);

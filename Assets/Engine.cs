@@ -9,12 +9,28 @@ using System.Collections;
 
 public class Engine : MonoBehaviour
 {
+	public delegate void ATPChanged(float atp);
+	public ATPChanged onATPChanged;
 	private int _defensins_produced;
 	private int _defensins_ordered;
 	private int _defensin_strength;
+	public CellGameEvent EngineEvent = new CellGameEvent();
+	public MessageEvent EngineMessageEvent = new MessageEvent();
 	private bool[] spend_checker = new bool[] { true, true, true, true, true };
+	public float r_atp
+    {
+		get
+        {
+			return r_atp_;
+        }
 
-	private float r_atp = 1000;
+		set
+        {
+			r_atp_ = value;
+			onATPChanged?.Invoke(r_atp_);
+        }
+    }
+	private float r_atp_ = 100;
 	private float r_na = 0;
 	private float r_aa = 0;
 	private float r_fa = 0;
@@ -32,7 +48,12 @@ public class Engine : MonoBehaviour
 
 	bool dirty_basicUnit;
 
-	public void changeZoom(float n)
+    void Start()
+    {
+		r_atp = 100;
+	}
+
+    public void changeZoom(float n)
 	{
 		//if (c_world) //TODO
 			//c_world.changeZoom(n);  //TODO
@@ -138,6 +159,12 @@ public class Engine : MonoBehaviour
 		}
 	}
 
+	public void GainATP(float i)
+    {
+		r_atp += i;
+		EngineEvent?.Invoke("atp_gain", i);
+    }
+
 	public bool spendATP(float i) 
 	{
 			clearSpendCheck(new float[]{i,0,0,0,0});
@@ -149,10 +176,14 @@ public class Engine : MonoBehaviour
 					spend_checker[3] = true;
 					spend_checker[4] = true;
 					r_atp -= i;
-					//dirty_resource = true;
-					//notifyOHandler(EngineEvent.RESOURCE_CHANGE, "null", "atp", r_atp);
+			//dirty_resource = true;
+			//notifyOHandler(EngineEvent.RESOURCE_CHANGE, "null", "atp", r_atp);
+			Debug.Log("got atp " + i);
+			EngineEvent?.Invoke("atp_loss",i);
 					return true;
-				}
+					
+			
+			}
 		return false;
 	}
 
@@ -483,21 +514,23 @@ public void showImmediateWarning(String s)
 		return true; // d_woz.checkLevelBatch(s);  //TODO
 		}
 
-		public void showImmediateAlert(string s) 
+	public void showImmediateAlert(string s) 
+	{
+
+		EngineMessageEvent?.Invoke(s);
+		/*if (s == alert_last)
 		{
-			/*if (s == alert_last)
+			if (!c_interface.c_messageBar.isShown())
 			{
-				if (!c_interface.c_messageBar.isShown())
-				{
-					c_interface.showAlert(s);
-				}
+				c_interface.showAlert(s);
 			}
-			else
-			{
-				alert_last = s;
-				c_interface.showAlert(s); //just show it, don't store it or worry
-			}*/
 		}
+		else
+		{
+			alert_last = s;
+			c_interface.showAlert(s); //just show it, don't store it or worry
+		}*/
+	}
 
 	public float getWorldScale()
 	{

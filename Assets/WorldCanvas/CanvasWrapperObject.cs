@@ -33,11 +33,7 @@ public class CanvasWrapperObject : CanvasObject
 		addChild(c_cellObj);
 	}*/
 
-	public override void matchZoom(float Number)
-	{
 
-		//c_cellObj.onCanvasWrapperUpdate(); //TODO
-	}
 
 	public void makeVesicleObjectFromId(string id)
 	{
@@ -58,14 +54,14 @@ public class CanvasWrapperObject : CanvasObject
 			//c_icon.gotoAndStop(id);
 		}
 		float radius = c_icon.getRadius() * 1.25f;
-		setRadius(radius);
+		//setRadius(radius);
 
 		/*BigVesicle v = p_cell.export_makeBigVesicle(radius);   //TODO
 		setCellObj(v);*/
 		c_icon.transform.SetParent(this.transform, false);
 		c_icon.transform.SetSiblingIndex(this.gameObject.transform.childCount - 1);  //put icon back on top
 	}
-
+	/*
 	protected override void doMoveToGobj()
 	{
 
@@ -89,7 +85,7 @@ public class CanvasWrapperObject : CanvasObject
 			//p_canvas.onTouchCanvasWrapper(this);  //TODO
 			dying = true;
 		}
-	}
+	}*/
 
 
 

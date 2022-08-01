@@ -1177,9 +1177,11 @@ public class Membrane : CellObject
 		float d2 = (dx * dx) + (dy * dy);  //the square of that.
 		d2 /= (Costs.MOVE_DISTANCE2/100);   //divide the square by the cost / 100.  This part is really just to figure the cost of the move by distance.
 
-		float cost = Costs.PSEUDOPOD[0] * d2;               
-		//if (p_engine.canAfford((int)cost, 0, 0, 0, 0))//TODO
+		float cost = Costs.PSEUDOPOD[0] * d2 * 100;
+		Debug.Log("total cost:" + cost);
+		if (p_engine.canAfford((int)cost, 0, 0, 0, 0))//TODO
 		{
+			p_engine.spendATP((int)cost);
 			p_skeleton.cancelPseudopod(); //only 1 ppod at once!
 			if (p_skeleton.tryPseudopod(xx, yy, cost))         //pass the mouse click coords to p_skeleton.tryPseudopod.
             {
@@ -1188,10 +1190,11 @@ public class Membrane : CellObject
 				
 			}
 		}
-		/*else  //TODO
+		else  //TODO
 		{
+			Debug.Log("not enough atp");
 			p_engine.showImmediateAlert(Messages.A_NO_AFFORD_PPOD);
-		}*/  
+		}  
 
 	}
 
@@ -1358,12 +1361,15 @@ public class Membrane : CellObject
 		
 	}
 
-	/**
+  
+
+
+    /**
 		 * This function keeps everything happy. It is big, it is ugly, but for the most part, it works.
 		 * @param	i
 		 */
 
-	public void collisionTest(int i)
+    public void collisionTest(int i)
 	{
 		MembraneNode m1 = list_nodes[i];
 		MembraneNode m2 = list_nodes[i].p_next;
@@ -1374,34 +1380,7 @@ public class Membrane : CellObject
 		float dist;
 		float dist2;
 
-		//First, check the canvas neighbors
-
-		List<GameDataObject> neighbors = p_cgrid.getNeighbors((int)m1.grid_x, (int)m1.grid_y);
-			foreach(GameDataObject gdo in neighbors) {
-			CanvasObject cv = (gdo.ptr as CanvasObject);
-			if (cv != null)
-			{
-				if (cv is GoodieGem)
-				{
-					dist2 = quickCircSeg2(new Vector2(cv.x, cv.y), cv.getRadius(), p1, p2, m1);
-					if (dist2 < 0)
-					{
-						(cv as GoodieGem).onTouchCell2(dist2, penetrate_unit_vector);
-					}
-				}
-				else if (quickCircSeg(new Vector2(cv.x, cv.y), cv.getRadius(), p1, p2, m1))
-				{
-					if (cv is CanvasWrapperObject)
-					{
-						/*if (CanvasWrapperObject(cv).c_cellObj is BigVesicle)  //TODO
-						{
-							mergeVesicle(CanvasWrapperObject(cv), m1, m2);
-						}*/ 
-					}
-					cv.onTouchCell();
-				}
-			}
-		}
+		
 
 		//Next, test the cell neighbors
 
@@ -1546,7 +1525,7 @@ public class Membrane : CellObject
 		}
 	}
 
-	public void mergeVesicle(CanvasWrapperObject cw, MembraneNode m1, MembraneNode m2)
+	/*public void mergeVesicle(CanvasWrapperObject cw, MembraneNode m1, MembraneNode m2)
 	{
 		string content = cw.content;
 		float xx = cw.x;
@@ -1565,17 +1544,13 @@ public class Membrane : CellObject
 		Vector2 vCent = new Vector2(cw.x - cent_x, cw.y - cent_y); //vector from vesicle center to the centrosome
 		vCent.Normalize();              //unit vector in the direction of the centrosome
 		cancelPseudopod();
-		/*if (m1.state_ppod || m2.state_ppod) {
-			vCent.multiply(-rad*5)
-		}else{*/
+		
 		vCent *= (-rad * 3);           //shove it towards the centrosome
 											//}
 											//throw new Error("Let's see!");
 		p_cell.makeVesicleContent(content, cw.x + vCent.x, cw.y + vCent.y); //make the thing, shoved slightly towards the centrosome
 
-		//p_cell.killCanvasObject(cw);
-		//removeMembraneNodes(2);
-	}
+	}*/
 
 	public void updatePH(float ph)
 	{
@@ -1670,20 +1645,12 @@ public class Membrane : CellObject
 		}
 	}
 
-	public Vector3 GetWorldPositionOnPlane(float z)
-    {
-		Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-		Plane xy = new Plane(Vector3.forward, new Vector3(0, 0, z));
-		float distance;
-		xy.Raycast(ray, out distance);
-		return ray.GetPoint(distance);
-    }
 
 	private void doMouseUp()
 	{
 		if (!_canMove)
 			return;
-		Vector3 mouse = GetWorldPositionOnPlane(-Camera.main.transform.position.z);//Camera.main.ScreenToWorldPoint(Input.mousePosition);//(new Vector3(Input.mousePosition.x,Input.mousePosition.y,-1));
+		Vector3 mouse = FastMath.GetWorldPositionOnPlane(-Camera.main.transform.position.z);//Camera.main.ScreenToWorldPoint(Input.mousePosition);//(new Vector3(Input.mousePosition.x,Input.mousePosition.y,-1));
 		if (isMouseDown)
 		{
 			float xd = mouse.x - mouseDown_x;
@@ -1755,7 +1722,7 @@ public class Membrane : CellObject
 	{
 		if (!_canMove)
 			return;
-		Vector3 mouse = GetWorldPositionOnPlane(-Camera.main.transform.position.z);//(new Vector3(Input.mousePosition.x, Input.mousePosition.y, -1));//Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y,0));
+		Vector3 mouse = FastMath.GetWorldPositionOnPlane(-Camera.main.transform.position.z);//(new Vector3(Input.mousePosition.x, Input.mousePosition.y, -1));//Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y,0));
 		
 		
 		base.OnMouseDown();
@@ -1789,7 +1756,7 @@ public class Membrane : CellObject
 				}
 				else*/ //TODO: uncomment when this is better understood. 
 				{
-					Vector3 mouse = GetWorldPositionOnPlane(-Camera.main.transform.position.z);//(new Vector3(Input.mousePosition.x, Input.mousePosition.y, -1));
+					Vector3 mouse = FastMath.GetWorldPositionOnPlane(-Camera.main.transform.position.z);//(new Vector3(Input.mousePosition.x, Input.mousePosition.y, -1));
 
 					Arrow.SetPosition(mouseDown_x, mouseDown_y, mouse.x, mouse.y);
 					float xd  = mouse.x - mouseDown_x;

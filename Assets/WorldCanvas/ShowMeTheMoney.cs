@@ -51,14 +51,14 @@ public class ShowMeTheMoney : CanvasObject
 		setScaleMode(scMode);
 
 		offset = off;
-		x = xx;
-		y = yy - offset * (OFFSET_AMOUNT / zoom);
+		//x = xx;
+		//y = yy - offset * (OFFSET_AMOUNT / zoom);
 	}
 
 	public void setScaleMode(bool mode)
 	{
 		scaleMode = mode;
-		matchZoom(zoom);
+		//matchZoom(zoom);
 	}
 
 	public void setType(string t)
@@ -114,7 +114,7 @@ public class ShowMeTheMoney : CanvasObject
 	}
 
 
-	public override void matchZoom(float n)
+	/*public override void matchZoom(float n)
 	{
 		zoom = n;
 		base.matchZoom(n);
@@ -126,7 +126,7 @@ public class ShowMeTheMoney : CanvasObject
 			updateIcon();
 			updateText();
 		}
-	}
+	}*/
 
 	public void updateIcon()
 	{

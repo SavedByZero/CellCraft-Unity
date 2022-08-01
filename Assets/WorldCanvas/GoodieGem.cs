@@ -11,18 +11,20 @@ public class GoodieGem : CanvasObject
 	public MovieClip icon;
 	public MovieClip icon2;	
 	private string type;
+	
 
 	private int amount;
 
-	public GoodieGem(string t, int am)
+	public void SetGemType(string t, int am)
 	{
 		type = t;
 		amount = am;
 		icon.GotoAndStop(type);
 		icon2.GotoAndStop(type);
+		
 		//text.htmlText = "<b>" + am.toString() + "</b>";  //TODO: find solution for htmltext in unity. TMP maybe?
 		text.text = am.ToString();
-		setRadius(25);
+		//setRadius(0.25f);
 	}
 
 	public string getType(){
@@ -34,17 +36,17 @@ public class GoodieGem : CanvasObject
 		return amount;
 	}
 
-	public override void onTouchCell()
+	
+	public void onTouchCell()
 	{
-		if (!dying)
-		{
-			base.onTouchCell();
-			/*if (p_canvas)  //TODO
-			{
-				p_canvas.onCollectGoodieGem(this);
-			}*/
-			dying = true;
-		}
+
+		//this has to show the money using amount and type. (a 'showMeTheMoney' object)
+
+		//Plays sfx. 
+		GameObject.FindObjectOfType<Engine>().GainATP(amount);
+		SfxManager.Play(SFX.SFXCoin);
+		this.gameObject.SetActive(false);
+		
 	}
 
 	/**
@@ -85,8 +87,8 @@ return (amt + amount - (max_amt));
 		float dist = Mathf.Sqrt(d2);
 		dist *= 4; //fudge factor to avoid crap
 		v *= dist;//if this is a true penetration, should reverse the direction
-		x += v.x;
-		y += v.y;
+		//x += v.x;
+		//y += v.y;
 	}
 
 }
