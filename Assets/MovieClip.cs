@@ -240,9 +240,13 @@ public class MovieClip : MonoBehaviour
         if (index < 0)
         {
             index = 0;
-            Debug.LogWarning("no frame matched name: " + frameName);
+            Debug.LogWarning("no frame matched name: " + frameName + "," + this);
         }
-        this.sprite = Sprites[index];
+        else
+        {
+            this.sprite = Sprites[index];
+           
+        }
         _spriteIndex = index;
         _playing = false;
     }

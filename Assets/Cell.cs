@@ -1027,12 +1027,12 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 
 		makeRunningList();
 		makeSelectableList();
-		makeStartSlicers(5); //-
-		makeStartRibosomes(5);//-
+		//makeStartSlicers(5); //-
+		//makeStartRibosomes(5);//-
 		//makeStartLysosomes(5);//-
-		makeStartMitochondria(2);//-
-		makeStartChloroplasts(2); //-
-		makeStartPeroxisomes(2); //
+		//makeStartMitochondria(2);//-
+		//makeStartChloroplasts(2); //-
+		//makeStartPeroxisomes(2); //
 		/*makeStartSlicers(p_engine.lvl.levelData.start_slicers);   //TODO
 		makeStartRibosomes(p_engine.lvl.levelData.start_ribos);
 		makeStartMitochondria(p_engine.lvl.levelData.start_mitos);

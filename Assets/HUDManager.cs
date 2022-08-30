@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class HUDManager : MonoBehaviour
 {
     private Engine _engine;
-    public ATPUI ATPUsed;
+    public ResourceUI ATPUsed;
     public GameObject ATPButton;
     public MessageBarScript MessagerUI;
     // Start is called before the first frame update
@@ -36,10 +36,10 @@ public class HUDManager : MonoBehaviour
         {
             case "atp":
             case "atp_loss":
-                ATPUsed.ShowATP((int)i);
+                ATPUsed.ShowResourceChange((int)i);
                 break;
-            case "atp_gain": //glucose
-                ATPUsed.ShowATP((int)i, false);
+            case "glucose_gain": //glucose
+                ATPUsed.ShowResourceChange((int)i, false, IconType.Glucose);
                 break;
         }
     }

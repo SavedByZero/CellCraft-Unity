@@ -4,10 +4,10 @@ using UnityEngine;
 using UnityEngine.UI;
 using DG.Tweening;
 
-public class ATPUI : MonoBehaviour
+public class ResourceUI : MonoBehaviour
 {
     private Vector3 _StartPos;
-
+    public Sprite[] ResourceIcons;
 
     private void Awake()
     {
@@ -16,12 +16,17 @@ public class ATPUI : MonoBehaviour
     }
 
     // Start is called before the first frame update
-    public void ShowATP(int value, bool subtract = true)
+    public void ShowResourceChange(int value, bool subtract = true, IconType IType = IconType.ATP)
     {
+        
         Text text = GetComponentInChildren<Text>();
-        text.text = subtract ? "-" + value.ToString() : value.ToString();
+        Outline outline = text.GetComponent<Outline>();
+        outline.effectColor = (subtract ? Color.red : Color.green);
+        text.text = subtract ? "-" + value.ToString() : "+" + value.ToString();
        // Vector3 mouse = FastMath.GetWorldPositionOnPlane(-Camera.main.transform.position.z);//Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 0));
-        this.gameObject.transform.position = Input.mousePosition; 
+        this.gameObject.transform.position = Input.mousePosition;
+        Image img = GetComponentInChildren<Image>(true);
+        img.sprite = ResourceIcons[(int)IType];
         this.gameObject.SetActive(true);
         this.gameObject.transform.DOBlendableLocalMoveBy(new Vector3(0,50,0), 0.75f).OnComplete(new TweenCallback(delegate
         {
@@ -30,4 +35,10 @@ public class ATPUI : MonoBehaviour
         }));
     }
 
+}
+
+public enum IconType
+{
+    ATP,
+    Glucose
 }

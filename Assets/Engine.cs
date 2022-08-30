@@ -16,6 +16,7 @@ public class Engine : MonoBehaviour
 	private int _defensin_strength;
 	public CellGameEvent EngineEvent = new CellGameEvent();
 	public MessageEvent EngineMessageEvent = new MessageEvent();
+	public ResourceBar Glucose_ResourceBar;
 	private bool[] spend_checker = new bool[] { true, true, true, true, true };
 	public float r_atp
     {
@@ -51,6 +52,8 @@ public class Engine : MonoBehaviour
     void Start()
     {
 		r_atp = 100;
+		if (Glucose_ResourceBar != null)
+			Glucose_ResourceBar.SetMax(r_max_g);
 	}
 
     public void changeZoom(float n)
@@ -163,6 +166,14 @@ public class Engine : MonoBehaviour
     {
 		r_atp += i;
 		EngineEvent?.Invoke("atp_gain", i);
+    }
+
+	public void GainGlucose(float i)
+    {
+		r_g += i;
+		EngineEvent?.Invoke("glucose_gain", i);
+		if (Glucose_ResourceBar != null)
+			Glucose_ResourceBar.Set(i);
     }
 
 	public bool spendATP(float i) 

@@ -43,7 +43,10 @@ public class GoodieGem : CanvasObject
 		//this has to show the money using amount and type. (a 'showMeTheMoney' object)
 
 		//Plays sfx. 
-		GameObject.FindObjectOfType<Engine>().GainATP(amount);
+		if (type == "g")
+		{
+			GameObject.FindObjectOfType<Engine>().GainGlucose(amount);
+		}
 		SfxManager.Play(SFX.SFXCoin);
 		this.gameObject.SetActive(false);
 		

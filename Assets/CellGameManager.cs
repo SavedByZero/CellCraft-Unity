@@ -1,10 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using DG.Tweening;
 
 public class CellGameManager : MonoBehaviour
 {
     public GameObject InfoBubblePrefab;
+    public RawImage Fader;
     public int StartHealth = 100;
     private List<GameObject> _infoBubbles = new List<GameObject>();
     // Start is called before the first frame update
@@ -14,6 +17,10 @@ public class CellGameManager : MonoBehaviour
         for(int i=0; i < cell_objects.Length; i++)
         {
             cell_objects[i].instantSetHealth(StartHealth);
+        }
+        if (Fader != null)
+        {
+            Fader.DOFade(0, 1);
         }
     }
 

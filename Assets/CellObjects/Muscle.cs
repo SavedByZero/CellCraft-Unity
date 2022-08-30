@@ -45,18 +45,18 @@ public class Muscle : MonoBehaviour
        
     }
 
-    public void Stretch(float xDir, float yDir)
+    public void Stretch(float xDir, float yDir, Vector3 raw)
     {
        
         _membrane.GetComponentInChildren<Wiggler>(true).gameObject.SetActive(false);
-        Vector3 norm = new Vector3(xDir, yDir, -Camera.main.transform.position.z).normalized;
+        Vector3 norm = new Vector3(xDir, yDir, 0);// -Camera.main.transform.position.z).normalized;
         Debug.Log("old norm " + norm);
+        Debug.Log("Raw " + raw);
       
-        norm.z = 0;
-        norm = Vector3.ClampMagnitude(norm, 1.44f);
-        //norm.x = Mathf.Round(norm.x);
-        //norm.y = Mathf.Round(norm.y);
-        Debug.Log("norm " + norm);
+       
+        //Vector3 clamped = FastMath.SimpleClamp(norm);
+        
+        //Debug.Log("norm " + norm);
         norm *= _membrane.getRadius();
         Debug.Log("membrane radius " + _membrane.getRadius());
         Debug.Log("ppod muscle to: " + norm);
@@ -65,12 +65,40 @@ public class Muscle : MonoBehaviour
         Debug.Log("current velocity " + _rb.velocity);
         if (!_stretching)
         {
-            _stretching = true;
+           // _stretching = true;  //TODO: undo 
             Vector3 originalPos = this.transform.localPosition;
             _moveVector = norm;//(norm - _rb.transform.position); //new Vector3(norm.x * 4, norm.y * 4, 0);
             //_moveVector.z = -Camera.main.transform.position.z;
+            //_rb.transform.localPosition = norm;
+           // ContactFilter2D cf = new ContactFilter2D();
             
-            _rb.transform.DOBlendableLocalMoveBy(norm, 1f).SetEase(Ease.Linear).OnComplete(new TweenCallback(delegate
+            //cf.SetLayerMask( << 6);
+            RaycastHit2D[] results = new RaycastHit2D[3];
+            int mask = 1 << 6;
+            
+            // Physics.Raycast()
+            RaycastHit2D[] hitInfo;
+            Ray ray = new Ray(this.transform.position, raw);
+            //Physics.SphereCast(ray, 0.5f, out hitInfo,mask);
+            hitInfo = Physics2D.CircleCastAll(this.transform.position, 1, norm,5,mask);
+         
+           // RaycastHit[] hits3D = Physics.RaycastAll(ray, Mathf.Infinity, mask);
+           // Debug.DrawRay(this.transform.position, norm, Color.red,5);
+           
+            for(int i=0; i < hitInfo.Length; i++)
+            {
+                if (hitInfo[i].collider != null )
+                {
+                    if (hitInfo[i].transform.GetComponent<MembraneNode>())
+                    {
+                        hitInfo[i].transform.DOBlendableLocalMoveBy(raw, 1);
+                    }
+                }
+            }
+
+
+           
+            /*_rb.transform.DOBlendableLocalMoveBy((raw/4), 1f).SetEase(Ease.OutQuad).OnComplete(new TweenCallback(delegate
             {
                
                 _stretching = false;
@@ -78,7 +106,7 @@ public class Muscle : MonoBehaviour
                   onMovingTowards?.Invoke(_moveVector.x, _moveVector.y);
                 StartCoroutine(Settle(originalPos));
 
-            }));
+            }));*/
         }
     }
 

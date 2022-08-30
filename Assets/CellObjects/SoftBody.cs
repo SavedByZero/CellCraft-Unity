@@ -9,6 +9,7 @@ public class SoftBody : MonoBehaviour
     // Start is called before the first frame update
     public SpriteShapeController SpriteShape;
     public const float splineOffset = 0.5f;
+    private float _establishedDistanceConstraint;
 
     private List<Transform> points;
 
@@ -43,7 +44,25 @@ public class SoftBody : MonoBehaviour
     IEnumerator delayDistanceTweak(DistanceJoint2D dj)
     {
         yield return new WaitForEndOfFrame();
+        _establishedDistanceConstraint = dj.distance;
         dj.autoConfigureDistance = false;
+    }
+
+    public void BePliable(bool value)
+    {
+        for (int i = 0; i < points.Count; i++)
+        {
+            DistanceJoint2D dj = points[i].GetComponent<DistanceJoint2D>();
+            if (!value)
+            {
+                dj.distance = _establishedDistanceConstraint;
+                dj.autoConfigureDistance = false;
+            }
+            else
+            {
+                dj.autoConfigureDistance = true;
+            }
+        }
     }
 
     public void PrepareNodes()

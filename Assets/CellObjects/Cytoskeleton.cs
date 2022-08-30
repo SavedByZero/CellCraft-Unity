@@ -217,7 +217,7 @@ public class Cytoskeleton : CellObject
 		}
 	}
 
-	public bool tryPseudopod(float x2, float y2, float cost)
+	public bool tryPseudopod(float x2, float y2, float cost, Vector3 raw)
 	{
 		//p_engine.onPseudopod();  //TODO
 		Debug.Log("ppod:  mouse click at " + x2 + "," + y2);
@@ -241,11 +241,12 @@ public class Cytoskeleton : CellObject
 
 		Vector2 v = new Vector2(dx, dy); //get a vector from the point to the centrosome
 		Debug.Log("distance v to point is " + v);
+		//Vector3 raw = new Vector3(x2, y2, -Camera.main.transform.position.z);
 
 		
 		v.Normalize();                         //make it a unit vector
-		float finalX = x2;//v.x;
-		float finalY = y2;//v.y;
+		float finalX = v.x;
+		float finalY = v.y;
 		Debug.Log("v normalized is " + v);
 
 		v *= ((cent_radius - (PPOD_RADIUS))); //find the point right near the edge of the membrane. 
@@ -261,7 +262,7 @@ public class Cytoskeleton : CellObject
 		
 		Microtubule m = makePPodMicrotubule(p);  //the origin is 0,0, the terminus is p
 
-		p_membrane.StretchMembrane(dx, dy); // (finalX, finalY);//(finalX*4, finalY*4);
+		p_membrane.StretchMembrane(finalX, finalY, raw);//(dx, dy); // (finalX, finalY);//(finalX*4, finalY*4);
 		m.onReadyToContract += delegate
 		{
 			
@@ -280,7 +281,7 @@ public class Cytoskeleton : CellObject
 
 		m.setObjectSelf(); //the microtubule's cellObject is itself!
 		m.setSpeed(PPOD_SPEED); //.12? was 12. 
-		m.ppodTo(x2, y2); //ppod to the moriginal mouse position
+		//m.ppodTo(x2, y2); //ppod to the moriginal mouse position
 		
 		SfxManager.Play(SFX.SFXDrain);
 		p_cell.spendATP(cost, p, 1, 0, false);
@@ -467,7 +468,7 @@ public class Cytoskeleton : CellObject
 		int j = 0;
 		float r = GRAV_RADIUS;
 		float rr = p_membrane.getRadius();
-		Debug.Log("membrane radius " + rr);
+		//Debug.Log("membrane radius " + rr);
 		float frac = MEM_FRAC;
 		cent_radius = (3.8f/2) * p_centrosome.transform.localScale.x; //rr * frac;
 		for (j = 0; j < length; j++)

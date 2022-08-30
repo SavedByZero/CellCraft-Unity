@@ -10,7 +10,7 @@ public class GoodieManager : MonoBehaviour
     void Start()
     {
         _fieldSR = GetComponentInChildren<Terrain>().GetComponentInChildren<SpriteRenderer>();
-        PlaceGem("g", 10, new Vector3(6,6,-Camera.main.transform.position.z));
+        PlaceGem("g", 10, new Vector3(3,3,0));
     }
 
     //Place a gem of a certain type at a certain spot

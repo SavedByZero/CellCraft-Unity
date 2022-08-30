@@ -176,11 +176,13 @@ public class Membrane : CellObject
 	public Transform Anchor;
 	private List<MembraneNode> _nodePool;
 	public Muscle Mover;
+	private ObjectiveManager _om;
 
 	private void Awake()
 	{
+		_om = GetComponentInParent<ObjectiveManager>();
 		_nodePool = new List<MembraneNode>();
-		Mover.onFinishStretching += moverFinishedStretching;
+		//Mover.onFinishStretching += moverFinishedStretching;
 		//shape_cyto = gameObject.AddComponent<Graphics>();
 		//m_rim = Rim.AddComponent<Graphics>();
 		//m_rim.TextureName = "MembraneOuter";
@@ -1178,17 +1180,18 @@ public class Membrane : CellObject
 		d2 /= (Costs.MOVE_DISTANCE2/100);   //divide the square by the cost / 100.  This part is really just to figure the cost of the move by distance.
 
 		float cost = Costs.PSEUDOPOD[0] * d2 * 100;
+		//cost = 12;  //TODO: debug hack. undo. 
 		Debug.Log("total cost:" + cost);
-		if (p_engine.canAfford((int)cost, 0, 0, 0, 0))//TODO
+		if (p_engine.canAfford((int)cost, 0, 0, 0, 0))
 		{
 			p_engine.spendATP((int)cost);
 			p_skeleton.cancelPseudopod(); //only 1 ppod at once!
-			if (p_skeleton.tryPseudopod(xx, yy, cost))         //pass the mouse click coords to p_skeleton.tryPseudopod.
+			if (p_skeleton.tryPseudopod(xx, yy, cost, new Vector3(xx, yy) - new Vector3(mouseDown_x,mouseDown_y )))         //pass the mouse click coords to p_skeleton.tryPseudopod.
             {
 				
 				
-				
 			}
+			_om.onCompleteObjective?.Invoke(ObjectiveManager.GameObjective.MakeAPseudoPod);
 		}
 		else  //TODO
 		{
@@ -1204,11 +1207,11 @@ public class Membrane : CellObject
 		_canMove = true;
     }
 
-	public void StretchMembrane(float xx, float yy)
+	public void StretchMembrane(float xx, float yy, Vector3 raw)
     {
 		Debug.Log("stretching toward " + xx + "," + yy);
 		//Bookmark: the new way of moving the membrane
-		Mover.Stretch(xx, yy);
+		GetComponentInChildren<Muscle>().Stretch(xx, yy, raw);
 	}
 
 	/**
@@ -1660,7 +1663,7 @@ public class Membrane : CellObject
 			{
 				if (d2_mouse > D2_PPOD)
 				{
-					Debug.Log("trying pseudopod");
+					Debug.Log("trying pseudopod" + mouse);
 					_canMove = false;
 					StartCoroutine(cooldownFromMove());
 					tryPseudopod(mouse.x, mouse.y);

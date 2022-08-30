@@ -15,6 +15,25 @@ public class FastMath
 			return n;
 	}
 
+	public static Vector3 SimpleClamp(Vector3 toClamp)
+    {
+		Vector3 newV = new Vector3();
+		if (toClamp.x >= 0.45f)
+			newV.x = 1f;
+		else if (toClamp.x <= -0.45f)
+			newV.x = -1f;
+		
+
+		if (toClamp.y >= 0.45f)
+			newV.y = 1f;
+		else if (toClamp.y <= -0.45f)
+			newV.y = -1f;
+		
+
+
+		return newV;
+    }
+
 	public static Vector3 GetWorldPositionOnPlane(float z)
 	{
 		Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
