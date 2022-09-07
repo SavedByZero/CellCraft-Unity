@@ -15,7 +15,7 @@ public class MembraneAnchor : MonoBehaviour
 
     private void OnMouseDown()
     {
-
+        Debug.Log(Camera.main.ScreenToWorldPoint(Input.mousePosition));
         onMembraneAreaClicked?.Invoke();
 
     }

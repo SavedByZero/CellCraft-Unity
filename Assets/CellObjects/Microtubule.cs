@@ -9,8 +9,11 @@ using UnityEngine;
 
 public class Microtubule : CellObject
 {
-	public delegate void ReadyToContract();
-	public ReadyToContract onReadyToContract;
+	
+	
+	public delegate void NewTrajectory(Vector2 t);
+	public NewTrajectory onNewTrajectory;
+
 	public Point origin;
 	public Point terminus;
 	public Point finishPoint = new Point(0,0);
@@ -66,8 +69,9 @@ public class Microtubule : CellObject
 		private const int INSTANT_GROW_FAILSAFE = 10;
 	private bool _shouldGrow;
 
+  
 
-	public override void Start()
+    public override void Start()
     {
         base.Start();
 		canSelect = false;
@@ -216,6 +220,7 @@ public class Microtubule : CellObject
 	{
 		xLoc = x;
 		yLoc = y;
+		Debug.Log("micro: instant grow ");
 		calcTrajectory(terminus);
 		instantGrowBit();
 	}
@@ -250,11 +255,11 @@ public class Microtubule : CellObject
 		origin.y = terminus.y;
 		xLoc = terminus.x;
 		yLoc = terminus.y;
-		Debug.Log("micro6: starting x,yLocs to old terminus (the rim) " + terminus);
+		
 		terminus.x = xx;
 		terminus.y = yy;
 		Debug.Log("micro7: setting new terminus as the xx, yy of mouse click " + terminus);
-		calcTrajectory(terminus); //get the distance from xLoc, yLoc(edge of membrane?) to the terminus(which is now the mouse point).  normalize it. multiply it by the speed.
+		calcTrajectory(terminus, true); //get the distance from xLoc, yLoc(edge of membrane?) to the terminus(which is now the mouse point).  normalize it. multiply it by the speed.
 		                         // then set xSpeed and ySpeed to its NEGATIVE x and y values.
 		isMoving = true;
 		//_GrowBitRoutine = StartCoroutine(growBit());
@@ -265,13 +270,13 @@ public class Microtubule : CellObject
 	{
 		xLoc = x;
 		yLoc = y;
-		calcTrajectory(terminus);
+		//calcTrajectory(terminus);
 		isMoving = true;
 		//_GrowBitRoutine = StartCoroutine(growBit());
 		_shouldGrow = true;
 	}
 
-	private void calcTrajectory(Point p)
+	private void calcTrajectory(Point p, bool invoke = false)
 	{
 
 
@@ -284,6 +289,9 @@ public class Microtubule : CellObject
 		angle -= 90;
 
 		dist *= speed;
+		if (invoke)
+			onNewTrajectory?.Invoke(-dist);
+		
 		Debug.Log("micro3: finding speed: " + -dist);
 		xSpeed = -dist.x;
 		ySpeed = -dist.y;
@@ -332,6 +340,7 @@ public class Microtubule : CellObject
 		origin.y = tempY;
 		xLoc = origin.x;
 		yLoc = origin.y;
+		Debug.Log("starting to contract.");
 		calcTrajectory(terminus);
 		//_GrowBitRoutine = StartCoroutine(growBit());
 		_shouldGrow = true;
@@ -429,7 +438,7 @@ public class Microtubule : CellObject
 			p_skeleton.onFinishPPod();
 			SfxManager.Play(SFX.SFXMudStep);
 			SfxManager.Play(SFX.SFXMudSlide);
-			onReadyToContract?.Invoke();
+			//onReadyToContract?.Invoke();
 			//Debug.Log("ready to contract" + Time.time);
 			StartCoroutine(delayBeforecontracting());
 		}
@@ -508,6 +517,7 @@ public class Microtubule : CellObject
 
 			if (counter * speed > 50f) //is this how long it waits to calculate the trajectory and aim?PROD_R
 			{
+				Debug.Log("from growBitHelper");
 				calcTrajectory(terminus);
 				counter = 0;
 			}

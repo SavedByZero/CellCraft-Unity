@@ -52,15 +52,22 @@ public class SoftBody : MonoBehaviour
     {
         for (int i = 0; i < points.Count; i++)
         {
-            DistanceJoint2D dj = points[i].GetComponent<DistanceJoint2D>();
+            SpringJoint2D[] joints = points[i].GetComponents<SpringJoint2D>();
             if (!value)
             {
-                dj.distance = _establishedDistanceConstraint;
-                dj.autoConfigureDistance = false;
+                joints[0].frequency = 1.2f;
+                joints[1].frequency = 1.2f;
+                joints[2].frequency = 1.2f;
+                //dj.distance = _establishedDistanceConstraint;
+                //dj.autoConfigureDistance = false;
+                
             }
             else
             {
-                dj.autoConfigureDistance = true;
+                joints[0].frequency = 0.1f;
+                joints[1].frequency = 0.1f;
+                joints[2].frequency = 0.1f;
+                //dj.autoConfigureDistance = true;
             }
         }
     }

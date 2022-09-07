@@ -1180,7 +1180,7 @@ public class Membrane : CellObject
 		d2 /= (Costs.MOVE_DISTANCE2/100);   //divide the square by the cost / 100.  This part is really just to figure the cost of the move by distance.
 
 		float cost = Costs.PSEUDOPOD[0] * d2 * 100;
-		//cost = 12;  //TODO: debug hack. undo. 
+		
 		Debug.Log("total cost:" + cost);
 		if (p_engine.canAfford((int)cost, 0, 0, 0, 0))
 		{
@@ -1207,11 +1207,13 @@ public class Membrane : CellObject
 		_canMove = true;
     }
 
+
+
 	public void StretchMembrane(float xx, float yy, Vector3 raw)
     {
 		Debug.Log("stretching toward " + xx + "," + yy);
 		//Bookmark: the new way of moving the membrane
-		GetComponentInChildren<Muscle>().Stretch(xx, yy, raw);
+		//GetComponentInChildren<Muscle>().Stretch(xx, yy, raw);
 	}
 
 	/**
@@ -1663,7 +1665,7 @@ public class Membrane : CellObject
 			{
 				if (d2_mouse > D2_PPOD)
 				{
-					Debug.Log("trying pseudopod" + mouse);
+					//Debug.Log("trying pseudopod" + mouse);
 					_canMove = false;
 					StartCoroutine(cooldownFromMove());
 					tryPseudopod(mouse.x, mouse.y);
@@ -1733,7 +1735,7 @@ public class Membrane : CellObject
 		mouseDown_x = mouse.x;
 		mouseDown_y = mouse.y;
 		//p_cell.dispatchEvent(m);
-		Debug.Log("mouse down" + mouse);
+		//Debug.Log("mouse down" + mouse);
 		_doMouseMoveRoutine = StartCoroutine(doMouseMove());
 		
 		Arrow.SetPosition(mouse.x, mouse.y, mouse.x, mouse.y);

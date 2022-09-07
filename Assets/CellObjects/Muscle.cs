@@ -14,6 +14,8 @@ public class Muscle : MonoBehaviour
     public bool Debugg;
     public delegate void MovingTowards(float x, float y);
     public MovingTowards onMovingTowards;
+    private float _strength;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -45,12 +47,23 @@ public class Muscle : MonoBehaviour
        
     }
 
-    public void Stretch(float xDir, float yDir, Vector3 raw)
+    public void GetTrajectory(Vector2 traj)
+    {
+        Stretch(traj);
+    }
+
+    public void SetStrength(float strength)
+    {
+        _strength *= 2.5f; //
+        _strength = Mathf.Max(strength,4.5f);
+    }
+
+    public void Stretch(Vector2 raw)
     {
        
         _membrane.GetComponentInChildren<Wiggler>(true).gameObject.SetActive(false);
-        Vector3 norm = new Vector3(xDir, yDir, 0);// -Camera.main.transform.position.z).normalized;
-        Debug.Log("old norm " + norm);
+        Vector3 norm = new Vector3(raw.x, raw.y);//(xDir, yDir, 0);// -Camera.main.transform.position.z).normalized;
+        //Debug.Log("old norm " + norm);
         Debug.Log("Raw " + raw);
       
        
@@ -58,14 +71,14 @@ public class Muscle : MonoBehaviour
         
         //Debug.Log("norm " + norm);
         norm *= _membrane.getRadius();
-        Debug.Log("membrane radius " + _membrane.getRadius());
-        Debug.Log("ppod muscle to: " + norm);
+        //Debug.Log("membrane radius " + _membrane.getRadius());
+        //Debug.Log("ppod muscle to: " + norm);
    
         _rb.gameObject.SetActive(true);
-        Debug.Log("current velocity " + _rb.velocity);
+        //Debug.Log("current velocity " + _rb.velocity);
         if (!_stretching)
         {
-           // _stretching = true;  //TODO: undo 
+            _stretching = true; 
             Vector3 originalPos = this.transform.localPosition;
             _moveVector = norm;//(norm - _rb.transform.position); //new Vector3(norm.x * 4, norm.y * 4, 0);
             //_moveVector.z = -Camera.main.transform.position.z;
@@ -80,18 +93,25 @@ public class Muscle : MonoBehaviour
             RaycastHit2D[] hitInfo;
             Ray ray = new Ray(this.transform.position, raw);
             //Physics.SphereCast(ray, 0.5f, out hitInfo,mask);
-            hitInfo = Physics2D.CircleCastAll(this.transform.position, 1, norm,5,mask);
-         
-           // RaycastHit[] hits3D = Physics.RaycastAll(ray, Mathf.Infinity, mask);
-           // Debug.DrawRay(this.transform.position, norm, Color.red,5);
-           
+            hitInfo = Physics2D.CircleCastAll(this.transform.position, 1.1f, norm,5,mask);
+
+            // RaycastHit[] hits3D = Physics.RaycastAll(ray, Mathf.Infinity, mask);
+            // Debug.DrawRay(this.transform.position, norm, Color.red,5);
+             _membrane.Skin.BePliable(true);
+            raw *= 1f;
             for(int i=0; i < hitInfo.Length; i++)
             {
                 if (hitInfo[i].collider != null )
                 {
                     if (hitInfo[i].transform.GetComponent<MembraneNode>())
                     {
-                        hitInfo[i].transform.DOBlendableLocalMoveBy(raw, 1);
+                        hitInfo[i].transform.DOBlendableLocalMoveBy(raw*_strength, 1.25f).SetEase(Ease.Linear).SetDelay(.4f).OnComplete(new TweenCallback(delegate {
+                            _stretching = false;
+                             _membrane.Skin.BePliable(false);
+                            onMovingTowards?.Invoke(_moveVector.x, _moveVector.y);
+                            onFinishStretching?.Invoke();
+                            StartCoroutine(reactivateWiggle());
+                        }));
                     }
                 }
             }
@@ -108,6 +128,13 @@ public class Muscle : MonoBehaviour
 
             }));*/
         }
+    }
+
+    IEnumerator reactivateWiggle()
+    {
+        yield return new WaitForSeconds(1.5f);
+        _membrane.GetComponentInChildren<Wiggler>(true).gameObject.SetActive(true);
+
     }
 
     private void Update()
