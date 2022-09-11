@@ -131,6 +131,8 @@ public class MovieClip : MonoBehaviour
 
     public void Play()
     {
+        if (_spriteIndex >= Sprites.Length)
+            _spriteIndex = 0;
         this.sprite = Sprites[_spriteIndex];
         Debug.Log("current index " + _spriteIndex);
         _playing = true;

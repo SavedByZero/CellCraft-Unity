@@ -10,7 +10,7 @@ public class GoodieManager : MonoBehaviour
     void Start()
     {
         _fieldSR = GetComponentInChildren<Terrain>().GetComponentInChildren<SpriteRenderer>();
-        PlaceGem("g", 10, new Vector3(3,3,0));
+        PlaceGem("g", 10, new Vector3(7,7,0));
     }
 
     //Place a gem of a certain type at a certain spot

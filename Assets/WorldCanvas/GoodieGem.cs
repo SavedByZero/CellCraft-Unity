@@ -4,10 +4,11 @@ using UnityEngine.UI;
 using System.Text;
 using System.Threading.Tasks;
 using UnityEngine;
+using TMPro;
 
 public class GoodieGem : CanvasObject
 {
-	public Text text;
+	public TextMeshProUGUI text;
 	public MovieClip icon;
 	public MovieClip icon2;	
 	private string type;

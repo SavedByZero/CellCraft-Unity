@@ -40,6 +40,7 @@ public class HUDManager : MonoBehaviour
                 break;
             case "glucose_gain": //glucose
                 ATPUsed.ShowResourceChange((int)i, false, IconType.Glucose);
+               ObjectiveManager.GetInstance().onCompleteObjective?.Invoke(ObjectiveManager.GameObjective.FindGlucose);
                 break;
         }
     }

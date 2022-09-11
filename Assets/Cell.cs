@@ -800,7 +800,7 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 			{
 				h.warble_sign *= -1;
 			}
-			h.startWarble();
+			//h.startWarble();
 			h.updateLoc();
 			i++;
 		}

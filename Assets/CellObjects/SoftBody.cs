@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.U2D;
+using DG.Tweening;
 
 public class SoftBody : MonoBehaviour
 {
@@ -55,9 +56,8 @@ public class SoftBody : MonoBehaviour
             SpringJoint2D[] joints = points[i].GetComponents<SpringJoint2D>();
             if (!value)
             {
-                joints[0].frequency = 1.2f;
-                joints[1].frequency = 1.2f;
-                joints[2].frequency = 1.2f;
+                StartCoroutine(stiffen(joints[0],joints[1],joints[2]));
+                
                 //dj.distance = _establishedDistanceConstraint;
                 //dj.autoConfigureDistance = false;
                 
@@ -67,9 +67,25 @@ public class SoftBody : MonoBehaviour
                 joints[0].frequency = 0.1f;
                 joints[1].frequency = 0.1f;
                 joints[2].frequency = 0.1f;
+              //  joints[0].dampingRatio = 0.6f;
                 //dj.autoConfigureDistance = true;
             }
         }
+    }
+
+    IEnumerator stiffen(SpringJoint2D one, SpringJoint2D two, SpringJoint2D three)
+    {
+        float amt = one.frequency;
+        while (amt < 0.6)
+        {
+            yield return new WaitForSeconds(0.2f);
+            amt += 0.05f;
+           // one.dampingRatio -= 0.025f;
+            one.frequency = amt;
+            two.frequency = amt;
+            three.frequency = amt;
+        }
+
     }
 
     public void PrepareNodes()

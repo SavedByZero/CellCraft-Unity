@@ -176,11 +176,11 @@ public class Membrane : CellObject
 	public Transform Anchor;
 	private List<MembraneNode> _nodePool;
 	public Muscle Mover;
-	private ObjectiveManager _om;
+	
 
 	private void Awake()
 	{
-		_om = GetComponentInParent<ObjectiveManager>();
+		//_om = GetComponentInParent<ObjectiveManager>();
 		_nodePool = new List<MembraneNode>();
 		//Mover.onFinishStretching += moverFinishedStretching;
 		//shape_cyto = gameObject.AddComponent<Graphics>();
@@ -1191,7 +1191,7 @@ public class Membrane : CellObject
 				
 				
 			}
-			_om.onCompleteObjective?.Invoke(ObjectiveManager.GameObjective.MakeAPseudoPod);
+			ObjectiveManager.GetInstance().onCompleteObjective?.Invoke(ObjectiveManager.GameObjective.MakeAPseudoPod);
 		}
 		else  //TODO
 		{

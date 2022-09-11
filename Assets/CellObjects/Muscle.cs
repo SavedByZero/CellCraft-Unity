@@ -54,8 +54,13 @@ public class Muscle : MonoBehaviour
 
     public void SetStrength(float strength)
     {
-        _strength *= 2.5f; //
-        _strength = Mathf.Max(strength,4.5f);
+       
+        _strength = strength;
+        Debug.Log("Setting strength " + strength);
+        _strength *= 5f; //
+       
+        _strength = Mathf.Max(_strength,5.5f);
+        Debug.Log("Setting strength2 " + _strength);
     }
 
     public void Stretch(Vector2 raw)
@@ -93,24 +98,27 @@ public class Muscle : MonoBehaviour
             RaycastHit2D[] hitInfo;
             Ray ray = new Ray(this.transform.position, raw);
             //Physics.SphereCast(ray, 0.5f, out hitInfo,mask);
-            hitInfo = Physics2D.CircleCastAll(this.transform.position, 1.1f, norm,5,mask);
+            hitInfo = Physics2D.CircleCastAll(this.transform.position, 0.5f, norm,5,mask);
 
             // RaycastHit[] hits3D = Physics.RaycastAll(ray, Mathf.Infinity, mask);
             // Debug.DrawRay(this.transform.position, norm, Color.red,5);
              _membrane.Skin.BePliable(true);
-            raw *= 1f;
-            for(int i=0; i < hitInfo.Length; i++)
+            
+            Debug.Log("pod moving " + raw);
+            raw *= _strength;
+            Debug.Log("pod moving2 " + raw);
+            for (int i=0; i < hitInfo.Length; i++)
             {
                 if (hitInfo[i].collider != null )
                 {
                     if (hitInfo[i].transform.GetComponent<MembraneNode>())
                     {
-                        hitInfo[i].transform.DOBlendableLocalMoveBy(raw*_strength, 1.25f).SetEase(Ease.Linear).SetDelay(.4f).OnComplete(new TweenCallback(delegate {
+                        hitInfo[i].transform.DOBlendableLocalMoveBy(raw, 1.25f).SetEase(Ease.Linear).SetDelay(.4f).OnComplete(new TweenCallback(delegate {
                             _stretching = false;
                              _membrane.Skin.BePliable(false);
                             onMovingTowards?.Invoke(_moveVector.x, _moveVector.y);
                             onFinishStretching?.Invoke();
-                            StartCoroutine(reactivateWiggle());
+                            //StartCoroutine(reactivateWiggle());
                         }));
                     }
                 }
