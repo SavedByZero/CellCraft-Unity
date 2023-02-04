@@ -11,6 +11,16 @@ public class Engine : MonoBehaviour
 {
 	public delegate void ATPChanged(float atp);
 	public ATPChanged onATPChanged;
+	public delegate void NAChanged(float na);
+	public ATPChanged onNAChanged;
+	public delegate void AAChanged(float aa);
+	public ATPChanged onAAChanged;
+	public delegate void FAChanged(float fa);
+	public ATPChanged onFAChanged;
+	public delegate void GChanged(float g);
+	public ATPChanged onGChanged;
+
+
 	private int _defensins_produced;
 	private int _defensins_ordered;
 	private int _defensin_strength;
@@ -31,11 +41,70 @@ public class Engine : MonoBehaviour
 			onATPChanged?.Invoke(r_atp_);
         }
     }
+
+	public float r_na
+    {
+		get
+        {
+			return r_na_;
+        }
+
+		set
+        {
+			r_na_ = value;
+			onNAChanged?.Invoke(r_na_);
+			
+        }
+    }
+
+	public float r_aa
+    {
+		get
+        {
+			return r_aa_;
+        }
+
+		set
+        {
+			r_aa_ = value;
+			onAAChanged?.Invoke(r_aa_);
+        }
+    }
+
+	public float r_fa
+    {
+		get
+		{
+			return r_fa_;
+		}
+
+		set
+		{
+			r_fa_ = value;
+			onFAChanged?.Invoke(r_fa_);
+		}
+	}
+
+	public float r_g
+    {
+		get
+		{
+			return r_g_;
+		}
+
+		set
+		{
+			r_g_ = value;
+			onGChanged?.Invoke(r_g_);
+		}
+	}
+
+
 	private float r_atp_ = 100;
-	private float r_na = 0;
-	private float r_aa = 0;
-	private float r_fa = 0;
-	private float r_g = 0;
+	private float r_na_ = 0;
+	private float r_aa_ = 0;
+	private float r_fa_ = 0;
+	private float r_g_ = 0;
 
 	private float r_max_atp = 10000;
 	private float r_max_na = 1000;
@@ -51,7 +120,7 @@ public class Engine : MonoBehaviour
 
     void Start()
     {
-		r_atp = 100;
+		//r_atp = 100;
 		if (Glucose_ResourceBar != null)
 			Glucose_ResourceBar.SetMax(r_max_g);
 	}

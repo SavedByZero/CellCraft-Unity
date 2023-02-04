@@ -48,26 +48,53 @@ public class Terrain : CellGameObject
 		
 	private float t_width;
 	private float t_height;
-	private Nucleus _nucleus;
+	private CellObject _centerPoint;
 	private bool _following;
-    void Start()
+    public override void Start()
     {
+		_currentSkin = Skins[0];
+		base.Start();
 		//initTerrain has to somehow be called with parameters
-		SwitchSkin(0);
+		//SwitchSkin(0);
 		GameObject.FindObjectOfType<Muscle>().onMovingTowards += ShiftDirection;
-		_nucleus = GameObject.FindObjectOfType<Nucleus>();
+		_centerPoint = GameObject.FindObjectOfType<Centrosome>();
 	}
 
-	void SwitchSkin(int index)
+	public void SwitchSkin(string skinname)
     {
-		for(int i=0; i < Skins.Length; i++)
+		int index = 0;
+		Color color = Color.white;
+		switch (skinname)
         {
-			Skins[i].SetActive(i == index);
-			if (i==index)
-            {
-				_currentSkin = Skins[i];
-            }
+			case "petridish":
+				index = 0;
+				break;
+			case "petridish_gold":
+				index = 1;
+				color = new Color(1, 215f / 255f, 0);
+				break;
+			case "petridish_silver":
+				index = 1;
+				break;
+			case "petridish_green":
+				index = 1;
+				color = new Color(29f/255f, 249f/255f, 29f/255f);
+				break;
+			case "monstermouth":
+				index = 2;
+				break;
         }
+
+		SwitchSprite(index, color);
+    }
+
+	public void SwitchSprite(int index, Color color)
+    {
+		if (_currentSkin == null)
+			_currentSkin = Skins[0];
+		SpriteRenderer sr = _currentSkin.GetComponentInChildren<SpriteRenderer>();
+		sr.sprite = Sprites[index];
+		sr.color = color;
     }
 
 	public void ShiftDirection(float cellDirX, float cellDirY)
@@ -199,9 +226,9 @@ public class Terrain : CellGameObject
     {
 		if (_following)
         {
-			this.transform.localPosition = new Vector3(_nucleus.transform.localPosition.x,_nucleus.transform.localPosition.y,1);//.DOBlendableLocalMoveBy(dir, 3f).SetDelay(0f);//this.transform.position += dir;
-			Camera.main.transform.localPosition = new Vector3(_nucleus.transform.localPosition.x,_nucleus.transform.localPosition.y,Camera.main.transform.localPosition.z);//DOBlendableLocalMoveBy(dir, 3f).SetDelay(0f);//Camera.main.transform.position += dir;
-			_currentSkin.transform.localPosition = -_nucleus.transform.position;//DOBlendableLocalMoveBy(-dir, 3f).SetDelay(0f);//_currentSkin.transform.position += dir;
+			this.transform.localPosition = new Vector3(_centerPoint.transform.localPosition.x,_centerPoint.transform.localPosition.y,1);//.DOBlendableLocalMoveBy(dir, 3f).SetDelay(0f);//this.transform.position += dir;
+			Camera.main.transform.localPosition = new Vector3(_centerPoint.transform.localPosition.x, _centerPoint.transform.localPosition.y, Camera.main.transform.localPosition.z);//DOBlendableLocalMoveBy(dir, 3f).SetDelay(0f);//Camera.main.transform.position += dir;
+			_currentSkin.transform.localPosition = -_centerPoint.transform.position;//DOBlendableLocalMoveBy(-dir, 3f).SetDelay(0f);//_currentSkin.transform.position += dir;
 		
 		}
         

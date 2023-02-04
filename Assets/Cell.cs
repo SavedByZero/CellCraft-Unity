@@ -23,11 +23,11 @@ public class Cell : CellGameObject
 	public float r_fa = 0;
 	public float r_g = 0;
 
-	public float r_max_atp = 1;
-	public float r_max_na = 1;
-	public float r_max_aa = 1;
-	public float r_max_fa = 1;
-	public float r_max_g = 1;
+	public float r_max_atp = 1000;
+	public float r_max_na = 1000;
+	public float r_max_aa = 1000;
+	public float r_max_fa = 1000;
+	public float r_max_g = 1000;
 		
 	public float toxin_level = 0;
 		
@@ -198,10 +198,10 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 		setEngine(p_engine);
 		base.Start();
 	
-		init(); //TODO: this is a placeholder to test the init method.
+		//Init(); //TODO: this is a placeholder to test the init method.
     }
 
-    public void init()
+    public void Init(int mito, int chloro, int ribo, int lyso, int slicer, int perox)
 	{
 		if (gdata == null)
 			makeGameDataObject();
@@ -210,7 +210,7 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 		makeObjectGrid();
 		
 		setChildren();
-		makeLists();
+		makeLists(mito, chloro, ribo, lyso, slicer, perox);
 		_runRoutine = StartCoroutine(run());//
 		
 
@@ -353,13 +353,8 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 		}
 	}
 
-	public void setResources(int atp, int na, int aa, int fa, int g, int max_atp, int max_na, int max_aa, int max_fa, int max_g)
+	public void setResources(int atp, int na, int aa, int fa, int g)
 	{
-		r_max_atp = max_atp;
-		r_max_na = max_na;
-		r_max_aa = max_aa;
-		r_max_fa = max_fa;
-		r_max_g = max_g;
 		r_atp = atp;
 		r_aa = aa;
 		r_na = na;
@@ -882,6 +877,7 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 	private void makeStartMitochondria(int n)
 	{
 		List<float> c = new List<float>() { -.50f, -2.00f, -1.50f, -2.00f, .50f, -2.00f };
+		
 		for (int i = 0; i < n; i++) 
 		{
 			Mitochondrion m = makeMitochondrion();
@@ -1008,7 +1004,7 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 		}
 	}
 		
-		public void makeLists()
+		public void makeLists(int mito=0, int chloro=0, int ribo=0, int lyso = 0, int slicer = 0, int perox = 0)
 	{
 		list_chlor = new List< Chloroplast >();
 		list_lyso = new List< Lysosome >();
@@ -1027,18 +1023,14 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 
 		makeRunningList();
 		makeSelectableList();
-		//makeStartSlicers(5); //-
-		//makeStartRibosomes(5);//-
-		//makeStartLysosomes(5);//-
-		//makeStartMitochondria(2);//-
-		//makeStartChloroplasts(2); //-
-		//makeStartPeroxisomes(2); //
-		/*makeStartSlicers(p_engine.lvl.levelData.start_slicers);   //TODO
-		makeStartRibosomes(p_engine.lvl.levelData.start_ribos);
-		makeStartMitochondria(p_engine.lvl.levelData.start_mitos);
-		makeStartChloroplasts(p_engine.lvl.levelData.start_chloros);
-		makeStartPeroxisomes(p_engine.lvl.levelData.start_peroxs);
-		makeStartLysosomes(p_engine.lvl.levelData.start_lysos);*/
+		makeStartRibosomes(ribo);//-
+		makeStartLysosomes(lyso);//-
+		makeStartMitochondria(mito);//-
+		makeStartChloroplasts(chloro); //-
+		makeStartPeroxisomes(perox); //
+		makeStartSlicers(slicer);
+
+		
 		makeStartHardPoints();
 
 		
@@ -2103,7 +2095,7 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 
 	private ProteinGlob makeProteinGlob()
 	{
-		ProteinGlob p = new ProteinGlob();
+		ProteinGlob p = new ProteinGlob(); //TODO: instantiate prefab;
 		p.transform.SetParent(this.transform);
 		p.setCell(this);
 		list_junk.Add(p);

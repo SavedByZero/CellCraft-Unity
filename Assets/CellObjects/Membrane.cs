@@ -178,8 +178,10 @@ public class Membrane : CellObject
 	public Muscle Mover;
 	
 
-	private void Awake()
+	public override void Awake()
 	{
+		base.Awake();
+
 		//_om = GetComponentInParent<ObjectiveManager>();
 		_nodePool = new List<MembraneNode>();
 		//Mover.onFinishStretching += moverFinishedStretching;
@@ -224,6 +226,8 @@ public class Membrane : CellObject
 
 		//shape_cyto.SetFillColor(FastMath.ConvertFromUint(0x44aaff));
 		GetComponentInChildren<MembraneAnchor>().onMembraneAreaClicked += OnMouseDown;
+
+		
 	}
 
     private void Update()
@@ -1679,7 +1683,8 @@ public class Membrane : CellObject
 		}
 		isMouseDown = false;
 		hideCursor(); //go back from the bleb cursor to nothing
-		StopCoroutine(_doMouseMoveRoutine);
+		if (_doMouseMoveRoutine != null)
+			StopCoroutine(_doMouseMoveRoutine);
 	}
 
 	private void hideTargetter()

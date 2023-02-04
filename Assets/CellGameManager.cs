@@ -8,15 +8,36 @@ public class CellGameManager : MonoBehaviour
 {
     public GameObject InfoBubblePrefab;
     public RawImage Fader;
-    public int StartHealth = 100;
+    private int _startHealth = 100;
+    public int StartHealth
+    {
+        get
+        {
+            return _startHealth;
+        }
+
+        set
+        {
+            _startHealth = value;
+        }
+       
+    }
     private List<GameObject> _infoBubbles = new List<GameObject>();
     // Start is called before the first frame update
     void Start()
     {
+        Kickoff(); 
+    }
+    
+    public void Kickoff()
+    {
         CellObject[] cell_objects = GetComponentsInChildren<CellObject>();
-        for(int i=0; i < cell_objects.Length; i++)
+        for (int i = 0; i < cell_objects.Length; i++)
         {
-            cell_objects[i].instantSetHealth(StartHealth);
+            //TODO: make sure these are set when individually activated
+            //if (cell_objects[i].gameObject.activeSelf)
+            if (cell_objects[i].getHealth() < StartHealth)
+                cell_objects[i].instantSetHealth(StartHealth);
         }
         if (Fader != null)
         {

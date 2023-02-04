@@ -197,7 +197,8 @@ public class SfxManager
                 return Resources.Load<AudioClip>(loc + "SFXZlap");
             case SFX.MusicBattleIntro:
                 return Resources.Load<AudioClip>(loc + "MusicBattleIntro");
-
+            case SFX.SFXBubble:
+                return Resources.Load<AudioClip>(loc + "Bubble");
 
         }
         return null;
@@ -243,6 +244,7 @@ public enum SFX
     SFXWriting,
     SFXZap,
     SFXZlap,
+    SFXBubble,
     MusicBattleIntro,
 
 

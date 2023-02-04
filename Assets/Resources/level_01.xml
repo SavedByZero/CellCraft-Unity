@@ -125,7 +125,7 @@
 				<discovery id="na"/>
 				<showTutorial id="Nucleic acids">
 					<tutorial title="You discovered Nucleic Acids!" slide="discover_na"/>
-					<tutorial title="Nucleic Acids are used to make DNA & RNA" slide="about_na" />
+					<tutorial title="Nucleic Acids are used to make DNA %26amp; RNA" slide="about_na" />
 				</showTutorial>
 				<show_resource id="na"/>
 				<throw_flag id="find_aa_na"/> 
@@ -133,7 +133,7 @@
 		</objective>
 				
 		<objective id="find_aa_na_2" active="false" sound="0" trigger="false"> 
-			<data name="Find Amino Acids & Nucleic Acids (NA)" hidden="true" type="throw_flag" targetType="find_aa_na" targetNum="2" progress="0" targetCondition="gr_eq" delay="0"/>
+			<data name="Find Amino Acids %26amp; Nucleic Acids (NA)" hidden="true" type="throw_flag" targetType="find_aa_na" targetNum="2" progress="0" targetCondition="gr_eq" delay="0"/>
 			<action>
 				<showTutorial id="Selecting the nucleus">
 					<tutorial title="The cell's got building materials now, but it needs RIBOSOMES to make complex proteins." slide="talk_sydney_normal"/>
@@ -162,7 +162,7 @@
 				<show_interface id="zoomer"/>
 			</pre_action>
 			<action>
-				<showTutorial id="Zooming & scrolling">
+				<showTutorial id="Zooming %26amp; scrolling">
 					<tutorial title="Something's happening at the Nucleus! I'm going to zoom in!" slide="talk_sydney_happy"/>
 					<tutorial title="How to : change magnification" slide="about_zoom_1"/>
 					<tutorial title="How to : change camera centering" slide="about_zoom_2"/>

@@ -24,7 +24,7 @@ public class Centrosome : CellObject
 		bestColors = new bool[] { false, false, true };			//list_actions = Vector.<int>([]);// Act.MAKE_BASALBODY]);
 		setMaxHealth(250, true);
 		init();
-		instantSetHealth(10);
+		instantSetHealth(250);
 	}
 
 	protected override void autoRadius()

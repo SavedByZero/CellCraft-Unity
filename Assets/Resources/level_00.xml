@@ -103,7 +103,7 @@
 			<data name="Get the Centrosome" hidden="false" type="halfplop_organelle" targetType="centrosome" targetNum="1" progress="0" targetCondition="gr_eq" delay="30" />
 			<action>
 				<discovery id="centrosome"/>
-				<showTutorial id="Centrosome & Pseudopod">
+				<showTutorial id="Centrosome and Pseudopod">
 					<tutorial title="You got the Centrosome!" slide="discover_centrosome"/>
 					<tutorial title="The Centrosome organizes the Cytoskeleton" slide="about_centrosome"/>
 					<tutorial title="Go and Explore!" slide="welcome_explore"/>

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using System;
+using DG.Tweening;
 
 public class CellObject : Selectable, IComparable<CellObject>
 {
@@ -53,17 +54,40 @@ public class CellObject : Selectable, IComparable<CellObject>
 	public bool doesCollide = false; //does this collide with the membrane?
 	public bool hardCollide = false; //does this stand rigidly against the membrane?
 
-    private void Awake()
+    public virtual void Awake()
     {
-		p_cell = GetComponentInParent<Cell>();
+		p_cell = GameObject.FindObjectOfType<Cell>();
 	}
     public override void Start()
 	{
 		base.Start();
 		setLevel(1);
 		speed = .06f;
-
+		//Hide();
+		//Appear();
 	}
+
+	public void Hide()
+    {
+		SpriteRenderer sr = this.GetComponent<SpriteRenderer>();
+		if (sr != null)
+			sr.DOFade(0, 0);
+		//sr.transform.DOScale(1f, 0);
+	}
+
+	public void Appear()
+    {
+		SpriteRenderer sr = this.GetComponent<SpriteRenderer>();
+
+		//sr.DOBlendableColor(Color.white, 5);
+		//sr.transform.DOScaleX(1.2f, 1);
+		//sr.transform.DOScaleY(1.1f, 1);
+		if (sr != null)
+		{
+			sr.DOFade(1, 3f);
+			sr.transform.DOShakeScale(2, 2f);
+		}
+    }
 
    
 
@@ -125,7 +149,14 @@ public class CellObject : Selectable, IComparable<CellObject>
 	protected override void heavyDamageClip()
 	{
 		base.heavyDamageClip();
-		p_cell.checkScrewed(this);
+		try
+		{
+			p_cell.checkScrewed(this);
+		}
+		catch(System.Exception err)
+        {
+			Debug.LogError("oops: " + err + "," + this);
+        }
 	}
 
 	public void setTube(Microtubule t)
