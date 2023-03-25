@@ -270,7 +270,7 @@ TextureImporter:
       213: -7692280937919773107
     second: lysosome_grow_88
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -290,6 +290,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -298,9 +300,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -321,9 +323,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -363,6 +370,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -2255,6 +2274,96 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      lysosome_grow_0: -9102124969708581268
+      lysosome_grow_1: 6557996931657922890
+      lysosome_grow_10: 5022225380472410866
+      lysosome_grow_11: 1665922518891477728
+      lysosome_grow_12: -3474130602265059107
+      lysosome_grow_13: -7988239706959712976
+      lysosome_grow_14: -3619190042354790458
+      lysosome_grow_15: -6570993424314418003
+      lysosome_grow_16: -8036479928287342321
+      lysosome_grow_17: 682653734643235258
+      lysosome_grow_18: 3209945013381077160
+      lysosome_grow_19: -1363470871326350147
+      lysosome_grow_2: -6624722388792166315
+      lysosome_grow_20: 9119445071525687533
+      lysosome_grow_21: 2530089598575468599
+      lysosome_grow_22: 8677721248756161706
+      lysosome_grow_23: -4215637046308533116
+      lysosome_grow_24: 4954502306057722361
+      lysosome_grow_25: -1093653915438574694
+      lysosome_grow_26: -6302609543348805108
+      lysosome_grow_27: -6437233795773099360
+      lysosome_grow_28: -6750849818641809198
+      lysosome_grow_29: 4460985736823722477
+      lysosome_grow_3: 101916905886667823
+      lysosome_grow_30: -941026591496622980
+      lysosome_grow_31: 4049216498336593300
+      lysosome_grow_32: -8712473882143810598
+      lysosome_grow_33: 490292188288641518
+      lysosome_grow_34: 1195704642629866355
+      lysosome_grow_35: 3897182080375902133
+      lysosome_grow_36: 8066027238597312071
+      lysosome_grow_37: -5871484023459070566
+      lysosome_grow_38: 6837702740513929555
+      lysosome_grow_39: -7736829645860397607
+      lysosome_grow_4: -1048236175039626759
+      lysosome_grow_40: -5181614554827615753
+      lysosome_grow_41: -4670375034254609685
+      lysosome_grow_42: 5297068058287337459
+      lysosome_grow_43: -2474854906903689884
+      lysosome_grow_44: -683750686677773848
+      lysosome_grow_45: -9088856424492723637
+      lysosome_grow_46: -8843368270494086784
+      lysosome_grow_47: -7614858163859057116
+      lysosome_grow_48: -2437318711084070853
+      lysosome_grow_49: 1355492856268038695
+      lysosome_grow_5: 20992674780952333
+      lysosome_grow_50: 7562619432380867903
+      lysosome_grow_51: 4739777050115330586
+      lysosome_grow_52: -2503799412436471219
+      lysosome_grow_53: -103871006034456457
+      lysosome_grow_54: -6877501730979936324
+      lysosome_grow_55: 3438125360686605759
+      lysosome_grow_56: 1417891683393719068
+      lysosome_grow_57: -5540462399168384975
+      lysosome_grow_58: 6282572533304433978
+      lysosome_grow_59: -6411447179690244659
+      lysosome_grow_6: -3013286829469520629
+      lysosome_grow_60: -1832747597286185764
+      lysosome_grow_61: -7154819223238097332
+      lysosome_grow_62: 7489427888002520520
+      lysosome_grow_63: 6872397368565401127
+      lysosome_grow_64: 7081312109528195898
+      lysosome_grow_65: 6885970671614962152
+      lysosome_grow_66: 3537130619432869895
+      lysosome_grow_67: 7255629178453059610
+      lysosome_grow_68: 3129352228720111220
+      lysosome_grow_69: -6536373110580286
+      lysosome_grow_7: 183004903780583241
+      lysosome_grow_70: -491561369419243099
+      lysosome_grow_71: -4920200338017177587
+      lysosome_grow_72: -7740924453125990157
+      lysosome_grow_73: -6962921864038294484
+      lysosome_grow_74: 2579117129871600916
+      lysosome_grow_75: 3026129857372784741
+      lysosome_grow_76: 1856406388876646204
+      lysosome_grow_77: 8695728059862214081
+      lysosome_grow_78: 180272235068995154
+      lysosome_grow_79: -8553016437742115948
+      lysosome_grow_8: 8941715756988874537
+      lysosome_grow_80: 8479828548697462911
+      lysosome_grow_81: -7517976371353130048
+      lysosome_grow_82: -2804941658394290256
+      lysosome_grow_83: 5881971600566666994
+      lysosome_grow_84: -4588101678201549384
+      lysosome_grow_85: 8956153718355708535
+      lysosome_grow_86: 7714554866411151739
+      lysosome_grow_87: -8542324601219532509
+      lysosome_grow_88: -7692280937919773107
+      lysosome_grow_9: 3929613687609338114
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

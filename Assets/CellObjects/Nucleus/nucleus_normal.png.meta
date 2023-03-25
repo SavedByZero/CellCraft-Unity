@@ -243,7 +243,7 @@ TextureImporter:
       213: -2282896955637219051
     second: nucleus_normal_79
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -263,6 +263,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -271,9 +273,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -294,9 +296,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -336,6 +343,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -2039,6 +2058,87 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      nucleus_normal_0: 150016243834984156
+      nucleus_normal_1: 4675802757617956933
+      nucleus_normal_10: 6830899957530394098
+      nucleus_normal_11: 5939525494017137184
+      nucleus_normal_12: 1925566435818570531
+      nucleus_normal_13: -282275770485950536
+      nucleus_normal_14: 83018565252838446
+      nucleus_normal_15: 1291032948114841630
+      nucleus_normal_16: 7939361259418262519
+      nucleus_normal_17: -6605893096642094094
+      nucleus_normal_18: 5275781080103991654
+      nucleus_normal_19: 2557448465559072915
+      nucleus_normal_2: -73587840909307405
+      nucleus_normal_20: 3771190120472890583
+      nucleus_normal_21: 8286404943162464928
+      nucleus_normal_22: -1391402922120136356
+      nucleus_normal_23: 8319856320864607879
+      nucleus_normal_24: -893569035288028125
+      nucleus_normal_25: 7939542296357702354
+      nucleus_normal_26: -5056249730004606872
+      nucleus_normal_27: 7369012377131561936
+      nucleus_normal_28: -4927938225244982190
+      nucleus_normal_29: -7547892852506570808
+      nucleus_normal_3: -4104426542414662361
+      nucleus_normal_30: 6218706004090123292
+      nucleus_normal_31: -7028245626923401775
+      nucleus_normal_32: 8439563224564311293
+      nucleus_normal_33: -8972773357964320637
+      nucleus_normal_34: -3577087684786707809
+      nucleus_normal_35: -4347373311741648785
+      nucleus_normal_36: 6850632659244792286
+      nucleus_normal_37: -9218707230450412785
+      nucleus_normal_38: 2886558578010363144
+      nucleus_normal_39: 8472228599870818134
+      nucleus_normal_4: -2844231994644971008
+      nucleus_normal_40: -8580127464668590990
+      nucleus_normal_41: 3334645240785882151
+      nucleus_normal_42: 2033973930213470256
+      nucleus_normal_43: 4783839239538584427
+      nucleus_normal_44: -972967347022079830
+      nucleus_normal_45: 3340126837141232443
+      nucleus_normal_46: 5641737966153907058
+      nucleus_normal_47: -7285932395851625890
+      nucleus_normal_48: -9197322830114583357
+      nucleus_normal_49: 5502769591591773726
+      nucleus_normal_5: -6335677288307819031
+      nucleus_normal_50: -6192645445971724412
+      nucleus_normal_51: -2082889442654552393
+      nucleus_normal_52: -1933326434607128361
+      nucleus_normal_53: 3386170680437192707
+      nucleus_normal_54: -1992727857159001504
+      nucleus_normal_55: -5928028484562257455
+      nucleus_normal_56: 2529755246198470159
+      nucleus_normal_57: 2924681457027130150
+      nucleus_normal_58: 4530543290590453424
+      nucleus_normal_59: 1936159027314880337
+      nucleus_normal_6: -5027301656886775100
+      nucleus_normal_60: -8932059212842284716
+      nucleus_normal_61: -7391104205904478934
+      nucleus_normal_62: -3606876784469493044
+      nucleus_normal_63: 4180987053515245042
+      nucleus_normal_64: -6179606257706838395
+      nucleus_normal_65: 2122027777500729745
+      nucleus_normal_66: -8507981575717414640
+      nucleus_normal_67: 4324581727713955463
+      nucleus_normal_68: 7061695491967393858
+      nucleus_normal_69: -7039721174745740173
+      nucleus_normal_7: -2245459991793508692
+      nucleus_normal_70: -3820351816859034152
+      nucleus_normal_71: -5686049911411892445
+      nucleus_normal_72: -838100936179866105
+      nucleus_normal_73: -7443049609636346916
+      nucleus_normal_74: -8800536601600939820
+      nucleus_normal_75: 8782489246322588750
+      nucleus_normal_76: -7216526763661982939
+      nucleus_normal_77: -7575527179413395737
+      nucleus_normal_78: 2959864548695553179
+      nucleus_normal_79: -2282896955637219051
+      nucleus_normal_8: -319738169927807849
+      nucleus_normal_9: 7110280716294490540
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

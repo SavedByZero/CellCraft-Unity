@@ -54,7 +54,7 @@ TextureImporter:
       213: 5686404065587529383
     second: lysosome_fuse_16
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -74,6 +74,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -82,9 +84,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -105,9 +107,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -147,6 +154,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -527,6 +546,24 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      lysosome_fuse_0: -3753054429319919815
+      lysosome_fuse_1: 1954191050815456287
+      lysosome_fuse_10: -4095883403588601791
+      lysosome_fuse_11: 213514965108212809
+      lysosome_fuse_12: -4793538460705442007
+      lysosome_fuse_13: -7295846759089619283
+      lysosome_fuse_14: 2532663987102842273
+      lysosome_fuse_15: 3675756058243107199
+      lysosome_fuse_16: 5686404065587529383
+      lysosome_fuse_2: -7443772651859873270
+      lysosome_fuse_3: -7189512613259060442
+      lysosome_fuse_4: -6287918192584961838
+      lysosome_fuse_5: -8885279434908971935
+      lysosome_fuse_6: 150854174331885095
+      lysosome_fuse_7: 7638005619962442991
+      lysosome_fuse_8: 1678286910340994302
+      lysosome_fuse_9: 4725323753422871287
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

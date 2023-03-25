@@ -93,7 +93,7 @@ TextureImporter:
       213: 3656896419275059464
     second: virusinjector_exit_29
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -113,6 +113,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -121,9 +123,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -144,9 +146,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -186,6 +193,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -839,6 +858,37 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      virusinjector_exit_0: 4259781518403366248
+      virusinjector_exit_1: 91426718026921911
+      virusinjector_exit_10: -1834462813324738762
+      virusinjector_exit_11: 5503859557101657478
+      virusinjector_exit_12: 8249885849236514980
+      virusinjector_exit_13: -1648668284731621652
+      virusinjector_exit_14: 4849281816010348898
+      virusinjector_exit_15: 4874817559508315107
+      virusinjector_exit_16: -7264367971748475009
+      virusinjector_exit_17: 1045537885337296666
+      virusinjector_exit_18: 8074275091700386134
+      virusinjector_exit_19: 906409710120981322
+      virusinjector_exit_2: -6251336164371456737
+      virusinjector_exit_20: -4429031907137585456
+      virusinjector_exit_21: 4665690925291279937
+      virusinjector_exit_22: 3192985863246986622
+      virusinjector_exit_23: 7684861124631058720
+      virusinjector_exit_24: -7335535667430449373
+      virusinjector_exit_25: 5320599678978661037
+      virusinjector_exit_26: -3410688657470665674
+      virusinjector_exit_27: 105324778892929693
+      virusinjector_exit_28: 2840595849061215116
+      virusinjector_exit_29: 3656896419275059464
+      virusinjector_exit_3: 6273827243280019085
+      virusinjector_exit_4: -342224968553855961
+      virusinjector_exit_5: 235002351717557460
+      virusinjector_exit_6: 3457804248031332551
+      virusinjector_exit_7: -3513428479314654136
+      virusinjector_exit_8: -2158608127275075486
+      virusinjector_exit_9: -64971979501477415
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -354,7 +354,7 @@ TextureImporter:
       213: 4607596415029029613
     second: chloroplast_normal_116
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -374,6 +374,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -382,9 +384,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -405,9 +407,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -447,6 +454,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -2927,6 +2946,124 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      chloroplast_normal_0: 8019053000301952822
+      chloroplast_normal_1: 8561864815200581230
+      chloroplast_normal_10: -4483806233148121155
+      chloroplast_normal_100: -4304718396869596880
+      chloroplast_normal_101: 5487898558977704727
+      chloroplast_normal_102: 5342597379015704795
+      chloroplast_normal_103: -5089812575579359139
+      chloroplast_normal_104: -5811094191929427039
+      chloroplast_normal_105: 7175026985216388978
+      chloroplast_normal_106: -8860815101446109912
+      chloroplast_normal_107: 8856074102707873459
+      chloroplast_normal_108: 1685101225883734523
+      chloroplast_normal_109: 6808608846462950340
+      chloroplast_normal_11: 1233357455014270732
+      chloroplast_normal_110: 4062107854585879643
+      chloroplast_normal_111: -8426433526030103979
+      chloroplast_normal_112: -8118181711886474986
+      chloroplast_normal_113: 7416587217834990824
+      chloroplast_normal_114: 7603295207221609977
+      chloroplast_normal_115: -4894609439774439235
+      chloroplast_normal_116: 4607596415029029613
+      chloroplast_normal_12: -1878465887413824055
+      chloroplast_normal_13: 8039524801710423337
+      chloroplast_normal_14: -7444623068579600866
+      chloroplast_normal_15: -982722794697769152
+      chloroplast_normal_16: 3666367074487280835
+      chloroplast_normal_17: -9199960798567052455
+      chloroplast_normal_18: 3113817443850969425
+      chloroplast_normal_19: 1981661811035016403
+      chloroplast_normal_2: 7076560465184514606
+      chloroplast_normal_20: -1381286802231813269
+      chloroplast_normal_21: 8634300449812995034
+      chloroplast_normal_22: -2829617063983517918
+      chloroplast_normal_23: 5105336200295752411
+      chloroplast_normal_24: -1332801868679238906
+      chloroplast_normal_25: -5861642069829223309
+      chloroplast_normal_26: 8380906080347883760
+      chloroplast_normal_27: 398671699960627134
+      chloroplast_normal_28: 2786370434470849426
+      chloroplast_normal_29: -7375729715838040677
+      chloroplast_normal_3: -7439489565562919541
+      chloroplast_normal_30: -308346547537322477
+      chloroplast_normal_31: -8116777201246198190
+      chloroplast_normal_32: 5593616667799028857
+      chloroplast_normal_33: 742736860913803091
+      chloroplast_normal_34: -5904012874583578118
+      chloroplast_normal_35: 5163664528263910735
+      chloroplast_normal_36: -8335503455848687619
+      chloroplast_normal_37: -8409915727680840855
+      chloroplast_normal_38: -1470238708202445721
+      chloroplast_normal_39: -1433008510056550625
+      chloroplast_normal_4: -8822134974321085178
+      chloroplast_normal_40: 1340250648311908588
+      chloroplast_normal_41: -1810460115156699918
+      chloroplast_normal_42: 7121538690509970083
+      chloroplast_normal_43: -5909762659935005705
+      chloroplast_normal_44: 86920270681022677
+      chloroplast_normal_45: -9095241332093785368
+      chloroplast_normal_46: -5347847248852393899
+      chloroplast_normal_47: 7171571729087557187
+      chloroplast_normal_48: -3473256920355671714
+      chloroplast_normal_49: 121382270862449542
+      chloroplast_normal_5: 8560936774657563547
+      chloroplast_normal_50: -393650422818880757
+      chloroplast_normal_51: 1317253788775435452
+      chloroplast_normal_52: 5391221326631417243
+      chloroplast_normal_53: -1867829897530338060
+      chloroplast_normal_54: 8485730074842744370
+      chloroplast_normal_55: -1580095506987400481
+      chloroplast_normal_56: 2443010487940522519
+      chloroplast_normal_57: 5112091154305957109
+      chloroplast_normal_58: 4848382730482904349
+      chloroplast_normal_59: 569606529332972597
+      chloroplast_normal_6: -3235328716157917664
+      chloroplast_normal_60: 4974277444027908730
+      chloroplast_normal_61: 47329266979524911
+      chloroplast_normal_62: -1304966550661221574
+      chloroplast_normal_63: -4621908621262998247
+      chloroplast_normal_64: -696488123028762464
+      chloroplast_normal_65: 6571120121276891504
+      chloroplast_normal_66: -3359065280856894974
+      chloroplast_normal_67: 6516365972071365526
+      chloroplast_normal_68: -7472744755346559777
+      chloroplast_normal_69: -4189727426298797682
+      chloroplast_normal_7: -6611736550836954108
+      chloroplast_normal_70: -2901727055816201946
+      chloroplast_normal_71: 1734518230887445055
+      chloroplast_normal_72: 4562927725815773110
+      chloroplast_normal_73: -1060248858665443264
+      chloroplast_normal_74: 6960600852935442330
+      chloroplast_normal_75: 6860816471956458902
+      chloroplast_normal_76: 6106047185591985412
+      chloroplast_normal_77: 7959017661464793533
+      chloroplast_normal_78: 8421208730562643240
+      chloroplast_normal_79: 1192391212800466317
+      chloroplast_normal_8: -6903159061424267270
+      chloroplast_normal_80: 5048980990136328427
+      chloroplast_normal_81: -3816649233768613149
+      chloroplast_normal_82: 7492323638277103603
+      chloroplast_normal_83: 2751921647924501266
+      chloroplast_normal_84: -2276147716506970919
+      chloroplast_normal_85: 2833921441399831526
+      chloroplast_normal_86: -5995178605068572818
+      chloroplast_normal_87: 2202925513119064687
+      chloroplast_normal_88: 1372892955320352168
+      chloroplast_normal_89: 3554591153508995854
+      chloroplast_normal_9: 931334035614395324
+      chloroplast_normal_90: -247839025750217329
+      chloroplast_normal_91: 5827790862349780628
+      chloroplast_normal_92: -50244232200767233
+      chloroplast_normal_93: -2511430775234611538
+      chloroplast_normal_94: 7077709011626247853
+      chloroplast_normal_95: -6767923699592376379
+      chloroplast_normal_96: 2260921128340163669
+      chloroplast_normal_97: -5581837082044718139
+      chloroplast_normal_98: 6902952532089327877
+      chloroplast_normal_99: 3493079946478909776
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

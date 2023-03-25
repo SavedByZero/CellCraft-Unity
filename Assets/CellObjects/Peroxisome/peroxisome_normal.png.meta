@@ -363,7 +363,7 @@ TextureImporter:
       213: -2453161237524520392
     second: peroxisome_normal_119
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -383,6 +383,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -391,9 +393,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -414,9 +416,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -456,6 +463,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -2999,6 +3018,127 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      peroxisome_normal_0: -4751532004026551461
+      peroxisome_normal_1: 8987180868231615836
+      peroxisome_normal_10: -8624778753899675755
+      peroxisome_normal_100: 7391415513515065250
+      peroxisome_normal_101: -7409203531548512074
+      peroxisome_normal_102: -2720549590106913393
+      peroxisome_normal_103: -8319750592276786259
+      peroxisome_normal_104: 5986014706465408055
+      peroxisome_normal_105: 8482207113039814450
+      peroxisome_normal_106: 5379672519146720666
+      peroxisome_normal_107: 2044260974079394619
+      peroxisome_normal_108: 7902324425048998986
+      peroxisome_normal_109: -1664497039306600290
+      peroxisome_normal_11: 1278018643489294929
+      peroxisome_normal_110: -1054131736292924706
+      peroxisome_normal_111: -4402715887784953972
+      peroxisome_normal_112: -5807264936903351293
+      peroxisome_normal_113: 1160429333758880759
+      peroxisome_normal_114: 6485013607315728231
+      peroxisome_normal_115: -8545566714548289373
+      peroxisome_normal_116: 4036558756562517161
+      peroxisome_normal_117: -6981402089426144222
+      peroxisome_normal_118: -3497038045137617679
+      peroxisome_normal_119: -2453161237524520392
+      peroxisome_normal_12: 2024018108234367522
+      peroxisome_normal_13: 8360199082403841669
+      peroxisome_normal_14: -8135932667081535519
+      peroxisome_normal_15: 1456893506176978017
+      peroxisome_normal_16: -489563698213476345
+      peroxisome_normal_17: 6765647602071256867
+      peroxisome_normal_18: 4678224337532085321
+      peroxisome_normal_19: 2332708632639857354
+      peroxisome_normal_2: -3686587977529137908
+      peroxisome_normal_20: -5511044979641411765
+      peroxisome_normal_21: -8807613985526035419
+      peroxisome_normal_22: -2239259260368570437
+      peroxisome_normal_23: -6479935808618432001
+      peroxisome_normal_24: 7048956341129381526
+      peroxisome_normal_25: 185532189503247251
+      peroxisome_normal_26: 5589531332365100783
+      peroxisome_normal_27: -2021382439955677147
+      peroxisome_normal_28: -4709447445332083512
+      peroxisome_normal_29: -763237537404490445
+      peroxisome_normal_3: -1412604715458325212
+      peroxisome_normal_30: -2832603863183186870
+      peroxisome_normal_31: -1530654574662968195
+      peroxisome_normal_32: -3655126938109790070
+      peroxisome_normal_33: -1421456663470318556
+      peroxisome_normal_34: 2020736653978632552
+      peroxisome_normal_35: -5763043942752707455
+      peroxisome_normal_36: -4413584662623474051
+      peroxisome_normal_37: 5664056859750375832
+      peroxisome_normal_38: -288510572541475912
+      peroxisome_normal_39: -389637351270425625
+      peroxisome_normal_4: 2535655385445296386
+      peroxisome_normal_40: 2488611141109820569
+      peroxisome_normal_41: 3290891817438303507
+      peroxisome_normal_42: -3646196942255760703
+      peroxisome_normal_43: -4536326155176600517
+      peroxisome_normal_44: -1414162787879935255
+      peroxisome_normal_45: 4771967833406529911
+      peroxisome_normal_46: 2949027578378829423
+      peroxisome_normal_47: -7200107980521124940
+      peroxisome_normal_48: -4764460376660041447
+      peroxisome_normal_49: -5574089500357443085
+      peroxisome_normal_5: -478523643812394112
+      peroxisome_normal_50: -3972395863393539958
+      peroxisome_normal_51: -4221145969000299635
+      peroxisome_normal_52: -1370529677265742772
+      peroxisome_normal_53: 4995719968987840398
+      peroxisome_normal_54: -2647881560453192890
+      peroxisome_normal_55: -6325328256441666881
+      peroxisome_normal_56: 2378936938351184831
+      peroxisome_normal_57: 724834796764137720
+      peroxisome_normal_58: -5888328091804483935
+      peroxisome_normal_59: -2178212545674341090
+      peroxisome_normal_6: 6986547462028390769
+      peroxisome_normal_60: 8573024945633345317
+      peroxisome_normal_61: 5316125684300372066
+      peroxisome_normal_62: -3973955907713758040
+      peroxisome_normal_63: -4087506333515462345
+      peroxisome_normal_64: 318110544683396039
+      peroxisome_normal_65: -6483698466641151554
+      peroxisome_normal_66: 7697091059471150627
+      peroxisome_normal_67: 3921557007456123685
+      peroxisome_normal_68: 6337667396370425329
+      peroxisome_normal_69: -5324312591341195709
+      peroxisome_normal_7: 7534941155337173983
+      peroxisome_normal_70: -5655117594825431872
+      peroxisome_normal_71: 5953317088999514002
+      peroxisome_normal_72: 6584473776558569753
+      peroxisome_normal_73: 1347499559506588329
+      peroxisome_normal_74: 2767310064424787564
+      peroxisome_normal_75: 1097272930204322301
+      peroxisome_normal_76: -5675701123644626532
+      peroxisome_normal_77: 1358483287414771845
+      peroxisome_normal_78: 7464659081824663332
+      peroxisome_normal_79: 5148686727645742201
+      peroxisome_normal_8: 8312200810905180405
+      peroxisome_normal_80: 1211057471832670420
+      peroxisome_normal_81: -5793710154970453685
+      peroxisome_normal_82: 6002698282690205041
+      peroxisome_normal_83: 175147984479735164
+      peroxisome_normal_84: 3373089874198858259
+      peroxisome_normal_85: 3525568333832312870
+      peroxisome_normal_86: -4982526347966735281
+      peroxisome_normal_87: 6801104563113383215
+      peroxisome_normal_88: -3587056343834489203
+      peroxisome_normal_89: 3686174798371867914
+      peroxisome_normal_9: -1007834164399216007
+      peroxisome_normal_90: 4040651145856763409
+      peroxisome_normal_91: 1720338817101090254
+      peroxisome_normal_92: -6019077241323216186
+      peroxisome_normal_93: 2858038624190266651
+      peroxisome_normal_94: -1204601551248145061
+      peroxisome_normal_95: 1946036556365899941
+      peroxisome_normal_96: 6135783117919658026
+      peroxisome_normal_97: -8757366363441982911
+      peroxisome_normal_98: -9103388422305258322
+      peroxisome_normal_99: 3364496376162493490
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

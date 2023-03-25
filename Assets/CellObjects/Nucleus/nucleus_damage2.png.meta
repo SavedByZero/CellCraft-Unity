@@ -603,7 +603,7 @@ TextureImporter:
       213: 8157109815970756521
     second: nucleus_damage2_199
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -623,6 +623,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -631,9 +633,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -654,9 +656,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -696,6 +703,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -4919,6 +4938,207 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      nucleus_damage2_0: 6646192642201971481
+      nucleus_damage2_1: 716918632237544804
+      nucleus_damage2_10: 1612901244321047205
+      nucleus_damage2_100: 2362237312932119907
+      nucleus_damage2_101: 7753892095930038025
+      nucleus_damage2_102: 7771157853411288175
+      nucleus_damage2_103: -881606575616106603
+      nucleus_damage2_104: -3891906647422071892
+      nucleus_damage2_105: -1289432703400220448
+      nucleus_damage2_106: 6958870475847052900
+      nucleus_damage2_107: -6599033149836969318
+      nucleus_damage2_108: -7589598968829380133
+      nucleus_damage2_109: 895052008570913373
+      nucleus_damage2_11: -7383234669801782894
+      nucleus_damage2_110: 1642691156117953458
+      nucleus_damage2_111: 8838848191717805577
+      nucleus_damage2_112: 5350926009234091634
+      nucleus_damage2_113: 4340633987790569562
+      nucleus_damage2_114: -3727772280739771742
+      nucleus_damage2_115: 6348046685905692269
+      nucleus_damage2_116: 9046751035873057491
+      nucleus_damage2_117: -1012435702416642072
+      nucleus_damage2_118: 1872624707899062539
+      nucleus_damage2_119: 4499878984852330620
+      nucleus_damage2_12: -6207536385762511507
+      nucleus_damage2_120: 4785253833517036214
+      nucleus_damage2_121: 546880686330493653
+      nucleus_damage2_122: 4605170826021332421
+      nucleus_damage2_123: -514185394711350941
+      nucleus_damage2_124: -1449041163317295415
+      nucleus_damage2_125: 537596076622107321
+      nucleus_damage2_126: -6553263219007101252
+      nucleus_damage2_127: -2218579832260533130
+      nucleus_damage2_128: 6067004342202599856
+      nucleus_damage2_129: 3278483190185650435
+      nucleus_damage2_13: -4453575330306442146
+      nucleus_damage2_130: -6972295108948270721
+      nucleus_damage2_131: 3398214616822575010
+      nucleus_damage2_132: -8369691945115714739
+      nucleus_damage2_133: -5646940819854963377
+      nucleus_damage2_134: -8681616396810056961
+      nucleus_damage2_135: 357056060012066346
+      nucleus_damage2_136: 3016603071626079786
+      nucleus_damage2_137: 5158984663443387826
+      nucleus_damage2_138: -949393574781616028
+      nucleus_damage2_139: -3985607071366778147
+      nucleus_damage2_14: -3395776408324731614
+      nucleus_damage2_140: 5779065388980180001
+      nucleus_damage2_141: -7679519076642141110
+      nucleus_damage2_142: -2620496521258613082
+      nucleus_damage2_143: 3396935864205648129
+      nucleus_damage2_144: -767300679105180198
+      nucleus_damage2_145: 7016653967324735435
+      nucleus_damage2_146: -7761125515401203613
+      nucleus_damage2_147: 5223796580831521744
+      nucleus_damage2_148: 3338278817635359318
+      nucleus_damage2_149: 2582649574820247043
+      nucleus_damage2_15: -3361244415046271525
+      nucleus_damage2_150: 4631346384524986643
+      nucleus_damage2_151: -1116568442438705972
+      nucleus_damage2_152: -5298719032298069051
+      nucleus_damage2_153: -7456764959559211251
+      nucleus_damage2_154: 2293811335747070634
+      nucleus_damage2_155: 7567967068141259426
+      nucleus_damage2_156: 1032705953165351428
+      nucleus_damage2_157: -6040200060737673077
+      nucleus_damage2_158: 2039612820367429251
+      nucleus_damage2_159: 2327260528208861388
+      nucleus_damage2_16: -5496189278030007370
+      nucleus_damage2_160: -2381627774215034339
+      nucleus_damage2_161: -1369958888319137997
+      nucleus_damage2_162: 5966334095630813483
+      nucleus_damage2_163: 6688870902872011096
+      nucleus_damage2_164: -6379995470263577159
+      nucleus_damage2_165: -83769032193898332
+      nucleus_damage2_166: 7759876005965207834
+      nucleus_damage2_167: -8420346946712112096
+      nucleus_damage2_168: -789386781192694613
+      nucleus_damage2_169: -7291813501379641098
+      nucleus_damage2_17: -484440046044106690
+      nucleus_damage2_170: 3951157676343391099
+      nucleus_damage2_171: 845694356244631205
+      nucleus_damage2_172: -4983801001786211726
+      nucleus_damage2_173: 7540274912903685973
+      nucleus_damage2_174: -2046042291111141806
+      nucleus_damage2_175: 8133745975752608411
+      nucleus_damage2_176: -1909712936181071835
+      nucleus_damage2_177: 1044421546596236103
+      nucleus_damage2_178: 2078060992811257586
+      nucleus_damage2_179: 4611507602401222323
+      nucleus_damage2_18: -8765588916413704113
+      nucleus_damage2_180: -6963587363386195983
+      nucleus_damage2_181: 4648796869102092933
+      nucleus_damage2_182: -955809425569722640
+      nucleus_damage2_183: 2256885990608843385
+      nucleus_damage2_184: -1568743553206897255
+      nucleus_damage2_185: -2660155332751281838
+      nucleus_damage2_186: 3074378351114223636
+      nucleus_damage2_187: -6741744957556777628
+      nucleus_damage2_188: -5873785516441131134
+      nucleus_damage2_189: -5455915799630586063
+      nucleus_damage2_19: 4400098473598783412
+      nucleus_damage2_190: 2425095340491753391
+      nucleus_damage2_191: 8405415098411559249
+      nucleus_damage2_192: 2506658680477236084
+      nucleus_damage2_193: 2711989967979328517
+      nucleus_damage2_194: 3807229525926321552
+      nucleus_damage2_195: 3073255963183897009
+      nucleus_damage2_196: 5444345462125670689
+      nucleus_damage2_197: 5039835131277209609
+      nucleus_damage2_198: 8746231997309249599
+      nucleus_damage2_199: 8157109815970756521
+      nucleus_damage2_2: 1284203193916305865
+      nucleus_damage2_20: -4141514162716038382
+      nucleus_damage2_21: 3973923708572223210
+      nucleus_damage2_22: -2319039988615704130
+      nucleus_damage2_23: 8393194630762698873
+      nucleus_damage2_24: -7351733735332401157
+      nucleus_damage2_25: 7893512201216136868
+      nucleus_damage2_26: 6180943813531162159
+      nucleus_damage2_27: -1599922186653031351
+      nucleus_damage2_28: 2680781809879281279
+      nucleus_damage2_29: 6421260658484615013
+      nucleus_damage2_3: 7121582475608446612
+      nucleus_damage2_30: -7967827847980228167
+      nucleus_damage2_31: 6923898197905177216
+      nucleus_damage2_32: -7435538641812800081
+      nucleus_damage2_33: 8986159941028744856
+      nucleus_damage2_34: -5406038088807173969
+      nucleus_damage2_35: 5744474663569402274
+      nucleus_damage2_36: -1260246861107288552
+      nucleus_damage2_37: -2822664815189984386
+      nucleus_damage2_38: 1323266580347891153
+      nucleus_damage2_39: -4692803770564611334
+      nucleus_damage2_4: 5356623684319757510
+      nucleus_damage2_40: 8745736334313829848
+      nucleus_damage2_41: -1954221224289558575
+      nucleus_damage2_42: -5525057791347987367
+      nucleus_damage2_43: -1163466008521913001
+      nucleus_damage2_44: 376149805203616637
+      nucleus_damage2_45: 3816690803385710484
+      nucleus_damage2_46: 7235937141089142390
+      nucleus_damage2_47: -1161276540059089272
+      nucleus_damage2_48: -1978011213719221877
+      nucleus_damage2_49: -2708354073768142138
+      nucleus_damage2_5: 761490490360634603
+      nucleus_damage2_50: 3672605372804584801
+      nucleus_damage2_51: 5703774639392123666
+      nucleus_damage2_52: -1085816621849560438
+      nucleus_damage2_53: 7622335207813673666
+      nucleus_damage2_54: -7534128375579054321
+      nucleus_damage2_55: 7001296477470073218
+      nucleus_damage2_56: -1001151942448985375
+      nucleus_damage2_57: -5077014813058636735
+      nucleus_damage2_58: 1579546992461848271
+      nucleus_damage2_59: 2920722377835760367
+      nucleus_damage2_6: -8706419921946503720
+      nucleus_damage2_60: -3455947569068220141
+      nucleus_damage2_61: 6878032048715801674
+      nucleus_damage2_62: 1404587592114555825
+      nucleus_damage2_63: -1135164012010702957
+      nucleus_damage2_64: 4525399270323410146
+      nucleus_damage2_65: -2539324130830251464
+      nucleus_damage2_66: -7123845212786589977
+      nucleus_damage2_67: 9156986127224872128
+      nucleus_damage2_68: -4850133717447328671
+      nucleus_damage2_69: 88162113418791106
+      nucleus_damage2_7: 226909880104079164
+      nucleus_damage2_70: -5372019108902718835
+      nucleus_damage2_71: 5027050373622839433
+      nucleus_damage2_72: -2474311526134213071
+      nucleus_damage2_73: 8266204674534558827
+      nucleus_damage2_74: -5780397508124001338
+      nucleus_damage2_75: 6768006305568473352
+      nucleus_damage2_76: 2761232367560248663
+      nucleus_damage2_77: 5330322312897787032
+      nucleus_damage2_78: 2605249328192300565
+      nucleus_damage2_79: -5925772651111745928
+      nucleus_damage2_8: -1559852546781554942
+      nucleus_damage2_80: 5487984486796672222
+      nucleus_damage2_81: 8949715122991486903
+      nucleus_damage2_82: 2581967368869506274
+      nucleus_damage2_83: 6430052657735862753
+      nucleus_damage2_84: -2028729720122747524
+      nucleus_damage2_85: -9014075722931518232
+      nucleus_damage2_86: -3625190153362872904
+      nucleus_damage2_87: 2829335089882853128
+      nucleus_damage2_88: -570880373712997155
+      nucleus_damage2_89: 6546302969573681858
+      nucleus_damage2_9: -4455765509952139797
+      nucleus_damage2_90: 7640079754572437227
+      nucleus_damage2_91: -8952501517105937902
+      nucleus_damage2_92: 6014733362404256032
+      nucleus_damage2_93: -7789857241855146131
+      nucleus_damage2_94: -6677637224081220923
+      nucleus_damage2_95: 8199553965090629526
+      nucleus_damage2_96: -8695007924439653219
+      nucleus_damage2_97: -2187133269520229917
+      nucleus_damage2_98: -5352341117030310070
+      nucleus_damage2_99: 1515230312907747511
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

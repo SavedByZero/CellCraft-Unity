@@ -63,7 +63,7 @@ TextureImporter:
       213: -6650820928620863715
     second: ribosome_process_inplace_19
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -84,6 +84,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -122,6 +123,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 1
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -161,6 +163,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -604,6 +618,27 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      ribosome_process_inplace_0: -2405591024333286940
+      ribosome_process_inplace_1: -5875589339459837129
+      ribosome_process_inplace_10: -2460157653968581110
+      ribosome_process_inplace_11: -7304239909798672814
+      ribosome_process_inplace_12: -8300634773373023470
+      ribosome_process_inplace_13: -3469238551687232094
+      ribosome_process_inplace_14: -3192395104782559377
+      ribosome_process_inplace_15: 8493449323719488226
+      ribosome_process_inplace_16: 4372854973559508903
+      ribosome_process_inplace_17: -6459435403676818994
+      ribosome_process_inplace_18: 2864729244948409347
+      ribosome_process_inplace_19: -6650820928620863715
+      ribosome_process_inplace_2: -957131738135235241
+      ribosome_process_inplace_3: -5084897464852386407
+      ribosome_process_inplace_4: 8614290045938629892
+      ribosome_process_inplace_5: -7465148012438142408
+      ribosome_process_inplace_6: 8428293562703423250
+      ribosome_process_inplace_7: 7017681780495673585
+      ribosome_process_inplace_8: -185017281601948339
+      ribosome_process_inplace_9: 3578690579978801730
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -20,6 +20,7 @@ public class MovieClip : MonoBehaviour
     public float _frameInterval = 0.0166f;
     private int _spriteIndex = 0;
     protected bool _playing;
+    protected string _labelPlaying;
     protected bool Playing
     {
         get
@@ -28,7 +29,7 @@ public class MovieClip : MonoBehaviour
         }
     }
     private List<Sprite> _currentSet;
-    public delegate void Finished(MovieClip mc);
+    public delegate void Finished(MovieClip mc, string justPlayed);
     public Finished onFinished;
     private Dictionary<string,List<Sprite>> framesByName = new Dictionary<string, List<Sprite>>();
     private Dictionary<List<Sprite>, bool> ClipLoopStatus = new Dictionary<List<Sprite>, bool>();
@@ -164,7 +165,9 @@ public class MovieClip : MonoBehaviour
                         else
                         {
                             _playing = false;
-                            onFinished?.Invoke(this);
+                            onFinished?.Invoke(this, _labelPlaying);
+                            _labelPlaying = "";
+                            //Bookmark: animation finishes. 
                             return;
                         }
                     }
@@ -180,7 +183,9 @@ public class MovieClip : MonoBehaviour
                         else
                         {
                             _playing = false;
-                            onFinished?.Invoke(this);
+                            onFinished?.Invoke(this, _labelPlaying);
+                            _labelPlaying = "";
+                            //Bookmark: animation finishes. 
                             return;
                         }
                     }
@@ -199,6 +204,7 @@ public class MovieClip : MonoBehaviour
 
     public void GotoAndPlay(string framename)
     {
+        _labelPlaying = framename;
         GotoAndStop(framename);
         _playing = true;
     }

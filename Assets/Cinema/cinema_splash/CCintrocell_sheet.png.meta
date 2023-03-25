@@ -363,7 +363,7 @@ TextureImporter:
       213: 3358699609002456508
     second: CCintrocell_sheet_119
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -383,6 +383,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -391,9 +393,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -414,9 +416,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -456,6 +463,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -2999,6 +3018,127 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      CCintrocell_sheet_0: -8481651548321094074
+      CCintrocell_sheet_1: 5818690452309713892
+      CCintrocell_sheet_10: -1077713636698325383
+      CCintrocell_sheet_100: -521873815781427548
+      CCintrocell_sheet_101: 2340860467787933771
+      CCintrocell_sheet_102: 4351208280949701409
+      CCintrocell_sheet_103: 9130118443284991037
+      CCintrocell_sheet_104: 1581710819930392321
+      CCintrocell_sheet_105: 8269121450996193679
+      CCintrocell_sheet_106: -481981008090733723
+      CCintrocell_sheet_107: 8415860888038268314
+      CCintrocell_sheet_108: 487529694811858595
+      CCintrocell_sheet_109: -3506225686922526062
+      CCintrocell_sheet_11: -1927254718381093504
+      CCintrocell_sheet_110: 7025183859655777939
+      CCintrocell_sheet_111: 1783382602335917673
+      CCintrocell_sheet_112: -2422529043469284546
+      CCintrocell_sheet_113: 7775390917972184829
+      CCintrocell_sheet_114: 2865043641824179672
+      CCintrocell_sheet_115: 4159575883880901667
+      CCintrocell_sheet_116: -8435151264882762967
+      CCintrocell_sheet_117: 6448131822386854535
+      CCintrocell_sheet_118: 3297719233488029879
+      CCintrocell_sheet_119: 3358699609002456508
+      CCintrocell_sheet_12: -1293837277836292096
+      CCintrocell_sheet_13: 3273879478873675324
+      CCintrocell_sheet_14: 1716640962808791956
+      CCintrocell_sheet_15: 7609041787952802932
+      CCintrocell_sheet_16: -1663802984013749324
+      CCintrocell_sheet_17: 6754368763332578598
+      CCintrocell_sheet_18: -5091710225078543801
+      CCintrocell_sheet_19: -1386334918943951591
+      CCintrocell_sheet_2: 1726232072722753092
+      CCintrocell_sheet_20: -7538802224033696177
+      CCintrocell_sheet_21: -1294540670095271969
+      CCintrocell_sheet_22: -8032435798256140517
+      CCintrocell_sheet_23: 3924772059171674446
+      CCintrocell_sheet_24: -6214768307542879601
+      CCintrocell_sheet_25: 3315362479256316108
+      CCintrocell_sheet_26: -8366371674211792072
+      CCintrocell_sheet_27: -2757632593383787515
+      CCintrocell_sheet_28: 2247970711120935487
+      CCintrocell_sheet_29: -4724060953307321795
+      CCintrocell_sheet_3: -390707770818586310
+      CCintrocell_sheet_30: -171963738072217851
+      CCintrocell_sheet_31: -4831605441721010208
+      CCintrocell_sheet_32: -3572603137087005785
+      CCintrocell_sheet_33: -2086056105690626195
+      CCintrocell_sheet_34: -900065944095335483
+      CCintrocell_sheet_35: 776153199493708957
+      CCintrocell_sheet_36: -600642585560469033
+      CCintrocell_sheet_37: -1509085353518326405
+      CCintrocell_sheet_38: 6761024636485105378
+      CCintrocell_sheet_39: -8640891920070014589
+      CCintrocell_sheet_4: 1739311339199212986
+      CCintrocell_sheet_40: 4399566933079293456
+      CCintrocell_sheet_41: -7953176595640899219
+      CCintrocell_sheet_42: 5611969279861995486
+      CCintrocell_sheet_43: 6642342382961680491
+      CCintrocell_sheet_44: -8624990897911757109
+      CCintrocell_sheet_45: -2610045932768792629
+      CCintrocell_sheet_46: 1378309602907131803
+      CCintrocell_sheet_47: 3168340438458311478
+      CCintrocell_sheet_48: -1447952417324572024
+      CCintrocell_sheet_49: -2267658432820891823
+      CCintrocell_sheet_5: -8901144374472510617
+      CCintrocell_sheet_50: -7011710607549441700
+      CCintrocell_sheet_51: -1286372923996673991
+      CCintrocell_sheet_52: -4530223563831519214
+      CCintrocell_sheet_53: 2613654971743923446
+      CCintrocell_sheet_54: 756562824529910948
+      CCintrocell_sheet_55: -563564154419885969
+      CCintrocell_sheet_56: -7761136574175870009
+      CCintrocell_sheet_57: 4664008248754347432
+      CCintrocell_sheet_58: 8148006441972866220
+      CCintrocell_sheet_59: 761541848340999029
+      CCintrocell_sheet_6: -6874047279493170230
+      CCintrocell_sheet_60: 2285722692436807509
+      CCintrocell_sheet_61: 8487964300385067848
+      CCintrocell_sheet_62: 2656293552435307438
+      CCintrocell_sheet_63: 1309657238741474985
+      CCintrocell_sheet_64: -7069125453692631326
+      CCintrocell_sheet_65: -2232447971507500564
+      CCintrocell_sheet_66: -1622077219048647362
+      CCintrocell_sheet_67: -9036381727759129959
+      CCintrocell_sheet_68: -7875655349224758341
+      CCintrocell_sheet_69: -3405830354460241033
+      CCintrocell_sheet_7: -4316158061583943381
+      CCintrocell_sheet_70: -8227156300591211589
+      CCintrocell_sheet_71: 2801539151288511029
+      CCintrocell_sheet_72: 7806081725676544112
+      CCintrocell_sheet_73: -4510572826393272852
+      CCintrocell_sheet_74: -4217294307836080996
+      CCintrocell_sheet_75: -5571815175815395075
+      CCintrocell_sheet_76: 2465464299589727307
+      CCintrocell_sheet_77: 944618004719544275
+      CCintrocell_sheet_78: 4724272174744959240
+      CCintrocell_sheet_79: -2017899035602252573
+      CCintrocell_sheet_8: -1007104537903424786
+      CCintrocell_sheet_80: -7905004137754068297
+      CCintrocell_sheet_81: -6585062027783639033
+      CCintrocell_sheet_82: 1574958892965767822
+      CCintrocell_sheet_83: -1322436751962406816
+      CCintrocell_sheet_84: 3308133565829442791
+      CCintrocell_sheet_85: 4773884509135543372
+      CCintrocell_sheet_86: -445293626105202747
+      CCintrocell_sheet_87: -2319643502507406055
+      CCintrocell_sheet_88: 5587408393531186693
+      CCintrocell_sheet_89: -5419448974735282462
+      CCintrocell_sheet_9: -4400833493437224422
+      CCintrocell_sheet_90: -4419971653780735701
+      CCintrocell_sheet_91: 8137925823894196682
+      CCintrocell_sheet_92: -8765100982493141120
+      CCintrocell_sheet_93: -963829877795099585
+      CCintrocell_sheet_94: -6786109698006603768
+      CCintrocell_sheet_95: -166761496172764686
+      CCintrocell_sheet_96: -3964430107000274492
+      CCintrocell_sheet_97: -965826407572621112
+      CCintrocell_sheet_98: 7291343369585841017
+      CCintrocell_sheet_99: 6227785629969724507
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

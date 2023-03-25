@@ -63,7 +63,7 @@ TextureImporter:
       213: -4679204104111161235
     second: ribosome_normal_19
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -84,6 +84,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -122,6 +123,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 1
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -161,6 +163,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -604,6 +618,27 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      ribosome_normal_0: -31925726800806578
+      ribosome_normal_1: 9204557546051396697
+      ribosome_normal_10: -5337186148294239674
+      ribosome_normal_11: 6817371440955550887
+      ribosome_normal_12: 3866001587591310426
+      ribosome_normal_13: -3529473857875315202
+      ribosome_normal_14: -2571593787831393647
+      ribosome_normal_15: -8994080012787562891
+      ribosome_normal_16: 8506236628941575630
+      ribosome_normal_17: 1658940627441418053
+      ribosome_normal_18: 8061540290374045985
+      ribosome_normal_19: -4679204104111161235
+      ribosome_normal_2: 3598970292755557230
+      ribosome_normal_3: -8981318523618624594
+      ribosome_normal_4: -2017032092782897018
+      ribosome_normal_5: 3097786429665414106
+      ribosome_normal_6: -2246092526239895340
+      ribosome_normal_7: -4152427630602034276
+      ribosome_normal_8: 5338290452044990702
+      ribosome_normal_9: -5559611082495536964
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

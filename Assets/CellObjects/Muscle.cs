@@ -118,6 +118,7 @@ public class Muscle : MonoBehaviour
                              _membrane.Skin.BePliable(false);
                             onMovingTowards?.Invoke(_moveVector.x, _moveVector.y);
                             onFinishStretching?.Invoke();
+                            ObjectiveManager.GetInstance().onCompleteObjective?.Invoke("ppod1");
                             //StartCoroutine(reactivateWiggle());
                         }));
                     }

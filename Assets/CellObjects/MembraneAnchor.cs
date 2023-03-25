@@ -15,7 +15,7 @@ public class MembraneAnchor : MonoBehaviour
 
     private void OnMouseDown()
     {
-        Debug.Log(Camera.main.ScreenToWorldPoint(Input.mousePosition));
+        Debug.Log("membrane anchor " + this);// Camera.main.ScreenToWorldPoint(Input.mousePosition));
         onMembraneAreaClicked?.Invoke();
 
     }
@@ -27,8 +27,21 @@ public class MembraneAnchor : MonoBehaviour
         {
             if (cv is GoodieGem)
             {
-                (cv as GoodieGem).onTouchCell();
+                (cv as GoodieGem).onTouchCell(); //Bookmark: Goodie gem collision with cell 
             }
+
+           
+        }
+        Mitochondrion mito = collision.GetComponentInChildren<Mitochondrion>();
+        if (mito != null && mito.isOutsideCell)
+        {
+            mito.GoInsideCell();
+        }
+
+        BigVesicle bv = collision.GetComponentInChildren<BigVesicle>();
+        if (bv != null)
+        {
+            bv.FoundMembrane();
         }
 
     }

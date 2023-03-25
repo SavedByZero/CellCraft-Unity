@@ -147,7 +147,7 @@ TextureImporter:
       213: -4047867302316250267
     second: chloro_divide_47
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -167,6 +167,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -175,9 +177,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -198,9 +200,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -240,6 +247,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -1103,6 +1122,47 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      chloro_divide_0: -6441797561112181586
+      chloro_divide_1: -6941337292925982471
+      chloro_divide_10: 8366390240506965239
+      chloro_divide_11: 5298259217595120523
+      chloro_divide_12: 3206084868537751772
+      chloro_divide_13: -2046278258803699226
+      chloro_divide_14: -8064585702452021524
+      chloro_divide_15: -6843912417812158771
+      chloro_divide_16: 4636515747086248520
+      chloro_divide_17: -500470709407214552
+      chloro_divide_18: 8144714652941214462
+      chloro_divide_19: 1627885740652345998
+      chloro_divide_2: -3216817859360878175
+      chloro_divide_20: 461807228235268832
+      chloro_divide_21: 1620206511424964459
+      chloro_divide_22: 7544330444210240520
+      chloro_divide_23: 7312421051946418020
+      chloro_divide_24: 8201004232209659164
+      chloro_divide_25: 5326948688531993216
+      chloro_divide_26: -2163727168002233850
+      chloro_divide_27: 1535676618346828552
+      chloro_divide_28: -3637227424638330713
+      chloro_divide_29: 2387125785406872705
+      chloro_divide_3: -5676265486007053788
+      chloro_divide_30: 8921443750798249431
+      chloro_divide_31: 7902739665399462399
+      chloro_divide_32: 3317733953349514719
+      chloro_divide_33: 8631751829527357494
+      chloro_divide_34: -5287683000947430812
+      chloro_divide_38: -1083166672572512330
+      chloro_divide_39: 4158600387227799619
+      chloro_divide_4: 2702727826053038887
+      chloro_divide_40: 7551136805551502805
+      chloro_divide_41: -4966734484164234588
+      chloro_divide_42: 1061179753820429452
+      chloro_divide_5: 6221751559977812180
+      chloro_divide_6: 2477329186799270695
+      chloro_divide_7: 8959142490932780903
+      chloro_divide_8: 3579237351158383793
+      chloro_divide_9: -3829741371635123384
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

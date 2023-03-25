@@ -23,7 +23,7 @@ public class MovieClipSwitcher : MonoBehaviour
         ChangeClip(0);
     }
 
-    private void finishedClip(MovieClip mc)
+    private void finishedClip(MovieClip mc, string justPlayed)
     {
         
     }

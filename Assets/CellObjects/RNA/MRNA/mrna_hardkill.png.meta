@@ -93,7 +93,7 @@ TextureImporter:
       213: -380311113560877308
     second: mrna_hardkill_29
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -113,6 +113,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -121,9 +123,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -144,9 +146,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -186,6 +193,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -839,6 +858,37 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      mrna_hardkill_0: -5566830245974268388
+      mrna_hardkill_1: 2226641708453575602
+      mrna_hardkill_10: -4067384176170789746
+      mrna_hardkill_11: -8929472739703490311
+      mrna_hardkill_12: -4225084113131666123
+      mrna_hardkill_13: -5695743347405094345
+      mrna_hardkill_14: 7126437505808137925
+      mrna_hardkill_15: 8152318217018853724
+      mrna_hardkill_16: 1781322351920934351
+      mrna_hardkill_17: -5894124232264390327
+      mrna_hardkill_18: 2767796977006081762
+      mrna_hardkill_19: -5400575002367078121
+      mrna_hardkill_2: -5513358071770479616
+      mrna_hardkill_20: -5968978898352448361
+      mrna_hardkill_21: 4682043476072247996
+      mrna_hardkill_22: -5231396232389602029
+      mrna_hardkill_23: 4083339365305396924
+      mrna_hardkill_24: -2942766998849063875
+      mrna_hardkill_25: -2067867472361487930
+      mrna_hardkill_26: 8326472946190064258
+      mrna_hardkill_27: 2733607654556552187
+      mrna_hardkill_28: 1923408515933176011
+      mrna_hardkill_29: -380311113560877308
+      mrna_hardkill_3: 235817753644774127
+      mrna_hardkill_4: -3729453912426290154
+      mrna_hardkill_5: 2483284174161697921
+      mrna_hardkill_6: 7057868672153492250
+      mrna_hardkill_7: 2878225360885030870
+      mrna_hardkill_8: -4045705965000553529
+      mrna_hardkill_9: -3935312862968908741
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

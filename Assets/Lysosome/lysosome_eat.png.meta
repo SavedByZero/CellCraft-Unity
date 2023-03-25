@@ -243,7 +243,7 @@ TextureImporter:
       213: -4342683820553168219
     second: lysosome_eat_79
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -263,6 +263,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -271,9 +273,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -294,9 +296,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -336,6 +343,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -2039,6 +2058,87 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      lysosome_eat_0: 5521549453106100537
+      lysosome_eat_1: 5005664706168455981
+      lysosome_eat_10: 4540151871442311138
+      lysosome_eat_11: 6232790563370167379
+      lysosome_eat_12: -6474244029803384849
+      lysosome_eat_13: -4422091436014848536
+      lysosome_eat_14: 261153893117037141
+      lysosome_eat_15: 7336893657849378163
+      lysosome_eat_16: 7206245217808671725
+      lysosome_eat_17: 2188890668064847077
+      lysosome_eat_18: 5443453103796873678
+      lysosome_eat_19: -4580930729627073680
+      lysosome_eat_2: 6042749200756625027
+      lysosome_eat_20: -4578191766240619082
+      lysosome_eat_21: 7841630726733522896
+      lysosome_eat_22: 7476187383378208645
+      lysosome_eat_23: -5168625701811789760
+      lysosome_eat_24: -4782005274654936652
+      lysosome_eat_25: -7679020649842533912
+      lysosome_eat_26: -8479227332541948497
+      lysosome_eat_27: 740036274155336267
+      lysosome_eat_28: 8445396952543863452
+      lysosome_eat_29: 9018645014569421770
+      lysosome_eat_3: -593045362939928492
+      lysosome_eat_30: 7773889365819772932
+      lysosome_eat_31: 8960209711560025722
+      lysosome_eat_32: 2816079523232103938
+      lysosome_eat_33: 5688677804903300865
+      lysosome_eat_34: -8785051873802630149
+      lysosome_eat_35: -7904289042826873583
+      lysosome_eat_36: 1398890491103361319
+      lysosome_eat_37: 3814902539584104437
+      lysosome_eat_38: -3930021006862278106
+      lysosome_eat_39: 8390641870199800859
+      lysosome_eat_4: -8812542118617902777
+      lysosome_eat_40: 4654839186082083479
+      lysosome_eat_41: -3035355895595126421
+      lysosome_eat_42: 137752768876510686
+      lysosome_eat_43: -9221326643327974709
+      lysosome_eat_44: 8327130398855288808
+      lysosome_eat_45: -1600595616482322614
+      lysosome_eat_46: -7653955414059718772
+      lysosome_eat_47: -4084296784840227386
+      lysosome_eat_48: -7871339933166674899
+      lysosome_eat_49: 1155621155951024667
+      lysosome_eat_5: 3501325801278426245
+      lysosome_eat_50: -5600019012462004975
+      lysosome_eat_51: 394813843881219934
+      lysosome_eat_52: -1297737434779104881
+      lysosome_eat_53: 9157149689922559355
+      lysosome_eat_54: -6311162821962629863
+      lysosome_eat_55: 3479323071302925837
+      lysosome_eat_56: 2875888925472441026
+      lysosome_eat_57: -8565283266358848839
+      lysosome_eat_58: 614765403410822784
+      lysosome_eat_59: -6261295594113339491
+      lysosome_eat_6: 7276254887560730542
+      lysosome_eat_60: -1732476413724628394
+      lysosome_eat_61: -1154454301913834057
+      lysosome_eat_62: 6694646218094876765
+      lysosome_eat_63: 7523952955767994517
+      lysosome_eat_64: 2602390334628699346
+      lysosome_eat_65: -6675385693716149548
+      lysosome_eat_66: 1077178201993748478
+      lysosome_eat_67: 4500757306572071280
+      lysosome_eat_68: 4357579194794927225
+      lysosome_eat_69: 2766038732035620901
+      lysosome_eat_7: 7914016663102670096
+      lysosome_eat_70: -8101260158842705271
+      lysosome_eat_71: -382000546490832115
+      lysosome_eat_72: 5066726768882521871
+      lysosome_eat_73: 835993189379619781
+      lysosome_eat_74: -3557935113990713626
+      lysosome_eat_75: 7148924485384100769
+      lysosome_eat_76: 926373441016319767
+      lysosome_eat_77: 7327504015400319610
+      lysosome_eat_78: 1706445050101378466
+      lysosome_eat_79: -4342683820553168219
+      lysosome_eat_8: 6798501950519835123
+      lysosome_eat_9: -4776032044058571760
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

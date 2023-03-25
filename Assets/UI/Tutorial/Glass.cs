@@ -20,7 +20,7 @@ public class Glass : MovieClip
         
     }
 
-    void endGlassAnimation(MovieClip me)
+    void endGlassAnimation(MovieClip me, string justPlayed)
     {
         GetComponentInChildren<Image>().DOColor(Color.white, 0.5f);
     }

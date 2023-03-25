@@ -1,0 +1,147 @@
+﻿{"frames": {
+
+"ATP.jpg":
+{
+	"frame": {"x":20,"y":20,"w":226,"h":170},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":226,"h":170},
+	"sourceSize": {"w":226,"h":170}
+},
+"Bitmap 101":
+{
+	"frame": {"x":256,"y":20,"w":181,"h":313},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":181,"h":313},
+	"sourceSize": {"w":181,"h":313}
+},
+"Bitmap 158":
+{
+	"frame": {"x":1370,"y":20,"w":320,"h":320},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":320,"h":320},
+	"sourceSize": {"w":320,"h":320}
+},
+"ER.jpg":
+{
+	"frame": {"x":447,"y":20,"w":226,"h":170},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":226,"h":170},
+	"sourceSize": {"w":226,"h":170}
+},
+"NucleicAcid.gif":
+{
+	"frame": {"x":683,"y":20,"w":173,"h":170},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":173,"h":170},
+	"sourceSize": {"w":173,"h":170}
+},
+"Nucleus.jpg":
+{
+	"frame": {"x":866,"y":20,"w":223,"h":170},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":223,"h":170},
+	"sourceSize": {"w":223,"h":170}
+},
+"RNA.jpg":
+{
+	"frame": {"x":1099,"y":20,"w":261,"h":170},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":261,"h":170},
+	"sourceSize": {"w":261,"h":170}
+},
+"aminoacid.png":
+{
+	"frame": {"x":1700,"y":20,"w":238,"h":170},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":238,"h":170},
+	"sourceSize": {"w":238,"h":170}
+},
+"cell.jpg":
+{
+	"frame": {"x":20,"y":350,"w":172,"h":170},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":172,"h":170},
+	"sourceSize": {"w":172,"h":170}
+},
+"cholesterol.png":
+{
+	"frame": {"x":202,"y":350,"w":252,"h":170},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":252,"h":170},
+	"sourceSize": {"w":252,"h":170}
+},
+"cytoplasm.png":
+{
+	"frame": {"x":464,"y":350,"w":169,"h":170},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":169,"h":170},
+	"sourceSize": {"w":169,"h":170}
+},
+"glucose.jpg":
+{
+	"frame": {"x":643,"y":350,"w":180,"h":170},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":170},
+	"sourceSize": {"w":180,"h":170}
+},
+"golgi.jpg":
+{
+	"frame": {"x":833,"y":350,"w":226,"h":170},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":226,"h":170},
+	"sourceSize": {"w":226,"h":170}
+},
+"lysosome.png":
+{
+	"frame": {"x":1069,"y":350,"w":168,"h":170},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":168,"h":170},
+	"sourceSize": {"w":168,"h":170}
+},
+"membrane.png":
+{
+	"frame": {"x":1247,"y":350,"w":193,"h":170},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":193,"h":170},
+	"sourceSize": {"w":193,"h":170}
+},
+"mitochondria.jpg":
+{
+	"frame": {"x":1450,"y":350,"w":182,"h":170},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":182,"h":170},
+	"sourceSize": {"w":182,"h":170}
+},
+"protein.jpg":
+{
+	"frame": {"x":1642,"y":350,"w":173,"h":170},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":173,"h":170},
+	"sourceSize": {"w":173,"h":170}
+}},
+"meta": {
+	"app": "Adobe Animate",
+	"version": "23.0.0.407",
+	"image": "science_art.png",
+	"format": "RGBA8888",
+	"size": {"w":2048,"h":1024},
+	"scale": "1"
+}
+}

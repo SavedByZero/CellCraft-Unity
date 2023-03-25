@@ -9,11 +9,12 @@ using UnityEngine.UI;
 
 public class BigVesicle : CellObject
 {
+	//TODO: you need a list of icon sprites to determine the type of thing it carries, and radius
 		private float size=0;
 		private float maxSize=0;
 		private const float GROW_SPEED = 2;
 		private List<CellObject> list_contents;
-		private Image shape;
+		//private Image shape;
 		
 		private MembraneNode mnode;
 		
@@ -46,11 +47,44 @@ public class BigVesicle : CellObject
 		
 		
 		private bool unRecycle = false;
-	public Graphics graphics;
+	public GameObject BGGraphic;
+	public Sprite[] Icons;
+	public string[] IconIDs;
+	private Sprite _currentIcon;
+	private string _content;
+	public string Content {
+		get { return _content; }
+	}
+	private bool _ready;
+
+	public void SetContent(string id)
+	{
+		for(int i=0; i < IconIDs.Length; i++)
+		{
+			if (IconIDs[i] == id)
+			{
+				_currentIcon = Icons[i];
+				_content = id;
+				GetComponentInChildren<SpriteRenderer>().sprite = _currentIcon;
+				setRadius(_currentIcon.rect.width * 1.25f);
+				_ready = true;
+				
+				break;
+			}
+		}
+	}
+
+	void Update()
+	{
+		if (_ready)
+		{
+			//updateBigVesicle();
+		}
+	}
 
 	public void InitBigVesicle(float startSize = 0)
 	{
-		graphics = new Graphics();
+		
 		size = startSize;
 		canSelect = false;
 		singleSelect = true;
@@ -101,7 +135,7 @@ public class BigVesicle : CellObject
 				ph_show = ph_balance;
 				StopCoroutine(_animPHRoutine);//removeEventListener(RunFrameEvent.RUNFRAME, animPH);
 			}
-			updateBigVesicle();
+			//updateBigVesicle();
 			yield return new WaitForEndOfFrame();
 		}
 	}
@@ -109,50 +143,21 @@ public class BigVesicle : CellObject
 
 	public override void onCanvasWrapperUpdate()
 	{
-		updateBigVesicle();
+		//updateBigVesicle();
 	}
 
 	public override void updateBubbleZoom(float n)
 	{
 		base.updateBubbleZoom(n);
-		updateBigVesicle();
+		//updateBigVesicle();
 	}
 
 	public void updateBigVesicle()
 	{
 		if (size > 0)
 		{
+			BGGraphic.transform.localScale = new Vector3(size/100f, size/100f, size/100f);
 
-			Color col;
-			Color col2;
-			Color col3;
-
-			col = PH.getCytoColor(ph_show);
-			col2 = PH.getLineColor(ph_show);
-			col3 = PH.getGapColor(ph_show);
-
-			graphics.Begin();
-			graphics.SetFillColor(col);
-			graphics.lineStyle(1.5f, Color.black);// (Membrane.OUTLINE_THICK / 1.5, 0x000000);
-			graphics.Circle(0, 0, size);
-			graphics.Fill();
-			graphics.Stroke();
-
-			graphics.lineStyle(2, col2);
-			//shape.graphics.lineStyle(Membrane.SPRING_THICK / 2, col2);
-			graphics.Circle(0, 0, size);
-			graphics.Stroke();
-			graphics.lineStyle(3, col3);
-			//shape.graphics.drawCircle(0, 0, size);
-
-			graphics.Circle(0, 0, size);
-			graphics.Stroke();
-			graphics.End();
-
-			/*   //TODO: we need to figure out a substitute for this 
-			shape.graphics.clear();
-			
-			*/
 
 
 		}
@@ -212,6 +217,11 @@ public class BigVesicle : CellObject
 		}
 	}
 
+	public void FoundMembrane()
+	{
+		p_cell.c_membrane.mergeVesicle(this);
+	}
+
 	public MembraneNode tryGetNode()
 	{
 			if(p_cell.c_membrane.acceptingVesicles){
@@ -252,7 +262,8 @@ public class BigVesicle : CellObject
 
 				onGrowFinish();
 			}
-			updateBigVesicle();
+			else
+				updateBigVesicle();
 		}
 	}
 
@@ -263,13 +274,15 @@ public class BigVesicle : CellObject
 			yield return new WaitForEndOfFrame();
 			size -= GROW_SPEED;
 			setRadius(size + Membrane.OUTLINE_THICK_ / 4);
-			updateBigVesicle();
+			
 			if (size <= 0)
 			{
 				size = 0;
 				onShrinkFinish();
 			}
-		}
+			else
+                updateBigVesicle();
+        }
 
 	}
 

@@ -195,7 +195,7 @@ TextureImporter:
       213: -1759046411642952829
     second: ribosome_dock_22
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -216,6 +216,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -254,6 +255,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 1
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -293,6 +295,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -469,7 +483,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 7886e78cdca4e17f0800000000000000
-      internalID: -639991849347553145
+      internalID: -1690332160458377821
       vertices: []
       indices: 
       edges: []
@@ -490,7 +504,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 614a190756ac64d50800000000000000
-      internalID: 6721282030926144534
+      internalID: -4772490011247494578
       vertices: []
       indices: 
       edges: []
@@ -511,7 +525,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: e39e7f90220573ee0800000000000000
-      internalID: -1281467461837264578
+      internalID: -6370104938769671635
       vertices: []
       indices: 
       edges: []
@@ -532,7 +546,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 958bcb23b764f75a0800000000000000
-      internalID: -6521416240463038375
+      internalID: 7988976158553327659
       vertices: []
       indices: 
       edges: []
@@ -553,7 +567,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 419ac06793b1663c0800000000000000
-      internalID: -4366772855081490156
+      internalID: -4094653429779690151
       vertices: []
       indices: 
       edges: []
@@ -574,7 +588,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: d0f9bd768edc3b6f0800000000000000
-      internalID: -669965521489518835
+      internalID: 7230774962364990851
       vertices: []
       indices: 
       edges: []
@@ -595,7 +609,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 6acb8a147d7249730800000000000000
-      internalID: 4004869774112242854
+      internalID: -6365569297763665273
       vertices: []
       indices: 
       edges: []
@@ -616,7 +630,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 34fc61621f142c830800000000000000
-      internalID: 4089903915587784515
+      internalID: -6529433227008579577
       vertices: []
       indices: 
       edges: []
@@ -637,7 +651,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: c71bd61eac25341f0800000000000000
-      internalID: -1061914055810371204
+      internalID: -2067214417306820312
       vertices: []
       indices: 
       edges: []
@@ -658,7 +672,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: f7f52b73bd06aecd0800000000000000
-      internalID: -2528101746166571137
+      internalID: 7412127206402274337
       vertices: []
       indices: 
       edges: []
@@ -679,7 +693,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 539db7069d36c00f0800000000000000
-      internalID: -1149434019608536779
+      internalID: 9014445708268623362
       vertices: []
       indices: 
       edges: []
@@ -700,7 +714,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 9b2b4895e4d249700800000000000000
-      internalID: 546111269351240377
+      internalID: 1715959179026358202
       vertices: []
       indices: 
       edges: []
@@ -721,7 +735,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: c381e2962d87206e0800000000000000
-      internalID: -1872801649929611204
+      internalID: 4333723961095344965
       vertices: []
       indices: 
       edges: []
@@ -742,7 +756,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: e2394687f62050400800000000000000
-      internalID: 289640428819747630
+      internalID: -1453552925242570240
       vertices: []
       indices: 
       edges: []
@@ -763,7 +777,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 51e7999a71ea64840800000000000000
-      internalID: 5208041435753446933
+      internalID: -6007268256252515130
       vertices: []
       indices: 
       edges: []
@@ -784,7 +798,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 383a892cb9c9697e0800000000000000
-      internalID: -1759046411642952829
+      internalID: -1632013156346671676
       vertices: []
       indices: 
       edges: []
@@ -946,6 +960,37 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      ribosome_dock_0: -8648181724949441919
+      ribosome_dock_1: -1799112986209359756
+      ribosome_dock_10: 7988976158553327659
+      ribosome_dock_11: -4094653429779690151
+      ribosome_dock_12: 7230774962364990851
+      ribosome_dock_13: -6365569297763665273
+      ribosome_dock_14: -6529433227008579577
+      ribosome_dock_15: -2067214417306820312
+      ribosome_dock_16: 7412127206402274337
+      ribosome_dock_17: 9014445708268623362
+      ribosome_dock_18: 1715959179026358202
+      ribosome_dock_19: 4333723961095344965
+      ribosome_dock_2: -8440023939084967754
+      ribosome_dock_20: -1453552925242570240
+      ribosome_dock_21: -6007268256252515130
+      ribosome_dock_22: -1632013156346671676
+      ribosome_dock_23: -2010480673018183840
+      ribosome_dock_24: -9191565191511651871
+      ribosome_dock_25: -2632381543897312797
+      ribosome_dock_26: 7678377891601398374
+      ribosome_dock_27: 2707929122346621175
+      ribosome_dock_28: -8910246894349858162
+      ribosome_dock_29: -3394592471194082967
+      ribosome_dock_3: 4693615986019025302
+      ribosome_dock_4: 5772883624192980924
+      ribosome_dock_5: -8196320793217712856
+      ribosome_dock_6: -8278750028299248213
+      ribosome_dock_7: -1690332160458377821
+      ribosome_dock_8: -4772490011247494578
+      ribosome_dock_9: -6370104938769671635
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

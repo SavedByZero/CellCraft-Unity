@@ -10,7 +10,7 @@ public class GoodieManager : MonoBehaviour
     void Start()
     {
         _fieldSR = GetComponentInChildren<Terrain>().GetComponentInChildren<SpriteRenderer>();
-        PlaceGem("g", 10, new Vector3(7,7,0));
+        //PlaceGem("g", 10, new Vector3(7,7,0));
     }
 
     //Place a gem of a certain type at a certain spot
@@ -27,6 +27,17 @@ public class GoodieManager : MonoBehaviour
         gem.transform.localScale = Vector3.one;
         gem.transform.localPosition = spot;
 
+    }
+
+    public void PlaceGoodie(Stuff goodie)
+    {
+        /*goodie.Type, 
+            goodie.Count, 
+            goodie.Spawn*/  //spawn chance?
+        for(int i=0; i < goodie.Count; i++)
+        {
+            PlaceGem(goodie.Type, Random.Range(2,5), new Vector3(Random.Range(-15,15),Random.Range(-15,15)));
+        }
     }
 
    

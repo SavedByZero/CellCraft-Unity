@@ -5,19 +5,20 @@ using System.Text;
 using System.Threading.Tasks;
 using UnityEngine;
 using System.Collections;
+using Unity.Burst.CompilerServices;
 
 
 public class Engine : MonoBehaviour
 {
-	public delegate void ATPChanged(float atp);
+	public delegate void ATPChanged(float atp, float netChange);
 	public ATPChanged onATPChanged;
-	public delegate void NAChanged(float na);
+	public delegate void NAChanged(float na, float netChange);
 	public ATPChanged onNAChanged;
-	public delegate void AAChanged(float aa);
+	public delegate void AAChanged(float aa, float netChange);
 	public ATPChanged onAAChanged;
-	public delegate void FAChanged(float fa);
+	public delegate void FAChanged(float fa, float netChange);
 	public ATPChanged onFAChanged;
-	public delegate void GChanged(float g);
+	public delegate void GChanged(float g, float netChange);
 	public ATPChanged onGChanged;
 
 
@@ -27,6 +28,9 @@ public class Engine : MonoBehaviour
 	public CellGameEvent EngineEvent = new CellGameEvent();
 	public MessageEvent EngineMessageEvent = new MessageEvent();
 	public ResourceBar Glucose_ResourceBar;
+	public ResourceBar AA_ResourceBar;
+	public ResourceBar FA_ResourceBar;
+	public ResourceBar NA_ResourceBar;
 	private bool[] spend_checker = new bool[] { true, true, true, true, true };
 	public float r_atp
     {
@@ -37,8 +41,9 @@ public class Engine : MonoBehaviour
 
 		set
         {
+			float netChange = (value - r_atp_);
 			r_atp_ = value;
-			onATPChanged?.Invoke(r_atp_);
+			onATPChanged?.Invoke(r_atp_, netChange);
         }
     }
 
@@ -51,8 +56,10 @@ public class Engine : MonoBehaviour
 
 		set
         {
-			r_na_ = value;
-			onNAChanged?.Invoke(r_na_);
+            float netChange = (value - r_na_);
+            r_na_ = value;
+           
+            onNAChanged?.Invoke(r_na_, netChange);
 			
         }
     }
@@ -66,8 +73,9 @@ public class Engine : MonoBehaviour
 
 		set
         {
+			float netChange = (value - r_aa_);
 			r_aa_ = value;
-			onAAChanged?.Invoke(r_aa_);
+			onAAChanged?.Invoke(r_aa_, netChange);
         }
     }
 
@@ -80,8 +88,10 @@ public class Engine : MonoBehaviour
 
 		set
 		{
+			float netChange = (value - r_fa_);
+       
 			r_fa_ = value;
-			onFAChanged?.Invoke(r_fa_);
+			onFAChanged?.Invoke(r_fa_, netChange);
 		}
 	}
 
@@ -94,8 +104,10 @@ public class Engine : MonoBehaviour
 
 		set
 		{
+			float netChange = (value - r_g_);
+       
 			r_g_ = value;
-			onGChanged?.Invoke(r_g_);
+			onGChanged?.Invoke(r_g_, netChange);
 		}
 	}
 
@@ -214,7 +226,351 @@ public class Engine : MonoBehaviour
 			return false;
 	}
 
-	private void clearSpendCheck(int[] a = null)
+    private void doObjAction(ObjectiveAction o)
+    {
+        string type = o.type.ToLower();
+        //trace("Engine.doObjAction(" + type + ")");
+        if (type == "activate_objective")
+        {
+           // activateObjective(o.paramList);
+        }
+        else if (type == "deactivate_objective")
+        {
+           //deactivateObjective(o.paramList);
+        }
+        else if (type == "speech")
+        {
+           // doSpeech(o.paramList);
+        }
+        else if (type == "show_resource")
+        {
+            //showResource(o.paramList);
+        }
+        else if (type == "hide_resource")
+        {
+            //hideResource(o.paramList);
+        }
+        else if (type == "hide_interface")
+        {
+           // hideInterfaceElement(o.paramList);
+        }
+        else if (type == "hide_organelle")
+        {
+            //hideOrganelle(o.paramList, true);
+        }
+        else if (type == "show_organelle")
+        {
+           // hideOrganelle(o.paramList, false);
+        }
+        else if (type == "plop_organelle")
+        {
+            //plopOrganelle(o.paramList);
+        }
+        else if (type == "show_interface")
+        {
+            //showInterfaceElement(o.paramList);
+        }
+        else if (type == "spawn_object")
+        {
+            //spawnObject(o.paramList);
+        }
+        else if (type == "discovery")
+        {
+            //makeDiscovery(o.paramList);
+        }
+        else if (type == "activate_stuff")
+        {
+            //activateStuff(o.paramList);
+        }
+        else if (type == "set_cyto_process")
+        {
+            //setCytoProcess(o.paramList);
+        }
+        else if (type == "set_fat_process")
+        {
+            //setFatProcess(o.paramList);
+        }
+        else if (type == "send_wave")
+        {
+            //sendWave(o.paramList);
+        }
+        else if (type == "show_newthing")
+        {
+            //showNewThing(o.paramList);
+        }
+        else if (type == "finish_level")
+        {
+            //finishLevel(o.paramList);
+        }
+        else if (type == "throw_flag")
+        {
+            //throwFlag(o.paramList);
+        }
+        else if (type == "wipe_organelle_act")
+        {
+            //wipeOrganelleAct(o.paramList);
+        }
+        else if (type == "add_organelle_act")
+        {
+            //addOrganelleAct(o.paramList);
+        }
+        else if (type == "set_zoom")
+        {
+            //fauxPauseZoom(o.paramList);
+        }
+        else if (type == "set_scroll_to")
+        {
+            //fauxPauseScrollTo(o.paramList);
+        }
+        else if (type == "set_radicals")
+        {
+            //setRadicals(o.paramList);
+        }
+        else if (type == "spawn_radicals")
+        {
+           // spawnRadicals(o.paramList);
+        }
+        else if (type == "set_sunlight")
+        {
+            //setTheSunlight(o.paramList);
+        }
+        else if (type == "set_toxinlevel")
+        {
+            //setTheToxinLevel(o.paramList);
+        }
+        else if (type == "start_countdown")
+        {
+            //setupCountdown(o.paramList);
+        }
+        else if (type == "set_resource")
+        {
+            //doSetResource(o.paramList);
+        }
+        else if (type == "set_arrow_show")
+        {
+            //doSetArrowShow();
+        }
+        else if (type == "set_temperature")
+        {
+            //doSetTemp(o.paramList);
+        }
+        else if (type == "set_heat_change")
+        {
+            //doSetHeatChange(o.paramList);
+        }
+        else if (type == "stop_heat_change")
+        {
+            //doStopHeatChange();
+        }
+        else
+        {
+            //throw new Error("Unrecognized ObjectiveAction type \"" + type + "\" !");
+        }
+    }
+
+    //Bookmark: plug the spawn_object xml into this first 
+    public void spawnObject(string id, string loc_id, string moveType, int count = 1, int value = 0, int distance = 0)//(pList:Vector.<ObjectiveActionParam>)
+	{
+		//var id:String = "null";        //MUST be specified or errors will happen
+		//var loc_id:String = "null";    //MUST be specified or errors will happen
+		//var move_type:String = "null"; //defaults to null if not specified, which means doesn't move
+		//var value:Number = 0; //defaults to 0 if not specified
+		//var count:Number = 1; //defaults to 1 if not specified
+		//var distance:Number = 0;
+		//Consider re-writing with dictionaries or generic object string keys
+		//int count = 1;
+		CellGameObject thing = null;
+		for (int i = 0; i < count; i++)
+		{
+			thing = makeObjectFromId(id, value);
+			if (thing)
+			{
+				Vector2 loc = Vector2.left * 20; //TODO: find location.  // var loc:Vector2D = makeLocFromId(loc_id, i, count - 1, distance);
+				thing.x = loc.x;
+				thing.y = loc.y;
+				thing.putInGrid();
+			}
+			if (moveType != "null" && thing != null)
+			{
+				moveSpawnObject(thing, moveType);  
+			}
+
+
+		}
+	}
+
+    //Bookmark: How vesciles are made from xml
+    //in doObjAction, if you're spawning an object, call spawnObject(above).  
+    //spawnObject calls makeObjectFromID
+
+    private CellGameObject makeObjectFromId(string id, float value) 
+	{
+			string type;
+			if (id.Substring(0, 3) == "gem") {
+				type = id.Substring(4, id.Length - 4);
+			GameObject.FindObjectOfType<GoodieManager>().PlaceGem(type, (int)value, new Vector3(UnityEngine.Random.Range(-15, 15), UnityEngine.Random.Range(-15, 15)));
+				//return makeGoodieGem(type, value);  //TODO
+			}else if (id.Substring(0, 3) == "ves")
+			{
+				type = id.Substring(4, id.Length - 4);
+			return makeVesicleObjectFromId(type);//makeVesicleWrapper(type, value);
+			}
+			return null;
+	}
+
+
+
+    //find the kind of object you're making based on the id string 
+    //if it's a vesicle, call makeVesicleObjectFromId
+
+
+    public CanvasWrapperObject makeVesicleWrapper(string type, float value = 0) 
+	{
+			//trace("WorldCanvas.makeVesicleWrapper(" + type + "," + value + ")");
+			CanvasWrapperObject cw = new CanvasWrapperObject();
+    //cw.setCanvas(this);
+    //list_wrappers.push(cw);
+			//addRunning(cw);
+    //addChild(cw);
+    //cw.setCell(p_cell);
+			cw.makeVesicleObjectFromId(type);
+			//cw.matchZoom(zoom);
+			return cw;
+		}
+    //makeObjectFromId will make either a goodie gem or a vesicle, using the type and value for each. 
+    //If it's a vesicle, it calls makeVesicleWrapper 
+    //makeVesicleWrapper calls makeVesicleObjectFromId with type
+    //the id goes into the "content" property of the vesicle 
+
+    //makeVesicleObjectFromId creates the icon based on the type, then gets the radius of the icon, then 
+    //calls this line:   var v:BigVesicle = p_cell.export_makeBigVesicle(radius);
+    //the vesicle then gets added to the screen.  
+    //moveSpawnObject then gets called to move it toward the cell
+    //At SOME point, the membrane's mergeVesicle method gets called, reads this content, and does all of its magic. 
+    //this happened originally as part of the collisionTest method in the membrane, but...
+    public CellGameObject makeVesicleObjectFromId(string id)
+    {
+
+        //instantiate a big vesicle with a certain radius and the id.
+
+
+        Cell cell = GetComponentInChildren<Cell>();
+        //trace("CanvasWrapperObject.makeVesicleObjectFromID(" + id + ")!");
+        string content = id;
+		GameObject BigVesicleGO = Instantiate(GetComponentInChildren<Cell>().BigVesicle_Prefab) as GameObject;
+		BigVesicle bv = BigVesicleGO.GetComponentInChildren<BigVesicle>();
+      
+
+        bv.SetContent(content);//?
+		bv.setCell(cell);
+		cell.ApplyBigVesicle(bv);
+        bv.InitBigVesicle(bv.getRadius());
+        //bv.GotoAndStop(content);
+        BigVesicleGO.transform.SetParent(this.transform);
+		return bv;
+    }
+
+    private void moveSpawnObject(CellGameObject thing, string move_type)
+    {
+		Cell cell = GetComponentInChildren<Cell>();
+        if (move_type == "towards_cell")
+        {
+            thing.moveToObject(cell.c_centrosome, CellGameObject.FLOAT, true);
+        }
+    }
+
+
+
+
+
+
+
+
+    /*
+     *private function doObjAction(o:ObjectiveAction) {
+            var type:String = o.type.toLowerCase();
+            //trace("Engine.doObjAction(" + type + ")");
+            if (type == "activate_objective") {
+                activateObjective(o.paramList);
+            }else if (type == "deactivate_objective") {
+                deactivateObjective(o.paramList);
+            }else if (type == "speech") {
+                doSpeech(o.paramList);
+            }else if (type == "show_resource") {
+                showResource(o.paramList);
+            }else if (type == "hide_resource") {
+                hideResource(o.paramList);
+            }else if (type == "hide_interface") {
+                hideInterfaceElement(o.paramList);
+            }else if (type == "hide_organelle") {
+                hideOrganelle(o.paramList,true);
+            }else if (type == "show_organelle") {
+                hideOrganelle(o.paramList, false);
+            }else if (type == "plop_organelle") {
+                plopOrganelle(o.paramList);
+            }else if (type == "show_interface") {
+                showInterfaceElement(o.paramList);
+            }else if (type == "spawn_object") {
+                spawnObject(o.paramList);
+            }else if (type == "discovery") {
+                makeDiscovery(o.paramList);
+            }else if (type == "activate_stuff") {
+                activateStuff(o.paramList);
+            }else if (type == "set_cyto_process") {
+                setCytoProcess(o.paramList);
+            }else if (type == "set_fat_process") {
+                setFatProcess(o.paramList);
+            }else if (type == "send_wave") {
+                sendWave(o.paramList);
+            }else if (type == "show_newthing") {
+                showNewThing(o.paramList);
+            }else if (type == "finish_level") {
+                finishLevel(o.paramList);
+            }else if (type == "throw_flag") {
+                throwFlag(o.paramList);
+            }else if (type == "wipe_organelle_act") {
+                wipeOrganelleAct(o.paramList);
+            }else if (type == "add_organelle_act") {
+                addOrganelleAct(o.paramList);
+            }else if (type == "set_zoom") {
+                fauxPauseZoom(o.paramList);
+            }else if (type == "set_scroll_to") {
+                fauxPauseScrollTo(o.paramList);
+            }else if (type == "set_radicals") {
+                setRadicals(o.paramList);
+            }else if (type == "spawn_radicals") {
+                spawnRadicals(o.paramList);
+            }else if (type == "set_sunlight") {
+                setTheSunlight(o.paramList);
+            }else if (type == "set_toxinlevel") {
+                setTheToxinLevel(o.paramList);
+            }else if ( type == "start_countdown") {
+                setupCountdown(o.paramList);
+            }else if (type == "set_resource") {
+                doSetResource(o.paramList);
+            }else if (type == "set_arrow_show") {
+                doSetArrowShow();
+            }else if (type == "set_temperature") {
+                doSetTemp(o.paramList);
+            }else if (type == "set_heat_change") {
+                doSetHeatChange(o.paramList);
+            }else if (type == "stop_heat_change") {
+                doStopHeatChange();
+            }
+            else {
+                throw new Error("Unrecognized ObjectiveAction type \"" + type + "\" !");
+            }
+        } 
+     * 
+     * 
+
+
+
+
+    /**/
+
+
+    private void clearSpendCheck(int[] a = null)
 	{
 		if (a != null)
 		{
@@ -234,15 +590,48 @@ public class Engine : MonoBehaviour
 	public void GainATP(float i)
     {
 		r_atp += i;
-		EngineEvent?.Invoke("atp_gain", i);
+		//EngineEvent?.Invoke("atp_gain", i);
     }
+
+	public void GainAA(float i)
+    {
+		r_aa += i;
+		EngineEvent?.Invoke("aa_gain", i);
+		if (AA_ResourceBar != null)
+        {
+			AA_ResourceBar.Set(r_aa);
+        }
+		//if ()
+	}
+	
+	public void GainFA(float i)
+    {
+		r_fa += i;
+		EngineEvent?.Invoke("fa_gain", i);
+		if (AA_ResourceBar != null)
+        {
+			AA_ResourceBar.Set(r_fa);
+        }
+		//if ()
+	}
+	
+	public void GainNA(float i)
+    {
+		r_na += i;
+		EngineEvent?.Invoke("na_gain", i);
+		if (AA_ResourceBar != null)
+        {
+			AA_ResourceBar.Set(r_na);
+        }
+		//if ()
+	}
 
 	public void GainGlucose(float i)
     {
 		r_g += i;
-		EngineEvent?.Invoke("glucose_gain", i);
+		//EngineEvent?.Invoke("glucose_gain", i);
 		if (Glucose_ResourceBar != null)
-			Glucose_ResourceBar.Set(i);
+			Glucose_ResourceBar.Set(r_g);
     }
 
 	public bool spendATP(float i) 
@@ -259,7 +648,7 @@ public class Engine : MonoBehaviour
 			//dirty_resource = true;
 			//notifyOHandler(EngineEvent.RESOURCE_CHANGE, "null", "atp", r_atp);
 			Debug.Log("got atp " + i);
-			EngineEvent?.Invoke("atp_loss",i);
+			//EngineEvent?.Invoke("atp_loss",i);
 					return true;
 					
 			

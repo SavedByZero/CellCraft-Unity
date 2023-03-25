@@ -22,9 +22,9 @@ public class ResourceUI : MonoBehaviour
         Text text = GetComponentInChildren<Text>();
         Outline outline = text.GetComponent<Outline>();
         outline.effectColor = (subtract ? Color.red : Color.green);
-        text.text = subtract ? "-" + value.ToString() : "+" + value.ToString();
+        text.text = subtract ? value.ToString() : "+" + value.ToString();
        // Vector3 mouse = FastMath.GetWorldPositionOnPlane(-Camera.main.transform.position.z);//Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 0));
-        this.gameObject.transform.position = Input.mousePosition;
+        this.gameObject.transform.position = Input.mousePosition + (Vector3.left+new Vector3((int)IType*150,0,0));
         Image img = GetComponentInChildren<Image>(true);
         img.sprite = ResourceIcons[(int)IType];
         this.gameObject.SetActive(true);
@@ -40,5 +40,8 @@ public class ResourceUI : MonoBehaviour
 public enum IconType
 {
     ATP,
-    Glucose
+    Glucose,
+    NA,
+    FA,
+    AA
 }

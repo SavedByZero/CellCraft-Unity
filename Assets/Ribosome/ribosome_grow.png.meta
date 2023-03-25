@@ -87,7 +87,7 @@ TextureImporter:
       213: 1118156636046405913
     second: ribosome_grow_27
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -108,6 +108,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -146,6 +147,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 1
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -185,6 +187,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -775,6 +789,34 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      ribosome_grow_0: -2106261221369854869
+      ribosome_grow_1: 8395593005593686637
+      ribosome_grow_10: 7969479453687283223
+      ribosome_grow_11: 8539390582034213580
+      ribosome_grow_12: 2676809120671014360
+      ribosome_grow_13: -5336522466926927613
+      ribosome_grow_14: -5947542940039989632
+      ribosome_grow_15: -674626065553805354
+      ribosome_grow_16: 3628696131341837399
+      ribosome_grow_17: -279018280713208483
+      ribosome_grow_18: 2277500623982138780
+      ribosome_grow_19: -279134868125708879
+      ribosome_grow_2: -3770292279990935501
+      ribosome_grow_20: -3946145667853436919
+      ribosome_grow_21: -2016345532077857214
+      ribosome_grow_22: 8479518571609771311
+      ribosome_grow_23: 8228736612090138176
+      ribosome_grow_24: 8655195669145161523
+      ribosome_grow_25: -8341033744977999816
+      ribosome_grow_26: 2986921264141191730
+      ribosome_grow_27: 1118156636046405913
+      ribosome_grow_3: -4590765532908962373
+      ribosome_grow_5: 5017598820969652221
+      ribosome_grow_6: -6354529744893988909
+      ribosome_grow_7: -8809507153608044866
+      ribosome_grow_8: -3864666653812358779
+      ribosome_grow_9: -865262240096314044
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

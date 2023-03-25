@@ -90,7 +90,7 @@ TextureImporter:
       213: -6680298062655163839
     second: lysosome_bud_28
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -110,6 +110,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -118,9 +120,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -141,9 +143,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -183,6 +190,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -815,6 +834,36 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      lysosome_bud_0: -4266013157864070928
+      lysosome_bud_1: -8455934873222662949
+      lysosome_bud_10: 5767131249558218282
+      lysosome_bud_11: 8581969159256335058
+      lysosome_bud_12: -7167901387425155773
+      lysosome_bud_13: 5470772882879962628
+      lysosome_bud_14: 4213970553194231813
+      lysosome_bud_15: 6269235368654402518
+      lysosome_bud_16: -6735974733558754194
+      lysosome_bud_17: -5905803204630632106
+      lysosome_bud_18: -5094024324414271881
+      lysosome_bud_19: 9041171856396960453
+      lysosome_bud_2: -9188998911220160996
+      lysosome_bud_20: 2661902432471865982
+      lysosome_bud_21: -4161521125802499968
+      lysosome_bud_22: -6665859880763777270
+      lysosome_bud_23: 2176736656423020766
+      lysosome_bud_24: -7405621075680085070
+      lysosome_bud_25: -962172017311686915
+      lysosome_bud_26: 2856853323855336798
+      lysosome_bud_27: -5485176478706138221
+      lysosome_bud_28: -6680298062655163839
+      lysosome_bud_3: -4433187788290424604
+      lysosome_bud_4: 1530006022516604302
+      lysosome_bud_5: -5208163316785315419
+      lysosome_bud_6: 3680071884088497111
+      lysosome_bud_7: 6069148962982726849
+      lysosome_bud_8: -6090401701107037901
+      lysosome_bud_9: 456923624594286007
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

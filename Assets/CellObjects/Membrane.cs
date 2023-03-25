@@ -1195,7 +1195,7 @@ public class Membrane : CellObject
 				
 				
 			}
-			ObjectiveManager.GetInstance().onCompleteObjective?.Invoke(ObjectiveManager.GameObjective.MakeAPseudoPod);
+			
 		}
 		else  //TODO
 		{
@@ -1532,6 +1532,12 @@ public class Membrane : CellObject
 		{
 			m1.has_collided = false;
 		}
+	}
+
+	public void mergeVesicle(BigVesicle bv)
+	{
+		p_cell.makeVesicleContent(bv.Content, bv.x + ((p_cell.c_centrosome.x-bv.x)/3),bv.y-((p_cell.c_centrosome.y-bv.y)/3));
+		bv.gameObject.SetActive(false);
 	}
 
 	/*public void mergeVesicle(CanvasWrapperObject cw, MembraneNode m1, MembraneNode m2)

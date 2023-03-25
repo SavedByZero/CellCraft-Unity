@@ -129,7 +129,7 @@ TextureImporter:
       213: -3350302901223175018
     second: mitochondrion_divide_41
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -149,6 +149,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -157,9 +159,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -180,9 +182,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -222,6 +229,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -1085,6 +1104,47 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      mitochondrion_divide_0: 6530818435337339094
+      mitochondrion_divide_1: -2820462061204370141
+      mitochondrion_divide_10: -5705503189916978356
+      mitochondrion_divide_11: 631237140299301849
+      mitochondrion_divide_12: 7774748416924364348
+      mitochondrion_divide_13: 8351532248890347847
+      mitochondrion_divide_14: 5874158821797569438
+      mitochondrion_divide_15: 4186132018436892856
+      mitochondrion_divide_16: 1826977408698132268
+      mitochondrion_divide_17: -5466850618582529058
+      mitochondrion_divide_18: 4540539375908591477
+      mitochondrion_divide_19: 8040751637897533664
+      mitochondrion_divide_2: 3140291163930677153
+      mitochondrion_divide_20: -1689993800366793581
+      mitochondrion_divide_21: -8171506099854956594
+      mitochondrion_divide_22: 710147304981850241
+      mitochondrion_divide_23: 380667223594964759
+      mitochondrion_divide_24: 8568751615234002367
+      mitochondrion_divide_25: 7143395523631071804
+      mitochondrion_divide_26: 2925504479808982013
+      mitochondrion_divide_27: 2534254850206832024
+      mitochondrion_divide_28: -8926028742124495498
+      mitochondrion_divide_29: -4671256634092842566
+      mitochondrion_divide_3: 8251424684628153362
+      mitochondrion_divide_30: -7391715916668052157
+      mitochondrion_divide_31: 4627079864143197743
+      mitochondrion_divide_32: 6945208266442190806
+      mitochondrion_divide_33: -2422675594096328615
+      mitochondrion_divide_34: -4391712154104855602
+      mitochondrion_divide_35: -3440029690966031691
+      mitochondrion_divide_36: 3494995483279437595
+      mitochondrion_divide_37: 1121845931371818547
+      mitochondrion_divide_38: 6419222246861618424
+      mitochondrion_divide_39: 5299362560457853523
+      mitochondrion_divide_4: -1835599392664477150
+      mitochondrion_divide_5: -3811658592673087581
+      mitochondrion_divide_6: -4441084052619736938
+      mitochondrion_divide_7: -2759084021026096094
+      mitochondrion_divide_8: -242887577876188571
+      mitochondrion_divide_9: 4130700107239283932
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

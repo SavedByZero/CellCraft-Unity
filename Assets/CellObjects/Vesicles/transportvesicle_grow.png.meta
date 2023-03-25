@@ -270,7 +270,7 @@ TextureImporter:
       213: 521545402197154174
     second: transportvesicle_grow_88
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -290,6 +290,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -298,9 +300,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -321,9 +323,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -363,6 +370,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -2255,6 +2274,96 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      transportvesicle_grow_0: -2281982838262816822
+      transportvesicle_grow_1: 640306523572054473
+      transportvesicle_grow_10: -7965636401424313944
+      transportvesicle_grow_11: 8823968486973666088
+      transportvesicle_grow_12: 354535303218178970
+      transportvesicle_grow_13: 1921824557732478631
+      transportvesicle_grow_14: -8966027444316080848
+      transportvesicle_grow_15: -2293080393233390287
+      transportvesicle_grow_16: 3183846654938464984
+      transportvesicle_grow_17: -1085410770842234164
+      transportvesicle_grow_18: -1945997504770032241
+      transportvesicle_grow_19: 4839571561944461953
+      transportvesicle_grow_2: -1565641567951115897
+      transportvesicle_grow_20: -6087758836986174793
+      transportvesicle_grow_21: 7317319374805782500
+      transportvesicle_grow_22: -1090595939749074949
+      transportvesicle_grow_23: -6354950021728231944
+      transportvesicle_grow_24: 8921969293203740978
+      transportvesicle_grow_25: -1075925652636678766
+      transportvesicle_grow_26: -7033452792686757040
+      transportvesicle_grow_27: -1551632786550438363
+      transportvesicle_grow_28: 4448688486772600617
+      transportvesicle_grow_29: 7215644780047795417
+      transportvesicle_grow_3: -6864065943102656511
+      transportvesicle_grow_30: 8157369641099496660
+      transportvesicle_grow_31: 6140082228983388867
+      transportvesicle_grow_32: -4359528845536648187
+      transportvesicle_grow_33: -2752702267153974545
+      transportvesicle_grow_34: 5396005156268235189
+      transportvesicle_grow_35: 3992442026741541023
+      transportvesicle_grow_36: -9184466251284703850
+      transportvesicle_grow_37: -6406046801194011433
+      transportvesicle_grow_38: 6985838374980925595
+      transportvesicle_grow_39: -8962564324714613178
+      transportvesicle_grow_4: -5017340451981032349
+      transportvesicle_grow_40: 3442999958533020487
+      transportvesicle_grow_41: -7483778986025028370
+      transportvesicle_grow_42: -6873771831931544897
+      transportvesicle_grow_43: 2226481774226408587
+      transportvesicle_grow_44: 7824853019705614261
+      transportvesicle_grow_45: -7060257209230221349
+      transportvesicle_grow_46: -8897338943204310782
+      transportvesicle_grow_47: 7221800846618888693
+      transportvesicle_grow_48: 7742305051089904421
+      transportvesicle_grow_49: -8438824204766093305
+      transportvesicle_grow_5: -1485814503012986597
+      transportvesicle_grow_50: 8312233022086670635
+      transportvesicle_grow_51: 8195803941304758087
+      transportvesicle_grow_52: 6144987925346706789
+      transportvesicle_grow_53: -7110169522794399209
+      transportvesicle_grow_54: 8939782677915750658
+      transportvesicle_grow_55: 4772849962359446620
+      transportvesicle_grow_56: 7245071826141509028
+      transportvesicle_grow_57: -9048760960031060910
+      transportvesicle_grow_58: -4853179078159530807
+      transportvesicle_grow_59: -6683623698262224120
+      transportvesicle_grow_6: 6483740004458617943
+      transportvesicle_grow_60: -6543661430733551414
+      transportvesicle_grow_61: -8875199053815833752
+      transportvesicle_grow_62: 8542037993534966758
+      transportvesicle_grow_63: 8325853660449794189
+      transportvesicle_grow_64: -6715024582737038995
+      transportvesicle_grow_65: 2053093722275765023
+      transportvesicle_grow_66: -6460982869137354743
+      transportvesicle_grow_67: -2382022953175343076
+      transportvesicle_grow_68: -4637104402802328492
+      transportvesicle_grow_69: -6033072325576404461
+      transportvesicle_grow_7: -1031872750040979842
+      transportvesicle_grow_70: -2806542955182498513
+      transportvesicle_grow_71: 2461606544782068771
+      transportvesicle_grow_72: -9170585899914879457
+      transportvesicle_grow_73: 3870982915788370060
+      transportvesicle_grow_74: -7109494586226954799
+      transportvesicle_grow_75: -7862299592936190239
+      transportvesicle_grow_76: -6801664796362514123
+      transportvesicle_grow_77: -7291441903813821073
+      transportvesicle_grow_78: 5730831944433606439
+      transportvesicle_grow_79: -7294063366629260420
+      transportvesicle_grow_8: 4922085997954332968
+      transportvesicle_grow_80: -2740235768909663476
+      transportvesicle_grow_81: 3586505864554630699
+      transportvesicle_grow_82: 3339186346401001062
+      transportvesicle_grow_83: -7908266058328190099
+      transportvesicle_grow_84: 1029671954277147408
+      transportvesicle_grow_85: -2121243689808985570
+      transportvesicle_grow_86: 6394098842424701836
+      transportvesicle_grow_87: 5812756479512397477
+      transportvesicle_grow_88: 521545402197154174
+      transportvesicle_grow_9: -5353910991993908407
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

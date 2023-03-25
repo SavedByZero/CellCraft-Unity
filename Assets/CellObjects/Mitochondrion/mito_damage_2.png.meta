@@ -273,7 +273,7 @@ TextureImporter:
       213: -6908622745419926909
     second: mito_damage_2_89
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -293,6 +293,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -301,9 +303,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -324,9 +326,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -366,6 +373,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -2279,6 +2298,97 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      mito_damage_2_0: 1041065411357263587
+      mito_damage_2_1: 1770053995620318517
+      mito_damage_2_10: 2615511423073639415
+      mito_damage_2_11: 6999655307518698418
+      mito_damage_2_12: -7594045799471992978
+      mito_damage_2_13: 6254225719305890038
+      mito_damage_2_14: -7907364965549595624
+      mito_damage_2_15: 1883003596414136324
+      mito_damage_2_16: 9079210712876711804
+      mito_damage_2_17: 6603095425582122908
+      mito_damage_2_18: 3049617436251007466
+      mito_damage_2_19: 4941867930875088978
+      mito_damage_2_2: -4898714504717507198
+      mito_damage_2_20: -3810605418058748988
+      mito_damage_2_21: 4636383761110431879
+      mito_damage_2_22: 2218173388551440446
+      mito_damage_2_23: 8830634550396817508
+      mito_damage_2_24: 3709755296879916351
+      mito_damage_2_25: -9106400624893059626
+      mito_damage_2_26: 2732993204042177086
+      mito_damage_2_27: -796672659525024279
+      mito_damage_2_28: -8230402607918442404
+      mito_damage_2_29: -8629021971084853528
+      mito_damage_2_3: -7499224985107640983
+      mito_damage_2_30: 7200592704468135013
+      mito_damage_2_31: -3404008268044287955
+      mito_damage_2_32: 5723877626202259318
+      mito_damage_2_33: 8533701542424488125
+      mito_damage_2_34: 1087426979707513092
+      mito_damage_2_35: -2580192614555509601
+      mito_damage_2_36: -7056854715010016394
+      mito_damage_2_37: 2436626983519268842
+      mito_damage_2_38: -4078637774111987382
+      mito_damage_2_39: -5670872592366148931
+      mito_damage_2_4: 1779822283721293941
+      mito_damage_2_40: 7602880119345596615
+      mito_damage_2_41: 7756585419293737679
+      mito_damage_2_42: -8064459849792794851
+      mito_damage_2_43: 6698199593192589091
+      mito_damage_2_44: 6104012511832193749
+      mito_damage_2_45: 5955852530102760669
+      mito_damage_2_46: 9183550008206566111
+      mito_damage_2_47: 8925976786140284995
+      mito_damage_2_48: -7033561108851014962
+      mito_damage_2_49: 2631251361234086398
+      mito_damage_2_5: -5091777601176109953
+      mito_damage_2_50: 5239316726500549469
+      mito_damage_2_51: -3985279103346838147
+      mito_damage_2_52: 7077093864578718613
+      mito_damage_2_53: 5985873444124689106
+      mito_damage_2_54: 9166984213722255194
+      mito_damage_2_55: -2323553369766932082
+      mito_damage_2_56: -4717646802304969769
+      mito_damage_2_57: -3805043506523922099
+      mito_damage_2_58: -8418264892397030272
+      mito_damage_2_59: -1858671423179066623
+      mito_damage_2_6: 1962075218555853900
+      mito_damage_2_60: 8183040935354259508
+      mito_damage_2_61: 1000457559905649764
+      mito_damage_2_62: 5025266455074431653
+      mito_damage_2_63: -4626290554008815098
+      mito_damage_2_64: -715626841234184536
+      mito_damage_2_65: -7622262574268936507
+      mito_damage_2_66: -3465202321237223336
+      mito_damage_2_67: 2124479571601519997
+      mito_damage_2_68: 3268350202113649746
+      mito_damage_2_69: -1888465469796253797
+      mito_damage_2_7: -6983459123221969850
+      mito_damage_2_70: 8329199659456827030
+      mito_damage_2_71: 6273783683605655447
+      mito_damage_2_72: -4635256863672285196
+      mito_damage_2_73: 448493458760715796
+      mito_damage_2_74: -6091415335243121647
+      mito_damage_2_75: 5536231184390323637
+      mito_damage_2_76: 1639815734931973692
+      mito_damage_2_77: -3211003767950277132
+      mito_damage_2_78: -5314138731669268993
+      mito_damage_2_79: 8603304159649747156
+      mito_damage_2_8: -2233911728389765087
+      mito_damage_2_80: -300465244381724150
+      mito_damage_2_81: -575408860772394110
+      mito_damage_2_82: 5738224757239220274
+      mito_damage_2_83: -7701370990646007059
+      mito_damage_2_84: -7550590609218797549
+      mito_damage_2_85: 7194911443791265947
+      mito_damage_2_86: -1538852584307860387
+      mito_damage_2_87: -4421371560636622822
+      mito_damage_2_88: -5060497104826017782
+      mito_damage_2_89: -6908622745419926909
+      mito_damage_2_9: -7584028185459202868
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

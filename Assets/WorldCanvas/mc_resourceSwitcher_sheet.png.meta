@@ -93,7 +93,7 @@ TextureImporter:
       213: -2575396020885929151
     second: mc_resourceSwitcher_sheet_29
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -113,6 +113,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -121,9 +123,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -144,9 +146,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -186,6 +193,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -839,6 +858,37 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      mc_resourceSwitcher_sheet_0: -830705699453089630
+      mc_resourceSwitcher_sheet_1: 3574666530167395935
+      mc_resourceSwitcher_sheet_10: 5560814626123842396
+      mc_resourceSwitcher_sheet_11: 3305904662679895117
+      mc_resourceSwitcher_sheet_12: -8638582205115262157
+      mc_resourceSwitcher_sheet_13: 6818264774070324082
+      mc_resourceSwitcher_sheet_14: 7537728818118508310
+      mc_resourceSwitcher_sheet_15: 2144481428883897880
+      mc_resourceSwitcher_sheet_16: -2636742847122432442
+      mc_resourceSwitcher_sheet_17: 2216631787869525434
+      mc_resourceSwitcher_sheet_18: -8105550584143703929
+      mc_resourceSwitcher_sheet_19: -3074561877212432460
+      mc_resourceSwitcher_sheet_2: -228189172449826209
+      mc_resourceSwitcher_sheet_20: -1699636159725531891
+      mc_resourceSwitcher_sheet_21: -5765050051874650855
+      mc_resourceSwitcher_sheet_22: 6491638967412683985
+      mc_resourceSwitcher_sheet_23: 6854279569575345324
+      mc_resourceSwitcher_sheet_24: 5855489012376611397
+      mc_resourceSwitcher_sheet_25: -7297431834116059909
+      mc_resourceSwitcher_sheet_26: 7477499774124852598
+      mc_resourceSwitcher_sheet_27: 7728159336667989784
+      mc_resourceSwitcher_sheet_28: -4925068599506851502
+      mc_resourceSwitcher_sheet_29: -2575396020885929151
+      mc_resourceSwitcher_sheet_3: 4926123760938251991
+      mc_resourceSwitcher_sheet_4: 6168637615093980687
+      mc_resourceSwitcher_sheet_5: -8645788521080083750
+      mc_resourceSwitcher_sheet_6: -3874328795631216832
+      mc_resourceSwitcher_sheet_7: -717206870241678337
+      mc_resourceSwitcher_sheet_8: 2866376565478521553
+      mc_resourceSwitcher_sheet_9: -8760088559929870656
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

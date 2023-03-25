@@ -408,7 +408,7 @@ TextureImporter:
       213: 8221772395714975798
     second: centro_lightdamage_134
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -428,6 +428,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -436,9 +438,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -459,9 +461,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -501,6 +508,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
@@ -3359,6 +3378,142 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      centro_lightdamage_0: 4782768606400918414
+      centro_lightdamage_1: 3221045857283937562
+      centro_lightdamage_10: -2367560550361618744
+      centro_lightdamage_100: 184592003636399644
+      centro_lightdamage_101: -4063762716041924313
+      centro_lightdamage_102: -6764433633729463251
+      centro_lightdamage_103: 8799879756939236523
+      centro_lightdamage_104: -5312172560501894331
+      centro_lightdamage_105: -2171052764278805195
+      centro_lightdamage_106: 4413674270769141170
+      centro_lightdamage_107: 6887253817908428931
+      centro_lightdamage_108: 7107313465866496271
+      centro_lightdamage_109: -1852359384112661386
+      centro_lightdamage_11: -1133566786714500888
+      centro_lightdamage_110: -8877290790848353072
+      centro_lightdamage_111: -7041459668928310577
+      centro_lightdamage_112: 4042487580796854669
+      centro_lightdamage_113: -6863596980752094040
+      centro_lightdamage_114: 6032479836500703915
+      centro_lightdamage_115: -6852559037652104417
+      centro_lightdamage_116: 743179815927303834
+      centro_lightdamage_117: -4818114400081818863
+      centro_lightdamage_118: 205963883223293323
+      centro_lightdamage_119: -7021130841184683521
+      centro_lightdamage_12: 5238255500430605499
+      centro_lightdamage_120: -3193601730096761883
+      centro_lightdamage_121: -6226093045711232596
+      centro_lightdamage_122: -6366062574420266044
+      centro_lightdamage_123: 2198667062669002805
+      centro_lightdamage_124: 5839229859345392242
+      centro_lightdamage_125: -2656092196562513677
+      centro_lightdamage_126: -7404023849045188163
+      centro_lightdamage_127: 6546192579774207292
+      centro_lightdamage_128: -681426314668530289
+      centro_lightdamage_129: -6266017868514286845
+      centro_lightdamage_13: 3229493512576272953
+      centro_lightdamage_130: -2294789275371372756
+      centro_lightdamage_131: -8578094551716757629
+      centro_lightdamage_132: -3617812414751807114
+      centro_lightdamage_133: -1522362814643113346
+      centro_lightdamage_134: 8221772395714975798
+      centro_lightdamage_14: 8701325483997105894
+      centro_lightdamage_15: 635883771157202042
+      centro_lightdamage_16: -4241840776742984580
+      centro_lightdamage_17: 2009192427024443783
+      centro_lightdamage_18: -7573215646470950074
+      centro_lightdamage_19: 1205993014298823627
+      centro_lightdamage_2: -3680015723122248856
+      centro_lightdamage_20: 6247923525061018700
+      centro_lightdamage_21: 9181878877969055529
+      centro_lightdamage_22: -4932562998564593379
+      centro_lightdamage_23: -2792164424958283007
+      centro_lightdamage_24: 6977571239136701406
+      centro_lightdamage_25: 8006192928421701038
+      centro_lightdamage_26: -7701516536055456637
+      centro_lightdamage_27: -667057795611681337
+      centro_lightdamage_28: -1317710310022606589
+      centro_lightdamage_29: -57564305404337831
+      centro_lightdamage_3: -1680190556175859933
+      centro_lightdamage_30: -7498473351914851419
+      centro_lightdamage_31: 8682959829992791010
+      centro_lightdamage_32: 4690842356502412974
+      centro_lightdamage_33: 8243180243961401901
+      centro_lightdamage_34: -723580725781811960
+      centro_lightdamage_35: 1040449633605756173
+      centro_lightdamage_36: -2533348576194588543
+      centro_lightdamage_37: 2571100745760201278
+      centro_lightdamage_38: 2639945833890094987
+      centro_lightdamage_39: 5765093103003151954
+      centro_lightdamage_4: -8755417234877143388
+      centro_lightdamage_40: 8963024078657301749
+      centro_lightdamage_41: -5770444030367898193
+      centro_lightdamage_42: -270358893866403054
+      centro_lightdamage_43: -6929361311979004460
+      centro_lightdamage_44: 6773649431289668422
+      centro_lightdamage_45: -8204598236989514021
+      centro_lightdamage_46: 5923290617597680576
+      centro_lightdamage_47: -4359002556754132794
+      centro_lightdamage_48: 5710124599643516312
+      centro_lightdamage_49: 2768425229832575437
+      centro_lightdamage_5: -8304142709133375651
+      centro_lightdamage_50: 8429923577036888529
+      centro_lightdamage_51: -3886049808151698821
+      centro_lightdamage_52: 240371594128938542
+      centro_lightdamage_53: 68663065743168586
+      centro_lightdamage_54: -4314676981483209245
+      centro_lightdamage_55: -5171544839890446716
+      centro_lightdamage_56: -2497927509634266854
+      centro_lightdamage_57: 7581710256959661582
+      centro_lightdamage_58: -3392309813273936604
+      centro_lightdamage_59: -7887237205845164491
+      centro_lightdamage_6: 502154057059116462
+      centro_lightdamage_60: -2813957685473151384
+      centro_lightdamage_61: -5711963111654277343
+      centro_lightdamage_62: -3254169879128410109
+      centro_lightdamage_63: 961837317413026784
+      centro_lightdamage_64: -5211997392438227113
+      centro_lightdamage_65: -6732932230503369288
+      centro_lightdamage_66: -5686884706862295132
+      centro_lightdamage_67: -7304686764736896970
+      centro_lightdamage_68: 4792442412652124469
+      centro_lightdamage_69: -4811955089693818287
+      centro_lightdamage_7: -3205018757578476154
+      centro_lightdamage_70: -1486510298128311871
+      centro_lightdamage_71: -3411429092322463406
+      centro_lightdamage_72: 6402142177419946474
+      centro_lightdamage_73: 5425693401828327824
+      centro_lightdamage_74: 4928195686567956918
+      centro_lightdamage_75: 5792893641729510764
+      centro_lightdamage_76: -8400063478143732176
+      centro_lightdamage_77: -8831705454206215768
+      centro_lightdamage_78: -4935722974903053280
+      centro_lightdamage_79: -1070201078944836912
+      centro_lightdamage_8: -6572201178368899118
+      centro_lightdamage_80: 7400600969068582142
+      centro_lightdamage_81: 2765158436205416299
+      centro_lightdamage_82: -5982434678220089986
+      centro_lightdamage_83: -4041137270107310413
+      centro_lightdamage_84: -5107761258445568073
+      centro_lightdamage_85: 8403546043596743435
+      centro_lightdamage_86: -2250320931571282212
+      centro_lightdamage_87: 3227828647462798394
+      centro_lightdamage_88: -4048128768840016048
+      centro_lightdamage_89: -1868782943841398565
+      centro_lightdamage_9: -4110622746396563497
+      centro_lightdamage_90: 7206067203273039390
+      centro_lightdamage_91: -2674263783699821740
+      centro_lightdamage_92: 3902018522959760765
+      centro_lightdamage_93: 4203229694708613558
+      centro_lightdamage_94: -3040056399187715908
+      centro_lightdamage_95: 2250775597714809877
+      centro_lightdamage_96: -5486137783338024535
+      centro_lightdamage_97: -515200614361593494
+      centro_lightdamage_98: -5316015638552322161
+      centro_lightdamage_99: 4791763300153990462
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

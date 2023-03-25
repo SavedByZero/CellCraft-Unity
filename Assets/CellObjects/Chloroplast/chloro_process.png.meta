@@ -162,7 +162,7 @@ TextureImporter:
       213: 5488569589780070520
     second: chloro_process_52
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -182,6 +182,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -190,9 +192,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -213,9 +215,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -255,6 +262,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -1391,6 +1410,60 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      chloro_process_0: -6728906656798290003
+      chloro_process_1: 5131987687200792210
+      chloro_process_10: -8537731853674371257
+      chloro_process_11: 3094935914855406006
+      chloro_process_12: -4278852251220043573
+      chloro_process_13: 1047055184168769389
+      chloro_process_14: 7600068828966532771
+      chloro_process_15: 2336838040590528811
+      chloro_process_16: -8058628414791917369
+      chloro_process_17: 4241285747695805403
+      chloro_process_18: 9208097312971405451
+      chloro_process_19: 1195116064693739103
+      chloro_process_2: -7850031314944323511
+      chloro_process_20: -5645907667930577183
+      chloro_process_21: 1467699402248322229
+      chloro_process_22: -1114899314819928532
+      chloro_process_23: 4938155723544522985
+      chloro_process_24: 6355157629744705347
+      chloro_process_25: -2869065035514288232
+      chloro_process_26: -3030570343002341655
+      chloro_process_27: -641834395119590732
+      chloro_process_28: -6069561212134237949
+      chloro_process_29: 4888234868860172291
+      chloro_process_3: -7036072626289688197
+      chloro_process_30: 8826045805873782237
+      chloro_process_31: 448638999282088607
+      chloro_process_32: -976108135506282579
+      chloro_process_33: -7709938243998008638
+      chloro_process_34: -5180510297936159508
+      chloro_process_35: -6692683097801012452
+      chloro_process_36: 7549735724522513481
+      chloro_process_37: -7604026275286670845
+      chloro_process_38: -4214512989587773116
+      chloro_process_39: 9044409785009451603
+      chloro_process_4: -8071716577779483380
+      chloro_process_40: 5087923742553158941
+      chloro_process_41: 2117204018351743921
+      chloro_process_42: -6510733260905203765
+      chloro_process_43: -3335009751739991606
+      chloro_process_44: -5818262617679901601
+      chloro_process_45: 2990044621310193352
+      chloro_process_46: 34775774583370056
+      chloro_process_47: -4608527765558727973
+      chloro_process_48: -7009285491140769791
+      chloro_process_49: -1809574310236705461
+      chloro_process_5: 5298201477940286178
+      chloro_process_50: -4150813126644628954
+      chloro_process_51: -8965362400349648350
+      chloro_process_52: 5488569589780070520
+      chloro_process_6: -6927329388448184003
+      chloro_process_7: 1497483809510160744
+      chloro_process_8: 8723415319446077513
+      chloro_process_9: -937884903873044307
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

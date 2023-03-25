@@ -270,7 +270,7 @@ TextureImporter:
       213: 6378784359378025200
     second: pinkvesicle_adhere_88
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -290,6 +290,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -298,9 +300,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -321,9 +323,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -363,6 +370,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -2255,6 +2274,96 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      pinkvesicle_adhere_0: -3779080569000628737
+      pinkvesicle_adhere_1: -4669103159363892550
+      pinkvesicle_adhere_10: 5291989638575048095
+      pinkvesicle_adhere_11: -7184119188341781118
+      pinkvesicle_adhere_12: 5585886077926572427
+      pinkvesicle_adhere_13: 5997607855081809725
+      pinkvesicle_adhere_14: -7406826849730571827
+      pinkvesicle_adhere_15: 1641590260278470242
+      pinkvesicle_adhere_16: 450177625020681086
+      pinkvesicle_adhere_17: -3844264391384532760
+      pinkvesicle_adhere_18: 6124286048696386673
+      pinkvesicle_adhere_19: 1735527610928069007
+      pinkvesicle_adhere_2: -6970187436464793869
+      pinkvesicle_adhere_20: 6285563850859696800
+      pinkvesicle_adhere_21: 2025102591621304519
+      pinkvesicle_adhere_22: -882932852817618520
+      pinkvesicle_adhere_23: 6509720589493830294
+      pinkvesicle_adhere_24: -8747664486727766014
+      pinkvesicle_adhere_25: -8670280084478575953
+      pinkvesicle_adhere_26: 4859758177834586398
+      pinkvesicle_adhere_27: -6108267527001759887
+      pinkvesicle_adhere_28: -7789102012556420753
+      pinkvesicle_adhere_29: -2409390449532956731
+      pinkvesicle_adhere_3: -6200671947938686327
+      pinkvesicle_adhere_30: -1213361364630820976
+      pinkvesicle_adhere_31: 3220274980208127067
+      pinkvesicle_adhere_32: -2944738231567191413
+      pinkvesicle_adhere_33: 2178824622981647756
+      pinkvesicle_adhere_34: -4115860470701456191
+      pinkvesicle_adhere_35: -4237299018952658351
+      pinkvesicle_adhere_36: -2705500063563855692
+      pinkvesicle_adhere_37: 6971932633252025927
+      pinkvesicle_adhere_38: -5864592679811631429
+      pinkvesicle_adhere_39: -7933599336690481661
+      pinkvesicle_adhere_4: 2522672642592445739
+      pinkvesicle_adhere_40: 6938133559038935248
+      pinkvesicle_adhere_41: -5712490448992363196
+      pinkvesicle_adhere_42: -2551424823974964342
+      pinkvesicle_adhere_43: 7959279593400175089
+      pinkvesicle_adhere_44: 1035731962059281284
+      pinkvesicle_adhere_45: -2569770732122595264
+      pinkvesicle_adhere_46: -53751013215559044
+      pinkvesicle_adhere_47: -1134455016019246504
+      pinkvesicle_adhere_48: 5899901389323377668
+      pinkvesicle_adhere_49: -894769729899819595
+      pinkvesicle_adhere_5: 6137201810492147581
+      pinkvesicle_adhere_50: -5097983477133905513
+      pinkvesicle_adhere_51: 5693785987197972592
+      pinkvesicle_adhere_52: 3760001002999553465
+      pinkvesicle_adhere_53: -7258157992084897044
+      pinkvesicle_adhere_54: -7021973066924369336
+      pinkvesicle_adhere_55: 762165131167060635
+      pinkvesicle_adhere_56: 6934486294241551445
+      pinkvesicle_adhere_57: -3144712522710687337
+      pinkvesicle_adhere_58: 6380557319261384825
+      pinkvesicle_adhere_59: -7920249110760401145
+      pinkvesicle_adhere_6: -444987873826810489
+      pinkvesicle_adhere_60: -2594936486499664505
+      pinkvesicle_adhere_61: -2477665294496525941
+      pinkvesicle_adhere_62: 881779894560437499
+      pinkvesicle_adhere_63: -6626527674988776237
+      pinkvesicle_adhere_64: -6173235755494972229
+      pinkvesicle_adhere_65: -1153780286019004535
+      pinkvesicle_adhere_66: -4882612453096279744
+      pinkvesicle_adhere_67: 1148086956229060890
+      pinkvesicle_adhere_68: 6848733286030767469
+      pinkvesicle_adhere_69: -2344111716213184816
+      pinkvesicle_adhere_7: -3581190520746977153
+      pinkvesicle_adhere_70: -8702200749757564308
+      pinkvesicle_adhere_71: 290026618830697247
+      pinkvesicle_adhere_72: 6594147977295609121
+      pinkvesicle_adhere_73: 1165713318723925386
+      pinkvesicle_adhere_74: -3816221653829691736
+      pinkvesicle_adhere_75: -8598845363436555184
+      pinkvesicle_adhere_76: 8126528714932952579
+      pinkvesicle_adhere_77: -7749638080021630639
+      pinkvesicle_adhere_78: 4155502805961426204
+      pinkvesicle_adhere_79: -8331673730050078641
+      pinkvesicle_adhere_8: -6802618235594150759
+      pinkvesicle_adhere_80: 1082687087009245554
+      pinkvesicle_adhere_81: -3935416043466422257
+      pinkvesicle_adhere_82: -3980174975582634814
+      pinkvesicle_adhere_83: 1782898895778701211
+      pinkvesicle_adhere_84: -7134735770564859551
+      pinkvesicle_adhere_85: 7554683018396318208
+      pinkvesicle_adhere_86: 4500044447717710952
+      pinkvesicle_adhere_87: 6898627621815117913
+      pinkvesicle_adhere_88: 6378784359378025200
+      pinkvesicle_adhere_9: -7228265324203785176
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -62,7 +62,7 @@ public class CellObject : Selectable, IComparable<CellObject>
 	{
 		base.Start();
 		setLevel(1);
-		speed = .06f;
+		speed = .008f;
 		//Hide();
 		//Appear();
 	}
@@ -177,20 +177,23 @@ public class CellObject : Selectable, IComparable<CellObject>
 		canSelect = oldSelect;
 	}
 
-	new void OnMouseDown()
+	public override void OnMouseDown()
 	{
 		_mDown = true;
+		base.OnMouseDown();
+		Debug.Log("clicked on " + this);
 		if (singleSelect)
 		{
 			_mDown = false;
+			
+			//m.stopPropagation(); //kill the clic
+			p_cell.setSelectType(num_id, this);
 			return;
-			//m.stopPropagation(); //kill the click
-								 //p_cell.setSelectType(Selectable.NOTHING);
 		}
 		else
 		{
 			//trace(this + " mousedown");
-			p_cell.setSelectType(num_id);
+			p_cell.setSelectType(num_id, this);
 			//m.stopPropagation();
 		}
 	}

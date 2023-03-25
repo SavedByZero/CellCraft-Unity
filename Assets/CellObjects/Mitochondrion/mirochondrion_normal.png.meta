@@ -63,7 +63,7 @@ TextureImporter:
       213: 7693696582140926121
     second: mirochondrion_normal_19
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -83,6 +83,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -91,9 +93,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -114,9 +116,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -156,6 +163,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -599,6 +618,27 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      mirochondrion_normal_0: 4204092675268975046
+      mirochondrion_normal_1: 2440425863550435498
+      mirochondrion_normal_10: -5769781930786143386
+      mirochondrion_normal_11: 1991118812956301171
+      mirochondrion_normal_12: -6847325858702227354
+      mirochondrion_normal_13: 7800840839044196348
+      mirochondrion_normal_14: -6578866741644819607
+      mirochondrion_normal_15: -2977397947151237007
+      mirochondrion_normal_16: 1518550723000965186
+      mirochondrion_normal_17: 6408754866337040568
+      mirochondrion_normal_18: -1543883764760949959
+      mirochondrion_normal_19: 7693696582140926121
+      mirochondrion_normal_2: 6020097721289662029
+      mirochondrion_normal_3: 5478443366791521389
+      mirochondrion_normal_4: -5136734242726259005
+      mirochondrion_normal_5: 8489353595586564272
+      mirochondrion_normal_6: -7645513407197658697
+      mirochondrion_normal_7: -2421235038795951039
+      mirochondrion_normal_8: -6460985887413777778
+      mirochondrion_normal_9: -9140639579314785798
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -309,7 +309,7 @@ TextureImporter:
       213: 2386126123510747240
     second: pageturn_spritesheet_101
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -330,6 +330,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -368,6 +369,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -407,6 +409,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -2446,6 +2460,103 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      pageturn_spritesheet_0: -2301313649834577256
+      pageturn_spritesheet_1: 3780938359874627622
+      pageturn_spritesheet_10: 1096927571252866090
+      pageturn_spritesheet_100: -7729717176198794989
+      pageturn_spritesheet_101: 8831513302021225532
+      pageturn_spritesheet_102: -3007760573020629816
+      pageturn_spritesheet_11: -2818779163360716928
+      pageturn_spritesheet_12: -4761352876423003369
+      pageturn_spritesheet_13: 841768637288470127
+      pageturn_spritesheet_14: -8783099455543758963
+      pageturn_spritesheet_15: 7144260322845355298
+      pageturn_spritesheet_16: -5987073403458635312
+      pageturn_spritesheet_17: -4023856683920355697
+      pageturn_spritesheet_18: 5076662214272423598
+      pageturn_spritesheet_19: 7800537980125044098
+      pageturn_spritesheet_2: 5203916678098479036
+      pageturn_spritesheet_21: -4473228703511153082
+      pageturn_spritesheet_22: 8373131379120326294
+      pageturn_spritesheet_23: 6526332279253563536
+      pageturn_spritesheet_24: 6203308731623672965
+      pageturn_spritesheet_25: 2858850141837137723
+      pageturn_spritesheet_26: -2000517326451502042
+      pageturn_spritesheet_27: 2627504126851444015
+      pageturn_spritesheet_28: -8685990457875927420
+      pageturn_spritesheet_29: 2751838734120787611
+      pageturn_spritesheet_3: 1157723353852872901
+      pageturn_spritesheet_30: -7995046701655130328
+      pageturn_spritesheet_32: 3767720444229400312
+      pageturn_spritesheet_33: 6574072153165242742
+      pageturn_spritesheet_34: 648632401661185686
+      pageturn_spritesheet_35: 5060094305253936931
+      pageturn_spritesheet_36: 7468098175645915765
+      pageturn_spritesheet_37: -3669484033737961386
+      pageturn_spritesheet_38: 3461246019989802605
+      pageturn_spritesheet_39: -37242617847076499
+      pageturn_spritesheet_4: 1304969650751029035
+      pageturn_spritesheet_40: -4312233898290850705
+      pageturn_spritesheet_41: 250609560921498870
+      pageturn_spritesheet_43: -6071199930553708136
+      pageturn_spritesheet_44: 3467209908017801041
+      pageturn_spritesheet_45: -7034223386820327180
+      pageturn_spritesheet_46: 5150631113749935851
+      pageturn_spritesheet_47: -7990693872464945456
+      pageturn_spritesheet_48: -6419966612566249771
+      pageturn_spritesheet_49: 6751520468935028387
+      pageturn_spritesheet_5: -8688212909265912194
+      pageturn_spritesheet_50: -3390981887568489662
+      pageturn_spritesheet_51: 5069554959276721613
+      pageturn_spritesheet_52: -2896809384461327691
+      pageturn_spritesheet_54: -5094715019139919786
+      pageturn_spritesheet_55: 8154223927144563476
+      pageturn_spritesheet_56: -1427198222201816362
+      pageturn_spritesheet_57: 9163957612676392580
+      pageturn_spritesheet_58: 1108523937810443992
+      pageturn_spritesheet_59: -8051715936329408261
+      pageturn_spritesheet_6: 1266373111065917552
+      pageturn_spritesheet_60: -342719022817179483
+      pageturn_spritesheet_61: 2100449430327829376
+      pageturn_spritesheet_62: 1097241559273865902
+      pageturn_spritesheet_63: -691109431395621890
+      pageturn_spritesheet_65: 5894721032630248528
+      pageturn_spritesheet_66: -222701590805360899
+      pageturn_spritesheet_67: 4885889491299228459
+      pageturn_spritesheet_68: 3585605301845730370
+      pageturn_spritesheet_69: 5672451399061898307
+      pageturn_spritesheet_7: 2308732863428459946
+      pageturn_spritesheet_70: 418590535252221553
+      pageturn_spritesheet_71: -2491163501288467797
+      pageturn_spritesheet_72: -4434616366719248819
+      pageturn_spritesheet_73: -2467645997960772000
+      pageturn_spritesheet_74: 8353169670288569020
+      pageturn_spritesheet_76: -4816122289971790606
+      pageturn_spritesheet_77: 3694264769198074705
+      pageturn_spritesheet_78: 5752464606406442614
+      pageturn_spritesheet_79: 1826893832978533810
+      pageturn_spritesheet_8: 5716199759690520782
+      pageturn_spritesheet_80: -877395136367677289
+      pageturn_spritesheet_81: -3537448818506188392
+      pageturn_spritesheet_82: -4654306655236625360
+      pageturn_spritesheet_83: -1572826148749574046
+      pageturn_spritesheet_84: 8842767893869492482
+      pageturn_spritesheet_85: -8677476192381908380
+      pageturn_spritesheet_86: -3626760220671081930
+      pageturn_spritesheet_87: -7842244801939466556
+      pageturn_spritesheet_88: -3711086115272366947
+      pageturn_spritesheet_89: -2115597472499640770
+      pageturn_spritesheet_90: 4760776025054634050
+      pageturn_spritesheet_91: -4889647297642937052
+      pageturn_spritesheet_92: 1954238592144500624
+      pageturn_spritesheet_93: -8141379411689175154
+      pageturn_spritesheet_94: 5468676853723835459
+      pageturn_spritesheet_95: 2717194727894243628
+      pageturn_spritesheet_96: 7520387610351863193
+      pageturn_spritesheet_97: -8001829299972319484
+      pageturn_spritesheet_98: -5024872583447245830
+      pageturn_spritesheet_99: -1761256728775871206
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

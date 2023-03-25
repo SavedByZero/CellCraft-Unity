@@ -93,7 +93,7 @@ TextureImporter:
       213: 6339764298504598980
     second: mrna_die_thread_29
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -113,6 +113,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -121,9 +123,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -144,9 +146,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -186,6 +193,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -839,6 +858,37 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      mrna_die_thread_0: -5057079087974986943
+      mrna_die_thread_1: 8647476380833845085
+      mrna_die_thread_10: -3736113577504910019
+      mrna_die_thread_11: 837439176516762937
+      mrna_die_thread_12: 6558161809205516153
+      mrna_die_thread_13: 1670059079761955691
+      mrna_die_thread_14: -2781560508239557604
+      mrna_die_thread_15: 5434728585947693958
+      mrna_die_thread_16: 4439241468816686366
+      mrna_die_thread_17: -7798494182583196705
+      mrna_die_thread_18: 8252741291244225758
+      mrna_die_thread_19: 4215546454597114167
+      mrna_die_thread_2: -5009362375378427683
+      mrna_die_thread_20: -8114781244980675018
+      mrna_die_thread_21: -1507881836703173737
+      mrna_die_thread_22: 6103776351351070491
+      mrna_die_thread_23: -6367462351587782847
+      mrna_die_thread_24: 6809333396342438131
+      mrna_die_thread_25: 5126153617548427687
+      mrna_die_thread_26: -772616271148512682
+      mrna_die_thread_27: 6027283297253873486
+      mrna_die_thread_28: -474288870908635370
+      mrna_die_thread_29: 6339764298504598980
+      mrna_die_thread_3: -7351560860992161349
+      mrna_die_thread_4: 8221113363523106980
+      mrna_die_thread_5: 7947108305660912518
+      mrna_die_thread_6: 7594251649908774252
+      mrna_die_thread_7: 8543339265466407444
+      mrna_die_thread_8: 3938611368058193272
+      mrna_die_thread_9: -5435133735546378996
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

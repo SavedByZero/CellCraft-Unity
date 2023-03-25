@@ -198,6 +198,10 @@ public class LevelObjective
     {
         [XmlAttribute("id")]
         public string Id;
+        [XmlAttribute("loc_id")]
+        public string LocId;
+        [XmlAttribute("move_type")]
+        public string MoveType;
     }
     public struct PlopOrganelle
     {
@@ -275,8 +279,11 @@ public class LevelObjective
     {
         [XmlAttribute("id")]
         public string Id;
+        [XmlAttribute("slides")]
+        public string Slides;
         [XmlElement("tutorial")]
         public Tutorial Tutorial;
+  
     }
 
     public struct Tutorial

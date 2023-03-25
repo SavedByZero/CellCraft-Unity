@@ -10,7 +10,7 @@ public class ProducerObject : CellObject
 	protected float efficiency = 1;
 		protected int produce_time = 30; //produces every X frames
 		protected const int PRODUCE_TIME = 30; //produces every X frames
-		protected int produce_counter = 0; 
+		protected int produce_counter = 15; 
 		protected bool is_producing = true;
 		
 		protected float[] _inputs;  //was Array
@@ -61,6 +61,16 @@ public class ProducerObject : CellObject
 		Debug.Log("starting produce routine for " + this);
 		if (_produceRoutine == null)
 			_produceRoutine = StartCoroutine(produce());
+		this.onFinished += checkForProcessing;
+		
+	}
+
+	void checkForProcessing(MovieClip mc, string label)
+	{
+		if (label == "process")
+		{
+			finishProcess();
+		}
 	}
 
 	public override void destruct()
@@ -80,7 +90,7 @@ public class ProducerObject : CellObject
 	{
 		while (true)
 		{
-			yield return new WaitForSeconds(FrameInterval);
+			yield return new WaitForSeconds(0.016f);
 			if (is_producing && toggle_on)
 			{
 				if (!anim_vital && !isDoomed && !isDamaged)

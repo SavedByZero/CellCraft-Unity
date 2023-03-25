@@ -107,7 +107,7 @@ public class ER : CellObject
 				exitLocators.Add(locators[i]);
         }
 		
-		for (int i = 0; i < 33; i++) 
+		for (int i = 0; i <= 33; i++) 
 		{ //create a list of points and remove all the locator objects
 			Locator d = dockLocators[i];  //let's hope 33 is the magic number...=p
 			

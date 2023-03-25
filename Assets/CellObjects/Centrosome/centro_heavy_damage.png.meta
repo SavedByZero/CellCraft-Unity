@@ -603,7 +603,7 @@ TextureImporter:
       213: -8058500021666715438
     second: centro_heavy_damage_199
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -623,6 +623,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -631,9 +633,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -654,9 +656,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -696,6 +703,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
@@ -4919,6 +4938,207 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      centro_heavy_damage_0: 2023318287027413560
+      centro_heavy_damage_1: 6235952738621761150
+      centro_heavy_damage_10: -1028207545874086299
+      centro_heavy_damage_100: -1368576902710152188
+      centro_heavy_damage_101: -2680806266323431709
+      centro_heavy_damage_102: -1777771453122645326
+      centro_heavy_damage_103: 5263196347317441749
+      centro_heavy_damage_104: -2232937644120854208
+      centro_heavy_damage_105: 8173885248261079280
+      centro_heavy_damage_106: -5505241696941493687
+      centro_heavy_damage_107: -5520956125926574963
+      centro_heavy_damage_108: 695771810739231628
+      centro_heavy_damage_109: -2506760088341166108
+      centro_heavy_damage_11: 2200874245569015051
+      centro_heavy_damage_110: -6236362007906782037
+      centro_heavy_damage_111: -7274640331450994415
+      centro_heavy_damage_112: 7957803462062898825
+      centro_heavy_damage_113: -3568374752336099688
+      centro_heavy_damage_114: -2695540414242744910
+      centro_heavy_damage_115: -1877229048687325093
+      centro_heavy_damage_116: 3654207107257318725
+      centro_heavy_damage_117: 345644384735555918
+      centro_heavy_damage_118: 6862650883989014059
+      centro_heavy_damage_119: 351669155579746161
+      centro_heavy_damage_12: 5376976456285352558
+      centro_heavy_damage_120: 3309603599205009873
+      centro_heavy_damage_121: 3918867147685082460
+      centro_heavy_damage_122: -4995367895451483967
+      centro_heavy_damage_123: 2631760016549315633
+      centro_heavy_damage_124: -5507559100934201349
+      centro_heavy_damage_125: 1199927716615568904
+      centro_heavy_damage_126: 5967395652764522736
+      centro_heavy_damage_127: 7829342962069839636
+      centro_heavy_damage_128: 5356165677836897950
+      centro_heavy_damage_129: -5270122690700117633
+      centro_heavy_damage_13: -7760533754944991127
+      centro_heavy_damage_130: 30007125750865835
+      centro_heavy_damage_131: -2961216613922779916
+      centro_heavy_damage_132: -7400717908205270625
+      centro_heavy_damage_133: -6346261761120642304
+      centro_heavy_damage_134: -1296054698474255303
+      centro_heavy_damage_135: -830464204228955601
+      centro_heavy_damage_136: -5266061726587561561
+      centro_heavy_damage_137: -7624685988699344315
+      centro_heavy_damage_138: 6917886529704888423
+      centro_heavy_damage_139: 3215553851405230917
+      centro_heavy_damage_14: -312342845244968764
+      centro_heavy_damage_140: 3386970819563530726
+      centro_heavy_damage_141: 4705523559903511048
+      centro_heavy_damage_142: 2450791733696860537
+      centro_heavy_damage_143: -1363549078951960254
+      centro_heavy_damage_144: -2716417463523184843
+      centro_heavy_damage_145: 8498189928485713264
+      centro_heavy_damage_146: -7889097157795303934
+      centro_heavy_damage_147: -6298837845034348605
+      centro_heavy_damage_148: -1814619064054247409
+      centro_heavy_damage_149: 9056033468975248026
+      centro_heavy_damage_15: -2793744116209590883
+      centro_heavy_damage_150: 123684726859079715
+      centro_heavy_damage_151: 4649059193599093024
+      centro_heavy_damage_152: 4625920766567724461
+      centro_heavy_damage_153: -5846555948339805349
+      centro_heavy_damage_154: -8369448626471589306
+      centro_heavy_damage_155: -6210388894701946951
+      centro_heavy_damage_156: -5789283490903274986
+      centro_heavy_damage_157: 2255067268076060470
+      centro_heavy_damage_158: 2166903111735048393
+      centro_heavy_damage_159: -3329401141883281524
+      centro_heavy_damage_16: -183700692248605274
+      centro_heavy_damage_160: 463721146819543754
+      centro_heavy_damage_161: 2023741773228936588
+      centro_heavy_damage_162: 2203698545173614949
+      centro_heavy_damage_163: -7182433112522505781
+      centro_heavy_damage_164: -1622173436720943519
+      centro_heavy_damage_165: -5228106795692698257
+      centro_heavy_damage_166: 892152328845454755
+      centro_heavy_damage_167: 5023027081078471179
+      centro_heavy_damage_168: -5165529467856165102
+      centro_heavy_damage_169: -6814974417955994680
+      centro_heavy_damage_17: 8653085484666083411
+      centro_heavy_damage_170: -2325170330794418356
+      centro_heavy_damage_171: -9045696064383684076
+      centro_heavy_damage_172: 2606819236669993072
+      centro_heavy_damage_173: -7158801159065700847
+      centro_heavy_damage_174: -1040834388256739079
+      centro_heavy_damage_175: -753012471794094314
+      centro_heavy_damage_176: 5965037776169091361
+      centro_heavy_damage_177: 4703400216496686607
+      centro_heavy_damage_178: 6983792972583048122
+      centro_heavy_damage_179: 3159581896737262260
+      centro_heavy_damage_18: 549845663406445737
+      centro_heavy_damage_180: -300532910010995947
+      centro_heavy_damage_181: 4084945970944663708
+      centro_heavy_damage_182: -8855343978516054007
+      centro_heavy_damage_183: -7243905641007275052
+      centro_heavy_damage_184: 4320160287497392548
+      centro_heavy_damage_185: -4008168340660917303
+      centro_heavy_damage_186: -1925987850529115585
+      centro_heavy_damage_187: -3600054444229223763
+      centro_heavy_damage_188: 8490619885411729958
+      centro_heavy_damage_189: 3257306367190774876
+      centro_heavy_damage_19: 6979437519083723748
+      centro_heavy_damage_190: 2906826003793038924
+      centro_heavy_damage_191: -8361750740379602690
+      centro_heavy_damage_192: -9020829404756605786
+      centro_heavy_damage_193: -61395365476934496
+      centro_heavy_damage_194: 5868376711345633381
+      centro_heavy_damage_195: 1535688680106892992
+      centro_heavy_damage_196: -7507758513567759236
+      centro_heavy_damage_197: -1722104792147101543
+      centro_heavy_damage_198: 3373720475504654730
+      centro_heavy_damage_199: -8058500021666715438
+      centro_heavy_damage_2: 4171752645502948377
+      centro_heavy_damage_20: -7865525439299283382
+      centro_heavy_damage_21: 5743914179940327072
+      centro_heavy_damage_22: 9045110450592014412
+      centro_heavy_damage_23: -6226486467527461136
+      centro_heavy_damage_24: 5740561085564512819
+      centro_heavy_damage_25: 4807331786157796852
+      centro_heavy_damage_26: 1724249446193229216
+      centro_heavy_damage_27: -4480835551101697254
+      centro_heavy_damage_28: -2170399405663491531
+      centro_heavy_damage_29: -7631354216814467140
+      centro_heavy_damage_3: 2172489109759692234
+      centro_heavy_damage_30: 8297411963301995214
+      centro_heavy_damage_31: 1125200100494043194
+      centro_heavy_damage_32: -2962822406832957884
+      centro_heavy_damage_33: 8805369352969760736
+      centro_heavy_damage_34: -5824256281531283270
+      centro_heavy_damage_35: -4398854678367009731
+      centro_heavy_damage_36: 7112235320782568
+      centro_heavy_damage_37: -1457672957754342742
+      centro_heavy_damage_38: 6270906957131418991
+      centro_heavy_damage_39: -3180061147660145771
+      centro_heavy_damage_4: -7370839627129738168
+      centro_heavy_damage_40: 2100739378840325959
+      centro_heavy_damage_41: 9207240473467281909
+      centro_heavy_damage_42: -885522939692967592
+      centro_heavy_damage_43: 2495844073640556898
+      centro_heavy_damage_44: 7663980174218568048
+      centro_heavy_damage_45: 8671953188823489096
+      centro_heavy_damage_46: -4326542002532932912
+      centro_heavy_damage_47: 8300942897968710655
+      centro_heavy_damage_48: -3959640930594451361
+      centro_heavy_damage_49: 5089535481457744686
+      centro_heavy_damage_5: 2712129357959021759
+      centro_heavy_damage_50: -6974568027637047810
+      centro_heavy_damage_51: -6817739506532028946
+      centro_heavy_damage_52: 4180888412305056856
+      centro_heavy_damage_53: 3956607466305049609
+      centro_heavy_damage_54: 6444913663422994753
+      centro_heavy_damage_55: 4283515315874216430
+      centro_heavy_damage_56: -4353653295240730689
+      centro_heavy_damage_57: 2330490907615704396
+      centro_heavy_damage_58: 5734789395886044328
+      centro_heavy_damage_59: -8686958213480828223
+      centro_heavy_damage_6: -8975063268299437479
+      centro_heavy_damage_60: 7851917426760129388
+      centro_heavy_damage_61: 8957948376060797854
+      centro_heavy_damage_62: -862055500188078208
+      centro_heavy_damage_63: -5370559033130259677
+      centro_heavy_damage_64: -8175197121175950243
+      centro_heavy_damage_65: -5453413311842227999
+      centro_heavy_damage_66: -3615347975919488589
+      centro_heavy_damage_67: -8491131942469028869
+      centro_heavy_damage_68: 8472747712094218725
+      centro_heavy_damage_69: -3402175518651616825
+      centro_heavy_damage_7: 9018919937819084661
+      centro_heavy_damage_70: 5681804220546786524
+      centro_heavy_damage_71: -3049506907913830210
+      centro_heavy_damage_72: -2535412262538115484
+      centro_heavy_damage_73: 1142595709570179082
+      centro_heavy_damage_74: 2349305551075707507
+      centro_heavy_damage_75: 567569352346172920
+      centro_heavy_damage_76: 2533029155141926349
+      centro_heavy_damage_77: 5554167692432872141
+      centro_heavy_damage_78: -545951701777921632
+      centro_heavy_damage_79: 259834928434450992
+      centro_heavy_damage_8: 725979664096905542
+      centro_heavy_damage_80: -8913280518156016106
+      centro_heavy_damage_81: 7524970505068925431
+      centro_heavy_damage_82: -400670452020249493
+      centro_heavy_damage_83: -8587492469503149557
+      centro_heavy_damage_84: -3414826702504283494
+      centro_heavy_damage_85: -8885716123452074733
+      centro_heavy_damage_86: -6315895190972294717
+      centro_heavy_damage_87: -8734402645644119535
+      centro_heavy_damage_88: 462291406755113375
+      centro_heavy_damage_89: -5015253682660764435
+      centro_heavy_damage_9: 2459882782701426152
+      centro_heavy_damage_90: -861361053230878127
+      centro_heavy_damage_91: 8073205713547862380
+      centro_heavy_damage_92: 664163516484510084
+      centro_heavy_damage_93: -1641060745565810444
+      centro_heavy_damage_94: -335353195183448227
+      centro_heavy_damage_95: 1948920480694993996
+      centro_heavy_damage_96: 4593951033702755452
+      centro_heavy_damage_97: -4788170691298381375
+      centro_heavy_damage_98: -6952324987851512043
+      centro_heavy_damage_99: 7085839190323958989
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -603,7 +603,7 @@ TextureImporter:
       213: -1437160338499761290
     second: golgi_damage2_199
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -623,6 +623,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -631,9 +633,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -654,9 +656,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -696,6 +703,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -4919,6 +4938,207 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      golgi_damage2_0: -4193429648941868978
+      golgi_damage2_1: -1889524540037231133
+      golgi_damage2_10: -4932468280911355287
+      golgi_damage2_100: -5858632021820938766
+      golgi_damage2_101: 9374174848794471
+      golgi_damage2_102: -3141440487667918338
+      golgi_damage2_103: 5996758408381614771
+      golgi_damage2_104: 8670451749583460071
+      golgi_damage2_105: -8598348442159765131
+      golgi_damage2_106: -5620644618212041876
+      golgi_damage2_107: 2111156662103320447
+      golgi_damage2_108: 8702809559637468927
+      golgi_damage2_109: 5529962176112108077
+      golgi_damage2_11: 8322389975452477094
+      golgi_damage2_110: -390931445533183864
+      golgi_damage2_111: -519165833610654617
+      golgi_damage2_112: -541548253747178568
+      golgi_damage2_113: 4166558855933940724
+      golgi_damage2_114: -4050065635402179477
+      golgi_damage2_115: -6650851855546543327
+      golgi_damage2_116: 2764939951977007427
+      golgi_damage2_117: -7199822286985544919
+      golgi_damage2_118: -3429674146544632383
+      golgi_damage2_119: 366350701472440677
+      golgi_damage2_12: -7539951108019229703
+      golgi_damage2_120: -2812339737265794436
+      golgi_damage2_121: -5417775206740572645
+      golgi_damage2_122: 5580739147898628975
+      golgi_damage2_123: 8591352419016812731
+      golgi_damage2_124: 8332247816815017209
+      golgi_damage2_125: -7146655651528949911
+      golgi_damage2_126: -5059010078045596050
+      golgi_damage2_127: 1617679221148665988
+      golgi_damage2_128: -4371681197997592186
+      golgi_damage2_129: 506189049445144199
+      golgi_damage2_13: 2452928099325364233
+      golgi_damage2_130: -7700568541804849165
+      golgi_damage2_131: -7211808599691861722
+      golgi_damage2_132: -214174241270200117
+      golgi_damage2_133: 8876087571512815659
+      golgi_damage2_134: 9081653527107250714
+      golgi_damage2_135: 538752698714513644
+      golgi_damage2_136: -7267780971187368834
+      golgi_damage2_137: -3945176027402484482
+      golgi_damage2_138: 6869861612577936180
+      golgi_damage2_139: 6940941106540437185
+      golgi_damage2_14: 3203447959891898513
+      golgi_damage2_140: 3300693812297325269
+      golgi_damage2_141: -6450643098663575598
+      golgi_damage2_142: 6084303003035280945
+      golgi_damage2_143: -5307696886279133210
+      golgi_damage2_144: 3081686967547341293
+      golgi_damage2_145: 2022582752193912138
+      golgi_damage2_146: 3802954676289508181
+      golgi_damage2_147: -603348666010903449
+      golgi_damage2_148: 8784702752205068185
+      golgi_damage2_149: -5280010429383615142
+      golgi_damage2_15: 1855160814890966424
+      golgi_damage2_150: 2101142538943248943
+      golgi_damage2_151: 7059415726623239287
+      golgi_damage2_152: 4871062175021596502
+      golgi_damage2_153: 1726457865624060239
+      golgi_damage2_154: 5891879797526119529
+      golgi_damage2_155: 3969175081338616253
+      golgi_damage2_156: 6331544076973752653
+      golgi_damage2_157: -7601715170543551037
+      golgi_damage2_158: 6124911527060255540
+      golgi_damage2_159: 5693095259846390820
+      golgi_damage2_16: -8846770526916115040
+      golgi_damage2_160: 216376797102490966
+      golgi_damage2_161: 3328763509514127684
+      golgi_damage2_162: 1926450061215003424
+      golgi_damage2_163: 2182818199577166047
+      golgi_damage2_164: 6692392542472325003
+      golgi_damage2_165: -6103466062570709462
+      golgi_damage2_166: -4904679418893549340
+      golgi_damage2_167: -5987501604107704175
+      golgi_damage2_168: 7993704729119708506
+      golgi_damage2_169: 8239373836014396762
+      golgi_damage2_17: 6324218342946619706
+      golgi_damage2_170: 5183523989756518866
+      golgi_damage2_171: 9134122682487702529
+      golgi_damage2_172: 2941258199736239113
+      golgi_damage2_173: -2066955628022795947
+      golgi_damage2_174: 9201054963087962464
+      golgi_damage2_175: 8572729672049641475
+      golgi_damage2_176: -5825342317044057476
+      golgi_damage2_177: -8864906280092470917
+      golgi_damage2_178: -6952750320140507222
+      golgi_damage2_179: -6825522164370787471
+      golgi_damage2_18: -1243877089132193702
+      golgi_damage2_180: 2095453154155394674
+      golgi_damage2_181: -1655083945110047265
+      golgi_damage2_182: 9065141592946259871
+      golgi_damage2_183: 2955734055073723893
+      golgi_damage2_184: 5087038530065403710
+      golgi_damage2_185: 3385627906549538844
+      golgi_damage2_186: -2068461293996017232
+      golgi_damage2_187: 3307494538031345858
+      golgi_damage2_188: -4074676690395933362
+      golgi_damage2_189: -4937599159195434313
+      golgi_damage2_19: -7284081967535369643
+      golgi_damage2_190: 6918997827917837606
+      golgi_damage2_191: 16786259429765355
+      golgi_damage2_192: 3861155582350742587
+      golgi_damage2_193: -3830360028295742134
+      golgi_damage2_194: -1472369324195213543
+      golgi_damage2_195: 7028681431827981063
+      golgi_damage2_196: 7404563538830389906
+      golgi_damage2_197: -3349359383552000902
+      golgi_damage2_198: -7486477736674273938
+      golgi_damage2_199: -1437160338499761290
+      golgi_damage2_2: -2575953146966539594
+      golgi_damage2_20: -5827511739498567666
+      golgi_damage2_21: -4765050548244973735
+      golgi_damage2_22: -3533898434222616640
+      golgi_damage2_23: 6680046709576781681
+      golgi_damage2_24: 447228786826277004
+      golgi_damage2_25: 4303494145177780604
+      golgi_damage2_26: 8528532091626909390
+      golgi_damage2_27: -4030813994157336262
+      golgi_damage2_28: 6428094345836604986
+      golgi_damage2_29: 948091894197330173
+      golgi_damage2_3: -5595282175114588009
+      golgi_damage2_30: 5968951712110764082
+      golgi_damage2_31: 793951330970169791
+      golgi_damage2_32: -1295244058646061060
+      golgi_damage2_33: -8658315483197203509
+      golgi_damage2_34: 7497081784095135578
+      golgi_damage2_35: -3200660425389316097
+      golgi_damage2_36: -5932474389143753865
+      golgi_damage2_37: -302247586383054009
+      golgi_damage2_38: -2753707867662030162
+      golgi_damage2_39: 2559627228726134787
+      golgi_damage2_4: 7473599659240018414
+      golgi_damage2_40: -789835851627127375
+      golgi_damage2_41: -7274497613938132860
+      golgi_damage2_42: -8579294285856591156
+      golgi_damage2_43: -7810593765130284033
+      golgi_damage2_44: -3815028426624187180
+      golgi_damage2_45: -5610171587689341760
+      golgi_damage2_46: 7128785890073214503
+      golgi_damage2_47: 7745202023564797404
+      golgi_damage2_48: 4164525677827312578
+      golgi_damage2_49: 3410221554185650588
+      golgi_damage2_5: 4407692522340039905
+      golgi_damage2_50: 7459196422351982687
+      golgi_damage2_51: 3975455082616420527
+      golgi_damage2_52: 7227669491345519746
+      golgi_damage2_53: -7816368593637352835
+      golgi_damage2_54: 3336028817515609328
+      golgi_damage2_55: 7378855105058207870
+      golgi_damage2_56: -5570352958921480960
+      golgi_damage2_57: -5090202043258763459
+      golgi_damage2_58: 5199302277142233832
+      golgi_damage2_59: -697099684265507422
+      golgi_damage2_6: 8452046577739900923
+      golgi_damage2_60: 7358103450945448937
+      golgi_damage2_61: 6529046481921855642
+      golgi_damage2_62: -6805683500696827295
+      golgi_damage2_63: -1403227073648556616
+      golgi_damage2_64: -4562696605570746600
+      golgi_damage2_65: 7417796428235031147
+      golgi_damage2_66: -1455728353852220079
+      golgi_damage2_67: -7734494287175145820
+      golgi_damage2_68: 635599143542530895
+      golgi_damage2_69: 353287744561697151
+      golgi_damage2_7: -2258053237136980237
+      golgi_damage2_70: 375064437536731377
+      golgi_damage2_71: 7534240442429808146
+      golgi_damage2_72: -3497369943908502254
+      golgi_damage2_73: 6512143399897817817
+      golgi_damage2_74: 2733974844414150684
+      golgi_damage2_75: -8418798691632766703
+      golgi_damage2_76: -6399730441157686158
+      golgi_damage2_77: -3582787597874543357
+      golgi_damage2_78: -1561932778822427610
+      golgi_damage2_79: 6610182630052343117
+      golgi_damage2_8: -4725981634205387723
+      golgi_damage2_80: 7380704628714266419
+      golgi_damage2_81: -3147153211017045194
+      golgi_damage2_82: -1056910832295204247
+      golgi_damage2_83: 4230288390967962909
+      golgi_damage2_84: -8639960610618113717
+      golgi_damage2_85: -7193169688119273439
+      golgi_damage2_86: 2993407225798311948
+      golgi_damage2_87: -4716640687038930687
+      golgi_damage2_88: 4653369326789351752
+      golgi_damage2_89: 7507153446853637770
+      golgi_damage2_9: 861728312694602840
+      golgi_damage2_90: 6737867477917623488
+      golgi_damage2_91: 986717121720590402
+      golgi_damage2_92: 469861615338060985
+      golgi_damage2_93: 6462671936650913954
+      golgi_damage2_94: -8732634031799959996
+      golgi_damage2_95: -6679986503170153623
+      golgi_damage2_96: 2325157809384166923
+      golgi_damage2_97: -1122083918596663236
+      golgi_damage2_98: 3652350047180192926
+      golgi_damage2_99: 7922276595698473373
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -5,11 +5,15 @@ using System.Text;
 using System.Threading.Tasks;
 using UnityEngine;
 using System.Collections;
+//Next up:
+//-why does mitochondria leave cell?
+//-implement level end 
 
 public class Cell : CellGameObject
 {
 	//values:
-
+	public delegate void OrganelleSelected(int organelle_id, CellObject co);
+	public OrganelleSelected onOrganelleSelected;
 	private float volume;
 		
 	private float gravRadius = 150;
@@ -148,7 +152,7 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 	private int clearCount = 0;
 	private int CLEAR_TIME = 30;
 		
-	private int PRODUCE_TIME = 60;
+	private int PRODUCE_TIME = 240;
 	private int produceCount = 0;
 		
 	private int NECROSIS_TIME = 120;
@@ -267,9 +271,9 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 		}
 	}
 
-	public void OnMouseDown()
+	public void OnrMouseDown()
 	{
-		Debug.Log("mouse down");
+		Debug.Log("mouse down cell");
 		//p_engine.cellMouseDown();  //TODO
 
 	}
@@ -285,7 +289,7 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 	{
 		c_membrane.drawAllNodes(); //update the membrane
 		foreach(BigVesicle b in list_bigves) {
-			b.updateBigVesicle();
+			//b.updateBigVesicle();
 		}
 		foreach(Virus v in list_virus) {
 			if (v.hasVesicle)
@@ -1023,7 +1027,7 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 
 		makeRunningList();
 		makeSelectableList();
-		makeStartRibosomes(ribo);//-
+		makeStartRibosomes(ribo);//-Bookmark: where stuff in the cell is made
 		makeStartLysosomes(lyso);//-
 		makeStartMitochondria(mito);//-
 		makeStartChloroplasts(chloro); //-
@@ -1178,8 +1182,9 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 	}
 
 
-	public void setSelectType(int n)
+	public void setSelectType(int n, CellObject co)
 	{
+		onOrganelleSelected?.Invoke(n, co);
 		//p_engine.setSelectType(n);  //TODO
 	}
 
@@ -1301,9 +1306,10 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 				}
 				b[i] *= -1;
 			}
-			//trace("Cell.spend() : " + a + " numNotZero=" + numNotZero);
+			Debug.Log("Cell.spend() : " + a + " numNotZero=" + numNotZero);
 		}
-			bool success = true; //p_engine.spend(a);  //TODO
+			bool success = p_engine.spend(a); 
+		  
 		if (success)
 		{
 			if (playSound)
@@ -1362,7 +1368,7 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 		{
 			//p_canvas.justShowMeTheMoneyArray(a, p.x, p.y, speed, offset);  //TODO
 		}
-		return true;//p_engine.produce(a);   //TODO
+		return p_engine.produce(a);   
 	}
 
 	public float getSunlight()
@@ -1687,6 +1693,16 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 		v.setCell(this);
 		return v;
 	}
+
+	public void ApplyBigVesicle(BigVesicle bv)
+	{
+		bv.setCell(this);
+		list_bigves.Add(bv);
+		addSelectable(bv);
+		addRunning(bv);
+        onMake("big_vesicle", list_bigves.Count);
+
+    }
 
 	private BigVesicle makeBigVesicle() 
 	{
@@ -3643,10 +3659,10 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 
 	public void killHardPoint(HardPoint h)
 	{
-		int i = 0;
+		//int i = 0;
 		//removeChild(h);
-		foreach(HardPoint hh in list_hardpoint) {
-			if (hh == h)
+		for(int i=0; i < list_hardpoint.Count; i++) {
+			if (list_hardpoint[i] == h)
 			{
 				list_hardpoint.RemoveAt(i);
 			}

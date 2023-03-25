@@ -363,7 +363,7 @@ TextureImporter:
       213: -5842698288566411462
     second: lysosome_normal_119
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -383,6 +383,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -391,9 +393,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -414,9 +416,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -456,6 +463,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -2999,6 +3018,127 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      lysosome_normal_0: -3606898868117663834
+      lysosome_normal_1: -3659964650406205737
+      lysosome_normal_10: 5037286700999231154
+      lysosome_normal_100: -8346947527397973060
+      lysosome_normal_101: -1936087553889555658
+      lysosome_normal_102: -4504968324558270062
+      lysosome_normal_103: -2986224196396178969
+      lysosome_normal_104: 8564832980910168201
+      lysosome_normal_105: 2649748992504281091
+      lysosome_normal_106: -7967935301359390122
+      lysosome_normal_107: -3720306726299090732
+      lysosome_normal_108: -2443673654890489464
+      lysosome_normal_109: -1048498695172144836
+      lysosome_normal_11: -3648171572878626926
+      lysosome_normal_110: 3755191502747604460
+      lysosome_normal_111: 4141931460156706036
+      lysosome_normal_112: -7516372652658989224
+      lysosome_normal_113: 5887146322745681971
+      lysosome_normal_114: 3350347484950999206
+      lysosome_normal_115: 1064091489341067767
+      lysosome_normal_116: -3907092422828967379
+      lysosome_normal_117: -1109265737915036161
+      lysosome_normal_118: 8970208936557827236
+      lysosome_normal_119: -5842698288566411462
+      lysosome_normal_12: -2850693698323404343
+      lysosome_normal_13: 2581273282019610566
+      lysosome_normal_14: -7069101885867907090
+      lysosome_normal_15: -992683031115579925
+      lysosome_normal_16: 2797796057833863266
+      lysosome_normal_17: 2176923491033802358
+      lysosome_normal_18: -8986251598018662048
+      lysosome_normal_19: -1888639738157433091
+      lysosome_normal_2: -7064285764096659042
+      lysosome_normal_20: 7821130547568555811
+      lysosome_normal_21: 8071617837110567352
+      lysosome_normal_22: 2502833012594543530
+      lysosome_normal_23: 6474453513684880834
+      lysosome_normal_24: -8290230881243384604
+      lysosome_normal_25: 3130197696160658346
+      lysosome_normal_26: -6094703952532749967
+      lysosome_normal_27: -7837823066010963907
+      lysosome_normal_28: -5923528955581283110
+      lysosome_normal_29: -4237565586711808569
+      lysosome_normal_3: 4243676514135501005
+      lysosome_normal_30: -1094749746575775325
+      lysosome_normal_31: -3839688551264192049
+      lysosome_normal_32: -6054872516693114366
+      lysosome_normal_33: 5988129335440836388
+      lysosome_normal_34: 5619892514609120530
+      lysosome_normal_35: 878985650968613393
+      lysosome_normal_36: 2468134717100472279
+      lysosome_normal_37: -3717840353391091284
+      lysosome_normal_38: -5257409465168205307
+      lysosome_normal_39: -6422126528688531887
+      lysosome_normal_4: -7271921311202351161
+      lysosome_normal_40: 9059300437138787781
+      lysosome_normal_41: -1594574081114360727
+      lysosome_normal_42: -8517477334719364870
+      lysosome_normal_43: 1340686997963236637
+      lysosome_normal_44: -5622982011996226283
+      lysosome_normal_45: -2970543882797955381
+      lysosome_normal_46: 9051882521444989391
+      lysosome_normal_47: -6195524292843003944
+      lysosome_normal_48: 4790673930395709125
+      lysosome_normal_49: 2831703623305528062
+      lysosome_normal_5: -2743138683863259626
+      lysosome_normal_50: -9219100214251063257
+      lysosome_normal_51: 4590857270557877601
+      lysosome_normal_52: -2780905758317768862
+      lysosome_normal_53: -7264735395668350017
+      lysosome_normal_54: -8098214930672607019
+      lysosome_normal_55: 7933655363486340783
+      lysosome_normal_56: 6471909389245470737
+      lysosome_normal_57: -7808044110081703948
+      lysosome_normal_58: 957125319261777563
+      lysosome_normal_59: -7941152230699417244
+      lysosome_normal_6: 4154464579113666152
+      lysosome_normal_60: 3393162265474935574
+      lysosome_normal_61: 4269022167185099870
+      lysosome_normal_62: 5345201882063418039
+      lysosome_normal_63: 1105907275608045401
+      lysosome_normal_64: 8835753220225267215
+      lysosome_normal_65: -3198475320047340659
+      lysosome_normal_66: -4161267014465010908
+      lysosome_normal_67: 76254723128240431
+      lysosome_normal_68: -6267323629630559209
+      lysosome_normal_69: 1900641541111497758
+      lysosome_normal_7: 4620823020684725815
+      lysosome_normal_70: 1418085972782821791
+      lysosome_normal_71: -8066471696923635496
+      lysosome_normal_72: -7054179347397438414
+      lysosome_normal_73: -5000200723752387791
+      lysosome_normal_74: 8888817401195360365
+      lysosome_normal_75: 8991101229617139613
+      lysosome_normal_76: -7556519264359444266
+      lysosome_normal_77: -896195311453513204
+      lysosome_normal_78: 129131514488241093
+      lysosome_normal_79: -8902259115569835981
+      lysosome_normal_8: 1381457824807090029
+      lysosome_normal_80: 3220953112969243231
+      lysosome_normal_81: -6482492744194670210
+      lysosome_normal_82: 8729422105664881332
+      lysosome_normal_83: 3519645256373222716
+      lysosome_normal_84: -1589263755101310130
+      lysosome_normal_85: 19603558511034971
+      lysosome_normal_86: -4137777728074713188
+      lysosome_normal_87: 7978873754049003593
+      lysosome_normal_88: -5414054491482575463
+      lysosome_normal_89: -6400151762963779941
+      lysosome_normal_9: -4167755540585729890
+      lysosome_normal_90: 1038860877458326521
+      lysosome_normal_91: 4667542985010967269
+      lysosome_normal_92: -98552203780277870
+      lysosome_normal_93: -6240623185418068099
+      lysosome_normal_94: -7143766108278307071
+      lysosome_normal_95: 3083857140055263988
+      lysosome_normal_96: 6521787913304616273
+      lysosome_normal_97: -3748314495579637423
+      lysosome_normal_98: 2878946469810419570
+      lysosome_normal_99: -81323534921286255
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

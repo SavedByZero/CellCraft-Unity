@@ -228,7 +228,7 @@ TextureImporter:
       213: -3816848477089563409
     second: virusinfester_fade_74
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -248,6 +248,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -256,9 +258,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -279,9 +281,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -321,6 +328,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -1478,6 +1497,61 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      virusinfester_fade_0: 667380795974770333
+      virusinfester_fade_1: 8256094332651292948
+      virusinfester_fade_10: 8108620305443299417
+      virusinfester_fade_11: 3235269050416069745
+      virusinfester_fade_12: -5869165089144653589
+      virusinfester_fade_13: 1474402093956357314
+      virusinfester_fade_14: 5722551608457905964
+      virusinfester_fade_15: -7542975915080410754
+      virusinfester_fade_16: -771161535814592379
+      virusinfester_fade_17: -7129950054802331878
+      virusinfester_fade_18: 3522140690807131825
+      virusinfester_fade_2: 3921311001789045881
+      virusinfester_fade_20: 3207137586102065949
+      virusinfester_fade_21: -661732437237385034
+      virusinfester_fade_22: -243916974375985540
+      virusinfester_fade_23: -7725382013506526256
+      virusinfester_fade_24: 8463558640180715891
+      virusinfester_fade_25: -2963541362179232049
+      virusinfester_fade_26: 8846726281464201748
+      virusinfester_fade_27: -6306043726775793587
+      virusinfester_fade_28: -7551402510345105431
+      virusinfester_fade_3: -2567923042624241041
+      virusinfester_fade_30: 4195131450415662666
+      virusinfester_fade_31: 6010281496970269437
+      virusinfester_fade_32: 6226149277077424327
+      virusinfester_fade_33: -744853419673781533
+      virusinfester_fade_34: -430179844353545253
+      virusinfester_fade_35: -3962357693531094997
+      virusinfester_fade_36: 817498248899079786
+      virusinfester_fade_37: -3546222071682726387
+      virusinfester_fade_38: 3003676696821896255
+      virusinfester_fade_4: 5121977507706734349
+      virusinfester_fade_40: 6865488116482523268
+      virusinfester_fade_41: 8754917064769890629
+      virusinfester_fade_42: 6971375995695270445
+      virusinfester_fade_43: 6742064237097877549
+      virusinfester_fade_44: 5179356282090913247
+      virusinfester_fade_45: -2612141578989872462
+      virusinfester_fade_46: 9004437679453238991
+      virusinfester_fade_47: 5066643103634685958
+      virusinfester_fade_48: 5544971679042636347
+      virusinfester_fade_5: -5609027777925221624
+      virusinfester_fade_50: 3290512378869477148
+      virusinfester_fade_51: 2112153423635552842
+      virusinfester_fade_52: -8184808376257019027
+      virusinfester_fade_53: -5089823806445109959
+      virusinfester_fade_54: -8836708897539627668
+      virusinfester_fade_55: 7672291253924643656
+      virusinfester_fade_56: 8436880964354118395
+      virusinfester_fade_57: 2181951786024855966
+      virusinfester_fade_58: -4710027012732316530
+      virusinfester_fade_6: 1086918021449752152
+      virusinfester_fade_7: -687241616572354729
+      virusinfester_fade_8: -1173534248586983544
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

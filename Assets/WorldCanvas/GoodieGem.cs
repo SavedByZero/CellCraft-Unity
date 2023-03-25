@@ -39,14 +39,30 @@ public class GoodieGem : CanvasObject
 
 	
 	public void onTouchCell()
-	{
+    {
 
 		//this has to show the money using amount and type. (a 'showMeTheMoney' object)
-
+		Engine engine = GameObject.FindObjectOfType<Engine>();
 		//Plays sfx. 
-		if (type == "g")
+		switch (type)
+        {
+			case "g":
+				engine.GainGlucose(amount);
+				break;
+			case "aa":
+				engine.GainAA(amount);
+				break;
+			case "fa":
+				engine.GainFA(amount);
+				break;
+			case "na":
+				engine.GainNA(amount);
+				break;
+		}
+
+        if (type == "g")
 		{
-			GameObject.FindObjectOfType<Engine>().GainGlucose(amount);
+			
 		}
 		SfxManager.Play(SFX.SFXCoin);
 		this.gameObject.SetActive(false);

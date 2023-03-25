@@ -111,7 +111,7 @@ TextureImporter:
       213: -8183895396960985938
     second: redrna_infest_35
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -131,6 +131,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -139,9 +141,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -162,9 +164,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -204,6 +211,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -983,6 +1002,43 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      redrna_infest_0: -8915310070922685769
+      redrna_infest_1: -5819360224100244526
+      redrna_infest_10: 7292148794290928808
+      redrna_infest_11: -5354309638932937005
+      redrna_infest_12: -8497016262927582608
+      redrna_infest_13: 2244490402356565408
+      redrna_infest_14: -2987812555540242548
+      redrna_infest_15: -153147840885296201
+      redrna_infest_16: -8770576015858657779
+      redrna_infest_17: 3474190905609512898
+      redrna_infest_18: -4004061750731799963
+      redrna_infest_19: -779900487312702431
+      redrna_infest_2: -710488620169315145
+      redrna_infest_20: -5166023673879398655
+      redrna_infest_21: -2051060189964075768
+      redrna_infest_22: 9087832857952899977
+      redrna_infest_23: -7980636304778047419
+      redrna_infest_24: -8083130074019965700
+      redrna_infest_25: -7428378093635706219
+      redrna_infest_26: 5177205444777072487
+      redrna_infest_27: 2913886117841695707
+      redrna_infest_28: 8196732223828198033
+      redrna_infest_29: 2281609906728378284
+      redrna_infest_3: 5772614853514812655
+      redrna_infest_30: -2369022135792799643
+      redrna_infest_31: 2983064668932896334
+      redrna_infest_32: -8769465348153701531
+      redrna_infest_33: 1985207117532213904
+      redrna_infest_34: 4643268599680021278
+      redrna_infest_35: -8183895396960985938
+      redrna_infest_4: 8043875385691281763
+      redrna_infest_5: 1893529230708683603
+      redrna_infest_6: -2400856945177835780
+      redrna_infest_7: -1251047583714079997
+      redrna_infest_8: -8704866015894244790
+      redrna_infest_9: -5312796953811520041
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

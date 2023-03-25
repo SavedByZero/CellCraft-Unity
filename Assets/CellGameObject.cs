@@ -534,7 +534,7 @@ public class CellGameObject : MovieClip, ICellGameObject
 			//anim.Stop();
 			//Stop();
 
-			anim_vital = true;
+			//anim_vital = true;
 			//_doAnimRoutine = StartCoroutine(doAnimRoutine());
 
 			if (clip != null)
@@ -943,7 +943,7 @@ public class CellGameObject : MovieClip, ICellGameObject
 
 	public virtual void putInGrid()
 	{
-		float xx = x - cent_x + span_w / 2;  //place in the grid at half the grid width from the center, half the grid height from the center??
+		/*float xx = x - cent_x + span_w / 2;  //place in the grid at half the grid width from the center, half the grid height from the center??
 		float yy = y - cent_y + span_h / 2;
 		gdata.x = xx;                         //record the position of this object here. 
 		gdata.y = yy;
@@ -955,7 +955,7 @@ public class CellGameObject : MovieClip, ICellGameObject
 		if (grid_y >= grid_h) grid_y = (int)grid_h - 1;
 
 
-		p_grid.putIn(grid_x, grid_y, gdata);  
+		p_grid.putIn(grid_x, grid_y, gdata);  */
 	}
 
 	public void place(float xx, float yy)

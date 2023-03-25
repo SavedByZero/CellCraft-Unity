@@ -93,7 +93,7 @@ TextureImporter:
       213: 9150285385046489475
     second: virus_invader_exit_29
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -113,6 +113,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -121,9 +123,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -144,9 +146,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -186,6 +193,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -839,6 +858,37 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      virus_invader_exit_0: -5571775254508278662
+      virus_invader_exit_1: -5002615351973138472
+      virus_invader_exit_10: -2157976536305683331
+      virus_invader_exit_11: -5334209188384996479
+      virus_invader_exit_12: -6875560879638027324
+      virus_invader_exit_13: -1469507020254635105
+      virus_invader_exit_14: 7281718823993865554
+      virus_invader_exit_15: 2899937688640880474
+      virus_invader_exit_16: -274932110687624867
+      virus_invader_exit_17: 4152091583765244765
+      virus_invader_exit_18: -7044818091553522903
+      virus_invader_exit_19: 3519487704786375383
+      virus_invader_exit_2: -3736013638341878503
+      virus_invader_exit_20: -2909375226502903595
+      virus_invader_exit_21: 4362072149802152960
+      virus_invader_exit_22: -9162163359839700255
+      virus_invader_exit_23: 5611743263518576074
+      virus_invader_exit_24: 2172062322836520740
+      virus_invader_exit_25: -1434523454392802294
+      virus_invader_exit_26: 7992247002120340755
+      virus_invader_exit_27: 1726368643915689362
+      virus_invader_exit_28: -7448723324504159281
+      virus_invader_exit_29: 9150285385046489475
+      virus_invader_exit_3: -2799218170042757475
+      virus_invader_exit_4: 7250825695153351136
+      virus_invader_exit_5: -2816967676727716957
+      virus_invader_exit_6: 6817862289933557996
+      virus_invader_exit_7: -1000778290521079691
+      virus_invader_exit_8: 352512853337881742
+      virus_invader_exit_9: -6459924026821595999
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -105,7 +105,7 @@ TextureImporter:
       213: 2981216829619374969
     second: centro_dying_33
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -125,6 +125,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -133,9 +135,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -156,9 +158,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -198,6 +205,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
@@ -935,6 +954,41 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      centro_dying_0: 6135224807348230083
+      centro_dying_1: -4842002190202396290
+      centro_dying_10: 8441748304306624356
+      centro_dying_11: -353604898097399576
+      centro_dying_12: 4518172295775110576
+      centro_dying_13: -9159627453650351587
+      centro_dying_14: -1097884550232849944
+      centro_dying_15: 5845371212444943290
+      centro_dying_16: 2452918158916226004
+      centro_dying_17: 6265615578113168372
+      centro_dying_18: 6989592726239182611
+      centro_dying_19: -1728138147855637395
+      centro_dying_2: -8257997065317556819
+      centro_dying_20: -6130502595212633499
+      centro_dying_21: 912098411423731687
+      centro_dying_22: -8539181979734423127
+      centro_dying_23: 5131979540177947832
+      centro_dying_24: 430511387855220046
+      centro_dying_25: 5946125655340762897
+      centro_dying_26: 6783076857907334537
+      centro_dying_27: 3411917811617820190
+      centro_dying_28: -4647981883153291426
+      centro_dying_29: 7529831745704384818
+      centro_dying_3: 1954576084322277902
+      centro_dying_30: 3543619580866076473
+      centro_dying_31: 9159809792170368518
+      centro_dying_32: 3126611397216066604
+      centro_dying_33: 2981216829619374969
+      centro_dying_4: -3597470054181844025
+      centro_dying_5: 6801167910360572043
+      centro_dying_6: 370491647277551940
+      centro_dying_7: 4375298841825615295
+      centro_dying_8: 3110024758515953216
+      centro_dying_9: 5633787653910557310
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

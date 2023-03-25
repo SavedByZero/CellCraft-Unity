@@ -283,7 +283,7 @@ public class Selectable : CellGameObject
 		
 	}
 
-	public void OnMouseDown()
+	public virtual void OnMouseDown()
 	{
 		if (canSelect)
 		{
@@ -300,7 +300,7 @@ public class Selectable : CellGameObject
 		}
 	}
 
-	public void OnMouseUp()
+	public virtual void OnMouseUp()
 	{
 		if (canSelect && _mDown)
 		{

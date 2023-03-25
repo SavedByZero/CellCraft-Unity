@@ -270,7 +270,7 @@ TextureImporter:
       213: -7639882382094055054
     second: transportvesicle_adhere_88
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -290,6 +290,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -298,9 +300,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -321,9 +323,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -363,6 +370,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -2255,6 +2274,96 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      transportvesicle_adhere_0: 7507171569946885248
+      transportvesicle_adhere_1: -4741635277788285125
+      transportvesicle_adhere_10: 8578689480060457152
+      transportvesicle_adhere_11: 6982457304312333746
+      transportvesicle_adhere_12: -4556396445828857407
+      transportvesicle_adhere_13: -6100869183847020611
+      transportvesicle_adhere_14: -263370277329948726
+      transportvesicle_adhere_15: -3895155458251220742
+      transportvesicle_adhere_16: 5927022437315232827
+      transportvesicle_adhere_17: -5536222298365615953
+      transportvesicle_adhere_18: 4897343373216473617
+      transportvesicle_adhere_19: 8108128219155049270
+      transportvesicle_adhere_2: 1604617628821090248
+      transportvesicle_adhere_20: -3065728218572660650
+      transportvesicle_adhere_21: -8020625823602324991
+      transportvesicle_adhere_22: -3930848332658015061
+      transportvesicle_adhere_23: -6695323936221491657
+      transportvesicle_adhere_24: 2623677907563219624
+      transportvesicle_adhere_25: -7893249289726509669
+      transportvesicle_adhere_26: 351648098794038263
+      transportvesicle_adhere_27: 2489767355064544990
+      transportvesicle_adhere_28: -1190088895807151023
+      transportvesicle_adhere_29: -6629606636439749300
+      transportvesicle_adhere_3: -4937979488090111788
+      transportvesicle_adhere_30: -6319912681608674779
+      transportvesicle_adhere_31: 915190235861731146
+      transportvesicle_adhere_32: -4415706276595611771
+      transportvesicle_adhere_33: -5936147686780632485
+      transportvesicle_adhere_34: 753531187058737025
+      transportvesicle_adhere_35: 204953975375777211
+      transportvesicle_adhere_36: 654303002294186455
+      transportvesicle_adhere_37: 1529234642702537660
+      transportvesicle_adhere_38: 4684189677439476551
+      transportvesicle_adhere_39: 2036615064689817113
+      transportvesicle_adhere_4: -2057371986940389248
+      transportvesicle_adhere_40: 1947136868309212599
+      transportvesicle_adhere_41: 5248134372965083832
+      transportvesicle_adhere_42: -8537368314703098535
+      transportvesicle_adhere_43: 7740192093528368409
+      transportvesicle_adhere_44: 6349200020922403310
+      transportvesicle_adhere_45: 3846484011205734860
+      transportvesicle_adhere_46: 8094671259019071249
+      transportvesicle_adhere_47: -6850639413398240797
+      transportvesicle_adhere_48: 6914234967424095025
+      transportvesicle_adhere_49: -6424112006687476470
+      transportvesicle_adhere_5: -7355929540212029879
+      transportvesicle_adhere_50: 5425166541196588733
+      transportvesicle_adhere_51: 2052127783542882378
+      transportvesicle_adhere_52: 5491570973862866575
+      transportvesicle_adhere_53: -4669102944034869260
+      transportvesicle_adhere_54: -2763998114342522719
+      transportvesicle_adhere_55: -2878221300074119140
+      transportvesicle_adhere_56: -1679577492754917258
+      transportvesicle_adhere_57: -6841033027501759066
+      transportvesicle_adhere_58: 2011813874514082006
+      transportvesicle_adhere_59: -8044981609256068201
+      transportvesicle_adhere_6: 5556258198173170502
+      transportvesicle_adhere_60: -7270274993856188019
+      transportvesicle_adhere_61: 1150663374257275080
+      transportvesicle_adhere_62: -6855339184446309711
+      transportvesicle_adhere_63: -3513561395155837997
+      transportvesicle_adhere_64: 3646051300386476633
+      transportvesicle_adhere_65: 4162510769867849956
+      transportvesicle_adhere_66: 1498470321409380643
+      transportvesicle_adhere_67: -7752808759829822588
+      transportvesicle_adhere_68: -9192432071511143794
+      transportvesicle_adhere_69: -8878055040213580637
+      transportvesicle_adhere_7: 6874187262127901343
+      transportvesicle_adhere_70: -460896894145356278
+      transportvesicle_adhere_71: 7069533395531739434
+      transportvesicle_adhere_72: -7229609211542932687
+      transportvesicle_adhere_73: -6563338820749626713
+      transportvesicle_adhere_74: 4157869526650073786
+      transportvesicle_adhere_75: 7281761912749692020
+      transportvesicle_adhere_76: -4986996711664436527
+      transportvesicle_adhere_77: -7094198089307048332
+      transportvesicle_adhere_78: -904362429966794166
+      transportvesicle_adhere_79: -4531190504883272420
+      transportvesicle_adhere_8: -6434963386788539537
+      transportvesicle_adhere_80: -8019346291944299586
+      transportvesicle_adhere_81: 2363898856139690656
+      transportvesicle_adhere_82: -6788150359822322351
+      transportvesicle_adhere_83: 2855370151759670384
+      transportvesicle_adhere_84: -2817876982598142198
+      transportvesicle_adhere_85: -5622071412452057225
+      transportvesicle_adhere_86: -6085646142537377831
+      transportvesicle_adhere_87: -3158355039067389621
+      transportvesicle_adhere_88: -7639882382094055054
+      transportvesicle_adhere_9: 72890388722353463
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

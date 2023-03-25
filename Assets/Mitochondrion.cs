@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using UnityEngine;
 
 public class Mitochondrion : ProducerObject
 {
+	//public bool 
 	public override void Start()
 	{
 		base.Start();
@@ -21,7 +22,7 @@ public class Mitochondrion : ProducerObject
 		list_actions = new List<CellAction> { CellAction.MOVE, CellAction.DIVIDE, CellAction.RECYCLE, CellAction.TOGGLE } ; //add recycle later
 		does_divide = true;
 
-		produce_time = 45;
+		produce_time = 60;
 		produce_counter = (int) (UnityEngine.Random.Range(0f,1f) * produce_time);
 
 
@@ -35,10 +36,18 @@ public class Mitochondrion : ProducerObject
 
 		allowAlternateBurn = true;
 		init();
-		//playAnim("normal");
-	}
+        ObjectiveManager.GetInstance().onCompleteObjective?.Invoke("find_mito");
+        playAnim("normal");
+    }
 
-	protected override void doAlternateBurn()
+    public void GoInsideCell()
+    {
+		isOutsideCell = false;
+		this.transform.SetParent(p_cell.transform);
+		this.transform.position = new Vector3(-.5f,-2);
+    }
+
+    protected override void doAlternateBurn()
 	{
 		if (!p_cell.canAfford(250, 0, 0, 0, 0))
 		{ //if we're below 250 ATP, burn that fat!

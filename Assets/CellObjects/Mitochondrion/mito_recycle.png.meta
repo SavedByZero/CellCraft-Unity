@@ -123,7 +123,7 @@ TextureImporter:
       213: -259041894045590520
     second: mito_recycle_39
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -143,6 +143,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -151,9 +153,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -174,9 +176,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -216,6 +223,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -869,6 +888,37 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      mito_recycle_0: 7548345486235681664
+      mito_recycle_1: 4871523133651931821
+      mito_recycle_10: 950828044610938810
+      mito_recycle_11: -5788165556426165336
+      mito_recycle_12: -5969554373289965856
+      mito_recycle_13: -2415158652874523839
+      mito_recycle_14: -2009283998659081553
+      mito_recycle_15: -5460273280751545337
+      mito_recycle_16: 1948955193518488819
+      mito_recycle_17: 4678442731918505894
+      mito_recycle_18: 7305652181457703177
+      mito_recycle_19: 3427043548924313314
+      mito_recycle_2: -4633175979522812480
+      mito_recycle_20: -880844376496316712
+      mito_recycle_21: -1170811851224411681
+      mito_recycle_22: -3626377743279549436
+      mito_recycle_23: -5031587790619749689
+      mito_recycle_24: -3664869905292313683
+      mito_recycle_25: 2890004121786852572
+      mito_recycle_26: 405214269920832521
+      mito_recycle_27: 5539475312544001289
+      mito_recycle_28: 8997408212722050453
+      mito_recycle_29: 110207622105749530
+      mito_recycle_3: 8828352119242069309
+      mito_recycle_4: 2728721229028828600
+      mito_recycle_5: -7446181257245406266
+      mito_recycle_6: 3177075794995281306
+      mito_recycle_7: 4228489106460240076
+      mito_recycle_8: 5976165861252711870
+      mito_recycle_9: 7433027829438863013
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -363,7 +363,7 @@ TextureImporter:
       213: -3335458534034873361
     second: pinkvesicle_normal_119
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -383,6 +383,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -391,9 +393,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -414,9 +416,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -456,6 +463,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -2999,6 +3018,127 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      pinkvesicle_normal_0: -8089662593859342230
+      pinkvesicle_normal_1: -8281894628612593279
+      pinkvesicle_normal_10: -4950914630085209376
+      pinkvesicle_normal_100: 5572352917183912277
+      pinkvesicle_normal_101: 8009078527510061646
+      pinkvesicle_normal_102: -1611679531022430695
+      pinkvesicle_normal_103: 4681718526885414398
+      pinkvesicle_normal_104: 129441647775605199
+      pinkvesicle_normal_105: -2635348679767078106
+      pinkvesicle_normal_106: 6616154269009559530
+      pinkvesicle_normal_107: -5550177299401654827
+      pinkvesicle_normal_108: 139283587285932658
+      pinkvesicle_normal_109: 8664538541767600564
+      pinkvesicle_normal_11: 1989970731484364527
+      pinkvesicle_normal_110: 8714425849723427762
+      pinkvesicle_normal_111: 8060670222438884728
+      pinkvesicle_normal_112: 7067464496121082888
+      pinkvesicle_normal_113: -2271275071208417316
+      pinkvesicle_normal_114: -5737922693945621457
+      pinkvesicle_normal_115: 464282201752608017
+      pinkvesicle_normal_116: 6245247234789747524
+      pinkvesicle_normal_117: -6935582516284476343
+      pinkvesicle_normal_118: 852916830425478368
+      pinkvesicle_normal_119: -3335458534034873361
+      pinkvesicle_normal_12: -443387655739317751
+      pinkvesicle_normal_13: -6093156183237775561
+      pinkvesicle_normal_14: 2046324861238069857
+      pinkvesicle_normal_15: -5530775122282355861
+      pinkvesicle_normal_16: -978359046792224246
+      pinkvesicle_normal_17: 5988147964870046593
+      pinkvesicle_normal_18: 4144471476622831490
+      pinkvesicle_normal_19: 2309527946272655030
+      pinkvesicle_normal_2: 4236202906884184951
+      pinkvesicle_normal_20: -6751902860421456427
+      pinkvesicle_normal_21: 8472133448202010576
+      pinkvesicle_normal_22: 1181824720194502854
+      pinkvesicle_normal_23: -8888135718684307741
+      pinkvesicle_normal_24: -8839612759591305333
+      pinkvesicle_normal_25: -3378722522205219615
+      pinkvesicle_normal_26: -3674376642650010719
+      pinkvesicle_normal_27: -1190113676099548341
+      pinkvesicle_normal_28: -630544785755179818
+      pinkvesicle_normal_29: -4002741950991714626
+      pinkvesicle_normal_3: 2492394892664881210
+      pinkvesicle_normal_30: 8187703404150425461
+      pinkvesicle_normal_31: -731894275819542047
+      pinkvesicle_normal_32: -9085877827921770894
+      pinkvesicle_normal_33: -5373432405374815439
+      pinkvesicle_normal_34: 6823811506182400521
+      pinkvesicle_normal_35: 1406442599280583555
+      pinkvesicle_normal_36: 2652405595014830987
+      pinkvesicle_normal_37: -496671839194299461
+      pinkvesicle_normal_38: -8530951604702125360
+      pinkvesicle_normal_39: 722248280653057000
+      pinkvesicle_normal_4: 8586784083725712425
+      pinkvesicle_normal_40: -8497598964737286030
+      pinkvesicle_normal_41: 3024500676139537080
+      pinkvesicle_normal_42: -2067058103065019253
+      pinkvesicle_normal_43: -6581546457662026933
+      pinkvesicle_normal_44: 7646314018255378726
+      pinkvesicle_normal_45: -127497264267863555
+      pinkvesicle_normal_46: 3598958673604254372
+      pinkvesicle_normal_47: -1559513076885595469
+      pinkvesicle_normal_48: -2356609143620104534
+      pinkvesicle_normal_49: -3690444873362806813
+      pinkvesicle_normal_5: 6665250912671715189
+      pinkvesicle_normal_50: 5697426148733798811
+      pinkvesicle_normal_51: 4055114919141572562
+      pinkvesicle_normal_52: 3474184392902024473
+      pinkvesicle_normal_53: -2029073275587917015
+      pinkvesicle_normal_54: 2881399459064941464
+      pinkvesicle_normal_55: 4375880732883385125
+      pinkvesicle_normal_56: -2246263284900700183
+      pinkvesicle_normal_57: 654890382479563372
+      pinkvesicle_normal_58: -124237097577143502
+      pinkvesicle_normal_59: 4163781419735644063
+      pinkvesicle_normal_6: 122081135128869175
+      pinkvesicle_normal_60: -4662208614101661459
+      pinkvesicle_normal_61: -8951598069823562570
+      pinkvesicle_normal_62: 5004884932361078348
+      pinkvesicle_normal_63: 1722225900214852673
+      pinkvesicle_normal_64: 6590667880196871579
+      pinkvesicle_normal_65: 3966087616694682938
+      pinkvesicle_normal_66: 1065855181149086291
+      pinkvesicle_normal_67: -3547429505564767130
+      pinkvesicle_normal_68: -3199500871493650664
+      pinkvesicle_normal_69: 8566696347887340191
+      pinkvesicle_normal_7: -9001377631612221118
+      pinkvesicle_normal_70: 6225125373811685059
+      pinkvesicle_normal_71: 2293642946960914105
+      pinkvesicle_normal_72: 3974170522061270117
+      pinkvesicle_normal_73: 4165666982087154984
+      pinkvesicle_normal_74: -3601332744652737603
+      pinkvesicle_normal_75: 1713887471889089243
+      pinkvesicle_normal_76: 3053864231313887349
+      pinkvesicle_normal_77: 4490936886596263100
+      pinkvesicle_normal_78: -903985638959687013
+      pinkvesicle_normal_79: 2124739016456354295
+      pinkvesicle_normal_8: 3843679812817252973
+      pinkvesicle_normal_80: -2465411258244279867
+      pinkvesicle_normal_81: -4971101085215585052
+      pinkvesicle_normal_82: 2983347572658137834
+      pinkvesicle_normal_83: -939227506847646532
+      pinkvesicle_normal_84: 3025844060411952246
+      pinkvesicle_normal_85: 3158398154666726807
+      pinkvesicle_normal_86: 1729532470627587909
+      pinkvesicle_normal_87: -6378673584099204925
+      pinkvesicle_normal_88: -728049720275365074
+      pinkvesicle_normal_89: -347342180569852691
+      pinkvesicle_normal_9: 5702665999722344713
+      pinkvesicle_normal_90: -7026566520987421968
+      pinkvesicle_normal_91: 5488899646638917091
+      pinkvesicle_normal_92: 4815264736698315504
+      pinkvesicle_normal_93: -1336981306908528687
+      pinkvesicle_normal_94: -3273325552921832209
+      pinkvesicle_normal_95: -7626334892068357921
+      pinkvesicle_normal_96: 1263462192746289000
+      pinkvesicle_normal_97: -7535095632718616843
+      pinkvesicle_normal_98: -2947458840521452022
+      pinkvesicle_normal_99: 2132827691625167036
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

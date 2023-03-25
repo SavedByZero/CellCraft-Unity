@@ -11,11 +11,13 @@ public class TransportVesicle : BlankVesicle
 {
 	private MembraneNode mnode;
 	private BigVesicle myBigVesicle;
-		
-	public TransportVesicle()
-	{
 
-	}
+    public override void Start()
+    {
+        base.Start();
+		Appear();
+    }
+	
 
 	public override void onAnimFinish(int i, bool stop = true)
 	{

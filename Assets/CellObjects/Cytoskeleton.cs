@@ -461,8 +461,8 @@ public class Cytoskeleton : CellObject
 			int count = 0;
 			foreach(Microtubule t in list_tubes_blank) {
 				GravPoint g = t.getGravPoint();
-				list_grav_blank[count].x = g.x;
-				list_grav_blank[count].y = g.y;
+				//list_grav_blank[count].x = g.x;
+				//list_grav_blank[count].y = g.y;
 				count++;
 			}
 			if (doWarble)

@@ -6,9 +6,16 @@ using DG.Tweening;
 public class AppearanceController : MonoBehaviour
 {
     public Sprite[] IntroSprites;
+    public float[] TargetScales;
+    public float[] StartScales;
+    private float _startScale;
+    private float _targetScale;
     private Material _swirlMaterial;
     private bool _showing = false;
-    public GameObject Target;
+    public GameObject[] Targets;
+    public string[] TargetNames;
+    private GameObject _currentTarget;
+    public Sprite _currentIntroSprite;
     public delegate void FinishedShowing();
     public FinishedShowing onFinishedShowing;
     public float Speed = 0.2f;
@@ -19,10 +26,24 @@ public class AppearanceController : MonoBehaviour
        // ShowUp();
     }
 
+    public void SetTargetByName(string name)
+    {
+        for(int i=0; i < TargetNames.Length; i++)
+        {
+            if (name == TargetNames[i])
+            {
+                _currentTarget = Targets[i];
+                _currentIntroSprite = IntroSprites[i];
+                _targetScale = TargetScales[i];
+                _startScale = StartScales[i];
+            }
+        }
+    }
+
     void OnEnable()
     {
         this.transform.DOMove(Vector3.zero, 0);
-        this.transform.DOScale(1, 0);
+        //this.transform.DOScale(1, 0);
         _showing = false;
         if (_swirlMaterial == null)
             _swirlMaterial = GetComponent<SpriteRenderer>().material;
@@ -30,11 +51,12 @@ public class AppearanceController : MonoBehaviour
         _swirlMaterial.SetFloat("_SwirlAngle", 2f);
     }
 
-    public void ShowUp(int targetSprite = 0)
+    public void ShowUp()
     {
         SfxManager.Play(SFX.SFXBubble);
         Speed = 0.3f;
-        GetComponent<SpriteRenderer>().sprite = IntroSprites[targetSprite];
+        this.transform.localScale = new Vector3(_startScale,_startScale, _startScale);
+        GetComponent<SpriteRenderer>().sprite = _currentIntroSprite;
         _showing = true;
         //play sound 
     }
@@ -68,12 +90,16 @@ public class AppearanceController : MonoBehaviour
 
     void shrink()
     {
-        this.transform.DOMove(Target.transform.position, 1);
-        this.transform.DOScale(.15f, 1).OnComplete(new TweenCallback(delegate {
+        this.transform.DOMove(_currentTarget.transform.position, 1);
+        this.transform.DOScale(_targetScale, 1).OnComplete(new TweenCallback(delegate {
             onFinishedShowing?.Invoke();
-            if (!Target.activeSelf)
-                Target.SetActive(true);
-            Target.GetComponentInChildren<SpriteRenderer>().DOFade(1, 0);
+            if (!_currentTarget.activeSelf)
+                _currentTarget.SetActive(true);
+            _currentTarget.GetComponentInChildren<SpriteRenderer>().DOFade(1, 0);
+            if (_currentTarget.GetComponentInChildren<Centrosome>() != null)
+            {
+                ObjectiveManager.GetInstance().onCompleteObjective?.Invoke("start");
+            }
             this.gameObject.SetActive(false);
 
         }));

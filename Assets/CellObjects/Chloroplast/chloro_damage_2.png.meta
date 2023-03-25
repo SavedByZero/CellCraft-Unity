@@ -603,7 +603,7 @@ TextureImporter:
       213: 7513994650679975358
     second: chloro_damage_2_199
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -623,6 +623,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -631,9 +633,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -654,9 +656,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -696,6 +703,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -4919,6 +4938,207 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      chloro_damage_2_0: 5751333708466500571
+      chloro_damage_2_1: -1170049134199174678
+      chloro_damage_2_10: 1889757034167460199
+      chloro_damage_2_100: 7410018987591061349
+      chloro_damage_2_101: -2658299470515040199
+      chloro_damage_2_102: -4035961837353577898
+      chloro_damage_2_103: 8920086761959948114
+      chloro_damage_2_104: 2847706910202101534
+      chloro_damage_2_105: -6263293178656020919
+      chloro_damage_2_106: -7747604772714118926
+      chloro_damage_2_107: 740898274219443389
+      chloro_damage_2_108: -5264679537066865766
+      chloro_damage_2_109: 7820911267378376392
+      chloro_damage_2_11: -6479566239998070862
+      chloro_damage_2_110: -5528110072129851915
+      chloro_damage_2_111: 8419350075031893356
+      chloro_damage_2_112: 5566102524871644205
+      chloro_damage_2_113: -3875827060016911221
+      chloro_damage_2_114: 3849338761343598086
+      chloro_damage_2_115: -3442882658441559369
+      chloro_damage_2_116: -6880817520404500035
+      chloro_damage_2_117: 7784846747319033334
+      chloro_damage_2_118: -1897395409339585962
+      chloro_damage_2_119: -1751421689006044571
+      chloro_damage_2_12: -3049926700227989651
+      chloro_damage_2_120: 5743637022413896258
+      chloro_damage_2_121: -8220757486282323888
+      chloro_damage_2_122: -4096247577028224797
+      chloro_damage_2_123: 3102776443502387287
+      chloro_damage_2_124: -8799418196480591950
+      chloro_damage_2_125: -2467982225362369609
+      chloro_damage_2_126: 1587095983189591603
+      chloro_damage_2_127: 4871270634418370670
+      chloro_damage_2_128: -214603738611754702
+      chloro_damage_2_129: 9118322006800618525
+      chloro_damage_2_13: 6444020637768486934
+      chloro_damage_2_130: -4563966448953359127
+      chloro_damage_2_131: 3249819937393177955
+      chloro_damage_2_132: -6832696301971982025
+      chloro_damage_2_133: 8551747332733566682
+      chloro_damage_2_134: 6630555262088447859
+      chloro_damage_2_135: -3204758233213379509
+      chloro_damage_2_136: -5091634837162032398
+      chloro_damage_2_137: -1815515199968311952
+      chloro_damage_2_138: -1975230035137725944
+      chloro_damage_2_139: 7759563677564371112
+      chloro_damage_2_14: -2395341881630770799
+      chloro_damage_2_140: -6379918892387460090
+      chloro_damage_2_141: -5346363346839847408
+      chloro_damage_2_142: -4125819660522169988
+      chloro_damage_2_143: -8036603448306877114
+      chloro_damage_2_144: -3305915821134219374
+      chloro_damage_2_145: -3234257656397988652
+      chloro_damage_2_146: -4228882066284361740
+      chloro_damage_2_147: -7707225676854066097
+      chloro_damage_2_148: 6571259258594340304
+      chloro_damage_2_149: -5276293463189298293
+      chloro_damage_2_15: 4483323712873819729
+      chloro_damage_2_150: -7807290416125982890
+      chloro_damage_2_151: 3953978861090484789
+      chloro_damage_2_152: 2780093246961947907
+      chloro_damage_2_153: -8317055725013007882
+      chloro_damage_2_154: 8654110209755583355
+      chloro_damage_2_155: 548446510071929883
+      chloro_damage_2_156: 6108443452621293466
+      chloro_damage_2_157: 1687435161720408055
+      chloro_damage_2_158: 6123512261039645638
+      chloro_damage_2_159: 1198101159627240383
+      chloro_damage_2_16: -5671926481087944668
+      chloro_damage_2_160: -1052325568277203473
+      chloro_damage_2_161: -8705998236282066527
+      chloro_damage_2_162: -6726410725281241627
+      chloro_damage_2_163: -4125748170900004893
+      chloro_damage_2_164: -3474493348250591754
+      chloro_damage_2_165: 6770950241121861242
+      chloro_damage_2_166: 3681866884415461486
+      chloro_damage_2_167: -5017483294603339742
+      chloro_damage_2_168: 6596540521580765741
+      chloro_damage_2_169: -8219803316489886900
+      chloro_damage_2_17: 4246033676601479479
+      chloro_damage_2_170: -8445881491840982878
+      chloro_damage_2_171: -5011630961042833727
+      chloro_damage_2_172: -7001690358874300213
+      chloro_damage_2_173: -4016141767442461171
+      chloro_damage_2_174: -7197504109942966051
+      chloro_damage_2_175: 3196941437890067938
+      chloro_damage_2_176: -2439734165985969552
+      chloro_damage_2_177: 4328497273680985472
+      chloro_damage_2_178: 5264784132410443352
+      chloro_damage_2_179: 9051927349208950922
+      chloro_damage_2_18: -3940467773854166831
+      chloro_damage_2_180: 3286423017183369315
+      chloro_damage_2_181: -1126669753081003582
+      chloro_damage_2_182: -2479103703868416759
+      chloro_damage_2_183: 3585735866542668927
+      chloro_damage_2_184: -7531074181529338688
+      chloro_damage_2_185: -5630977122616289747
+      chloro_damage_2_186: 1953680039358290991
+      chloro_damage_2_187: 3297361459013949181
+      chloro_damage_2_188: -1750030568367210677
+      chloro_damage_2_189: 4483022036893540947
+      chloro_damage_2_19: -6894097579215385445
+      chloro_damage_2_190: -1991115775886632034
+      chloro_damage_2_191: 5777633228671010010
+      chloro_damage_2_192: -5480545826486689865
+      chloro_damage_2_193: -2735762401704900668
+      chloro_damage_2_194: -5286103654724624195
+      chloro_damage_2_195: 7824465449489085757
+      chloro_damage_2_196: 7604387224108000561
+      chloro_damage_2_197: 800745730653110740
+      chloro_damage_2_198: 4783194844218524105
+      chloro_damage_2_199: 7513994650679975358
+      chloro_damage_2_2: 5382748965633497359
+      chloro_damage_2_20: -2003258539168948627
+      chloro_damage_2_21: 2698725635012151140
+      chloro_damage_2_22: 7302063234741534595
+      chloro_damage_2_23: -2866857235558816497
+      chloro_damage_2_24: -7437323579237365006
+      chloro_damage_2_25: 4289413998924071612
+      chloro_damage_2_26: 3488138376596255370
+      chloro_damage_2_27: 4223623020807620627
+      chloro_damage_2_28: 7245748613893258129
+      chloro_damage_2_29: 7792968111222970933
+      chloro_damage_2_3: -240598646707903928
+      chloro_damage_2_30: -1672691286278241514
+      chloro_damage_2_31: -7260844400676817611
+      chloro_damage_2_32: -1914390652165259683
+      chloro_damage_2_33: 2796577015196806303
+      chloro_damage_2_34: -6480776496021602492
+      chloro_damage_2_35: -7108118609023964712
+      chloro_damage_2_36: -6786226315865135256
+      chloro_damage_2_37: -1702874373713086781
+      chloro_damage_2_38: 9076967725520637866
+      chloro_damage_2_39: 8400443600056018488
+      chloro_damage_2_4: 3940796822421385497
+      chloro_damage_2_40: 2027210479387105828
+      chloro_damage_2_41: -8252910242311909473
+      chloro_damage_2_42: 2945467062226460467
+      chloro_damage_2_43: -308468150797509289
+      chloro_damage_2_44: 5376546025850685983
+      chloro_damage_2_45: -7496027614034293528
+      chloro_damage_2_46: 1690353270917625525
+      chloro_damage_2_47: 2199134805546708492
+      chloro_damage_2_48: -3436035267438885002
+      chloro_damage_2_49: 4141561384617719658
+      chloro_damage_2_5: 5181109336028419145
+      chloro_damage_2_50: -2655180170600935433
+      chloro_damage_2_51: -4668565305029762466
+      chloro_damage_2_52: -6352149794867407550
+      chloro_damage_2_53: 8173586840752619829
+      chloro_damage_2_54: 6064570734502048224
+      chloro_damage_2_55: -102007183522380585
+      chloro_damage_2_56: 7783236294748061357
+      chloro_damage_2_57: -4606246819011866286
+      chloro_damage_2_58: 7416917737845767309
+      chloro_damage_2_59: -2354156173294597521
+      chloro_damage_2_6: 8311310698014148260
+      chloro_damage_2_60: -4738643513661658712
+      chloro_damage_2_61: 1039081395034920231
+      chloro_damage_2_62: -5182133836403938514
+      chloro_damage_2_63: 1358557368635361124
+      chloro_damage_2_64: -5824910222535662795
+      chloro_damage_2_65: 5057721245515603331
+      chloro_damage_2_66: 5400591708444486123
+      chloro_damage_2_67: -524120386674062940
+      chloro_damage_2_68: 8945736758842433369
+      chloro_damage_2_69: 5160654236472453079
+      chloro_damage_2_7: 992745367560124342
+      chloro_damage_2_70: 3745594711269200452
+      chloro_damage_2_71: 2699482037814892671
+      chloro_damage_2_72: 2457999025802270867
+      chloro_damage_2_73: -2121588370439135617
+      chloro_damage_2_74: 4745575040848237691
+      chloro_damage_2_75: -6066044355569173288
+      chloro_damage_2_76: -636179299599725255
+      chloro_damage_2_77: -2506069764139473037
+      chloro_damage_2_78: -1826472728866836683
+      chloro_damage_2_79: 2193829557996416700
+      chloro_damage_2_8: -6848312316234578863
+      chloro_damage_2_80: 8149514693865439482
+      chloro_damage_2_81: -404023917127470527
+      chloro_damage_2_82: 5978851311742875453
+      chloro_damage_2_83: 1953971677211233315
+      chloro_damage_2_84: -2381216486346392909
+      chloro_damage_2_85: -6215410072145784388
+      chloro_damage_2_86: 6827233738937754210
+      chloro_damage_2_87: -834780700128198222
+      chloro_damage_2_88: -5764781700147608262
+      chloro_damage_2_89: 2717157134983878212
+      chloro_damage_2_9: -9093736271367278147
+      chloro_damage_2_90: -2420912071562154092
+      chloro_damage_2_91: 3169016278482097398
+      chloro_damage_2_92: 8663711105580570167
+      chloro_damage_2_93: 3391441863872927350
+      chloro_damage_2_94: -7730806181180146821
+      chloro_damage_2_95: 5511278489086104438
+      chloro_damage_2_96: 7843836833004753412
+      chloro_damage_2_97: -7091927737744502233
+      chloro_damage_2_98: -6241113317376369155
+      chloro_damage_2_99: -5396086432418833030
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

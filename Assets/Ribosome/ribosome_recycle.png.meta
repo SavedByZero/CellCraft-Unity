@@ -159,7 +159,7 @@ TextureImporter:
       213: 4192648008863002381
     second: ribosome_recycle_38
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -180,6 +180,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -218,6 +219,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 1
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -257,6 +259,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -958,7 +972,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: ee6864d5a1027ec70800000000000000
-      internalID: 9000197677929367278
+      internalID: -1209286902776392119
       vertices: []
       indices: 
       edges: []
@@ -979,7 +993,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 506483091dd4a15a0800000000000000
-      internalID: -6549837145593854459
+      internalID: 7552292347084527518
       vertices: []
       indices: 
       edges: []
@@ -1000,7 +1014,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: e69cef6a7439f0980800000000000000
-      internalID: -8570469629909087890
+      internalID: -1577681383168342990
       vertices: []
       indices: 
       edges: []
@@ -1021,7 +1035,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 62f28f77f7d18faf0800000000000000
-      internalID: -362507336692519130
+      internalID: 6528924063968339909
       vertices: []
       indices: 
       edges: []
@@ -1042,7 +1056,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: c152298c5aaf43c70800000000000000
-      internalID: 8950053949433586972
+      internalID: 2973197088547402993
       vertices: []
       indices: 
       edges: []
@@ -1063,7 +1077,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 9fbb6cd3695d69440800000000000000
-      internalID: 4942372482343943161
+      internalID: 8645595301479320331
       vertices: []
       indices: 
       edges: []
@@ -1084,7 +1098,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: d0f278486274f2a30800000000000000
-      internalID: 4192648008863002381
+      internalID: -3846424237730115461
       vertices: []
       indices: 
       edges: []
@@ -1099,6 +1113,46 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      ribosome_recycle_0: 6802207280377421250
+      ribosome_recycle_1: 9189652310225542583
+      ribosome_recycle_10: 8842238303393274125
+      ribosome_recycle_11: -6742697471269891313
+      ribosome_recycle_12: -9001495446960501585
+      ribosome_recycle_13: 5429813349340222496
+      ribosome_recycle_14: 8963834473615533182
+      ribosome_recycle_15: -8486764821180582560
+      ribosome_recycle_16: 3693848129512211833
+      ribosome_recycle_17: -4014135106536180416
+      ribosome_recycle_18: 6788817312403531980
+      ribosome_recycle_19: 3548250839293558959
+      ribosome_recycle_2: 890481504756132021
+      ribosome_recycle_20: -3863911522791939152
+      ribosome_recycle_21: 2088224183092766192
+      ribosome_recycle_22: -5613740947132393090
+      ribosome_recycle_23: 8456675007521495173
+      ribosome_recycle_24: -5153739870816436662
+      ribosome_recycle_25: 4402332521847383206
+      ribosome_recycle_26: 7466790935825543813
+      ribosome_recycle_27: -7707744954723704432
+      ribosome_recycle_28: 7511713486582874823
+      ribosome_recycle_29: -4857774933356176621
+      ribosome_recycle_3: 8773116315232923354
+      ribosome_recycle_30: 3621619423831066292
+      ribosome_recycle_31: -9006096281737995383
+      ribosome_recycle_32: -1209286902776392119
+      ribosome_recycle_33: 7552292347084527518
+      ribosome_recycle_34: -1577681383168342990
+      ribosome_recycle_35: 6528924063968339909
+      ribosome_recycle_36: 2973197088547402993
+      ribosome_recycle_37: 8645595301479320331
+      ribosome_recycle_38: -3846424237730115461
+      ribosome_recycle_4: -6785667901511763529
+      ribosome_recycle_5: 334082453030026980
+      ribosome_recycle_6: -3624509606270063178
+      ribosome_recycle_7: 5533237726843264148
+      ribosome_recycle_8: -3133913789405065236
+      ribosome_recycle_9: 610989656599081476
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

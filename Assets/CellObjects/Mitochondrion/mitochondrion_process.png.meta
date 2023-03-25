@@ -159,7 +159,7 @@ TextureImporter:
       213: 5979472250371178021
     second: mitochondrion_process_51
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -179,6 +179,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -187,9 +189,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -210,9 +212,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -252,6 +259,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -1367,6 +1386,59 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      mitochondrion_process_0: 7830674628611569185
+      mitochondrion_process_1: 2860562473557501760
+      mitochondrion_process_10: -4042344570430003012
+      mitochondrion_process_11: 4039527100306603411
+      mitochondrion_process_12: 5422483889351303756
+      mitochondrion_process_13: 3032096887326747960
+      mitochondrion_process_14: 1177538433212117310
+      mitochondrion_process_15: 149808389824741661
+      mitochondrion_process_16: -6154070818678754056
+      mitochondrion_process_17: 4416887913211281868
+      mitochondrion_process_18: 6079747002726032914
+      mitochondrion_process_19: -3330274528471049482
+      mitochondrion_process_2: 5159818753351499605
+      mitochondrion_process_20: -3713685714329164460
+      mitochondrion_process_21: -4851359138327537962
+      mitochondrion_process_22: -550424318854275126
+      mitochondrion_process_23: -545795536036259817
+      mitochondrion_process_24: -8867410415245355218
+      mitochondrion_process_25: -6634387903627968674
+      mitochondrion_process_26: -8283313401224754080
+      mitochondrion_process_27: -6592953136244855641
+      mitochondrion_process_28: 1289631264886668181
+      mitochondrion_process_29: -3590402646801612683
+      mitochondrion_process_3: 2672324761480916164
+      mitochondrion_process_30: -2941324871661418746
+      mitochondrion_process_31: 24997972904490512
+      mitochondrion_process_32: -6643768548982871004
+      mitochondrion_process_33: -910307235606935778
+      mitochondrion_process_34: -4129540652003230436
+      mitochondrion_process_35: -8932524706575625310
+      mitochondrion_process_36: -6066903657002156718
+      mitochondrion_process_37: -6947948741350553359
+      mitochondrion_process_38: 3629026714517116669
+      mitochondrion_process_39: -7600464213167291512
+      mitochondrion_process_4: 1420011672277013053
+      mitochondrion_process_40: 1527138274434865340
+      mitochondrion_process_41: -7705396534497163892
+      mitochondrion_process_42: 8679187945804714309
+      mitochondrion_process_43: -7681854454091671603
+      mitochondrion_process_44: 1314258275930366497
+      mitochondrion_process_45: 6884189982527766288
+      mitochondrion_process_46: 8318026768101097711
+      mitochondrion_process_47: -2153268968545850704
+      mitochondrion_process_48: -1335884879454558482
+      mitochondrion_process_49: 5218583254329885347
+      mitochondrion_process_5: -5771351306169362698
+      mitochondrion_process_50: 773277101633063447
+      mitochondrion_process_51: 5979472250371178021
+      mitochondrion_process_6: -8366092401963409115
+      mitochondrion_process_7: -2542607796401743208
+      mitochondrion_process_8: 3851141694139659867
+      mitochondrion_process_9: 1952146658525873791
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

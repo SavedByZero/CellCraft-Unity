@@ -38,7 +38,7 @@ public class Nucleus : CellObject
 		CHECK_INFEST = false;
 		//p_cell.onNucleusInfest(false);
 		init();
-		instantSetHealth(10);
+		instantSetHealth(100);
 	}
 
 	protected override void autoRadius()

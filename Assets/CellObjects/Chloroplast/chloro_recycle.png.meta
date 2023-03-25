@@ -108,7 +108,7 @@ TextureImporter:
       213: -7653772347997709380
     second: chloro_recycle_34
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -128,6 +128,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -136,9 +138,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -159,9 +161,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -201,6 +208,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -854,6 +873,37 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      chloro_recycle_0: -3365515720769002407
+      chloro_recycle_1: -6764529433143068681
+      chloro_recycle_10: 5824468344738700107
+      chloro_recycle_11: 3204254362575094161
+      chloro_recycle_12: -6117855890811654451
+      chloro_recycle_13: 1111083156562140728
+      chloro_recycle_14: -3072749789213173229
+      chloro_recycle_15: -1488136459077965037
+      chloro_recycle_16: 9145788428364961511
+      chloro_recycle_17: -7246451225734224062
+      chloro_recycle_18: 5780031688023854328
+      chloro_recycle_19: 7505433927325317583
+      chloro_recycle_2: -2638603569401519524
+      chloro_recycle_20: 2950237588278977831
+      chloro_recycle_21: 5514137189805059482
+      chloro_recycle_22: 6243629595001141949
+      chloro_recycle_23: -270777420693737163
+      chloro_recycle_24: -6814702424149540295
+      chloro_recycle_25: -2214477096510984948
+      chloro_recycle_26: 1989677991317529246
+      chloro_recycle_27: -4517949552984603499
+      chloro_recycle_28: -6845792828995827885
+      chloro_recycle_29: 3523252819962166444
+      chloro_recycle_3: 4004909703978162429
+      chloro_recycle_4: 1130571206620311041
+      chloro_recycle_5: -7252240231426666085
+      chloro_recycle_6: -2807114858385243135
+      chloro_recycle_7: -6494507230402647102
+      chloro_recycle_8: -6332850610874988290
+      chloro_recycle_9: 4829874959882482468
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

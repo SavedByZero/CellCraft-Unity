@@ -483,7 +483,7 @@ TextureImporter:
       213: -8109052552715744872
     second: icon_159
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -503,6 +503,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -511,9 +513,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -534,9 +536,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -576,6 +583,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -1712,6 +1731,60 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      icon_0: 6934086728263231946
+      icon_1: -229256013063241344
+      icon_15: 2159787861337585587
+      icon_17: -1526501209924749334
+      icon_19: -7199854994828347765
+      icon_2: -3885610455112514396
+      icon_20: -1837473001184885940
+      icon_21: 7621616821842055696
+      icon_22: 546032832440536679
+      icon_23: 4611804096804191474
+      icon_24: -2878611675290672999
+      icon_25: 2012603403740337808
+      icon_26: 4037386846454389401
+      icon_27: 3131462886605394980
+      icon_28: -7891146628521642482
+      icon_29: -6816452762887876926
+      icon_3: -7441382367286639308
+      icon_30: 5934751610709005063
+      icon_31: -8770669887257262683
+      icon_32: 2848703626835829184
+      icon_33: 2217700674121979931
+      icon_34: 8784748321381093978
+      icon_35: -107017877920308700
+      icon_36: 8108817586207554404
+      icon_37: -184344643626652581
+      icon_38: 5296625000953886181
+      icon_4: 1618293649664528702
+      icon_40: 1598861958287286395
+      icon_41: 961341161114665051
+      icon_42: 6486822007602913870
+      icon_43: -5102674690984291919
+      icon_44: -6978210826525416454
+      icon_45: -7122343688644831495
+      icon_46: 318902631733109550
+      icon_47: -7908086550202134589
+      icon_48: -483051780649511166
+      icon_49: -6215579143488269388
+      icon_5: 8049885976776599914
+      icon_50: 8265795547982450223
+      icon_51: 8260489618747276431
+      icon_52: -8556222564715788543
+      icon_53: -5346968513893012664
+      icon_55: 5871476789121330003
+      icon_57: -6907229443390180988
+      icon_58: -674690339440975900
+      icon_59: -8450085832163554618
+      icon_6: 4014287730522540239
+      icon_63: 6348147748878046198
+      icon_64: -7452054717920679433
+      icon_65: 5020932839866294903
+      icon_66: -8332354050944156342
+      icon_67: -615038323351539499
+      icon_7: 4743126897691936252
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

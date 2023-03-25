@@ -183,7 +183,7 @@ TextureImporter:
       213: -7658329039016692000
     second: golgi_normal_59
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -203,6 +203,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -211,9 +213,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -234,9 +236,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -276,6 +283,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -1559,6 +1578,67 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      golgi_normal_0: -3994031580496711958
+      golgi_normal_1: -2673297386117043492
+      golgi_normal_10: -7724853004276489842
+      golgi_normal_11: -7892513967861949509
+      golgi_normal_12: 8099301544846657642
+      golgi_normal_13: 6076868970301977659
+      golgi_normal_14: -4605560428335689768
+      golgi_normal_15: -8827049492583526263
+      golgi_normal_16: -2892744145149919110
+      golgi_normal_17: -7080394379541451232
+      golgi_normal_18: -9177248392305396115
+      golgi_normal_19: 7415953444884389780
+      golgi_normal_2: -3331182856686168909
+      golgi_normal_20: -9194250384317303096
+      golgi_normal_21: -9143146524654397805
+      golgi_normal_22: -5252881097442354154
+      golgi_normal_23: -7024972517309632519
+      golgi_normal_24: 253166543863193225
+      golgi_normal_25: -7105585356451757661
+      golgi_normal_26: 1420328364598441897
+      golgi_normal_27: -4250106905081589001
+      golgi_normal_28: -2942647928534855646
+      golgi_normal_29: 355115270733739649
+      golgi_normal_3: 2147947837211773867
+      golgi_normal_30: -1024133757763904466
+      golgi_normal_31: -2193530109520279473
+      golgi_normal_32: -383792788064798758
+      golgi_normal_33: -7938099717668085252
+      golgi_normal_34: -7545658044329367957
+      golgi_normal_35: -2589818536970084432
+      golgi_normal_36: 4852818729676051801
+      golgi_normal_37: -830920941104449617
+      golgi_normal_38: -1709959836380404933
+      golgi_normal_39: 7863852060644656060
+      golgi_normal_4: 2073101505945608219
+      golgi_normal_40: -4405542201813218775
+      golgi_normal_41: 5715499784102107624
+      golgi_normal_42: 3476602234440486024
+      golgi_normal_43: -2836353502182157175
+      golgi_normal_44: 2468538998984288040
+      golgi_normal_45: 2643800170445591817
+      golgi_normal_46: 2626114502918490822
+      golgi_normal_47: -8384873609392282082
+      golgi_normal_48: -7997670409467472055
+      golgi_normal_49: -7285594246839048077
+      golgi_normal_5: 3617500952097194221
+      golgi_normal_50: 1061676057655463870
+      golgi_normal_51: -6409313077121155005
+      golgi_normal_52: 8261245367666657291
+      golgi_normal_53: 1048415301334025571
+      golgi_normal_54: -4427931046196013864
+      golgi_normal_55: 7864604600261623257
+      golgi_normal_56: 7008749496167218754
+      golgi_normal_57: 1265950632456879277
+      golgi_normal_58: 8790257728058935232
+      golgi_normal_59: -7658329039016692000
+      golgi_normal_6: -6028431918989620995
+      golgi_normal_7: -4978163302216316883
+      golgi_normal_8: 1947201720487692988
+      golgi_normal_9: 2443970507326341034
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -427,7 +427,7 @@ public class Microtubule : CellObject
 		//	StopCoroutine(_GrowBitRoutine);
 		_shouldGrow = false;
 		isMoving = false;
-
+		
 		amReady = true;
 		//list_grav.push(new GravPoint(new Point(xLoc, yLoc), this));
 
