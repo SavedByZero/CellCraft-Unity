@@ -45,6 +45,11 @@ public class HUDManager : MonoBehaviour
 
     private void organelleSelected(int organelle_id, CellObject co)
     {
+        if (organelle_id == CellObject.NUCLEUS)
+        {
+            ObjectiveManager.GetInstance().onCompleteObjective?.Invoke("click_nucleus");
+        }
+        //consider completing click_nucleus objective here
         NameField.text = _names[organelle_id];
         GetComponentInChildren<Imager>().ReceiveImage(organelle_id);
         GetComponentInChildren<StatsPanel>().ReceiveCO(co);
@@ -104,6 +109,7 @@ public class HUDManager : MonoBehaviour
             case "na":
                 GameObject na_go = fetchResourceView();
                 na_go.GetComponentInChildren<ResourceUI>().ShowResourceChange((int)i, i < 0, IconType.NA);
+                ObjectiveManager.GetInstance().onCompleteObjective?.Invoke("find_na");
                 break;
             case "fa":
                 GameObject fa_go = fetchResourceView();
@@ -113,6 +119,7 @@ public class HUDManager : MonoBehaviour
             case "aa":
                 GameObject aa_go = fetchResourceView();
                 aa_go.GetComponentInChildren<ResourceUI>().ShowResourceChange((int)i, i < 0, IconType.AA);
+                ObjectiveManager.GetInstance().onCompleteObjective?.Invoke("find_aa");
                 break;
             case "glucose":
             case "g"://glucose

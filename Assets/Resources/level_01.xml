@@ -4,17 +4,17 @@
 		<size width="500" height="500" />
 		<start x="0" y="0" />
 		<background name="petridish" />
-		<resources atp="500" na="0" aa="0" fa="0" g="25"/>
+		<resources atp="500" na="990" aa="990" fa="990" g="25"/>
 		<organelles mito="1" chloro="0" ribo="0" lyso="0" slicer="0" perox="0"/>
 		<membrane nodes="0"/>
 	</levelInfo>
 
 	<levelStuff>
 		<goodies>
-			<stuff name="na_batch" type="na" count="50" spawn="0.05" active="false" />
-			<stuff name="fa_batch" type="fa" count="50" spawn="0.1" active="false" />
-			<stuff name="aa_batch" type="aa" count="50" spawn="0.1" active="false" />
-			<stuff name="g_batch" type="g" count="50" spawn="0.2" active="false" />
+			<stuff name="na_batch" type="na" count="15" spawn="0.05" active="false" />
+			<stuff name="fa_batch" type="fa" count="0" spawn="0.1" active="false" />
+			<stuff name="aa_batch" type="aa" count="10" spawn="0.1" active="false" />
+			<stuff name="g_batch" type="g" count="0" spawn="0.2" active="false" />
 		</goodies>
 		<enemies>
 		</enemies>
@@ -37,8 +37,8 @@
 	</levelThings>
 	
 	<levelTriggers>
-		<objective id="load" active="true" sound="0" trigger="true">
-			<data name="Game Loads" hidden="true" type="game_load" targetType="null" targetNum="0" progress="0" targetCondition="true" delay="0" />
+		<!-- objective id="load" active="true" sound="0" trigger="true">
+	<data name="Game Loads" hidden="true" type="game_load" targetType="null" targetNum="0" progress="0" targetCondition="true" delay="0" />
 			<action>
 				<hide_organelle id="nucleus"/>
 				<hide_organelle id="golgi"/>
@@ -58,13 +58,21 @@
 				<set_toxinlevel value="0"/>
 				<set_cyto_process value="true"/>
 				<set_radicals value="false"/>
+				<activate_objective id="start"/>
 			</action>
-		</objective>
+		</objective-->
 		
-		<objective id="start" active="true" sound="0" trigger="true">
-			<data name="Game Starts" hidden="true" type="game_start" targetType="null" targetNum="0" progress="0" targetCondition="true" delay="0" />
+		<objective id="start_2" active="true" sound="0" trigger="true">
+			<data name="Begin" hidden="true" type="game_start" targetType="null" targetNum="0" progress="0" targetCondition="true" delay="0" />
 			<action>
-				<showTutorial id="Organelles">
+        <hide_organelle id="nucleus"/>
+				<hide_organelle id="golgi"/>
+				<hide_organelle id="er"/>
+        <set_sunlight value="1"/>
+				<set_toxinlevel value="0"/>
+				<set_cyto_process value="true"/>
+				<set_radicals value="false"/>
+				<showTutorial id="Organelles" slides="about_organelles">
 					<tutorial title="Okay, so we've got the beginnings of a decent cell here." slide="talk_spike_normal"/>
 					<tutorial title="But it needs some more ORGANELLES. Let's start by adding a NUCLEUS." slide="talk_spike_normal"/>
 					<tutorial title="Organelles are like the cell's organs" slide="about_organelles"/>
@@ -77,8 +85,10 @@
 		<objective id="get_nucleus" active="false" sound="2" trigger="true">
 			<data name="Get the Nucleus" hidden="false" type="click_newthing" targetType="nucleus" targetNum="1" progress="0" targetCondition="gr_eq" delay="15" />
 			<action>
+        <discovery id="nucleus"/>
+        <showTutorial id="Nucleus" slides="discover_nucleus,about_nucleus,objective"/>
 				<plop_organelle id="nucleus"/>
-				<activate_objective id="plop_nucleus"/>
+				<activate_objective id="find_aa"/>
 			</action>
 		</objective>
 		
@@ -86,8 +96,8 @@
 			<data name="Get the Nucleus" hidden="false" type="halfplop_organelle" targetType="nucleus" targetNum="1" progress="0" targetCondition="gr_eq" delay="30" />
 			<action>
 				<discovery id="nucleus"/>
-				<showTutorial id="Nucleus">
-					<tutorial title="You got the Nucleus!" slide="discover_nucleus"/>
+				<showTutorial id="Nucleus" slides="discover_nucleus,objective">
+					<tutorial title="You got the Nucleus!" slide="discover_nucleus,objective"/>
 					<tutorial title="The Nucleus controls the cell" slide="about_nucleus"/>
 					<tutorial title="Now that the cell has a nucleus, it can start building things! Let's see what it can do!" slide="talk_spike_normal"/>
 					<tutorial title="But doesn't it need some raw materials first?" slide="talk_sydney_normal"/>
@@ -100,7 +110,7 @@
 				<spawn_object id="gem_aa" value="50" count="18" loc_id="surround" distance="1" />
 				<spawn_object id="gem_na" value="10" count="9" loc_id="surround" distance="0" />
 				<activate_objective id="find_aa"/>
-				<activate_objective id="find_na"/>
+	
 				<activate_objective id="find_aa_na_2"/>
 				<set_arrow_show/>
 			</action>
@@ -110,10 +120,11 @@
 			<data name="Find Amino Acids" hidden="false" type="have_resource" targetType="aa" targetNum="1" progress="0" targetCondition="gr_eq" delay="45" />
 			<action>
 				<discovery id="aa"/>
-				<showTutorial id="Amino acids">
+				<showTutorial id="Amino acids" slides="discover_aa,about_aa">
 					<tutorial title="You discovered Amino Acids!" slide="discover_aa"/>
 					<tutorial title="Amino Acids are the building blocks of Protein" slide="about_aa" />
 				</showTutorial>
+        <activate_objective id="find_na"/>
 				<show_resource id="aa"/>
 				<throw_flag id="find_aa_na"/> 
 			</action>
@@ -123,12 +134,13 @@
 			<data name="Find Nucleic Acids" hidden="false" type="have_resource" targetType="na" targetNum="1" progress="0" targetCondition="gr_eq" delay="45"/>
 			<action>
 				<discovery id="na"/>
-				<showTutorial id="Nucleic acids">
+				<showTutorial id="Nucleic acids" slides="discover_na,about_na,click_nucleus">
 					<tutorial title="You discovered Nucleic Acids!" slide="discover_na"/>
 					<tutorial title="Nucleic Acids are used to make DNA %26amp; RNA" slide="about_na" />
 				</showTutorial>
 				<show_resource id="na"/>
 				<throw_flag id="find_aa_na"/> 
+      			<activate_objective id="click_nucleus"/>
 			</action>
 		</objective>
 				
@@ -147,7 +159,7 @@
 		<objective id="click_nucleus" active="false" sound="2" trigger="true">
 			<data name="Click on the Nucleus" hidden="false" type="select_thing" targetType="nucleus" targetNum="1" progress="0" targetCondition="true" delay="0"/>
 			<action>
-				<showTutorial id="Building things">
+				<showTutorial id="Building things" slides="about_select_1,about_select_2,buy_ribosomes">
 					<tutorial title="How to build things: 1/3" slide="about_select_1"/>
 					<tutorial title="How to build things: 2/3" slide="about_select_2"/>
 					<tutorial title="How to build things: 3/3" slide="buy_ribosomes"/>

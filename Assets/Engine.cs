@@ -25,6 +25,21 @@ public class Engine : MonoBehaviour
 	private int _defensins_produced;
 	private int _defensins_ordered;
 	private int _defensin_strength;
+		
+		private int _ribosomes_ordered = 0;
+		private int _ribosomes_produced = 0;
+		private int _lysosomes_ordered = 0;
+		private int _lysosomes_produced = 0;
+		private int _peroxisomes_ordered = 0;
+		private int _peroxisomes_produced = 0;
+		private int _slicers_ordered = 0;
+		private int _slicers_produced = 0;
+		private int _dnarepair_ordered = 0;
+		private int _dnarepair_produced = 0;
+		private int _count_chloro = 0;
+		private int _count_mito = 0;
+
+
 	public CellGameEvent EngineEvent = new CellGameEvent();
 	public MessageEvent EngineMessageEvent = new MessageEvent();
 	public ResourceBar Glucose_ResourceBar;
@@ -162,7 +177,35 @@ public class Engine : MonoBehaviour
 		dirty_basicUnit = true;
 	}
 
-	public List<float> getSpiralPoints(Point p, float length, float rad)
+   
+
+    public void finishLysosome()
+    {
+        _lysosomes_produced++;
+        dirty_basicUnit = true;
+    }
+
+
+
+    public void finishPeroxisome()
+    {
+        _peroxisomes_produced++;
+        dirty_basicUnit = true;
+    }
+
+    public void finishDNARepair()
+    {
+        _dnarepair_produced++;
+        dirty_basicUnit = true;
+    }
+
+    public void finishSlicer()
+    {
+        _slicers_produced++;
+        dirty_basicUnit = true;
+    }
+
+    public List<float> getSpiralPoints(Point p, float length, float rad)
 	{
 			List<float> list = new List<float>();
 		list.Add(p.x); list.Add(p.y); //TODO: why was this originally list.add(p.x,p.y)???  //first, stick the first point in the center;
@@ -418,6 +461,12 @@ public class Engine : MonoBehaviour
 			return null;
 	}
 
+
+	public void finishRibosome()
+    {
+        _ribosomes_produced++;
+        dirty_basicUnit = true;
+    }
 
 
     //find the kind of object you're making based on the id string 

@@ -48,7 +48,7 @@ public class SlicerEnzyme : BasicUnit
     {
         if (_rotating)
         {
-			this.transform.Rotate(new Vector3(0, 0, Time.deltaTime*60));
+			this.transform.eulerAngles = (new Vector3(0, 0, Time.deltaTime*60));
         }
     }
 

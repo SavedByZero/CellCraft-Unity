@@ -66,7 +66,8 @@ public class PoreMatrix :MonoBehaviour
 				busy.Add(pore);					//push it onto the busy array
 				//trace("pore = " + pore);
 				if(doOpen){
-					pore.GotoAndPlay("open"); 			//animate it opening
+				pore.GotoAndPlay(0);
+					//pore.GotoAndPlay("open"); 			//animate it opening
 				}
 			}else
 			{

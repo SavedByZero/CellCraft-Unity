@@ -197,6 +197,7 @@ public class ProducerObject : CellObject
 			alternateBurn = false;
 			p_cell.produce(_outputs2, 1, new Point(x, y - (MaxHeight / 3)), 0.5f);
 		}
+		playAnim("normal");
 	}
 
 	public override void onAnimFinish(int i, bool stop = true)
@@ -312,8 +313,8 @@ return base.doAction(i, parms);
 
 	public override void updateLoc()
 	{
-		float xx = x - cent_x + span_w / 2;
-		float yy = y - cent_y + span_h / 2;
+		float xx = x - cent_x + span_w / 4;
+		float yy = y - cent_y + span_h / 4;
 
 		updateGridLoc(xx, yy);
 	}

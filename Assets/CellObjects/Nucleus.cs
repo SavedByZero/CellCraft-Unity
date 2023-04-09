@@ -39,6 +39,7 @@ public class Nucleus : CellObject
 		//p_cell.onNucleusInfest(false);
 		init();
 		instantSetHealth(100);
+		playAnim("normal");
 	}
 
 	protected override void autoRadius()
@@ -263,7 +264,7 @@ public class Nucleus : CellObject
 		{
 			p = n_pores.getPore(doOpen);
 		}
-		Point pt = new Point(p.transform.position.x, p.transform.position.y);
+		Point pt = new Point(p.transform.localPosition.x, p.transform.localPosition.y);
 		pt.x *= this.transform.localScale.x;
 		pt.y *= this.transform.localScale.y;
 

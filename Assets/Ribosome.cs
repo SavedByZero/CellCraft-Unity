@@ -56,10 +56,41 @@ public class Ribosome : BasicUnit
 		//busyTimer = new Timer(BUSY_TIME);
 		_checkBusyTimeRoutine = StartCoroutine(checkBusyTime());
 		init();
+		onFinished += animFinished;
 
 	}
 
-	public override void destruct()
+    private void animFinished(MovieClip mc, string justPlayed)
+	{
+		switch (justPlayed)
+		{
+			case "grow":
+				onAnimFinish(ANIM_GROW);
+				break;
+			case "dock":
+				onAnimFinish(ANIM_DOCK);
+				break;
+			case "process":
+				onAnimFinish(ANIM_PROCESS);
+				break;
+			case "process_inplace": case "processinplace": case "process_in_place":
+				onAnimFinish(ANIM_PROCESS_INPLACE);
+				break;
+			case "die":
+				onAnimFinish(ANIM_DIE);
+				break;
+			case "recycle":
+				onAnimFinish(ANIM_RECYCLE);
+				break;
+
+		}
+
+		//call onAnimFinish here
+		if (justPlayed == "grow")
+			onAnimFinish(ANIM_GROW);
+    }
+
+    public override void destruct()
 	{
 		base.destruct();
 		p_rna = null;
@@ -382,20 +413,21 @@ return false;
 	private void revertAnim()
 	{
 		GotoAndStop(1);
-		clip.gameObject.SetActive(true);
+		this.gameObject.SetActive(true);
 	}
 
 	public override void playAnim(string label)
 	{
-		if (label == "grow")
+		switch (label)
 		{
-			//if (Math.random() > 0.5) {
-			SfxManager.Play(SFX.SFXPop1);
-			//Director.startSFX(SoundLibrary.SFX_POP1);
-			//}else{
-			//	Director.startSFX(SoundLibrary.SFX_POP2);
-			//}
+			case "grow":
+                SfxManager.Play(SFX.SFXPop1);
+                break; 
+
 		}
+
+
+		
 		base.playAnim(label);
 	}
 
@@ -414,7 +446,9 @@ return false;
 		p_rna = null;
 		product = NOTHING; //just to be safe
 		deploying = true;
-		deployCytoplasm(p_cell.c_nucleus.x, p_cell.c_nucleus.y, .90f, .20f, true, instant);
+		//TODO: try removing the nuclewus x and y from the equation
+		speed = .4f;
+		deployCytoplasm(p_cell.c_nucleus.x, p_cell.c_nucleus.y, 8f, 20f, true, instant);
 		if (instant)
 		{
 			ready = true; //HACK HACK HACK
@@ -430,9 +464,10 @@ return false;
 		{   //same as the super.onAnimFinish, but doesn't gotoAndStop(1);
 			if (stop)
 			{
-				clip.Play();
+				Play();
 				anim_vital = false;
-				StopCoroutine(_doAnimRoutine);
+				if (_doAnimRoutine != null)
+					StopCoroutine(_doAnimRoutine);
 				//removeEventListener(RunFrameEvent.RUNFRAME, doAnim);
 			}
 

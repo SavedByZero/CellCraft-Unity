@@ -280,9 +280,9 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 
 	public void onZoomChange(float n)
 	{
-		foreach(CellGameObject g in list_running) {
-			g.updateBubbleZoom(n);
-		}
+		//foreach(CellGameObject g in list_running) {
+			//g.updateBubbleZoom(n);
+		//}
 	}
 
 	public void fauxRun()
@@ -311,7 +311,7 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 				CellGameObject g = list_running[i] as CellGameObject;
 				if (g != null)
 				{
-					g.RemoteRun();
+					//g.RemoteRun();//TODO NEXT - check if we need this 
 					//figure out a way to call doAnim, doMoveToPoint
 					
 				}
@@ -1192,8 +1192,10 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 
 	public override void pauseAnimate(bool yes)
 	{
-		foreach(CellObject c in list_running) {
-			c.pauseAnimate(yes);
+		for (int i = 0; i < list_running.Count; i++)
+        {
+
+			list_running[i].pauseAnimate(yes);
 		}
 	}
 
@@ -1209,7 +1211,8 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 
 	private void listsAnimate(bool yes)
 	{
-		foreach(CellObject c in list_running) {
+		for(int i=0; i <list_running.Count; i++) {
+			CellObject c = list_running[i];
 			if (yes)
 			{
 				c.animateOn();
@@ -1306,7 +1309,7 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 				}
 				b[i] *= -1;
 			}
-			Debug.Log("Cell.spend() : " + a + " numNotZero=" + numNotZero);
+			//Debug.Log("Cell.spend() : " + a + " numNotZero=" + numNotZero);
 		}
 			bool success = p_engine.spend(a); 
 		  
@@ -1345,7 +1348,7 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 		{
 			//p_canvas.justShowMeTheMoneyArray(a, p.x, p.y, speed, offset, false); //TODO
 		}
-		return true; // p_engine.produce(a);  //TODO
+		return p_engine.produce(a);  
 	}
 		
 	public void produceHeat(float amount, float mult, Point p = null, float speed = 1, float offset = 0) 
@@ -1397,11 +1400,13 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 	public void setRadicals(Boolean b)
 	{
 		//trace("Cell.setRadicals(" + b + ")");
-		foreach(Mitochondrion m in list_mito) {
-			m.setRadicals(b);
+		for (int i= 0; i < list_mito.Count; i++) 
+		{
+			list_mito[i].setRadicals(b);
 		}
-		foreach(Chloroplast c in list_chlor) {
-			c.setRadicals(b);
+		for(int i=0; i < list_chlor.Count; i++) 
+		{
+			list_chlor[i].setRadicals(b);
 		}
 		RADICALS_ON = b;
 	}
@@ -1737,8 +1742,8 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 			s.x = r.x + (UnityEngine.Random.Range(0f,1f) * SIZE) - SIZE / 2;
 			s.y = r.y + (UnityEngine.Random.Range(0f, 1f) * SIZE) - SIZE / 2;
 		}
-		s.init();
-		//p_engine.finishSlicer();   //TODO
+		s.playAnim("normal");
+		p_engine.finishSlicer();  
 	}
 
 	public void spawnRibosomeVirus(Ribosome r, int product, int count = 1, string wave_id = "", bool doesVesicle = false)
@@ -1947,8 +1952,8 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 	public int checkVirusCount(string wave)
 	{
 		int count = 0;
-		foreach(Virus v in list_virus) {
-			if (v.wave_id == wave)
+		for(int i=0; i < list_virus.Count; i++) {
+			if (list_virus[i].wave_id == wave)
 			{
 				count++;
 			}
@@ -2355,13 +2360,14 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 		r.setNAValue(na);
 
 
-		r.transform.SetParent(this.transform, false);
+		r.transform.SetParent(c_nucleus.transform, false);
 		list_rna.Add(r);
 		r.setCell(this);
 		addRunning(r);
 		Point pt = c_nucleus.getPoreLoc(0, true);
 		r.x = pt.x;
 		r.y = pt.y;
+		//r.GotoAndPlay(0);
 		r.playAnim("grow");
 		bool wait = !askForRibosome(r); //check for ribosomes
 		if (wait)
@@ -2941,10 +2947,10 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 		/*r.x = p.x + (Math.random()*30 - 15);
 		r.y = p.y + (Math.random()*40 - 20);*/
 		r.x = p.x;
-		r.y = p.y - 10;
+		r.y = p.y - .10f;
 		r.playAnim("grow");
 		//p_engine.plusRibosome()
-		//p_engine.finishRibosome();  //TODO
+		p_engine.finishRibosome(); 
 		if (r) { return true; };
 		return false;
 	}
@@ -2958,7 +2964,7 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 		GameObject ro = Instantiate(Ribosome_Prefab) as GameObject;
 		Ribosome r = ro.GetComponent<Ribosome>();
 		r.instant_deploy = instant_deploy;
-		r.transform.SetParent(this.transform, false);
+		r.transform.SetParent(c_nucleus.transform);
 		r.setCell(this);
 		list_ribo.Add(r);
 		addSelectable(r);
@@ -2975,8 +2981,9 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 		Debug.Log("cell contents direction: " + xx + "," + yy);
 		c_membrane.Skin.Anchor.transform.localPosition += new Vector3(-xx, -yy);
 		int centnum = Selectable.CENTROSOME;   //Bookmark: this also moves all the cell objects to match the expanded pseudopod -- 
-		foreach(CellObject c in list_running) 
+		for (int i= 0; i < list_running.Count; i++) 
 		{
+			CellObject c = list_running[i];
 			if (c.num_id != centnum)
 			{
 				if (c != c_membrane && c != c_skeleton)
@@ -3005,9 +3012,10 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 	public void moveCell(float xx, float yy)
 	{
 		//trace("Cell.moveCell(" + xx + "," + yy + ")");
-		foreach(CellObject c in list_running) 
+		for (int i= 0; i < list_running.Count; i++)
 		{
-			c.doCellMove(xx, yy);
+
+			list_running[i].doCellMove(xx, yy);
 		}
 		onCellMove(xx, yy);
 	}
@@ -3041,8 +3049,9 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 	public void killProteinCloud(ProteinCloud p)
 	{
 		int i = 0;
-		foreach(CellGameObject g in list_running) {
-			if (p == g)
+		for (int j = 0; j < list_running.Count; j++)
+        {
+			if (p == list_running[j])
 			{
 				list_running.RemoveAt(i);
 			}
@@ -3184,8 +3193,9 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 			{               //guaranteed to kill everything!
 				float t = NECROSIS_TIME / 4;
 				//loseResources([r_max_atp / t, r_max_na / t, r_max_aa / t, r_max_fa / t, r_max_g / t]);
-				foreach(CellObject s in list_running) 
-				{   //kill all my stuff
+				for (int i = 0; i < list_running.Count; i++)
+                {   //kill all my stuff
+					CellObject s = list_running[i];
 					if (s.dying == false && !(s is Virus))
 					{ //don't kill anything that'd already dead, or a virus
 						float health = s.getMaxHealth();
@@ -3370,8 +3380,9 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 
 	private void onPHChange()
 	{
-		foreach(CellObject c in list_running) 
-		{
+		for (int i = 0; i < list_running.Count; i++)
+        {
+			CellObject c = list_running[i];
 			if (!c.isInVesicle)
 			{
 				c.setPHDamage(ph_balance);
@@ -3946,8 +3957,9 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 			i++;
 		}
 		i = 0;
-		foreach(CellGameObject g in list_running) 
-		{
+		for (int j = 0; j < list_running.Count; j++)
+        {
+			CellObject g = list_running[j];
 			if (r == g)
 			{
 				list_running.RemoveAt(i);

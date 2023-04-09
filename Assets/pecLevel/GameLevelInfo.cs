@@ -9,6 +9,7 @@ public class GameLevelInfo
 	private List<int> list_lvl_designation;
 	private List<string> list_lvl_names;
 	private List<int> list_lvl_label;
+	public string XmlFilename;
 		
 	public const int LVL_INTRO = 0;
 	public const int LVL_REAL = 1;

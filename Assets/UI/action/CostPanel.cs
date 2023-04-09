@@ -24,7 +24,7 @@ public class CostPanel : MonoBehaviour
 
     public void ReceiveCost(string costString)
     {
-        turnOff();
+        //turnOff();
         string[] costs = costString.Split(',');
         for(int i=0; i < costs.Length; i++)
         {

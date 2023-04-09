@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class LevelDot : MonoBehaviour
 {
@@ -13,6 +14,7 @@ public class LevelDot : MonoBehaviour
 	public int id = 0;
 	public int designation = GameLevelInfo.LVL_INTRO;
 	public string title = "";
+	public string XmlFile;
 	private Image _image;
     // Start is called before the first frame update
     void Start()
@@ -52,8 +54,10 @@ public class LevelDot : MonoBehaviour
 
 	public void onClick()
 	{
+		LevelLoader.XmlFile = XmlFile;
+		SceneManager.LoadScene("CellTest");
 		//selectMe();
-		p_master.onSelectLevel(this);
+		//p_master.onSelectLevel(this);
 	}
 
 	public void selectMe(bool b = true)

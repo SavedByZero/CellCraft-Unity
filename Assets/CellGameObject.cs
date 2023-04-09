@@ -654,7 +654,7 @@ public class CellGameObject : MovieClip, ICellGameObject
 		//move_dist = v.length;
 		v.Normalize();
 		v *= speed;
-		v_move = new Vector2(v.x, v.y);
+		v_move = new Vector2(v.x/100f, v.y/100f);
 	}
 
 	public bool getIsMoving() 
@@ -710,6 +710,8 @@ public class CellGameObject : MovieClip, ICellGameObject
 		//removeEventListener(RunFrameEvent.RUNFRAME, doMoveToGobj);
 		if (_doMoveGobjRoutine != null)
 			StopCoroutine(_doMoveGobjRoutine);
+		if (_doMovePointRoutine != null)
+			StopCoroutine(_doMovePointRoutine);
 		//addEventListener(RunFrameEvent.RUNFRAME, doMoveToPoint, false, 0, true);
 		_doMovePointRoutine = StartCoroutine(doMovePointRt());
 
@@ -741,13 +743,13 @@ public class CellGameObject : MovieClip, ICellGameObject
 		float y1 = y;
 		float x2 = pt_dest.x;
 		float y2 = pt_dest.y;
-		float dist2 = (((x1 - x2) * (x1 - x2)) + ((y1 - y2) * (y1 - y2)));
-		lastDist2 = dist2;
-		if (dist2 <= speed * 2)
+		//float dist2 = (((x1 - x2) * (x1 - x2)) + ((y1 - y2) * (y1 - y2)));
+		//lastDist2 = dist2;
+		if (Vector2.Distance(this.transform.localPosition,new Vector2(pt_dest.x,pt_dest.y)) < 0.01f)//(dist2 <= speed * 2)
 		{
 			arrivePoint();
 		}
-		updateLoc();
+		
 
 	}
 
@@ -827,23 +829,26 @@ public class CellGameObject : MovieClip, ICellGameObject
 				move_count = 0;
 				calcMovement();
 			}
-			float x1 = x;
-			float y1 = y;
-			float x2 = go_dest.x;
-			float y2 = go_dest.y;
-			float dist2 = (((x1 - x2) * (x1 - x2)) + ((y1 - y2) * (y1 - y2)));
-			lastDist2 = dist2;
+			//float x1 = x;
+			//float y1 = y;
+			//float x2 = go_dest.x;
+			//float y2 = go_dest.y;
+			//float dist2 = (((x1 - x2) * (x1 - x2)) + ((y1 - y2) * (y1 - y2)));
+			//lastDist2 = dist2;
 			if (move_mode == FLOAT)
 			{
-				if (dist2 <= radius2)
+				//if (dist2 <= radius2)
+				if (Vector2.Distance(this.transform.localPosition,go_dest.transform.localPosition) < 0.05f)
 				{
 					arriveObject();
 				}
 			}
 			else if (move_mode == EDGE)
 			{
-				if (dist2 <= radius2 + go_dest.getRadius2())
-				{
+				//if (dist2 <= radius2 + go_dest.getRadius2())
+				float r2 = go_dest.getRadius2();
+                if (Vector2.Distance(this.transform.localPosition, new Vector2(go_dest.transform.localPosition.x + r2, go_dest.transform.localPosition.y + r2))  < 0.05f)
+                {
 					arriveObject();
 				}
 			}

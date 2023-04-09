@@ -41,6 +41,15 @@ public class RNA : CellObject
 	protected Coroutine _waitRibRoutine;
     protected Coroutine _dockWaitRoutine;
 
+    public override void Start()
+    {
+        onFinished += finishedAnimating;
+        base.Start();
+		
+    }
+
+   
+
     public virtual void InitRNA(int i, int count = 1, string pc_id = "")
 	{
 		canSelect = false;
@@ -234,7 +243,8 @@ public class RNA : CellObject
 
 	public virtual void threadRNA(bool inPlace = false)
 	{
-		StopCoroutine(_dockWaitRoutine);
+		if (_dockWaitRoutine != null)
+			StopCoroutine(_dockWaitRoutine);
 		if (inPlace)
 		{
 			playAnim("thread_inplace");
@@ -262,7 +272,36 @@ public class RNA : CellObject
 
 	}
 
-	public override void onAnimFinish(int i, bool stop = true)
+    private void finishedAnimating(MovieClip mc, string justPlayed)
+    {
+        switch (justPlayed)
+        {
+			case "thread":
+			//case "thread_inplace":
+				onAnimFinish(ANIM_THREAD);
+			break;
+			case "grow":
+				onAnimFinish(ANIM_GROW);
+				break;
+			case "dock":
+				onAnimFinish(ANIM_DOCK);
+				break;
+			case "descend":
+				onAnimFinish(ANIM_LAND);
+				break;
+			case "die":
+				onAnimFinish(ANIM_DIE);
+				break;
+			case "hardkill":
+				onAnimFinish(ANIM_HARDKILL);
+				break;
+			case "infest":
+				onAnimFinish(ANIM_VIRUS_INFEST);
+				break;
+        }
+    }
+
+    public override void onAnimFinish(int i, bool stop = true)
 	{
 		base.onAnimFinish(i, stop);
 		//Normal.GotoAndStop(0);

@@ -64,7 +64,7 @@ public class Mitochondrion : ProducerObject
 	{
 		//if (Director.STATS_ON) { Log.LevelCounterMetric("cell_mitochondrion_divide", Director.level); }
 		//if (Director.STATS_ON) { Log.LevelAverageMetric("cell_mitochondrion_divide", Director.level, 1); }
-		GetComponentInParent<Cell>().placeMitochondrion(this.x + 75, this.y, false, true, false);
+		GetComponentInParent<Cell>().placeMitochondrion(this.x + 0.75f, this.y, false, true, false);
 		base.finishDivide();
 	}
 }

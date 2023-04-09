@@ -53,6 +53,7 @@ public class AppearanceController : MonoBehaviour
 
     public void ShowUp()
     {
+        ObjectiveManager.GetInstance().onCompleteObjective?.Invoke("start_2");
         SfxManager.Play(SFX.SFXBubble);
         Speed = 0.3f;
         this.transform.localScale = new Vector3(_startScale,_startScale, _startScale);
@@ -82,10 +83,28 @@ public class AppearanceController : MonoBehaviour
             {
                 _swirlMaterial.SetFloat("_SwirlAngle", 0);
                 _showing = false;
+                if (_currentTarget.GetComponentInChildren<Nucleus>() != null)
+                {
+                  
+                    StartCoroutine(clearObjectiveDelay());
+                }
+                else
                 //shrink down
                 shrink();
             }
         }
+    }
+
+    IEnumerator clearObjectiveDelay()
+    {
+        this.transform.DOMove(_currentTarget.transform.position, 1);
+        yield return new WaitForSeconds(2);
+      
+        if (!_currentTarget.activeSelf)
+            _currentTarget.SetActive(true);
+        _currentTarget.GetComponentInChildren<SpriteRenderer>().DOFade(1, 0);
+        ObjectiveManager.GetInstance().onCompleteObjective?.Invoke("get_nucleus");
+        this.gameObject.SetActive(false);
     }
 
     void shrink()
@@ -100,6 +119,7 @@ public class AppearanceController : MonoBehaviour
             {
                 ObjectiveManager.GetInstance().onCompleteObjective?.Invoke("start");
             }
+           
             this.gameObject.SetActive(false);
 
         }));

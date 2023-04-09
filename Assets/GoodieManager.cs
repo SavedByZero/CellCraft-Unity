@@ -36,7 +36,29 @@ public class GoodieManager : MonoBehaviour
             goodie.Spawn*/  //spawn chance?
         for(int i=0; i < goodie.Count; i++)
         {
-            PlaceGem(goodie.Type, Random.Range(2,5), new Vector3(Random.Range(-15,15),Random.Range(-15,15)));
+            int min = 2, max = 5;
+            switch (goodie.Type)
+            {
+              
+                case "aa":
+                    min = 50;
+                    max = 100;
+                    break;
+                case "na":
+                    min = 10;
+                    max = 30;
+                    break;
+                case "fa":
+                    max = 30;
+                    min = 10;
+                    break;
+                case "g":
+                    break;
+                case "atp":
+                    break;
+
+            }
+            PlaceGem(goodie.Type, Random.Range(min,max), new Vector3(Random.Range(-15,15),Random.Range(-15,15)));
         }
     }
 

@@ -62,7 +62,7 @@ public class CellObject : Selectable, IComparable<CellObject>
 	{
 		base.Start();
 		setLevel(1);
-		speed = .008f;
+		//speed = .008f;
 		//Hide();
 		//Appear();
 	}
@@ -250,21 +250,27 @@ public class CellObject : Selectable, IComparable<CellObject>
 
 	protected void deployCytoplasm(float xx, float yy, float radius, float spread, bool free = true, bool instant = false)
 	{
-		Vector2 v = new Vector2(radius + UnityEngine.Random.Range(0,1) * spread, 0); //Nucleus Radius = 75
-		float radians = UnityEngine.Random.Range(0,1) * (Mathf.PI * 2);
+		Vector2 v = new Vector2(radius + UnityEngine.Random.Range(0f,1f) * spread, 0); //Nucleus Radius = 75
+		float radians = UnityEngine.Random.Range(0f,1f) * (Mathf.PI * 2);
+		//radians = 6.28f / 4; //90?
+		//radians = 6.28f / 2; //90?
+		Debug.Log(this + "ANgLE:" + (radians * 180 / Mathf.PI));
 		float ca = Mathf.Cos(radians);
 		float sa = Mathf.Sin(radians);
-		float rx = x * ca - y * sa;
-		float ry = x * sa + y * ca;
+		float rx = (xx * ca) - (yy * sa);
+		float ry = (xx * sa) + (yy * ca);
 		v.x = rx;
 		v.y = ry;
-
-		
+		v *= radius;
+		//v.x *= (radius / v.x);
+		//v.y *= (radius / v.y);
 		Point p = new Point(v.x,v.y);
 		p.x += xx;
 		p.y += yy;
+        Debug.Log(this + "v:" + v);
+        //p = new Point(xx, yy);
 
-		if (!instant)
+        if (!instant)
 		{
 			moveToPoint(p, FLOAT, free);
 		}

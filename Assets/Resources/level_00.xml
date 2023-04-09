@@ -68,7 +68,10 @@
         <hide_organelle id="centrosome"/>
         <hide_organelle id="golgi"/>
         <hide_organelle id="er"/>
-        
+        <set_sunlight value="1"/>
+        <set_toxinlevel value="0"/>
+        <set_cyto_process value="false"/>
+        <set_radicals value="false"/>
 				<showTutorial id="Welcome to CellCraft!" slides="welcome,about_membrane">
 					<tutorial title="Welcome to CellCraft!" slide="welcome"/>
 					<!--<tutorial title="Suddenly, a mysterious figure appears!" slide="generic"/>-->

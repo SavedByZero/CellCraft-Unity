@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using DG.Tweening;
 
 public class ActionIomplementer : MonoBehaviour
 {
@@ -8,6 +9,8 @@ public class ActionIomplementer : MonoBehaviour
     public SpriteRenderer NucleusRenderer;
     public SpriteRenderer GolgiRenderer;
     public SpriteRenderer ERRenderer;
+    
+    public GameObject Fader;
     private Engine _engine;
     // Start is called before the first frame update
     void Start()
@@ -55,7 +58,7 @@ public class ActionIomplementer : MonoBehaviour
                 //pass the key back to the objective manager as the next one to trigger, once this one is complete.
                 break;
             case "finish_level":
-                
+                GetComponent<CellGameManager>().EndLevel();
                 break;
 
         }

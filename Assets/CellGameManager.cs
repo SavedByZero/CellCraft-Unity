@@ -45,6 +45,16 @@ public class CellGameManager : MonoBehaviour
         }
     }
 
+    public void EndLevel()
+    {
+        if (Fader != null)
+        {
+            Fader.DOFade(0, 1).OnComplete(new TweenCallback(delegate { 
+                //load level select 
+            }));
+        }
+    }
+
     public GameObject FetchInfoBubble()
     {
         for(int i=0; i < _infoBubbles.Count; i++)

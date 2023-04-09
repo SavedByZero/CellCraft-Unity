@@ -6,11 +6,13 @@ using System.IO;
 
 public class LevelLoader : MonoBehaviour
 {
+    
     public CellcraftLevel Level;
     private Terrain _terrain;
     private Cell _cell;
     private Engine _engine;
     private GoodieManager _GM;
+    public static string XmlFile;
     private List<CellGameObjective> _cellGameObjectives = new List<CellGameObjective> ();
     // Start is called before the first frame update
     void Start()
@@ -19,6 +21,8 @@ public class LevelLoader : MonoBehaviour
         _terrain = GetComponentInChildren<Terrain>();
         _cell = GetComponentInChildren<Cell>();
         _GM = GetComponentInChildren<GoodieManager>();
+        if (XmlFile == null)
+            XmlFile = "Level_01";
         LoadLevel();
         populateInfo();
         populateStuff();
@@ -26,9 +30,9 @@ public class LevelLoader : MonoBehaviour
         _cell.setCytoProcess(true);
     }
 
-    public void LoadLevel(string xml_filename = "level_00")
+    public void LoadLevel()
     {
-        TextAsset _xml = Resources.Load(xml_filename) as TextAsset;
+        TextAsset _xml = Resources.Load(XmlFile) as TextAsset;
         XmlSerializer levelSerializer = new XmlSerializer(typeof(CellcraftLevel));
         StringReader reader = new StringReader(_xml.ToString());
         Level = levelSerializer.Deserialize(reader) as CellcraftLevel;
