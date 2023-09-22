@@ -44,13 +44,14 @@ public class SlicerEnzyme : BasicUnit
         base.playAnim(label);
     }
 
-    private void Update()
+    /*private void Update()
     {
+		base.upd
         if (_rotating)
         {
 			this.transform.eulerAngles = (new Vector3(0, 0, Time.deltaTime*60));
         }
-    }
+    }*/
 
     protected override void autoRadius()
 	{
@@ -96,7 +97,8 @@ public class SlicerEnzyme : BasicUnit
 		{
 			onArriveObj();
 		}
-		StopCoroutine(_doMoveGobjRoutine);
+		if (_doMoveGobjRoutine != null)
+			StopCoroutine(_doMoveGobjRoutine);
 	}
 
 	protected override void stopWhatYouWereDoing(bool isObj)
@@ -168,7 +170,7 @@ public class SlicerEnzyme : BasicUnit
 	public void slicerDeploy(bool instant = false)
 	{
 		//trace("SlicerEnzyme.slicerDeploy(" + instant + ")");
-		deployCytoplasm(p_cell.c_nucleus.x, p_cell.c_nucleus.y, 170, 35, true, instant);
+		deployCytoplasm(p_cell.c_nucleus.x, p_cell.c_nucleus.y, 17, 35, true, instant);
 	}
 
 

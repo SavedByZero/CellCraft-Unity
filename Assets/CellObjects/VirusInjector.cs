@@ -9,10 +9,11 @@ using UnityEngine;
 public class VirusInjector : Virus
 {
 	public const int RNA_COUNT = 1;
-	public const int SPAWN_COUNT = 2; 
-		
-	public VirusInjector()
+	public const int SPAWN_COUNT = 2;
+
+	public override void Start()
 	{
+		base.Start();
 		singleSelect = false;
 		canSelect = false;
 		text_title = "Injector Virus";

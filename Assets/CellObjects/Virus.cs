@@ -113,10 +113,13 @@ public class Virus : CellObject
 		inside_speed = speed / 2;
 		setRadius(.25f); //MAGIC NUMBER ALERT
 		makeGameDataObject();
+		playAnim("normal");
+		onFinished += animFinished;
 		//giveVesicle();
 	}
 
-	public void setVesicle(bool b)
+
+    public void setVesicle(bool b)
 	{
 		doesVesicle = b;
 		if (doesVesicle)
@@ -430,7 +433,7 @@ public class Virus : CellObject
 
 		condition_state = CON_MOVE_TO_RIBOSOME;
 		rib = p_cell.findClosestRibosome(x, y, true);
-		if (rib)
+		if (rib != null)
 		{
 			//trace("Virus.onInvade() rib = " + rib);
 			moveToObject(rib, FLOAT, true);
@@ -459,8 +462,8 @@ public class Virus : CellObject
 
 		outsideCell();
 
-
-		StopCoroutine(_tryEnter);
+		if (_tryEnter != null)
+			StopCoroutine(_tryEnter);
 
 		mnode = null;
 		Vector2 v = new Vector2(x - cent_x, y - cent_y);
@@ -595,6 +598,15 @@ public class Virus : CellObject
 		}
 	}
 
+	private void OnTriggerEnter2D(Collider2D col)
+	{
+		Debug.Log("virus touched " + col.gameObject);
+		if (col.gameObject.GetComponentInChildren<MembraneNode>() != null)
+		{
+			onTouchCell();
+		}
+	}
+
 	public virtual void onTouchCell()
 	{
 
@@ -685,7 +697,9 @@ public class Virus : CellObject
 				break;
 			case "fade":
 				if (this is VirusInvader || this is VirusInjector)
-					this.transform.DOScale(0,1).OnComplete(new TweenCallback(delegate { onAnimFinish(CellGameObject.ANIM_FADE); }));
+					this.transform.DOScale(0.05f,1).OnComplete(new TweenCallback(delegate { 
+						onAnimFinish(CellGameObject.ANIM_FADE); 
+					}));
 				break;
 			case "eaten":
 				this.transform.DOBlendableLocalMoveBy(new Vector3(0,-0.5f,0),1);
@@ -736,11 +750,38 @@ public class Virus : CellObject
 		}
 	}
 
-	public override void onAnimFinish(int i, bool stop = true)
+
+    private void animFinished(MovieClip mc, string justPlayed)
+    {
+		switch (justPlayed)
+		{
+			case "exit":
+				onAnimFinish(ANIM_EXIT);
+				break;
+			case "eaten":
+			case "recycle":
+			case "die":
+			case "fade":
+				onAnimFinish(ANIM_DIE);
+				break;
+			case "grow":
+				onAnimFinish(ANIM_GROW);
+				break;
+			case "land":
+				onAnimFinish(ANIM_LAND);
+				break;
+			case "invade":
+				onAnimFinish(ANIM_INVADE);
+				break;
+
+		}
+    }
+
+    public override void onAnimFinish(int i, bool stop = true)
 	{
 		//trace("CellObject.onAnimFinish() " + i + "me = " + name);
 		//trace("Virus.onAnimFinish(" + i + ")");
-		base.onAnimFinish(i, stop);
+		
 		switch (i)
 		{
 			case ANIM_GROW: onGrow(); break;
@@ -751,12 +792,13 @@ public class Virus : CellObject
 			case ANIM_DIE: onDie(); break;
 			case ANIM_EXIT: onExit(); base.onAnimFinish(i, stop); break;
 		}
+        base.onAnimFinish(i, stop);
 
-	}
+    }
 
 	protected void onDie()
 	{
-		if (p_cell)
+		if (p_cell != null)
 		{
 			p_cell.killVirus(this);
 		}

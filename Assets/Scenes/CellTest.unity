@@ -4645,7 +4645,7 @@ GameObject:
   m_Component:
   - component: {fileID: 392510686}
   - component: {fileID: 392510688}
-  - component: {fileID: 392510687}
+  - component: {fileID: 392510689}
   m_Layer: 0
   m_Name: RawImage
   m_TagString: Untagged
@@ -4673,7 +4673,15 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 446, y: 47}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &392510687
+--- !u!222 &392510688
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 392510685}
+  m_CullTransparentMesh: 1
+--- !u!114 &392510689
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4682,7 +4690,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 392510685}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
@@ -4693,21 +4701,16 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: ad4d8ee21863cda49a60cf747562fe45, type: 3}
-  m_UVRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
---- !u!222 &392510688
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 392510685}
-  m_CullTransparentMesh: 1
+  m_Sprite: {fileID: 21300000, guid: ad4d8ee21863cda49a60cf747562fe45, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
 --- !u!1 &400433896
 GameObject:
   m_ObjectHideFlags: 0
@@ -13234,7 +13237,7 @@ MonoBehaviour:
   - 
   - 
   - 
-  - 
+  - atp:150,na:0,aa:-500,fa:0,g:0
   - atp:10,na:5,aa:50,fa:0,g:0
   - 
   - atp:25,na:5,aa:50
@@ -15506,7 +15509,7 @@ MonoBehaviour:
   - 
   - 
   - 
-  - 
+  - atp:150,na:0,aa:-500,fa:0,g:0
   - atp:10,na:5,aa:50,fa:0,g:0
   - 
   - atp:25,na:5,aa:50
@@ -16212,7 +16215,7 @@ MonoBehaviour:
   - 
   - 
   - 
-  - 
+  - atp:150,na:0,aa:-500,fa:0,g:0
   - atp:10,na:5,aa:50,fa:0,g:0
   - 
   - atp:25,na:5,aa:50
@@ -18899,6 +18902,7 @@ MonoBehaviour:
   r_max_fa: 1
   r_max_g: 1
   toxin_level: 0
+  StarB: {fileID: 8152725637197531567, guid: 1ada40db55bec3840b053a81a250d639, type: 3}
   c_nucleus: {fileID: 1096349650}
   c_centrosome: {fileID: 381646426}
   c_er: {fileID: 1022417471}
@@ -27425,7 +27429,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1613263503}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -63.3, y: 192, z: 0}
+  m_LocalPosition: {x: -63.3, y: 193, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -27447,6 +27451,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4c9ec4619319444e8efccb5541e5116, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  backdrops:
+  - {fileID: 21300000, guid: ad4d8ee21863cda49a60cf747562fe45, type: 3}
+  - {fileID: 21300000, guid: 51d2cf2f93c82fc43be06282ff3ccc23, type: 3}
+  - {fileID: 21300000, guid: 88d4ed01d5a386a43a22d11e631c8c90, type: 3}
+  - {fileID: 21300000, guid: a87ea6bbc168279489fc5b542391c83d, type: 3}
 --- !u!1 &1625801395
 GameObject:
   m_ObjectHideFlags: 0
@@ -28666,7 +28675,7 @@ MonoBehaviour:
   - 
   - 
   - 
-  - 
+  - atp:150,na:0,aa:-500,fa:0,g:0
   - atp:10,na:5,aa:50,fa:0,g:0
   - 
   - atp:25,na:5,aa:50
@@ -29668,7 +29677,12 @@ MonoBehaviour:
   - {fileID: 8082262331157923992, guid: 7917f0adc5e3d5e46a1ea5ebbfe99b44, type: 3}
   - {fileID: 0}
   - {fileID: 21300000, guid: 98ddcd1abf20c824c959fe513dc6696a, type: 3}
-  - {fileID: 150016243834984156, guid: 5f54ea8bf35d4894688d7bcc4d1dba0d, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 8171319083824450515, guid: 493494b186494d84581eafbc74a5f0e3, type: 3}
   Screen: {fileID: 529453828}
   Target: {fileID: 2139846932}
   NoiseMaterial: {fileID: 2100000, guid: 3015a14b4d610bf4db73bc1b12f31972, type: 2}
@@ -31112,7 +31126,7 @@ MonoBehaviour:
   - 
   - 
   - 
-  - 
+  - atp:150,na:0,aa:-500,fa:0,g:0
   - atp:10,na:5,aa:50,fa:0,g:0
   - 
   - atp:25,na:5,aa:50
@@ -34657,7 +34671,7 @@ MonoBehaviour:
   - 
   - 
   - 
-  - 
+  - atp:150,na:0,aa:-500,fa:0,g:0
   - atp:10,na:5,aa:50,fa:0,g:0
   - 
   - atp:25,na:5,aa:50
@@ -35760,7 +35774,7 @@ MonoBehaviour:
   - 
   - 
   - 
-  - 
+  - atp:150,na:0,aa:-500,fa:0,g:0
   - atp:10,na:5,aa:50,fa:0,g:0
   - 
   - atp:25,na:5,aa:50

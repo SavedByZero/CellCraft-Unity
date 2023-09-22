@@ -17,6 +17,7 @@ public class ActionsPanel : MonoBehaviour
     private int _requiredAA;
     private int _requiredFA;
     private int _requiredG;
+    private CellObject _co;
     // Start is called before the first frame update
 
     private void Awake()
@@ -41,7 +42,7 @@ public class ActionsPanel : MonoBehaviour
         engine.r_aa -= _requiredAA;
         engine.r_fa -= _requiredFA;
         engine.r_g -= _requiredG;
-        switch (actionName)
+        switch (actionName) //Bookmark: execute action panel functionality to organelles here
         {
             case "ribosome":
                 for (int i = 0; i < 5; i++)
@@ -64,6 +65,10 @@ public class ActionsPanel : MonoBehaviour
 
 
                 }
+                break;
+            case "recycle":
+                //Recycle organelle
+                MyCell.startRecycle(_co as Selectable); //Michael: add true as a second parameter to recycle em all
                 break;
         }
     }
@@ -106,13 +111,17 @@ public class ActionsPanel : MonoBehaviour
 
     public void ReceiveCO(CellObject co, int type)
     {
+        _co = co;
         List<string> actionNames = new List<string>();
-        
+        //Bookmark: add action panel functionality to organelles here
         switch (type)
         {
             case Selectable.NUCLEUS:
                 actionNames.Add("ribosome");
                 actionNames.Add("slicer");
+                break;
+            case Selectable.SLICER_ENZYME: //TODO: save organelle variable here so it can be recycled
+                actionNames.Add("recycle");
              break;
         }
 

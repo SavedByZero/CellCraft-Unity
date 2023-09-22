@@ -15,7 +15,7 @@ C:/Users/mjpg7/OneDrive/Documents/GitHub/CellCraft/CellCraft-Unity
 -logFile
 Logs/AssetImportWorker7.log
 -srvPort
-65132
+59357
 Successfully changed project path to: C:/Users/mjpg7/OneDrive/Documents/GitHub/CellCraft/CellCraft-Unity
 C:/Users/mjpg7/OneDrive/Documents/GitHub/CellCraft/CellCraft-Unity
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/mjpg7/OneDrive/Documents/GitHub/CellCraft/CellCraft-Unity
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [14796] Host "[IP] 192.168.1.5 [Port] 0 [Flags] 2 [Guid] 2579334684 [EditorId] 2579334684 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-E03EROM) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [29176] Host "[IP] 192.168.1.20 [Port] 0 [Flags] 2 [Guid] 1211486603 [EditorId] 1211486603 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-E03EROM) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [14796] Host "[IP] 192.168.1.5 [Port] 0 [Flags] 2 [Guid] 2579334684 [EditorId] 2579334684 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-E03EROM) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [29176] Host "[IP] 192.168.1.20 [Port] 0 [Flags] 2 [Guid] 1211486603 [EditorId] 1211486603 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-E03EROM) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 91.17 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 96.80 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.19f1 (c9714fde33b6)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/Resources/UnitySubsystems
@@ -67,47 +67,47 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56264
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56752
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.500246 seconds.
+Registered in 0.027143 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 1725 ms
+Android Extension - Scanning For ADB Devices 601 ms
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 89.18 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 84.94 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.844 seconds
+- Completed reload, in  1.730 seconds
 Domain Reload Profiling:
-	ReloadAssembly (4845ms)
-		BeginReloadAssembly (1484ms)
+	ReloadAssembly (1730ms)
+		BeginReloadAssembly (162ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (2652ms)
-			LoadAssemblies (1529ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1355ms)
+			LoadAssemblies (155ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (207ms)
+			SetupTypeCache (179ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (51ms)
-			SetupLoadedEditorAssemblies (2231ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (1041ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (1869ms)
+				InitializePlatformSupportModulesInManaged (736ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (89ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (178ms)
-				ProcessInitializeOnLoadMethodAttributes (92ms)
+				RefreshPlugins (85ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (150ms)
+				ProcessInitializeOnLoadMethodAttributes (67ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.020435 seconds.
+Registered in 0.016138 seconds.

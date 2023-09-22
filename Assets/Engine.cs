@@ -21,7 +21,7 @@ public class Engine : MonoBehaviour
 	public delegate void GChanged(float g, float netChange);
 	public ATPChanged onGChanged;
 
-
+	bool dirty_resource;
 	private int _defensins_produced;
 	private int _defensins_ordered;
 	private int _defensin_strength;
@@ -46,6 +46,11 @@ public class Engine : MonoBehaviour
 	public ResourceBar AA_ResourceBar;
 	public ResourceBar FA_ResourceBar;
 	public ResourceBar NA_ResourceBar;
+    private int WAIT_RECYCLE_TIME = 5;
+    private int manyRecycleCount = 0;
+		private Point manyRecyclePoint;
+		private float[] manyRecycleCost = new float[] { 0, 0, 0, 0, 0 };
+	private Coroutine _waitRecycleMainyRoutine;
 	private bool[] spend_checker = new bool[] { true, true, true, true, true };
 	public float r_atp
     {
@@ -144,6 +149,7 @@ public class Engine : MonoBehaviour
 	public const int SELECT_NONE = 0;
 
 	bool dirty_basicUnit;
+    private int waitRecycleCount;
 
     void Start()
     {
@@ -177,7 +183,155 @@ public class Engine : MonoBehaviour
 		dirty_basicUnit = true;
 	}
 
-   
+    public void recycleRNA(int amt)
+    {
+        income(new int[]{0, amt, 0, 0, 0});
+    }
+
+    public void recycleSomething(int i, Point p = null, bool ofMany = false)
+    {
+        float[] a = null;
+        switch (i)
+        {
+            case Selectable.LYSOSOME:
+				a = new float[Costs.SELL_LYSOSOME.Length];
+				Array.Copy(Costs.SELL_LYSOSOME,a,a.Length); break;
+            case Selectable.RIBOSOME:
+				a = new float[Costs.SELL_RIBOSOME.Length]; 
+				Array.Copy(Costs.SELL_RIBOSOME,a,a.Length); 
+				break;
+            case Selectable.PEROXISOME: a = new float[Costs.SELL_PEROXISOME.Length]; Array.Copy(Costs.SELL_PEROXISOME, a, a.Length); break;
+            case Selectable.SLICER_ENZYME: a = new float[Costs.SELL_SLICER.Length]; Array.Copy(Costs.SELL_SLICER, a, a.Length); break;
+            case Selectable.DNAREPAIR: a = new float[Costs.SELL_DNAREPAIR.Length]; Array.Copy(Costs.SELL_DNAREPAIR, a, a.Length); break;
+            case Selectable.PROTEIN_GLOB: a = new float[Costs.SELL_PROTEIN_GLOB.Length]; Array.Copy(Costs.SELL_PROTEIN_GLOB, a, a.Length); break;
+            case Selectable.MITOCHONDRION: a = new float[Costs.SELL_MITOCHONDRION.Length]; Array.Copy(Costs.SELL_MITOCHONDRION, a, a.Length); break;
+            case Selectable.CHLOROPLAST: a = new float[Costs.SELL_CHLOROPLAST.Length]; Array.Copy(Costs.SELL_CHLOROPLAST, a, a.Length); break;
+            case Selectable.MEMBRANE: a = new float[Costs.SELL_MEMBRANE.Length]; Array.Copy(Costs.SELL_MEMBRANE, a, a.Length); break;
+            //case Selectable.TOXIN: 
+            case Selectable.DEFENSIN: a = new float[Costs.SELL_DEFENSIN.Length]; Array.Copy(Costs.SELL_DEFENSIN, a, a.Length); break;
+            case Selectable.VIRUS_INJECTOR:
+                a = new float[Costs.SELL_VIRUS_INJECTOR.Length];
+                a[1] += (VirusInjector.RNA_COUNT * Costs.SELL_EVIL_RNA[1]);
+                //the amount of NA needed to spawn RNA_COUNT rna's
+                break;
+                //case Selectable.MITOCHONDRION: a = Costs.
+        }
+        if (a != null)
+        {
+            if (ofMany)
+            {
+                //manyRecycleCost[0] += a[0];
+                manyRecycleCost[1] += a[1];
+                manyRecycleCost[2] += a[2];
+                manyRecycleCost[3] += a[3];
+                manyRecycleCost[4] += a[4];
+            }
+            a[0] = 0;       //set the ATP portion to zero
+            income(a);      //get the rest as income
+            //if (p)
+            {
+               // if (p_canvas)
+                {
+                    //Director.startSFX(SoundLibrary.SFX_DRAIN);
+                    //p_canvas.justShowMeTheMoney("atp", -a[0], p.x, p.y, -1, -1);
+                    SfxManager.Play(SFX.SFXCoin);
+                   // p_canvas.justShowMeTheMoneyArray([0, a[1], a[2], a[3], a[4]], p.x, p.y);
+
+                }
+            }
+
+        }
+
+    }
+
+    public void recycleSomethingOfMany(int i, Point p = null)
+    {
+        waitRecycleCount = 0; //so the timer doesn't trip
+        if (manyRecycleCount == 0)
+        {
+			_waitRecycleMainyRoutine = StartCoroutine(waitRecycleMany());
+            //addEventListener(RunFrameEvent.RUNFRAME, waitRecycleMany, false, 0, true);  //TODO
+        }
+        manyRecycleCount++; //add another entry
+
+        manyRecyclePoint.x += p.x; //store the point
+        manyRecyclePoint.y += p.y;
+        recycleSomething(i, null, true); //recycle it and store the cost
+    }
+
+    private IEnumerator waitRecycleMany()
+    {
+        waitRecycleCount++;
+        if (waitRecycleCount > WAIT_RECYCLE_TIME)
+        {
+
+            //if (p_canvas)
+            {
+				//Director.startSFX(SoundLibrary.SFX_COIN);
+				SfxManager.Play(SFX.SFXCoin);
+				float[] a = new float[manyRecycleCost.Length];
+				Array.Copy(manyRecycleCost, a, a.Length);
+                manyRecyclePoint.x /= manyRecycleCount; //average the point
+                manyRecyclePoint.y /= manyRecycleCount;
+               // p_canvas.justShowMeTheMoneyArray([0, a[1], a[2], a[3], a[4]], manyRecyclePoint.x, manyRecyclePoint.y); //TODO?
+                manyRecycleCost = new float[] { 0, 0, 0, 0, 0 };
+				yield return null;
+                //show the accumulated cost
+            }
+			StopCoroutine(_waitRecycleMainyRoutine);
+            waitRecycleCount = 0;   //reset the variables
+            manyRecyclePoint.x = 0;
+            manyRecyclePoint.y = 0;
+            manyRecycleCount = 0;
+        }
+    }
+
+
+    /*
+	 * 
+		
+		
+	 */
+
+    private void income(int[] a)
+    {
+		Debug.Log("income:" + a);
+        if ((a[0]) > 0)
+        {
+            r_atp += a[0];
+            //notifyOHandler(EngineEvent.RESOURCE_CHANGE, "null", "atp", r_atp);
+        }
+
+        if (a[1] > 0)
+        {
+            r_na += a[1];
+           // notifyOHandler(EngineEvent.RESOURCE_CHANGE, "null", "na", r_na);
+        }
+
+        if (a[2] > 0)
+        {
+            r_aa += a[2];
+            //notifyOHandler(EngineEvent.RESOURCE_CHANGE, "null", "aa", r_aa);
+        }
+
+        if (a[3] > 0)
+        {
+            r_fa += a[3];
+            //notifyOHandler(EngineEvent.RESOURCE_CHANGE, "null", "fa", r_fa);
+        }
+
+        if (a[4] > 0)
+        {
+            r_g += a[4];
+            //notifyOHandler(EngineEvent.RESOURCE_CHANGE, "null", "g", r_g);
+        }
+        checkMaxResource();
+
+        dirty_resource = true;
+    }
+
+
+
 
     public void finishLysosome()
     {
@@ -880,7 +1034,7 @@ public class Engine : MonoBehaviour
 
 public void showImmediateWarning(String s)
 	{
-		//c_interface.showEnemyWarning(s);  //TODO
+		GameObject.FindObjectOfType<MessageBarScript>().ShowMessage(s, MessageBarScript.WARNING_MSG);  
 	}
 
 	public void showImmediateAlertCode(int i)

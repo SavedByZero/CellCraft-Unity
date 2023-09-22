@@ -49,7 +49,7 @@ public class ActionIomplementer : MonoBehaviour
                 if (action.paramList.Count > 1)
                 {
                     GameObject.FindObjectOfType<Tutorial>(true).showSlides(action.paramList[1].val);
-                    
+                   
                 }
                 
 
@@ -59,6 +59,28 @@ public class ActionIomplementer : MonoBehaviour
                 break;
             case "finish_level":
                 GetComponent<CellGameManager>().EndLevel();
+                break;
+            case "send_wave":
+                Debug.Log("sending wave " + action.paramList[0].val);
+                string currentWaveID = action.paramList[0].val;
+                Wave[] waves = GetComponent<LevelLoader>().Level.LevelThings.Waves;
+                for(int i=0; i < waves.Length; i++)
+                {
+                    Debug.Log("wave id " + waves[i].Id + ", curr wave " + currentWaveID);
+                    if (waves[i].Id == currentWaveID)
+                    {
+                        //type, count, spread, delay, sleepseconds
+                        WaveEntry we = new WaveEntry();
+                        we.type = waves[i].Type;
+                        we.count = waves[i].Count;
+                        we.spread = waves[i].Spread;
+                        we.delay = (int)waves[i].Delay;
+                        we.sleep_seconds = (int)waves[i].SleepSeconds;
+                        Debug.Log("make virus wave called with " + we);
+                        GameObject.FindObjectOfType<Cell>().makeVirusWave(we);
+
+                    }
+                }
                 break;
 
         }

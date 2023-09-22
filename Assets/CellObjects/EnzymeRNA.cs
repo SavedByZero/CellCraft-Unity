@@ -10,7 +10,7 @@ public class EnzymeRNA : RNA
 	public override void InitRNA(int i, int count = 1, string pc_id = "")
 	{
         FrameInterval = .05f;
-        speed = .4f;
+        speed = 1f;
         base.InitRNA(i, count);
 	}
 

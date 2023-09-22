@@ -3,12 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using DG.Tweening;
-
+//Y position 193 
 public class MessageBarScript : MonoBehaviour
 {
     private Vector3 _StartPos;
     private Coroutine _displayRoutine;
     private bool _showing;
+    public Sprite[] backdrops;
+    public const int NORMAL_MSG = 0;
+    public const int WARNING_MSG = 3;
+
 
 
     private void Awake()
@@ -17,10 +21,16 @@ public class MessageBarScript : MonoBehaviour
 
     }
 
-    public void ShowMessage(string value)
+    public void ShowMessage(string value, int type = 0)
     {
        
         _displayRoutine = StartCoroutine(displayRoutine(value));
+        GetComponentInChildren<Image>().sprite = backdrops[type];
+        Text text = GetComponentInChildren<Text>();
+        if (type == WARNING_MSG)
+            text.color = Color.white;
+        else
+            text.color = Color.black;
         //this.gameObject.SetActive(true);
        
     }

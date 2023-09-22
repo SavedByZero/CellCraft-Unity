@@ -79,6 +79,7 @@
 				</showTutorial>
 				<show_newthing id="nucleus"/>
 				<activate_objective id="get_nucleus"/>
+				
 			</action>
 		</objective>
 		
@@ -89,6 +90,7 @@
         <showTutorial id="Nucleus" slides="discover_nucleus,about_nucleus,objective"/>
 				<plop_organelle id="nucleus"/>
 				<activate_objective id="find_aa"/>
+      	<send_wave id="inj_0"/>
 			</action>
 		</objective>
 		
@@ -113,6 +115,7 @@
 	
 				<activate_objective id="find_aa_na_2"/>
 				<set_arrow_show/>
+			
 			</action>
 		</objective>
 		

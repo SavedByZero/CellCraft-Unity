@@ -146,16 +146,18 @@ public class MovieClip : MonoBehaviour
 
     private void Update()
     {
+       
         if (_playing)
         {
             _counter += Time.deltaTime;
             if (_counter > _frameInterval)
             {
                 _counter = 0;
-               
+              
                 _spriteIndex++;
                 if (_currentSet != null)
                 {
+                   
                     if (_spriteIndex == _currentSet.Count)
                     {
                         if (ClipLoopStatus[_currentSet])
@@ -205,8 +207,9 @@ public class MovieClip : MonoBehaviour
     public void GotoAndPlay(string framename)
     {
         _labelPlaying = framename;
-        GotoAndStop(framename);
+        gotoFrame(framename);
         _playing = true;
+       
     }
 
 
@@ -227,7 +230,7 @@ public class MovieClip : MonoBehaviour
         }
     }
 
-    public void GotoAndStop(string frameName)
+    void gotoFrame(string frameName)
     {
         if (framesByName.Count == 0 && NameIndexPairs.Length > 0) //in case the Awake() call was skipped.
             processFramesByName();
@@ -235,14 +238,14 @@ public class MovieClip : MonoBehaviour
         if (framesByName.ContainsKey(frameName))
         {
             List<Sprite> frames = framesByName[frameName];
-     
+
             this.sprite = frames[0];
             _currentSet = frames;
             _spriteIndex = 0;
-            _playing = false;
+          
             return;
         }
-        
+
         //or....
         int index = Array.IndexOf(FrameNames, frameName);
         if (index < 0)
@@ -253,9 +256,16 @@ public class MovieClip : MonoBehaviour
         else
         {
             this.sprite = Sprites[index];
-           
+
         }
         _spriteIndex = index;
+        
+    }
+
+    public void GotoAndStop(string frameName)
+    {
+        gotoFrame(frameName);
         _playing = false;
+
     }
 }

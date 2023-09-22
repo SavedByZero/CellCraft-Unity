@@ -113,7 +113,7 @@ public class EvilRNA : RNA
 	public override void onAnimFinish(int i, bool stop = true)
 	{
 		base.onAnimFinish(i, stop); //skip the MRNA onAnimFinish
-		GotoAndStop("normal");
+		//GotoAndStop("normal");
 		switch (i)
 		{
 			case ANIM_THREAD:
@@ -223,7 +223,7 @@ public class EvilRNA : RNA
 		}
 		else
 		{
-			if (p_rib)
+			if (p_rib != null)
 			{
 				ribosomeTime();
 			}
@@ -268,7 +268,7 @@ public class EvilRNA : RNA
 			{
 				rib_count = 0;
 				rib_wait = !p_cell.askForRibosome(this); //if it was successful, we are NOT waiting
-				if (p_rib)
+				if (p_rib != null)
 				{
 					//moveToRibosome(p_rib, FLOAT);	//if we have a ribosome, go to it!
 					ribosomeTime();
@@ -280,11 +280,12 @@ public class EvilRNA : RNA
 
 	}
 
-	private void ribosomeTime()
+	public void ribosomeTime()
 	{
 		//trace("EvilRNA.ribosomeTime() me = " + name + "!");
-		StopCoroutine(_clingToNodeRoutine);
-		if (p_rib)
+		if (_clingToNodeRoutine != null)
+			StopCoroutine(_clingToNodeRoutine);
+		if (p_rib != null)
 		{
 			moveToRibosome(p_rib, FLOAT);
 		}

@@ -417,6 +417,7 @@ public class CellGameObject : MovieClip, ICellGameObject
 			c_bubble.transform.SetParent(null);
 			c_bubble = null;
 		}
+		GameObject.Destroy(this.gameObject);
 
 	}
 
@@ -542,7 +543,7 @@ public class CellGameObject : MovieClip, ICellGameObject
 			//else 
 
 			//if we are playing a death animation, that's the end of me
-			if (label == "die" || label == "recycle")
+			if (label == "die" || label == "die_thread" || label == "recycle")
 			{
 				killMe();
 			}
@@ -745,7 +746,7 @@ public class CellGameObject : MovieClip, ICellGameObject
 		float y2 = pt_dest.y;
 		//float dist2 = (((x1 - x2) * (x1 - x2)) + ((y1 - y2) * (y1 - y2)));
 		//lastDist2 = dist2;
-		if (Vector2.Distance(this.transform.localPosition,new Vector2(pt_dest.x,pt_dest.y)) < 0.01f)//(dist2 <= speed * 2)
+		if (Vector2.Distance(this.transform.localPosition,new Vector2(pt_dest.x,pt_dest.y)) < 0.07f)//(dist2 <= speed * 2)
 		{
 			arrivePoint();
 		}
@@ -787,7 +788,8 @@ public class CellGameObject : MovieClip, ICellGameObject
 			}
 			//trace("Virus has arrived");
 		}*/
-		StopCoroutine(_doMovePointRoutine);
+		if (_doMovePointRoutine != null)
+			StopCoroutine(_doMovePointRoutine);
 		//removeEventListener(RunFrameEvent.RUNFRAME, doMoveToPoint);
 	}
 
@@ -911,6 +913,7 @@ public class CellGameObject : MovieClip, ICellGameObject
 		yield return new WaitForSeconds(delay);
 		Debug.Log(this + " dead");
 		//hard KILL ME
+		GameObject.Destroy(this.gameObject);
 	}
 
 	public static void setBoundaryBox(float w, float h)

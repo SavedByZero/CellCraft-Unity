@@ -45,6 +45,7 @@ public class Cell : CellGameObject
 
 	//private Interface p_interface;  //TODO
 	private WizardOfOz p_woz;
+	public GameObject StarB;
 		
 	//children:
 	public Nucleus c_nucleus;
@@ -1269,7 +1270,9 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 				//p_canvas.justShowMeTheMoney("atp", -i, p.x, p.y, speed, offset, scaleMode);  //TODO
 			}
 
-		return 0;//p_engine.spendATP(i); //TODO
+		p_engine.spendATP(i);
+
+		return i;
 	}
 		
 	public void zeroResources()
@@ -1973,14 +1976,18 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 		var ring_max = RING_AMOUNT;
 		int count = 0;
 		int i = 0;
+		ring_list.Add(0);
 		ring_list[0] = 0;
 
-		while (count < w.count)
+		//each "ring" has up to RING_MAX virii.  If there are 8 virii and the max number in a ring is 7, a new ring is added to the list.  
+		while (count < w.count)  //number in wave
 		{
-			ring_list[ring_count]++;
+			ring_list[ring_count]++;  //bump current ring list item by 1
+
+			//if the current ring is > the max (starts at 7), add a new ring to the list and start it at 0.
 			if (ring_list[ring_count] >= ring_max)
 			{
-				ring_list[ring_count + 1] = 0;
+				ring_list.Add(0);//ring_list[ring_count + 1] = 0;
 				ring_count++;
 				ring_max *= 2;
 			}
@@ -2022,6 +2029,7 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 			float theY = listCirclePoints[(ii * 2) + 1] + jiggY;
 
 			Virus v = makeVirus(w.type, theX, theY);
+			Debug.Log("new virus: " + v);
 			if (v)
 			{
 				success_count++;
@@ -2035,6 +2043,9 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 		}
 
 		updateViruses();
+		p_engine.showImmediateWarning("DANGER! " + w.count + " " + w.type + " viruses approaching!");
+		MusicManager.Play(Music.MusicBattle);
+
 		//p_engine.makeVirus(w.type, w.id, success_count);  //TODO
 	}
 
@@ -2271,6 +2282,12 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 			{
 				r.waitForRibosome();
 			}
+			else
+			{
+                //r.ribosomeTime();
+                r.waitForRibosome(); //There was nothing here, meaning the evilRNA idled forever if Ribosomes existed.  Instead, for now, I just call waitForRibosome() again since it 
+				//doesn't really wait, while still executing the chase methods.  -Michael
+            }
 		}
 		else
 		{
@@ -2877,17 +2894,17 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 
 	public void onVirusInfest(string s, int i)
 	{
-		//p_engine.onVirusInfest(s, i);  //TODO
+		//p_engine.onVirusInfest(s, i);  //TODO X
 	}
 
 	public void onVirusEscape(string s, int i)
 	{
-		///p_engine.onVirusEscape(s, i);  //TODO
+		///p_engine.onVirusEscape(s, i);  //TODO X
 	}
 
 	public void onVirusSpawn(string s, int i)
 	{
-		//p_engine.onVirusSpawn(s, i);  //TODO
+		//p_engine.onVirusSpawn(s, i);  //TODO X
 	}
 
 	public int getInfestWaveCount(string s) 
@@ -3289,6 +3306,7 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 			case Selectable.CHLOROPLAST:
 			case Selectable.PEROXISOME:
 			case Selectable.DNAREPAIR:
+			
 			float[] a = Costs.getRecycleCostByString(s.getTextID().ToUpper());//getRecycleCostByName(s);
 			if(spendATP(a[0]) != 0)
 			{
@@ -3314,10 +3332,11 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 
 	public void makeStarburst(float xx, float yy) 
 	{
-		StarBurst s = new StarBurst();
+		GameObject burst = Instantiate(StarB) as GameObject;
+        StarBurst s =  burst.GetComponentInChildren<StarBurst>();
 		s.transform.position = new Vector3(xx, yy, 0);
 		s.p_cell = this;
-		s.transform.SetParent(this.transform, false);
+		s.transform.SetParent(this.transform);
 		s.GotoAndPlay("burst");
 		//trace("Cell.makeStarburst(" + xx + "," + yy + ")");
 		SfxManager.Play(SFX.SFXHurt);
@@ -3449,12 +3468,12 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 				}
 				else
 				{
-					//p_engine.recycleSomething(s.num_id, new Point(s.x, s.y));  //TODO
+					p_engine.recycleSomething(s.num_id, new Point(s.x, s.y));  
 				}
 			}
 			else
 			{
-				//p_engine.recycleSomething(s.num_id);  //TODO
+				p_engine.recycleSomething(s.num_id);  //TODO
 			}
 		}
 		killSomething(s);
@@ -3578,14 +3597,17 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 
 	public void killSelectable(Selectable s)
 	{
-		int i = 0;
-		foreach(Selectable ss in list_selectable) 
+		//int i = 0;
+		for (int j = 0; j < list_selectable.Count; j++) // Selectable ss in list_selectable) 
 		{
+			Selectable ss = list_selectable[j];
 			if (s == ss)
 			{
-				list_selectable.RemoveAt(i);
+				list_selectable.RemoveAt(j);
+				ss.destruct();
+				//Destroy(ss.gameObject);
 			}
-			i++;
+			//i++;
 		}
 		dirty_selectList = true;
 	}
@@ -3942,15 +3964,15 @@ public const int MAX_AA = 200 * 10;// Costs.AAX;
 		int i = 0;
 		if (r is EvilRNA)
 		{
-			//p_engine.recycleRNA(0);  //TODO
+			p_engine.recycleRNA(0);
 		}
 		else
 		{
-			//p_engine.recycleRNA(r.getNAValue());  //TODO
+			p_engine.recycleRNA(r.getNAValue());
 		}
-		foreach(RNA rna in list_rna) 
+		for(int rx=0; rx < list_rna.Count; rx++)// RNA rna in list_rna) 
 		{
-			if (rna == r)
+			if (list_rna[rx] == r)
 			{
 				list_rna.RemoveAt(i);
 			}

@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 5691345357831007055}
   - component: {fileID: 6890191262939111855}
   - component: {fileID: 3951738570609012556}
+  - component: {fileID: 6142408720983330162}
+  - component: {fileID: -8475933469511703171}
   m_Layer: 0
   m_Name: SlicerEnzyme
   m_TagString: Untagged
@@ -99,6 +101,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Sprites:
   - {fileID: 21300000, guid: ecb0419ed6b4e57489bc45ac4fe5c978, type: 3}
+  - {fileID: 21300000, guid: ecb0419ed6b4e57489bc45ac4fe5c978, type: 3}
   - {fileID: -6672771545906029999, guid: 1e1de2c698a35be4f9e1b249d2648d93, type: 3}
   - {fileID: -5217588687886548726, guid: 1e1de2c698a35be4f9e1b249d2648d93, type: 3}
   - {fileID: -3334327745161538252, guid: 1e1de2c698a35be4f9e1b249d2648d93, type: 3}
@@ -114,9 +117,9 @@ MonoBehaviour:
   Loop: 0
   FrameNames: []
   NameIndexPairs:
-  - normal:0-0-loop
-  - recycle:1-11
-  _frameInterval: 0.0166
+  - normal:0-1-loop
+  - recycle:2-12
+  _frameInterval: 0.1
   radius2: 625
   loc_bubble: {fileID: 0}
   clip: {fileID: 0}
@@ -145,3 +148,40 @@ MonoBehaviour:
   instant_deploy: 0
   play_init_sound: 1
   killedSomething: 0
+--- !u!50 &6142408720983330162
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3490458927370990140}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!58 &-8475933469511703171
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3490458927370990140}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.5

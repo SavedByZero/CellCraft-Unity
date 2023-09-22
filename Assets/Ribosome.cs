@@ -447,7 +447,7 @@ return false;
 		product = NOTHING; //just to be safe
 		deploying = true;
 		//TODO: try removing the nuclewus x and y from the equation
-		speed = .4f;
+		speed = 1f;
 		deployCytoplasm(p_cell.c_nucleus.x, p_cell.c_nucleus.y, 8f, 20f, true, instant);
 		if (instant)
 		{

@@ -9,6 +9,9 @@ public class CostEntry : MonoBehaviour
     public void SetCost(string name, string amount)
     {
         GetComponentInChildren<MovieClip>().GotoAndStop(name);
-        GetComponentInChildren<Text>().text = amount; 
+        Text textfield = GetComponentInChildren<Text>();
+        textfield.color = (amount[0] == '-') ? Color.green : Color.black;
+        amount = amount.Replace('-', '+');
+        textfield.text = amount; 
     }
 }

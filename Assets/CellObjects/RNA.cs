@@ -43,8 +43,9 @@ public class RNA : CellObject
 
     public override void Start()
     {
-        onFinished += finishedAnimating;
+       
         base.Start();
+		//playAnim("normal");
 		
     }
 
@@ -52,7 +53,8 @@ public class RNA : CellObject
 
     public virtual void InitRNA(int i, int count = 1, string pc_id = "")
 	{
-		canSelect = false;
+        onFinished += finishedAnimating;
+        canSelect = false;
 		singleSelect = true;
 		product = i;
 		if (i == Selectable.NOTHING)
@@ -70,7 +72,8 @@ public class RNA : CellObject
 	public override void destruct()
 	{
 		p_rib = null;
-		StopCoroutine(_waitRibRoutine);
+		if (_waitRibRoutine != null)
+			StopCoroutine(_waitRibRoutine);
 		base.destruct();
 	}
 
@@ -277,7 +280,7 @@ public class RNA : CellObject
         switch (justPlayed)
         {
 			case "thread":
-			//case "thread_inplace":
+			case "thread_inplace":
 				onAnimFinish(ANIM_THREAD);
 			break;
 			case "grow":
@@ -290,6 +293,7 @@ public class RNA : CellObject
 				onAnimFinish(ANIM_LAND);
 				break;
 			case "die":
+			case "die_thread":
 				onAnimFinish(ANIM_DIE);
 				break;
 			case "hardkill":

@@ -15,8 +15,9 @@ public class VirusInvader : Virus
 		
 	private const float RNA_DISTANCE = 5;
 		
-	public VirusInvader()
+	public override void Start()
 	{
+		base.Start();
 		singleSelect = false;
 		canSelect = false;
 		text_title = "Invader Virus";
